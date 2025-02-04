@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DDON-WebPage")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9da2c627d365226104e9c0c1f4e9371e2bdaa9d2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3cee7864ca4ecad7da8fc4f9ff033195ecf908f0")]
 [assembly: System.Reflection.AssemblyProductAttribute("DDON-WebPage")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DDON-WebPage")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
