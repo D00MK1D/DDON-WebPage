@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "TjJdcinDv7g=",
+  "dgSpecHash": "1LaxStYc+mo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\adauto.neto\\source\\repos\\DDON-WebPage\\DDON-WebPage\\DDON-WebPage.csproj",
+  "projectFilePath": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\DDON-WebPage.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\adauto.neto\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.20\\microsoft.windowsdesktop.app.ref.7.0.20.nupkg.sha512",
-    "C:\\Users\\adauto.neto\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.20\\microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
-    "C:\\Users\\adauto.neto\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.20\\microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512",
-    "C:\\Users\\adauto.neto\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.20\\microsoft.netcore.app.host.win-x64.7.0.20.nupkg.sha512"
+    "C:\\Users\\DoomKidZ\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.20\\microsoft.windowsdesktop.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\DoomKidZ\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.20\\microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\DoomKidZ\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.20\\microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\DoomKidZ\\.nuget\\packages\\microsoft.netcore.app.host.win-x86\\7.0.20\\microsoft.netcore.app.host.win-x86.7.0.20.nupkg.sha512"
   ],
   "logs": []
 }
