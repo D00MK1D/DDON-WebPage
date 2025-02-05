@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1zXju4zYnITDcrDG1mEXkLEhX81dxcealoD3UZjUD00=",
+  "Hash": "Ueuw30ev00Bng1/sMQ4MT/HCB7VPcQc2CzqiWcg4upY=",
   "Source": "DDON-WebPage",
   "BasePath": "_content/DDON-WebPage",
   "Mode": "Default",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "5phv1kn3t7",
-      "Integrity": "p/PMUFA10rTAXgIb81t78jpjl4zOBkF4qKGUfm6WVd4=",
+      "Fingerprint": "xhl8u41330",
+      "Integrity": "K6PBNdiRra7LC5u7gSVQ0+jwuFhs2JUUXUyxiZ6n7lk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\obj\\Debug\\net7.0\\scopedcss\\bundle\\DDON-WebPage.styles.css"
@@ -52,8 +52,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "5phv1kn3t7",
-      "Integrity": "p/PMUFA10rTAXgIb81t78jpjl4zOBkF4qKGUfm6WVd4=",
+      "Fingerprint": "xhl8u41330",
+      "Integrity": "K6PBNdiRra7LC5u7gSVQ0+jwuFhs2JUUXUyxiZ6n7lk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\DDON-WebPage.bundle.scp.css"
@@ -325,11 +325,557 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "0mubr5nqmd",
-      "Integrity": "SHHno2CfPEaQvUnkEt6j26qFGNxXvmC7DaiiSpUWqVQ=",
+      "Fingerprint": "ecajk6d7nh",
+      "Integrity": "HrfgyNUsl+V1PT89bcQ2fY+n8R4PR9raJzfOkUuTblg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.png"
+    },
+    {
+      "Identity": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\DdonLogo.png",
+      "SourceId": "DDON-WebPage",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\",
+      "BasePath": "_content/DDON-WebPage",
+      "RelativePath": "img/DdonLogo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kfy3z1o4ah",
+      "Integrity": "8AfRnGoPSenZ9+JPhGtZb5oRBYpcpYCkYhFraFwSo4Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\DdonLogo.png"
+    },
+    {
+      "Identity": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobFighterBody.png",
+      "SourceId": "DDON-WebPage",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\",
+      "BasePath": "_content/DDON-WebPage",
+      "RelativePath": "img/jobs/JobFighterBody#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a2euadk0qi",
+      "Integrity": "Tn+AmJY4BwydDumc6FKKNr62nlJvUOXCzuWW5o/V1Sg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\jobs\\JobFighterBody.png"
+    },
+    {
+      "Identity": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobFighterFace.jpg",
+      "SourceId": "DDON-WebPage",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\",
+      "BasePath": "_content/DDON-WebPage",
+      "RelativePath": "img/jobs/JobFighterFace#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e9x9nssz8b",
+      "Integrity": "Xgh1uqjHeQONYzKUjtHhyVVafZFG8pm/Tg1sNa72ERA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\jobs\\JobFighterFace.jpg"
+    },
+    {
+      "Identity": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobFighterIcon.png",
+      "SourceId": "DDON-WebPage",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\",
+      "BasePath": "_content/DDON-WebPage",
+      "RelativePath": "img/jobs/JobFighterIcon#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sfl5zf8lrx",
+      "Integrity": "OKVY0ACG76zeTM9Qc3mBoRMvBTyaD1vnkaSmHqJs7A0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\jobs\\JobFighterIcon.png"
+    },
+    {
+      "Identity": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobHunterBody.png",
+      "SourceId": "DDON-WebPage",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\",
+      "BasePath": "_content/DDON-WebPage",
+      "RelativePath": "img/jobs/JobHunterBody#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "t3dnjr2bf1",
+      "Integrity": "5z4bY1OfwzXLGMYNPIJ6iv2j5zPfBrSCJFDttFpZ8SQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\jobs\\JobHunterBody.png"
+    },
+    {
+      "Identity": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobHunterFace.jpg",
+      "SourceId": "DDON-WebPage",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\",
+      "BasePath": "_content/DDON-WebPage",
+      "RelativePath": "img/jobs/JobHunterFace#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j4stail89f",
+      "Integrity": "o1W4kwapTL4Ku/bewqtaid8JuGRKWghW1+60SxgIrsk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\jobs\\JobHunterFace.jpg"
+    },
+    {
+      "Identity": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobHunterIcon.png",
+      "SourceId": "DDON-WebPage",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\",
+      "BasePath": "_content/DDON-WebPage",
+      "RelativePath": "img/jobs/JobHunterIcon#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zh4syff75y",
+      "Integrity": "OUzy/DFl1Tbdpk6F4PDnO3NWXFwTAoT9b7oFDTg8Qag=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\jobs\\JobHunterIcon.png"
+    },
+    {
+      "Identity": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobPriestBody.png",
+      "SourceId": "DDON-WebPage",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\",
+      "BasePath": "_content/DDON-WebPage",
+      "RelativePath": "img/jobs/JobPriestBody#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ewvscjydjy",
+      "Integrity": "fqjG+1VLs2QdyYBv7CH8Eh3PgZzbWhE5AQkurFJHpF4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\jobs\\JobPriestBody.png"
+    },
+    {
+      "Identity": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobPriestFace.jpg",
+      "SourceId": "DDON-WebPage",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\",
+      "BasePath": "_content/DDON-WebPage",
+      "RelativePath": "img/jobs/JobPriestFace#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fam9fphti2",
+      "Integrity": "F5yIFZRN385pU80QXorGNuvuRJ+eKAUvaaUSEU4IobA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\jobs\\JobPriestFace.jpg"
+    },
+    {
+      "Identity": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobPriestIcon.png",
+      "SourceId": "DDON-WebPage",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\",
+      "BasePath": "_content/DDON-WebPage",
+      "RelativePath": "img/jobs/JobPriestIcon#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "97g2fp55fs",
+      "Integrity": "hcEt+//k4gg1kq2/K7IcIUqKTQ2hcsWalNbs6ZGtk60=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\jobs\\JobPriestIcon.png"
+    },
+    {
+      "Identity": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobsBodys.png",
+      "SourceId": "DDON-WebPage",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\",
+      "BasePath": "_content/DDON-WebPage",
+      "RelativePath": "img/jobs/JobsBodys#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xaw0qj8p03",
+      "Integrity": "dxZSr/pWJh6oOCX+80/k8e6WxzVrG/9HlSpSMN0+Ymc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\jobs\\JobsBodys.png"
+    },
+    {
+      "Identity": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobSeekerFace.jpg",
+      "SourceId": "DDON-WebPage",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\",
+      "BasePath": "_content/DDON-WebPage",
+      "RelativePath": "img/jobs/JobSeekerFace#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2dxzqepoq3",
+      "Integrity": "pnUtZ8Y7T/c7sMb9OhtwZFK4rW07Ge4V8zBje0OYEwk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\jobs\\JobSeekerFace.jpg"
+    },
+    {
+      "Identity": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobSeekerIcon.png",
+      "SourceId": "DDON-WebPage",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\",
+      "BasePath": "_content/DDON-WebPage",
+      "RelativePath": "img/jobs/JobSeekerIcon#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ya5htpq7rj",
+      "Integrity": "GtYvxewIqKRg2S+6ZiN2hSal3dJDMLvthaE0PwDdASM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\jobs\\JobSeekerIcon.png"
+    },
+    {
+      "Identity": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobsFaces.jpg",
+      "SourceId": "DDON-WebPage",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\",
+      "BasePath": "_content/DDON-WebPage",
+      "RelativePath": "img/jobs/JobsFaces#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "z4bljkmkxo",
+      "Integrity": "XbFrNcxLm/+/Az6vmIdqgWRZZX9b8KAIHBQwClN5gr8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\jobs\\JobsFaces.jpg"
+    },
+    {
+      "Identity": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobsFaces2.png",
+      "SourceId": "DDON-WebPage",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\",
+      "BasePath": "_content/DDON-WebPage",
+      "RelativePath": "img/jobs/JobsFaces2#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "55rs9wqaga",
+      "Integrity": "acH9xtNak6I+1GsaZSkUuR+L1mbiXh0N5BWfKlBvjsI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\jobs\\JobsFaces2.png"
+    },
+    {
+      "Identity": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobShieldSageBody.png",
+      "SourceId": "DDON-WebPage",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\",
+      "BasePath": "_content/DDON-WebPage",
+      "RelativePath": "img/jobs/JobShieldSageBody#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6d84vs8dzp",
+      "Integrity": "WjIgNqJYKKhjE8I4AmBa0Z5mO5sZrGwOAp6Vi5nzqR8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\jobs\\JobShieldSageBody.png"
+    },
+    {
+      "Identity": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobShieldSageFace.jpg",
+      "SourceId": "DDON-WebPage",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\",
+      "BasePath": "_content/DDON-WebPage",
+      "RelativePath": "img/jobs/JobShieldSageFace#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "k2q0kvggnm",
+      "Integrity": "/PMuTNMPk4pohnHoyCy/VI6EuF2MP0YcBywTzsMzDsA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\jobs\\JobShieldSageFace.jpg"
+    },
+    {
+      "Identity": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobShieldSageIcon.png",
+      "SourceId": "DDON-WebPage",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\",
+      "BasePath": "_content/DDON-WebPage",
+      "RelativePath": "img/jobs/JobShieldSageIcon#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tipn3vnuyh",
+      "Integrity": "9Y+zOwMKMWhxvK3NFmjuAbGf6YEazeirwfBl2gl/MtQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\jobs\\JobShieldSageIcon.png"
+    },
+    {
+      "Identity": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobSorcererFace.jpg",
+      "SourceId": "DDON-WebPage",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\",
+      "BasePath": "_content/DDON-WebPage",
+      "RelativePath": "img/jobs/JobSorcererFace#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1f5l5mjywn",
+      "Integrity": "rfvnKYNVWoFquKvDD6tbr5Z1bimVEoR6hbXfCJCgFeI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\jobs\\JobSorcererFace.jpg"
+    },
+    {
+      "Identity": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobSorcererIcon.png",
+      "SourceId": "DDON-WebPage",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\",
+      "BasePath": "_content/DDON-WebPage",
+      "RelativePath": "img/jobs/JobSorcererIcon#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "k2fxbrfz9b",
+      "Integrity": "jLH65xcl/55CvVSdriGwkocZi0tMeaPIb9VSsZNxz2E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\jobs\\JobSorcererIcon.png"
+    },
+    {
+      "Identity": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\monsters\\MonsterColossus.png",
+      "SourceId": "DDON-WebPage",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\",
+      "BasePath": "_content/DDON-WebPage",
+      "RelativePath": "img/monsters/MonsterColossus#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "td0w9be2jz",
+      "Integrity": "DyGfcU8tacrHo4LeYyvSh5hVprweMKpLIG+Oemh2uck=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\monsters\\MonsterColossus.png"
+    },
+    {
+      "Identity": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\monsters\\MonsterLindwurm.png",
+      "SourceId": "DDON-WebPage",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\",
+      "BasePath": "_content/DDON-WebPage",
+      "RelativePath": "img/monsters/MonsterLindwurm#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "x6spszk5t4",
+      "Integrity": "+eIluJZyaYB8CZuNagHmHDkJJBB9f4mw7/p8AOjmbGc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\monsters\\MonsterLindwurm.png"
+    },
+    {
+      "Identity": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\monsters\\MonsterOrc.png",
+      "SourceId": "DDON-WebPage",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\",
+      "BasePath": "_content/DDON-WebPage",
+      "RelativePath": "img/monsters/MonsterOrc#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mzgcaipkvr",
+      "Integrity": "AkPpfzs+AJ1WT7VH5jNio3Q5j/ehMIFBDCby5Wh5lPA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\monsters\\MonsterOrc.png"
+    },
+    {
+      "Identity": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\monsters\\MonsterSphinx.png",
+      "SourceId": "DDON-WebPage",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\",
+      "BasePath": "_content/DDON-WebPage",
+      "RelativePath": "img/monsters/MonsterSphinx#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "eh102iy39j",
+      "Integrity": "grHC0DhBq58e6H6AF08DvwpjPL90LV0K7LjWgFRCuw0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\monsters\\MonsterSphinx.png"
+    },
+    {
+      "Identity": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\monsters\\MonsterTroll.png",
+      "SourceId": "DDON-WebPage",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\",
+      "BasePath": "_content/DDON-WebPage",
+      "RelativePath": "img/monsters/MonsterTroll#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6hp4loku73",
+      "Integrity": "+q44CbyNPA9hL9fMfTYJdSmLDIM4PJx1Lx1trMJW2i4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\monsters\\MonsterTroll.png"
+    },
+    {
+      "Identity": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\SlayGoblinsForUs.png",
+      "SourceId": "DDON-WebPage",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\",
+      "BasePath": "_content/DDON-WebPage",
+      "RelativePath": "img/SlayGoblinsForUs#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "69ze3orugw",
+      "Integrity": "BuPGLfZMYuShrhXe3AU6e31gW96AcHSYbKhc/8b6+xw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\SlayGoblinsForUs.png"
     }
   ],
   "Endpoints": [
@@ -1318,96 +1864,6 @@
       ]
     },
     {
-      "Route": "DDON-WebPage.5phv1kn3t7.bundle.scp.css",
-      "AssetFile": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\DDON-WebPage.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3015"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"p/PMUFA10rTAXgIb81t78jpjl4zOBkF4qKGUfm6WVd4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 04 Feb 2025 03:38:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "5phv1kn3t7"
-        },
-        {
-          "Name": "label",
-          "Value": "DDON-WebPage.bundle.scp.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-p/PMUFA10rTAXgIb81t78jpjl4zOBkF4qKGUfm6WVd4="
-        }
-      ]
-    },
-    {
-      "Route": "DDON-WebPage.5phv1kn3t7.styles.css",
-      "AssetFile": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\obj\\Debug\\net7.0\\scopedcss\\bundle\\DDON-WebPage.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3015"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"p/PMUFA10rTAXgIb81t78jpjl4zOBkF4qKGUfm6WVd4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 04 Feb 2025 03:38:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "5phv1kn3t7"
-        },
-        {
-          "Name": "label",
-          "Value": "DDON-WebPage.styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-p/PMUFA10rTAXgIb81t78jpjl4zOBkF4qKGUfm6WVd4="
-        }
-      ]
-    },
-    {
       "Route": "DDON-WebPage.bundle.scp.css",
       "AssetFile": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\DDON-WebPage.bundle.scp.css",
       "Selectors": [],
@@ -1418,7 +1874,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3015"
+          "Value": "3108"
         },
         {
           "Name": "Content-Type",
@@ -1426,11 +1882,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"p/PMUFA10rTAXgIb81t78jpjl4zOBkF4qKGUfm6WVd4=\""
+          "Value": "\"K6PBNdiRra7LC5u7gSVQ0+jwuFhs2JUUXUyxiZ6n7lk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Feb 2025 03:38:44 GMT"
+          "Value": "Wed, 05 Feb 2025 20:10:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1440,7 +1896,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-p/PMUFA10rTAXgIb81t78jpjl4zOBkF4qKGUfm6WVd4="
+          "Value": "sha256-K6PBNdiRra7LC5u7gSVQ0+jwuFhs2JUUXUyxiZ6n7lk="
         }
       ]
     },
@@ -1455,7 +1911,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3015"
+          "Value": "3108"
         },
         {
           "Name": "Content-Type",
@@ -1463,11 +1919,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"p/PMUFA10rTAXgIb81t78jpjl4zOBkF4qKGUfm6WVd4=\""
+          "Value": "\"K6PBNdiRra7LC5u7gSVQ0+jwuFhs2JUUXUyxiZ6n7lk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Feb 2025 03:38:44 GMT"
+          "Value": "Wed, 05 Feb 2025 20:10:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1477,13 +1933,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-p/PMUFA10rTAXgIb81t78jpjl4zOBkF4qKGUfm6WVd4="
+          "Value": "sha256-K6PBNdiRra7LC5u7gSVQ0+jwuFhs2JUUXUyxiZ6n7lk="
         }
       ]
     },
     {
-      "Route": "favicon.0mubr5nqmd.png",
-      "AssetFile": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\favicon.png",
+      "Route": "DDON-WebPage.xhl8u41330.bundle.scp.css",
+      "AssetFile": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\DDON-WebPage.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1492,19 +1948,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "59026"
+          "Value": "3108"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/png"
+          "Value": "text/css"
         },
         {
           "Name": "ETag",
-          "Value": "\"SHHno2CfPEaQvUnkEt6j26qFGNxXvmC7DaiiSpUWqVQ=\""
+          "Value": "\"K6PBNdiRra7LC5u7gSVQ0+jwuFhs2JUUXUyxiZ6n7lk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Feb 2025 03:38:44 GMT"
+          "Value": "Wed, 05 Feb 2025 20:10:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1514,7 +1970,97 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "0mubr5nqmd"
+          "Value": "xhl8u41330"
+        },
+        {
+          "Name": "label",
+          "Value": "DDON-WebPage.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-K6PBNdiRra7LC5u7gSVQ0+jwuFhs2JUUXUyxiZ6n7lk="
+        }
+      ]
+    },
+    {
+      "Route": "DDON-WebPage.xhl8u41330.styles.css",
+      "AssetFile": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\obj\\Debug\\net7.0\\scopedcss\\bundle\\DDON-WebPage.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3108"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"K6PBNdiRra7LC5u7gSVQ0+jwuFhs2JUUXUyxiZ6n7lk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 20:10:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xhl8u41330"
+        },
+        {
+          "Name": "label",
+          "Value": "DDON-WebPage.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-K6PBNdiRra7LC5u7gSVQ0+jwuFhs2JUUXUyxiZ6n7lk="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ecajk6d7nh.png",
+      "AssetFile": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "812"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HrfgyNUsl+V1PT89bcQ2fY+n8R4PR9raJzfOkUuTblg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 05:46:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ecajk6d7nh"
         },
         {
           "Name": "label",
@@ -1522,7 +2068,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-SHHno2CfPEaQvUnkEt6j26qFGNxXvmC7DaiiSpUWqVQ="
+          "Value": "sha256-HrfgyNUsl+V1PT89bcQ2fY+n8R4PR9raJzfOkUuTblg="
         }
       ]
     },
@@ -1537,7 +2083,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "59026"
+          "Value": "812"
         },
         {
           "Name": "Content-Type",
@@ -1545,11 +2091,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"SHHno2CfPEaQvUnkEt6j26qFGNxXvmC7DaiiSpUWqVQ=\""
+          "Value": "\"HrfgyNUsl+V1PT89bcQ2fY+n8R4PR9raJzfOkUuTblg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Feb 2025 03:38:44 GMT"
+          "Value": "Tue, 04 Feb 2025 05:46:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1559,7 +2105,2139 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-SHHno2CfPEaQvUnkEt6j26qFGNxXvmC7DaiiSpUWqVQ="
+          "Value": "sha256-HrfgyNUsl+V1PT89bcQ2fY+n8R4PR9raJzfOkUuTblg="
+        }
+      ]
+    },
+    {
+      "Route": "img/DdonLogo.kfy3z1o4ah.png",
+      "AssetFile": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\DdonLogo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "249153"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8AfRnGoPSenZ9+JPhGtZb5oRBYpcpYCkYhFraFwSo4Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 05:11:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kfy3z1o4ah"
+        },
+        {
+          "Name": "label",
+          "Value": "img/DdonLogo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8AfRnGoPSenZ9+JPhGtZb5oRBYpcpYCkYhFraFwSo4Y="
+        }
+      ]
+    },
+    {
+      "Route": "img/DdonLogo.png",
+      "AssetFile": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\DdonLogo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "249153"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8AfRnGoPSenZ9+JPhGtZb5oRBYpcpYCkYhFraFwSo4Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 05:11:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8AfRnGoPSenZ9+JPhGtZb5oRBYpcpYCkYhFraFwSo4Y="
+        }
+      ]
+    },
+    {
+      "Route": "img/jobs/JobFighterBody.a2euadk0qi.png",
+      "AssetFile": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobFighterBody.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449695"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Tn+AmJY4BwydDumc6FKKNr62nlJvUOXCzuWW5o/V1Sg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 19:36:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a2euadk0qi"
+        },
+        {
+          "Name": "label",
+          "Value": "img/jobs/JobFighterBody.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Tn+AmJY4BwydDumc6FKKNr62nlJvUOXCzuWW5o/V1Sg="
+        }
+      ]
+    },
+    {
+      "Route": "img/jobs/JobFighterBody.png",
+      "AssetFile": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobFighterBody.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449695"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Tn+AmJY4BwydDumc6FKKNr62nlJvUOXCzuWW5o/V1Sg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 19:36:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Tn+AmJY4BwydDumc6FKKNr62nlJvUOXCzuWW5o/V1Sg="
+        }
+      ]
+    },
+    {
+      "Route": "img/jobs/JobFighterFace.e9x9nssz8b.jpg",
+      "AssetFile": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobFighterFace.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5164"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Xgh1uqjHeQONYzKUjtHhyVVafZFG8pm/Tg1sNa72ERA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 05:32:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e9x9nssz8b"
+        },
+        {
+          "Name": "label",
+          "Value": "img/jobs/JobFighterFace.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Xgh1uqjHeQONYzKUjtHhyVVafZFG8pm/Tg1sNa72ERA="
+        }
+      ]
+    },
+    {
+      "Route": "img/jobs/JobFighterFace.jpg",
+      "AssetFile": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobFighterFace.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5164"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Xgh1uqjHeQONYzKUjtHhyVVafZFG8pm/Tg1sNa72ERA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 05:32:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Xgh1uqjHeQONYzKUjtHhyVVafZFG8pm/Tg1sNa72ERA="
+        }
+      ]
+    },
+    {
+      "Route": "img/jobs/JobFighterIcon.png",
+      "AssetFile": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobFighterIcon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "769"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OKVY0ACG76zeTM9Qc3mBoRMvBTyaD1vnkaSmHqJs7A0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 05:34:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OKVY0ACG76zeTM9Qc3mBoRMvBTyaD1vnkaSmHqJs7A0="
+        }
+      ]
+    },
+    {
+      "Route": "img/jobs/JobFighterIcon.sfl5zf8lrx.png",
+      "AssetFile": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobFighterIcon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "769"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OKVY0ACG76zeTM9Qc3mBoRMvBTyaD1vnkaSmHqJs7A0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 05:34:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sfl5zf8lrx"
+        },
+        {
+          "Name": "label",
+          "Value": "img/jobs/JobFighterIcon.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OKVY0ACG76zeTM9Qc3mBoRMvBTyaD1vnkaSmHqJs7A0="
+        }
+      ]
+    },
+    {
+      "Route": "img/jobs/JobHunterBody.png",
+      "AssetFile": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobHunterBody.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "395905"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5z4bY1OfwzXLGMYNPIJ6iv2j5zPfBrSCJFDttFpZ8SQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 05:36:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5z4bY1OfwzXLGMYNPIJ6iv2j5zPfBrSCJFDttFpZ8SQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/jobs/JobHunterBody.t3dnjr2bf1.png",
+      "AssetFile": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobHunterBody.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "395905"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5z4bY1OfwzXLGMYNPIJ6iv2j5zPfBrSCJFDttFpZ8SQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 05:36:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "t3dnjr2bf1"
+        },
+        {
+          "Name": "label",
+          "Value": "img/jobs/JobHunterBody.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5z4bY1OfwzXLGMYNPIJ6iv2j5zPfBrSCJFDttFpZ8SQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/jobs/JobHunterFace.j4stail89f.jpg",
+      "AssetFile": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobHunterFace.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5084"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o1W4kwapTL4Ku/bewqtaid8JuGRKWghW1+60SxgIrsk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 05:32:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j4stail89f"
+        },
+        {
+          "Name": "label",
+          "Value": "img/jobs/JobHunterFace.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-o1W4kwapTL4Ku/bewqtaid8JuGRKWghW1+60SxgIrsk="
+        }
+      ]
+    },
+    {
+      "Route": "img/jobs/JobHunterFace.jpg",
+      "AssetFile": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobHunterFace.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5084"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o1W4kwapTL4Ku/bewqtaid8JuGRKWghW1+60SxgIrsk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 05:32:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-o1W4kwapTL4Ku/bewqtaid8JuGRKWghW1+60SxgIrsk="
+        }
+      ]
+    },
+    {
+      "Route": "img/jobs/JobHunterIcon.png",
+      "AssetFile": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobHunterIcon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "937"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OUzy/DFl1Tbdpk6F4PDnO3NWXFwTAoT9b7oFDTg8Qag=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 05:34:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OUzy/DFl1Tbdpk6F4PDnO3NWXFwTAoT9b7oFDTg8Qag="
+        }
+      ]
+    },
+    {
+      "Route": "img/jobs/JobHunterIcon.zh4syff75y.png",
+      "AssetFile": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobHunterIcon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "937"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OUzy/DFl1Tbdpk6F4PDnO3NWXFwTAoT9b7oFDTg8Qag=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 05:34:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zh4syff75y"
+        },
+        {
+          "Name": "label",
+          "Value": "img/jobs/JobHunterIcon.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OUzy/DFl1Tbdpk6F4PDnO3NWXFwTAoT9b7oFDTg8Qag="
+        }
+      ]
+    },
+    {
+      "Route": "img/jobs/JobPriestBody.ewvscjydjy.png",
+      "AssetFile": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobPriestBody.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "409299"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fqjG+1VLs2QdyYBv7CH8Eh3PgZzbWhE5AQkurFJHpF4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 05:36:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ewvscjydjy"
+        },
+        {
+          "Name": "label",
+          "Value": "img/jobs/JobPriestBody.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fqjG+1VLs2QdyYBv7CH8Eh3PgZzbWhE5AQkurFJHpF4="
+        }
+      ]
+    },
+    {
+      "Route": "img/jobs/JobPriestBody.png",
+      "AssetFile": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobPriestBody.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "409299"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fqjG+1VLs2QdyYBv7CH8Eh3PgZzbWhE5AQkurFJHpF4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 05:36:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fqjG+1VLs2QdyYBv7CH8Eh3PgZzbWhE5AQkurFJHpF4="
+        }
+      ]
+    },
+    {
+      "Route": "img/jobs/JobPriestFace.fam9fphti2.jpg",
+      "AssetFile": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobPriestFace.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4618"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F5yIFZRN385pU80QXorGNuvuRJ+eKAUvaaUSEU4IobA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 05:31:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fam9fphti2"
+        },
+        {
+          "Name": "label",
+          "Value": "img/jobs/JobPriestFace.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-F5yIFZRN385pU80QXorGNuvuRJ+eKAUvaaUSEU4IobA="
+        }
+      ]
+    },
+    {
+      "Route": "img/jobs/JobPriestFace.jpg",
+      "AssetFile": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobPriestFace.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4618"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F5yIFZRN385pU80QXorGNuvuRJ+eKAUvaaUSEU4IobA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 05:31:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-F5yIFZRN385pU80QXorGNuvuRJ+eKAUvaaUSEU4IobA="
+        }
+      ]
+    },
+    {
+      "Route": "img/jobs/JobPriestIcon.97g2fp55fs.png",
+      "AssetFile": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobPriestIcon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "735"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hcEt+//k4gg1kq2/K7IcIUqKTQ2hcsWalNbs6ZGtk60=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 05:35:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "97g2fp55fs"
+        },
+        {
+          "Name": "label",
+          "Value": "img/jobs/JobPriestIcon.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hcEt+//k4gg1kq2/K7IcIUqKTQ2hcsWalNbs6ZGtk60="
+        }
+      ]
+    },
+    {
+      "Route": "img/jobs/JobPriestIcon.png",
+      "AssetFile": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobPriestIcon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "735"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hcEt+//k4gg1kq2/K7IcIUqKTQ2hcsWalNbs6ZGtk60=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 05:35:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hcEt+//k4gg1kq2/K7IcIUqKTQ2hcsWalNbs6ZGtk60="
+        }
+      ]
+    },
+    {
+      "Route": "img/jobs/JobsBodys.png",
+      "AssetFile": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobsBodys.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1352559"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dxZSr/pWJh6oOCX+80/k8e6WxzVrG/9HlSpSMN0+Ymc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 20:01:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dxZSr/pWJh6oOCX+80/k8e6WxzVrG/9HlSpSMN0+Ymc="
+        }
+      ]
+    },
+    {
+      "Route": "img/jobs/JobsBodys.xaw0qj8p03.png",
+      "AssetFile": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobsBodys.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1352559"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dxZSr/pWJh6oOCX+80/k8e6WxzVrG/9HlSpSMN0+Ymc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 20:01:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xaw0qj8p03"
+        },
+        {
+          "Name": "label",
+          "Value": "img/jobs/JobsBodys.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dxZSr/pWJh6oOCX+80/k8e6WxzVrG/9HlSpSMN0+Ymc="
+        }
+      ]
+    },
+    {
+      "Route": "img/jobs/JobSeekerFace.2dxzqepoq3.jpg",
+      "AssetFile": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobSeekerFace.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6640"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pnUtZ8Y7T/c7sMb9OhtwZFK4rW07Ge4V8zBje0OYEwk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 05:31:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2dxzqepoq3"
+        },
+        {
+          "Name": "label",
+          "Value": "img/jobs/JobSeekerFace.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pnUtZ8Y7T/c7sMb9OhtwZFK4rW07Ge4V8zBje0OYEwk="
+        }
+      ]
+    },
+    {
+      "Route": "img/jobs/JobSeekerFace.jpg",
+      "AssetFile": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobSeekerFace.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6640"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pnUtZ8Y7T/c7sMb9OhtwZFK4rW07Ge4V8zBje0OYEwk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 05:31:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pnUtZ8Y7T/c7sMb9OhtwZFK4rW07Ge4V8zBje0OYEwk="
+        }
+      ]
+    },
+    {
+      "Route": "img/jobs/JobSeekerIcon.png",
+      "AssetFile": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobSeekerIcon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "873"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GtYvxewIqKRg2S+6ZiN2hSal3dJDMLvthaE0PwDdASM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 05:35:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GtYvxewIqKRg2S+6ZiN2hSal3dJDMLvthaE0PwDdASM="
+        }
+      ]
+    },
+    {
+      "Route": "img/jobs/JobSeekerIcon.ya5htpq7rj.png",
+      "AssetFile": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobSeekerIcon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "873"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GtYvxewIqKRg2S+6ZiN2hSal3dJDMLvthaE0PwDdASM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 05:35:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ya5htpq7rj"
+        },
+        {
+          "Name": "label",
+          "Value": "img/jobs/JobSeekerIcon.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GtYvxewIqKRg2S+6ZiN2hSal3dJDMLvthaE0PwDdASM="
+        }
+      ]
+    },
+    {
+      "Route": "img/jobs/JobsFaces.jpg",
+      "AssetFile": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobsFaces.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10411"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XbFrNcxLm/+/Az6vmIdqgWRZZX9b8KAIHBQwClN5gr8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 19:35:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XbFrNcxLm/+/Az6vmIdqgWRZZX9b8KAIHBQwClN5gr8="
+        }
+      ]
+    },
+    {
+      "Route": "img/jobs/JobsFaces.z4bljkmkxo.jpg",
+      "AssetFile": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobsFaces.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10411"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XbFrNcxLm/+/Az6vmIdqgWRZZX9b8KAIHBQwClN5gr8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 19:35:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z4bljkmkxo"
+        },
+        {
+          "Name": "label",
+          "Value": "img/jobs/JobsFaces.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XbFrNcxLm/+/Az6vmIdqgWRZZX9b8KAIHBQwClN5gr8="
+        }
+      ]
+    },
+    {
+      "Route": "img/jobs/JobsFaces2.55rs9wqaga.png",
+      "AssetFile": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobsFaces2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "205464"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"acH9xtNak6I+1GsaZSkUuR+L1mbiXh0N5BWfKlBvjsI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 20:05:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "55rs9wqaga"
+        },
+        {
+          "Name": "label",
+          "Value": "img/jobs/JobsFaces2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-acH9xtNak6I+1GsaZSkUuR+L1mbiXh0N5BWfKlBvjsI="
+        }
+      ]
+    },
+    {
+      "Route": "img/jobs/JobsFaces2.png",
+      "AssetFile": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobsFaces2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "205464"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"acH9xtNak6I+1GsaZSkUuR+L1mbiXh0N5BWfKlBvjsI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 20:05:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-acH9xtNak6I+1GsaZSkUuR+L1mbiXh0N5BWfKlBvjsI="
+        }
+      ]
+    },
+    {
+      "Route": "img/jobs/JobShieldSageBody.6d84vs8dzp.png",
+      "AssetFile": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobShieldSageBody.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "559857"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WjIgNqJYKKhjE8I4AmBa0Z5mO5sZrGwOAp6Vi5nzqR8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 05:37:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6d84vs8dzp"
+        },
+        {
+          "Name": "label",
+          "Value": "img/jobs/JobShieldSageBody.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WjIgNqJYKKhjE8I4AmBa0Z5mO5sZrGwOAp6Vi5nzqR8="
+        }
+      ]
+    },
+    {
+      "Route": "img/jobs/JobShieldSageBody.png",
+      "AssetFile": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobShieldSageBody.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "559857"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WjIgNqJYKKhjE8I4AmBa0Z5mO5sZrGwOAp6Vi5nzqR8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 05:37:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WjIgNqJYKKhjE8I4AmBa0Z5mO5sZrGwOAp6Vi5nzqR8="
+        }
+      ]
+    },
+    {
+      "Route": "img/jobs/JobShieldSageFace.jpg",
+      "AssetFile": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobShieldSageFace.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5438"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/PMuTNMPk4pohnHoyCy/VI6EuF2MP0YcBywTzsMzDsA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 05:31:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/PMuTNMPk4pohnHoyCy/VI6EuF2MP0YcBywTzsMzDsA="
+        }
+      ]
+    },
+    {
+      "Route": "img/jobs/JobShieldSageFace.k2q0kvggnm.jpg",
+      "AssetFile": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobShieldSageFace.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5438"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/PMuTNMPk4pohnHoyCy/VI6EuF2MP0YcBywTzsMzDsA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 05:31:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "k2q0kvggnm"
+        },
+        {
+          "Name": "label",
+          "Value": "img/jobs/JobShieldSageFace.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/PMuTNMPk4pohnHoyCy/VI6EuF2MP0YcBywTzsMzDsA="
+        }
+      ]
+    },
+    {
+      "Route": "img/jobs/JobShieldSageIcon.png",
+      "AssetFile": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobShieldSageIcon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1162"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9Y+zOwMKMWhxvK3NFmjuAbGf6YEazeirwfBl2gl/MtQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 05:35:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9Y+zOwMKMWhxvK3NFmjuAbGf6YEazeirwfBl2gl/MtQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/jobs/JobShieldSageIcon.tipn3vnuyh.png",
+      "AssetFile": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobShieldSageIcon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1162"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9Y+zOwMKMWhxvK3NFmjuAbGf6YEazeirwfBl2gl/MtQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 05:35:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tipn3vnuyh"
+        },
+        {
+          "Name": "label",
+          "Value": "img/jobs/JobShieldSageIcon.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9Y+zOwMKMWhxvK3NFmjuAbGf6YEazeirwfBl2gl/MtQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/jobs/JobSorcererFace.1f5l5mjywn.jpg",
+      "AssetFile": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobSorcererFace.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8871"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rfvnKYNVWoFquKvDD6tbr5Z1bimVEoR6hbXfCJCgFeI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 05:31:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1f5l5mjywn"
+        },
+        {
+          "Name": "label",
+          "Value": "img/jobs/JobSorcererFace.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rfvnKYNVWoFquKvDD6tbr5Z1bimVEoR6hbXfCJCgFeI="
+        }
+      ]
+    },
+    {
+      "Route": "img/jobs/JobSorcererFace.jpg",
+      "AssetFile": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobSorcererFace.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8871"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rfvnKYNVWoFquKvDD6tbr5Z1bimVEoR6hbXfCJCgFeI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 05:31:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rfvnKYNVWoFquKvDD6tbr5Z1bimVEoR6hbXfCJCgFeI="
+        }
+      ]
+    },
+    {
+      "Route": "img/jobs/JobSorcererIcon.k2fxbrfz9b.png",
+      "AssetFile": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobSorcererIcon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "999"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jLH65xcl/55CvVSdriGwkocZi0tMeaPIb9VSsZNxz2E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 05:35:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "k2fxbrfz9b"
+        },
+        {
+          "Name": "label",
+          "Value": "img/jobs/JobSorcererIcon.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jLH65xcl/55CvVSdriGwkocZi0tMeaPIb9VSsZNxz2E="
+        }
+      ]
+    },
+    {
+      "Route": "img/jobs/JobSorcererIcon.png",
+      "AssetFile": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobSorcererIcon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "999"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jLH65xcl/55CvVSdriGwkocZi0tMeaPIb9VSsZNxz2E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 05:35:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jLH65xcl/55CvVSdriGwkocZi0tMeaPIb9VSsZNxz2E="
+        }
+      ]
+    },
+    {
+      "Route": "img/monsters/MonsterColossus.png",
+      "AssetFile": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\monsters\\MonsterColossus.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1259134"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DyGfcU8tacrHo4LeYyvSh5hVprweMKpLIG+Oemh2uck=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 05:39:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DyGfcU8tacrHo4LeYyvSh5hVprweMKpLIG+Oemh2uck="
+        }
+      ]
+    },
+    {
+      "Route": "img/monsters/MonsterColossus.td0w9be2jz.png",
+      "AssetFile": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\monsters\\MonsterColossus.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1259134"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DyGfcU8tacrHo4LeYyvSh5hVprweMKpLIG+Oemh2uck=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 05:39:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "td0w9be2jz"
+        },
+        {
+          "Name": "label",
+          "Value": "img/monsters/MonsterColossus.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DyGfcU8tacrHo4LeYyvSh5hVprweMKpLIG+Oemh2uck="
+        }
+      ]
+    },
+    {
+      "Route": "img/monsters/MonsterLindwurm.png",
+      "AssetFile": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\monsters\\MonsterLindwurm.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1279794"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+eIluJZyaYB8CZuNagHmHDkJJBB9f4mw7/p8AOjmbGc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 05:38:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+eIluJZyaYB8CZuNagHmHDkJJBB9f4mw7/p8AOjmbGc="
+        }
+      ]
+    },
+    {
+      "Route": "img/monsters/MonsterLindwurm.x6spszk5t4.png",
+      "AssetFile": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\monsters\\MonsterLindwurm.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1279794"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+eIluJZyaYB8CZuNagHmHDkJJBB9f4mw7/p8AOjmbGc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 05:38:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x6spszk5t4"
+        },
+        {
+          "Name": "label",
+          "Value": "img/monsters/MonsterLindwurm.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+eIluJZyaYB8CZuNagHmHDkJJBB9f4mw7/p8AOjmbGc="
+        }
+      ]
+    },
+    {
+      "Route": "img/monsters/MonsterOrc.mzgcaipkvr.png",
+      "AssetFile": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\monsters\\MonsterOrc.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1391306"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AkPpfzs+AJ1WT7VH5jNio3Q5j/ehMIFBDCby5Wh5lPA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 05:39:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mzgcaipkvr"
+        },
+        {
+          "Name": "label",
+          "Value": "img/monsters/MonsterOrc.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AkPpfzs+AJ1WT7VH5jNio3Q5j/ehMIFBDCby5Wh5lPA="
+        }
+      ]
+    },
+    {
+      "Route": "img/monsters/MonsterOrc.png",
+      "AssetFile": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\monsters\\MonsterOrc.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1391306"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AkPpfzs+AJ1WT7VH5jNio3Q5j/ehMIFBDCby5Wh5lPA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 05:39:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AkPpfzs+AJ1WT7VH5jNio3Q5j/ehMIFBDCby5Wh5lPA="
+        }
+      ]
+    },
+    {
+      "Route": "img/monsters/MonsterSphinx.eh102iy39j.png",
+      "AssetFile": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\monsters\\MonsterSphinx.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "757058"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"grHC0DhBq58e6H6AF08DvwpjPL90LV0K7LjWgFRCuw0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 05:28:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "eh102iy39j"
+        },
+        {
+          "Name": "label",
+          "Value": "img/monsters/MonsterSphinx.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-grHC0DhBq58e6H6AF08DvwpjPL90LV0K7LjWgFRCuw0="
+        }
+      ]
+    },
+    {
+      "Route": "img/monsters/MonsterSphinx.png",
+      "AssetFile": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\monsters\\MonsterSphinx.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "757058"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"grHC0DhBq58e6H6AF08DvwpjPL90LV0K7LjWgFRCuw0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 05:28:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-grHC0DhBq58e6H6AF08DvwpjPL90LV0K7LjWgFRCuw0="
+        }
+      ]
+    },
+    {
+      "Route": "img/monsters/MonsterTroll.6hp4loku73.png",
+      "AssetFile": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\monsters\\MonsterTroll.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "829194"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+q44CbyNPA9hL9fMfTYJdSmLDIM4PJx1Lx1trMJW2i4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 05:29:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6hp4loku73"
+        },
+        {
+          "Name": "label",
+          "Value": "img/monsters/MonsterTroll.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+q44CbyNPA9hL9fMfTYJdSmLDIM4PJx1Lx1trMJW2i4="
+        }
+      ]
+    },
+    {
+      "Route": "img/monsters/MonsterTroll.png",
+      "AssetFile": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\monsters\\MonsterTroll.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "829194"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+q44CbyNPA9hL9fMfTYJdSmLDIM4PJx1Lx1trMJW2i4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 05:29:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+q44CbyNPA9hL9fMfTYJdSmLDIM4PJx1Lx1trMJW2i4="
+        }
+      ]
+    },
+    {
+      "Route": "img/SlayGoblinsForUs.69ze3orugw.png",
+      "AssetFile": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\SlayGoblinsForUs.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5095"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BuPGLfZMYuShrhXe3AU6e31gW96AcHSYbKhc/8b6+xw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 04:51:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "69ze3orugw"
+        },
+        {
+          "Name": "label",
+          "Value": "img/SlayGoblinsForUs.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BuPGLfZMYuShrhXe3AU6e31gW96AcHSYbKhc/8b6+xw="
+        }
+      ]
+    },
+    {
+      "Route": "img/SlayGoblinsForUs.png",
+      "AssetFile": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\SlayGoblinsForUs.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5095"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BuPGLfZMYuShrhXe3AU6e31gW96AcHSYbKhc/8b6+xw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 04:51:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BuPGLfZMYuShrhXe3AU6e31gW96AcHSYbKhc/8b6+xw="
         }
       ]
     }

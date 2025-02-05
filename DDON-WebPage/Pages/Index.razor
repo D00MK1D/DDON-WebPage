@@ -10,7 +10,8 @@
 
 Welcome to a new project!
 
-<SurveyPrompt Title="How about slay some goblins?" />
+<SurveyPrompt Title="How about slay some goblins for us?"  />
+
 <br />
 
 <table>
@@ -39,8 +40,6 @@ Welcome to a new project!
 
 <p>Server Response: @webToken</p>
 
-
-
 @code {
     string account, password, webToken;
 
@@ -57,10 +56,6 @@ Welcome to a new project!
         {
             Operation("login");
         }
-        else
-        {
-
-        }
     }
 
     public void Register()
@@ -73,7 +68,6 @@ Welcome to a new project!
 
     private async void Operation(string action)
     {
-
         var requestData = new
         {
             Action = action,

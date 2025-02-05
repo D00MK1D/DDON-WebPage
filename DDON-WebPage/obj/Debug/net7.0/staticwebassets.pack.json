@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\DDON-WebPage.bundle.scp.css",
-      "PackagePath": "staticwebassets\\DDON-WebPage.5phv1kn3t7.bundle.scp.css"
+      "PackagePath": "staticwebassets\\DDON-WebPage.xhl8u41330.bundle.scp.css"
     },
     {
       "Id": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
@@ -55,6 +55,110 @@
     {
       "Id": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\DdonLogo.png",
+      "PackagePath": "staticwebassets\\img\\DdonLogo.png"
+    },
+    {
+      "Id": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\SlayGoblinsForUs.png",
+      "PackagePath": "staticwebassets\\img\\SlayGoblinsForUs.png"
+    },
+    {
+      "Id": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobFighterBody.png",
+      "PackagePath": "staticwebassets\\img\\jobs\\JobFighterBody.png"
+    },
+    {
+      "Id": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobFighterFace.jpg",
+      "PackagePath": "staticwebassets\\img\\jobs\\JobFighterFace.jpg"
+    },
+    {
+      "Id": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobFighterIcon.png",
+      "PackagePath": "staticwebassets\\img\\jobs\\JobFighterIcon.png"
+    },
+    {
+      "Id": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobHunterBody.png",
+      "PackagePath": "staticwebassets\\img\\jobs\\JobHunterBody.png"
+    },
+    {
+      "Id": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobHunterFace.jpg",
+      "PackagePath": "staticwebassets\\img\\jobs\\JobHunterFace.jpg"
+    },
+    {
+      "Id": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobHunterIcon.png",
+      "PackagePath": "staticwebassets\\img\\jobs\\JobHunterIcon.png"
+    },
+    {
+      "Id": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobPriestBody.png",
+      "PackagePath": "staticwebassets\\img\\jobs\\JobPriestBody.png"
+    },
+    {
+      "Id": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobPriestFace.jpg",
+      "PackagePath": "staticwebassets\\img\\jobs\\JobPriestFace.jpg"
+    },
+    {
+      "Id": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobPriestIcon.png",
+      "PackagePath": "staticwebassets\\img\\jobs\\JobPriestIcon.png"
+    },
+    {
+      "Id": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobSeekerFace.jpg",
+      "PackagePath": "staticwebassets\\img\\jobs\\JobSeekerFace.jpg"
+    },
+    {
+      "Id": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobSeekerIcon.png",
+      "PackagePath": "staticwebassets\\img\\jobs\\JobSeekerIcon.png"
+    },
+    {
+      "Id": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobShieldSageBody.png",
+      "PackagePath": "staticwebassets\\img\\jobs\\JobShieldSageBody.png"
+    },
+    {
+      "Id": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobShieldSageFace.jpg",
+      "PackagePath": "staticwebassets\\img\\jobs\\JobShieldSageFace.jpg"
+    },
+    {
+      "Id": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobShieldSageIcon.png",
+      "PackagePath": "staticwebassets\\img\\jobs\\JobShieldSageIcon.png"
+    },
+    {
+      "Id": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobSorcererFace.jpg",
+      "PackagePath": "staticwebassets\\img\\jobs\\JobSorcererFace.jpg"
+    },
+    {
+      "Id": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobSorcererIcon.png",
+      "PackagePath": "staticwebassets\\img\\jobs\\JobSorcererIcon.png"
+    },
+    {
+      "Id": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobsBodys.png",
+      "PackagePath": "staticwebassets\\img\\jobs\\JobsBodys.png"
+    },
+    {
+      "Id": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobsFaces.jpg",
+      "PackagePath": "staticwebassets\\img\\jobs\\JobsFaces.jpg"
+    },
+    {
+      "Id": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\jobs\\JobsFaces2.png",
+      "PackagePath": "staticwebassets\\img\\jobs\\JobsFaces2.png"
+    },
+    {
+      "Id": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\monsters\\MonsterColossus.png",
+      "PackagePath": "staticwebassets\\img\\monsters\\MonsterColossus.png"
+    },
+    {
+      "Id": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\monsters\\MonsterLindwurm.png",
+      "PackagePath": "staticwebassets\\img\\monsters\\MonsterLindwurm.png"
+    },
+    {
+      "Id": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\monsters\\MonsterOrc.png",
+      "PackagePath": "staticwebassets\\img\\monsters\\MonsterOrc.png"
+    },
+    {
+      "Id": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\monsters\\MonsterSphinx.png",
+      "PackagePath": "staticwebassets\\img\\monsters\\MonsterSphinx.png"
+    },
+    {
+      "Id": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\wwwroot\\img\\monsters\\MonsterTroll.png",
+      "PackagePath": "staticwebassets\\img\\monsters\\MonsterTroll.png"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.DDON-WebPage.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

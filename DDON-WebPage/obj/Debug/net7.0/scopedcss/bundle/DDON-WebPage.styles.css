@@ -6,18 +6,23 @@
 }
 
 main[b-iw9i1ztes3] {
-    flex: 1;
+    flex: 5;
 }
 
 .sidebar[b-iw9i1ztes3] {
-    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+    background-image: linear-gradient(180deg, rgba(66, 57, 16, 0.2) 0%, rgba(223, 148, 44, 0.5) 60%, rgba(255, 255, 255, 0.1) 109%);
+    /*background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+    /*background-image: url("./img/jobs/JobsFaces2.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;*/
 }
 
 .top-row[b-iw9i1ztes3] {
-    background-color: #f7f7f7;
-    border-bottom: 1px solid #d6d5d5;
+    background-color: rgba(0,0,0,0);
+    border-bottom: 1px solid rgba(0,0,0,0);
     justify-content: flex-end;
-    height: 3.5rem;
+    height: 0rem;
     display: flex;
     align-items: center;
 }
@@ -71,32 +76,29 @@ main[b-iw9i1ztes3] {
 }
 /* _content/DDON-WebPage/Shared/NavMenu.razor.rz.scp.css */
 .navbar-toggler[b-b479mpdmud] {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(25, 25, 25, 0.1);
 }
 
 .top-row[b-b479mpdmud] {
-    height: 3.5rem;
-    background-color: rgba(0,0,0,0.4);
-}
-
-.navbar-brand[b-b479mpdmud] {
-    font-size: 1.1rem;
+    height: 7.3rem;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .oi[b-b479mpdmud] {
     width: 2rem;
-    font-size: 1.1rem;
-    vertical-align: text-top;
+    font-size: 20px;
     top: -2px;
+    color: black;
 }
 
 .nav-item[b-b479mpdmud] {
     font-size: 0.9rem;
     padding-bottom: 0.5rem;
+    color: black;
 }
 
     .nav-item:first-of-type[b-b479mpdmud] {
-        padding-top: 1rem;
+        padding-top: 0.5rem;
     }
 
     .nav-item:last-of-type[b-b479mpdmud] {
@@ -104,7 +106,8 @@ main[b-iw9i1ztes3] {
     }
 
     .nav-item[b-b479mpdmud]  a {
-        color: #d7d7d7;
+        color: black;
+
         border-radius: 4px;
         height: 3rem;
         display: flex;
@@ -112,15 +115,15 @@ main[b-iw9i1ztes3] {
         line-height: 3rem;
     }
 
-.nav-item[b-b479mpdmud]  a.active {
-    background-color: rgba(255,255,255,0.25);
-    color: white;
-}
+        .nav-item[b-b479mpdmud]  a.active {
+            background-color: rgba(0, 0, 0, 0.25);
+            color: floralwhite;
+        }
 
-.nav-item[b-b479mpdmud]  a:hover {
-    background-color: rgba(255,255,255,0.1);
-    color: white;
-}
+        .nav-item[b-b479mpdmud]  a:hover {
+            background-color: rgba(0, 0, 0, 0.42);
+            color: floralwhite;
+        }
 
 @media (min-width: 641px) {
     .navbar-toggler[b-b479mpdmud] {
@@ -131,10 +134,10 @@ main[b-iw9i1ztes3] {
         /* Never collapse the sidebar for wide screens */
         display: block;
     }
-    
-    .nav-scrollable[b-b479mpdmud] {
-        /* Allow sidebar to scroll for tall menus */
+
+    /*.nav-scrollable {
+         Allow sidebar to scroll for tall menus 
         height: calc(100vh - 3.5rem);
         overflow-y: auto;
-    }
+    }*/
 }

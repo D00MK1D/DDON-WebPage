@@ -7,4 +7,31 @@
     <RootNamespace>DDON_WebPage</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Include="wwwroot\img\DdonLogo.png" />
+    <None Include="wwwroot\img\jobs\JobFaces.jpg" />
+    <None Include="wwwroot\img\jobs\JobFighterBody.png" />
+    <None Include="wwwroot\img\jobs\JobFighterFace.jpg" />
+    <None Include="wwwroot\img\jobs\JobFighterIcon.png" />
+    <None Include="wwwroot\img\jobs\JobHunterBody.png" />
+    <None Include="wwwroot\img\jobs\JobHunterFace.jpg" />
+    <None Include="wwwroot\img\jobs\JobHunterIcon.png" />
+    <None Include="wwwroot\img\jobs\JobPriestBody.png" />
+    <None Include="wwwroot\img\jobs\JobPriestFace.jpg" />
+    <None Include="wwwroot\img\jobs\JobPriestIcon.png" />
+    <None Include="wwwroot\img\jobs\JobSeekerFace.jpg" />
+    <None Include="wwwroot\img\jobs\JobSeekerIcon.png" />
+    <None Include="wwwroot\img\jobs\JobShieldSageBody.png" />
+    <None Include="wwwroot\img\jobs\JobShieldSageFace.jpg" />
+    <None Include="wwwroot\img\jobs\JobShieldSageIcon.png" />
+    <None Include="wwwroot\img\jobs\JobSorcererFace.jpg" />
+    <None Include="wwwroot\img\jobs\JobSorcererIcon.png" />
+    <None Include="wwwroot\img\monsters\MonsterColossus.png" />
+    <None Include="wwwroot\img\monsters\MonsterLindwurm.png" />
+    <None Include="wwwroot\img\monsters\MonsterOrc.png" />
+    <None Include="wwwroot\img\monsters\MonsterSphinx.png" />
+    <None Include="wwwroot\img\monsters\MonsterTroll.png" />
+    <None Include="wwwroot\img\SlayGoblinsForUs.png" />
+  </ItemGroup>
+
 </Project>
