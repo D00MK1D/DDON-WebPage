@@ -6,43 +6,117 @@
 
 <PageTitle>Dragon's Dogma Online</PageTitle>
 
-<h1>Hello, arisen!</h1>
+<Style>
+    .index-button{
+        color: rgb(195,195,195);
+        background-image: linear-gradient(180deg,#313231 0%, #181818 100% );
+        border: solid 2px #3C3B3C;
+    }
 
-Welcome to a new project!
+    .index-button:hover{
+            border-color: #B5B194;
+            border-bottom-color: #9C8E63;
+    }
 
-<SurveyPrompt Title="How about slay some goblins for us?"  />
+    .text-field{
+        color: rgb(195,195,195);
+        background-image: linear-gradient(180deg, #181818 0%, #313231 50%, #181818 100% );
+        border: solid 2px #3C3B3C;
+    }
+</Style>
 
-<br />
+<body class="body-index">
+    <div class="index-body">
+        <br />
+        <MudPaper style="margin-left:auto;margin-right:auto;background-color:rgba(30,30,30,1);" Height="400px" Width="50%">
+            <MudContainer MaxWidth="MaxWidth.Small">
+                <MudPaper style="background-color:rgba(20,20,20,1);" Height="30px" Width="100%">
+                    <MudContainer>
 
-<table>
-    <tr>
-        <td>Account:</td>
-        <td>Password:</td>
+                        <MudText style="color:rgb(195,195,195);" Align="Align.Left"><b>Login</b></MudText>
+                </MudContainer>
+                </MudPaper>
+                
+                <br />
+                <br />
+                <MudText style="margin-left:auto;margin-right:auto;color:rgb(195,195,195);" Align=" Align.Center"><h1>Login Page</h1></MudText>
 
-    </tr>
 
-    <tr>
-        <td><input type="text" @bind-value="@account" /></td>
-        <td><input type="password" @bind-value="@password" /></td>
-    </tr>
-    <tr>
-        <td colspan="2"><hr /></td>
-    </tr>
-    <tr>
-        <td>
-            <button @onclick="Login">Login</button>
-            <button @onclick="Register">Register</button>
-        </td>
-    </tr>
-</table>
 
-<hr />
+                <MudTr>
+                    <MudTd>
+                        <MudTextField @bind-value="@account" Class="text-field"
+                        Immediate="true"
+                        tabindex="1"
+                        style="color:rgb(195,195,195);"
+                        Label="Account"
+                        Variant="Variant.Outlined">
+                        </MudTextField>
 
-<p>Server Response: @webToken</p>
+                        <MudButton @onclick="Login"
+                            Class="index-button"
+                        Variant="Variant.Filled"
+                        tabindex="3">Login</MudButton>
 
+                    </MudTd>
+                    <MudTd>
+                        <MudTextField Class="text-field" InputType="@PasswordInput"
+                        @bind-value="@password"
+                        Immediate="true"
+                        tabindex="2"
+                        Label="Password"
+                        Adornment="Adornment.End"
+                        AdornmentIcon="@PasswordInputIcon"
+                        OnAdornmentClick="@ShowPassword"
+                        AdornmentAriaLabel="Show Password"
+                        Variant="Variant.Outlined">
+
+                        </MudTextField>
+
+                        <MudButton @onclick="Register"
+                                   Class="index-button"
+                        tabindex="4">Register</MudButton>
+                    </MudTd>
+                </MudTr>
+                <br />
+                <br />
+                <p style="color:white;">Server Response: @webToken</p>
+
+            </MudContainer>
+        </MudPaper>
+
+        <br />
+
+    </div>
+</body>
 @code {
-    string account, password, webToken;
 
+    public string account { get; set; }
+    public string password { get; set; }
+    public string webToken { get; set; }
+
+    bool isShow;
+    string PasswordInputIcon = Icons.Material.Filled.VisibilityOff;
+    InputType PasswordInput = InputType.Password;
+
+    void ShowPassword()
+    {
+        if (isShow)
+        {
+            isShow = false;
+            PasswordInputIcon = Icons.Material.Filled.VisibilityOff;
+            PasswordInput = InputType.Password;
+        }
+        else
+        {
+            isShow = true;
+            PasswordInputIcon = Icons.Material.Filled.Visibility;
+            PasswordInput = InputType.Text;
+        }
+
+    }
+
+    //---Authentication code
     public class ServerResponse
     {
         public string Error { get; set; }
@@ -50,19 +124,23 @@ Welcome to a new project!
         public string Token { get; set; }
     }
 
-    public void Login()
+    public async void Login()
     {
         if (account != null && password != null)
         {
             Operation("login");
+            await Task.Delay(5000);
+            webToken = "";
         }
     }
 
-    public void Register()
+    public async void Register()
     {
         if (account != null && password != null)
         {
             Operation("create");
+            await Task.Delay(5000);
+            webToken = "";
         }
     }
 
@@ -143,8 +221,7 @@ Welcome to a new project!
             }
             catch
             {
-                //--- This, for a while, will evade any error when server is not running
-                //--- And/or you cant reach it by any chance
+                webToken = "Invalid Response";
             }
         }
     }

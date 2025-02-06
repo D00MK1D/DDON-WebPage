@@ -2,19 +2,133 @@
 
 <PageTitle>DDON-WebPage</PageTitle>
 
+<MudThemeProvider />
+<MudPopoverProvider />
+<MudDialogProvider />
+<MudSnackbarProvider />
+
+
+<div>
+    <a>
+        <img class="ddo-logo" src=".\img\DdonLogo.png" />
+    </a>
+</div>
+
+<img class="ddo-nav-bar" src=".\img\NavBar.png" />
+
 <div class="page">
-    <div class="sidebar">
-        <NavMenu />
+    <div class="MudSideBar">
+        ﻿
+        <MudMenu Color="Color.Inherit"
+                 Variant="Variant.Text"
+                 PopoverClass="docs-layout-menu-shadow"
+                 LockScroll="true"
+                 Label="Get Started"
+                 EndIcon="@Icons.Material.Filled.ArrowDropDown"
+                 AnchorOrigin="Origin.BottomCenter"
+                 TransformOrigin="Origin.TopCenter">
+
+            <MudList T="string">
+
+                <MudListItem Href="/faq">
+                    <div>
+                        <MudText Color="Color.Primary">FAQ</MudText>
+                    </div>
+                    <MudText Typo="Typo.body2">See general info about<br />the game</MudText>
+                    __________________________
+                </MudListItem>
+
+                <MudListItem Href="/download-game">
+                    <div>
+                        <MudText style="color: goldenrod">Download The Game</MudText>
+                    </div>
+                    <MudText Typo="Typo.body2">Find links to begin your<br />adventure in Dragon's Dogma</MudText>
+                    __________________________
+                </MudListItem>
+
+                <MudListItem Href="/download-misc">
+                    <div>
+                        <MudText Color="Color.Error">Misc Downloads</MudText>
+                    </div>
+                    <MudText Typo="Typo.body2">Explore some available mods<br />and launchers</MudText>
+                    __________________________
+                </MudListItem>
+
+                <MudListItem Href="/about">
+                    <div>
+                        <MudText Color="Color.Tertiary">About This Server</MudText>
+                    </div>
+                    <MudText Typo="Typo.body2">Know more about our server</MudText>
+                </MudListItem>
+
+            </MudList>
+
+        </MudMenu>
+
+        <MudButton Href="/docs/overview" Color="Color.Inherit" Variant="Variant.Text">Docs</MudButton>
+
+        <MudButton Href="/mud/introduction" Color="Color.Inherit" Variant="Variant.Text">Learn More</MudButton>
+
+        <MudMenu Color="Color.Inherit"
+                 Variant="Variant.Text"
+                 Class="mx-1 px-3"
+                 PopoverClass="docs-layout-menu-shadow"
+                 ListClass="d-flex px-4 pb-2 docs-appbar-special-menu"
+                 LockScroll="true"
+                 Label="Community"
+                 EndIcon="@Icons.Material.Filled.KeyboardArrowDown"
+                 AnchorOrigin="Origin.BottomCenter"
+                 TransformOrigin="Origin.TopCenter">
+
+            <MudList T="string">
+
+                <MudListSubheader>
+                    Community
+                </MudListSubheader>
+
+                <MudListItem Href="https://mudblazor.com/">
+                    <div class="d-flex">
+                        <MudText Color="Color.Primary">MudBlazor</MudText>
+                    </div>
+                    <MudText Typo="Typo.body2">Blazor component library</MudText>
+                </MudListItem>
+
+                <MudListItem Href="https://try.mudblazor.com/">
+                    <div class="d-flex">
+                        <MudText Color="Color.Primary">Try</MudText><MudText>MudBlazor</MudText>
+                    </div>
+                    <MudText Typo="Typo.body2">Online code editor with Blazor</MudText>
+                </MudListItem>
+
+                <MudListItem Href="https://github.com/MudBlazor/ThemeManager">
+                    <div class="d-flex">
+                        <MudText>Theme</MudText><MudText Color="Color.Secondary">Manager</MudText>
+                    </div>
+                    <MudText Typo="Typo.body2">Manage your theme live in your app</MudText>
+                </MudListItem>
+
+                <MudListItem Href="https://github.com/MudBlazor/Templates">
+                    <div class="d-flex">
+                        <MudText>Templates</MudText>
+                    </div>
+                    <MudText Typo="Typo.body2">Blazor templates loaded with MudBlazor</MudText>
+                </MudListItem>
+
+            </MudList>
+
+        </MudMenu>
+
+        <MudSpacer />
+
     </div>
+</div>
 
+
+
+<div>
     <main>
-        <div class="top-row px-4">
-            <a href="https://github.com/D00MK1D/DDON-WebPage/" target="_blank">
-                GitHub Project Page
-            </a>
-        </div>
+        <article>
 
-        <article class="content px-4">
             @Body
         </article>
     </main>

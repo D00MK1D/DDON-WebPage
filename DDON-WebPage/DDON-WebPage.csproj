@@ -1,11 +1,20 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
+    <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>DDON_WebPage</RootNamespace>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="Shared\NavMenu.razor" />
+    <Content Remove="Shared\SurveyPrompt.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Shared\NavMenu.razor.css" />
+  </ItemGroup>
 
   <ItemGroup>
     <None Include="wwwroot\img\DdonLogo.png" />
@@ -32,6 +41,10 @@
     <None Include="wwwroot\img\monsters\MonsterSphinx.png" />
     <None Include="wwwroot\img\monsters\MonsterTroll.png" />
     <None Include="wwwroot\img\SlayGoblinsForUs.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MudBlazor" Version="8.2.0" />
   </ItemGroup>
 
 </Project>
