@@ -21,72 +21,156 @@
     .text-field{
         color: rgb(195,195,195);
         background-image: linear-gradient(180deg, #181818 0%, #313231 50%, #181818 100% );
-        border: solid 2px #3C3B3C;
+        
     }
+
 </Style>
 
 <body class="body-index">
     <div class="index-body">
         <br />
-        <MudPaper style="margin-left:auto;margin-right:auto;background-color:rgba(30,30,30,1);" Height="400px" Width="50%">
+        <MudPaper style="margin-left:2%;margin-right:auto;background-color:rgba(30,30,30,0.9);float:left;" Height="320px" Width="270px">
             <MudContainer MaxWidth="MaxWidth.Small">
-                <MudPaper style="background-color:rgba(20,20,20,1);" Height="30px" Width="100%">
+                <MudPaper style="background-color:rgba(20,20,20,0.70);margin-left:-24px;margin-right:-24px" Height="30px">
                     <MudContainer>
 
-                        <MudText style="color:rgb(195,195,195);" Align="Align.Left"><b>Login</b></MudText>
+                        <MudText style="color:rgb(195,195,195);padding-top:5px;" Align="Align.Left"><b>Login</b></MudText>
                 </MudContainer>
                 </MudPaper>
                 
                 <br />
-                <br />
-                <MudText style="margin-left:auto;margin-right:auto;color:rgb(195,195,195);" Align=" Align.Center"><h1>Login Page</h1></MudText>
-
-
-
+               
                 <MudTr>
                     <MudTd>
                         <MudTextField @bind-value="@account" Class="text-field"
-                        Immediate="true"
-                        tabindex="1"
-                        style="color:rgb(195,195,195);"
-                        Label="Account"
-                        Variant="Variant.Outlined">
+                                      Immediate="true"
+                                      tabindex="1"
+                                      Label="Account"
+                                      Variant="Variant.Outlined">
                         </MudTextField>
 
-                        <MudButton @onclick="Login"
-                            Class="index-button"
-                        Variant="Variant.Filled"
-                        tabindex="3">Login</MudButton>
+                        <MudTextField Class="text-field" InputType="@PasswordInput"
+                                      @bind-value="@password"
+                                      Immediate="true"
+                                      tabindex="2"
+                                      Label="Password"
+                                      Adornment="Adornment.End"
+                                      AdornmentIcon="@PasswordInputIcon"
+                                      OnAdornmentClick="@ShowPassword"
+                                      AdornmentAriaLabel="Show Password"
+                                      Variant="Variant.Outlined">
+                        </MudTextField>
 
                     </MudTd>
+                </MudTr>
+                <MudTr>
                     <MudTd>
-                        <MudTextField Class="text-field" InputType="@PasswordInput"
-                        @bind-value="@password"
-                        Immediate="true"
-                        tabindex="2"
-                        Label="Password"
-                        Adornment="Adornment.End"
-                        AdornmentIcon="@PasswordInputIcon"
-                        OnAdornmentClick="@ShowPassword"
-                        AdornmentAriaLabel="Show Password"
-                        Variant="Variant.Outlined">
 
-                        </MudTextField>
+                        <MudButton @onclick="Login"
+                                   Class="index-button"
+                                   Variant="Variant.Filled"
+                                   tabindex="3">Login</MudButton>
 
                         <MudButton @onclick="Register"
                                    Class="index-button"
-                        tabindex="4">Register</MudButton>
+                                   tabindex="4">Register</MudButton>
                     </MudTd>
                 </MudTr>
-                <br />
-                <br />
-                <p style="color:white;">Server Response: @webToken</p>
 
+                <!--                <br />
+                <p style="color:white;">Server Response: @webToken</p>-->
             </MudContainer>
         </MudPaper>
 
-        <br />
+    </div>
 
+    <div>
+        <MudPaper Style="float:right;margin-right:2%;margin-left:auto;background-color:rgba(30,30,30,0.9);margin-bottom:2%;position:static" MinWidth="0px" Width="70%" MaxWidth="1250px">
+            <MudContainer>
+
+                <MudPaper style="background-color:rgba(20,20,20,0.70);margin-left:-24px;margin-right:-24px" Height="30px">
+                    <MudContainer>
+                        <MudText style="color:rgb(195,195,195);padding-top:5px;" Align="Align.Center"><b>Welcome Post</b></MudText>
+                        </MudContainer>
+                </MudPaper>
+
+                <div style="padding-top:10px;padding-bottom:10px;color:rgb(195,195,195)" class="card1-body1">
+                    <h2>That's it!</h2>
+                    <hr />
+                    <h3><p>Here are some type of text to describe first page of this site, <br />I hate this "Lorem Ipsium" or whatever, btw</p></h3>
+                    <h5><p style="text-align:center;">With this, we can post something like images, take a look:</p></h5>
+                    <img src="./img/DdonLogo.png" style="width:390px; margin-left:auto;margin-right:auto;display:block;"/>
+                </div>
+
+                <div style="padding-top:10px;padding-bottom:10px;color:rgb(195,195,195)" class="card2-body1">
+                </div>
+
+                <MudPaper style="background-color:rgba(20,20,20,0.70);margin-left:-24px;margin-right:-24px" Height="30px">
+                    <MudContainer>
+                        <MudText style="color:rgb(195,195,195);padding-top:5px;" Align="Align.Center"><b>Post About Updates</b></MudText>
+                    </MudContainer>
+                </MudPaper>
+                <div style="padding-top:10px;padding-bottom:10px;color:rgb(195,195,195)" class="card1-body2">
+                    <h2>Update Log [06/02/2025]</h2>
+                    <hr />
+                    <h5>
+                        <p>
+                            Hello great arisens!<br />
+                            <br />
+                            Yes, the first update post and yes, I format date with [dd/mm/yyyy]...<br />
+                            <br />
+                            I heard that tomorow we're getting a "Be my Valentine Pawn" and backups on Dixdros Server.<br />
+                            Not gonna lie, the moment I saw that ping, I tought it was someone having problems with my launcher...<br />
+                            <br />
+                            <hr />
+                            In Dogma Rising we're getting updates too!<br />
+                            <br />
+                            2 days ago I found MyLeg saying that he got:
+                            <br />
+                            <br />
+                            <ul>
+                                Volden Narrow Tunnel reworked;
+                                <br />
+                                Added IR90Armor Enhancement Materials;
+                                <br />
+                                And some BO Shop Items added as well.
+                                <br />
+                            </ul>
+                            That's it!<br />
+                            Wish you all a good weekend... when it comes.<br />
+                            <br />
+                            Bye and slay some goblins! <img src="./img/SlayGoblinsForUs.png" width="30px"/>
+                        </p>
+                    </h5>
+                </div>
+
+                <MudPaper style="background-color:rgba(20,20,20,0.70);margin-left:-24px;margin-right:-24px" Height="30px">
+                    <MudContainer>
+                        <MudText style="color:rgb(195,195,195);padding-top:5px;" Align="Align.Center"><b>Post About EXM</b></MudText>
+                    </MudContainer>
+                </MudPaper>
+                <div style="padding-top:10px;padding-bottom:10px;color:rgb(195,195,195)" class="card1-body3">
+                    <h2>Extreme Missions are...</h2>
+                    <hr />
+                    <h5>
+                        <p>
+                            I don't know literally nothing about EXM...<br />
+                            Maybe one day I'll take one of them.
+                        </p>
+                    </h5>
+                </div>
+
+                <MudPaper style="background-color:rgba(20,20,20,0.70);margin-left:-24px;margin-right:-24px" Height="30px">
+                    <MudContainer>
+                        <MudText style="color:rgb(195,195,195);padding-top:5px;" Align="Align.Center"><b>Post About RTX5090 Prices</b></MudText>
+                     </MudContainer>
+                </MudPaper>
+                <div style="padding-top:10px;padding-bottom:10px;color:rgb(195,195,195)" class="card1-body4">
+                    <p><h3>[Insert meme link here]</h3></p>
+                </div>
+
+            </MudContainer>
+        </MudPaper>
     </div>
 </body>
 @code {
@@ -130,7 +214,7 @@
         {
             Operation("login");
             await Task.Delay(5000);
-            webToken = "";
+            webToken = null;
         }
     }
 
@@ -140,7 +224,7 @@
         {
             Operation("create");
             await Task.Delay(5000);
-            webToken = "";
+            webToken = null;
         }
     }
 

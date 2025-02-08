@@ -6,17 +6,6 @@
 	background-attachment: fixed;
 }
 
-.text-field {
-	color: rgb(195,195,195);
-	border-color: #ADA684;
-	border-width: 4px;
-}.text-field:hover {
-	color: rgb(195,195,195);
-	border-color: #ADA684;
-	border-width:4px;
+hr{
+	border: solid 2px black;
 }
-	.text-field:active {
-		color: rgb(195,195,195);
-		border-color: #ADA684;
-		border-width: 4px;
-	}
