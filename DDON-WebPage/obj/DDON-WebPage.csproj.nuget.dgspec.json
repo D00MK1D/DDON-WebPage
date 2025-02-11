@@ -54,6 +54,10 @@
             "MudBlazor": {
               "target": "Package",
               "version": "[8.2.0, )"
+            },
+            "MudBlazor.ThemeManager": {
+              "target": "Package",
+              "version": "[3.0.0, )"
             }
           },
           "imports": [

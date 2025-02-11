@@ -45,6 +45,7 @@
 
   <ItemGroup>
     <PackageReference Include="MudBlazor" Version="8.2.0" />
+    <PackageReference Include="MudBlazor.ThemeManager" Version="3.0.0" />
   </ItemGroup>
 
 </Project>

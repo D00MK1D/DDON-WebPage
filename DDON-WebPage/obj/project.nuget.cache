@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Bpo4rnc6B9s=",
+  "dgSpecHash": "sMXkl0DOgm0=",
   "success": true,
   "projectFilePath": "E:\\Codes\\!GITHUB\\DDON-WebPage\\DDON-WebPage\\DDON-WebPage.csproj",
   "expectedPackageFiles": [
@@ -18,7 +18,8 @@
     "C:\\Users\\DoomKidZ\\.nuget\\packages\\microsoft.extensions.options\\9.0.1\\microsoft.extensions.options.9.0.1.nupkg.sha512",
     "C:\\Users\\DoomKidZ\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.1\\microsoft.extensions.primitives.9.0.1.nupkg.sha512",
     "C:\\Users\\DoomKidZ\\.nuget\\packages\\microsoft.jsinterop\\9.0.1\\microsoft.jsinterop.9.0.1.nupkg.sha512",
-    "C:\\Users\\DoomKidZ\\.nuget\\packages\\mudblazor\\8.2.0\\mudblazor.8.2.0.nupkg.sha512"
+    "C:\\Users\\DoomKidZ\\.nuget\\packages\\mudblazor\\8.2.0\\mudblazor.8.2.0.nupkg.sha512",
+    "C:\\Users\\DoomKidZ\\.nuget\\packages\\mudblazor.thememanager\\3.0.0\\mudblazor.thememanager.3.0.0.nupkg.sha512"
   ],
   "logs": []
 }

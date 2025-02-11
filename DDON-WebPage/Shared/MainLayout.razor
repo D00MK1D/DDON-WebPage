@@ -2,84 +2,150 @@
 
 <PageTitle>DDON-WebPage</PageTitle>
 
-<MudThemeProvider />
+<MudThemeProvider Theme="_themeManager.Theme" />
 <MudPopoverProvider />
 <MudDialogProvider />
 <MudSnackbarProvider />
+<MudLayout>
+    <MudThemeManagerButton OnClick="@((e) => OpenThemeManager(true))" />
+    <MudThemeManager Open="_themeManagerOpen" OpenChanged="OpenThemeManager" Theme="_themeManager" ThemeChanged="UpdateTheme" />
+</MudLayout>
+
+<style>
+    .mudtext-field {
+        color: rgb(195,195,195);
+    }
+
+    #GeneralHover:hover {
+        background-color: rgba(221,197,178,0.1)
+    }
+
+</style>
 
 
 <div>
-    <a>
+    <a href="/" class="ddo-logo">
         <img class="ddo-logo" src=".\img\DdonLogo.png" />
     </a>
 </div>
 
-<img class="ddo-nav-bar" src=".\img\NavBar.png" />
 
-<div class="page">
+<div class="ddo-nav-bar">
     <div class="MudSideBar">
         ﻿
-        <MudMenu Color="Color.Inherit"
+        <MudButton id="GeneralHover" Href="/" Color="Color.Inherit" Variant="Variant.Text">Home</MudButton>
+
+        <MudMenu id="GeneralHover"
+                 Dense="true"
                  Variant="Variant.Text"
-                 PopoverClass="docs-layout-menu-shadow"
-                 LockScroll="true"
+                 LockScroll="false"
                  Label="Get Started"
                  EndIcon="@Icons.Material.Filled.ArrowDropDown"
-                 AnchorOrigin="Origin.BottomCenter"
-                 TransformOrigin="Origin.TopCenter">
+                 AnchorOrigin="Origin.BottomLeft"
+                 TransformOrigin="Origin.TopLeft"
+                 onclick="close">
 
-            <MudList T="string">
+            <MudList T="string" Class="MudList-List">
 
-                <MudListItem Href="/faq">
+                <MudListItem id="GeneralHover" Href="/faq">
                     <div>
-                        <MudText Color="Color.Primary">FAQ</MudText>
+                        <MudText style="color: rgb(181 177 148)">FAQ</MudText>
                     </div>
-                    <MudText Typo="Typo.body2">See general info about<br />the game</MudText>
-                    __________________________
+                    <MudText class="mudtext-field" Typo="Typo.body2">See general info about<br />the game</MudText>
+
                 </MudListItem>
 
-                <MudListItem Href="/download-game">
+                <MudListItem id="GeneralHover" Href="/download-game">
                     <div>
-                        <MudText style="color: goldenrod">Download The Game</MudText>
+                        <MudText style="color: rgb(181 177 148)">Download The Game</MudText>
                     </div>
-                    <MudText Typo="Typo.body2">Find links to begin your<br />adventure in Dragon's Dogma</MudText>
-                    __________________________
+                    <MudText class="mudtext-field" Typo="Typo.body2">Find links to begin your<br />adventure in Dragon's Dogma</MudText>
+
                 </MudListItem>
 
-                <MudListItem Href="/download-misc">
+                <MudListItem id="GeneralHover" Href="/download-misc">
                     <div>
-                        <MudText Color="Color.Error">Misc Downloads</MudText>
+                        <MudText style="color: rgb(181 177 148)">Misc Downloads</MudText>
                     </div>
-                    <MudText Typo="Typo.body2">Explore some available mods<br />and launchers</MudText>
-                    __________________________
+                    <MudText class="mudtext-field" Typo="Typo.body2">Explore some available mods<br />and launchers</MudText>
+
                 </MudListItem>
 
-                <MudListItem Href="/about">
+                <MudListItem id="GeneralHover" Href="/about">
                     <div>
-                        <MudText Color="Color.Tertiary">About This Server</MudText>
+                        <MudText style="color: rgb(181 177 148)">About This Server</MudText>
                     </div>
-                    <MudText Typo="Typo.body2">Know more about our server</MudText>
+                    <MudText class="mudtext-field" Typo="Typo.body2">Know more about our server</MudText>
+
+                </MudListItem>
+            </MudList>
+        </MudMenu>
+
+        <MudMenu id="GeneralHover"
+                 Variant="Variant.Text"
+                 LockScroll="false"
+                 Label="Utilities"
+                 Dense="true"
+                 EndIcon="@Icons.Material.Filled.ArrowDropDown"
+                 AnchorOrigin="Origin.BottomLeft"
+                 TransformOrigin="Origin.TopLeft">
+
+            <MudList T="string" Class="MudList-List">
+
+                <MudListItem id="GeneralHover" Href="/maps">
+                    <div>
+                        <MudText style="color: rgb(181 177 148)">Maps</MudText>
+                    </div>
+                    <MudText class="mudtext-field" Typo="Typo.body2">Choose a map to look after<br />Dungeon entrances and levels,<br />Enemies location and drops, <br />item drop list and more.</MudText>
+                    
+                    
+                     
+                                                                     
+                </MudListItem>
+
+                <MudListItem id="GeneralHover" Href="/download-game">
+                    <div>
+                        <MudText style="color: rgb(181 177 148)">Download The Game</MudText>
+                    </div>
+                    <MudText class="mudtext-field" Typo="Typo.body2">Find links to begin your<br />adventure in Dragon's Dogma</MudText>
+
+                </MudListItem>
+
+                <MudListItem id="GeneralHover" Href="/download-misc">
+                    <div>
+                        <MudText style="color: rgb(181 177 148)">Misc Downloads</MudText>
+                    </div>
+                    <MudText class="mudtext-field" Typo="Typo.body2">Explore some available mods<br />and launchers</MudText>
+
+                </MudListItem>
+
+                <MudListItem id="GeneralHover" Href="/about">
+                    <div>
+                        <MudText style="color: rgb(181 177 148)">About This Server</MudText>
+                    </div>
+                    <MudText class="mudtext-field" Typo="Typo.body2">Know more about our server</MudText>
+
                 </MudListItem>
 
             </MudList>
-
         </MudMenu>
 
-        <MudButton Href="/docs/overview" Color="Color.Inherit" Variant="Variant.Text">Docs</MudButton>
+        <MudButton 
+            id="GeneralHover" 
+            Href="/mud/introduction" 
+            Color="Color.Inherit" 
+            Variant="Variant.Text"> Learn More </MudButton>
 
-        <MudButton Href="/mud/introduction" Color="Color.Inherit" Variant="Variant.Text">Learn More</MudButton>
-
-        <MudMenu Color="Color.Inherit"
-                 Variant="Variant.Text"
-                 Class="mx-1 px-3"
-                 PopoverClass="docs-layout-menu-shadow"
-                 ListClass="d-flex px-4 pb-2 docs-appbar-special-menu"
-                 LockScroll="true"
-                 Label="Community"
-                 EndIcon="@Icons.Material.Filled.KeyboardArrowDown"
-                 AnchorOrigin="Origin.BottomCenter"
-                 TransformOrigin="Origin.TopCenter">
-
+        <MudMenu 
+            id="GeneralHover"
+            Color="Color.Inherit"
+            Variant="Variant.Text"
+            Label="Community"
+            
+            EndIcon="@Icons.Material.Filled.ArrowDropDown"
+            AnchorOrigin="Origin.BottomLeft"
+            TransformOrigin="Origin.TopLeft">
+            
             <MudList T="string">
 
                 <MudListSubheader>
@@ -133,3 +199,24 @@
         </article>
     </main>
 </div>
+
+@code {
+    private ThemeManagerTheme _themeManager = new ThemeManagerTheme();
+    public bool _themeManagerOpen = false;
+
+    void OpenThemeManager(bool value)
+    {
+        _themeManagerOpen = value;
+    }
+
+    void UpdateTheme(ThemeManagerTheme value)
+    {
+        _themeManager = value;
+        StateHasChanged();
+    }
+
+    protected override void OnInitialized()
+    {
+        StateHasChanged();
+    }
+}

@@ -251,6 +251,25 @@
         "buildMultiTargeting": {
           "buildMultiTargeting/MudBlazor.props": {}
         }
+      },
+      "MudBlazor.ThemeManager/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "9.0.1",
+          "MudBlazor": "8.0.0"
+        },
+        "compile": {
+          "lib/net9.0/MudBlazor.ThemeManager.dll": {}
+        },
+        "runtime": {
+          "lib/net9.0/MudBlazor.ThemeManager.dll": {}
+        },
+        "build": {
+          "buildTransitive/MudBlazor.ThemeManager.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/MudBlazor.ThemeManager.props": {}
+        }
       }
     }
   },
@@ -637,11 +656,33 @@
         "staticwebassets/MudBlazor.min.css",
         "staticwebassets/MudBlazor.min.js"
       ]
+    },
+    "MudBlazor.ThemeManager/3.0.0": {
+      "sha512": "Bu/pvCXPd+cW9Wgkyqo3OZEQa3G30LaQlo8Ul2rqgv/4MY77cS9PnLRTs1lXzLDsN+bN/K69+UNi1BrhlUDK3w==",
+      "type": "package",
+      "path": "mudblazor.thememanager/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Nuget.png",
+        "README.md",
+        "build/Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "build/MudBlazor.ThemeManager.props",
+        "buildMultiTargeting/MudBlazor.ThemeManager.props",
+        "buildTransitive/MudBlazor.ThemeManager.props",
+        "lib/net8.0/MudBlazor.ThemeManager.dll",
+        "lib/net9.0/MudBlazor.ThemeManager.dll",
+        "mudblazor.thememanager.3.0.0.nupkg.sha512",
+        "mudblazor.thememanager.nuspec",
+        "staticwebassets/MudBlazorThemeManager.css"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "MudBlazor >= 8.2.0"
+      "MudBlazor >= 8.2.0",
+      "MudBlazor.ThemeManager >= 3.0.0"
     ]
   },
   "packageFolders": {
@@ -698,6 +739,10 @@
           "MudBlazor": {
             "target": "Package",
             "version": "[8.2.0, )"
+          },
+          "MudBlazor.ThemeManager": {
+            "target": "Package",
+            "version": "[3.0.0, )"
           }
         },
         "imports": [
