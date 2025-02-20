@@ -7,21 +7,23 @@
     width: 250px;
 }
 .ddo-nav-bar {
-    background-image: linear-gradient(180deg,#313231 0%, #181818 100% );
-
-    border-top: solid 1px rgb(195,195,195);
-    border-bottom: solid 1px rgb(195,195,195);
-    
-    display: block;
-    
-    margin-left: auto;
-    margin-right: auto;
-    
+    background-image: url(./img/gui/Navbar.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     width: 100%;
     height: 38px;
 }
-.MudSideBar {
+
+.ddo-nav-bar-1 {
     width: 100%;
-    
     text-align: center;
+}
+
+.mudtext-field {
+    color: rgb(195,195,195);
+}
+
+.GeneralHover:hover {
+    background-color: rgba(221,197,178,0.1)
 }

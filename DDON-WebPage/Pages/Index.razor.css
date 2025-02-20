@@ -1,11 +1,4 @@
 ﻿
-.body-index {
-	background-image: url(./img/BackGround1.jpg);
-	background-size: cover;
-	background-position: center;
-	background-attachment: fixed;
-}
-
 hr{
 	border: solid 2px black;
 }

@@ -1,0 +1,200 @@
+﻿@page "/item-search"
+
+<PageTitle>Dragon's Dogma Online</PageTitle>
+<br />
+<br />
+
+<body>
+    <MudPaper Style="float:center;margin:auto;background-color:rgb(30,30,30);" Width="1000px" Height="600px">
+        <MudContainer>
+
+            <div class="header">
+                <MudPaper style="background-image:url(./img/gui/LightHead3.jpg);background-color:rgb(26,24,25);background-size:cover;background-repeat:no-repeat;margin-left:-24px;margin-right:-24px;" Height="30px">
+                    <MudContainer>
+                        <MudText style="color:rgb(181,174,148);padding-top:5px;" Align="Align.Left"><b>Item Search</b></MudText>
+                    </MudContainer>
+                </MudPaper>
+            </div>
+
+            <div class="list">
+                <MudPaper Elevation="15" Style="border:solid 2px;border-color:rgb(47,46,47);background-color:rgb(30,30,30);margin-top:22px;float:right;" Width="460px" Height="533px">
+                    <MudContainer>
+
+                        <MudTable T="string" Dense="true" Style="color:rgb(195,195,195);font-size:xx-large;background-color:rgba(0,0,0,0);">
+                            @foreach (string subcategory in SubcategoryAnimal)
+                            {
+                                <MudTr>
+                                    <MudTd><h6>@subcategory</h6></MudTd>
+                                    <MudTd><h6>10 z</h6></MudTd>
+                                </MudTr>
+                            }
+
+                        </MudTable>
+                    </MudContainer>
+                </MudPaper>
+            </div>
+
+            <div class="search">
+                <MudPaper style="background-color:rgb(30,30,30);margin-left:-24px;margin-right:51%;padding-top:2px;" Height="570px">
+                    <MudContainer>
+                        <MudPaper Elevation="15" Style="border:solid 2px; border-color:rgb(47,46,47);background-color:rgb(30,30,30);margin-left:0px;margin-right:0px;margin-top:20px;" Height="350px">
+                            <MudContainer>
+                                <MudText Align="Align.Left" style="color:rgb(181,174,148);padding-top:5px;font-size:larger;">
+                                    <b>Category</b>
+                                    <hr />
+                                    <div class="dropdown" id="category">
+                                        <MudSelect T="string" Clearable="true" @bind-Value=valueCat Label="Category">
+                                            @foreach (string category in Category)
+                                            {
+                                                <MudSelectItem T="string" Value="category">@category</MudSelectItem>
+                                            }
+                                        </MudSelect>
+                                    </div>
+
+                                    <div class="dropdown" id="subcategory">
+                                        <MudSelect T="string" Clearable="true" Label="Subcategory">
+                                            @{
+                                                if (valueCat == "Inorganic")
+                                                {
+                                                    foreach (string subcategory in SubcategoryInorganic)
+                                                    {
+                                                        <MudSelectItem T="string" Value="subcategory">@subcategory</MudSelectItem>
+                                                    }
+                                                }
+                                                else if (valueCat == "Plant")
+                                                {
+                                                    foreach (string subcategory in SubcategoryPlant)
+                                                    {
+                                                        <MudSelectItem T="string" Value="subcategory">@subcategory</MudSelectItem>
+                                                    }
+                                                }
+                                                else if (valueCat == "Animal")
+                                                {
+                                                    foreach (string subcategory in SubcategoryAnimal)
+                                                    {
+                                                        <MudSelectItem T="string" Value="subcategory">@subcategory</MudSelectItem>
+                                                    }
+                                                }
+                                                else if (valueCat == "Sewing")
+                                                {
+                                                    foreach (string subcategory in SubcategorySewing)
+                                                    {
+                                                        <MudSelectItem T="string" Value="subcategory">@subcategory</MudSelectItem>
+                                                    }
+                                                }
+                                                else if (valueCat == "Special")
+                                                {
+                                                    foreach (string subcategory in SubcategorySpecial)
+                                                    {
+                                                        <MudSelectItem T="string" Value="subcategory">@subcategory</MudSelectItem>
+                                                    }
+                                                }
+                                                else if (valueCat == "Crest")
+                                                {
+                                                    foreach (string subcategory in SubcategoryCrest)
+                                                    {
+                                                        <MudSelectItem T="string" Value="subcategory">@subcategory</MudSelectItem>
+                                                    }
+                                                }
+                                                else if (valueCat == "Refining Material")
+                                                {
+                                                    foreach (string subcategory in SubcategoryRefining)
+                                                    {
+                                                        <MudSelectItem T="string" Value="subcategory">@subcategory</MudSelectItem>
+                                                    }
+                                                }
+                                                else if (valueCat == "Regional Material")
+                                                {
+                                                    foreach (string subcategory in SubcategoryRegional)
+                                                    {
+                                                        <MudSelectItem T="string" Value="subcategory">@subcategory</MudSelectItem>
+                                                    }
+                                                }
+                                                else if (valueCat == null)
+                                                {
+                                                    <MudSelectItem T="string">Select an item category</MudSelectItem>
+                                                }
+                                            }
+                                        </MudSelect>
+                                    </div>
+
+                                </MudText>
+                            </MudContainer>
+                        </MudPaper>
+
+                        <MudPaper Elevation="15" Style="border: solid 2px; border-color:rgb(47,46,47);background-color:rgb(30,30,30);margin-left:0px;margin-right:0px;margin-top:20px;" Height="160px">
+                            <MudContainer>
+                                <MudText Align="Align.Left" style="color:rgb(181,174,148);padding-top:5px;font-size:larger;">
+                                    <b>Free Word Search (case insensitive)</b>
+                                    <hr />
+                                    <MudTextField T="string" Immediate="true"
+                                                  Label="Item Name"
+                                                  AdornmentIcon="@Icons.Material.Filled.ArrowRight"
+                                                  Variant="Variant.Outlined">
+                                    </MudTextField>
+                                </MudText>
+                            </MudContainer>
+                        </MudPaper>
+
+                    </MudContainer>
+                </MudPaper>
+            </div>
+
+
+
+        </MudContainer>
+    </MudPaper>
+
+
+</body>
+@code {
+    private string valueCat = "Nothing selected";
+    private string valueSubcat = "Nothing selected";
+
+    public readonly string[] Category =
+    [
+        "Inorganic", "Plant", "Animal", "Sewing",
+    "Special", "Crest", "Refining Material",
+    "Regional Material"
+    ];
+    private readonly string[] SubcategoryInorganic =
+    [
+        "All", "Ore", "Metal",
+    "Sand", "Gem", "Liquid"
+    ];
+    private readonly string[] SubcategoryPlant =
+    [
+        "All", "Grass",
+    "Mushroom", "Lumber"
+    ];
+    private readonly string[] SubcategoryAnimal =
+    [
+        "All", "Skin", "Bone",
+    "Fang", "Horn", "Feather", "Meat"
+    ];
+    private readonly string[] SubcategorySewing =
+    [
+        "All", "Cloth",
+    "String", "Fur"
+    ];
+    private readonly string[] SubcategorySpecial =
+    [
+        "All", "Scroll",
+    "Other", "Dye"
+    ];
+    private readonly string[] SubcategoryCrest =
+    [
+        "All", "For Weapon",
+    "For Armor"
+    ];
+    private readonly string[] SubcategoryRefining =
+    [
+        "All", "For Weapon",
+    "For Armor"
+    ];
+    private readonly string[] SubcategoryRegional =
+    [
+        "All", "For Weapon",
+    "For Armor"
+    ];
+}
