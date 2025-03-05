@@ -1,0 +1,252 @@
+﻿@page "/MyAccount"
+
+@using System.Text;
+@using System.Text.Json;
+@using System.Runtime.InteropServices;
+@using System.Net.Sockets;
+@inject ISnackbar Snackbar
+
+<PageTitle>Dragon's Dogma Online</PageTitle>
+
+<style>
+    .index-button {
+    color: rgb(195,195,195);
+    background-image: linear-gradient(180deg,#313231 0%, #181818 100% );
+    border: solid 2px #3C3B3C;
+    }
+
+    .index-button:hover {
+    border-color: rgb(181,177,148);
+    border-bottom-color: rgb(156,142,99);
+    }
+
+    .text-field {
+    color: rgb(195,195,195);
+    background-image: linear-gradient(180deg, #181818 0%, #313231 50%, #181818 100% );
+    }
+
+    hr {
+    border: solid 2px black;
+    }
+
+    .login {
+    margin-left: auto;
+    }
+
+    .MudAlert{
+    float:right;
+    margin-left:20px;
+    margin-top:100%;
+    margin-right:20px;
+    position:absolute;
+    width:80px;
+    }
+</style>
+
+<body>
+    <div class="login">
+        <br />
+        <MudPaper style="margin:auto;background-color:rgba(30,30,30,0.9);" Height="320px" Width="270px">
+            <MudContainer MaxWidth="MaxWidth.Small">
+                <MudPaper style="background-image:url(./img/gui/LightHead3.jpg);background-size:270px 30px;background-repeat:no-repeat;margin-left:-24px;margin-right:-24px;" Height="30px">
+                    <MudContainer>
+
+                        <MudText style="color:rgb(195,195,195);padding-top:5px;" Align="Align.Left"><b>Login</b></MudText>
+                    </MudContainer>
+                </MudPaper>
+
+                <br />
+
+                <MudTextField @bind-value="@account" Class="text-field"
+                Immediate="true"
+                tabindex="1"
+                Label="Account"
+                Variant="Variant.Outlined">
+
+                </MudTextField>
+
+                <MudTextField Class="text-field" InputType="@PasswordInput"
+                @bind-value="@password"
+                Immediate="true"
+                tabindex="2"
+                Label="Password"
+                Adornment="Adornment.End"
+                AdornmentIcon="@PasswordInputIcon"
+                OnAdornmentClick="@ShowPassword"
+                AdornmentAriaLabel="Show Password"
+                Variant="Variant.Outlined">
+                </MudTextField>
+                <br />
+                <MudButton @onclick="Login"
+                Class="index-button"
+                Variant="Variant.Filled"
+                style="float:left;"
+                Href="@hrefLogin"
+                tabindex="3">Login</MudButton>
+
+                <MudButton @onclick="Register"
+                Class="index-button"
+                style="float:right;"
+                tabindex="4">Register</MudButton>
+
+                <br />
+                <br />
+                <br />
+
+                @authToken
+
+
+            </MudContainer>
+        </MudPaper>
+    </div>
+    <div class="MudAlert">
+
+    </div>
+</body>
+
+
+@code {
+
+    public string account { get; set; }
+    public string password { get; set; }
+    public string webToken { get; set; }
+
+    bool isShow;
+    string PasswordInputIcon = Icons.Material.Filled.VisibilityOff;
+    InputType PasswordInput = InputType.Password;
+
+    void ShowPassword()
+    {
+        if (isShow)
+        {
+            isShow = false;
+            PasswordInputIcon = Icons.Material.Filled.VisibilityOff;
+            PasswordInput = InputType.Password;
+        }
+        else
+        {
+            isShow = true;
+            PasswordInputIcon = Icons.Material.Filled.Visibility;
+            PasswordInput = InputType.Text;
+        }
+
+    }
+
+    //---Authentication code
+    public class ServerResponse
+    {
+        public string Error { get; set; }
+        public string Message { get; set; }
+        public string Token { get; set; }
+    }
+    public MudAlert alert = new MudAlert();
+
+    string hrefLogin = "/MyAccount";
+    string authToken = "";
+
+    public async void Login()
+    {
+        if (account != "" && password != "")
+        {
+            Operation("login");
+            ActionAlert();
+            hrefLogin = "/MyAccount" + "?" + authToken; // TODO - implement generic pages referencing user on link bar
+        }
+    }
+
+    public async void Register()
+    {
+        if (account != "" && password != "")
+        {
+            Operation("create");
+            ActionAlert();
+        }
+    }
+
+    public void ActionAlert()
+    {
+        if (webToken != "Login Success" && webToken != "Account created")
+        {
+            Snackbar.Add(webToken, Severity.Info);
+        }
+        else
+        {
+            Snackbar.Add(webToken, Severity.Success);
+        }
+    }
+
+    private async void Operation(string action)
+    {
+        var requestData = new
+        {
+            Action = action,
+            Account = account,
+            Password = password,
+            Email = ""
+        };
+
+        var path = "/api/account";
+
+        if ((action == "create" || action == "login"))
+        {
+            string jsonData = JsonSerializer.Serialize(requestData);
+
+            string request = $"POST /api/account HTTP/1.1\r\n";
+            request += $"Host: localhost:52100\r\n";
+            request += "Content-Type: application/json\r\n";
+            request += $"Content-Length: {jsonData.Length}\r\n";
+            request += "Connection: close\r\n";
+            request += "\r\n";
+            request += jsonData;
+
+            var utf8Encoding = new UTF8Encoding(false);
+
+            try
+            {
+                using (TcpClient client = new TcpClient())
+                {
+                    client.ReceiveTimeout = 200;
+                    client.SendTimeout = 200;
+
+                    client.Connect("localhost", 52099);
+
+                    using (NetworkStream stream = client.GetStream())
+                    using (StreamWriter writer = new StreamWriter(stream, utf8Encoding))
+                    using (StreamReader reader = new StreamReader(stream, utf8Encoding))
+
+                    {
+                        writer.Write(request);
+                        writer.Flush();
+
+                        StringBuilder sb = new StringBuilder();
+                        string line;
+
+                        stream.ReadTimeout = 200;
+
+                        while ((line = reader.ReadLine()) != null)
+                        {
+                            sb.AppendLine(line);
+                        }
+
+                        string response = sb.ToString();
+
+                        var bodyStartIndex = response.IndexOf("\r\n\r\n") + 4;
+                        var responseBody = response.Substring(bodyStartIndex);
+
+                        ServerResponse sr = JsonSerializer.Deserialize<ServerResponse>(responseBody);
+
+                        if (sr.Error == null) { webToken = sr.Message; }
+                        else { webToken = sr.Error; }
+
+                        authToken = sr.Token;
+                    }
+                }
+            }
+            catch
+            {
+                webToken = "Invalid Response";
+            }
+        }
+    }
+
+}

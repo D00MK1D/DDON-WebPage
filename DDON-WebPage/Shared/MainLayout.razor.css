@@ -8,10 +8,10 @@
 }
 .ddo-nav-bar {
     background-image: url(./img/gui/Navbar.png);
-    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 100%;
+    background-repeat: no-repeat;
+
     height: 38px;
 }
 

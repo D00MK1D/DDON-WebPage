@@ -1,89 +1,11 @@
 ﻿@page "/"
-@using System.Text;
-@using System.Text.Json;
-@using System.Runtime.InteropServices;
-@using System.Net.Sockets;
 
 <PageTitle>Dragon's Dogma Online</PageTitle>
 
-<Style>
-    .index-button{
-        color: rgb(195,195,195);
-        background-image: linear-gradient(180deg,#313231 0%, #181818 100% );
-        border: solid 2px #3C3B3C;
-    }
-
-    .index-button:hover{
-            border-color: rgb(181,177,148);
-            border-bottom-color: rgb(156,142,99);
-    }
-
-    .text-field{
-        color: rgb(195,195,195);
-        background-image: linear-gradient(180deg, #181818 0%, #313231 50%, #181818 100% );
-        
-    }
-</Style>
-
 <body>
-    <div>
-        <br />
-        <MudPaper style="margin-left:2%;margin-right:auto;background-color:rgba(30,30,30,0.9);float:left;" Height="320px" Width="270px">
-            <MudContainer MaxWidth="MaxWidth.Small">
-                <MudPaper style="background-color:rgba(20,20,20,0.70);margin-left:-24px;margin-right:-24px" Height="30px">
-                    <MudContainer>
-
-                        <MudText style="color:rgb(195,195,195);padding-top:5px;" Align="Align.Left"><b>Login</b></MudText>
-                </MudContainer>
-                </MudPaper>
-                
-                <br />
-               
-                <MudTr>
-                    <MudTd>
-                        <MudTextField @bind-value="@account" Class="text-field"
-                                      Immediate="true"
-                                      tabindex="1"
-                                      Label="Account"
-                                      Variant="Variant.Outlined">
-                        </MudTextField>
-
-                        <MudTextField Class="text-field" InputType="@PasswordInput"
-                                      @bind-value="@password"
-                                      Immediate="true"
-                                      tabindex="2"
-                                      Label="Password"
-                                      Adornment="Adornment.End"
-                                      AdornmentIcon="@PasswordInputIcon"
-                                      OnAdornmentClick="@ShowPassword"
-                                      AdornmentAriaLabel="Show Password"
-                                      Variant="Variant.Outlined">
-                        </MudTextField>
-
-                    </MudTd>
-                </MudTr>
-                <MudTr>
-                    <MudTd>
-
-                        <MudButton @onclick="Login"
-                                   Class="index-button"
-                                   Variant="Variant.Filled"
-                                   tabindex="3">Login</MudButton>
-
-                        <MudButton @onclick="Register"
-                                   Class="index-button"
-                                   tabindex="4">Register</MudButton>
-                    </MudTd>
-                </MudTr>
-
-                <!--                <br />
-                <p style="color:white;">Server Response: @webToken</p>-->
-            </MudContainer>
-        </MudPaper>
-    </div>
 
     <div>
-        <MudPaper Style="box-sizing: border-box;float:right;margin-right:2%;margin-left:auto;background-color:rgba(30,30,30,0.9);margin-bottom:2%;position:static" MinWidth="0px" Width="70%" MaxWidth="1250px">
+        <MudPaper Style="box-sizing: border-box;margin-right:auto;margin-left:auto;background-color:rgba(30,30,30,0.9);margin-bottom:2%;margin-top:2%;position:static" MinWidth="0px" Width="70%" MaxWidth="1250px">
             <MudContainer>
 
                 <MudPaper style="background-color:rgba(20,20,20,0.70);margin-left:-24px;margin-right:-24px" Height="30px">
@@ -95,7 +17,7 @@
                 <div style="padding-top:10px;padding-bottom:10px;color:rgb(195,195,195)" class="card1-body1">
                     <h2>That's it!</h2>
                     <hr />
-                    <h3><p>Here are some type of text to describe first page of this site, <br />I hate this "Lorem Ipsium" or whatever, btw</p></h3>
+                    <h3><p>Here are some type of text to describe first page of this site, <br />I hate this "Lorem Ipsum" or whatever, btw</p></h3>
                     <h5><p style="text-align:center;">With this, we can post something like images, take a look:</p></h5>
                     <img src="./img/DdonLogo.png" style="width:390px; margin-left:auto;margin-right:auto;display:block;"/>
                 </div>
@@ -173,138 +95,5 @@
 </body>
 @code {
 
-    public string account { get; set; }
-    public string password { get; set; }
-    public string webToken { get; set; }
 
-    bool isShow;
-    string PasswordInputIcon = Icons.Material.Filled.VisibilityOff;
-    InputType PasswordInput = InputType.Password;
-
-    void ShowPassword()
-    {
-        if (isShow)
-        {
-            isShow = false;
-            PasswordInputIcon = Icons.Material.Filled.VisibilityOff;
-            PasswordInput = InputType.Password;
-        }
-        else
-        {
-            isShow = true;
-            PasswordInputIcon = Icons.Material.Filled.Visibility;
-            PasswordInput = InputType.Text;
-        }
-
-    }
-
-    //---Authentication code
-    public class ServerResponse
-    {
-        public string Error { get; set; }
-        public string Message { get; set; }
-        public string Token { get; set; }
-    }
-
-    public async void Login()
-    {
-        if (account != null && password != null)
-        {
-            Operation("login");
-            await Task.Delay(5000);
-            webToken = null;
-        }
-    }
-
-    public async void Register()
-    {
-        if (account != null && password != null)
-        {
-            Operation("create");
-            await Task.Delay(5000);
-            webToken = null;
-        }
-    }
-
-    private async void Operation(string action)
-    {
-        var requestData = new
-        {
-            Action = action,
-            Account = account,
-            Password = password,
-            Email = ""
-        };
-
-        var path = "/api/account";
-
-        if ((action == "create" || action == "login"))
-        {
-            string jsonData = JsonSerializer.Serialize(requestData);
-
-            string request = $"POST {path} HTTP/1.1\r\n";
-            request += $"Host: 127.0.0.1:52100\r\n";
-            request += "Content-Type: application/json\r\n";
-            request += $"Content-Length: {jsonData.Length}\r\n";
-            request += "Connection: close\r\n";
-            request += "\r\n";
-            request += jsonData;
-
-            var utf8Encoding = new UTF8Encoding(false);
-
-            try
-            {
-                using (TcpClient client = new TcpClient())
-                {
-                    client.ReceiveTimeout = 5000;
-                    client.SendTimeout = 5000;
-
-                    client.Connect("127.0.0.1", 52099);
-
-                    using (NetworkStream stream = client.GetStream())
-                    using (StreamWriter writer = new StreamWriter(stream, utf8Encoding))
-                    using (StreamReader reader = new StreamReader(stream, utf8Encoding))
-
-                    {
-                        writer.Write(request);
-                        writer.Flush();
-
-                        StringBuilder sb = new StringBuilder();
-                        string line;
-
-                        stream.ReadTimeout = 5000;
-
-                        while ((line = reader.ReadLine()) != null)
-                        {
-                            sb.AppendLine(line);
-                        }
-
-                        string response = sb.ToString();
-
-                        var bodyStartIndex = response.IndexOf("\r\n\r\n") + 4;
-                        var responseBody = response.Substring(bodyStartIndex);
-
-                        ServerResponse sr = JsonSerializer.Deserialize<ServerResponse>(responseBody);
-
-                        if (sr.Message == "Login Success")
-                        {
-                            webToken = sr.Token;
-                        }
-                        else if (sr.Error == null)
-                        {
-                            webToken = sr.Message;
-                        }
-                        else
-                        {
-                            webToken = sr.Error;
-                        }
-                    }
-                }
-            }
-            catch
-            {
-                webToken = "Invalid Response";
-            }
-        }
-    }
 }

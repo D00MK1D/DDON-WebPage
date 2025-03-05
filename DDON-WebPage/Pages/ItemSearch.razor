@@ -52,7 +52,7 @@
                                     </div>
 
                                     <div class="dropdown" id="subcategory">
-                                        <MudSelect T="string" Clearable="true" Label="Subcategory">
+                                        <MudSelect T="string" Clearable="true" @bind-Value=valueSubcat Label ="Subcategory">
                                             @{
                                                 if (valueCat == "Inorganic")
                                                 {
@@ -128,9 +128,9 @@
                                     <b>Free Word Search (case insensitive)</b>
                                     <hr />
                                     <MudTextField T="string" Immediate="true"
-                                                  Label="Item Name"
-                                                  AdornmentIcon="@Icons.Material.Filled.ArrowRight"
-                                                  Variant="Variant.Outlined">
+                                    Label="Item Name"
+                                    AdornmentIcon="@Icons.Material.Filled.ArrowRight"
+                                    Variant="Variant.Outlined">
                                     </MudTextField>
                                 </MudText>
                             </MudContainer>
@@ -145,9 +145,11 @@
         </MudContainer>
     </MudPaper>
 
-
 </body>
+
 @code {
+
+
     private string valueCat = "Nothing selected";
     private string valueSubcat = "Nothing selected";
 
