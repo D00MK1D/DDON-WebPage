@@ -11,10 +11,10 @@
                 <MudPaper style="background-color:rgba(20,20,20,0.70);margin-left:-24px;margin-right:-24px" Height="30px">
                     <MudContainer>
                         <MudText style="color:rgb(195,195,195);padding-top:5px;" Align="Align.Center"><b>Welcome Post</b></MudText>
-                        </MudContainer>
+                    </MudContainer>
                 </MudPaper>
 
-                <div style="padding-top:10px;padding-bottom:10px;color:rgb(195,195,195)" class="card1-body1">
+                <div class="posts">
                     <h2>That's it!</h2>
                     <hr />
                     <h3><p>Here are some type of text to describe first page of this site, <br />I hate this "Lorem Ipsum" or whatever, btw</p></h3>
@@ -22,19 +22,16 @@
                     <img src="./img/DdonLogo.png" style="width:390px; margin-left:auto;margin-right:auto;display:block;"/>
                 </div>
 
-                <div style="padding-top:10px;padding-bottom:10px;color:rgb(195,195,195)" class="card2-body1">
-                </div>
-
                 <MudPaper style="background-color:rgba(20,20,20,0.70);margin-left:-24px;margin-right:-24px" Height="30px">
                     <MudContainer>
                         <MudText style="color:rgb(195,195,195);padding-top:5px;" Align="Align.Center"><b>Post About Updates</b></MudText>
                     </MudContainer>
                 </MudPaper>
-                <div style="padding-top:10px;padding-bottom:10px;color:rgb(195,195,195)" class="card1-body2">
+                <div class="posts">
                     <h2>Update Log [06/02/2025]</h2>
                     <hr />
-                    <h5>
-                        <p>
+                    <p>
+                        <h5>
                             Hello great arisens!<br />
                             <br />
                             Yes, the first update post and yes, I format date with [dd/mm/yyyy]...<br />
@@ -48,20 +45,24 @@
                             2 days ago I found MyLeg saying that he got:
                             <br />
                             <br />
-                            <ul>
-                                Volden Narrow Tunnel reworked;
-                                <br />
-                                Added IR90Armor Enhancement Materials;
-                                <br />
-                                And some BO Shop Items added as well.
-                                <br />
-                            </ul>
+                        </h5>
+                            <h6>
+                                <ul>
+                                    <li>Volden Narrow Tunnel reworked;</li>
+                                    <br />
+                                    <li>Added IR90Armor Enhancement Materials;</li>
+                                    <br />
+                                    <li>And some BO Shop Items added as well.</li>
+                                    <br />
+                                </ul>
+                            </h6>
+                            <h5>
                             That's it!<br />
                             Wish you all a good weekend... when it comes.<br />
                             <br />
-                            Bye and slay some goblins! <img src="./img/SlayGoblinsForUs.png" width="30px"/>
+                            Bye and slay some goblins! <img src="./img/SlayGoblinsForUs.png" width="25"/>
+                            </h5>
                         </p>
-                    </h5>
                 </div>
 
                 <MudPaper style="background-color:rgba(20,20,20,0.70);margin-left:-24px;margin-right:-24px" Height="30px">
@@ -69,7 +70,7 @@
                         <MudText style="color:rgb(195,195,195);padding-top:5px;" Align="Align.Center"><b>Post About EXM</b></MudText>
                     </MudContainer>
                 </MudPaper>
-                <div style="padding-top:10px;padding-bottom:10px;color:rgb(195,195,195)" class="card1-body3">
+                <div class="posts">
                     <h2>Extreme Missions are...</h2>
                     <hr />
                     <h5>
@@ -83,9 +84,9 @@
                 <MudPaper style="background-color:rgba(20,20,20,0.70);margin-left:-24px;margin-right:-24px" Height="30px">
                     <MudContainer>
                         <MudText style="color:rgb(195,195,195);padding-top:5px;" Align="Align.Center"><b>Post About RTX5090 Prices</b></MudText>
-                     </MudContainer>
+                    </MudContainer>
                 </MudPaper>
-                <div style="padding-top:10px;padding-bottom:10px;color:rgb(195,195,195)" class="card1-body4">
+                <div class="posts">
                     <p><h3>[Insert meme link here]</h3></p>
                 </div>
 
@@ -94,6 +95,7 @@
     </div>
 </body>
 @code {
-
+    string postTitle = "Post Title";
+    string postBody = "Post Body";
 
 }

@@ -1,0 +1,29 @@
+.ddo-logo {
+    display: block;
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 250px;
+}
+.ddo-nav-bar {
+    background-image: url(./img/gui/Navbar.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 38px;
+}
+
+.ddo-nav-bar-1 {
+    width: 100%;
+    text-align: center;
+}
+
+.mudtext-field {
+    color: rgb(195,195,195);
+}
+
+.GeneralHover:hover {
+    background-color: rgba(221,197,178,0.1)
+}

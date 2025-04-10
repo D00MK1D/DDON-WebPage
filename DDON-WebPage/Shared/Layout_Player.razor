@@ -1,0 +1,251 @@
+﻿@inherits LayoutComponentBase
+
+<PageTitle>DDON-WebPage</PageTitle>
+
+<MudThemeProvider Theme="@_theme" IsDarkMode="true"  />
+<MudPopoverProvider />
+<MudDialogProvider />
+<MudSnackbarProvider />
+<MudLayout/>
+
+<style>
+    body {
+        background-image: url(./img/BackGround1.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+    .nav-bar-item:hover {
+        background-color: rgba(221,197,178,0.2);
+    }
+
+    .mudtext-field{
+        color: rgb(195,195,195);
+    }
+
+</style>
+
+
+<div>
+    <a href="/" class="ddo-logo">
+        <img class="ddo-logo" src=".\img\DdonLogo.png" />
+    </a>
+</div>
+
+
+<div class="ddo-nav-bar">
+    <div class="ddo-nav-bar-1">
+        ﻿
+        <MudButton class="nav-bar-item" Href="/" Color="Color.Inherit" Variant="Variant.Text">Home</MudButton>
+
+        <MudMenu class="nav-bar-item"
+                 Dense="true"
+                 Variant="Variant.Text"
+                 LockScroll="false"
+                 Label="Get Started"
+                 EndIcon="@Icons.Material.Filled.ArrowDropDown"
+                 AnchorOrigin="Origin.BottomLeft"
+                 TransformOrigin="Origin.TopLeft"
+                 ActivationEvent="@MouseEvent.MouseOver">
+
+            <MudList T="string" Class="MudList-List">
+
+                <MudListItem class="nav-bar-item" Href="/faq">
+                    <div>
+                        <MudText style="color: rgb(181, 177, 148)">FAQ</MudText>
+                    </div>
+                    <MudText class="mudtext-field" Typo="Typo.body2">See general info about<br />the game</MudText>
+
+                </MudListItem>
+
+                <MudListItem class="nav-bar-item" Href="/download-game">
+                    <div>
+                        <MudText style="color: rgb(181, 177, 148)">Download The Game</MudText>
+                    </div>
+                    <MudText class="mudtext-field" Typo="Typo.body2">Find links to begin your<br />adventure in Dragon's Dogma</MudText>
+
+                </MudListItem>
+
+                <MudListItem class="nav-bar-item" Href="/download-misc">
+                    <div>
+                        <MudText style="color: rgb(181, 177, 148)">Misc Downloads</MudText>
+                    </div>
+                    <MudText class="mudtext-field" Typo="Typo.body2">Explore some available mods<br />and launchers</MudText>
+
+                </MudListItem>
+
+                <MudListItem class="nav-bar-item" Href="/about">
+                    <div>
+                        <MudText style="color: rgb(181, 177, 148)">About This Server</MudText>
+                    </div>
+                    <MudText class="mudtext-field" Typo="Typo.body2">Know more about our server</MudText>
+
+                </MudListItem>
+            </MudList>
+        </MudMenu>
+
+        <MudMenu class="nav-bar-item"
+                 Variant="Variant.Text"
+                 LockScroll="false"
+                 Label="Utilities"
+                 Dense="true"
+                 EndIcon="@Icons.Material.Filled.ArrowDropDown"
+                 AnchorOrigin="Origin.BottomLeft"
+                 TransformOrigin="Origin.TopLeft"
+                 ActivationEvent="@MouseEvent.MouseOver">
+
+            <MudList T="string" Class="MudList-List">
+
+                <MudListItem class="nav-bar-item" Href="/maps">
+                    <div>
+                        <MudText style="color: rgb(181, 177, 148)">Maps</MudText>
+                    </div>
+                    <MudText class="mudtext-field" Typo="Typo.body2">Choose a map to look after<br />Dungeon entrances and levels,<br />Enemies location and drops, <br />item drop list and more.</MudText>
+
+
+
+                </MudListItem>
+
+                <MudListItem class="nav-bar-item" Href="/Item-Search">
+                    <div>
+                        <MudText style="color: rgb(181, 177, 148)">Item Search</MudText>
+                    </div>
+                    <MudText class="mudtext-field" Typo="Typo.body2">Find info about specific items <br /> that you can search by various filters</MudText>
+
+                </MudListItem>
+
+                <MudListItem class="nav-bar-item" Href="/download-misc">
+                    <div>
+                        <MudText style="color: rgb(181, 177, 148)">Misc Downloads</MudText>
+                    </div>
+                    <MudText class="mudtext-field" Typo="Typo.body2">Explore some available mods<br />and launchers</MudText>
+
+                </MudListItem>
+
+                <MudListItem class="nav-bar-item" Href="/about">
+                    <div>
+                        <MudText style="color: rgb(181, 177, 148)">About This Server</MudText>
+                    </div>
+                    <MudText class="mudtext-field" Typo="Typo.body2">Know more about our server</MudText>
+
+                </MudListItem>
+
+            </MudList>
+        </MudMenu>
+
+        <MudButton class="nav-bar-item"
+                   Href="/MyAccount"
+                   Color="Color.Inherit"
+                   Variant="Variant.Text"> My Account </MudButton>
+
+        <MudMenu class="nav-bar-item"
+                 Color="Color.Inherit"
+                 Variant="Variant.Text"
+                 Label="Community"
+                 EndIcon="@Icons.Material.Filled.ArrowDropDown"
+                 AnchorOrigin="Origin.BottomLeft"
+                 TransformOrigin="Origin.TopLeft"
+                 ActivationEvent="@MouseEvent.MouseOver">
+
+            <MudList T="string">
+
+                <MudListSubheader>
+                    Community
+                </MudListSubheader>
+
+                <MudListItem Href="https://mudblazor.com/">
+                    <div class="d-flex">
+                        <MudText Color="Color.Primary">MudBlazor</MudText>
+                    </div>
+                    <MudText Typo="Typo.body2">Blazor component library</MudText>
+                </MudListItem>
+
+                <MudListItem Href="https://try.mudblazor.com/">
+                    <div class="d-flex">
+                        <MudText Color="Color.Primary">Try</MudText><MudText>MudBlazor</MudText>
+                    </div>
+                    <MudText Typo="Typo.body2">Online code editor with Blazor</MudText>
+                </MudListItem>
+
+                <MudListItem Href="https://github.com/MudBlazor/ThemeManager">
+                    <div class="d-flex">
+                        <MudText>Theme</MudText><MudText Color="Color.Secondary">Manager</MudText>
+                    </div>
+                    <MudText Typo="Typo.body2">Manage your theme live in your app</MudText>
+                </MudListItem>
+
+                <MudListItem Href="https://github.com/MudBlazor/Templates">
+                    <div class="d-flex">
+                        <MudText>Templates</MudText>
+                    </div>
+                    <MudText Typo="Typo.body2">Blazor templates loaded with MudBlazor</MudText>
+                </MudListItem>
+
+            </MudList>
+
+        </MudMenu>
+
+        <MudSpacer />
+
+    </div>
+</div>
+
+
+<div>
+    <main>
+        <article>
+
+            @Body
+        </article>
+    </main>
+</div>
+
+
+@code {
+    private MudTheme? _theme = null;
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+
+        _theme = new()
+            {
+                PaletteDark = _darkPalette,
+                LayoutProperties = new LayoutProperties()
+            };
+
+        StateHasChanged();
+    }
+
+    private readonly PaletteDark _darkPalette = new()
+        {
+            Primary = "#b5b194ff", // Changed
+            Surface = "#1e1e1eff", // Changed
+//            Background = "#1a1a27",
+//            BackgroundGray = "#151521",
+//            AppbarText = "#92929f",
+//            AppbarBackground = "rgba(26,26,39,0.8)",
+//            DrawerBackground = "#1a1a27",
+//            ActionDefault = "#c3c3c3ff",
+//            ActionDisabled = "#9999994d",
+//            ActionDisabledBackground = "#605f6d4d",
+            TextPrimary = "#c3c3c3ff", // Changed
+            TextSecondary = "#c3c3c3ff", // Changed
+//            TextDisabled = "#ffffff33",
+            LinesInputs = "#b5b194ff", // Changed
+//            DrawerIcon = "#92929f",
+//            DrawerText = "#92929f",
+//            GrayLight = "#2a2833",
+//            GrayLighter = "#1e1e2d",
+//            Info = "#4a86ff",
+//            Success = "#3dcb6c",
+//            Warning = "#ffb545",
+//            Error = "#ff3f5f",
+//            LinesDefault = "#33323e",
+//            TableLines = "#33323e",
+//            Divider = "#292838",
+//            OverlayLight = "#1e1e2d80",
+        };
+
+}
