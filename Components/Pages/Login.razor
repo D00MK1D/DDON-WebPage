@@ -1,6 +1,7 @@
 ﻿@using DDON_WebPage.Components.Data
 @using Microsoft.AspNetCore.Authentication
 @using Microsoft.AspNetCore.Authentication.Cookies
+@using Microsoft.AspNetCore.Components.Authorization
 @using Microsoft.EntityFrameworkCore
 @using System.Security.Claims
 @using System.Text.Json
@@ -12,7 +13,7 @@
 
 @page "/Login"
 
-<PageTitle>Counter</PageTitle>
+<PageTitle>Dragon's Dogma Online</PageTitle>
 
 <MudTextField @bind-Value="account" Label="Usuário" />
 <MudTextField @bind-Value="password" Label="Senha" InputType="InputType.Password" />

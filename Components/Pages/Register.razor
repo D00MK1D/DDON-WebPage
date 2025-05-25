@@ -4,10 +4,12 @@
 @using Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http
 @using System.Text
 @using System.ComponentModel.DataAnnotations
+@using static DDON_WebPage.Components.Data.Models
+@inject ISnackbar Snackbar
 
 @page "/Register"
 
-<PageTitle>Register</PageTitle>
+<PageTitle>Dragon's Dogma Online</PageTitle>
 
 <EditForm Model="registerModel" OnValidSubmit="HandleValidSubmit">
 
@@ -34,22 +36,22 @@
             <MudTextField T="string" Label="Confirm Password" InputType="InputType.Password" Immediate="true"
                           @bind-Value="registerModel.ConfirmPassword"
                           For="@(() => registerModel.ConfirmPassword)" />
-
             <br />
             <br />
-
+            
+            <MudButton OnClick="() => Reg(registerModel.Name, registerModel.Password, registerModel.Email)" Variant="Variant.Filled" Color="Color.Primary" FullWidth="true">
+                Registrar
+            </MudButton>
 
         </MudPaper>
     </MudForm>
-
 </EditForm>
-<MudButton OnClick="() => Reg(registerModel.Name, registerModel.Password, registerModel.Email)" Variant="Variant.Filled" Color="Color.Primary" FullWidth="true">
-    Registrar
-</MudButton>
+
+
+
 @code{
     private MudForm form;
     private RegisterModel registerModel = new();
-
     ServerResponse? serverResponse;
 
     private class ServerResponse
@@ -69,22 +71,7 @@
         Reg(account, password, email);
     }
 
-    public class RegisterModel
-    {
-        [Required(ErrorMessage = "Account cannot be empty")]
-        public string Name { get; set; } = string.Empty;
 
-        [Required(ErrorMessage = "E-mail cannot be empty")]
-        [EmailAddress(ErrorMessage = "Invalid E-mail")]
-        public string Email { get; set; } = string.Empty;
-
-        [Required(ErrorMessage = "Password cannot be empty")]
-        public string Password { get; set; } = string.Empty;
-
-        [Required(ErrorMessage = "Confirm password")]
-        [Compare("Password", ErrorMessage = "Passwords don't match")]
-        public string ConfirmPassword { get; set; } = string.Empty;
-    }
 
     public async void Reg(string Account, string Password, string Email)
     {
