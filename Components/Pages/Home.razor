@@ -1,26 +1,10 @@
-﻿@inject AppDbContext Psql
-@using DDON_WebPage.Components.Data
-@using Microsoft.EntityFrameworkCore
-
-@page "/"
+﻿@page "/"
 
 
-<PageTitle>Home</PageTitle>
+<PageTitle>Dragon's Dogma Online'</PageTitle>
 
-<MudText Typo="Typo.h3" GutterBottom="true">Hello, world!</MudText>
-<MudText Class="mb-8">Welcome to your new app, powered by MudBlazor and the .NET 9 Template!</MudText>
-
-<MudAlert Severity="Severity.Normal">
-    You can find documentation and examples on our website here:
-    <MudLink Href="https://mudblazor.com" Target="_blank" Typo="Typo.body2" Color="Color.Primary">
-        <b>www.mudblazor.com</b>
-    </MudLink>
-</MudAlert>
-
-<br />
-
-
-<MudTable Items="accounts" Hover="true">
+@*
+<MudTable Items="listAccounts" Hover="true">
     <HeaderContent>
         <MudTh>Name</MudTh>
         <MudTh>Normal Name</MudTh>
@@ -41,14 +25,12 @@
         <MudTd DataLabel="Email Verified At">@context.EmailVerifieldAt</MudTd>
     </RowTemplate>
 </MudTable>
-
+*@
 
 
 @code {
-    private List<Account> accounts;
 
     protected override async Task OnInitializedAsync()
     {
-        accounts = await Psql.account.ToListAsync();
     }
 }
