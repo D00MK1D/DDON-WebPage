@@ -1,8 +1,23 @@
 ﻿
-<MudNavMenu>
-    <MudNavLink Href="" Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.Home">Home</MudNavLink>
-    <MudNavLink Href="Login" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.Login">Login</MudNavLink>
-    <MudNavLink Href="Register" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.AppRegistration">Register</MudNavLink>
+<style>
+    .NavMenu{
+        background-color: #1e1e1e;
+    }
+
+    .NavLink:hover{
+            filter: brightness(1.3);
+    }
+
+    .NavLink{
+            background-color: #1e1e1e;
+    }
+
+</style>
+
+<MudNavMenu class="NavMenu">
+    <MudNavLink class="NavLink" Href="" Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.Home">Home</MudNavLink>
+    <MudNavLink class="NavLink" Href="Login" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.Login">Login</MudNavLink>
+    <MudNavLink class="NavLink" Href="Register" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.AppRegistration">Register</MudNavLink>
 
 </MudNavMenu>
 

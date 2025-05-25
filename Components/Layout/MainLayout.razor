@@ -4,6 +4,9 @@
 <MudPopoverProvider />
 <MudDialogProvider />
 <MudSnackbarProvider />
+
+<link href="css/site.css" rel="stylesheet" />
+
 <MudLayout>
     <MudAppBar Elevation="1">
         <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Inherit" Edge="Edge.Start" OnClick="@((e) => DrawerToggle())" />
@@ -56,28 +59,34 @@
 
     private readonly PaletteLight _lightPalette = new()
     {
+        Surface = "#1e1e1e",
+        Primary = "#b5b194",
         Black = "#110e2d",
         AppbarText = "#424242",
         AppbarBackground = "rgba(255,255,255,0.8)",
         DrawerBackground = "#ffffff",
         GrayLight = "#e8e8e8",
+        TextPrimary = "#c3c3c3ff",
+        TextSecondary = "#c3c3c3ff",
         GrayLighter = "#f9f9f9",
+        LinesInputs = "#b5b194ff",
+
     };
 
     private readonly PaletteDark _darkPalette = new()
     {
-        Primary = "#7e6fff",
-        Surface = "#1e1e2d",
-        Background = "#1a1a27",
+        Primary = "#b5b194",
+        Surface = "#1e1e1e", //MudPaper color
+        Background = "#1f1f27", //Body Color
         BackgroundGray = "#151521",
         AppbarText = "#92929f",
-        AppbarBackground = "rgba(26,26,39,0.8)",
-        DrawerBackground = "#1a1a27",
-        ActionDefault = "#74718e",
+        AppbarBackground = "#1e1e1e", //Top Bar color
+        DrawerBackground = "#1e1e1e", //Side Bar color
+        ActionDefault = "#1e1e1e",
         ActionDisabled = "#9999994d",
-        ActionDisabledBackground = "#605f6d4d",
-        TextPrimary = "#b2b0bf",
-        TextSecondary = "#92929f",
+        ActionDisabledBackground = "#605f6d",
+        TextPrimary = "#c3c3c3ff",
+        TextSecondary = "#c3c3c3ff",
         TextDisabled = "#ffffff33",
         DrawerIcon = "#92929f",
         DrawerText = "#92929f",
@@ -88,6 +97,7 @@
         Warning = "#ffb545",
         Error = "#ff3f5f",
         LinesDefault = "#33323e",
+        LinesInputs = "#b5b194ff",
         TableLines = "#33323e",
         Divider = "#292838",
         OverlayLight = "#1e1e2d80",
