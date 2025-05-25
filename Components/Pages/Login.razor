@@ -1,0 +1,111 @@
+﻿@using DDON_WebPage.Components.Data
+@using Microsoft.AspNetCore.Authentication
+@using Microsoft.AspNetCore.Authentication.Cookies
+@using Microsoft.EntityFrameworkCore
+@using System.Security.Claims
+@using System.Text.Json
+@using System.Text
+@inject NavigationManager Navigation
+@inject AppDbContext Pgsql
+@inject IHttpContextAccessor HttpContextAccessor
+@inject CustomAuthenticationStateProvider AuthProvider
+
+@page "/Login"
+
+<PageTitle>Counter</PageTitle>
+
+<MudTextField @bind-Value="account" Label="Usuário" />
+<MudTextField @bind-Value="password" Label="Senha" InputType="InputType.Password" />
+<br />
+<br />
+<MudButton OnClick="LoginAsync" Color="Color.Primary" Variant="Variant.Filled">Entrar</MudButton>
+<a href="/ForgotPassword"> <MudText>Forgot My Password...</MudText> </a>
+<p style="color:red">@errorMessage</p>
+
+@code {
+
+    private string account;
+    private string password;
+    private string errorMessage;
+
+    ServerResponse serverResponse;
+
+    private class ServerResponse
+    {
+        public string Message { get; set; }
+        public string Error { get; set; }
+        public string Token { get; set; }
+    }
+
+    private async Task LoginAsync()
+    {
+
+        string jsonData;
+
+        using (HttpClient client = new HttpClient())
+        {
+            var path = "/api/account";
+            var requestData = new
+            {
+                Action = "login",
+                Account = account,
+                Password = password
+            };
+
+            jsonData = JsonSerializer.Serialize(requestData);
+            var content = new StringContent(jsonData, Encoding.UTF8, "application/json");
+            client.DefaultRequestVersion = System.Net.HttpVersion.Version11;
+            HttpResponseMessage response = new HttpResponseMessage();
+
+            try
+            {
+                response = await client.PostAsync("http://localhost:52099" + path, content);
+            }
+            catch (HttpRequestException e)
+            {
+                //snackbar? (i think yes....)
+            }
+
+            var responseBody = await response.Content.ReadAsStringAsync();
+
+            try
+            {
+                serverResponse = JsonSerializer.Deserialize<ServerResponse>(responseBody);
+
+                if (serverResponse.Message == "Login Success")
+                {
+
+                    var user = await Pgsql.account.FirstOrDefaultAsync(u => u.Name == account);
+                    if (user == null)
+                    {
+                        errorMessage = "Usuário ou senha inválidos";
+                        return;
+                    }
+
+                    AuthProvider.MarkUserAsAuthenticated(user.Name, user.Id);
+                    if (user.State == 100)
+                    {
+                        Navigation.NavigateTo("/Admin");
+                    }
+                    else
+                    {
+                        Navigation.NavigateTo("/Player");
+                        
+                    }
+
+                }
+
+            }
+            catch (JsonException e)
+            {
+                //another one... maybe?
+            }
+		}
+
+    }
+
+    private bool VerifyPassword(string Password, string storedPassword)
+    {
+        return Password == storedPassword;
+    }
+}

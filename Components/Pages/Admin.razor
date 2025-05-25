@@ -1,0 +1,38 @@
+﻿@attribute [Authorize]  
+@using DDON_WebPage.Components.Data
+@using Microsoft.AspNetCore.Authorization  
+@using Microsoft.AspNetCore.Components.Authorization
+@using Microsoft.EntityFrameworkCore
+@inject AppDbContext Pgsql
+@inject AuthenticationStateProvider AuthProvider  
+
+@page "/Admin"  
+
+<PageTitle>DDON - Admin</PageTitle>  
+
+<h3>!!! Admin Area !!!</h3>  
+
+@code {
+
+    private string? UserName { get; set; }  
+    Account accounts = new();
+
+    protected override async Task OnInitializedAsync()  
+    {  
+        var authState = await AuthProvider.GetAuthenticationStateAsync();  
+        var user = authState.User;
+
+        var account = Pgsql.account.FirstOrDefaultAsync(st => st.State == 100);
+
+        if (user.Identity?.IsAuthenticated == true && accounts.State == 100)  
+        {  
+            UserName = user.Identity.Name;  
+        }  
+        else  
+        {  
+            UserName = "Usuário não autenticado";  
+        }  
+    }  
+}  
+
+<p>Bem-vindo, @UserName</p>
