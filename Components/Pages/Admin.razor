@@ -3,36 +3,87 @@
 @using Microsoft.AspNetCore.Authorization  
 @using Microsoft.AspNetCore.Components.Authorization
 @using Microsoft.EntityFrameworkCore
+@using static DDON_WebPage.Components.Data.Models
 @inject AppDbContext Pgsql
-@inject AuthenticationStateProvider AuthProvider  
+@inject AuthenticationStateProvider AuthProvider
+@inject ISnackbar Snackbar
 
 @page "/Admin"  
 
-<PageTitle>DDON - Admin</PageTitle>  
+<PageTitle>DDON - Admin Page</PageTitle>  
 
-<h3>!!! Admin Area !!!</h3>  
+<MudPaper Class="pa-6 mx-auto" Style="max-width:600px;">
+    <MudText Typo="Typo.h5" Align="Align.Center" Class="mb-4">Informações da Conta</MudText>
+
+    <MudGrid>
+        <MudItem xs="12">
+            <MudTextField T="string" Label="Account Name"
+                          @bind-Value="UserName"
+                          ReadOnly="true"
+                          Variant="Variant.Outlined" />
+        </MudItem>
+
+        <MudItem xs="12">
+            <MudTextField T="string" Label="Password"
+                          InputType="InputType.Password"
+                          @bind-Value="updateModel.Password"
+                          Variant="Variant.Outlined" />
+        </MudItem>
+
+        <MudItem xs="12">
+            <MudTextField T="string" Label="Email"
+                          @bind-Value="updateModel.Email"
+                          Variant="Variant.Outlined" />
+        </MudItem>
+
+        <MudItem Style="align-content:flex-end">
+            <MudButton Color="Color.Primary" Variant="Variant.Filled" OnClick="SaveChanges">Save</MudButton>
+            <MudButton Color="Color.Error" Variant="Variant.Filled" Href="/">Cancel</MudButton>
+        </MudItem>
+
+    </MudGrid>
+</MudPaper>
 
 @code {
-
+    private UpdateModel updateModel = new();
     private string? UserName { get; set; }  
-    Account accounts = new();
 
     protected override async Task OnInitializedAsync()  
     {  
         var authState = await AuthProvider.GetAuthenticationStateAsync();  
         var user = authState.User;
 
-        var account = Pgsql.account.FirstOrDefaultAsync(st => st.State == 100);
+        var account = await Pgsql.account.FirstOrDefaultAsync(u => u.Name == UserName);
 
-        if (user.Identity?.IsAuthenticated == true && accounts.State == 100)  
+        if (user.Identity is { IsAuthenticated: true })
         {  
             UserName = user.Identity.Name;  
-        }  
-        else  
-        {  
-            UserName = "Usuário não autenticado";  
-        }  
-    }  
-}  
 
-<p>Bem-vindo, @UserName</p>
+            if (account is not null)
+            {
+                updateModel.Email = account.Email;
+                updateModel.Password = account.Password;
+            }
+        }
+    } 
+
+    private async Task SaveChanges()
+    {
+        var account = await Pgsql.account.FirstOrDefaultAsync(u => u.Name == UserName);
+
+        if (account != null)
+        {
+            account.Email = updateModel.Email;
+            account.Password = updateModel.Password;
+            await Pgsql.SaveChangesAsync();
+        }
+    }
+
+    private List<Account> listAccounts;
+
+    private async void ListAccounts()
+    {
+        var accounts = await Pgsql.account.ToListAsync();
+		listAccounts = accounts;
+    }
+}  
