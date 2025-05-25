@@ -2,18 +2,15 @@
 @using DDON_WebPage.Components.Data
 @using Microsoft.AspNetCore.Authorization  
 @using Microsoft.AspNetCore.Components.Authorization  
-@using System.ComponentModel.DataAnnotations
 @using Microsoft.EntityFrameworkCore
-@using System.Security.Cryptography
+@using static DDON_WebPage.Components.Data.Models
 @inject AppDbContext Pgsql
-@inject CustomAuthenticationStateProvider AuthProvider
+@inject AuthenticationStateProvider AuthProvider
+@inject ISnackbar Snackbar
 
 @page "/Player"  
 
-<PageTitle>DDON - Admin</PageTitle>  
-
-<h3>Área Protegida</h3>  
-
+<PageTitle>Dragon's Dogma Online</PageTitle>
 
 <MudPaper Class="pa-6 mx-auto" Style="max-width:600px;">
     <MudText Typo="Typo.h5" Align="Align.Center" Class="mb-4">Informações da Conta</MudText>
@@ -39,48 +36,29 @@
                           Variant="Variant.Outlined" />
         </MudItem>
 
-
-
         <MudItem Style="align-content:flex-end">
             <MudButton Color="Color.Primary" Variant="Variant.Filled" OnClick="SaveChanges">Save</MudButton>
             <MudButton Color="Color.Error" Variant="Variant.Filled" Href="/">Cancel</MudButton>
         </MudItem>
+
     </MudGrid>
 </MudPaper>
-
-
 
 @code {
     private string? UserName { get; set; }
     private UpdateModel updateModel = new();
-
-    private List<Account> accounts;
-
-    private int SaltSize = 24;
-    private const int HashSize = 24;
-    private const int Iterations = 100000;
-
-    private static readonly RandomNumberGenerator Provider = RandomNumberGenerator.Create();
-
     
-        private static byte[] HashWithSalt(string input, Span<byte> salt)
-        {
-            Rfc2898DeriveBytes pbkdf2 = new Rfc2898DeriveBytes(input, salt.ToArray(), Iterations, HashAlgorithmName.SHA1);
-            return pbkdf2.GetBytes(HashSize);
-        }
-
     protected override async Task OnInitializedAsync()
     {
-        accounts = await Pgsql.account.ToListAsync();
-
         var authState = await AuthProvider.GetAuthenticationStateAsync();
         var user = authState.User;
+
+        var account = await Pgsql.account.FirstOrDefaultAsync(u => u.Name == UserName);
 
         if (user.Identity is { IsAuthenticated: true })
         {
             UserName = user.Identity.Name;
 
-            var account = await Pgsql.account.FirstOrDefaultAsync(u => u.Name == UserName);
             if (account is not null)
             {
                 updateModel.Email = account.Email;
@@ -89,41 +67,18 @@
         }
     }
 
+    //----- Save Changes -----//
     private async Task SaveChanges()
-{
-    var account = await Pgsql.account.FirstOrDefaultAsync(u => u.Name == UserName);
+    {
+        var account = await Pgsql.account.FirstOrDefaultAsync(u => u.Name == UserName);
     
-    if (account != null)
-    {
-        account.Email = updateModel.Email;
-
-        Span<byte> container = new byte[SaltSize + HashSize];
-        Span<byte> salt = container.Slice(0, SaltSize);
-        Provider.GetBytes(salt);
-        byte[] hash = HashWithSalt(updateModel.Password, salt);
-        hash.CopyTo(container.Slice(SaltSize, HashSize));
-
-        account.Password = Convert.ToBase64String(container);
-
-        await Pgsql.SaveChangesAsync();
+        if (account != null)
+        {
+            account.Email = updateModel.Email;
+            account.Password = updateModel.Password;
+            await Pgsql.SaveChangesAsync();
+        }
     }
-}
 
-    public class UpdateModel
-    {
-        public int Id { get; set; }
 
-        [Required(ErrorMessage = "E-mail cannot be empty")]
-        [EmailAddress(ErrorMessage = "Invalid E-mail")]
-        public string Email { get; set; } = string.Empty;
-
-        [Required(ErrorMessage = "Password cannot be empty")]
-        public string Password { get; set; } = string.Empty;
-
-        [Required(ErrorMessage = "Confirm password")]
-        [Compare("Password", ErrorMessage = "Passwords don't match")]
-        public string ConfirmPassword { get; set; } = string.Empty;
-    }
 }  
-
-<p>Bem-vindo, @UserName</p>
