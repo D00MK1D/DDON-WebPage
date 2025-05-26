@@ -20,6 +20,7 @@
 <br />
 <br />
 <MudButton OnClick="LoginAsync" Color="Color.Primary" Variant="Variant.Filled">Entrar</MudButton>
+<br />
 <a href="/ForgotPassword"> <MudText>Forgot My Password...</MudText> </a>
 <p style="color:red">@errorMessage</p>
 
@@ -30,6 +31,14 @@
     private string errorMessage;
 
     ServerResponse serverResponse;
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (HttpMethods.IsGet(HttpContext.Request.Method))
+        {
+            await HttpContext.SignOutAsync(IdentityConstants.ExternalScheme);
+        }
+    }
 
     private class ServerResponse
     {
