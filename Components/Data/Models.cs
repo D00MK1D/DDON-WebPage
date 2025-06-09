@@ -1,6 +1,7 @@
-﻿using System.Net;
+﻿using System.ComponentModel.DataAnnotations;
+using System.Net;
 using System.Net.Mail;
-using System.ComponentModel.DataAnnotations;
+using static MudBlazor.CategoryTypes;
 
 namespace DDON_WebPage.Components.Data
 {
@@ -43,16 +44,16 @@ namespace DDON_WebPage.Components.Data
         public class NewPasswordModel
         {
             [Required(ErrorMessage = "Enter new password")]
-            public string Password { get; set; }
+            public string? Password { get; set; }
 
             [Compare("Password", ErrorMessage = "Passwords don't match")]
-            public string ConfirmPassword { get; set; }
+            public string? ConfirmPassword { get; set; }
         }
 
         public class ForgotPasswordModel
         {
-            [Required(ErrorMessage = "Informe seu email")]
-            [EmailAddress(ErrorMessage = "Email inválido")]
+            [Required(ErrorMessage = "E-mail cannot be empty.")]
+            [EmailAddress(ErrorMessage = "Invalid e-mail.")]
             public string Email { get; set; } = string.Empty;
         }
 
@@ -70,14 +71,13 @@ namespace DDON_WebPage.Components.Data
                 From = new MailAddress("ddon@crapcom.com", "Dragon's Dogma Online"),
                 Subject = "Password Recovery",
                 Body = $@"
-            <html>
-            <body>
-                <h2>Password Recovery</h2>
-                <p>Click on the link below to recover your password:</p>
-                <p><a href='{resetLink}'>Link</a></p>
-            </body>
-            </html>
-        ",
+                         <html>
+                           <body>
+                               <h2>Password Recovery</h2>
+                               <p>Click on the link below to recover your password:</p>
+                               <p><a href='{resetLink}'>Link</a></p>
+                           </body>
+                         </html>",
                 IsBodyHtml = true,
             };
 
