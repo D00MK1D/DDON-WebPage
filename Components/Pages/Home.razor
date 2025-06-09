@@ -1,7 +1,8 @@
 ﻿@page "/"
 
+<PageTitle>Dragon's Dogma Online</PageTitle>
 
-<PageTitle>Dragon's Dogma Online'</PageTitle>
+
 
 @*
 <MudTable Items="listAccounts" Hover="true">
@@ -30,7 +31,13 @@
 
 @code {
 
+
+    
+    
     protected override async Task OnInitializedAsync()
     {
+        await Task.Delay(50);
     }
+
+    
 }
