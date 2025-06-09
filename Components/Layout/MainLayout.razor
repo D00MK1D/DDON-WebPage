@@ -1,23 +1,44 @@
 ﻿@inherits LayoutComponentBase
 
-<MudThemeProvider Theme="@_theme" IsDarkMode="_isDarkMode" />
+<MudThemeProvider Theme="@_theme" IsDarkMode="true" />
 <MudPopoverProvider />
 <MudDialogProvider />
 <MudSnackbarProvider />
 
 <link href="css/site.css" rel="stylesheet" />
+<style>
+    body {
+    }
+
+        body::before {
+            content: "";
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background-image: url(./img/backgrounds/background_04.png);
+            background-size: cover;
+            background-position: center;
+            opacity: 0.3;
+            z-index: -1;
+            pointer-events: none;
+        }
+</style>
 
 <MudLayout>
-    <MudAppBar Elevation="1">
+
+    <MudAppBar Elevation="3">
         <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Inherit" Edge="Edge.Start" OnClick="@((e) => DrawerToggle())" />
-        <MudText Typo="Typo.h5" Class="ml-3">Application</MudText>
+        <MudIconButton Edge="Edge.Start"> <img style="width:96px" src="./img/Logos/Logo_Y1.png" /> </MudIconButton>
+        <MudText Typo="Typo.h5" Class="ml-3">Dragon's Dogma Online</MudText>
         <MudSpacer />
-        <MudIconButton Icon="@(DarkLightModeButtonIcon)" Color="Color.Inherit" OnClick="@DarkModeToggle" />
+        @*<MudIconButton Icon="@(DarkLightModeButtonIcon)" Color="Color.Inherit" OnClick="@DarkModeToggle" *@
         <MudIconButton Icon="@Icons.Material.Filled.MoreVert" Color="Color.Inherit" Edge="Edge.End" />
     </MudAppBar>
-    <MudDrawer id="nav-drawer" @bind-Open="_drawerOpen" ClipMode="DrawerClipMode.Always" Elevation="2">
+
+    <MudDrawer id="nav-drawer" @bind-Open="_drawerOpen" ClipMode="DrawerClipMode.Always" Elevation="3">
         <NavMenu />
     </MudDrawer>
+
     <MudMainContent Class="mt-16 pa-4">
         @Body
     </MudMainContent>
@@ -41,7 +62,6 @@
 
         _theme = new()
         {
-            PaletteLight = _lightPalette,
             PaletteDark = _darkPalette,
             LayoutProperties = new LayoutProperties()
         };
@@ -57,27 +77,12 @@
         _isDarkMode = !_isDarkMode;
     }
 
-    private readonly PaletteLight _lightPalette = new()
-    {
-        Surface = "#1e1e1e",
-        Primary = "#b5b194",
-        Black = "#110e2d",
-        AppbarText = "#424242",
-        AppbarBackground = "rgba(255,255,255,0.8)",
-        DrawerBackground = "#ffffff",
-        GrayLight = "#e8e8e8",
-        TextPrimary = "#c3c3c3ff",
-        TextSecondary = "#c3c3c3ff",
-        GrayLighter = "#f9f9f9",
-        LinesInputs = "#b5b194ff",
-
-    };
 
     private readonly PaletteDark _darkPalette = new()
     {
         Primary = "#b5b194",
         Surface = "#1e1e1e", //MudPaper color
-        Background = "#1f1f27", //Body Color
+        Background = "#2e2e2e", //Body Color
         BackgroundGray = "#151521",
         AppbarText = "#92929f",
         AppbarBackground = "#1e1e1e", //Top Bar color
