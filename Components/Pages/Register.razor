@@ -6,41 +6,55 @@
 @using System.ComponentModel.DataAnnotations
 @using static DDON_WebPage.Components.Data.Models
 @inject ISnackbar Snackbar
+@inject AppDbContext Pgsql
 
 @page "/Register"
 
 <PageTitle>Dragon's Dogma Online</PageTitle>
 
 <EditForm Model="registerModel" OnValidSubmit="HandleValidSubmit">
-
     <DataAnnotationsValidator />
-    <ValidationSummary />
 
     <MudForm @ref="form" Model="registerModel" OnValidSubmit="HandleValidSubmit">
 
         <MudPaper Class="pa-6 mx-auto" Style="min-width:400px;">
             <MudText Typo="Typo.h5" Align="Align.Center" Class="mb-4">Register</MudText>
 
-            <MudTextField T="string" Label="Account Name" Immediate="true"
+            <MudTextField T="string" Variant="Variant.Outlined" Label="Account Name" Immediate="true"
                           @bind-Value="registerModel.Name"
+                          TextChanged="OnContentChange"
                           For="@(() => registerModel.Name)" />
 
-            <MudTextField T="string" Label="Email" Immediate="true"
+            <MudTextField T="string" Variant="Variant.Outlined" Label="Email" Immediate="true"
                           @bind-Value="registerModel.Email"
-                          For="@(() => registerModel.Email)" />
+                          For="@(() => registerModel.Email)" 
+                          TextChanged="OnContentChange" />
 
-            <MudTextField T="string" Label="Password" InputType="InputType.Password" Immediate="true"
+            <MudTextField T="string" Variant="Variant.Outlined" Label="Password" InputType="InputType.Password" Immediate="true"
                           @bind-Value="registerModel.Password"
-                          For="@(() => registerModel.Password)" />
+                          For="@(() => registerModel.Password)" 
+                          TextChanged="OnPasswordChange" />
 
-            <MudTextField T="string" Label="Confirm Password" InputType="InputType.Password" Immediate="true"
+            <MudTextField T="string" Variant="Variant.Outlined" Label="Confirm Password" InputType="InputType.Password" Immediate="true"
                           @bind-Value="registerModel.ConfirmPassword"
-                          For="@(() => registerModel.ConfirmPassword)" />
+                          For="@(() => registerModel.ConfirmPassword)"
+                          TextChanged="OnContentChange" />
             <br />
             <br />
-            
-            <MudButton OnClick="() => Reg(registerModel.Name, registerModel.Password, registerModel.Email)" Variant="Variant.Filled" Color="Color.Primary" FullWidth="true">
-                Registrar
+            <MudButton Disabled="_isRegisterDisabled" 
+                       OnClick="() => RegisterTask(registerModel.Name, registerModel.ConfirmPassword, registerModel.Email)"
+                       Variant="Variant.Filled" 
+                       Color="Color.Primary" 
+                       FullWidth="true">
+
+                @if (_loadingState)
+                {
+                    <MudProgressCircular Color="Color.Primary" Rounded="true" Size="Size.Small" Indeterminate="true" />
+                }
+                else
+                {
+                    <MudText Color="Color.Dark" Typo="Typo.button"><b>Register</b></MudText>
+                }
             </MudButton>
 
         </MudPaper>
@@ -50,70 +64,103 @@
 
 
 @code{
-    private MudForm form;
+    private MudForm? form;
     private RegisterModel registerModel = new();
     ServerResponse? serverResponse;
+    private bool _isRegisterDisabled = false;
+    private bool _loadingState = false;
+
+
 
     private class ServerResponse
     {
-        public string Message { get; set; }
-        public string Error { get; set; }
-        public string Token { get; set; }
+        public string? Message { get; set; }
+        public string? Error { get; set; }
+        public string? Token { get; set; }
     }
+
 
     private async Task HandleValidSubmit()
     {
-
         string account = registerModel.Name;
         string password = registerModel.Password;
         string email = registerModel.Email;
+        //_isRegisterDisabled = true;
+        _loadingState = true;
 
-        Reg(account, password, email);
+        if (account != "" && password != "" && email != "")
+        {
+            await RegisterTask(account, password, email);
+            _isRegisterDisabled = false;
+            _loadingState = false;
+            return;
+        }
+
+        _loadingState = false;
+        return;
     }
 
-
-
-    public async void Reg(string Account, string Password, string Email)
+    private async Task OnContentChange()
     {
-        string jsonData;
-
-        using (HttpClient client = new HttpClient())
+        if (registerModel.ConfirmPassword != "" || registerModel.ConfirmPassword != null)
         {
-            var path = "/api/account";
-            var requestData = new
-            {
-                Action = "create",
-                Account = Account,
-                Password = Password,
-                Email = Email
-            };
+            await form.Validate();
+            StateHasChanged();
 
-            jsonData = JsonSerializer.Serialize(requestData);
-            var content = new StringContent(jsonData, Encoding.UTF8, "application/json");
-            client.DefaultRequestVersion = System.Net.HttpVersion.Version11; // Explicitly specify System.Net.HttpVersion
-            HttpResponseMessage response = new HttpResponseMessage();
+            //_isRegisterDisabled = !form.IsValid;
 
+            return;
+        }
+
+        //_isRegisterDisabled = true;
+        return;
+    }
+
+    private async Task OnPasswordChange(string newValue)
+    {
+        registerModel.Password = newValue;
+        registerModel.ConfirmPassword = string.Empty;
+        if (registerModel.ConfirmPassword != "")
+        {
+            await form.Validate();
+            StateHasChanged();
+            //_isRegisterDisabled = !form.IsValid;
+
+            return;
+        }
+
+        //_isRegisterDisabled = true;
+        return;
+    }
+
+    private async Task RegisterTask(string _account, string _password, string _email)
+    {
+        if ((_account != "" && _password != "" && _email != "" && registerModel.ConfirmPassword != "") && (_account != null && _password != null && _email != null && registerModel.ConfirmPassword != null) && form.IsValid)
+        {
             try
             {
-                response = await client.PostAsync("http://localhost:52099" + path, content);
-            }
-            catch (HttpRequestException e)
-            {
-                //snackbar? (i think yes....)
-            }
+                var response = await ServerApi.Operation(Pgsql, "create", _account, _password, _email);
 
-            var responseBody = await response.Content.ReadAsStringAsync();
-
-            try
-            {
-                serverResponse = JsonSerializer.Deserialize<ServerResponse>(responseBody);
-
+                if (response != null && !string.IsNullOrEmpty(response.Error))
+                {
+                    Console.WriteLine($"\n{DateTime.UtcNow} - Error: {response.Error} - Account: {_account}\n");
+                    Snackbar.Add("Error: " + response.Error, Severity.Error);
+                }
+                else
+                {
+                    Console.WriteLine($"\n{DateTime.UtcNow} - Message: {response.Message} - Account: {_account}\n");
+                    Snackbar.Add("Account registered", Severity.Success);
+                }
             }
-            catch (JsonException e)
+            catch
             {
-                //another one... maybe?
+                Snackbar.Add("Something went wrong.\n Contact the administration", Severity.Error);
             }
         }
-    }
+        else
+        {
+            Snackbar.Add("Verify register inputs", Severity.Warning);
+        }
 
+    }
 }
