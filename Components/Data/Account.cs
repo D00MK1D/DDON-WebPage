@@ -18,7 +18,7 @@ namespace DDON_WebPage.Components.Data
         public string NormalName { get; set; } = string.Empty;
 
         [Column("password_token")]
-        public string Password { get; set; } = string.Empty;
+        public string PasswordToken { get; set; } = string.Empty;
 
         [Column("mail")]
         public string Email { get; set; } = string.Empty;

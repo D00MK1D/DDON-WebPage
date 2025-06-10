@@ -13,7 +13,7 @@ namespace DDON_WebPage.Components.Data
             public string? Token { get; set; }
         }
 
-        public static async Task<ServerResponse?> Operation(AppDbContext Pgsql, string action, string account, string password, string email)
+        public static async Task<ServerResponse?> Operation(AppDbContext Pgsql, string action, string account, string password,string passwordToken, string email, string emailToken)
         {
             string path = "/api/account";
             var requestData = new
@@ -21,7 +21,9 @@ namespace DDON_WebPage.Components.Data
                 Action = action,
                 Account = account,
                 Password = password,
-                Email = email
+                PasswordToken = passwordToken,
+                Email = email,
+                EmailToken = emailToken
             };
 
             string jsonData = JsonSerializer.Serialize(requestData);

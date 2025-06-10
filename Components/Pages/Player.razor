@@ -62,7 +62,7 @@
             if (account is not null)
             {
                 updateModel.Email = account.Email;
-                updateModel.Password = account.Password;
+                updateModel.Password = account.PasswordToken;
             }
         }
     }
@@ -75,7 +75,7 @@
         if (account != null)
         {
             account.Email = updateModel.Email;
-            account.Password = updateModel.Password;
+            account.PasswordToken = updateModel.Password;
             await Pgsql.SaveChangesAsync();
         }
     }
