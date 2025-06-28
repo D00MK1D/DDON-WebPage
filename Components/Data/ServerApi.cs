@@ -38,8 +38,9 @@ namespace DDON_WebPage.Components.Data
                 {
                     response = await client.PostAsync("http://localhost:52099" + path, content);
                 }
-                catch (HttpRequestException)
+                catch (HttpRequestException e)
                 {
+                    Console.WriteLine($"\n Operation HTTP exception:\n{e}");
                     return new ServerResponse { Error = "Request failed." };
                 }
 

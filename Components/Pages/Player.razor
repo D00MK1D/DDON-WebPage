@@ -13,7 +13,7 @@
 <PageTitle>Dragon's Dogma Online</PageTitle>
 
 <MudPaper Class="pa-6 mx-auto" Style="max-width:600px;">
-    <MudText Typo="Typo.h5" Align="Align.Center" Class="mb-4">Informações da Conta</MudText>
+    <MudText Typo="Typo.h5" Align="Align.Center" Class="mb-4">Account Info</MudText>
 
     <MudGrid>
         <MudItem xs="12">
@@ -45,7 +45,7 @@
 </MudPaper>
 
 @code {
-    private string? UserName { get; set; }
+    private string? UserName = "";
     private UpdateModel updateModel = new();
     
     protected override async Task OnInitializedAsync()
@@ -53,7 +53,7 @@
         var authState = await AuthProvider.GetAuthenticationStateAsync();
         var user = authState.User;
 
-        var account = await Pgsql.account.FirstOrDefaultAsync(u => u.Name == UserName);
+        var account = await Pgsql.account.FirstOrDefaultAsync(u => u.NormalName == user.Identity.Name.ToLower());
 
         if (user.Identity is { IsAuthenticated: true })
         {
