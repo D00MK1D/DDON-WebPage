@@ -3,3 +3,5 @@
 /bin
 /obj
 appsettings.json
+*.user
+*.pubxml

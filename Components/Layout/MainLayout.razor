@@ -28,11 +28,10 @@
 
     <MudAppBar Elevation="3">
         <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Inherit" Edge="Edge.Start" OnClick="@((e) => DrawerToggle())" />
-        <MudIconButton Edge="Edge.Start"> <img style="width:96px" src="./img/Logos/Logo_Y1.png" /> </MudIconButton>
+        <MudIconButton Edge="Edge.Start"> <img style="width:96px" src="./img/Logos/Logo_Y3.png" /> </MudIconButton>
         <MudText Typo="Typo.h5" Class="ml-3">Dragon's Dogma Online</MudText>
         <MudSpacer />
         @*<MudIconButton Icon="@(DarkLightModeButtonIcon)" Color="Color.Inherit" OnClick="@DarkModeToggle" *@
-        <MudIconButton Icon="@Icons.Material.Filled.MoreVert" Color="Color.Inherit" Edge="Edge.End" />
     </MudAppBar>
 
     <MudDrawer id="nav-drawer" @bind-Open="_drawerOpen" ClipMode="DrawerClipMode.Always" Elevation="3">
@@ -72,26 +71,19 @@
         _drawerOpen = !_drawerOpen;
     }
 
-    private void DarkModeToggle()
-    {
-        _isDarkMode = !_isDarkMode;
-    }
-
-
     private readonly PaletteDark _darkPalette = new()
     {
         Primary = "#b5b194",
         Surface = "#1e1e1e", //MudPaper color
         Background = "#2e2e2e", //Body Color
         BackgroundGray = "#151521",
-        AppbarText = "#92929f",
+        AppbarText = "#c3c3c3ff", //"Dragon's Dogma Online" title
         AppbarBackground = "#1e1e1e", //Top Bar color
         DrawerBackground = "#1e1e1e", //Side Bar color
-        ActionDefault = "#1e1e1e",
+        //ActionDefault = "#1e1e1e", //Borders and some elements
         ActionDisabled = "#9999994d",
         ActionDisabledBackground = "#605f6d",
         TextPrimary = "#c3c3c3ff",
-        TextSecondary = "#c3c3c3ff",
         TextDisabled = "#ffffff33",
         DrawerIcon = "#92929f",
         DrawerText = "#92929f",
@@ -106,12 +98,6 @@
         TableLines = "#33323e",
         Divider = "#292838",
         OverlayLight = "#1e1e2d80",
-    };
-
-    public string DarkLightModeButtonIcon => _isDarkMode switch
-    {
-        true => Icons.Material.Rounded.AutoMode,
-        false => Icons.Material.Outlined.DarkMode,
     };
 }
 

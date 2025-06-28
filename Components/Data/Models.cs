@@ -1,7 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.Net;
 using System.Net.Mail;
-using static MudBlazor.CategoryTypes;
 
 namespace DDON_WebPage.Components.Data
 {
@@ -27,18 +26,19 @@ namespace DDON_WebPage.Components.Data
         public class RegisterModel
         {
             [Required(ErrorMessage = "Account cannot be empty")]
-            public string Name { get; set; } = string.Empty;
+            [RegularExpression(@"^\S+$", ErrorMessage = "Account ID cannot contain spaces")]
+            public string Name { get; set; }
 
             [Required(ErrorMessage = "E-mail cannot be empty")]
             [EmailAddress(ErrorMessage = "Invalid E-mail")]
-            public string Email { get; set; } = string.Empty;
+            public string Email { get; set; }
 
             [Required(ErrorMessage = "Password cannot be empty")]
-            public string Password { get; set; } = string.Empty;
+            public string Password { get; set; }
 
-            [Required(ErrorMessage = "Confirm password")]
+            [Required(ErrorMessage = "Confirmation cannot be empty")]
             [Compare("Password", ErrorMessage = "Passwords don't match")]
-            public string ConfirmPassword { get; set; } = string.Empty;
+            public string ConfirmPassword { get; set; }
         }
 
         public class NewPasswordModel
@@ -46,6 +46,7 @@ namespace DDON_WebPage.Components.Data
             [Required(ErrorMessage = "Enter new password")]
             public string? Password { get; set; }
 
+            [Required(ErrorMessage = "Confirmation cannot be empty")]
             [Compare("Password", ErrorMessage = "Passwords don't match")]
             public string? ConfirmPassword { get; set; }
         }
