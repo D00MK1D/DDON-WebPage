@@ -12,7 +12,7 @@ namespace DDON_WebPage.Components.Data
             public int Id { get; set; }
 
             [Required(ErrorMessage = "E-mail cannot be empty")]
-            [EmailAddress(ErrorMessage = "Invalid E-mail")]
+            [RegularExpression(@"^[^@\s]+@[^@\s]+\.[^@\s]+$", ErrorMessage = "Invalid e-mail format")]
             public string Email { get; set; } = string.Empty;
 
             [Required(ErrorMessage = "Password cannot be empty")]
@@ -30,7 +30,7 @@ namespace DDON_WebPage.Components.Data
             public string Name { get; set; }
 
             [Required(ErrorMessage = "E-mail cannot be empty")]
-            [EmailAddress(ErrorMessage = "Invalid E-mail")]
+            [RegularExpression(@"^[^@\s]+@[^@\s]+\.[^@\s]+$", ErrorMessage = "Invalid e-mail format")]
             public string Email { get; set; }
 
             [Required(ErrorMessage = "Password cannot be empty")]
@@ -54,7 +54,7 @@ namespace DDON_WebPage.Components.Data
         public class ForgotPasswordModel
         {
             [Required(ErrorMessage = "E-mail cannot be empty.")]
-            [EmailAddress(ErrorMessage = "Invalid e-mail.")]
+            [RegularExpression(@"^[^@\s]+@[^@\s]+\.[^@\s]+$", ErrorMessage = "Invalid e-mail format")]
             public string Email { get; set; } = string.Empty;
         }
 
