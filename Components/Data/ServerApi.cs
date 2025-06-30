@@ -53,7 +53,7 @@ namespace DDON_WebPage.Components.Data
 
                     if (serverResponse != null && serverResponse.Token != null && serverResponse.Token != "")
                     {
-                        var user = await Pgsql.account.FirstOrDefaultAsync(u => u.Name == account);
+                        var user = await Pgsql.account.FirstOrDefaultAsync(u => u.NormalName == account.ToLower());
 
                         if (user == null)
                         {
