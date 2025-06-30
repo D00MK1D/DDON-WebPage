@@ -21,7 +21,7 @@
     
     <MudText Typo="Typo.h5" Align="Align.Center" Class="mb-4">Login</MudText>
 
-    <MudTextField @bind-Value="account" Label="User" Variant="Variant.Outlined" />
+    <MudTextField @bind-Value="account" Label="Account ID" Variant="Variant.Outlined" />
 
     <MudTextField @bind-Value="password" 
                   Label="Password" 
@@ -94,7 +94,7 @@
 
                     if (response.Token != "" && response.Token != null)
                     {
-                        user = await Pgsql.account.FirstOrDefaultAsync(u => u.Name == account);
+                        user = await Pgsql.account.FirstOrDefaultAsync(u => u.NormalName == account.ToLower());
 
                         if (user == null)
                         {
@@ -109,21 +109,21 @@
                         {
                             _loadingState = false;
                             _isLoginDisabled = false;
-                            Snackbar.Add($"Welcome {user.NormalName}!", Severity.Success);
+                            Snackbar.Add($"Welcome {user.Name}!", Severity.Info);
                             Navigation.NavigateTo("/Admin");
                         }
                         else if (user.State == 1)
                         {
                             _loadingState = false;
                             _isLoginDisabled = false;
-                            Snackbar.Add($"Welcome {user.NormalName}!", Severity.Success);
+                            Snackbar.Add($"Welcome {user.Name}!", Severity.Info);
                             Navigation.NavigateTo("/Player");
                         }
                         else if (user.State == 0)
                         {
                             _loadingState = false;
                             _isLoginDisabled = false;
-                            Snackbar.Add($"Hello {user.NormalName}.\nPlease, contact server admin.", Severity.Warning);
+                            Snackbar.Add(new MarkupString($"Hello {user.Name}.<br/>Please, contact server admin."), Severity.Warning);
                         }
                     }
                     else
@@ -142,7 +142,7 @@
         }
         else
         {
-            Snackbar.Add($"Account and password cannot be empty.", Severity.Warning);
+            Snackbar.Add("Account and password cannot be empty.", Severity.Warning);
 
         }
 
