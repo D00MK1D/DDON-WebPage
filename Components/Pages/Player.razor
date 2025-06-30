@@ -13,56 +13,112 @@
 <PageTitle>Dragon's Dogma Online</PageTitle>
 
 <MudPaper Class="pa-6 mx-auto" Style="max-width:600px;">
-    <MudText Typo="Typo.h5" Align="Align.Center" Class="mb-4">Account Info</MudText>
+    <MudText Typo="Typo.h5" Align="Align.Center" Class="mb-4">@UserName's Account Info</MudText>
 
-    <MudGrid>
-        <MudItem xs="12">
-            <MudTextField T="string" Label="Account Name"
-                          @bind-Value="UserName"
-                          ReadOnly="true"
-                          Variant="Variant.Outlined" />
-        </MudItem>
+    <br />
 
-        <MudItem xs="12">
-            <MudTextField T="string" Label="Password"
-                          InputType="InputType.Password"
-                          @bind-Value="updateModel.Password"
-                          Variant="Variant.Outlined" />
-        </MudItem>
+    <MudForm @ref="form" Model="updateModel" OnValidSubmit="HandleValidSubmit">
+        <MudGrid>
+            @*
+            <MudItem xs="5">
+                <MudTextField T="string" Label="Account Name"
+                              @bind-Value="UserName"
+                              ReadOnly="true"
+                              Variant="Variant.Outlined"/>
+            </MudItem>*@
 
-        <MudItem xs="12">
-            <MudTextField T="string" Label="Email"
-                          @bind-Value="updateModel.Email"
-                          Variant="Variant.Outlined" />
-        </MudItem>
+            <MudItem xs="5">
+                <MudTextField T="string" Label="Password"
+                              @bind-Value="updateModel.Password"
+                              Variant="Variant.Outlined"
+                              Immediate="true"
+                              Disabled="@(!_enableEditPassword)"
+                              InputType="@PasswordInput"
+                              Adornment="Adornment.End"
+                              AdornmentIcon="@PasswordInputIcon"
+                              OnAdornmentClick="@ShowPassword"
+                              AdornmentAriaLabel="Show Password" />
+            </MudItem>
 
-        <MudItem Style="align-content:flex-end">
-            <MudButton Color="Color.Primary" Variant="Variant.Filled" OnClick="SaveChanges">Save</MudButton>
-            <MudButton Color="Color.Error" Variant="Variant.Filled" Href="/">Cancel</MudButton>
-        </MudItem>
+            <MudItem xs="5">
+                <MudTextField T="string" Label="Confirm Password"
+                              @bind-Value="updateModel.ConfirmPassword"
+                              Variant="Variant.Outlined"
+                              Immediate="true"
+                              Disabled="@(!_enableEditPassword)"
+                              InputType="@PasswordInput"
+                              Adornment="Adornment.End"
+                              AdornmentIcon="@PasswordInputIcon"
+                              OnAdornmentClick="@ShowPassword"
+                              AdornmentAriaLabel="Show Password"
+                              For="@(() => updateModel.ConfirmPassword)" />
+            </MudItem>
 
-    </MudGrid>
+            <MudItem Class="d-flex align-center" xs="2">
+                    <MudIconButton OnClick="EditPassword" Icon="@_iconEditPassword" />
+            </MudItem>
+
+            <MudItem xs="10">
+                <MudTextField Disabled="@(!_enableEditMail)" 
+                              T="string" Label="Email"
+                              @bind-Value="updateModel.Email"
+                              Variant="Variant.Outlined"
+                              Immediate="true"
+                              For="@(() => updateModel.Email)" />
+            </MudItem>
+
+            <MudItem Class="d-flex align-center" xs="2">
+                    <MudIconButton OnClick="EditMail" Icon="@_iconEditMail" />
+            </MudItem>
+
+            <MudItem xs="2">
+                <MudButton Color="Color.Primary" Disabled="@(!_enableEditPassword && !_enableEditMail)" Variant="Variant.Filled" OnClick="SaveChanges">Save</MudButton>
+            </MudItem>
+
+            <MudItem xs="2">
+                <MudButton Color="Color.Transparent" Variant="Variant.Filled" Href="/">Cancel</MudButton>
+            </MudItem>
+
+        </MudGrid>
+    </MudForm>
 </MudPaper>
 
 @code {
-    private string? UserName = "";
+    private bool isShow = false;
+    private bool _enableEditMail = false;
+    private bool _enableEditPassword = false;
+    private string? PasswordInputIcon;
+    private string? UserName;
+    private string? _iconEditMail;
+    private string? _iconEditPassword;
+    private string? oldEmail;
+
+    private MudForm? form;
+    private Account? player = new();
     private UpdateModel updateModel = new();
-    
+    private ServerApi.ServerResponse? serverResponse = new();
+    private InputType PasswordInput = InputType.Password;
+
     protected override async Task OnInitializedAsync()
     {
+        PasswordInputIcon = Icons.Material.Filled.VisibilityOff;
+        _iconEditPassword = Icons.Material.Filled.Edit;
+        _iconEditMail = Icons.Material.Filled.Edit;
+        _enableEditMail = false;
+
         var authState = await AuthProvider.GetAuthenticationStateAsync();
         var user = authState.User;
 
-        var account = await Pgsql.account.FirstOrDefaultAsync(u => u.NormalName == user.Identity.Name.ToLower());
+        player = await Pgsql.account.AsNoTracking().FirstOrDefaultAsync(u => u.NormalName == user.Identity.Name.ToLower());
 
         if (user.Identity is { IsAuthenticated: true })
         {
             UserName = user.Identity.Name;
 
-            if (account is not null)
+            if (player is not null)
             {
-                updateModel.Email = account.Email;
-                updateModel.Password = account.PasswordToken;
+                updateModel.Email = player.Email;
+                oldEmail = player.Email;
             }
         }
     }
@@ -70,15 +126,96 @@
     //----- Save Changes -----//
     private async Task SaveChanges()
     {
-        var account = await Pgsql.account.FirstOrDefaultAsync(u => u.Name == UserName);
-    
-        if (account != null)
+        if (player != null && form.IsValid)
         {
-            account.Email = updateModel.Email;
-            account.PasswordToken = updateModel.Password;
-            await Pgsql.SaveChangesAsync();
+            if ((string.IsNullOrWhiteSpace(oldEmail) || oldEmail.EndsWith("@dd.on")) && player.Email.EndsWith("@dd.on"))
+            {
+                Snackbar.Add(new MarkupString("You're trying to use default old generated e-mail. <br />Change it first to a real valid one!"), Severity.Warning);
+                return;
+            }
+            else if (!string.IsNullOrWhiteSpace(updateModel.Email) && updateModel.Email != oldEmail && form.IsValid)
+            {
+                player.Email = updateModel.Email;
+                await Pgsql.SaveChangesAsync();
+            }
+
+            if (!string.IsNullOrWhiteSpace(updateModel.Password) && !string.IsNullOrWhiteSpace(updateModel.ConfirmPassword) && updateModel.Password == updateModel.ConfirmPassword && _enableEditPassword)
+            {
+                try
+                {
+                    serverResponse = await ServerApi.Operation(Pgsql, "reset", "", "", "", oldEmail, "");
+
+                    if (serverResponse.Error is null)
+                    {
+                        player = await Pgsql.account.AsNoTracking().FirstOrDefaultAsync(u => u.NormalName == UserName.ToLower());
+
+                        serverResponse = await ServerApi.Operation(Pgsql, "reset", player.Name, updateModel.ConfirmPassword, player.PasswordToken, "", "");
+
+                        if (serverResponse.Error is null)
+                        {
+                            Snackbar.Add("Your password has been updated.", Severity.Success);
+
+                        }
+                        else
+                        {
+                            Snackbar.Add(serverResponse.Error, Severity.Warning);
+                        }
+                    }
+                    //account.PasswordToken = updateModel.Password;
+                }
+                catch
+                {
+                    Snackbar.Add("Something went wrong, try again.", Severity.Error);
+                }
+            }
         }
     }
 
+    private void EditMail()
+    {
+        if (_enableEditMail)
+        {
+            _iconEditMail = Icons.Material.Filled.Edit;
+            updateModel.Email = oldEmail;
+        }
+        else
+        {
+            _iconEditMail = Icons.Material.Filled.Close;
+        }
 
-}  
+        _enableEditMail = !_enableEditMail;
+    }
+
+    private void EditPassword()
+    {
+        if (_enableEditPassword)
+        {
+            _iconEditPassword = Icons.Material.Filled.Edit;
+            updateModel.Password = "";
+            updateModel.ConfirmPassword = "";
+        }
+        else
+        {
+            _iconEditPassword = Icons.Material.Filled.Close;
+        }
+
+        _enableEditPassword = !_enableEditPassword;
+    }
+
+    void ShowPassword()
+    {
+        if (isShow)
+        {
+            isShow = false;
+            PasswordInputIcon = Icons.Material.Filled.VisibilityOff;
+            PasswordInput = InputType.Password;
+        }
+        else
+        {
+            isShow = true;
+            PasswordInputIcon = Icons.Material.Filled.Visibility;
+            PasswordInput = InputType.Text;
+        }
+
+    }
+}
