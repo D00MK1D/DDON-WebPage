@@ -94,7 +94,7 @@
 
                     if (response.Token != "" && response.Token != null)
                     {
-                        user = await Pgsql.account.FirstOrDefaultAsync(u => u.NormalName == account.ToLower());
+                        user = await Pgsql.account.AsNoTracking().FirstOrDefaultAsync(u => u.NormalName == account.ToLower());
 
                         if (user == null)
                         {
@@ -131,8 +131,6 @@
                         Snackbar.Add(response.Message, Severity.Warning);
                     }
                 }
-
-                
             }
 
             catch (Exception e)

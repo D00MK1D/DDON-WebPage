@@ -1,89 +1,333 @@
-﻿@attribute [Authorize]  
+﻿@attribute [Authorize]
 @using DDON_WebPage.Components.Data
-@using Microsoft.AspNetCore.Authorization  
+@using Microsoft.AspNetCore.Authorization
 @using Microsoft.AspNetCore.Components.Authorization
 @using Microsoft.EntityFrameworkCore
 @using static DDON_WebPage.Components.Data.Models
 @inject AppDbContext Pgsql
 @inject AuthenticationStateProvider AuthProvider
 @inject ISnackbar Snackbar
+@inject IDialogService DialogService
 
-@page "/Admin"  
+@page "/Admin"
 
-<PageTitle>DDON - Admin Page</PageTitle>  
+<PageTitle>DDON - Admin Page</PageTitle>
 
-<MudPaper Class="pa-6 mx-auto" Style="max-width:600px;">
-    <MudText Typo="Typo.h5" Align="Align.Center" Class="mb-4">Informações da Conta</MudText>
+<MudTabs Elevation="0" Rounded="true" ApplyEffectsToContainer="true" PanelClass="pa-6">
+    <MudTabPanel Text="Account Info">
+        <MudPaper Class="pa-6 mx-auto" Style="max-width:600px;">
+            <MudText Typo="Typo.h5" Align="Align.Center" Class="mb-4">@UserName's Account Info</MudText>
 
-    <MudGrid>
-        <MudItem xs="12">
-            <MudTextField T="string" Label="Account Name"
-                          @bind-Value="UserName"
-                          ReadOnly="true"
-                          Variant="Variant.Outlined" />
-        </MudItem>
+            <br />
+            <MudDivider />
+            <br />
+            <br />
 
-        <MudItem xs="12">
-            <MudTextField T="string" Label="Password"
-                          InputType="InputType.Password"
-                          @bind-Value="updateModel.Password"
-                          Variant="Variant.Outlined" />
-        </MudItem>
+            <MudForm @ref="form" Model="updateModel" OnValidSubmit="HandleValidSubmit">
+                <MudGrid>
+                    <MudItem xs="5">
+                        <MudTextField T="string" Label="Password"
+                                      @bind-Value="updateModel.Password"
+                                      Variant="Variant.Outlined"
+                                      Immediate="true"
+                                      Disabled="@(!_enableEditPassword)"
+                                      InputType="@PasswordInput"
+                                      Adornment="Adornment.End"
+                                      AdornmentIcon="@PasswordInputIcon"
+                                      OnAdornmentClick="@ShowPassword"
+                                      AdornmentAriaLabel="Show Password" />
+                    </MudItem>
 
-        <MudItem xs="12">
-            <MudTextField T="string" Label="Email"
-                          @bind-Value="updateModel.Email"
-                          Variant="Variant.Outlined" />
-        </MudItem>
+                    <MudItem xs="5">
+                        <MudTextField T="string" Label="Confirm Password"
+                                      @bind-Value="updateModel.ConfirmPassword"
+                                      Variant="Variant.Outlined"
+                                      Immediate="true"
+                                      Disabled="@(!_enableEditPassword)"
+                                      InputType="@PasswordInput"
+                                      Adornment="Adornment.End"
+                                      AdornmentIcon="@PasswordInputIcon"
+                                      OnAdornmentClick="@ShowPassword"
+                                      AdornmentAriaLabel="Show Password"
+                                      For="@(() => updateModel.ConfirmPassword)" />
+                    </MudItem>
 
-        <MudItem Style="align-content:flex-end">
-            <MudButton Color="Color.Primary" Variant="Variant.Filled" OnClick="SaveChanges">Save</MudButton>
-            <MudButton Color="Color.Error" Variant="Variant.Filled" Href="/">Cancel</MudButton>
-        </MudItem>
+                    <MudItem Class="d-flex align-center" xs="2">
+                        <MudIconButton OnClick="EditPassword" Icon="@_iconEditPassword" />
+                    </MudItem>
 
-    </MudGrid>
-</MudPaper>
+                    <MudItem xs="10">
+                        <MudTextField Disabled="@(!_enableEditMail)"
+                                      T="string" Label="Email"
+                                      @bind-Value="updateModel.Email"
+                                      Variant="Variant.Outlined"
+                                      Immediate="true"
+                                      For="@(() => updateModel.Email)" />
+                    </MudItem>
+
+                    <MudItem Class="d-flex align-center" xs="2">
+                        <MudIconButton OnClick="EditMail" Icon="@_iconEditMail" />
+                    </MudItem>
+
+                    <MudItem xs="2">
+                        <MudButton Color="Color.Primary" Disabled="@(!_enableEditPassword && !_enableEditMail)" Variant="Variant.Filled" OnClick="SaveChanges">Save</MudButton>
+                    </MudItem>
+
+                    <MudItem xs="3">
+                        <MudButton Color="Color.Transparent" Variant="Variant.Filled" Href="/">Cancel</MudButton>
+                    </MudItem>
+
+                </MudGrid>
+
+            </MudForm>
+
+            <br />
+            <br />
+            <MudDivider />
+            <br />
+        </MudPaper>
+    </MudTabPanel>
+
+    <MudTabPanel Text="Players Info">
+        <MudTable T="Account" Items="listAccounts" Hover="true" Filter="FilterAccounts">
+            <ToolBarContent>
+                <MudText Typo="Typo.h6">Accounts</MudText>
+                <MudSpacer />
+                <MudTextField @bind-Value="searchAccountString" Placeholder="Search by name" Adornment="Adornment.Start" AdornmentIcon="@Icons.Material.Filled.Search" />
+            </ToolBarContent>
+            <HeaderContent>
+                <MudTh><MudTableSortLabel SortBy="@((Account a) => a.Name)">Name</MudTableSortLabel></MudTh>
+                <MudTh><MudTableSortLabel SortBy="@((Account a) => a.NormalName)">Normal Name</MudTableSortLabel></MudTh>
+                <MudTh><MudTableSortLabel SortBy="@((Account a) => a.CreatedAt)">Created At</MudTableSortLabel></MudTh>
+                <MudTh><MudTableSortLabel SortBy="@((Account a) => a.LastLogin)">Last Login</MudTableSortLabel></MudTh>
+                <MudTh>State</MudTh>
+                <MudTh>Actions</MudTh>
+            </HeaderContent>
+
+            <RowTemplate>
+                <MudTd>@context.Name</MudTd>
+                <MudTd>@context.NormalName</MudTd>
+                <MudTd>@context.CreatedAt</MudTd>
+                <MudTd>@context.LastLogin</MudTd>
+                <MudTd>@context.State</MudTd>
+                <MudTd>
+                    <MudIconButton OnClick="@(() => ApplyBan(context))"
+                                   Disabled="@(context.State == 0 || context.State == 100)"
+                                   Icon="@(!loadingIds.Contains(context.Id) ? Icons.Material.Filled.Gavel : null)"
+                                   Color="Color.Error"
+                                   Title="Ban">
+                        @if (loadingIds.Contains(context.Id))
+                        {
+                            <MudProgressCircular Indeterminate="true" Size="Size.Small" Color="Color.Error" />
+                        }
+                    </MudIconButton>
+
+                    <MudIconButton OnClick="@(() => RemoveBan(context))"
+                                   Disabled="@(context.State != 0)"
+                                   Icon="@(!loadingIds.Contains(context.Id) ? Icons.Material.Filled.LockOpen : null)"
+                                   Color="Color.Success"
+                                   Title="Unban">
+                        @if (loadingIds.Contains(context.Id))
+                        {
+                            <MudProgressCircular Indeterminate="true" Size="Size.Small" Color="Color.Success" />
+                        }
+                    </MudIconButton>
+                </MudTd>
+            </RowTemplate>
+
+            <PagerContent>
+                <MudTablePager />
+            </PagerContent>
+        </MudTable>
+    </MudTabPanel>
+
+    <MudTabPanel Text="Tab Three">
+        <MudText>Content Three</MudText>
+    </MudTabPanel>
+</MudTabs>
+
 
 @code {
-    private UpdateModel updateModel = new();
-    private string? UserName { get; set; }  
+    private bool isShow = false;
+    private bool _enableEditMail = false;
+    private bool _enableEditPassword = false;
+    private string? PasswordInputIcon;
+    private string? UserName;
+    private string? _iconEditMail;
+    private string? _iconEditPassword;
+    private string? oldEmail;
+    private string searchAccountString = "";
 
-    protected override async Task OnInitializedAsync()  
-    {  
-        var authState = await AuthProvider.GetAuthenticationStateAsync();  
+    private HashSet<int> loadingIds = new();
+    private List<Account> listAccounts = new();
+    private MudForm? form;
+    private Account? admin = new();
+    private Account? selectedAccount;
+    private UpdateModel updateModel = new();
+    private ServerApi.ServerResponse? serverResponse = new();
+    private InputType PasswordInput = InputType.Password;
+
+    protected override async Task OnInitializedAsync()
+    {
+        PasswordInputIcon = Icons.Material.Filled.VisibilityOff;
+        _iconEditPassword = Icons.Material.Filled.Edit;
+        _iconEditMail = Icons.Material.Filled.Edit;
+
+        var authState = await AuthProvider.GetAuthenticationStateAsync();
         var user = authState.User;
 
-        var account = await Pgsql.account.FirstOrDefaultAsync(u => u.Name == UserName);
+        admin = await Pgsql.account.AsNoTracking().FirstOrDefaultAsync(u => u.NormalName == user.Identity.Name.ToLower());
 
         if (user.Identity is { IsAuthenticated: true })
-        {  
-            UserName = user.Identity.Name;  
-
-            if (account is not null)
+        {
+            UserName = user.Identity.Name;
+            if (admin is not null)
             {
-                updateModel.Email = account.Email;
-                updateModel.Password = account.PasswordToken;
+                updateModel.Email = admin.Email;
+                oldEmail = admin.Email;
             }
         }
-    } 
+
+        await RefreshAccounts();
+    }
 
     private async Task SaveChanges()
     {
-        var account = await Pgsql.account.FirstOrDefaultAsync(u => u.Name == UserName);
-
-        if (account != null)
+        if (admin != null && form.IsValid)
         {
-            account.Email = updateModel.Email;
-            account.PasswordToken = updateModel.Password;
-            await Pgsql.SaveChangesAsync();
+            if ((string.IsNullOrWhiteSpace(oldEmail) || oldEmail.EndsWith("@dd.on")) && admin.Email.EndsWith("@dd.on"))
+            {
+                Snackbar.Add(new MarkupString("You're trying to use default old generated e-mail. <br />Change it first to a real valid one!"), Severity.Warning);
+                return;
+            }
+            else if (!string.IsNullOrWhiteSpace(updateModel.Email) && updateModel.Email != oldEmail && form.IsValid)
+            {
+                admin.Email = updateModel.Email;
+                await Pgsql.SaveChangesAsync();
+            }
+
+            if (!string.IsNullOrWhiteSpace(updateModel.Password) && !string.IsNullOrWhiteSpace(updateModel.ConfirmPassword) && updateModel.Password == updateModel.ConfirmPassword && _enableEditPassword)
+            {
+                try
+                {
+                    serverResponse = await ServerApi.Operation(Pgsql, "reset", "", "", "", oldEmail, "");
+
+                    if (serverResponse.Error is null)
+                    {
+                        admin = await Pgsql.account.AsNoTracking().FirstOrDefaultAsync(u => u.NormalName == UserName.ToLower());
+                        serverResponse = await ServerApi.Operation(Pgsql, "reset", admin.Name, updateModel.ConfirmPassword, admin.PasswordToken, "", "");
+
+                        if (serverResponse.Error is null)
+                        {
+                            Snackbar.Add("Your password has been updated.", Severity.Success);
+                        }
+                        else
+                        {
+                            Snackbar.Add(serverResponse.Error, Severity.Warning);
+                        }
+                    }
+                }
+                catch
+                {
+                    Snackbar.Add("Something went wrong, try again.", Severity.Error);
+                }
+            }
         }
     }
 
-    private List<Account> listAccounts;
-
-    private async void ListAccounts()
+    private void EditMail()
     {
-        var accounts = await Pgsql.account.ToListAsync();
-		listAccounts = accounts;
+        if (_enableEditMail)
+        {
+            _iconEditMail = Icons.Material.Filled.Edit;
+            updateModel.Email = oldEmail;
+        }
+        else
+        {
+            _iconEditMail = Icons.Material.Filled.Close;
+        }
+        _enableEditMail = !_enableEditMail;
     }
-}  
+
+    private void EditPassword()
+    {
+        if (_enableEditPassword)
+        {
+            _iconEditPassword = Icons.Material.Filled.Edit;
+            updateModel.Password = "";
+            updateModel.ConfirmPassword = "";
+        }
+        else
+        {
+            _iconEditPassword = Icons.Material.Filled.Close;
+        }
+        _enableEditPassword = !_enableEditPassword;
+    }
+
+    void ShowPassword()
+    {
+        isShow = !isShow;
+        PasswordInputIcon = isShow ? Icons.Material.Filled.Visibility : Icons.Material.Filled.VisibilityOff;
+        PasswordInput = isShow ? InputType.Text : InputType.Password;
+    }
+
+    private async Task RefreshAccounts()
+    {
+        listAccounts = await Pgsql.account.AsNoTracking().ToListAsync();
+        StateHasChanged();
+    }
+
+    private async Task ApplyBan(Account account)
+    {
+        DialogParameters parameters = new DialogParameters { ["Message"] = $"Are you sure you want to ban '{account.NormalName}'?" };
+        var dialog = DialogService.ShowAsync<ConfirmDialog>("Confirm Ban", parameters);
+        var result = dialog.Result;
+
+        if (!result.Result.IsCanceled)
+        {
+            loadingIds.Add(account.Id);
+            StateHasChanged();
+
+            var acc = await Pgsql.account.FirstOrDefaultAsync(a => a.Id == account.Id);
+            if (acc is not null)
+            {
+                acc.State = 0;
+                await Pgsql.SaveChangesAsync();
+                Snackbar.Add($"{acc.Name} has been banned.", Severity.Warning);
+            }
+
+            loadingIds.Remove(account.Id);
+            await RefreshAccounts();
+        }
+    }
+
+    private async Task RemoveBan(Account account)
+    {
+        var parameters = new DialogParameters { ["Message"] = $"Are you sure you want to unban '{account.NormalName}'?" };
+        var dialog = DialogService.ShowAsync<ConfirmDialog>("Confirm Unban", parameters);
+        var result = dialog.Result;
+
+        if (!result.Result.IsCanceled)
+        {
+            loadingIds.Add(account.Id);
+            StateHasChanged();
+
+            var acc = await Pgsql.account.FirstOrDefaultAsync(a => a.Id == account.Id);
+            if (acc is not null)
+            {
+                acc.State = 1;
+                await Pgsql.SaveChangesAsync();
+                Snackbar.Add($"{acc.Name} has been unbanned.", Severity.Success);
+            }
+
+            loadingIds.Remove(account.Id);
+            await RefreshAccounts();
+        }
+    }
+
+    private bool FilterAccounts(Account account)
+    {
+        if (string.IsNullOrWhiteSpace(searchAccountString)) return true;
+        return account.Name?.Contains(searchAccountString, StringComparison.OrdinalIgnoreCase) == true;
+    }
+}

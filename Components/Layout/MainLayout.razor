@@ -2,7 +2,13 @@
 
 <MudThemeProvider Theme="@_theme" IsDarkMode="true" />
 <MudPopoverProvider />
-<MudDialogProvider />
+<MudDialogProvider BackdropClick="false"
+                   CloseButton="false"
+                   FullWidth="false"
+                   MaxWidth="MaxWidth.Large"
+                   NoHeader="false"
+                   Position="DialogPosition.Center"
+                   CloseOnEscapeKey="false" />
 <MudSnackbarProvider />
 
 <link href="css/site.css" rel="stylesheet" />
@@ -26,7 +32,7 @@
 
 <MudLayout>
 
-    <MudAppBar Elevation="3">
+    <MudAppBar Elevation="1">
         <MudIconButton Class="d-flex" Edge="Edge.Start" OnClick="@((e) => DrawerToggle())"> <img style="width:100px" src="./img/Logos/Logo_Y3.png" /> </MudIconButton>
         <MudText Typo="Typo.h5" Class="ml-6">Dragon's Dogma Online</MudText>
         <MudSpacer />
@@ -93,7 +99,7 @@
         LinesDefault = "#33323e",
         LinesInputs = "#b5b194ff",
         TableLines = "#33323e",
-        Divider = "#292838",
+        Divider = "#b5b194",
         OverlayLight = "#1e1e2d80",
     };
 }

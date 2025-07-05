@@ -1,16 +1,16 @@
 ﻿@page "/"
+@using DDON_WebPage.Components.Data
+@using Microsoft.EntityFrameworkCore
+@inject AppDbContext Pgsql
 
 <PageTitle>Dragon's Dogma Online</PageTitle>
 
 
-
-@*
-<MudTable Items="listAccounts" Hover="true">
+<MudTable T="Account" Items="players" Hover="true">
     <HeaderContent>
         <MudTh>Name</MudTh>
         <MudTh>Normal Name</MudTh>
-        <MudTh>Email Token</MudTh>
-        <MudTh>Password</MudTh>
+        <MudTh>PasswordToken</MudTh>
         <MudTh>Created At</MudTh>
         <MudTh>Last Login</MudTh>
         <MudTh>Email Verified At</MudTh>
@@ -19,25 +19,19 @@
     <RowTemplate>
         <MudTd DataLabel="Name">@context.Name</MudTd>
         <MudTd DataLabel="Normal Name">@context.NormalName</MudTd>
-        <MudTd DataLabel="Email Token">@context.EmailToken</MudTd>
-        <MudTd DataLabel="Password">@context.Password</MudTd>
+        <MudTd DataLabel="Password">@context.PasswordToken</MudTd>
         <MudTd DataLabel="Created At">@context.CreatedAt</MudTd>
         <MudTd DataLabel="Last Login">@context.LastLogin</MudTd>
         <MudTd DataLabel="Email Verified At">@context.EmailVerifieldAt</MudTd>
     </RowTemplate>
 </MudTable>
-*@
 
 
 @code {
+    List<Account> players;
 
-
-    
-    
     protected override async Task OnInitializedAsync()
     {
-        await Task.Delay(50);
+        players = await Pgsql.account.ToListAsync();
     }
-
-    
 }

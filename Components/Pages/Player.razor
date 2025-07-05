@@ -16,6 +16,7 @@
     <MudText Typo="Typo.h5" Align="Align.Center" Class="mb-4">@UserName's Account Info</MudText>
 
     <br />
+    <MudDivider />
 
     <MudForm @ref="form" Model="updateModel" OnValidSubmit="HandleValidSubmit">
         <MudGrid>
@@ -75,7 +76,7 @@
                 <MudButton Color="Color.Primary" Disabled="@(!_enableEditPassword && !_enableEditMail)" Variant="Variant.Filled" OnClick="SaveChanges">Save</MudButton>
             </MudItem>
 
-            <MudItem xs="2">
+            <MudItem xs="3">
                 <MudButton Color="Color.Transparent" Variant="Variant.Filled" Href="/">Cancel</MudButton>
             </MudItem>
 
