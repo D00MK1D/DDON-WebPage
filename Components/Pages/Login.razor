@@ -133,9 +133,9 @@
                 }
             }
 
-            catch (Exception e)
+            catch
             {
-                Snackbar.Add($"Error: {e}", Severity.Error);
+                Snackbar.Add("There was an error processing your request.", Severity.Error);
             }
         }
         else

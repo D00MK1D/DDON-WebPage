@@ -4,6 +4,7 @@
 @using Microsoft.AspNetCore.Components.Authorization
 @using Microsoft.EntityFrameworkCore
 @using static DDON_WebPage.Components.Data.Models
+
 @inject AppDbContext Pgsql
 @inject AuthenticationStateProvider AuthProvider
 @inject ISnackbar Snackbar
@@ -155,7 +156,7 @@
     private string? UserName;
     private string? _iconEditMail;
     private string? _iconEditPassword;
-    private string? oldEmail;
+    private string oldEmail = "";
     private string searchAccountString = "";
 
     private HashSet<int> loadingIds = new();
@@ -280,10 +281,10 @@
     private async Task ApplyBan(Account account)
     {
         DialogParameters parameters = new DialogParameters { ["Message"] = $"Are you sure you want to ban '{account.NormalName}'?" };
-        var dialog = DialogService.ShowAsync<ConfirmDialog>("Confirm Ban", parameters);
-        var result = dialog.Result;
+        var dialog = await DialogService.ShowAsync<ConfirmDialog>("Confirm Ban", parameters);
+        var result = await dialog.Result;
 
-        if (!result.Result.IsCanceled)
+        if (!result.Canceled)
         {
             loadingIds.Add(account.Id);
             StateHasChanged();
@@ -304,10 +305,10 @@
     private async Task RemoveBan(Account account)
     {
         var parameters = new DialogParameters { ["Message"] = $"Are you sure you want to unban '{account.NormalName}'?" };
-        var dialog = DialogService.ShowAsync<ConfirmDialog>("Confirm Unban", parameters);
-        var result = dialog.Result;
+        var dialog = await DialogService.ShowAsync<ConfirmDialog>("Confirm Unban", parameters);
+        var result = await dialog.Result;
 
-        if (!result.Result.IsCanceled)
+        if (!result.Canceled)
         {
             loadingIds.Add(account.Id);
             StateHasChanged();

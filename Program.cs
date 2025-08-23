@@ -6,8 +6,6 @@ using Microsoft.EntityFrameworkCore;
 using MudBlazor;
 using MudBlazor.Services;
 
-
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Add MudBlazor services

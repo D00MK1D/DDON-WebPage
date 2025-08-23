@@ -5,12 +5,10 @@
 
 <PageTitle>Dragon's Dogma Online</PageTitle>
 
-
 <MudTable T="Account" Items="players" Hover="true">
     <HeaderContent>
         <MudTh>Name</MudTh>
         <MudTh>Normal Name</MudTh>
-        <MudTh>PasswordToken</MudTh>
         <MudTh>Created At</MudTh>
         <MudTh>Last Login</MudTh>
         <MudTh>Email Verified At</MudTh>
@@ -19,13 +17,11 @@
     <RowTemplate>
         <MudTd DataLabel="Name">@context.Name</MudTd>
         <MudTd DataLabel="Normal Name">@context.NormalName</MudTd>
-        <MudTd DataLabel="Password">@context.PasswordToken</MudTd>
         <MudTd DataLabel="Created At">@context.CreatedAt</MudTd>
         <MudTd DataLabel="Last Login">@context.LastLogin</MudTd>
         <MudTd DataLabel="Email Verified At">@context.EmailVerifieldAt</MudTd>
     </RowTemplate>
 </MudTable>
-
 
 @code {
     List<Account> players;
