@@ -15,6 +15,7 @@
 <PageTitle>DDON - Admin Page</PageTitle>
 
 <MudTabs Elevation="0" Rounded="true" ApplyEffectsToContainer="true" PanelClass="pa-6">
+    @if (admin.State == 50 || admin.State == 100){
     <MudTabPanel Text="Account Info">
         <MudPaper Class="pa-6 mx-auto" Style="max-width:600px;">
             <MudText Typo="Typo.h5" Align="Align.Center" Class="mb-4">@UserName's Account Info</MudText>
@@ -88,7 +89,7 @@
             <br />
         </MudPaper>
     </MudTabPanel>
-
+        @if (admin.State == 100){
     <MudTabPanel Text="Players Info">
         <MudTable T="Account" Items="listAccounts" Hover="true" Filter="FilterAccounts">
             <ToolBarContent>
@@ -141,10 +142,11 @@
             </PagerContent>
         </MudTable>
     </MudTabPanel>
-
+        }
     <MudTabPanel Text="Tab Three">
         <MudText>Content Three</MudText>
     </MudTabPanel>
+    }
 </MudTabs>
 
 
@@ -161,9 +163,8 @@
 
     private HashSet<int> loadingIds = new();
     private List<Account> listAccounts = new();
-    private MudForm? form;
+    private MudForm form = new();
     private Account? admin = new();
-    private Account? selectedAccount;
     private UpdateModel updateModel = new();
     private ServerApi.ServerResponse? serverResponse = new();
     private InputType PasswordInput = InputType.Password;

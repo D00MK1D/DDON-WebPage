@@ -9,5 +9,6 @@ namespace DDON_WebPage.Components.Data
         { }
 
         public DbSet<Account> account { get; set; }
+        //public DbSet<Smtp> smtp { get; set; }
     }
 }

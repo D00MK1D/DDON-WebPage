@@ -18,19 +18,19 @@
     <MudPaper Class="pa-6 mx-auto" Style="min-width:400px;">
         <MudText Typo="Typo.h5" Align="Align.Center" Class="mb-4">Register</MudText>
 
-        <MudTextField T="string" Variant="Variant.Outlined" Label="Account ID" Immediate="true"
+        <MudTextField T="string" Variant="Variant.Outlined" Label="Account ID" Immediate="false" MaxLength="50"
                       @bind-Value="registerModel.Name"
                       For="@(() => registerModel.Name)" />
 
-        <MudTextField T="string" Variant="Variant.Outlined" Label="Email" Immediate="true"
+        <MudTextField T="string" Variant="Variant.Outlined" Label="Email" Immediate="false" MaxLength="50"
                       @bind-Value="registerModel.Email"
                       For="@(() => registerModel.Email)" />
 
-        <MudTextField T="string" Variant="Variant.Outlined" Label="Password" InputType="InputType.Password" Immediate="true"
+        <MudTextField T="string" Variant="Variant.Outlined" Label="Password" InputType="InputType.Password" Immediate="true" MaxLength="50"
                       @bind-Value="registerModel.Password"
                       For="@(() => registerModel.Password)" />
 
-        <MudTextField T="string" Variant="Variant.Outlined" Label="Confirm Password" InputType="InputType.Password" Immediate="true"
+        <MudTextField T="string" Variant="Variant.Outlined" Label="Confirm Password" InputType="InputType.Password" Immediate="true" MaxLength="50"
                       @bind-Value="registerModel.ConfirmPassword"
                       For="@(() => registerModel.ConfirmPassword)" />
         <br />
@@ -58,7 +58,6 @@
 @code{
     private MudForm? form;
     private RegisterModel registerModel = new();
-    ServerResponse? serverResponse;
     private bool _isRegisterDisabled { get; set; } = true;
     private bool _isLoadingState = false;
 
