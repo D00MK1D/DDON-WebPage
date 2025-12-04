@@ -86,7 +86,7 @@
                         _loadingState = false;
                         _isLoginDisabled = false;
                         Console.WriteLine($"\n{DateTime.UtcNow} - Error: {response.Error} - Account: {account}\n");
-                        Snackbar.Add("Invalid user or password.", Severity.Warning);
+                        Snackbar.Add(response.Error, Severity.Warning);
                         return;
                     }
                     else

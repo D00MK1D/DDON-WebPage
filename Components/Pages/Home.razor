@@ -5,13 +5,25 @@
 
 <PageTitle>Dragon's Dogma Online</PageTitle>
 
-<MudTable T="Account" Items="players" Hover="true">
+<MudTable T="vwCharactersJobData" Items="jobdata" Hover="true">
+    <HeaderContent>
+        <MudTh>Character Name</MudTh>
+        <MudTh>Job Name</MudTh>
+        <MudTh>Level</MudTh>
+    </HeaderContent>
+    <RowTemplate>
+        <MudTd DataLabel="Character Name">@(context.charFirstName + " " + context.charLastName)</MudTd>
+        <MudTd DataLabel="Job Name">@context.jobId</MudTd>
+        <MudTd DataLabel="Level">@context.jobLevel</MudTd>
+    </RowTemplate>
+</MudTable>
+
+@* <MudTable T="Account" Items="players" Hover="true">
     <HeaderContent>
         <MudTh>Name</MudTh>
         <MudTh>Normal Name</MudTh>
         <MudTh>Created At</MudTh>
         <MudTh>Last Login</MudTh>
-        <MudTh>Email Verified At</MudTh>
     </HeaderContent>
 
     <RowTemplate>
@@ -19,15 +31,32 @@
         <MudTd DataLabel="Normal Name">@context.NormalName</MudTd>
         <MudTd DataLabel="Created At">@context.CreatedAt</MudTd>
         <MudTd DataLabel="Last Login">@context.LastLogin</MudTd>
-        <MudTd DataLabel="Email Verified At">@context.EmailVerifieldAt</MudTd>
     </RowTemplate>
 </MudTable>
 
+<MudTable T="Character" Items="characters" Hover="true">
+    <HeaderContent>
+        <MudTh>Name</MudTh>
+        <MudTh>Normal Name</MudTh>
+        <MudTh>Created At</MudTh>
+    </HeaderContent>
+
+    <RowTemplate>
+        <MudTd DataLabel="Name">@(context.firstName + " " + @context.lastName)</MudTd>
+        <MudTd DataLabel="Normal Name"></MudTd>
+        <MudTd DataLabel="Created At"></MudTd>
+    </RowTemplate>
+</MudTable> *@
+
 @code {
-    List<Account> players;
+    private List<Account>? players = new();
+    private List<Character>? characters = new();
+    private List<vwCharactersJobData>? jobdata = new();
 
     protected override async Task OnInitializedAsync()
     {
         players = await Pgsql.account.ToListAsync();
+        characters = await Pgsql.ddon_character.ToListAsync();
+        jobdata = await Pgsql.vw_characters_job_data.ToListAsync();
     }
 }

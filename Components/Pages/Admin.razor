@@ -89,63 +89,66 @@
             <br />
         </MudPaper>
     </MudTabPanel>
-        @if (admin.State == 100){
-    <MudTabPanel Text="Players Info">
-        <MudTable T="Account" Items="listAccounts" Hover="true" Filter="FilterAccounts">
-            <ToolBarContent>
-                <MudText Typo="Typo.h6">Accounts</MudText>
-                <MudSpacer />
-                <MudTextField @bind-Value="searchAccountString" Placeholder="Search by name" Adornment="Adornment.Start" AdornmentIcon="@Icons.Material.Filled.Search" />
-            </ToolBarContent>
-            <HeaderContent>
-                <MudTh><MudTableSortLabel SortBy="@((Account a) => a.Name)">Name</MudTableSortLabel></MudTh>
-                <MudTh><MudTableSortLabel SortBy="@((Account a) => a.NormalName)">Normal Name</MudTableSortLabel></MudTh>
-                <MudTh><MudTableSortLabel SortBy="@((Account a) => a.CreatedAt)">Created At</MudTableSortLabel></MudTh>
-                <MudTh><MudTableSortLabel SortBy="@((Account a) => a.LastLogin)">Last Login</MudTableSortLabel></MudTh>
-                <MudTh>State</MudTh>
-                <MudTh>Actions</MudTh>
-            </HeaderContent>
-
-            <RowTemplate>
-                <MudTd>@context.Name</MudTd>
-                <MudTd>@context.NormalName</MudTd>
-                <MudTd>@context.CreatedAt</MudTd>
-                <MudTd>@context.LastLogin</MudTd>
-                <MudTd>@context.State</MudTd>
-                <MudTd>
-                    <MudIconButton OnClick="@(() => ApplyBan(context))"
-                                   Disabled="@(context.State == 0 || context.State == 100)"
-                                   Icon="@(!loadingIds.Contains(context.Id) ? Icons.Material.Filled.Gavel : null)"
-                                   Color="Color.Error"
-                                   Title="Ban">
-                        @if (loadingIds.Contains(context.Id))
-                        {
-                            <MudProgressCircular Indeterminate="true" Size="Size.Small" Color="Color.Error" />
-                        }
-                    </MudIconButton>
-
-                    <MudIconButton OnClick="@(() => RemoveBan(context))"
-                                   Disabled="@(context.State != 0)"
-                                   Icon="@(!loadingIds.Contains(context.Id) ? Icons.Material.Filled.LockOpen : null)"
-                                   Color="Color.Success"
-                                   Title="Unban">
-                        @if (loadingIds.Contains(context.Id))
-                        {
-                            <MudProgressCircular Indeterminate="true" Size="Size.Small" Color="Color.Success" />
-                        }
-                    </MudIconButton>
-                </MudTd>
-            </RowTemplate>
-
-            <PagerContent>
-                <MudTablePager />
-            </PagerContent>
-        </MudTable>
+    <MudTabPanel Text="Character info">
+        <MudPaper MinWidth="100%" MinHeight="100%">
+                <MudImage Src="./img/Jobs/heroes/hero_job_1.png" Style="border: double #c3c3c3ff 4px" />
+        </MudPaper>
     </MudTabPanel>
+        @if (admin.State == 100)
+        {
+            <MudTabPanel Text="Players Info">
+                <MudTable T="Account" Items="listAccounts" Hover="true" Filter="FilterAccounts">
+                    <ToolBarContent>
+                        <MudText Typo="Typo.h6">Accounts</MudText>
+                        <MudSpacer />
+                        <MudTextField @bind-Value="searchAccountString" Placeholder="Search by name" Adornment="Adornment.Start" AdornmentIcon="@Icons.Material.Filled.Search" />
+                    </ToolBarContent>
+                    <HeaderContent>
+                        <MudTh><MudTableSortLabel SortBy="@((Account a) => a.Name)">Name</MudTableSortLabel></MudTh>
+                        <MudTh><MudTableSortLabel SortBy="@((Account a) => a.NormalName)">Normal Name</MudTableSortLabel></MudTh>
+                        <MudTh><MudTableSortLabel SortBy="@((Account a) => a.CreatedAt)">Created At</MudTableSortLabel></MudTh>
+                        <MudTh><MudTableSortLabel SortBy="@((Account a) => a.LastLogin)">Last Login</MudTableSortLabel></MudTh>
+                        <MudTh>State</MudTh>
+                        <MudTh>Actions</MudTh>
+                    </HeaderContent>
+
+                    <RowTemplate>
+                        <MudTd>@context.Name</MudTd>
+                        <MudTd>@context.NormalName</MudTd>
+                        <MudTd>@context.CreatedAt</MudTd>
+                        <MudTd>@context.LastLogin</MudTd>
+                        <MudTd>@context.State</MudTd>
+                        <MudTd>
+                            <MudIconButton OnClick="@(() => ApplyBan(context))"
+                                           Disabled="@(context.State == 0 || context.State == 100)"
+                                           Icon="@(!loadingIds.Contains(context.Id) ? Icons.Material.Filled.Gavel : null)"
+                                           Color="Color.Error"
+                                           Title="Ban">
+                                @if (loadingIds.Contains(context.Id))
+                                {
+                                    <MudProgressCircular Indeterminate="true" Size="Size.Small" Color="Color.Error" />
+                                }
+                            </MudIconButton>
+
+                            <MudIconButton OnClick="@(() => RemoveBan(context))"
+                                           Disabled="@(context.State != 0)"
+                                           Icon="@(!loadingIds.Contains(context.Id) ? Icons.Material.Filled.LockOpen : null)"
+                                           Color="Color.Success"
+                                           Title="Unban">
+                                @if (loadingIds.Contains(context.Id))
+                                {
+                                    <MudProgressCircular Indeterminate="true" Size="Size.Small" Color="Color.Success" />
+                                }
+                            </MudIconButton>
+                        </MudTd>
+                    </RowTemplate>
+
+                    <PagerContent>
+                        <MudTablePager />
+                    </PagerContent>
+                </MudTable>
+            </MudTabPanel>
         }
-    <MudTabPanel Text="Tab Three">
-        <MudText>Content Three</MudText>
-    </MudTabPanel>
     }
 </MudTabs>
 
@@ -248,6 +251,7 @@
         {
             _iconEditMail = Icons.Material.Filled.Close;
         }
+
         _enableEditMail = !_enableEditMail;
     }
 
@@ -263,6 +267,7 @@
         {
             _iconEditPassword = Icons.Material.Filled.Close;
         }
+
         _enableEditPassword = !_enableEditPassword;
     }
 

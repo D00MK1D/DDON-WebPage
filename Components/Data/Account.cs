@@ -1,10 +1,13 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
-using System.Security;
+﻿using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace DDON_WebPage.Components.Data
 {
     public class Account
     {
+        [Key]
+        [Required]
         [Column("id")]
         public int Id { get; set; }
 
@@ -37,6 +40,5 @@ namespace DDON_WebPage.Components.Data
 
         [Column("created")]
         public DateTime CreatedAt { get; set; }
-
     }
 }
