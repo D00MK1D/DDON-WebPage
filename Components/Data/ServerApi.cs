@@ -51,7 +51,7 @@ namespace DDON_WebPage.Components.Data
                 {
                     serverResponse = JsonSerializer.Deserialize<ServerResponse>(responseBody);
 
-                    if (serverResponse != null && serverResponse.Token != null && serverResponse.Token != "")
+                    if (!string.IsNullOrEmpty(serverResponse?.Token))
                     {
                         var user = await Pgsql.account.FirstOrDefaultAsync(u => u.NormalName == account.ToLower());
 
