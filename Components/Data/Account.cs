@@ -23,6 +23,9 @@ namespace DDON_WebPage.Components.Data
         [Column("password_token")]
         public string? PasswordToken { get; set; } = string.Empty;
 
+        [Column("hash")]
+        public string Hash { get; set; } = string.Empty;
+
         [Column("mail")]
         public string Email { get; set; } = string.Empty;
 

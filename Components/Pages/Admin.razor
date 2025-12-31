@@ -334,7 +334,7 @@
 
     private bool FilterAccounts(Account account)
     {
-        if (string.IsNullOrWhiteSpace(searchAccountString)) return true;
+        if (string.IsNullOrEmpty(searchAccountString)) return true;
         return account.Name?.Contains(searchAccountString, StringComparison.OrdinalIgnoreCase) == true;
     }
 }

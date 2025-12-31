@@ -2,10 +2,10 @@
 @using DDON_WebPage.Components.Data
 @using Microsoft.EntityFrameworkCore
 @inject AppDbContext Pgsql
-
+@inject ISnackbar Snackbar
 <PageTitle>Dragon's Dogma Online</PageTitle>
 
-<MudTable T="vwCharactersJobData" Items="jobdata" Hover="true">
+@*<MudTable T="vwCharactersJobData" Items="jobdata" Hover="true">
     <HeaderContent>
         <MudTh>Character Name</MudTh>
         <MudTh>Job Name</MudTh>
@@ -18,21 +18,9 @@
     </RowTemplate>
 </MudTable>
 
-@* <MudTable T="Account" Items="players" Hover="true">
-    <HeaderContent>
-        <MudTh>Name</MudTh>
-        <MudTh>Normal Name</MudTh>
-        <MudTh>Created At</MudTh>
-        <MudTh>Last Login</MudTh>
-    </HeaderContent>
 
-    <RowTemplate>
-        <MudTd DataLabel="Name">@context.Name</MudTd>
-        <MudTd DataLabel="Normal Name">@context.NormalName</MudTd>
-        <MudTd DataLabel="Created At">@context.CreatedAt</MudTd>
-        <MudTd DataLabel="Last Login">@context.LastLogin</MudTd>
-    </RowTemplate>
-</MudTable>
+
+
 
 <MudTable T="Character" Items="characters" Hover="true">
     <HeaderContent>
@@ -47,6 +35,26 @@
         <MudTd DataLabel="Created At"></MudTd>
     </RowTemplate>
 </MudTable> *@
+
+<MudTable T="Account" Items="players" Hover="true" RowsPerPage="20" Dense="true">
+    <HeaderContent>
+        <MudTh>Name</MudTh>
+        <MudTh>Normal Name</MudTh>
+        <MudTh>Created At</MudTh>
+        <MudTh>Last Login</MudTh>
+    </HeaderContent>
+
+    <RowTemplate>
+        <MudTd DataLabel="Name">@context.Name</MudTd>
+        <MudTd DataLabel="Normal Name">@context.NormalName</MudTd>
+        <MudTd DataLabel="Created At">@context.CreatedAt</MudTd>
+        <MudTd DataLabel="Last Login">@context.LastLogin</MudTd>
+    </RowTemplate>
+
+    <PagerContent>
+        <MudTablePager />
+    </PagerContent>
+</MudTable>
 
 @code {
     private List<Account>? players = new();
