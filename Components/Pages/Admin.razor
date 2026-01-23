@@ -15,85 +15,170 @@
 <PageTitle>DDON - Admin Page</PageTitle>
 
 <MudTabs Elevation="0" Rounded="true" ApplyEffectsToContainer="true" PanelClass="pa-6">
-    @if (admin.State == 50 || admin.State == 100){
-    <MudTabPanel Text="Account Info">
-        <MudPaper Class="pa-6 mx-auto" Style="max-width:600px;">
-            <MudText Typo="Typo.h5" Align="Align.Center" Class="mb-4">@UserName's Account Info</MudText>
+    @if (admin.State == 50 || admin.State == 100)
+    {
+        <MudTabPanel Text="Account Info">
+            <MudPaper Class="pa-6 mx-auto" Style="max-width:600px;">
+                <MudText Typo="Typo.h5" Align="Align.Center" Class="mb-4">@UserName's Account Info</MudText>
 
-            <br />
-            <MudDivider />
-            <br />
-            <br />
+                <br />
+                <MudDivider />
+                <br />
+                <br />
 
-            <MudForm @ref="form" Model="updateModel" OnValidSubmit="HandleValidSubmit">
-                <MudGrid>
-                    <MudItem xs="5">
-                        <MudTextField T="string" Label="Password"
-                                      @bind-Value="updateModel.Password"
-                                      Variant="Variant.Outlined"
-                                      Immediate="true"
-                                      Disabled="@(!_enableEditPassword)"
-                                      InputType="@PasswordInput"
-                                      Adornment="Adornment.End"
-                                      AdornmentIcon="@PasswordInputIcon"
-                                      OnAdornmentClick="@ShowPassword"
-                                      AdornmentAriaLabel="Show Password" />
-                    </MudItem>
+                <MudForm @ref="form" Model="updateModel" OnValidSubmit="HandleValidSubmit">
+                    <MudGrid>
+                        <MudItem xs="5">
+                            <MudTextField T="string" Label="Password"
+                                          @bind-Value="updateModel.Password"
+                                          Variant="Variant.Outlined"
+                                          Immediate="true"
+                                          Disabled="@(!_enableEditPassword)"
+                                          InputType="@PasswordInput"
+                                          Adornment="Adornment.End"
+                                          AdornmentIcon="@PasswordInputIcon"
+                                          OnAdornmentClick="@ShowPassword"
+                                          AdornmentAriaLabel="Show Password" />
+                        </MudItem>
 
-                    <MudItem xs="5">
-                        <MudTextField T="string" Label="Confirm Password"
-                                      @bind-Value="updateModel.ConfirmPassword"
-                                      Variant="Variant.Outlined"
-                                      Immediate="true"
-                                      Disabled="@(!_enableEditPassword)"
-                                      InputType="@PasswordInput"
-                                      Adornment="Adornment.End"
-                                      AdornmentIcon="@PasswordInputIcon"
-                                      OnAdornmentClick="@ShowPassword"
-                                      AdornmentAriaLabel="Show Password"
-                                      For="@(() => updateModel.ConfirmPassword)" />
-                    </MudItem>
+                        <MudItem xs="5">
+                            <MudTextField T="string" Label="Confirm Password"
+                                          @bind-Value="updateModel.ConfirmPassword"
+                                          Variant="Variant.Outlined"
+                                          Immediate="true"
+                                          Disabled="@(!_enableEditPassword)"
+                                          InputType="@PasswordInput"
+                                          Adornment="Adornment.End"
+                                          AdornmentIcon="@PasswordInputIcon"
+                                          OnAdornmentClick="@ShowPassword"
+                                          AdornmentAriaLabel="Show Password"
+                                          For="@(() => updateModel.ConfirmPassword)" />
+                        </MudItem>
 
-                    <MudItem Class="d-flex align-center" xs="2">
-                        <MudIconButton OnClick="EditPassword" Icon="@_iconEditPassword" />
-                    </MudItem>
+                        <MudItem Class="d-flex align-center" xs="2">
+                            <MudIconButton OnClick="EditPassword" Icon="@_iconEditPassword" />
+                        </MudItem>
 
-                    <MudItem xs="10">
-                        <MudTextField Disabled="@(!_enableEditMail)"
-                                      T="string" Label="Email"
-                                      @bind-Value="updateModel.Email"
-                                      Variant="Variant.Outlined"
-                                      Immediate="true"
-                                      For="@(() => updateModel.Email)" />
-                    </MudItem>
+                        <MudItem xs="10">
+                            <MudTextField Disabled="@(!_enableEditMail)"
+                                          T="string" Label="Email"
+                                          @bind-Value="updateModel.Email"
+                                          Variant="Variant.Outlined"
+                                          Immediate="true"
+                                          For="@(() => updateModel.Email)" />
+                        </MudItem>
 
-                    <MudItem Class="d-flex align-center" xs="2">
-                        <MudIconButton OnClick="EditMail" Icon="@_iconEditMail" />
-                    </MudItem>
+                        <MudItem Class="d-flex align-center" xs="2">
+                            <MudIconButton OnClick="EditMail" Icon="@_iconEditMail" />
+                        </MudItem>
 
-                    <MudItem xs="2">
-                        <MudButton Color="Color.Primary" Disabled="@(!_enableEditPassword && !_enableEditMail)" Variant="Variant.Filled" OnClick="SaveChanges">Save</MudButton>
-                    </MudItem>
+                        <MudItem xs="2">
+                            <MudButton Color="Color.Primary" Disabled="@(!_enableEditPassword && !_enableEditMail)" Variant="Variant.Filled" OnClick="SaveChanges">Save</MudButton>
+                        </MudItem>
 
-                    <MudItem xs="3">
-                        <MudButton Color="Color.Transparent" Variant="Variant.Filled" Href="/">Cancel</MudButton>
-                    </MudItem>
+                        <MudItem xs="3">
+                            <MudButton Color="Color.Transparent" Variant="Variant.Filled" Href="/">Cancel</MudButton>
+                        </MudItem>
 
-                </MudGrid>
+                    </MudGrid>
 
-            </MudForm>
+                </MudForm>
 
-            <br />
-            <br />
-            <MudDivider />
-            <br />
-        </MudPaper>
-    </MudTabPanel>
-    <MudTabPanel Text="Character info">
-        <MudPaper MinWidth="100%" MinHeight="100%">
-                <MudImage Src="./img/Jobs/heroes/hero_job_1.png" Style="border: double #c3c3c3ff 4px" />
-        </MudPaper>
-    </MudTabPanel>
+                <br />
+                <br />
+                <MudDivider />
+                <br />
+            </MudPaper>
+        </MudTabPanel>
+        <MudTabPanel Text="Character info">
+
+            <MudPaper Class="pa-6 mx-auto">
+                @foreach (var arisens in listArisens.DistinctBy(x => x.playerId))
+                {
+                    <MudGrid Class="d-flex">
+                        <MudItem md="4">
+                            <MudImage ObjectFit="ObjectFit.Cover" Src="@($"./img/Jobs/Heroes/hero_job_{listArisens.MaxBy(x=> x.jobLevel).jobId}.png")" />
+                        </MudItem>
+
+                        <MudItem md="4">
+                            <MudGrid>
+                                <MudItem md="12">
+                                    <MudText Align="Align.Center" Typo="Typo.h4" GutterBottom>
+                                        @arisens.charFirstName @arisens.charLastName
+                                        <MudDivider />
+                                    </MudText>
+                                </MudItem>
+
+                                <MudItem md="4">
+                                    <MudTextField @bind-Value="arisens.charFirstName"></MudTextField>
+
+                                </MudItem>
+                                <MudItem md="4">
+                                    <MudTextField @bind-Value="arisens.charFirstName"></MudTextField>
+
+                                </MudItem>
+                                <MudItem md="4">
+                                    <MudTextField @bind-Value="arisens.charFirstName"></MudTextField>
+
+                                </MudItem>
+                               
+                                
+                                <MudItem md="4">
+                                    <MudTextField @bind-Value="arisens.charLastName"></MudTextField>
+
+                                </MudItem>
+                                <MudItem md="4">
+                                    <MudTextField @bind-Value="arisens.charLastName"></MudTextField>
+
+                                </MudItem>
+                                <MudItem md="4">
+                                    <MudTextField @bind-Value="arisens.charLastName"></MudTextField>
+
+                                </MudItem>
+                               
+                                
+                                <MudItem md="4">
+                                    <MudTextField @bind-Value="arisens.jobLevel"></MudTextField>
+
+                                </MudItem>
+                                <MudItem md="4">
+                                    <MudTextField @bind-Value="arisens.jobLevel"></MudTextField>
+
+                                </MudItem>
+                                <MudItem md="4">
+                                    <MudTextField @bind-Value="arisens.jobLevel"></MudTextField>
+
+                                </MudItem>
+
+                                
+                                <MudItem></MudItem>
+                            </MudGrid>
+                        </MudItem>
+                        <MudItem md="4">
+                            <MudGrid>
+                                @foreach (var arisens in listArisens.OrderBy(x=>x.jobId))
+                                {
+                                    <MudItem Class="mx-2">
+                                        <MudTooltip Placement="Placement.Top" Text="@(_dicJobIds[(int)arisens.jobId])">
+                                            <MudAvatar Size="Size.Large" Variant="Variant.Outlined">
+                                                <MudImage Src="@($"./img/Jobs/icons/icon_job_{arisens.jobId}.png")" />
+                                            </MudAvatar>
+                                        </MudTooltip>
+
+                                        <MudText Align="Align.Center" Typo="Typo.subtitle2">Level: @arisens.jobLevel</MudText>
+
+                                    </MudItem>
+                                }
+                            </MudGrid>
+                        </MudItem>
+                    </MudGrid>
+
+                    <MudDivider />
+                }
+            </MudPaper>
+
+
+        </MudTabPanel>
         @if (admin.State == 100)
         {
             <MudTabPanel Text="Players Info">
@@ -157,15 +242,16 @@
     private bool isShow = false;
     private bool _enableEditMail = false;
     private bool _enableEditPassword = false;
-    private string? PasswordInputIcon;
+    private string? PasswordInputIcon = Icons.Material.Filled.VisibilityOff;
     private string? UserName;
-    private string? _iconEditMail;
-    private string? _iconEditPassword;
+    private string? _iconEditMail = Icons.Material.Filled.Edit;
+    private string? _iconEditPassword = Icons.Material.Filled.Edit;
     private string oldEmail = "";
     private string searchAccountString = "";
 
     private HashSet<int> loadingIds = new();
     private List<Account> listAccounts = new();
+    private List<vwCharactersJobData> listArisens = new();
     private MudForm form = new();
     private Account? admin = new();
     private UpdateModel updateModel = new();
@@ -174,14 +260,11 @@
 
     protected override async Task OnInitializedAsync()
     {
-        PasswordInputIcon = Icons.Material.Filled.VisibilityOff;
-        _iconEditPassword = Icons.Material.Filled.Edit;
-        _iconEditMail = Icons.Material.Filled.Edit;
-
         var authState = await AuthProvider.GetAuthenticationStateAsync();
         var user = authState.User;
 
         admin = await Pgsql.account.AsNoTracking().FirstOrDefaultAsync(u => u.NormalName == user.Identity.Name.ToLower());
+        listArisens = await Pgsql.vw_characters_job_data.AsNoTracking().ToListAsync();
 
         if (user.Identity is { IsAuthenticated: true })
         {
@@ -337,4 +420,21 @@
         if (string.IsNullOrEmpty(searchAccountString)) return true;
         return account.Name?.Contains(searchAccountString, StringComparison.OrdinalIgnoreCase) == true;
     }
+
+    Dictionary<int, string> _dicJobIds = new Dictionary<int, string>
+    {
+        { 0, "None" },
+        { 1, "Fighter" },
+        { 2, "Seeker" },
+        { 3, "Hunter" },
+        { 4, "Priest" },
+        { 5, "Shield Sage" },
+        { 6, "Sorcerer" },
+        { 7, "Warrior" },
+        { 8, "Element Archer" },
+        { 9, "Alchemist" },
+        { 10, "Spirit Lancer" },
+        { 11, "High Scepter" },
+
+    };
 }

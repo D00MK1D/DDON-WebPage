@@ -162,6 +162,10 @@
                             Snackbar.Add(serverResponse.Error, Severity.Warning);
                         }
                     }
+                    else
+                    {
+                        Snackbar.Add(serverResponse.Error, Severity.Warning);
+                    }
                     //account.PasswordToken = updateModel.Password;
                 }
                 catch

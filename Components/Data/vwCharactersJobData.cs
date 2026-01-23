@@ -6,8 +6,11 @@ namespace DDON_WebPage.Components.Data
     [Keyless]
     public class vwCharactersJobData
     {
-        [Column("player_name")]
-        public string playerName { get; set; } = string.Empty;
+        [Column("char_id")]
+        public int charId { get; set; }
+
+        [Column("player_id")]
+        public int playerId { get; set; }
         
         [Column("char_first_name")]
         public string charFirstName { get; set; } = string.Empty;
