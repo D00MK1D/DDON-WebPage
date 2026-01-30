@@ -298,12 +298,12 @@
             {
                 try
                 {
-                    serverResponse = await ServerApi.Operation(Pgsql, "reset", "", "", "", oldEmail, "");
+                    serverResponse = await ServerApi.Operation(Pgsql, ServerApi.AccountAction.ForgotPassword, "", "", "", oldEmail, "");
 
                     if (serverResponse.Error is null)
                     {
                         admin = await Pgsql.account.AsNoTracking().FirstOrDefaultAsync(u => u.NormalName == UserName.ToLower());
-                        serverResponse = await ServerApi.Operation(Pgsql, "reset", admin.Name, updateModel.ConfirmPassword, admin.PasswordToken, "", "");
+                        serverResponse = await ServerApi.Operation(Pgsql, ServerApi.AccountAction.ResetPassword, admin.Name, updateModel.ConfirmPassword, admin.PasswordToken, "", "");
 
                         if (serverResponse.Error is null)
                         {

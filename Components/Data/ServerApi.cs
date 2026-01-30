@@ -13,8 +13,26 @@ namespace DDON_WebPage.Components.Data
             public string? Token { get; set; }
         }
 
-        public static async Task<ServerResponse?> Operation(AppDbContext Pgsql, string action, string account, string password,string passwordToken, string email, string emailToken)
+        public enum AccountAction : byte
         {
+            Register,
+            Login,
+            ForgotPassword,
+            ResetPassword
+        }
+
+        public static async Task<ServerResponse?> Operation(AppDbContext Pgsql, AccountAction accountAction, string account, string password,string passwordToken, string email, string emailToken)
+        {
+
+            string action = accountAction switch
+            {
+                AccountAction.Register => "create",
+                AccountAction.Login => "login",
+                AccountAction.ForgotPassword => "recover",
+                AccountAction.ResetPassword => "reset",
+                _ => throw new ArgumentOutOfRangeException(nameof(action))
+            };
+
             string path = "/api/account";
             var requestData = new
             {
@@ -36,7 +54,7 @@ namespace DDON_WebPage.Components.Data
                 HttpResponseMessage response;
                 try
                 {
-                    response = await client.PostAsync("http://localhost:52099" + path, content);
+                    response = await client.PostAsync("http://ddon.com.br:52099" + path, content);
                 }
                 catch (HttpRequestException e)
                 {

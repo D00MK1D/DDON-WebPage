@@ -20,8 +20,7 @@
 
     <MudForm @ref="form" Model="updateModel" OnValidSubmit="HandleValidSubmit">
         <MudGrid>
-            @*
-            <MudItem xs="5">
+            @*<MudItem xs="5">
                 <MudTextField T="string" Label="Account Name"
                               @bind-Value="UserName"
                               ReadOnly="true"
@@ -129,7 +128,7 @@
     {
         if (player != null && form.IsValid)
         {
-            if ((string.IsNullOrWhiteSpace(oldEmail) || oldEmail.EndsWith("@dd.on")) && player.Email.EndsWith("@dd.on"))
+            if ((string.IsNullOrWhiteSpace(oldEmail)))
             {
                 Snackbar.Add(new MarkupString("You're trying to use default old generated e-mail. <br />Change it first to a real valid one!"), Severity.Warning);
                 return;
