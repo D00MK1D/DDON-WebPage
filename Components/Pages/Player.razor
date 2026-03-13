@@ -97,7 +97,7 @@
             var arisen = charGroup.First();
             var mainJob = charGroup.MaxBy(x => x.jobLevel);
 
-            <MudButton>
+            <MudButton OnClick="@(()=> DialogCharInfo(arisen.charId))">
                 <MudCard Class="pa-2 my-4 mx-auto" Style="max-width: 300px;">
 
                     <MudCardMedia Image="@($"./img/Jobs/Heroes/hero_job_{mainJob.jobId}.png")" Height="320" />
@@ -198,7 +198,7 @@
 </MudTabs>
 
 
-@code {
+    @code {
     #region Variables
     private bool isShow = false;
     private bool _enableEditMail = false;
@@ -444,5 +444,12 @@
     {
         listArisens = await Pgsql.vw_characters_job_data.AsNoTracking().ToListAsync();
         listWallets = await Pgsql.ddon_wallet_point.AsNoTracking().ToListAsync();
+    }
+
+    private async Task DialogCharInfo(int charId)
+    {
+        var parameters = new DialogParameters<CharInfoDialog> { { x => x.charId, charId } };
+        var dialog = await DialogService.ShowAsync<CharInfoDialog>("Character Info", parameters);
+        var result = await dialog.Result;
     }
 }

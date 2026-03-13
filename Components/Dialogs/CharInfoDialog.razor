@@ -10,17 +10,54 @@
     </TitleContent>
 
     <DialogContent>
-        <MudTabs>
+        <MudTabs Border>
             <MudTabPanel Text="Job Info">
+                @foreach (var arisens in listArisens.DistinctBy(x => x.playerId))
+                {
+                    <MudGrid Class="my-3">
+                        <MudItem Class="mx-auto" md="3">
+                            <MudImage ObjectFit="ObjectFit.Cover" Width="280" Src="@($"./img/Jobs/Heroes/hero_job_{listArisens.MaxBy(x => x.jobLevel).jobId}.png")" />
+                            <MudText>Main Job: @charMainJob - Level: @charMainJobLevel</MudText>
+                        </MudItem>
 
+                        <MudItem Class="my-auto mx-auto" md="3">
+                            <MudGrid Style="max-width:700px">
+                                @for (int jobId = 1; jobId <= 11; jobId++)
+                                {
+                                    var arisens = listArisens.FirstOrDefault(x => x.jobId == jobId);
+                                    var tooltip = _dicJobIds.GetValueOrDefault(arisens?.jobId ?? 0);
+
+                                    <MudItem Class="mx-auto">
+                                        <MudTooltip Placement="Placement.Top" Text="@tooltip">
+                                            <MudAvatar Size="Size.Large" Variant="Variant.Outlined">
+                                                <MudImage Src="@($"./img/Jobs/icons/icon_job_{(arisens?.jobId ?? 0)}.png")" />
+                                            </MudAvatar>
+                                        </MudTooltip>
+
+                                        <MudText Align="Align.Center" Typo="Typo.subtitle2">
+                                            Level: @(arisens?.jobLevel ?? 0)
+                                        </MudText>
+                                    </MudItem>
+                                }
+                            </MudGrid>
+                        </MudItem>
+                    </MudGrid>
+                }
             </MudTabPanel>
 
             <MudTabPanel Text="Currency">
-            
+                <MudGrid Class="my-3">
+                    @foreach (var wallet in listWallets.OrderBy(x => x.walletType))
+                    {
+                        <MudItem md="3">
+                            <MudTextField AdornmentIcon="@Icons.Custom.Brands.MudBlazor" AdornmentColor="Color.Primary" ReadOnly Label="@_dicWalletTypes[wallet.walletType]" Variant="Variant.Text" Value="@wallet.walletValue" />
+                        </MudItem>
+                    }
+                </MudGrid>
             </MudTabPanel>
 
             <MudTabPanel Text="Equipment">
-            
+
             </MudTabPanel>
         
             <MudTabPanel Text="Skills">
@@ -32,60 +69,12 @@
             </MudTabPanel>
         </MudTabs>
 
-        @foreach (var arisens in listArisens.DistinctBy(x => x.playerId))
-        {
-            <MudGrid Class="d-flex">
-                <MudItem Class="my-auto" md="4">
-                    <MudImage ObjectFit="ObjectFit.Cover" Src="@($"./img/Jobs/Heroes/hero_job_{listArisens.MaxBy(x => x.jobLevel).jobId}.png")" />
-                </MudItem>
-
-                <MudItem md="4">
-                    <MudGrid>
-                        <MudItem md="12">
-                            <MudText Align="Align.Center" Typo="Typo.h4" GutterBottom>
-                                @arisens.charFirstName @arisens.charLastName
-                                <MudDivider />
-                            </MudText>
-                        </MudItem>
-
-                        @foreach (var wallet in listWallets.OrderBy(x => x.walletType))
-                        {
-                            <MudItem md="6">
-
-                                <MudTextField ReadOnly Label="@_dicWalletTypes[wallet.walletType]" Variant="Variant.Text" Value="@wallet.walletValue" />
-
-                            </MudItem>
-                        }
-                                
-                        <MudItem></MudItem>
-                    </MudGrid>
-                </MudItem>
-                <MudItem Class="my-auto" md="4">
-                    <MudGrid>
-                        @foreach (var arisens in listArisens.OrderBy(x => x.jobId))
-                        {
-                            <MudItem Class="mx-2">
-                                <MudTooltip Placement="Placement.Top" Text="@(_dicJobIds[arisens.jobId])">
-                                    <MudAvatar Size="Size.Large" Variant="Variant.Outlined">
-                                        <MudImage Src="@($"./img/Jobs/icons/icon_job_{arisens.jobId}.png")" />
-                                    </MudAvatar>
-                                </MudTooltip>
-
-                                <MudText Align="Align.Center" Typo="Typo.subtitle2">Level: @arisens.jobLevel</MudText>
-
-                            </MudItem>
-                        }
-                    </MudGrid>
-                </MudItem>
-            </MudGrid>
-
-            <MudDivider />
-        }
+        
     </DialogContent>
 
     <DialogActions>
-        <MudButton OnClick="Cancel" Color="Color.Default">Cancel</MudButton>
-        <MudButton OnClick="Confirm" Color="Color.Primary">Confirm</MudButton>
+        <!--MudButton OnClick="Cancel" Color="Color.Default">Cancel</!--MudButton-->
+        <MudButton OnClick="Confirm" Color="Color.Primary">Close</MudButton>
     </DialogActions>
 </MudDialog>
 
@@ -99,6 +88,11 @@
 
     private List<vwCharactersJobData> listArisens = new();
     private List<WalletPoint> listWallets = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadCharInfo(charId);
+    }
 
     Dictionary<int, string> _dicJobIds = new Dictionary<int, string>
     {
@@ -138,10 +132,10 @@
 
     };
 
-    private async Task LoadCharInfo()
+    private async Task LoadCharInfo(int charId)
     {
-        listArisens = await Pgsql.vw_characters_job_data.AsNoTracking().ToListAsync();
-        listWallets = await Pgsql.ddon_wallet_point.AsNoTracking().ToListAsync();
+        listArisens = await Pgsql.vw_characters_job_data.AsNoTracking().Where(x=> x.charId == charId).ToListAsync();
+        listWallets = await Pgsql.ddon_wallet_point.AsNoTracking().Where(x => x.charId == charId).ToListAsync();
     }
 
     void Confirm() => MudDialog.Close(DialogResult.Ok(true));
