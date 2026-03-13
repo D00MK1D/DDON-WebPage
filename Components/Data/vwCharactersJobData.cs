@@ -19,9 +19,9 @@ namespace DDON_WebPage.Components.Data
         public string charLastName { get; set; } = string.Empty;
 
         [Column("job_id")]
-        public uint jobId { get; set; }
+        public int jobId { get; set; }
         
         [Column("job_level")]
-        public uint jobLevel { get; set; }
+        public int jobLevel { get; set; }
     }
 }

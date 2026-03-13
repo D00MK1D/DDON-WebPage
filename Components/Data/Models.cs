@@ -57,34 +57,5 @@ namespace DDON_WebPage.Components.Data
             [RegularExpression(@"^[^@\s]+@[^@\s]+\.[^@\s]+$", ErrorMessage = "Invalid e-mail format")]
             public string Email { get; set; } = string.Empty;
         }
-
-        public async Task SendResetEmail(string toEmail, string resetLink)
-        {
-            var smtpClient = new SmtpClient("smtp.gmail.com")
-            {
-                Port = 587,
-                Credentials = new NetworkCredential("someEmail@gmail.com", "somePassword"),
-                EnableSsl = true,
-            };
-
-            var mailMessage = new MailMessage
-            {
-                From = new MailAddress("ddon@crapcom.com", "Dragon's Dogma Online"),
-                Subject = "Password Recovery",
-                Body = $@"
-                         <html>
-                           <body>
-                               <h2>Password Recovery</h2>
-                               <p>Click on the link below to recover your password:</p>
-                               <p><a href='{resetLink}'>Link</a></p>
-                           </body>
-                         </html>",
-                IsBodyHtml = true,
-            };
-
-            mailMessage.To.Add(toEmail);
-
-            await smtpClient.SendMailAsync(mailMessage);
-        }
     }
 }

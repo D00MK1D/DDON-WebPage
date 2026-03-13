@@ -86,7 +86,7 @@
             {
                 try
                 {
-                    var response = await ServerApi.Operation(Pgsql, "create", registerModel.Name, registerModel.Password, "", registerModel.Email, "");
+                    var response = await ServerApi.Operation(Pgsql, ServerApi.AccountAction.Register, registerModel.Name, registerModel.Password, "", registerModel.Email, "");
 
                     if (response != null && !string.IsNullOrEmpty(response.Error))
                     {

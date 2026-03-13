@@ -79,7 +79,7 @@
 
                 try
                 {
-                    response = await ServerApi.Operation(Pgsql, "login", account, password, "", "", "");
+                    response = await ServerApi.Operation(Pgsql, ServerApi.AccountAction.Login, account, password, "", "", "");
 
                     if (response != null && !string.IsNullOrEmpty(response.Error))
                     {

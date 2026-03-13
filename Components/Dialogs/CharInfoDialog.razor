@@ -1,0 +1,149 @@
+﻿@using DDON_WebPage.Components.Data
+@using Microsoft.EntityFrameworkCore
+@using MudBlazor
+
+@inject AppDbContext Pgsql
+
+<MudDialog>
+    <TitleContent>
+        <MudText>@charName - Main Job: @charMainJob - Level: @charMainJobLevel</MudText>
+    </TitleContent>
+
+    <DialogContent>
+        <MudTabs>
+            <MudTabPanel Text="Job Info">
+
+            </MudTabPanel>
+
+            <MudTabPanel Text="Currency">
+            
+            </MudTabPanel>
+
+            <MudTabPanel Text="Equipment">
+            
+            </MudTabPanel>
+        
+            <MudTabPanel Text="Skills">
+            
+            </MudTabPanel>
+        
+            <MudTabPanel Text="Pawns">
+            
+            </MudTabPanel>
+        </MudTabs>
+
+        @foreach (var arisens in listArisens.DistinctBy(x => x.playerId))
+        {
+            <MudGrid Class="d-flex">
+                <MudItem Class="my-auto" md="4">
+                    <MudImage ObjectFit="ObjectFit.Cover" Src="@($"./img/Jobs/Heroes/hero_job_{listArisens.MaxBy(x => x.jobLevel).jobId}.png")" />
+                </MudItem>
+
+                <MudItem md="4">
+                    <MudGrid>
+                        <MudItem md="12">
+                            <MudText Align="Align.Center" Typo="Typo.h4" GutterBottom>
+                                @arisens.charFirstName @arisens.charLastName
+                                <MudDivider />
+                            </MudText>
+                        </MudItem>
+
+                        @foreach (var wallet in listWallets.OrderBy(x => x.walletType))
+                        {
+                            <MudItem md="6">
+
+                                <MudTextField ReadOnly Label="@_dicWalletTypes[wallet.walletType]" Variant="Variant.Text" Value="@wallet.walletValue" />
+
+                            </MudItem>
+                        }
+                                
+                        <MudItem></MudItem>
+                    </MudGrid>
+                </MudItem>
+                <MudItem Class="my-auto" md="4">
+                    <MudGrid>
+                        @foreach (var arisens in listArisens.OrderBy(x => x.jobId))
+                        {
+                            <MudItem Class="mx-2">
+                                <MudTooltip Placement="Placement.Top" Text="@(_dicJobIds[arisens.jobId])">
+                                    <MudAvatar Size="Size.Large" Variant="Variant.Outlined">
+                                        <MudImage Src="@($"./img/Jobs/icons/icon_job_{arisens.jobId}.png")" />
+                                    </MudAvatar>
+                                </MudTooltip>
+
+                                <MudText Align="Align.Center" Typo="Typo.subtitle2">Level: @arisens.jobLevel</MudText>
+
+                            </MudItem>
+                        }
+                    </MudGrid>
+                </MudItem>
+            </MudGrid>
+
+            <MudDivider />
+        }
+    </DialogContent>
+
+    <DialogActions>
+        <MudButton OnClick="Cancel" Color="Color.Default">Cancel</MudButton>
+        <MudButton OnClick="Confirm" Color="Color.Primary">Confirm</MudButton>
+    </DialogActions>
+</MudDialog>
+
+@code {
+    [CascadingParameter] IMudDialogInstance MudDialog { get; set; } = default!;
+    [Parameter] public int charId { get; set; }
+
+    private string charName;
+    private string charMainJob;
+    private string charMainJobLevel;
+
+    private List<vwCharactersJobData> listArisens = new();
+    private List<WalletPoint> listWallets = new();
+
+    Dictionary<int, string> _dicJobIds = new Dictionary<int, string>
+    {
+        { 0, "None" },
+        { 1, "Fighter" },
+        { 2, "Seeker" },
+        { 3, "Hunter" },
+        { 4, "Priest" },
+        { 5, "Shield Sage" },
+        { 6, "Sorcerer" },
+        { 7, "Warrior" },
+        { 8, "Element Archer" },
+        { 9, "Alchemist" },
+        { 10, "Spirit Lancer" },
+        { 11, "High Scepter" },
+
+    };
+    Dictionary<int, string> _dicWalletTypes = new Dictionary<int, string>
+    {
+        { 0, "None" },
+        { 1, "Gold" },
+        { 2, "Rift Points" },
+        { 3, "Blood Orbs" },
+        { 4, "Silver Tickets" },
+        { 5, "Golden Gemstones" },
+        { 6, "Rental Points" },
+        { 7, "Reset Job Points" },
+        { 8, "Reset Craft Skills" },
+        { 9, "High Orbs" },
+        { 10, "Dominion Points" },
+        { 11, "Adventure Pass Points" },
+        { 12, "Custom-Made Service Tickets" },
+        { 13, "Bitterblack Maze Reset Tickets" },
+        { 14, "Golden Dragon Mark" },
+        { 15, "Silver Dragon Mark" },
+        { 16, "Red Dragon Mark" },
+
+    };
+
+    private async Task LoadCharInfo()
+    {
+        listArisens = await Pgsql.vw_characters_job_data.AsNoTracking().ToListAsync();
+        listWallets = await Pgsql.ddon_wallet_point.AsNoTracking().ToListAsync();
+    }
+
+    void Confirm() => MudDialog.Close(DialogResult.Ok(true));
+    void Cancel() => MudDialog.Cancel();
+}

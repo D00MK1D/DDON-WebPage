@@ -11,5 +11,6 @@ namespace DDON_WebPage.Components.Data
         public DbSet<Account> account { get; set; }
         public DbSet<Character> ddon_character { get; set; }
         public DbSet<vwCharactersJobData> vw_characters_job_data { get; set; } 
+        public DbSet<WalletPoint> ddon_wallet_point { get; set; } 
     }
 }
