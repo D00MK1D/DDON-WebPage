@@ -92,42 +92,44 @@
 
     <MudTabPanel Text="Character info">
 
-        @foreach (var arisens in listArisens.DistinctBy(x => x.charId).Where(x => x.playerId == player.Id))
+        @foreach (var charGroup in listArisens.Where(x => x.playerId == player.Id).GroupBy(x => x.charId))
         {
+            var arisen = charGroup.First();
+            var mainJob = charGroup.MaxBy(x => x.jobLevel);
+
             <MudButton>
                 <MudCard Class="pa-2 my-4 mx-auto" Style="max-width: 300px;">
 
-                    <MudCardMedia Image="@($"./img/Jobs/Heroes/hero_job_{listArisens.DistinctBy(x => x.charId).Where(x => x.playerId == player.Id && x.charId == arisens.charId).MaxBy(x => x.jobLevel).jobId}.png")" Height="320" />
+                    <MudCardMedia Image="@($"./img/Jobs/Heroes/hero_job_{mainJob.jobId}.png")" Height="320" />
 
                     <MudCardContent Class="d-flex">
-                        <MudTooltip Placement="Placement.Top" Text="@(_dicJobIds[listArisens.DistinctBy(x => x.charId).Where(x => x.playerId == player.Id && x.charId == arisens.charId).MaxBy(x => x.jobLevel).jobId])">
+
+                        <MudTooltip Placement="Placement.Top" Text="@_dicJobIds[mainJob.jobId]">
                             <MudAvatar Size="Size.Large" Variant="Variant.Outlined">
-                                <MudImage Src="@($"./img/Jobs/icons/icon_job_{listArisens.DistinctBy(x => x.charId).Where(x => x.playerId == player.Id && x.charId == arisens.charId).MaxBy(x => x.jobLevel).jobId}.png")" />
+                                <MudImage Src="@($"./img/Jobs/icons/icon_job_{mainJob.jobId}.png")" />
                             </MudAvatar>
                         </MudTooltip>
 
                         <div class="mx-3">
-                            <MudText Typo="Typo.body1">@arisens.charFirstName @arisens.charLastName</MudText>
-                            <MudText Typo="Typo.body2">Main Job: @(_dicJobIds[listArisens.Where(x => x.playerId == player.Id && x.charId == arisens.charId).MaxBy(x => x.jobLevel).jobId]) <br /> Level: @listArisens.Where(x => x.playerId == player.Id).MaxBy(x => x.jobLevel).jobLevel</MudText>
+                            <MudText Typo="Typo.body1">
+                                @arisen.charFirstName @arisen.charLastName
+                            </MudText>
+
+                            <MudText Typo="Typo.body2">
+                                Main Job: @_dicJobIds[mainJob.jobId] <br />
+                                Level: @mainJob.jobLevel
+                            </MudText>
                         </div>
 
                     </MudCardContent>
 
                     <MudCardActions>
-
-                        @*foreach (var pawn in listPawns)
-                                {
-                                    <MudAvatar  Size="Size.Large" onclick="">
-                                        <MudImage Src="@($"./img/General/icon_pawn.png")" />
-                                    </MudAvatar>
-                                }
-                            *@
-
-
                     </MudCardActions>
+
                 </MudCard>
             </MudButton>
         }
+
     </MudTabPanel>
 
     @if (player.State == 100 || player.State == 50)
