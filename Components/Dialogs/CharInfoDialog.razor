@@ -5,19 +5,14 @@
 @inject AppDbContext Pgsql
 
 <MudDialog>
-    <TitleContent>
-        <MudText>@charName - Main Job: @charMainJob - Level: @charMainJobLevel</MudText>
-    </TitleContent>
-
     <DialogContent>
         <MudTabs Border>
             <MudTabPanel Text="Job Info">
-                @foreach (var arisens in listArisens.DistinctBy(x => x.playerId))
+                @foreach (var arisens in listArisens)
                 {
                     <MudGrid Class="my-3">
                         <MudItem Class="mx-auto" md="3">
-                            <MudImage ObjectFit="ObjectFit.Cover" Width="280" Src="@($"./img/Jobs/Heroes/hero_job_{listArisens.MaxBy(x => x.jobLevel).jobId}.png")" />
-                            <MudText>Main Job: @charMainJob - Level: @charMainJobLevel</MudText>
+                            <MudImage ObjectFit="ObjectFit.Cover" Width="280" Src="@($"./img/Icons/Jobs/Heroes/hero_job_{(listArisens.MaxBy(x => x.jobLevel).jobId)}.png")" />
                         </MudItem>
 
                         <MudItem Class="my-auto mx-auto" md="3">
@@ -30,7 +25,7 @@
                                     <MudItem Class="mx-auto">
                                         <MudTooltip Placement="Placement.Top" Text="@tooltip">
                                             <MudAvatar Size="Size.Large" Variant="Variant.Outlined">
-                                                <MudImage Src="@($"./img/Jobs/icons/icon_job_{(arisens?.jobId ?? 0)}.png")" />
+                                                <MudImage Src="@($"./img/Icons/Jobs/icon_job_{(arisens?.jobId ?? 0)}.png")" />
                                             </MudAvatar>
                                         </MudTooltip>
 
@@ -57,6 +52,19 @@
             </MudTabPanel>
 
             <MudTabPanel Text="Equipment">
+                <MudGrid Class="my-auto mx-auto " Style="max-width:500px;">
+                    @foreach (var item in listItems.Where(x=> x.storageType == 1 || x.storageType == 5))
+                    {
+                        @*Download item JSONs to properly assign item icon codes*@
+                        @*Maybe read them from link?*@
+
+                        <MudItem>
+                            <MudAvatar Size="Size.Large" Rounded Color="Color.Primary" Square Variant="Variant.Outlined">
+                                <MudImage Src="@($"./img/Icons/Items/ii{item.itemId.ToString("D6")}.png")" />
+                            </MudAvatar>
+                        </MudItem>
+                    }
+                </MudGrid>
 
             </MudTabPanel>
         
@@ -68,26 +76,22 @@
             
             </MudTabPanel>
         </MudTabs>
-
-        
     </DialogContent>
 
     <DialogActions>
-        <!--MudButton OnClick="Cancel" Color="Color.Default">Cancel</!--MudButton-->
-        <MudButton OnClick="Confirm" Color="Color.Primary">Close</MudButton>
+        <MudButton Class="pa-3" OnClick="Cancel" Color="Color.Default">Cancel</MudButton>
+        <MudButton Class="pa-3" OnClick="Confirm" Color="Color.Primary">Close</MudButton>
     </DialogActions>
 </MudDialog>
 
 @code {
     [CascadingParameter] IMudDialogInstance MudDialog { get; set; } = default!;
-    [Parameter] public int charId { get; set; }
-
-    private string charName;
-    private string charMainJob;
-    private string charMainJobLevel;
+    [Parameter] 
+    public int charId { get; set; }
 
     private List<vwCharactersJobData> listArisens = new();
     private List<WalletPoint> listWallets = new();
+    private List<Item> listItems = new();
 
     protected override async Task OnInitializedAsync()
     {
@@ -136,6 +140,7 @@
     {
         listArisens = await Pgsql.vw_characters_job_data.AsNoTracking().Where(x=> x.charId == charId).ToListAsync();
         listWallets = await Pgsql.ddon_wallet_point.AsNoTracking().Where(x => x.charId == charId).ToListAsync();
+        listItems = await Pgsql.ddon_storage_item.AsNoTracking().Where(x => x.charId == charId).ToListAsync();
     }
 
     void Confirm() => MudDialog.Close(DialogResult.Ok(true));

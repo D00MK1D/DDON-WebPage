@@ -100,13 +100,13 @@
             <MudButton OnClick="@(()=> DialogCharInfo(arisen.charId))">
                 <MudCard Class="pa-2 my-4 mx-auto" Style="max-width: 300px;">
 
-                    <MudCardMedia Image="@($"./img/Jobs/Heroes/hero_job_{mainJob.jobId}.png")" Height="320" />
+                    <MudCardMedia Image="@($"./img/icons/Jobs/Heroes/hero_job_{mainJob.jobId}.png")" Height="320" />
 
                     <MudCardContent Class="d-flex">
 
                         <MudTooltip Placement="Placement.Top" Text="@_dicJobIds[mainJob.jobId]">
                             <MudAvatar Size="Size.Large" Variant="Variant.Outlined">
-                                <MudImage Src="@($"./img/Jobs/icons/icon_job_{mainJob.jobId}.png")" />
+                                <MudImage Src="@($"./img/icons/Jobs/icon_job_{mainJob.jobId}.png")" />
                             </MudAvatar>
                         </MudTooltip>
 
