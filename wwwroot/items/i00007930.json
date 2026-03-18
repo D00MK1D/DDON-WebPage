@@ -1,0 +1,27 @@
+{
+    "type": "material",
+    "item_id": 7930,
+    "name": "Amber Dragonscale",
+    "info": "Pelt Crafting Material: Scales that shimmer in a\nglowing amber color, imbued with the heat of a\nFlame Dragon. A rare item.",
+    "icon": {
+        "icon_id": 498,
+        "color_id": 106
+    },
+    "jobs": [],
+    "sell_price": 610,
+    "weight": 0,
+    "item_level": 12,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": [
+        "Level 1+ Drake"
+    ],
+    "subtype": "plets and skins"
+}

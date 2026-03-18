@@ -1,0 +1,62 @@
+{
+    "type": "jewlery",
+    "item_id": 9023,
+    "name": "Key Insignia Earrings",
+    "info": "",
+    "icon": {
+        "icon_id": 549,
+        "color_id": 9
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 1500,
+    "weight": 1,
+    "item_level": 9,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "level": 41,
+    "stats": {},
+    "params": [
+        {
+            "id": 7,
+            "name": "RESIST_SKILL_STIFLING",
+            "value": 3
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7751,
+            "amount": 3
+        },
+        {
+            "item_id": 7880,
+            "amount": 3
+        },
+        {
+            "item_id": 38,
+            "amount": 5
+        },
+        {
+            "item_id": 8995,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

@@ -1,0 +1,50 @@
+{
+    "type": "equipment",
+    "item_id": 12842,
+    "name": "Morality Sleeves",
+    "info": "",
+    "icon": {
+        "icon_id": 67,
+        "color_id": 10
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 6735,
+    "weight": 34,
+    "item_level": 30,
+    "crest_slots": 0,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 4,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 67,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 301,
+        "magic_attack": 0,
+        "magic_defense": 251,
+        "crest_slot": 0,
+        "ele_slot": 32
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 14
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 12841,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

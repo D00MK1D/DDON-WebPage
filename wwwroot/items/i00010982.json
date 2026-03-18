@@ -1,0 +1,68 @@
+{
+    "type": "equipment",
+    "item_id": 10982,
+    "name": "Gold Luna Greaves",
+    "info": "",
+    "icon": {
+        "icon_id": 1220,
+        "color_id": 19
+    },
+    "jobs": [
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "ElementArcher",
+        "Alchemist",
+        "HighScepter"
+    ],
+    "sell_price": 5000,
+    "weight": 42,
+    "item_level": 55,
+    "crest_slots": 3,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 23,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 55,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 2,
+        "defense": 328,
+        "magic_attack": 2,
+        "magic_defense": 263,
+        "crest_slot": 4,
+        "ele_slot": 35
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 76
+        },
+        {
+            "id": 1,
+            "name": "RESIST_POISON",
+            "value": 50
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 130
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 724
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 10981,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

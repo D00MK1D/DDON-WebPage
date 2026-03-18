@@ -1,0 +1,62 @@
+{
+    "type": "equipment",
+    "item_id": 11113,
+    "name": "Gold Stilettos",
+    "info": "",
+    "icon": {
+        "icon_id": 928,
+        "color_id": 9
+    },
+    "jobs": [
+        "Seeker"
+    ],
+    "sell_price": 9250,
+    "weight": 60,
+    "item_level": 9,
+    "crest_slots": 1,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 4,
+    "weapon_type": "ROD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 43,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 700,
+        "magic_attack": 556,
+        "crest_slot": 4,
+        "ele_slot": 9
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 89
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 9062,
+            "amount": 2
+        },
+        {
+            "item_id": 7801,
+            "amount": 1
+        },
+        {
+            "item_id": 7987,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 11112,
+    "next_item_id": 11114
+}

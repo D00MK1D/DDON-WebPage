@@ -1,0 +1,49 @@
+{
+    "type": "consumable",
+    "item_id": 9397,
+    "name": "Throwing Skull",
+    "info": "Inflicts damage on the target when thrown.",
+    "icon": {
+        "icon_id": 442,
+        "color_id": 3
+    },
+    "jobs": [],
+    "sell_price": 20,
+    "weight": 0,
+    "item_level": 5,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "max_stack": 10,
+    "craft_recipe": [
+        {
+            "item_id": 7767,
+            "amount": 1
+        },
+        {
+            "item_id": 7843,
+            "amount": 1
+        },
+        {
+            "item_id": 7954,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Betland Plains",
+        "Betland Plains: Betland Cemetery",
+        "Betland Plains: Temple of Purification",
+        "Dowe Valley: Catacombs",
+        "Dowe Valley: Dreed Castle",
+        "Dowe Valley: Howling Wind Cave",
+        "Dowe Valley: Underground Side Entrance",
+        "Mysree Forest: Mysree Limestone Cave",
+        "Volden Mines: Bandit Hideaway",
+        "Volden Mines: Southern Wall Fissure"
+    ],
+    "hunt": []
+}

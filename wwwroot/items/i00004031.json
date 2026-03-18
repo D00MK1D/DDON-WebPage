@@ -1,0 +1,58 @@
+{
+    "type": "equipment",
+    "item_id": 4031,
+    "name": "Elfenkrieger",
+    "info": "",
+    "icon": {
+        "icon_id": 875,
+        "color_id": 9
+    },
+    "jobs": [
+        "Warrior"
+    ],
+    "sell_price": 5785,
+    "weight": 120,
+    "item_level": 9,
+    "crest_slots": 1,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 3,
+    "weapon_type": "BOW",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 43,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 908,
+        "magic_attack": 536,
+        "crest_slot": 4,
+        "ele_slot": 25
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 318
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7727,
+            "amount": 1
+        },
+        {
+            "item_id": 7956,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 3008,
+    "next_item_id": 5054
+}

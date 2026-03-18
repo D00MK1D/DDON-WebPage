@@ -1,0 +1,40 @@
+{
+    "type": "consumable",
+    "item_id": 9381,
+    "name": "Conqueror's Amulet",
+    "info": "Grants the user the\nspecified status effect.",
+    "icon": {
+        "icon_id": 436,
+        "color_id": 3
+    },
+    "jobs": [],
+    "sell_price": 100,
+    "weight": 0,
+    "item_level": 5,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "max_stack": 10,
+    "craft_recipe": [
+        {
+            "item_id": 7896,
+            "amount": 1
+        },
+        {
+            "item_id": 7762,
+            "amount": 1
+        },
+        {
+            "item_id": 8003,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Volden Mines: Fiend's Cavern"
+    ],
+    "hunt": []
+}

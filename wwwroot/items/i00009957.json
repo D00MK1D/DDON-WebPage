@@ -1,0 +1,47 @@
+{
+    "type": "equipment",
+    "item_id": 9957,
+    "name": "Shield of the Crest of Light",
+    "info": "",
+    "icon": {
+        "icon_id": 856,
+        "color_id": 9
+    },
+    "jobs": [
+        "Fighter"
+    ],
+    "sell_price": 4052,
+    "weight": 25,
+    "item_level": 9,
+    "crest_slots": 0,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 4,
+    "weapon_type": "SHIELD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_SUB",
+    "level": 45,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "magic_attack": 0,
+        "crest_slot": 4,
+        "ele_slot": 32
+    },
+    "params": [
+        {
+            "id": 87,
+            "name": "GUARD_POWER",
+            "value": 288
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 9956,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

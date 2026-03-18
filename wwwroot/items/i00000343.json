@@ -1,0 +1,74 @@
+{
+    "type": "equipment",
+    "item_id": 343,
+    "name": "Wei\u00df Merkmale",
+    "info": "",
+    "icon": {
+        "icon_id": 998,
+        "color_id": 8
+    },
+    "jobs": [
+        "ElementArcher"
+    ],
+    "sell_price": 5785,
+    "weight": 60,
+    "item_level": 7,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 3,
+    "weapon_type": "GREATSWORD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 34,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 473,
+        "magic_attack": 603,
+        "crest_slot": 4,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 107
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7875,
+            "amount": 4
+        },
+        {
+            "item_id": 7807,
+            "amount": 2
+        },
+        {
+            "item_id": 7759,
+            "amount": 2
+        },
+        {
+            "item_id": 8019,
+            "amount": 4
+        },
+        {
+            "item_id": 7955,
+            "amount": 4
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7857,
+            "amount": 1
+        },
+        {
+            "item_id": 7957,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 1955
+}

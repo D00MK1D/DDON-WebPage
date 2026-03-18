@@ -1,0 +1,78 @@
+{
+    "type": "equipment",
+    "item_id": 21170,
+    "name": "Lord Knight Leather Coat",
+    "info": "",
+    "icon": {
+        "icon_id": 2223,
+        "color_id": 85
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 50000,
+    "weight": 70,
+    "item_level": 108,
+    "crest_slots": 4,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 1,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 90,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 7,
+        "defense": 818,
+        "magic_attack": 7,
+        "magic_defense": 728,
+        "crest_slot": 0,
+        "ele_slot": 36
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 43
+        },
+        {
+            "id": 22,
+            "name": "RESIST_PHYS_ATK_DOWN",
+            "value": 25
+        },
+        {
+            "id": 24,
+            "name": "RESIST_MAG_ATK_DOWN",
+            "value": 25
+        },
+        {
+            "id": 43,
+            "name": "DARK_RESIST",
+            "value": 25
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 1223
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

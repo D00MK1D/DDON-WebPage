@@ -1,0 +1,32 @@
+{
+    "type": "material",
+    "item_id": 15976,
+    "name": "Giant Fossil Shell",
+    "info": "Miscellaneous Crafting Material:\nGiant Fossilized Shell",
+    "icon": {
+        "icon_id": 520,
+        "color_id": 116
+    },
+    "jobs": [],
+    "sell_price": 600,
+    "weight": 0,
+    "item_level": 60,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": true,
+    "craft_recipe": [
+        {
+            "item_id": 15975,
+            "amount": 10
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Elan Water Grove: Old Ferryman's Haunt"
+    ],
+    "hunt": [],
+    "subtype": "regional"
+}

@@ -1,0 +1,43 @@
+{
+    "type": "equipment",
+    "item_id": 14445,
+    "name": "\u00c9tincelle Supernova",
+    "info": "",
+    "icon": {
+        "icon_id": 916,
+        "color_id": 10
+    },
+    "jobs": [
+        "ShieldSage"
+    ],
+    "sell_price": 11860,
+    "weight": 40,
+    "item_level": 60,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 2,
+    "weapon_type": "GREATSHIELD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_SUB",
+    "level": 77,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "magic_attack": 2064,
+        "crest_slot": 0,
+        "ele_slot": 24
+    },
+    "params": [],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 13811,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 14444,
+    "next_item_id": 14446
+}

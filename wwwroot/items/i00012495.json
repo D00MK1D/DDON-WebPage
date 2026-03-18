@@ -1,0 +1,52 @@
+{
+    "type": "equipment",
+    "item_id": 12495,
+    "name": "Loathsome Sign",
+    "info": "",
+    "icon": {
+        "icon_id": 1043,
+        "color_id": 10
+    },
+    "jobs": [
+        "Sorcerer"
+    ],
+    "sell_price": 24505,
+    "weight": 80,
+    "item_level": 35,
+    "crest_slots": 1,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 1,
+    "weapon_type": "MAGICK_GAUNTLET",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 70,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1637,
+        "magic_attack": 1904,
+        "crest_slot": 4,
+        "ele_slot": 33
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 534
+        },
+        {
+            "id": 104,
+            "name": "CORRUPTED_SLAYER",
+            "value": 17
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 12494,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

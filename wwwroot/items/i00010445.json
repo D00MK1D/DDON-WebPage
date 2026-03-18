@@ -1,0 +1,63 @@
+{
+    "type": "equipment",
+    "item_id": 10445,
+    "name": "Nemesis Armor",
+    "info": "",
+    "icon": {
+        "icon_id": 1086,
+        "color_id": 82
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 500,
+    "weight": 70,
+    "item_level": 6,
+    "crest_slots": 2,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 23,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 1,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 162,
+        "magic_attack": 0,
+        "magic_defense": 144,
+        "crest_slot": 0,
+        "ele_slot": 34
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 18
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 750
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 10444,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

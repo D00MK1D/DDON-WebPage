@@ -1,0 +1,71 @@
+{
+    "type": "equipment",
+    "item_id": 15140,
+    "name": "Attire of Evening Mist",
+    "info": "",
+    "icon": {
+        "icon_id": 1394,
+        "color_id": 11
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 16802,
+    "weight": 70,
+    "item_level": 70,
+    "crest_slots": 1,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 80,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 2,
+        "defense": 612,
+        "magic_attack": 2,
+        "magic_defense": 544,
+        "crest_slot": 0,
+        "ele_slot": 17
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 34
+        },
+        {
+            "id": 13,
+            "name": "RESIST_SHOCK",
+            "value": 3
+        },
+        {
+            "id": 41,
+            "name": "THUNDER_RESIST",
+            "value": 12
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 1140
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 15989,
+            "amount": 1
+        },
+        {
+            "item_id": 15990,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 15139,
+    "next_item_id": 15141
+}

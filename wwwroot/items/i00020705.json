@@ -1,0 +1,68 @@
+{
+    "type": "equipment",
+    "item_id": 20705,
+    "name": "Kenneby's Wear",
+    "info": "",
+    "icon": {
+        "icon_id": 1606,
+        "color_id": 11
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 4410,
+    "weight": 12,
+    "item_level": 105,
+    "crest_slots": 0,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 2,
+    "equip_slot": "EQUIP_CATEGORY_WEAR_BODY",
+    "level": 93,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 222,
+        "magic_attack": 0,
+        "magic_defense": 222,
+        "crest_slot": 4,
+        "ele_slot": 16
+    },
+    "params": [
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 433
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 21229,
+            "amount": 2
+        },
+        {
+            "item_id": 21230,
+            "amount": 2
+        },
+        {
+            "item_id": 21235,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 20704,
+    "next_item_id": 20706
+}

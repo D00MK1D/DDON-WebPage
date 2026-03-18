@@ -1,0 +1,28 @@
+{
+    "type": "material",
+    "item_id": 15973,
+    "name": "Demon Envoy's Horn",
+    "info": "Horn Crafting Material: Grigori's horn, still\nemanating a strange presence even after being\nsevered.",
+    "icon": {
+        "icon_id": 468,
+        "color_id": 5
+    },
+    "jobs": [],
+    "sell_price": 800,
+    "weight": 0,
+    "item_level": 45,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": [
+        "Level 1+ Bearded Grigori",
+        "Level 1+ Grigori"
+    ],
+    "subtype": "horn"
+}

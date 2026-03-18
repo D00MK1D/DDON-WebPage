@@ -1,0 +1,74 @@
+{
+    "type": "equipment",
+    "item_id": 13512,
+    "name": "Mantle of Domination",
+    "info": "",
+    "icon": {
+        "icon_id": 1398,
+        "color_id": 28
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 5555,
+    "weight": 10,
+    "item_level": 12,
+    "crest_slots": 0,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 4,
+    "equip_slot": "EQUIP_CATEGORY_ACCESSORY",
+    "level": 60,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 3,
+        "defense": 70,
+        "magic_attack": 3,
+        "magic_defense": 70,
+        "crest_slot": 0,
+        "ele_slot": 16
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 13
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 20
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 18
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 9444,
+            "amount": 1
+        },
+        {
+            "item_id": 7833,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 13511,
+    "next_item_id": 13513
+}

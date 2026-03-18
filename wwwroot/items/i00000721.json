@@ -1,0 +1,73 @@
+{
+    "type": "equipment",
+    "item_id": 721,
+    "name": "Captain's Sleeves",
+    "info": "",
+    "icon": {
+        "icon_id": 27,
+        "color_id": 9
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 3535,
+    "weight": 45,
+    "item_level": 10,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 5,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 49,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 180,
+        "magic_attack": 0,
+        "magic_defense": 150,
+        "crest_slot": 0,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 10
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7928,
+            "amount": 20
+        },
+        {
+            "item_id": 7744,
+            "amount": 2
+        },
+        {
+            "item_id": 7730,
+            "amount": 4
+        },
+        {
+            "item_id": 7942,
+            "amount": 4
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7916,
+            "amount": 1
+        },
+        {
+            "item_id": 7968,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 2333
+}

@@ -1,0 +1,68 @@
+{
+    "type": "equipment",
+    "item_id": 238,
+    "name": "Burden of Sin",
+    "info": "",
+    "icon": {
+        "icon_id": 915,
+        "color_id": 10
+    },
+    "jobs": [
+        "ShieldSage"
+    ],
+    "sell_price": 5410,
+    "weight": 40,
+    "item_level": 11,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 4,
+    "weapon_type": "GREATSHIELD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_SUB",
+    "level": 53,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "magic_attack": 1116,
+        "crest_slot": 4,
+        "ele_slot": 0
+    },
+    "params": [],
+    "craft_recipe": [
+        {
+            "item_id": 7886,
+            "amount": 1
+        },
+        {
+            "item_id": 8022,
+            "amount": 2
+        },
+        {
+            "item_id": 7908,
+            "amount": 2
+        },
+        {
+            "item_id": 7758,
+            "amount": 5
+        },
+        {
+            "item_id": 7808,
+            "amount": 2
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 8034,
+            "amount": 1
+        },
+        {
+            "item_id": 7749,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 1850
+}

@@ -1,0 +1,62 @@
+{
+    "type": "equipment",
+    "item_id": 111,
+    "name": "Mage Wand",
+    "info": "",
+    "icon": {
+        "icon_id": 1028,
+        "color_id": 6
+    },
+    "jobs": [
+        "Sorcerer"
+    ],
+    "sell_price": 1810,
+    "weight": 80,
+    "item_level": 4,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 1,
+    "weapon_type": "MAGICK_GAUNTLET",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 19,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 241,
+        "magic_attack": 428,
+        "crest_slot": 0,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 139
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7963,
+            "amount": 3
+        },
+        {
+            "item_id": 7895,
+            "amount": 3
+        },
+        {
+            "item_id": 7813,
+            "amount": 4
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7965,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 1723
+}

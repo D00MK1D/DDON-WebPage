@@ -1,6 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace DDON_WebPage.Components.Data
 {
@@ -37,6 +37,26 @@ namespace DDON_WebPage.Components.Data
 
         [Column("equip_points")]
         public int equipPoints { get; set; }
+    }
 
+    public class ItemJson
+    {
+        [JsonPropertyName("item_id")]
+        public int ItemId { get; set; }
+
+        [JsonPropertyName("name")]
+        public string Name { get; set; }
+
+        [JsonPropertyName("info")]
+        public string Info { get; set; }
+
+        [JsonPropertyName("icon")]
+        public Icon Icon { get; set; }
+    }
+
+    public class Icon
+    {
+        [JsonPropertyName("icon_id")]
+        public int IconId { get; set; }
     }
 }

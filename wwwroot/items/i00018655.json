@@ -1,0 +1,37 @@
+{
+    "type": "material",
+    "item_id": 18655,
+    "name": "Demon Beast's Liver",
+    "info": "Meat Crafting Material:\nPowerful Wolf (LV. 80~) Organ",
+    "icon": {
+        "icon_id": 464,
+        "color_id": 5
+    },
+    "jobs": [],
+    "sell_price": 350,
+    "weight": 0,
+    "item_level": 80,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": [
+        "Level 1+ War-Ready Grimwarg",
+        "Level 80+ Alchemised Wolf",
+        "Level 80+ Bolt Grimwarg",
+        "Level 80+ Damned Wolf",
+        "Level 80+ Direwolf",
+        "Level 80+ Green Guardian",
+        "Level 80+ Grimwarg",
+        "Level 80+ Infected Direwolf",
+        "Level 80+ Severely Infected Warg",
+        "Level 80+ Warg",
+        "Level 80+ Wolf"
+    ],
+    "subtype": "meat"
+}

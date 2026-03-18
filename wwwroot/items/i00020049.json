@@ -1,0 +1,58 @@
+{
+    "type": "equipment",
+    "item_id": 20049,
+    "name": "Fallen Truth",
+    "info": "",
+    "icon": {
+        "icon_id": 2352,
+        "color_id": 10
+    },
+    "jobs": [
+        "HighScepter"
+    ],
+    "sell_price": 19850,
+    "weight": 77,
+    "item_level": 55,
+    "crest_slots": 1,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 3,
+    "weapon_type": "MAGICK_SWORD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 75,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 2032,
+        "magic_attack": 2032,
+        "crest_slot": 4,
+        "ele_slot": 17
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 391
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 10
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 15929,
+            "amount": 3
+        },
+        {
+            "item_id": 15931,
+            "amount": 3
+        }
+    ],
+    "previous_item_id": 20048,
+    "next_item_id": 20050
+}

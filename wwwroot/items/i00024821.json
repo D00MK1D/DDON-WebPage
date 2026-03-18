@@ -1,0 +1,24 @@
+{
+    "type": "material",
+    "item_id": 24821,
+    "name": "Premium Shiny Silk",
+    "info": "Cloth Crafting Material.\nDerived from silk fabric that is shipped only in\nsmall quantities every year from Dowe Valley.\nIt has a beautiful glossy and smooth texture, and\nis used for luxury clothing.",
+    "icon": {
+        "icon_id": 1434,
+        "color_id": 106
+    },
+    "jobs": [],
+    "sell_price": 0,
+    "weight": 0,
+    "item_level": 130,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

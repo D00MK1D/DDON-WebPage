@@ -1,0 +1,63 @@
+{
+    "type": "equipment",
+    "item_id": 21397,
+    "name": "Cursed Armor",
+    "info": "",
+    "icon": {
+        "icon_id": 2396,
+        "color_id": 15
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 500,
+    "weight": 90,
+    "item_level": 12,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 25,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 1,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 2,
+        "defense": 388,
+        "magic_attack": 2,
+        "magic_defense": 344,
+        "crest_slot": 0,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 26
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 1185
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

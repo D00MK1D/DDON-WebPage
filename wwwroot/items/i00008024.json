@@ -1,0 +1,30 @@
+{
+    "type": "material",
+    "item_id": 8024,
+    "name": "Rusted Plate",
+    "info": "Miscellaneous Crafting Material: A part of the\ngreatsword wielded by the fortified swordsman of\nbone.",
+    "icon": {
+        "icon_id": 517,
+        "color_id": 3
+    },
+    "jobs": [],
+    "sell_price": 130,
+    "weight": 0,
+    "item_level": 6,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": [
+        "Level 1+ Corpse Punisher",
+        "Level 1+ Corpse Torturer",
+        "Level 25+ Skeleton Knight",
+        "Level 25+ Sword Undead"
+    ],
+    "subtype": "other"
+}

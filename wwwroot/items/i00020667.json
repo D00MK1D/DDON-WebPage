@@ -1,0 +1,65 @@
+{
+    "type": "equipment",
+    "item_id": 20667,
+    "name": "Briller Poleyn",
+    "info": "",
+    "icon": {
+        "icon_id": 1581,
+        "color_id": 11
+    },
+    "jobs": [
+        "ShieldSage",
+        "Alchemist",
+        "HighScepter"
+    ],
+    "sell_price": 15855,
+    "weight": 43,
+    "item_level": 105,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 93,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 6,
+        "defense": 449,
+        "magic_attack": 6,
+        "magic_defense": 359,
+        "crest_slot": 4,
+        "ele_slot": 24
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 93
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 774
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 21229,
+            "amount": 2
+        },
+        {
+            "item_id": 21225,
+            "amount": 4
+        },
+        {
+            "item_id": 21235,
+            "amount": 4
+        }
+    ],
+    "previous_item_id": 20666,
+    "next_item_id": 20668
+}

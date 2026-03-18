@@ -1,0 +1,30 @@
+{
+    "type": "consumable",
+    "item_id": 7797,
+    "name": "Blood Orb",
+    "info": "The crystallized blood shed by the White Dragon\nin past battles.",
+    "icon": {
+        "icon_id": 425,
+        "color_id": 1
+    },
+    "jobs": [],
+    "sell_price": 100,
+    "weight": 0,
+    "item_level": 1,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "max_stack": 255,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "gather": [
+        "Feryana Wilderness: Dark Path to the Secret Spring",
+        "Feryana Wilderness: Royal Family's Secret Path",
+        "Feryana Wilderness: Thundering Roar Cave",
+        "Megadosys Plateau: Hidden Waterway to Megado",
+        "Megadosys Plateau: Megadosys Old Road",
+        "Rathnite Foothills: Rathnite Columbarium"
+    ]
+}

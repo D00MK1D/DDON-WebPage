@@ -1,0 +1,62 @@
+{
+    "type": "equipment",
+    "item_id": 9357,
+    "name": "Deep Crimson",
+    "info": "",
+    "icon": {
+        "icon_id": 933,
+        "color_id": 9
+    },
+    "jobs": [
+        "Seeker"
+    ],
+    "sell_price": 10130,
+    "weight": 60,
+    "item_level": 9,
+    "crest_slots": 1,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 2,
+    "weapon_type": "ROD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 45,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 768,
+        "magic_attack": 636,
+        "crest_slot": 4,
+        "ele_slot": 9
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 92
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 23
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7859,
+            "amount": 2
+        },
+        {
+            "item_id": 7761,
+            "amount": 1
+        },
+        {
+            "item_id": 7842,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 9356,
+    "next_item_id": 9358
+}

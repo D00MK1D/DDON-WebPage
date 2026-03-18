@@ -1,0 +1,83 @@
+{
+    "type": "equipment",
+    "item_id": 383,
+    "name": "Olympus",
+    "info": "",
+    "icon": {
+        "icon_id": 889,
+        "color_id": 10
+    },
+    "jobs": [
+        "Warrior"
+    ],
+    "sell_price": 15685,
+    "weight": 120,
+    "item_level": 12,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 3,
+    "weapon_type": "BOW",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 56,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1310,
+        "magic_attack": 904,
+        "crest_slot": 0,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 389
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7886,
+            "amount": 3
+        },
+        {
+            "item_id": 7727,
+            "amount": 3
+        },
+        {
+            "item_id": 7745,
+            "amount": 2
+        },
+        {
+            "item_id": 8029,
+            "amount": 3
+        },
+        {
+            "item_id": 7862,
+            "amount": 5
+        },
+        {
+            "item_id": 7942,
+            "amount": 7
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7837,
+            "amount": 1
+        },
+        {
+            "item_id": 7957,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 1995
+}

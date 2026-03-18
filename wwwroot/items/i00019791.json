@@ -1,0 +1,58 @@
+{
+    "type": "equipment",
+    "item_id": 19791,
+    "name": "Red Dawn's Steel Saber",
+    "info": "",
+    "icon": {
+        "icon_id": 1228,
+        "color_id": 10
+    },
+    "jobs": [
+        "Warrior"
+    ],
+    "sell_price": 39700,
+    "weight": 110,
+    "item_level": 100,
+    "crest_slots": 1,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 0,
+    "weapon_type": "BOW",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 90,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 2906,
+        "magic_attack": 2411,
+        "crest_slot": 0,
+        "ele_slot": 17
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 955
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 21214,
+            "amount": 4
+        },
+        {
+            "item_id": 21222,
+            "amount": 4
+        }
+    ],
+    "previous_item_id": 19790,
+    "next_item_id": 19792
+}

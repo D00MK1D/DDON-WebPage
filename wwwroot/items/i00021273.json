@@ -1,0 +1,27 @@
+{
+    "type": "material",
+    "subtype": "plants",
+    "item_id": 21273,
+    "name": "Ancient Wheat",
+    "info": "Floral Crafting Material: Ancient grains of\nwheat, believed to have been brought in the past\nand settled deep within the cave.",
+    "icon": {
+        "icon_id": 2595,
+        "color_id": 16
+    },
+    "jobs": [],
+    "sell_price": 350,
+    "weight": 0,
+    "item_level": 110,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Urteca Mountains: Cave of Rest"
+    ],
+    "hunt": []
+}

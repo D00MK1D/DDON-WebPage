@@ -1,0 +1,53 @@
+{
+    "type": "equipment",
+    "item_id": 2845,
+    "name": "Palm's Treetop",
+    "info": "",
+    "icon": {
+        "icon_id": 1017,
+        "color_id": 8
+    },
+    "jobs": [
+        "Priest"
+    ],
+    "sell_price": 4810,
+    "weight": 35,
+    "item_level": 7,
+    "crest_slots": 1,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 0,
+    "weapon_type": "MAGICK_BOW",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 31,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 394,
+        "magic_attack": 478,
+        "crest_slot": 4,
+        "ele_slot": 17
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 104
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7838,
+            "amount": 1
+        },
+        {
+            "item_id": 7965,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 1822,
+    "next_item_id": 3868
+}

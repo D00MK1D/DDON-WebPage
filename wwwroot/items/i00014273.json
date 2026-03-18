@@ -1,0 +1,58 @@
+{
+    "type": "equipment",
+    "item_id": 14273,
+    "name": "Phindymian Sword",
+    "info": "",
+    "icon": {
+        "icon_id": 1611,
+        "color_id": 11
+    },
+    "jobs": [
+        "Fighter"
+    ],
+    "sell_price": 22504,
+    "weight": 60,
+    "item_level": 55,
+    "crest_slots": 1,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 1,
+    "weapon_type": "SWORD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 75,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 2009,
+        "magic_attack": 1780,
+        "crest_slot": 4,
+        "ele_slot": 9
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 386
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 15927,
+            "amount": 2
+        },
+        {
+            "item_id": 15928,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 14272,
+    "next_item_id": 14274
+}

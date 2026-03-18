@@ -1,0 +1,69 @@
+{
+    "type": "equipment",
+    "item_id": 20713,
+    "name": "Rahatz Tied",
+    "info": "",
+    "icon": {
+        "icon_id": 806,
+        "color_id": 10
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 3060,
+    "weight": 9,
+    "item_level": 100,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 5,
+    "equip_slot": "EQUIP_CATEGORY_WEAR_LEG",
+    "level": 90,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 156,
+        "magic_attack": 0,
+        "magic_defense": 156,
+        "crest_slot": 0,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 65
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 266
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 21216,
+            "amount": 2
+        },
+        {
+            "item_id": 21221,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 20714
+}

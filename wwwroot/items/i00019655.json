@@ -1,0 +1,30 @@
+{
+    "type": "material",
+    "item_id": 19655,
+    "name": "Reinforced Battle Armor",
+    "info": "Miscellaneous Crafting Material:\nUsed against strong-willed enemies.\nWar Ready armor strengthened with enhanced\ndominance.",
+    "icon": {
+        "icon_id": 1985,
+        "color_id": 105
+    },
+    "jobs": [],
+    "sell_price": 2000,
+    "weight": 0,
+    "item_level": 95,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [
+        "Emblem Medal Exchange (Feryana Wilderness)"
+    ],
+    "gather": [
+        "Feryana Wilderness: Army Demon Bird's Checkpoint",
+        "Feryana Wilderness: Army Demon's Patrol Ground"
+    ],
+    "hunt": [],
+    "subtype": "other"
+}

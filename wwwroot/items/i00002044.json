@@ -1,0 +1,56 @@
+{
+    "type": "equipment",
+    "item_id": 2044,
+    "name": "Copper Greaves",
+    "info": "",
+    "icon": {
+        "icon_id": 342,
+        "color_id": 6
+    },
+    "jobs": [
+        "Fighter",
+        "Warrior"
+    ],
+    "sell_price": 340,
+    "weight": 72,
+    "item_level": 3,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 1,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 13,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 35,
+        "magic_attack": 0,
+        "magic_defense": 28,
+        "crest_slot": 4,
+        "ele_slot": 8
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 15
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 156
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7854,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 432,
+    "next_item_id": 3067
+}

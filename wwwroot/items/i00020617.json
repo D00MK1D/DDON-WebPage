@@ -1,0 +1,50 @@
+{
+    "type": "equipment",
+    "item_id": 20617,
+    "name": "Pundit Eye",
+    "info": "",
+    "icon": {
+        "icon_id": 1333,
+        "color_id": 10
+    },
+    "jobs": [
+        "ShieldSage",
+        "Alchemist",
+        "HighScepter"
+    ],
+    "sell_price": 12300,
+    "weight": 37,
+    "item_level": 100,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_HELM",
+    "level": 90,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 5,
+        "defense": 424,
+        "magic_attack": 5,
+        "magic_defense": 679,
+        "crest_slot": 0,
+        "ele_slot": 24
+    },
+    "params": [],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 21215,
+            "amount": 4
+        },
+        {
+            "item_id": 21222,
+            "amount": 4
+        }
+    ],
+    "previous_item_id": 20616,
+    "next_item_id": 20618
+}

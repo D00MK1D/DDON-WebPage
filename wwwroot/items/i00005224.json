@@ -1,0 +1,48 @@
+{
+    "type": "equipment",
+    "item_id": 5224,
+    "name": "Rubedo Helm",
+    "info": "",
+    "icon": {
+        "icon_id": 305,
+        "color_id": 10
+    },
+    "jobs": [
+        "Warrior"
+    ],
+    "sell_price": 5760,
+    "weight": 36,
+    "item_level": 12,
+    "crest_slots": 0,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 22,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_HELM",
+    "level": 60,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 215,
+        "magic_attack": 0,
+        "magic_defense": 344,
+        "crest_slot": 0,
+        "ele_slot": 32
+    },
+    "params": [
+        {
+            "id": 10,
+            "name": "RESIST_GOLDEN",
+            "value": 5
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 4201,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

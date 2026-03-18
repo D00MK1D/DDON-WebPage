@@ -1,0 +1,49 @@
+{
+    "type": "equipment",
+    "item_id": 12463,
+    "name": "Wand of Zeal",
+    "info": "",
+    "icon": {
+        "icon_id": 1040,
+        "color_id": 10
+    },
+    "jobs": [
+        "Sorcerer"
+    ],
+    "sell_price": 21130,
+    "weight": 100,
+    "item_level": 20,
+    "crest_slots": 1,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 4,
+    "weapon_type": "MAGICK_GAUNTLET",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 65,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1407,
+        "magic_attack": 1666,
+        "crest_slot": 0,
+        "ele_slot": 17
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 520
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 11775,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 12462,
+    "next_item_id": 12464
+}

@@ -1,0 +1,43 @@
+{
+    "type": "material",
+    "item_id": 7937,
+    "name": "Hard Leather Cloth",
+    "info": "Cloth Crafting Material: Strong animal leather, a\nsturdy leather cloth made by combining tough\nanimal hides.",
+    "icon": {
+        "icon_id": 500,
+        "color_id": 3
+    },
+    "jobs": [],
+    "sell_price": 260,
+    "weight": 0,
+    "item_level": 6,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [
+        {
+            "item_id": 7918,
+            "amount": 2
+        },
+        {
+            "item_id": 7935,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Farana Plains",
+        "Farana Plains: Farana Ruins",
+        "Farana Plains: Farana Ruins Depths",
+        "Farana Plains: Magusas Ancient Watercourse",
+        "Kingal Canyon: Grinmel Ruins",
+        "Kingal Canyon: Nebula Temple",
+        "Kingal Canyon: Nebula Temple: Center",
+        "Morrow Forest"
+    ],
+    "hunt": [],
+    "subtype": "fabric"
+}

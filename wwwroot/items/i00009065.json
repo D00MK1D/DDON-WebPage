@@ -1,0 +1,31 @@
+{
+    "type": "material",
+    "item_id": 9065,
+    "name": "Zandoratalis",
+    "info": "Floral Crafting Material: A special herb that\nonly grows in the Zandora region of the northern\ncontinent.",
+    "icon": {
+        "icon_id": 510,
+        "color_id": 5
+    },
+    "jobs": [],
+    "sell_price": 330,
+    "weight": 0,
+    "item_level": 10,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Eastern Zandora",
+        "Eastern Zandora: Empty Chapel",
+        "Mergoda Ruins",
+        "Zandora Wastelands",
+        "Zandora Wastelands: Sage's Old Well"
+    ],
+    "hunt": [],
+    "subtype": "plants"
+}

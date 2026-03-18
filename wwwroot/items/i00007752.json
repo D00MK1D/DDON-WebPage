@@ -1,0 +1,46 @@
+{
+    "type": "material",
+    "item_id": 7752,
+    "name": "Goblin Horn",
+    "info": "Horn Crafting Material: Fine horns from the\nGoblin tribe.",
+    "icon": {
+        "icon_id": 466,
+        "color_id": 2
+    },
+    "jobs": [],
+    "sell_price": 20,
+    "weight": 0,
+    "item_level": 3,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Betland Plains: Lakeside Cellar"
+    ],
+    "hunt": [
+        "Level 10+ Goblin",
+        "Level 10+ Goblin Leader",
+        "Level 10+ Shield Goblin",
+        "Level 10+ Sling Goblin",
+        "Level 1+ Alchemized Goblin",
+        "Level 1+ Alchemized Goblin Fighter",
+        "Level 1+ Alchemized Sling Goblin",
+        "Level 1+ Forest Goblin",
+        "Level 1+ Forest Goblin Fighter",
+        "Level 1+ Goblin Bomber",
+        "Level 1+ Goblin Fighter",
+        "Level 1+ Hobgoblin",
+        "Level 1+ Hobgoblin Fighter",
+        "Level 1+ Hobgoblin Leader",
+        "Level 1+ Redcap",
+        "Level 1+ Redcap Fighter",
+        "Level 1+ Sling Forest Goblin",
+        "Level 1+ Sling Hobgoblin"
+    ],
+    "subtype": "horn"
+}

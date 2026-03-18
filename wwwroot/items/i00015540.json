@@ -1,0 +1,69 @@
+{
+    "type": "equipment",
+    "item_id": 15540,
+    "name": "Pallid Tights",
+    "info": "",
+    "icon": {
+        "icon_id": 802,
+        "color_id": 10
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 2223,
+    "weight": 5,
+    "item_level": 60,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 1,
+    "equip_slot": "EQUIP_CATEGORY_WEAR_LEG",
+    "level": 77,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 120,
+        "magic_attack": 0,
+        "magic_defense": 120,
+        "crest_slot": 0,
+        "ele_slot": 8
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 57
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 245
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 16008,
+            "amount": 2
+        },
+        {
+            "item_id": 16011,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 15539,
+    "next_item_id": 15541
+}

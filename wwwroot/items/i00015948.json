@@ -1,0 +1,32 @@
+{
+    "type": "material",
+    "item_id": 15948,
+    "name": "Premium Fragrant Wood",
+    "info": "Wood Crafting Material:\nHigh-quality wood that emits a pleasant fragrance.",
+    "icon": {
+        "icon_id": 505,
+        "color_id": 5
+    },
+    "jobs": [],
+    "sell_price": 100,
+    "weight": 0,
+    "item_level": 45,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Elan Water Grove",
+        "Elan Water Grove: Before Elan Front Gate",
+        "Elan Water Grove: Demon Wolf Territory",
+        "Elan Water Grove: Forgotten Abandoned Village",
+        "Elan Water Grove: Tumult Site",
+        "Elan Water Grove: Water Beasts' Habitat"
+    ],
+    "hunt": [],
+    "subtype": "lumber"
+}

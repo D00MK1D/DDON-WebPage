@@ -1,0 +1,32 @@
+{
+    "type": "material",
+    "item_id": 17884,
+    "name": "Ashen Grass",
+    "info": "Floral Crafting Material: Grass that appears\nwhite on the surface and looks as if it is covered\nin ash.",
+    "icon": {
+        "icon_id": 510,
+        "color_id": 5
+    },
+    "jobs": [],
+    "sell_price": 250,
+    "weight": 0,
+    "item_level": 80,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Rathnite Foothills",
+        "Rathnite Foothills: Cave of Hell's Descent",
+        "Rathnite Foothills: Lakeside Grotto",
+        "Rathnite Foothills: Rathnite Columbarium",
+        "Rathnite Foothills: Rathnite Foothills Lakeside",
+        "Rathnite Foothills: Ulta Ancient Watercourse"
+    ],
+    "hunt": [],
+    "subtype": "plants"
+}

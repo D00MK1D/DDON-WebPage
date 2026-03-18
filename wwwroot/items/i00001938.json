@@ -1,0 +1,53 @@
+{
+    "type": "equipment",
+    "item_id": 1938,
+    "name": "Sign of Menace",
+    "info": "",
+    "icon": {
+        "icon_id": 1045,
+        "color_id": 9
+    },
+    "jobs": [
+        "Sorcerer"
+    ],
+    "sell_price": 11050,
+    "weight": 140,
+    "item_level": 10,
+    "crest_slots": 1,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 4,
+    "weapon_type": "MAGICK_GAUNTLET",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 49,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 891,
+        "magic_attack": 1124,
+        "crest_slot": 0,
+        "ele_slot": 9
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 332
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7935,
+            "amount": 2
+        },
+        {
+            "item_id": 8012,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 326,
+    "next_item_id": 2961
+}

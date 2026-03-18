@@ -1,0 +1,78 @@
+{
+    "type": "equipment",
+    "item_id": 8713,
+    "name": "Combat Hose",
+    "info": "",
+    "icon": {
+        "icon_id": 800,
+        "color_id": 7
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 600,
+    "weight": 5,
+    "item_level": 6,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_WEAR_LEG",
+    "level": 28,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 24,
+        "magic_attack": 0,
+        "magic_defense": 24,
+        "crest_slot": 0,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 13
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 118
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7946,
+            "amount": 2
+        },
+        {
+            "item_id": 7775,
+            "amount": 2
+        },
+        {
+            "item_id": 7953,
+            "amount": 2
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7840,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 8714
+}

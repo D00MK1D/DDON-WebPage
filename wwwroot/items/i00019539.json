@@ -1,0 +1,59 @@
+{
+    "type": "equipment",
+    "item_id": 19539,
+    "name": "Olfring Bow (Forest)",
+    "info": "",
+    "icon": {
+        "icon_id": 2158,
+        "color_id": 82
+    },
+    "jobs": [
+        "Hunter"
+    ],
+    "sell_price": 10000,
+    "weight": 60,
+    "item_level": 7,
+    "crest_slots": 4,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 5,
+    "weapon_type": "ARCHISTAFF",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 1,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 580,
+        "magic_attack": 351,
+        "crest_slot": 4,
+        "ele_slot": 4
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 172
+        },
+        {
+            "id": 85,
+            "name": "BLOW_POWER_BBLUNT",
+            "value": 5
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        },
+        {
+            "id": 32,
+            "name": "MAX_LOADED_ARROWS",
+            "value": 28
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0
+}

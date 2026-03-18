@@ -1,0 +1,45 @@
+{
+    "type": "consumable",
+    "item_id": 7554,
+    "name": "Healing Remedy",
+    "info": "Recovers a portion of the user's health.",
+    "icon": {
+        "icon_id": 429,
+        "color_id": 5
+    },
+    "jobs": [],
+    "sell_price": 400,
+    "weight": 0,
+    "item_level": 9,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "max_stack": 10,
+    "craft_recipe": [
+        {
+            "item_id": 7553,
+            "amount": 2
+        },
+        {
+            "item_id": 7983,
+            "amount": 3
+        },
+        {
+            "item_id": 7829,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Deenan Woods",
+        "Deenan Woods: Blue Waterway",
+        "Deenan Woods: Divine Blossom Terrace",
+        "Deenan Woods: Le Karvas Arma",
+        "Eastern Zandora: Dead Lord's Labyrinth",
+        "Zandora Wastelands: Old Underground Laboratory"
+    ],
+    "hunt": []
+}

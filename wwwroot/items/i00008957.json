@@ -1,0 +1,58 @@
+{
+    "type": "jewlery",
+    "item_id": 8957,
+    "name": "Harpfeather Earrings",
+    "info": "",
+    "icon": {
+        "icon_id": 588,
+        "color_id": 6
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 250,
+    "weight": 1,
+    "item_level": 4,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "level": 16,
+    "stats": {},
+    "params": [
+        {
+            "id": 29,
+            "name": "HEALING_POWER",
+            "value": 2
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7813,
+            "amount": 3
+        },
+        {
+            "item_id": 7996,
+            "amount": 2
+        },
+        {
+            "item_id": 8932,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

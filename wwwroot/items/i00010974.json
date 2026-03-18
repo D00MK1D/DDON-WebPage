@@ -1,0 +1,69 @@
+{
+    "type": "equipment",
+    "item_id": 10974,
+    "name": "Silver Sol Greaves",
+    "info": "",
+    "icon": {
+        "icon_id": 1219,
+        "color_id": 19
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Warrior",
+        "SpiritLancer"
+    ],
+    "sell_price": 5000,
+    "weight": 42,
+    "item_level": 55,
+    "crest_slots": 3,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 23,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 55,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 214,
+        "magic_attack": 0,
+        "magic_defense": 169,
+        "crest_slot": 4,
+        "ele_slot": 11
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 55
+        },
+        {
+            "id": 1,
+            "name": "RESIST_POISON",
+            "value": 5
+        },
+        {
+            "id": 39,
+            "name": "FIRE_RESIST",
+            "value": 5
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 290
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 16833,
+            "amount": 20
+        }
+    ],
+    "previous_item_id": 10973,
+    "next_item_id": 10975
+}

@@ -1,0 +1,64 @@
+{
+    "type": "equipment",
+    "item_id": 8636,
+    "name": "Hero's Skin",
+    "info": "",
+    "icon": {
+        "icon_id": 782,
+        "color_id": 9
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 1900,
+    "weight": 5,
+    "item_level": 10,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 5,
+    "equip_slot": "EQUIP_CATEGORY_WEAR_BODY",
+    "level": 50,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 69,
+        "magic_attack": 0,
+        "magic_defense": 69,
+        "crest_slot": 0,
+        "ele_slot": 24
+    },
+    "params": [
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 348
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7941,
+            "amount": 2
+        },
+        {
+            "item_id": 7868,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 8635,
+    "next_item_id": 8637
+}

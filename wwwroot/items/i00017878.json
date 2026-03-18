@@ -1,0 +1,33 @@
+{
+    "type": "material",
+    "item_id": 17878,
+    "name": "Cursed Letter",
+    "info": "Grimoire Crafting Material:\nA letter imbued with magic, on which cursed words\nwritten by a powerful Witch (LV. 80 and above) are\ninscribed.",
+    "icon": {
+        "icon_id": 516,
+        "color_id": 5
+    },
+    "jobs": [],
+    "sell_price": 1500,
+    "weight": 0,
+    "item_level": 85,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": [
+        "Level 80+ Death Knight",
+        "Level 80+ Ghost",
+        "Level 80+ Ghost Mail",
+        "Level 80+ Medusa",
+        "Level 80+ Skull Lord",
+        "Level 80+ Wight",
+        "Level 80+ Witch"
+    ],
+    "subtype": "scrolls"
+}

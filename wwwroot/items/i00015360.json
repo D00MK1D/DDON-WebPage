@@ -1,0 +1,69 @@
+{
+    "type": "equipment",
+    "item_id": 15360,
+    "name": "Finnegan's Boots",
+    "info": "",
+    "icon": {
+        "icon_id": 1576,
+        "color_id": 27
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 12001,
+    "weight": 0,
+    "item_level": 75,
+    "crest_slots": 3,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 5,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 80,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 2,
+        "defense": 333,
+        "magic_attack": 2,
+        "magic_defense": 266,
+        "crest_slot": 4,
+        "ele_slot": 11
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 76
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 728
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 13224,
+            "amount": 3
+        },
+        {
+            "item_id": 11805,
+            "amount": 3
+        }
+    ],
+    "previous_item_id": 15359,
+    "next_item_id": 15361
+}

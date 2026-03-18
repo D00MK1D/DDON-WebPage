@@ -1,0 +1,28 @@
+{
+    "type": "material",
+    "item_id": 15992,
+    "name": "Fleshed Animal Pelt",
+    "info": "Pelt Crafting Material:\nA strange animal pelt that has become a single\npiece of leather without any blemishes.",
+    "icon": {
+        "icon_id": 498,
+        "color_id": 116
+    },
+    "jobs": [],
+    "sell_price": 600,
+    "weight": 0,
+    "item_level": 70,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Kingal Canyon: Ancient Underground Shrine",
+        "Kingal Canyon: Ancient Underground Shrine Innermost Depths"
+    ],
+    "hunt": [],
+    "subtype": "regional"
+}

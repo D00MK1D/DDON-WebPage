@@ -1,0 +1,24 @@
+{
+    "type": "material",
+    "item_id": 21779,
+    "name": "Speckled Mood Garnet",
+    "info": "A rare gem with a mottled pattern of red and\nwhite moss growing on it.\nWhen used as fertilizer for the Mandragora, it\ntransforms into the majestic \"King Mandragora\".",
+    "icon": {
+        "icon_id": 494,
+        "color_id": 20
+    },
+    "jobs": [],
+    "sell_price": 500,
+    "weight": 0,
+    "item_level": 85,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

@@ -1,0 +1,47 @@
+{
+    "type": "equipment",
+    "item_id": 17520,
+    "name": "Lacerta Shooter",
+    "info": "",
+    "icon": {
+        "icon_id": 1005,
+        "color_id": 11
+    },
+    "jobs": [
+        "ElementArcher"
+    ],
+    "sell_price": 34270,
+    "weight": 60,
+    "item_level": 85,
+    "crest_slots": 1,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 3,
+    "weapon_type": "GREATSWORD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 83,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 2253,
+        "magic_attack": 2431,
+        "crest_slot": 4,
+        "ele_slot": 33
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 361
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 17519,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

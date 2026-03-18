@@ -1,0 +1,78 @@
+{
+    "type": "equipment",
+    "item_id": 21178,
+    "name": "Selenite Leather Coat",
+    "info": "",
+    "icon": {
+        "icon_id": 2224,
+        "color_id": 85
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 50000,
+    "weight": 70,
+    "item_level": 118,
+    "crest_slots": 4,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 2,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 95,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 8,
+        "defense": 875,
+        "magic_attack": 8,
+        "magic_defense": 777,
+        "crest_slot": 0,
+        "ele_slot": 36
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 45
+        },
+        {
+            "id": 97,
+            "name": "SPIRIT_SLAYER",
+            "value": 15
+        },
+        {
+            "id": 102,
+            "name": "DRAGON_SLAYER",
+            "value": 15
+        },
+        {
+            "id": 28,
+            "name": "MAGMA_RESIST",
+            "value": 5
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 1253
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

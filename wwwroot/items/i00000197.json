@@ -1,0 +1,99 @@
+{
+    "type": "equipment",
+    "item_id": 197,
+    "name": "Phytoahero",
+    "info": "",
+    "icon": {
+        "icon_id": 963,
+        "color_id": 10
+    },
+    "jobs": [
+        "Hunter"
+    ],
+    "sell_price": 18005,
+    "weight": 70,
+    "item_level": 12,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 21,
+    "weapon_type": "ARCHISTAFF",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 60,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1316,
+        "magic_attack": 1062,
+        "crest_slot": 0,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 231
+        },
+        {
+            "id": 85,
+            "name": "BLOW_POWER_BBLUNT",
+            "value": 5
+        },
+        {
+            "id": 102,
+            "name": "DRAGON_SLAYER",
+            "value": 48
+        },
+        {
+            "id": 103,
+            "name": "DEMON_SLAYER",
+            "value": 63
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        },
+        {
+            "id": 32,
+            "name": "MAX_LOADED_ARROWS",
+            "value": 25
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 9451,
+            "amount": 3
+        },
+        {
+            "item_id": 9457,
+            "amount": 5
+        },
+        {
+            "item_id": 9788,
+            "amount": 5
+        },
+        {
+            "item_id": 7802,
+            "amount": 4
+        },
+        {
+            "item_id": 7806,
+            "amount": 6
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 9457,
+            "amount": 1
+        },
+        {
+            "item_id": 9788,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 1809
+}

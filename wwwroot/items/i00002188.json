@@ -1,0 +1,56 @@
+{
+    "type": "equipment",
+    "item_id": 2188,
+    "name": "Iron Greaves",
+    "info": "",
+    "icon": {
+        "icon_id": 342,
+        "color_id": 7
+    },
+    "jobs": [
+        "Fighter",
+        "Warrior"
+    ],
+    "sell_price": 1350,
+    "weight": 72,
+    "item_level": 6,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 2,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 26,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 65,
+        "magic_attack": 0,
+        "magic_defense": 52,
+        "crest_slot": 0,
+        "ele_slot": 8
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 25
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 328
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 9061,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 576,
+    "next_item_id": 3211
+}

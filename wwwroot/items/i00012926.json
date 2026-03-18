@@ -1,0 +1,73 @@
+{
+    "type": "equipment",
+    "item_id": 12926,
+    "name": "Enlightenment Greaves",
+    "info": "",
+    "icon": {
+        "icon_id": 1352,
+        "color_id": 111
+    },
+    "jobs": [
+        "Fighter",
+        "Warrior"
+    ],
+    "sell_price": 7923,
+    "weight": 42,
+    "item_level": 30,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 20,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 65,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 241,
+        "magic_attack": 0,
+        "magic_defense": 193,
+        "crest_slot": 0,
+        "ele_slot": 24
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 57
+        },
+        {
+            "id": 15,
+            "name": "RESIST_KNOCKOUT",
+            "value": 4
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 754
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 11783,
+            "amount": 1
+        },
+        {
+            "item_id": 11775,
+            "amount": 5
+        },
+        {
+            "item_id": 11782,
+            "amount": 3
+        },
+        {
+            "item_id": 11781,
+            "amount": 5
+        }
+    ],
+    "previous_item_id": 12925,
+    "next_item_id": 12927
+}

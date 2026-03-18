@@ -1,0 +1,84 @@
+{
+    "type": "equipment",
+    "item_id": 14522,
+    "name": "Extension Bow",
+    "info": "",
+    "icon": {
+        "icon_id": 956,
+        "color_id": 10
+    },
+    "jobs": [
+        "Hunter"
+    ],
+    "sell_price": 28130,
+    "weight": 70,
+    "item_level": 50,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 4,
+    "weapon_type": "ARCHISTAFF",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 75,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1900,
+        "magic_attack": 1622,
+        "crest_slot": 0,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 432
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        },
+        {
+            "id": 32,
+            "name": "MAX_LOADED_ARROWS",
+            "value": 20
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 15957,
+            "amount": 4
+        },
+        {
+            "item_id": 16115,
+            "amount": 4
+        },
+        {
+            "item_id": 16116,
+            "amount": 4
+        },
+        {
+            "item_id": 15925,
+            "amount": 15
+        },
+        {
+            "item_id": 15926,
+            "amount": 15
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 15925,
+            "amount": 4
+        },
+        {
+            "item_id": 15926,
+            "amount": 4
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 14523
+}

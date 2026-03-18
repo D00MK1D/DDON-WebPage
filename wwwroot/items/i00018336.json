@@ -1,0 +1,56 @@
+{
+    "type": "equipment",
+    "item_id": 18336,
+    "name": "Magnus Hands",
+    "info": "",
+    "icon": {
+        "icon_id": 1910,
+        "color_id": 10
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 10777,
+    "weight": 36,
+    "item_level": 90,
+    "crest_slots": 0,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 3,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 85,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 4,
+        "defense": 457,
+        "magic_attack": 4,
+        "magic_defense": 381,
+        "crest_slot": 0,
+        "ele_slot": 16
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 27
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 17916,
+            "amount": 2
+        },
+        {
+            "item_id": 18726,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 18335,
+    "next_item_id": 18337
+}

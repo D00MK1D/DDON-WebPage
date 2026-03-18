@@ -1,0 +1,53 @@
+{
+    "type": "equipment",
+    "item_id": 2843,
+    "name": "Sky Anchor",
+    "info": "",
+    "icon": {
+        "icon_id": 1015,
+        "color_id": 7
+    },
+    "jobs": [
+        "Priest"
+    ],
+    "sell_price": 3385,
+    "weight": 120,
+    "item_level": 6,
+    "crest_slots": 1,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 0,
+    "weapon_type": "MAGICK_BOW",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 27,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 347,
+        "magic_attack": 461,
+        "crest_slot": 0,
+        "ele_slot": 17
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 96
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 8011,
+            "amount": 1
+        },
+        {
+            "item_id": 7901,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 1820,
+    "next_item_id": 3866
+}

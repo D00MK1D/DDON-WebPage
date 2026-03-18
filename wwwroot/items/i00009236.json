@@ -1,0 +1,24 @@
+{
+    "type": "material",
+    "item_id": 9236,
+    "name": "Crest of Dragonsbane II",
+    "info": "A crest that grants a slayer effect\nwhen equipped.",
+    "icon": {
+        "icon_id": 1047,
+        "color_id": 6
+    },
+    "jobs": [],
+    "sell_price": 100,
+    "weight": 0,
+    "item_level": 11,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

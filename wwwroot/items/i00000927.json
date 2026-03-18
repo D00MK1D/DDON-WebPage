@@ -1,0 +1,73 @@
+{
+    "type": "equipment",
+    "item_id": 927,
+    "name": "Trooper's Gloves",
+    "info": "",
+    "icon": {
+        "icon_id": 78,
+        "color_id": 9
+    },
+    "jobs": [
+        "ShieldSage",
+        "Alchemist",
+        "HighScepter"
+    ],
+    "sell_price": 2690,
+    "weight": 45,
+    "item_level": 9,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 3,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 41,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 118,
+        "magic_attack": 0,
+        "magic_defense": 98,
+        "crest_slot": 4,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 9
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7941,
+            "amount": 3
+        },
+        {
+            "item_id": 7992,
+            "amount": 2
+        },
+        {
+            "item_id": 7923,
+            "amount": 3
+        },
+        {
+            "item_id": 7801,
+            "amount": 5
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7861,
+            "amount": 1
+        },
+        {
+            "item_id": 7807,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 2539
+}

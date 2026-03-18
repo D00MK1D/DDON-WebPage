@@ -1,0 +1,55 @@
+{
+    "type": "equipment",
+    "item_id": 8387,
+    "name": "Bravery Legs",
+    "info": "",
+    "icon": {
+        "icon_id": 416,
+        "color_id": 9
+    },
+    "jobs": [
+        "ShieldSage",
+        "Alchemist",
+        "HighScepter"
+    ],
+    "sell_price": 4230,
+    "weight": 72,
+    "item_level": 10,
+    "crest_slots": 0,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 5,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 46,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 138,
+        "magic_attack": 0,
+        "magic_defense": 110,
+        "crest_slot": 0,
+        "ele_slot": 32
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 42
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 604
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 8386,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

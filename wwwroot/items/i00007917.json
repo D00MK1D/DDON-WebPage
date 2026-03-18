@@ -1,0 +1,36 @@
+{
+    "type": "material",
+    "item_id": 7917,
+    "name": "Animal Pelt",
+    "info": "Pelt Crafting Material: Common animal skins.\nVarious ways to use them.",
+    "icon": {
+        "icon_id": 496,
+        "color_id": 1
+    },
+    "jobs": [],
+    "sell_price": 5,
+    "weight": 0,
+    "item_level": 1,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Hidell Plains",
+        "Hidell Plains: Abandoned House Cellar",
+        "Hidell Plains: Hunters' Secret Passage",
+        "Mysree Forest",
+        "Mysree Forest: Demon's Den",
+        "Mysree Grove"
+    ],
+    "hunt": [
+        "Level 1+ Alchemised Wolf",
+        "Level 1+ Buck",
+        "Level 1+ Doe"
+    ],
+    "subtype": "plets and skins"
+}

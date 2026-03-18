@@ -1,0 +1,43 @@
+{
+    "type": "equipment",
+    "item_id": 10307,
+    "name": "Dragon's Howl",
+    "info": "",
+    "icon": {
+        "icon_id": 1140,
+        "color_id": 84
+    },
+    "jobs": [
+        "ShieldSage"
+    ],
+    "sell_price": 10000,
+    "weight": 20,
+    "item_level": 11,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 23,
+    "weapon_type": "GREATSHIELD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_SUB",
+    "level": 1,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "magic_attack": 390,
+        "crest_slot": 4,
+        "ele_slot": 8
+    },
+    "params": [],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 13811,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 10306,
+    "next_item_id": 10308
+}

@@ -1,0 +1,54 @@
+{
+    "type": "equipment",
+    "item_id": 19106,
+    "name": "Survey Corps Shield",
+    "info": "",
+    "icon": {
+        "icon_id": 1839,
+        "color_id": 19
+    },
+    "jobs": [
+        "Fighter"
+    ],
+    "sell_price": 10000,
+    "weight": 5,
+    "item_level": 8,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 0,
+    "weapon_type": "SHIELD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_SUB",
+    "level": 1,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "magic_attack": 0,
+        "crest_slot": 0,
+        "ele_slot": 8
+    },
+    "params": [
+        {
+            "id": 87,
+            "name": "GUARD_POWER",
+            "value": 266
+        },
+        {
+            "id": 30,
+            "name": "BLOCKING_STAMINA_REDUCTION",
+            "value": 5
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7762,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 19105,
+    "next_item_id": 19107
+}

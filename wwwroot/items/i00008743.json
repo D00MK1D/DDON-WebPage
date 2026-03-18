@@ -1,0 +1,86 @@
+{
+    "type": "equipment",
+    "item_id": 8743,
+    "name": "Rebel Banded",
+    "info": "",
+    "icon": {
+        "icon_id": 812,
+        "color_id": 9
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 1500,
+    "weight": 5,
+    "item_level": 9,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 1,
+    "equip_slot": "EQUIP_CATEGORY_WEAR_LEG",
+    "level": 44,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 43,
+        "magic_attack": 0,
+        "magic_defense": 43,
+        "crest_slot": 4,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 19
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 193
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7942,
+            "amount": 4
+        },
+        {
+            "item_id": 7986,
+            "amount": 5
+        },
+        {
+            "item_id": 7842,
+            "amount": 1
+        },
+        {
+            "item_id": 7957,
+            "amount": 5
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7940,
+            "amount": 1
+        },
+        {
+            "item_id": 7925,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 8744
+}

@@ -1,0 +1,77 @@
+{
+    "type": "equipment",
+    "item_id": 596,
+    "name": "Philus Greaves",
+    "info": "",
+    "icon": {
+        "icon_id": 354,
+        "color_id": 10
+    },
+    "jobs": [
+        "Fighter",
+        "Warrior"
+    ],
+    "sell_price": 5830,
+    "weight": 72,
+    "item_level": 12,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 5,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 56,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 180,
+        "magic_attack": 0,
+        "magic_defense": 144,
+        "crest_slot": 0,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 48
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 724
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7891,
+            "amount": 1
+        },
+        {
+            "item_id": 7823,
+            "amount": 3
+        },
+        {
+            "item_id": 9442,
+            "amount": 1
+        },
+        {
+            "item_id": 7942,
+            "amount": 3
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 8024,
+            "amount": 1
+        },
+        {
+            "item_id": 7884,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 2208
+}

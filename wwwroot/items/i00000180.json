@@ -1,0 +1,84 @@
+{
+    "type": "equipment",
+    "item_id": 180,
+    "name": "Liberty Bow",
+    "info": "",
+    "icon": {
+        "icon_id": 949,
+        "color_id": 7
+    },
+    "jobs": [
+        "Hunter"
+    ],
+    "sell_price": 3925,
+    "weight": 70,
+    "item_level": 6,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 2,
+    "weapon_type": "ARCHISTAFF",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 29,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 494,
+        "magic_attack": 288,
+        "crest_slot": 0,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 123
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        },
+        {
+            "id": 32,
+            "name": "MAX_LOADED_ARROWS",
+            "value": 25
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7972,
+            "amount": 5
+        },
+        {
+            "item_id": 7783,
+            "amount": 2
+        },
+        {
+            "item_id": 7779,
+            "amount": 1
+        },
+        {
+            "item_id": 7825,
+            "amount": 5
+        },
+        {
+            "item_id": 7955,
+            "amount": 2
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 9061,
+            "amount": 1
+        },
+        {
+            "item_id": 7804,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 1792
+}

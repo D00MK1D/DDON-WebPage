@@ -1,0 +1,54 @@
+{
+    "type": "equipment",
+    "item_id": 1748,
+    "name": "Bastard Sword",
+    "info": "",
+    "icon": {
+        "icon_id": 827,
+        "color_id": 7
+    },
+    "jobs": [
+        "Fighter"
+    ],
+    "sell_price": 2308,
+    "weight": 110,
+    "item_level": 5,
+    "crest_slots": 1,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 2,
+    "weapon_type": "SWORD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 25,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 482,
+        "magic_attack": 303,
+        "crest_slot": 4,
+        "ele_slot": 9
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 112
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7738,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 136,
+    "next_item_id": 2771
+}

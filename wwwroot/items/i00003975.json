@@ -1,0 +1,57 @@
+{
+    "type": "equipment",
+    "item_id": 3975,
+    "name": "Ancient Horn",
+    "info": "",
+    "icon": {
+        "icon_id": 1045,
+        "color_id": 8
+    },
+    "jobs": [
+        "Sorcerer"
+    ],
+    "sell_price": 6850,
+    "weight": 80,
+    "item_level": 8,
+    "crest_slots": 1,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 3,
+    "weapon_type": "MAGICK_GAUNTLET",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 37,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 551,
+        "magic_attack": 768,
+        "crest_slot": 0,
+        "ele_slot": 25
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 241
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 8009,
+            "amount": 1
+        },
+        {
+            "item_id": 7990,
+            "amount": 1
+        },
+        {
+            "item_id": 7997,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 2952,
+    "next_item_id": 4998
+}

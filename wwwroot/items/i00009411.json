@@ -1,0 +1,38 @@
+{
+    "type": "consumable",
+    "item_id": 9411,
+    "name": "Wine-Boiled Mushroom",
+    "info": "A dish using mushrooms as the main ingredient\nBestows various buffs upon eating",
+    "icon": {
+        "icon_id": 457,
+        "color_id": 3
+    },
+    "jobs": [],
+    "sell_price": 75,
+    "weight": 0,
+    "item_level": 5,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "max_stack": 10,
+    "craft_recipe": [
+        {
+            "item_id": 1351,
+            "amount": 1
+        },
+        {
+            "item_id": 7998,
+            "amount": 2
+        },
+        {
+            "item_id": 7827,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

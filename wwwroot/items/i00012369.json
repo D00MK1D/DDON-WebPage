@@ -1,0 +1,54 @@
+{
+    "type": "equipment",
+    "item_id": 12369,
+    "name": "Olfring Shooter (Black)",
+    "info": "",
+    "icon": {
+        "icon_id": 1480,
+        "color_id": 82
+    },
+    "jobs": [
+        "ElementArcher"
+    ],
+    "sell_price": 5000,
+    "weight": 60,
+    "item_level": 55,
+    "crest_slots": 4,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 0,
+    "weapon_type": "GREATSWORD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 1,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1382,
+        "magic_attack": 1541,
+        "crest_slot": 4,
+        "ele_slot": 28
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 204
+        },
+        {
+            "id": 104,
+            "name": "CORRUPTED_SLAYER",
+            "value": 50
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 13811,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 12368,
+    "next_item_id": 12370
+}

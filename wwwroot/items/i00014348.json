@@ -1,0 +1,62 @@
+{
+    "type": "equipment",
+    "item_id": 14348,
+    "name": "Dynastes Horn",
+    "info": "",
+    "icon": {
+        "icon_id": 866,
+        "color_id": 10
+    },
+    "jobs": [
+        "Warrior"
+    ],
+    "sell_price": 29650,
+    "weight": 100,
+    "item_level": 60,
+    "crest_slots": 1,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 1,
+    "weapon_type": "BOW",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 77,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 2229,
+        "magic_attack": 1767,
+        "crest_slot": 0,
+        "ele_slot": 9
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 728
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 15975,
+            "amount": 3
+        },
+        {
+            "item_id": 15977,
+            "amount": 3
+        },
+        {
+            "item_id": 15979,
+            "amount": 3
+        }
+    ],
+    "previous_item_id": 14347,
+    "next_item_id": 14349
+}

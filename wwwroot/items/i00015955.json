@@ -1,0 +1,29 @@
+{
+    "type": "material",
+    "item_id": 15955,
+    "name": "Kingalite",
+    "info": "Gem Crafting Material:\nA gem with distinctive striped patterns that\nappear on Kingal Canyon.",
+    "icon": {
+        "icon_id": 494,
+        "color_id": 5
+    },
+    "jobs": [],
+    "sell_price": 200,
+    "weight": 0,
+    "item_level": 50,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Kingal Canyon",
+        "Kingal Canyon: Dancing Circle",
+        "Kingal Canyon: Deserted Village of Kraag"
+    ],
+    "hunt": [],
+    "subtype": "gemstones"
+}

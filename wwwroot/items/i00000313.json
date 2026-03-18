@@ -1,0 +1,74 @@
+{
+    "type": "equipment",
+    "item_id": 313,
+    "name": "Valiant Horn",
+    "info": "",
+    "icon": {
+        "icon_id": 1029,
+        "color_id": 8
+    },
+    "jobs": [
+        "Sorcerer"
+    ],
+    "sell_price": 5125,
+    "weight": 140,
+    "item_level": 7,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 3,
+    "weapon_type": "MAGICK_GAUNTLET",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 32,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 439,
+        "magic_attack": 646,
+        "crest_slot": 4,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 231
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7875,
+            "amount": 3
+        },
+        {
+            "item_id": 7769,
+            "amount": 2
+        },
+        {
+            "item_id": 7749,
+            "amount": 1
+        },
+        {
+            "item_id": 7968,
+            "amount": 3
+        },
+        {
+            "item_id": 7750,
+            "amount": 8
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7903,
+            "amount": 1
+        },
+        {
+            "item_id": 7838,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 1925
+}

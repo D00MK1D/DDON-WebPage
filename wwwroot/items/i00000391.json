@@ -1,0 +1,79 @@
+{
+    "type": "equipment",
+    "item_id": 391,
+    "name": "Beast Symbol",
+    "info": "",
+    "icon": {
+        "icon_id": 888,
+        "color_id": 10
+    },
+    "jobs": [
+        "Warrior"
+    ],
+    "sell_price": 16250,
+    "weight": 180,
+    "item_level": 12,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 5,
+    "weapon_type": "BOW",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 58,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1358,
+        "magic_attack": 963,
+        "crest_slot": 0,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 488
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 23
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7878,
+            "amount": 5
+        },
+        {
+            "item_id": 7871,
+            "amount": 2
+        },
+        {
+            "item_id": 9438,
+            "amount": 2
+        },
+        {
+            "item_id": 8030,
+            "amount": 4
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 9438,
+            "amount": 1
+        },
+        {
+            "item_id": 9440,
+            "amount": 1
+        },
+        {
+            "item_id": 7884,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 2003
+}

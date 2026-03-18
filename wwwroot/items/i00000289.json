@@ -1,0 +1,79 @@
+{
+    "type": "equipment",
+    "item_id": 289,
+    "name": "Blitz Daggers",
+    "info": "",
+    "icon": {
+        "icon_id": 930,
+        "color_id": 8
+    },
+    "jobs": [
+        "Seeker"
+    ],
+    "sell_price": 6485,
+    "weight": 100,
+    "item_level": 8,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 3,
+    "weapon_type": "ROD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 36,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 546,
+        "magic_attack": 399,
+        "crest_slot": 0,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 76
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 8028,
+            "amount": 6
+        },
+        {
+            "item_id": 7807,
+            "amount": 1
+        },
+        {
+            "item_id": 7759,
+            "amount": 4
+        },
+        {
+            "item_id": 7826,
+            "amount": 6
+        },
+        {
+            "item_id": 7957,
+            "amount": 2
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7749,
+            "amount": 1
+        },
+        {
+            "item_id": 8034,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 1901
+}

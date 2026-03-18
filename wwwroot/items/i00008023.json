@@ -1,0 +1,34 @@
+{
+    "type": "material",
+    "item_id": 8023,
+    "name": "Mergan Ring",
+    "info": "Miscellaneous Crafting Material: Ring worn by the\npeople of Mergoda. A rare item.",
+    "icon": {
+        "icon_id": 519,
+        "color_id": 6
+    },
+    "jobs": [],
+    "sell_price": 250,
+    "weight": 0,
+    "item_level": 11,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": [
+        "Level 1+ Mergan Elementor",
+        "Level 1+ Mergan Fighter",
+        "Level 1+ Mergan Guarder",
+        "Level 1+ Mergan Healer",
+        "Level 1+ Mergan Hunter",
+        "Level 1+ Mergan Mage",
+        "Level 1+ Mergan Seeker",
+        "Level 1+ Mergan Warrior"
+    ],
+    "subtype": "other"
+}

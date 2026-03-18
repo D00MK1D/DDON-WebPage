@@ -1,0 +1,71 @@
+{
+    "type": "equipment",
+    "item_id": 165,
+    "name": "Silver Thorn",
+    "info": "",
+    "icon": {
+        "icon_id": 859,
+        "color_id": 8
+    },
+    "jobs": [
+        "Fighter"
+    ],
+    "sell_price": 2180,
+    "weight": 40,
+    "item_level": 7,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 3,
+    "weapon_type": "SHIELD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_SUB",
+    "level": 33,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "magic_attack": 0,
+        "crest_slot": 4,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 87,
+            "name": "GUARD_POWER",
+            "value": 224
+        },
+        {
+            "id": 30,
+            "name": "BLOCKING_STAMINA_REDUCTION",
+            "value": 10
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7875,
+            "amount": 2
+        },
+        {
+            "item_id": 7985,
+            "amount": 5
+        },
+        {
+            "item_id": 7957,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7857,
+            "amount": 1
+        },
+        {
+            "item_id": 7979,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 1777
+}

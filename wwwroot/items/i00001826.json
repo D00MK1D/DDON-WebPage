@@ -1,0 +1,57 @@
+{
+    "type": "equipment",
+    "item_id": 1826,
+    "name": "Nail Freed",
+    "info": "",
+    "icon": {
+        "icon_id": 1018,
+        "color_id": 9
+    },
+    "jobs": [
+        "Priest"
+    ],
+    "sell_price": 10130,
+    "weight": 120,
+    "item_level": 9,
+    "crest_slots": 1,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 4,
+    "weapon_type": "MAGICK_BOW",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 45,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 701,
+        "magic_attack": 826,
+        "crest_slot": 4,
+        "ele_slot": 9
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 139
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7859,
+            "amount": 2
+        },
+        {
+            "item_id": 7761,
+            "amount": 1
+        },
+        {
+            "item_id": 7807,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 214,
+    "next_item_id": 2849
+}

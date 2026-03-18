@@ -1,0 +1,58 @@
+{
+    "type": "equipment",
+    "item_id": 3726,
+    "name": "Iron Sword",
+    "info": "",
+    "icon": {
+        "icon_id": 818,
+        "color_id": 6
+    },
+    "jobs": [
+        "Fighter"
+    ],
+    "sell_price": 1448,
+    "weight": 80,
+    "item_level": 4,
+    "crest_slots": 1,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 2,
+    "weapon_type": "SWORD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 19,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 402,
+        "magic_attack": 244,
+        "crest_slot": 0,
+        "ele_slot": 25
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 98
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7845,
+            "amount": 1
+        },
+        {
+            "item_id": 7775,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 2703,
+    "next_item_id": 4749
+}

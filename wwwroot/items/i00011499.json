@@ -1,0 +1,64 @@
+{
+    "type": "equipment",
+    "item_id": 11499,
+    "name": "Finnegan's Mantle",
+    "info": "",
+    "icon": {
+        "icon_id": 1563,
+        "color_id": 27
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 3840,
+    "weight": 0,
+    "item_level": 75,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 5,
+    "equip_slot": "EQUIP_CATEGORY_ACCESSORY",
+    "level": 80,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 125,
+        "magic_attack": 0,
+        "magic_defense": 125,
+        "crest_slot": 4,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 25
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 11774,
+            "amount": 3
+        },
+        {
+            "item_id": 11778,
+            "amount": 3
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 11500
+}

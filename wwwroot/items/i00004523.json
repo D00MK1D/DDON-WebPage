@@ -1,0 +1,61 @@
+{
+    "type": "equipment",
+    "item_id": 4523,
+    "name": "Majesty Drapes",
+    "info": "",
+    "icon": {
+        "icon_id": 199,
+        "color_id": 7
+    },
+    "jobs": [
+        "ShieldSage",
+        "Alchemist",
+        "HighScepter"
+    ],
+    "sell_price": 1355,
+    "weight": 70,
+    "item_level": 5,
+    "crest_slots": 1,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 1,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 22,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 108,
+        "magic_attack": 0,
+        "magic_defense": 96,
+        "crest_slot": 4,
+        "ele_slot": 25
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 11
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 414
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 9061,
+            "amount": 1
+        },
+        {
+            "item_id": 7834,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 3500,
+    "next_item_id": 5546
+}

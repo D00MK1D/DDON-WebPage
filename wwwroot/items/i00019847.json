@@ -1,0 +1,47 @@
+{
+    "type": "equipment",
+    "item_id": 19847,
+    "name": "I\u015f\u0131k Rod",
+    "info": "",
+    "icon": {
+        "icon_id": 2313,
+        "color_id": 11
+    },
+    "jobs": [
+        "ShieldSage"
+    ],
+    "sell_price": 8592,
+    "weight": 48,
+    "item_level": 108,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 23,
+    "weapon_type": "GREATSHIELD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_SUB",
+    "level": 95,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "magic_attack": 2862,
+        "crest_slot": 0,
+        "ele_slot": 0
+    },
+    "params": [],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 15987,
+            "amount": 1
+        },
+        {
+            "item_id": 15988,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 19848
+}

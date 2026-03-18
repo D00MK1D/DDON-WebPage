@@ -1,0 +1,38 @@
+{
+    "type": "material",
+    "item_id": 18142,
+    "name": "Blazing Ore",
+    "info": "Ore Crafting Material: Fiery Pebble",
+    "icon": {
+        "icon_id": 489,
+        "color_id": 4
+    },
+    "jobs": [],
+    "sell_price": 900,
+    "weight": 0,
+    "item_level": 95,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Feryana Wilderness",
+        "Feryana Wilderness: Dark Path to the Secret Spring",
+        "Feryana Wilderness: False Remains",
+        "Feryana Wilderness: Restless Water Channel",
+        "Feryana Wilderness: Royal Family's Secret Path",
+        "Feryana Wilderness: Shrine of the Eternal Blaze",
+        "Feryana Wilderness: Thundering Roar Cave",
+        "Hidell Plains: False Remains",
+        "Megadosys Plateau",
+        "Megadosys Plateau: Abhorrent Territory",
+        "Megadosys Plateau: Firefall Mountain Eroded Rock",
+        "Megadosys Plateau: Megadosys Old Road"
+    ],
+    "hunt": [],
+    "subtype": "ore"
+}

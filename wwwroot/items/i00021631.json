@@ -1,0 +1,25 @@
+{
+    "type": "consumable",
+    "item_id": 21631,
+    "name": "Become LV.90 Orb (Fighter)",
+    "info": "Raise the job level of the Fighter to LV.90.\n<COL ffdc78>*This will be added to NPC Joseph's\nmenu.</COL>",
+    "icon": {
+        "icon_id": 2421,
+        "color_id": 82
+    },
+    "jobs": [],
+    "sell_price": 0,
+    "weight": 0,
+    "item_level": 1,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "max_stack": 1,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

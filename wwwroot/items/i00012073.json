@@ -1,0 +1,43 @@
+{
+    "type": "equipment",
+    "item_id": 12073,
+    "name": "Judgement",
+    "info": "",
+    "icon": {
+        "icon_id": 921,
+        "color_id": 10
+    },
+    "jobs": [
+        "ShieldSage"
+    ],
+    "sell_price": 9802,
+    "weight": 40,
+    "item_level": 35,
+    "crest_slots": 0,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 1,
+    "weapon_type": "GREATSHIELD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_SUB",
+    "level": 70,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "magic_attack": 1691,
+        "crest_slot": 4,
+        "ele_slot": 16
+    },
+    "params": [],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 11806,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 12072,
+    "next_item_id": 12074
+}

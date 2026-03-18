@@ -1,0 +1,64 @@
+{
+    "type": "equipment",
+    "item_id": 16147,
+    "name": "Adel's Greatsword",
+    "info": "",
+    "icon": {
+        "icon_id": 1733,
+        "color_id": 19
+    },
+    "jobs": [
+        "Fighter"
+    ],
+    "sell_price": 10000,
+    "weight": 150,
+    "item_level": 31,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 0,
+    "weapon_type": "SWORD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 1,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1486,
+        "magic_attack": 1278,
+        "crest_slot": 4,
+        "ele_slot": 24
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 283
+        },
+        {
+            "id": 52,
+            "name": "INFLICT_PETRIFICATION",
+            "value": 80
+        },
+        {
+            "id": 57,
+            "name": "INFLICT_HOLY_DRAIN",
+            "value": 40
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 8014,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 16146,
+    "next_item_id": 16148
+}

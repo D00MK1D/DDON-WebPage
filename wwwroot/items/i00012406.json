@@ -1,0 +1,84 @@
+{
+    "type": "equipment",
+    "item_id": 12406,
+    "name": "Dawn of Wyvern",
+    "info": "",
+    "icon": {
+        "icon_id": 1021,
+        "color_id": 10
+    },
+    "jobs": [
+        "Priest"
+    ],
+    "sell_price": 21130,
+    "weight": 70,
+    "item_level": 20,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 4,
+    "weapon_type": "MAGICK_BOW",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 65,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1334,
+        "magic_attack": 1460,
+        "crest_slot": 0,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 211
+        },
+        {
+            "id": 92,
+            "name": "UNDEAD_SLAYER",
+            "value": 30
+        },
+        {
+            "id": 93,
+            "name": "SKELETON_SLAYER",
+            "value": 30
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7902,
+            "amount": 10
+        },
+        {
+            "item_id": 11773,
+            "amount": 3
+        },
+        {
+            "item_id": 11765,
+            "amount": 3
+        },
+        {
+            "item_id": 11767,
+            "amount": 3
+        },
+        {
+            "item_id": 7943,
+            "amount": 4
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 11766,
+            "amount": 2
+        },
+        {
+            "item_id": 11772,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 12407
+}

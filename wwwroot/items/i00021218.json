@@ -1,0 +1,39 @@
+{
+    "type": "material",
+    "item_id": 21218,
+    "name": "Flame Mushroom",
+    "info": "Mushroom Crafting Material.\nMushroom with a vibrant red color on the inside\nof its cap.",
+    "icon": {
+        "icon_id": 512,
+        "color_id": 4
+    },
+    "jobs": [],
+    "sell_price": 350,
+    "weight": 0,
+    "item_level": 100,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Bloodbane Isle: Sage Tower Ruins",
+        "Farana Plains: Tarie Small Tower",
+        "Megadosys Plateau",
+        "Megadosys Plateau: Captive Interrogation Prison",
+        "Megadosys Plateau: Fortress City Megado: Royal Palace Level",
+        "Megadosys Plateau: Hidden Waterway to Megado",
+        "Megadosys Plateau: Jikei's Funeral Parlor",
+        "Megadosys Plateau: Megado Corridor",
+        "Megadosys Plateau: Megado Water Supply Network",
+        "Megadosys Plateau: Megadosys Old Road",
+        "Megadosys Plateau: Quiet Concealed Cave",
+        "Megadosys Plateau: Shrine of Combat",
+        "Urteca Mountains: Cave of Suffering"
+    ],
+    "hunt": [],
+    "subtype": "mushrooms"
+}

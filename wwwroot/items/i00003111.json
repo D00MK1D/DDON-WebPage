@@ -1,0 +1,57 @@
+{
+    "type": "equipment",
+    "item_id": 3111,
+    "name": "Noble Jacket",
+    "info": "",
+    "icon": {
+        "icon_id": 91,
+        "color_id": 6
+    },
+    "jobs": [
+        "ShieldSage",
+        "Alchemist",
+        "HighScepter"
+    ],
+    "sell_price": 475,
+    "weight": 90,
+    "item_level": 3,
+    "crest_slots": 1,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 13,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 66,
+        "magic_attack": 0,
+        "magic_defense": 59,
+        "crest_slot": 4,
+        "ele_slot": 17
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 7
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 238
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7798,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 2088,
+    "next_item_id": 4134
+}

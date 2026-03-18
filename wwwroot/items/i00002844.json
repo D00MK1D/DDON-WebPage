@@ -1,0 +1,53 @@
+{
+    "type": "equipment",
+    "item_id": 2844,
+    "name": "Pilgrim's Cane",
+    "info": "",
+    "icon": {
+        "icon_id": 1009,
+        "color_id": 7
+    },
+    "jobs": [
+        "Priest"
+    ],
+    "sell_price": 3925,
+    "weight": 70,
+    "item_level": 6,
+    "crest_slots": 1,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 3,
+    "weapon_type": "MAGICK_BOW",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 29,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 378,
+        "magic_attack": 478,
+        "crest_slot": 0,
+        "ele_slot": 17
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 101
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 8012,
+            "amount": 1
+        },
+        {
+            "item_id": 7975,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 1821,
+    "next_item_id": 3867
+}

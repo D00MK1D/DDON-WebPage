@@ -1,0 +1,52 @@
+{
+    "type": "equipment",
+    "item_id": 4818,
+    "name": "Broadsword",
+    "info": "",
+    "icon": {
+        "icon_id": 822,
+        "color_id": 7
+    },
+    "jobs": [
+        "Fighter"
+    ],
+    "sell_price": 2708,
+    "weight": 80,
+    "item_level": 6,
+    "crest_slots": 1,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 2,
+    "weapon_type": "SWORD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 27,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 550,
+        "magic_attack": 381,
+        "crest_slot": 0,
+        "ele_slot": 33
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 130
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 3795,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

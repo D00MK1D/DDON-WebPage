@@ -1,0 +1,48 @@
+{
+    "type": "equipment",
+    "item_id": 8185,
+    "name": "Celestial Hood",
+    "info": "",
+    "icon": {
+        "icon_id": 302,
+        "color_id": 10
+    },
+    "jobs": [
+        "Sorcerer"
+    ],
+    "sell_price": 5015,
+    "weight": 27,
+    "item_level": 12,
+    "crest_slots": 0,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 1,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_HELM",
+    "level": 60,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 208,
+        "magic_attack": 0,
+        "magic_defense": 332,
+        "crest_slot": 0,
+        "ele_slot": 16
+    },
+    "params": [],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 8014,
+            "amount": 2
+        },
+        {
+            "item_id": 7772,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 8184,
+    "next_item_id": 8186
+}

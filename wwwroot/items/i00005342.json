@@ -1,0 +1,55 @@
+{
+    "type": "equipment",
+    "item_id": 5342,
+    "name": "Scale Jacket",
+    "info": "",
+    "icon": {
+        "icon_id": 146,
+        "color_id": 9
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 4705,
+    "weight": 70,
+    "item_level": 9,
+    "crest_slots": 1,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 2,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 41,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 185,
+        "magic_attack": 0,
+        "magic_defense": 165,
+        "crest_slot": 4,
+        "ele_slot": 33
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 19
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 810
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 4319,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

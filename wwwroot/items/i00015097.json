@@ -1,0 +1,55 @@
+{
+    "type": "equipment",
+    "item_id": 15097,
+    "name": "Jacket of Benevolence",
+    "info": "",
+    "icon": {
+        "icon_id": 195,
+        "color_id": 10
+    },
+    "jobs": [
+        "ShieldSage",
+        "Alchemist",
+        "HighScepter"
+    ],
+    "sell_price": 15566,
+    "weight": 70,
+    "item_level": 60,
+    "crest_slots": 1,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 3,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 77,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 2,
+        "defense": 581,
+        "magic_attack": 2,
+        "magic_defense": 517,
+        "crest_slot": 0,
+        "ele_slot": 33
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 33
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 1155
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 15096,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

@@ -1,0 +1,64 @@
+{
+    "type": "equipment",
+    "item_id": 20711,
+    "name": "Macera Mesh",
+    "info": "",
+    "icon": {
+        "icon_id": 2289,
+        "color_id": 111
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 4620,
+    "weight": 10,
+    "item_level": 110,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 5,
+    "equip_slot": "EQUIP_CATEGORY_WEAR_BODY",
+    "level": 95,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 230,
+        "magic_attack": 0,
+        "magic_defense": 230,
+        "crest_slot": 0,
+        "ele_slot": 24
+    },
+    "params": [
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 455
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 21391,
+            "amount": 200
+        },
+        {
+            "item_id": 21231,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 20710,
+    "next_item_id": 20712
+}

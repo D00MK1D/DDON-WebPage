@@ -1,0 +1,74 @@
+{
+    "type": "equipment",
+    "item_id": 324,
+    "name": "Ruthless Enforcer",
+    "info": "",
+    "icon": {
+        "icon_id": 1039,
+        "color_id": 9
+    },
+    "jobs": [
+        "Sorcerer"
+    ],
+    "sell_price": 10585,
+    "weight": 40,
+    "item_level": 10,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 4,
+    "weapon_type": "MAGICK_GAUNTLET",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 47,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 812,
+        "magic_attack": 1043,
+        "crest_slot": 0,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 254
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 9059,
+            "amount": 6
+        },
+        {
+            "item_id": 7832,
+            "amount": 5
+        },
+        {
+            "item_id": 8025,
+            "amount": 5
+        },
+        {
+            "item_id": 8018,
+            "amount": 8
+        },
+        {
+            "item_id": 8010,
+            "amount": 5
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7912,
+            "amount": 1
+        },
+        {
+            "item_id": 8013,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 1936
+}

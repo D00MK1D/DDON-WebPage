@@ -1,0 +1,53 @@
+{
+    "type": "equipment",
+    "item_id": 2972,
+    "name": "Morgengl\u00fchen",
+    "info": "",
+    "icon": {
+        "icon_id": 992,
+        "color_id": 7
+    },
+    "jobs": [
+        "ElementArcher"
+    ],
+    "sell_price": 2210,
+    "weight": 90,
+    "item_level": 5,
+    "crest_slots": 1,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 1,
+    "weapon_type": "GREATSWORD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 21,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 313,
+        "magic_attack": 418,
+        "crest_slot": 4,
+        "ele_slot": 17
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 78
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 9061,
+            "amount": 1
+        },
+        {
+            "item_id": 7856,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 1949,
+    "next_item_id": 3995
+}

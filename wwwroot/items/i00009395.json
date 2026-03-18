@@ -1,0 +1,39 @@
+{
+    "type": "consumable",
+    "item_id": 9395,
+    "name": "Poison Flask",
+    "info": "Throw this to cause damage on impact.\nCauses the \"Poison\" debilitation.",
+    "icon": {
+        "icon_id": 440,
+        "color_id": 2
+    },
+    "jobs": [],
+    "sell_price": 15,
+    "weight": 0,
+    "item_level": 3,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "max_stack": 10,
+    "craft_recipe": [
+        {
+            "item_id": 7836,
+            "amount": 1
+        },
+        {
+            "item_id": 7854,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Breya Coast: Beach Underground Stores",
+        "Deenan Woods: Le Karvas Arma",
+        "Volden Mines",
+        "Volden Mines: Old Spring"
+    ],
+    "hunt": []
+}

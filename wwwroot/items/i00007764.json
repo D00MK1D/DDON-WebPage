@@ -1,0 +1,47 @@
+{
+    "type": "material",
+    "subtype": "scrolls",
+    "item_id": 7764,
+    "name": "Ancient Grimoire",
+    "info": "Grimoire Crafting Material: Tattered grimoire\nheld by a necromancer.",
+    "icon": {
+        "icon_id": 516,
+        "color_id": 4
+    },
+    "jobs": [],
+    "sell_price": 277,
+    "weight": 0,
+    "item_level": 7,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [
+        {
+            "item_id": 8005,
+            "amount": 1
+        },
+        {
+            "item_id": 8006,
+            "amount": 1
+        },
+        {
+            "item_id": 7946,
+            "amount": 1
+        },
+        {
+            "item_id": 7894,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+	"Farana Plains: Valtable Hall"
+    ],
+    "hunt": [
+        "Level 30+ Skeleton Sorcerer"
+    ],
+    "subtype": "scrolls"
+}

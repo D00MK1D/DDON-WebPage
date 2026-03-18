@@ -1,0 +1,41 @@
+{
+    "type": "material",
+    "subtype": "Ingots",
+    "item_id": 7888,
+    "name": "Red Alloy Ingot",
+    "info": "Metal Crafting Material: Red metal ingot\nsynthesized with lava rock to create a\ncrimson-colored metal.",
+    "icon": {
+        "icon_id": 490,
+        "color_id": 4
+    },
+    "jobs": [],
+    "sell_price": 500,
+    "weight": 0,
+    "item_level": 8,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [
+        {
+            "item_id": 7869,
+            "amount": 1
+        },
+        {
+            "item_id": 7879,
+            "amount": 2
+        },
+        {
+            "item_id": 7837,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Farana Plains: Small Tower of Wisdom",
+        "Kingal Canyon: Ancient Underground Shrine"
+    ],
+    "hunt": []
+}

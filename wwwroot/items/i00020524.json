@@ -1,0 +1,56 @@
+{
+    "type": "equipment",
+    "item_id": 20524,
+    "name": "Capable Bracers",
+    "info": "",
+    "icon": {
+        "icon_id": 1309,
+        "color_id": 10
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 11900,
+    "weight": 38,
+    "item_level": 100,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 90,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 5,
+        "defense": 504,
+        "magic_attack": 5,
+        "magic_defense": 420,
+        "crest_slot": 0,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 28
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 21214,
+            "amount": 2
+        },
+        {
+            "item_id": 21219,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 20525
+}

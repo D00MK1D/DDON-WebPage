@@ -1,0 +1,65 @@
+{
+    "type": "equipment",
+    "item_id": 8676,
+    "name": "Durable Pants",
+    "info": "",
+    "icon": {
+        "icon_id": 805,
+        "color_id": 6
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 165,
+    "weight": 5,
+    "item_level": 3,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 1,
+    "equip_slot": "EQUIP_CATEGORY_WEAR_LEG",
+    "level": 12,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 12,
+        "magic_attack": 0,
+        "magic_defense": 12,
+        "crest_slot": 4,
+        "ele_slot": 24
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 7
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 57
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7843,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 8675,
+    "next_item_id": 8677
+}

@@ -1,0 +1,52 @@
+{
+    "type": "equipment",
+    "item_id": 4855,
+    "name": "Invincible Shape",
+    "info": "",
+    "icon": {
+        "icon_id": 860,
+        "color_id": 10
+    },
+    "jobs": [
+        "Fighter"
+    ],
+    "sell_price": 7202,
+    "weight": 40,
+    "item_level": 12,
+    "crest_slots": 0,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 22,
+    "weapon_type": "SHIELD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_SUB",
+    "level": 60,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "magic_attack": 0,
+        "crest_slot": 0,
+        "ele_slot": 32
+    },
+    "params": [
+        {
+            "id": 87,
+            "name": "GUARD_POWER",
+            "value": 342
+        },
+        {
+            "id": 30,
+            "name": "BLOCKING_STAMINA_REDUCTION",
+            "value": 20
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 3832,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

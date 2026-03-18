@@ -1,0 +1,62 @@
+{
+    "type": "equipment",
+    "item_id": 1832,
+    "name": "Phantom Descent",
+    "info": "",
+    "icon": {
+        "icon_id": 1022,
+        "color_id": 9
+    },
+    "jobs": [
+        "Priest"
+    ],
+    "sell_price": 11050,
+    "weight": 70,
+    "item_level": 9,
+    "crest_slots": 1,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 2,
+    "weapon_type": "MAGICK_BOW",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 45,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 762,
+        "magic_attack": 874,
+        "crest_slot": 4,
+        "ele_slot": 9
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 143
+        },
+        {
+            "id": 85,
+            "name": "BLOW_POWER_BBLUNT",
+            "value": 10
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7770,
+            "amount": 2
+        },
+        {
+            "item_id": 11011,
+            "amount": 2
+        },
+        {
+            "item_id": 11012,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 220,
+    "next_item_id": 2855
+}

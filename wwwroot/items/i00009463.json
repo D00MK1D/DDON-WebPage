@@ -1,0 +1,25 @@
+{
+    "type": "material",
+    "item_id": 9463,
+    "name": "Abyssal Ice of Chaos",
+    "info": "Crafting materials with limited availability:\nMysterious ice chunks that induce a disturbance\nof order.",
+    "icon": {
+        "icon_id": 483,
+        "color_id": 28
+    },
+    "jobs": [],
+    "sell_price": 180,
+    "weight": 0,
+    "item_level": 11,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": [],
+    "subtype": "other"
+}

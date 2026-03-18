@@ -1,0 +1,31 @@
+{
+    "type": "material",
+    "item_id": 17868,
+    "name": "Blood Drinking Vessel",
+    "info": "Miscellaneous Crafting Material:\nA blood-stained jar that the Greater Goblin was\ncarrying.",
+    "icon": {
+        "icon_id": 481,
+        "color_id": 4
+    },
+    "jobs": [],
+    "sell_price": 350,
+    "weight": 0,
+    "item_level": 95,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [
+        "Emblem Medal Exchange (Feryana Wilderness)"
+    ],
+    "gather": [
+        "Feryana Wilderness: False Remains",
+        "Feryana Wilderness: Ogina's Domination Area",
+        "Hidell Plains: False Remains"
+    ],
+    "hunt": [],
+    "subtype": "other"
+}

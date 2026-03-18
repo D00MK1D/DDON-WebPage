@@ -1,0 +1,34 @@
+{
+    "type": "consumable",
+    "item_id": 11510,
+    "name": "Superior Anti-Corruption Medicine",
+    "info": "Grants the user the\nspecified status effect.",
+    "icon": {
+        "icon_id": 1412,
+        "color_id": 1
+    },
+    "jobs": [],
+    "sell_price": 500,
+    "weight": 0,
+    "item_level": 20,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "max_stack": 50,
+    "craft_recipe": [
+        {
+            "item_id": 11408,
+            "amount": 3
+        },
+        {
+            "item_id": 8018,
+            "amount": 7
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

@@ -1,0 +1,69 @@
+{
+    "type": "equipment",
+    "item_id": 13049,
+    "name": "Red Dragon Scale Coat",
+    "info": "",
+    "icon": {
+        "icon_id": 1319,
+        "color_id": 10
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 999,
+    "weight": 70,
+    "item_level": 45,
+    "crest_slots": 1,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 72,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 507,
+        "magic_attack": 0,
+        "magic_defense": 451,
+        "crest_slot": 4,
+        "ele_slot": 9
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 31
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 1132
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 15961,
+            "amount": 3
+        },
+        {
+            "item_id": 15962,
+            "amount": 3
+        }
+    ],
+    "previous_item_id": 13048,
+    "next_item_id": 13050
+}

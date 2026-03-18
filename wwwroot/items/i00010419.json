@@ -1,0 +1,50 @@
+{
+    "type": "equipment",
+    "item_id": 10419,
+    "name": "Iron Circlet",
+    "info": "",
+    "icon": {
+        "icon_id": 280,
+        "color_id": 9
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 4495,
+    "weight": 18,
+    "item_level": 10,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 5,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_HELM",
+    "level": 46,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 137,
+        "magic_attack": 0,
+        "magic_defense": 219,
+        "crest_slot": 0,
+        "ele_slot": 24
+    },
+    "params": [],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7801,
+            "amount": 2
+        },
+        {
+            "item_id": 9064,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 10418,
+    "next_item_id": 10420
+}

@@ -1,0 +1,61 @@
+{
+    "type": "equipment",
+    "item_id": 20867,
+    "name": "Hardy Bottoms",
+    "info": "",
+    "icon": {
+        "icon_id": 333,
+        "color_id": 10
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 16610,
+    "weight": 46,
+    "item_level": 110,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 3,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 95,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 6,
+        "defense": 457,
+        "magic_attack": 6,
+        "magic_defense": 365,
+        "crest_slot": 0,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 94
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 775
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 21257,
+            "amount": 4
+        },
+        {
+            "item_id": 21262,
+            "amount": 4
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 20868
+}

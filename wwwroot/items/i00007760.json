@@ -1,0 +1,31 @@
+{
+    "type": "material",
+    "item_id": 7760,
+    "name": "Orc Tusk",
+    "info": "Fang Crafting Material: Orc Tribe's Fierce Fangs.",
+    "icon": {
+        "icon_id": 469,
+        "color_id": 2
+    },
+    "jobs": [],
+    "sell_price": 20,
+    "weight": 0,
+    "item_level": 3,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Northern Betland Plains: Gardnox Fortress"
+    ],
+    "hunt": [
+        "Level 1+ Orc Aimer",
+        "Level 1+ Orc Banger",
+        "Level 1+ Orc Soldier"
+    ],
+    "subtype": "fangs tusks and claws"
+}

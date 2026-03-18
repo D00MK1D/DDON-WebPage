@@ -1,0 +1,62 @@
+{
+    "type": "equipment",
+    "item_id": 14401,
+    "name": "Iron Coffin",
+    "info": "",
+    "icon": {
+        "icon_id": 900,
+        "color_id": 10
+    },
+    "jobs": [
+        "ShieldSage"
+    ],
+    "sell_price": 23720,
+    "weight": 80,
+    "item_level": 60,
+    "crest_slots": 1,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 0,
+    "weapon_type": "STAFF",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 77,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 2057,
+        "magic_attack": 0,
+        "crest_slot": 0,
+        "ele_slot": 33
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 654
+        },
+        {
+            "id": 87,
+            "name": "GUARD_POWER",
+            "value": 410
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        },
+        {
+            "id": 31,
+            "name": "MAX_FORCE_STOCK",
+            "value": 4
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 14400,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

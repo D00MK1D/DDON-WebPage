@@ -1,0 +1,66 @@
+{
+    "type": "equipment",
+    "item_id": 15281,
+    "name": "Ginkgo-dyed Gloves",
+    "info": "",
+    "icon": {
+        "icon_id": 1312,
+        "color_id": 11
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 9601,
+    "weight": 34,
+    "item_level": 70,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 80,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 3,
+        "defense": 409,
+        "magic_attack": 3,
+        "magic_defense": 341,
+        "crest_slot": 0,
+        "ele_slot": 24
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 25
+        },
+        {
+            "id": 13,
+            "name": "RESIST_SHOCK",
+            "value": 5
+        },
+        {
+            "id": 41,
+            "name": "THUNDER_RESIST",
+            "value": 12
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 15995,
+            "amount": 1
+        },
+        {
+            "item_id": 15996,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 15280,
+    "next_item_id": 15282
+}

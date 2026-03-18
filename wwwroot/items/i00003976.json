@@ -1,0 +1,53 @@
+{
+    "type": "equipment",
+    "item_id": 3976,
+    "name": "Pious Roots",
+    "info": "",
+    "icon": {
+        "icon_id": 1038,
+        "color_id": 8
+    },
+    "jobs": [
+        "Sorcerer"
+    ],
+    "sell_price": 6485,
+    "weight": 40,
+    "item_level": 8,
+    "crest_slots": 1,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 3,
+    "weapon_type": "MAGICK_GAUNTLET",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 36,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 533,
+        "magic_attack": 749,
+        "crest_slot": 0,
+        "ele_slot": 25
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 209
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 8009,
+            "amount": 1
+        },
+        {
+            "item_id": 7894,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 2953,
+    "next_item_id": 4999
+}

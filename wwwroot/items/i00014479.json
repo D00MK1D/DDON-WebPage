@@ -1,0 +1,58 @@
+{
+    "type": "equipment",
+    "item_id": 14479,
+    "name": "Phindymian Daggers",
+    "info": "",
+    "icon": {
+        "icon_id": 1651,
+        "color_id": 11
+    },
+    "jobs": [
+        "Seeker"
+    ],
+    "sell_price": 28130,
+    "weight": 50,
+    "item_level": 55,
+    "crest_slots": 1,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 1,
+    "weapon_type": "ROD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 75,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1886,
+        "magic_attack": 1710,
+        "crest_slot": 4,
+        "ele_slot": 17
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 198
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 15935,
+            "amount": 3
+        },
+        {
+            "item_id": 15934,
+            "amount": 3
+        }
+    ],
+    "previous_item_id": 14478,
+    "next_item_id": 14480
+}

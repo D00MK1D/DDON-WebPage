@@ -1,0 +1,73 @@
+{
+    "type": "equipment",
+    "item_id": 21179,
+    "name": "Selenite Leather Suit",
+    "info": "",
+    "icon": {
+        "icon_id": 2286,
+        "color_id": 85
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 10000,
+    "weight": 10,
+    "item_level": 118,
+    "crest_slots": 0,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 2,
+    "equip_slot": "EQUIP_CATEGORY_WEAR_BODY",
+    "level": 95,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 241,
+        "magic_attack": 0,
+        "magic_defense": 241,
+        "crest_slot": 0,
+        "ele_slot": 32
+    },
+    "params": [
+        {
+            "id": 97,
+            "name": "SPIRIT_SLAYER",
+            "value": 15
+        },
+        {
+            "id": 102,
+            "name": "DRAGON_SLAYER",
+            "value": 15
+        },
+        {
+            "id": 28,
+            "name": "MAGMA_RESIST",
+            "value": 5
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 473
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

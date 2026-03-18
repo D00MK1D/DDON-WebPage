@@ -1,0 +1,45 @@
+{
+    "type": "jewlery",
+    "item_id": 13795,
+    "name": "Brilliant Gem Bracelet",
+    "info": "",
+    "icon": {
+        "icon_id": 672,
+        "color_id": 110
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 3000,
+    "weight": 1,
+    "item_level": 15,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "level": 60,
+    "stats": {},
+    "params": [
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 60
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

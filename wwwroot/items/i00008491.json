@@ -1,0 +1,56 @@
+{
+    "type": "equipment",
+    "item_id": 8491,
+    "name": "Throne's Arms",
+    "info": "",
+    "icon": {
+        "icon_id": 80,
+        "color_id": 9
+    },
+    "jobs": [
+        "ShieldSage",
+        "Alchemist",
+        "HighScepter"
+    ],
+    "sell_price": 4665,
+    "weight": 45,
+    "item_level": 10,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 4,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 49,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 185,
+        "magic_attack": 0,
+        "magic_defense": 154,
+        "crest_slot": 0,
+        "ele_slot": 24
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 11
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7846,
+            "amount": 2
+        },
+        {
+            "item_id": 7859,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 8490,
+    "next_item_id": 8492
+}

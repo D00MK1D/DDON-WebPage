@@ -1,0 +1,28 @@
+{
+    "type": "material",
+    "subtype": "other",
+    "item_id": 21268,
+    "name": "Howling Blaze Lump",
+    "info": "Miscellaneous Crafting Material:\nFlames that continue to burn with a roaring sound.",
+    "icon": {
+        "icon_id": 1430,
+        "color_id": 105
+    },
+    "jobs": [],
+    "sell_price": 2000,
+    "weight": 0,
+    "item_level": 115,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Urteca Mountains: Ancestral Territory",
+        "Urteca Mountains: Pool of Inextinguishable Flames"
+    ],
+    "hunt": []
+}

@@ -1,0 +1,73 @@
+{
+    "type": "equipment",
+    "item_id": 1010,
+    "name": "Gryphus Mantle",
+    "info": "",
+    "icon": {
+        "icon_id": 212,
+        "color_id": 7
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 400,
+    "weight": 10,
+    "item_level": 5,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_ACCESSORY",
+    "level": 21,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 18,
+        "magic_attack": 0,
+        "magic_defense": 18,
+        "crest_slot": 4,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 5
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7813,
+            "amount": 4
+        },
+        {
+            "item_id": 7895,
+            "amount": 3
+        },
+        {
+            "item_id": 7953,
+            "amount": 3
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7813,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 2622
+}

@@ -1,0 +1,97 @@
+{
+    "type": "equipment",
+    "item_id": 568,
+    "name": "Amilec Armor",
+    "info": "",
+    "icon": {
+        "icon_id": 150,
+        "color_id": 10
+    },
+    "jobs": [
+        "Fighter"
+    ],
+    "sell_price": 10080,
+    "weight": 90,
+    "item_level": 12,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 22,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 60,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 378,
+        "magic_attack": 0,
+        "magic_defense": 336,
+        "crest_slot": 0,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 26
+        },
+        {
+            "id": 10,
+            "name": "RESIST_GOLDEN",
+            "value": 5
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 1185
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 9444,
+            "amount": 3
+        },
+        {
+            "item_id": 7931,
+            "amount": 2
+        },
+        {
+            "item_id": 7746,
+            "amount": 3
+        },
+        {
+            "item_id": 9796,
+            "amount": 5
+        },
+        {
+            "item_id": 10996,
+            "amount": 10
+        },
+        {
+            "item_id": 10997,
+            "amount": 5
+        },
+        {
+            "item_id": 10998,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7909,
+            "amount": 3
+        },
+        {
+            "item_id": 11011,
+            "amount": 1
+        },
+        {
+            "item_id": 10992,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 2180
+}

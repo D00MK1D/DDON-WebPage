@@ -1,0 +1,42 @@
+{
+    "type": "material",
+    "item_id": 7979,
+    "name": "Blue Flower",
+    "info": "Floral Crafting Material: Grass flowers with blue\npetals and a faint amount of magic power.",
+    "icon": {
+        "icon_id": 510,
+        "color_id": 4
+    },
+    "jobs": [],
+    "sell_price": 185,
+    "weight": 0,
+    "item_level": 7,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Breya Coast: Roaring Tide Cave",
+        "Deenan Woods",
+        "Deenan Woods: Divine Blossom Terrace",
+        "Deenan Woods: Erte Deenan",
+        "Dowe Valley",
+        "Dowe Valley: Abandoned Underground Passage",
+        "Dowe Valley: Partly-Dug Well",
+        "Farana Plains: Sacred River Ruins",
+        "Farana Plains: Valtable Hall",
+        "Mergoda Ruins: Mergoda Ruins Lower Level",
+        "Mysree Grove",
+        "Mysree Grove: Dark Green Terrace",
+        "Mysree Grove: Greenleaf Terrace",
+        "Northern Betland Plains: Tegor Flood Control Channel",
+        "Volden Mines: Bandit Hideaway",
+        "Zandora Wastelands"
+    ],
+    "hunt": [],
+    "subtype": "plants"
+}

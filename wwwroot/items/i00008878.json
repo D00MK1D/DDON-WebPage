@@ -1,0 +1,77 @@
+{
+    "type": "equipment",
+    "item_id": 8878,
+    "name": "Raptor Mantle",
+    "info": "",
+    "icon": {
+        "icon_id": 213,
+        "color_id": 9
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 1500,
+    "weight": 10,
+    "item_level": 9,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 5,
+    "equip_slot": "EQUIP_CATEGORY_ACCESSORY",
+    "level": 44,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 43,
+        "magic_attack": 0,
+        "magic_defense": 43,
+        "crest_slot": 4,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 9
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7923,
+            "amount": 3
+        },
+        {
+            "item_id": 7816,
+            "amount": 3
+        },
+        {
+            "item_id": 7958,
+            "amount": 2
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7778,
+            "amount": 1
+        },
+        {
+            "item_id": 7925,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 8879
+}

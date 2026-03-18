@@ -1,0 +1,31 @@
+{
+    "type": "material",
+    "item_id": 7966,
+    "name": "Rosewood",
+    "info": "Wood Crafting Material:\nA high-quality lumber with a beautiful deep\nreddish-purple wood grain.",
+    "icon": {
+        "icon_id": 507,
+        "color_id": 4
+    },
+    "jobs": [],
+    "sell_price": 375,
+    "weight": 0,
+    "item_level": 8,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Betland Plains",
+        "Mysree Grove: Dark Green Terrace",
+        "Mysree Grove: Greenleaf Terrace",
+        "Mysree Grove: Lair of the Holy Beast",
+        "Mysree Grove: Sacred Spring Terrace"
+    ],
+    "hunt": [],
+    "subtype": "lumber"
+}

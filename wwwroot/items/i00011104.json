@@ -1,0 +1,58 @@
+{
+    "type": "equipment",
+    "item_id": 11104,
+    "name": "Two-Edged",
+    "info": "",
+    "icon": {
+        "icon_id": 924,
+        "color_id": 9
+    },
+    "jobs": [
+        "Seeker"
+    ],
+    "sell_price": 8410,
+    "weight": 60,
+    "item_level": 9,
+    "crest_slots": 1,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 3,
+    "weapon_type": "ROD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 41,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 641,
+        "magic_attack": 499,
+        "crest_slot": 4,
+        "ele_slot": 17
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 86
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7809,
+            "amount": 1
+        },
+        {
+            "item_id": 7875,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 11103,
+    "next_item_id": 11105
+}

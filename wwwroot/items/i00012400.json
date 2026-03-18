@@ -1,0 +1,47 @@
+{
+    "type": "equipment",
+    "item_id": 12400,
+    "name": "Circle of Life",
+    "info": "",
+    "icon": {
+        "icon_id": 1010,
+        "color_id": 10
+    },
+    "jobs": [
+        "Priest"
+    ],
+    "sell_price": 19225,
+    "weight": 70,
+    "item_level": 15,
+    "crest_slots": 1,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 2,
+    "weapon_type": "MAGICK_BOW",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 62,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1286,
+        "magic_attack": 1409,
+        "crest_slot": 4,
+        "ele_slot": 33
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 211
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 12399,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

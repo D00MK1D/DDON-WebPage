@@ -1,0 +1,74 @@
+{
+    "type": "equipment",
+    "item_id": 901,
+    "name": "Principal Legs",
+    "info": "",
+    "icon": {
+        "icon_id": 406,
+        "color_id": 8
+    },
+    "jobs": [
+        "ShieldSage",
+        "Alchemist",
+        "HighScepter"
+    ],
+    "sell_price": 2890,
+    "weight": 72,
+    "item_level": 8,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 1,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 38,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 95,
+        "magic_attack": 0,
+        "magic_defense": 76,
+        "crest_slot": 0,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 34
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 502
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7928,
+            "amount": 3
+        },
+        {
+            "item_id": 7758,
+            "amount": 1
+        },
+        {
+            "item_id": 7778,
+            "amount": 4
+        },
+        {
+            "item_id": 7902,
+            "amount": 3
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7814,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 2513
+}

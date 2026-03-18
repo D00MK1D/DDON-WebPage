@@ -1,0 +1,72 @@
+{
+    "type": "equipment",
+    "item_id": 2524,
+    "name": "Balangingi Greaves",
+    "info": "",
+    "icon": {
+        "icon_id": 399,
+        "color_id": 10
+    },
+    "jobs": [
+        "ShieldSage"
+    ],
+    "sell_price": 7200,
+    "weight": 72,
+    "item_level": 12,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 22,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 60,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 211,
+        "magic_attack": 0,
+        "magic_defense": 169,
+        "crest_slot": 0,
+        "ele_slot": 8
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 52
+        },
+        {
+            "id": 10,
+            "name": "RESIST_GOLDEN",
+            "value": 5
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 772
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7922,
+            "amount": 3
+        },
+        {
+            "item_id": 11011,
+            "amount": 3
+        },
+        {
+            "item_id": 11012,
+            "amount": 1
+        },
+        {
+            "item_id": 10992,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 912,
+    "next_item_id": 3547
+}

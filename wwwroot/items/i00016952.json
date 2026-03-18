@@ -1,0 +1,54 @@
+{
+    "type": "equipment",
+    "item_id": 16952,
+    "name": "Conspicuous Rusted Bow",
+    "info": "",
+    "icon": {
+        "icon_id": 1656,
+        "color_id": 101
+    },
+    "jobs": [
+        "Hunter"
+    ],
+    "sell_price": 200,
+    "weight": 100,
+    "item_level": 2,
+    "crest_slots": 1,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 23,
+    "weapon_type": "ARCHISTAFF",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 1,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1084,
+        "magic_attack": 852,
+        "crest_slot": 0,
+        "ele_slot": 25
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 182
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        },
+        {
+            "id": 32,
+            "name": "MAX_LOADED_ARROWS",
+            "value": 28
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0
+}

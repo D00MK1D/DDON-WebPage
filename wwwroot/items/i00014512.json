@@ -1,0 +1,80 @@
+{
+    "type": "equipment",
+    "item_id": 14512,
+    "name": "Bow of Tribe",
+    "info": "",
+    "icon": {
+        "icon_id": 1659,
+        "color_id": 10
+    },
+    "jobs": [
+        "Hunter"
+    ],
+    "sell_price": 25925,
+    "weight": 70,
+    "item_level": 45,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 23,
+    "weapon_type": "ARCHISTAFF",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 72,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1862,
+        "magic_attack": 1589,
+        "crest_slot": 4,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 351
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        },
+        {
+            "id": 32,
+            "name": "MAX_LOADED_ARROWS",
+            "value": 25
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 15914,
+            "amount": 3
+        },
+        {
+            "item_id": 15916,
+            "amount": 3
+        },
+        {
+            "item_id": 15918,
+            "amount": 3
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 15913,
+            "amount": 3
+        },
+        {
+            "item_id": 15915,
+            "amount": 3
+        },
+        {
+            "item_id": 15917,
+            "amount": 3
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 14513
+}

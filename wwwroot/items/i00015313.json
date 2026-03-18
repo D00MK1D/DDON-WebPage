@@ -1,0 +1,79 @@
+{
+    "type": "equipment",
+    "item_id": 15313,
+    "name": "Dark Red Gloves",
+    "info": "",
+    "icon": {
+        "icon_id": 1313,
+        "color_id": 11
+    },
+    "jobs": [
+        "ShieldSage",
+        "Alchemist",
+        "HighScepter"
+    ],
+    "sell_price": 9601,
+    "weight": 45,
+    "item_level": 70,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 80,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 2,
+        "defense": 404,
+        "magic_attack": 2,
+        "magic_defense": 337,
+        "crest_slot": 0,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 25
+        },
+        {
+            "id": 13,
+            "name": "RESIST_SHOCK",
+            "value": 2
+        },
+        {
+            "id": 41,
+            "name": "THUNDER_RESIST",
+            "value": 12
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 15991,
+            "amount": 5
+        },
+        {
+            "item_id": 16012,
+            "amount": 2
+        },
+        {
+            "item_id": 15938,
+            "amount": 2
+        },
+        {
+            "item_id": 15939,
+            "amount": 2
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 15991,
+            "amount": 5
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 15315
+}

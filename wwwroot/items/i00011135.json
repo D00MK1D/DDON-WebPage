@@ -1,0 +1,57 @@
+{
+    "type": "equipment",
+    "item_id": 11135,
+    "name": "Heilung Bogen",
+    "info": "",
+    "icon": {
+        "icon_id": 991,
+        "color_id": 9
+    },
+    "jobs": [
+        "ElementArcher"
+    ],
+    "sell_price": 8410,
+    "weight": 60,
+    "item_level": 9,
+    "crest_slots": 1,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 4,
+    "weapon_type": "GREATSWORD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 41,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 603,
+        "magic_attack": 754,
+        "crest_slot": 4,
+        "ele_slot": 25
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 129
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7809,
+            "amount": 1
+        },
+        {
+            "item_id": 7852,
+            "amount": 1
+        },
+        {
+            "item_id": 7970,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 11134,
+    "next_item_id": 11136
+}

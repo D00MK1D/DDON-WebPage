@@ -1,0 +1,56 @@
+{
+    "type": "equipment",
+    "item_id": 20913,
+    "name": "Mis\u00e9ricorde Bangles",
+    "info": "",
+    "icon": {
+        "icon_id": 20,
+        "color_id": 10
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 13090,
+    "weight": 37,
+    "item_level": 110,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 4,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 95,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 6,
+        "defense": 550,
+        "magic_attack": 6,
+        "magic_defense": 458,
+        "crest_slot": 0,
+        "ele_slot": 8
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 31
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 21256,
+            "amount": 4
+        },
+        {
+            "item_id": 21261,
+            "amount": 4
+        }
+    ],
+    "previous_item_id": 20912,
+    "next_item_id": 20914
+}

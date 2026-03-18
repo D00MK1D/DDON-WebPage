@@ -1,0 +1,50 @@
+{
+    "type": "jewlery",
+    "item_id": 9014,
+    "name": "Pure White Shell Earrings",
+    "info": "",
+    "icon": {
+        "icon_id": 592,
+        "color_id": 9
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 1500,
+    "weight": 1,
+    "item_level": 10,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "level": 46,
+    "stats": {},
+    "params": [
+        {
+            "id": 23,
+            "name": "RESIST_PHYS_DEF_DOWN",
+            "value": 3
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 30
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

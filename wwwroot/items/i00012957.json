@@ -1,0 +1,60 @@
+{
+    "type": "equipment",
+    "item_id": 12957,
+    "name": "Bishop Shoes",
+    "info": "",
+    "icon": {
+        "icon_id": 1354,
+        "color_id": 111
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 7923,
+    "weight": 42,
+    "item_level": 30,
+    "crest_slots": 0,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 20,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 65,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 242,
+        "magic_attack": 0,
+        "magic_defense": 194,
+        "crest_slot": 0,
+        "ele_slot": 32
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 57
+        },
+        {
+            "id": 15,
+            "name": "RESIST_KNOCKOUT",
+            "value": 7
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 758
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 12956,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

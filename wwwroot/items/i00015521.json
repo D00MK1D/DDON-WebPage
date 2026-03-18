@@ -1,0 +1,73 @@
+{
+    "type": "equipment",
+    "item_id": 15521,
+    "name": "Questing Banded",
+    "info": "",
+    "icon": {
+        "icon_id": 812,
+        "color_id": 10
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 1944,
+    "weight": 5,
+    "item_level": 45,
+    "crest_slots": 0,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_WEAR_LEG",
+    "level": 72,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 108,
+        "magic_attack": 0,
+        "magic_defense": 108,
+        "crest_slot": 4,
+        "ele_slot": 16
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 52
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 250
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 15913,
+            "amount": 2
+        },
+        {
+            "item_id": 15915,
+            "amount": 2
+        },
+        {
+            "item_id": 15917,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 15520,
+    "next_item_id": 15522
+}

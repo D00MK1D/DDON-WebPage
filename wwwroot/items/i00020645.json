@@ -1,0 +1,56 @@
+{
+    "type": "equipment",
+    "item_id": 20645,
+    "name": "Pundit Gloves",
+    "info": "",
+    "icon": {
+        "icon_id": 77,
+        "color_id": 10
+    },
+    "jobs": [
+        "ShieldSage",
+        "Alchemist",
+        "HighScepter"
+    ],
+    "sell_price": 11900,
+    "weight": 37,
+    "item_level": 100,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 5,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 90,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 5,
+        "defense": 506,
+        "magic_attack": 5,
+        "magic_defense": 421,
+        "crest_slot": 0,
+        "ele_slot": 8
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 28
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 21214,
+            "amount": 4
+        },
+        {
+            "item_id": 21219,
+            "amount": 4
+        }
+    ],
+    "previous_item_id": 20644,
+    "next_item_id": 20646
+}

@@ -1,0 +1,52 @@
+{
+    "type": "equipment",
+    "item_id": 5062,
+    "name": "Black Matter",
+    "info": "",
+    "icon": {
+        "icon_id": 885,
+        "color_id": 9
+    },
+    "jobs": [
+        "Warrior"
+    ],
+    "sell_price": 5125,
+    "weight": 180,
+    "item_level": 9,
+    "crest_slots": 1,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 2,
+    "weapon_type": "BOW",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 41,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 831,
+        "magic_attack": 479,
+        "crest_slot": 4,
+        "ele_slot": 33
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 378
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 23
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 4039,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

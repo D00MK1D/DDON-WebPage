@@ -1,0 +1,57 @@
+{
+    "type": "equipment",
+    "item_id": 14084,
+    "name": "Spear Daggers of Heroes",
+    "info": "",
+    "icon": {
+        "icon_id": 932,
+        "color_id": 84
+    },
+    "jobs": [
+        "Seeker"
+    ],
+    "sell_price": 10000,
+    "weight": 60,
+    "item_level": 25,
+    "crest_slots": 4,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 5,
+    "weapon_type": "ROD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 55,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1476,
+        "magic_attack": 1310,
+        "crest_slot": 4,
+        "ele_slot": 36
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 153
+        },
+        {
+            "id": 85,
+            "name": "BLOW_POWER_BBLUNT",
+            "value": 5
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

@@ -1,0 +1,55 @@
+{
+    "type": "equipment",
+    "item_id": 9894,
+    "name": "Benefit Shoes",
+    "info": "",
+    "icon": {
+        "icon_id": 339,
+        "color_id": 8
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 0,
+    "weight": 0,
+    "item_level": 7,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 5,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 1,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 66,
+        "magic_attack": 0,
+        "magic_defense": 60,
+        "crest_slot": 4,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 16
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 330
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

@@ -1,0 +1,27 @@
+{
+    "type": "material",
+    "item_id": 17893,
+    "name": "Scroll of the Starry Sky",
+    "info": "Grimoire Crafting Material:\nScrolls imbued with the mark of the Starry Sky.",
+    "icon": {
+        "icon_id": 515,
+        "color_id": 4
+    },
+    "jobs": [],
+    "sell_price": 3000,
+    "weight": 0,
+    "item_level": 100,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [
+        "Emblem Medal Exchange (Feryana Wilderness)"
+    ],
+    "gather": [],
+    "hunt": [],
+    "subtype": "scrolls"
+}

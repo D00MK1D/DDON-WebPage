@@ -1,0 +1,49 @@
+{
+    "type": "equipment",
+    "item_id": 13989,
+    "name": "Ritual Shell [Heaven]",
+    "info": "",
+    "icon": {
+        "icon_id": 1133,
+        "color_id": 82
+    },
+    "jobs": [
+        "Fighter"
+    ],
+    "sell_price": 5000,
+    "weight": 40,
+    "item_level": 35,
+    "crest_slots": 0,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 2,
+    "weapon_type": "SHIELD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_SUB",
+    "level": 1,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "magic_attack": 0,
+        "crest_slot": 4,
+        "ele_slot": 16
+    },
+    "params": [
+        {
+            "id": 87,
+            "name": "GUARD_POWER",
+            "value": 364
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7860,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 13988,
+    "next_item_id": 13990
+}

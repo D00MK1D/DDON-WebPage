@@ -1,0 +1,56 @@
+{
+    "type": "equipment",
+    "item_id": 18339,
+    "name": "Bangles of Hope",
+    "info": "",
+    "icon": {
+        "icon_id": 1304,
+        "color_id": 11
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 11375,
+    "weight": 38,
+    "item_level": 95,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 1,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 88,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 5,
+        "defense": 475,
+        "magic_attack": 5,
+        "magic_defense": 396,
+        "crest_slot": 4,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 27
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 19647,
+            "amount": 1
+        },
+        {
+            "item_id": 19646,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 18340
+}

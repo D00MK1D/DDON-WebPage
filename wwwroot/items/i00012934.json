@@ -1,0 +1,70 @@
+{
+    "type": "equipment",
+    "item_id": 12934,
+    "name": "Alloy Greaves",
+    "info": "",
+    "icon": {
+        "icon_id": 377,
+        "color_id": 11
+    },
+    "jobs": [
+        "Fighter",
+        "Warrior"
+    ],
+    "sell_price": 9189,
+    "weight": 42,
+    "item_level": 40,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 1,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 70,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 268,
+        "magic_attack": 0,
+        "magic_defense": 214,
+        "crest_slot": 0,
+        "ele_slot": 8
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 60
+        },
+        {
+            "id": 12,
+            "name": "RESIST_FROZEN_SOLID",
+            "value": 2
+        },
+        {
+            "id": 20,
+            "name": "RESIST_HOLY_RES_DOWN",
+            "value": 2
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 728
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 11801,
+            "amount": 2
+        },
+        {
+            "item_id": 11803,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 12933,
+    "next_item_id": 12935
+}

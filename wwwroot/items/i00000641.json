@@ -1,0 +1,67 @@
+{
+    "type": "equipment",
+    "item_id": 641,
+    "name": "Ruby Brigade Cap",
+    "info": "",
+    "icon": {
+        "icon_id": 267,
+        "color_id": 9
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 3535,
+    "weight": 18,
+    "item_level": 10,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 4,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_HELM",
+    "level": 49,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 150,
+        "magic_attack": 0,
+        "magic_defense": 240,
+        "crest_slot": 0,
+        "ele_slot": 0
+    },
+    "params": [],
+    "craft_recipe": [
+        {
+            "item_id": 7927,
+            "amount": 2
+        },
+        {
+            "item_id": 7911,
+            "amount": 2
+        },
+        {
+            "item_id": 7753,
+            "amount": 4
+        },
+        {
+            "item_id": 7959,
+            "amount": 3
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7896,
+            "amount": 1
+        },
+        {
+            "item_id": 8014,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 2253
+}

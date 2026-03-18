@@ -1,0 +1,29 @@
+{
+    "type": "material",
+    "item_id": 19653,
+    "name": "Groaning Skull",
+    "info": "Bone Crafting Material: A skull that continues to\nwhisper something in a voice infused with cursed\npower.",
+    "icon": {
+        "icon_id": 2497,
+        "color_id": 28
+    },
+    "jobs": [],
+    "sell_price": 2000,
+    "weight": 0,
+    "item_level": 100,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [
+        "Dominion Point Shop"
+    ],
+    "gather": [
+        "Feryana Wilderness: Jifule Fortress"
+    ],
+    "hunt": [],
+    "subtype": "bones"
+}

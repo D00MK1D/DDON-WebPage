@@ -1,0 +1,60 @@
+{
+    "type": "equipment",
+    "item_id": 13105,
+    "name": "Imperial Chain",
+    "info": "",
+    "icon": {
+        "icon_id": 773,
+        "color_id": 11
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 2573,
+    "weight": 10,
+    "item_level": 40,
+    "crest_slots": 0,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_WEAR_BODY",
+    "level": 70,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 138,
+        "magic_attack": 0,
+        "magic_defense": 138,
+        "crest_slot": 0,
+        "ele_slot": 16
+    },
+    "params": [
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 380
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 11803,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 13104,
+    "next_item_id": 13106
+}

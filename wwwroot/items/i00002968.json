@@ -1,0 +1,54 @@
+{
+    "type": "equipment",
+    "item_id": 2968,
+    "name": "Papillon R\u00eave",
+    "info": "",
+    "icon": {
+        "icon_id": 1041,
+        "color_id": 10
+    },
+    "jobs": [
+        "Sorcerer"
+    ],
+    "sell_price": 18005,
+    "weight": 80,
+    "item_level": 12,
+    "crest_slots": 1,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 5,
+    "weapon_type": "MAGICK_GAUNTLET",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 60,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1204,
+        "magic_attack": 1456,
+        "crest_slot": 0,
+        "ele_slot": 17
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 428
+        },
+        {
+            "id": 97,
+            "name": "SPIRIT_SLAYER",
+            "value": 63
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 9456,
+            "amount": 3
+        }
+    ],
+    "previous_item_id": 1945,
+    "next_item_id": 3991
+}

@@ -1,0 +1,44 @@
+{
+    "type": "equipment",
+    "item_id": 16980,
+    "name": "Conspicuous Rusted Magick Bow",
+    "info": "",
+    "icon": {
+        "icon_id": 1670,
+        "color_id": 101
+    },
+    "jobs": [
+        "ElementArcher"
+    ],
+    "sell_price": 200,
+    "weight": 90,
+    "item_level": 1,
+    "crest_slots": 1,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 23,
+    "weapon_type": "GREATSWORD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 1,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 270,
+        "magic_attack": 382,
+        "crest_slot": 4,
+        "ele_slot": 9
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 75
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0
+}

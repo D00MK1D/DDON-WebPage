@@ -1,0 +1,52 @@
+{
+    "type": "jewlery",
+    "item_id": 21394,
+    "name": "Ring of the Flame Demon",
+    "info": "",
+    "icon": {
+        "icon_id": 757,
+        "color_id": 101
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 100000,
+    "weight": 1,
+    "item_level": 110,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "level": 1,
+    "stats": {},
+    "params": [
+        {
+            "id": 39,
+            "name": "FIRE_RESIST",
+            "value": 30
+        },
+        {
+            "id": 97,
+            "name": "SPIRIT_SLAYER",
+            "value": 15
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Megadosys Plateau: The King's Room of Concealment"
+    ],
+    "hunt": []
+}

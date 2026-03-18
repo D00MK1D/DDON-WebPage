@@ -1,0 +1,32 @@
+{
+    "type": "material",
+    "item_id": 7836,
+    "name": "Insect Venom",
+    "info": "Liquid Crafting Material: Dangerous venom\nextracted from winged insects and ground-dwelling\ncreatures.",
+    "icon": {
+        "icon_id": 481,
+        "color_id": 1
+    },
+    "jobs": [],
+    "sell_price": 5,
+    "weight": 0,
+    "item_level": 1,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Dowe Valley: Cesspool"
+    ],
+    "hunt": [
+        "Level 1+ Killer Bee",
+        "Level 1+ Leech",
+        "Level 1+ Spider",
+        "Level 1+ Worm"
+    ],
+    "subtype": "liquids"
+}

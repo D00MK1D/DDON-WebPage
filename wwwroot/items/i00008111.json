@@ -1,0 +1,45 @@
+{
+    "type": "equipment",
+    "item_id": 8111,
+    "name": "Kykl\u00f4ps Head",
+    "info": "",
+    "icon": {
+        "icon_id": 251,
+        "color_id": 6
+    },
+    "jobs": [
+        "Fighter",
+        "Warrior"
+    ],
+    "sell_price": 270,
+    "weight": 45,
+    "item_level": 3,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 1,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_HELM",
+    "level": 13,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 35,
+        "magic_attack": 0,
+        "magic_defense": 56,
+        "crest_slot": 4,
+        "ele_slot": 8
+    },
+    "params": [],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7768,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 8110,
+    "next_item_id": 8112
+}

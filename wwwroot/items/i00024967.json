@@ -1,0 +1,62 @@
+{
+    "type": "equipment",
+    "item_id": 24967,
+    "name": "Olfring Sword (\u67d3)",
+    "info": "",
+    "icon": {
+        "icon_id": 2637,
+        "color_id": 82
+    },
+    "jobs": [
+        "Fighter"
+    ],
+    "sell_price": 10000,
+    "weight": 60,
+    "item_level": 110,
+    "crest_slots": 4,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 0,
+    "weapon_type": "SWORD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 1,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 3029,
+        "magic_attack": 2773,
+        "crest_slot": 0,
+        "ele_slot": 36
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 601
+        },
+        {
+            "id": 85,
+            "name": "BLOW_POWER_BBLUNT",
+            "value": 5
+        },
+        {
+            "id": 47,
+            "name": "INFLICT_BLIND",
+            "value": 15
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

@@ -1,0 +1,28 @@
+{
+    "type": "material",
+    "item_id": 7740,
+    "name": "Giant Eyeball",
+    "info": "Meat Crafting Material:\nPowerful Cyclops (LV. 34~) Eye",
+    "icon": {
+        "icon_id": 464,
+        "color_id": 104
+    },
+    "jobs": [],
+    "sell_price": 250,
+    "weight": 0,
+    "item_level": 8,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": [
+        "Level 34+ Armoured Cyclops",
+        "Level 34+ Cyclops"
+    ],
+    "subtype": "meat"
+}

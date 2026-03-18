@@ -1,0 +1,94 @@
+{
+    "type": "equipment",
+    "item_id": 867,
+    "name": "Ddraig Goch Pectus",
+    "info": "",
+    "icon": {
+        "icon_id": 153,
+        "color_id": 8
+    },
+    "jobs": [
+        "ShieldSage",
+        "Alchemist",
+        "HighScepter"
+    ],
+    "sell_price": 4480,
+    "weight": 90,
+    "item_level": 8,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 20,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 40,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 182,
+        "magic_attack": 0,
+        "magic_defense": 161,
+        "crest_slot": 0,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 18
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 787
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7888,
+            "amount": 7
+        },
+        {
+            "item_id": 7928,
+            "amount": 5
+        },
+        {
+            "item_id": 7740,
+            "amount": 2
+        },
+        {
+            "item_id": 7758,
+            "amount": 3
+        },
+        {
+            "item_id": 7902,
+            "amount": 5
+        },
+        {
+            "item_id": 10989,
+            "amount": 2
+        },
+        {
+            "item_id": 10988,
+            "amount": 4
+        },
+        {
+            "item_id": 10987,
+            "amount": 12
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 8008,
+            "amount": 2
+        },
+        {
+            "item_id": 7869,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 2479
+}

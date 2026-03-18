@@ -1,0 +1,64 @@
+{
+    "type": "equipment",
+    "item_id": 240,
+    "name": "Patriot Stone",
+    "info": "",
+    "icon": {
+        "icon_id": 915,
+        "color_id": 8
+    },
+    "jobs": [
+        "ShieldSage"
+    ],
+    "sell_price": 2594,
+    "weight": 70,
+    "item_level": 8,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 3,
+    "weapon_type": "GREATSHIELD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_SUB",
+    "level": 36,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "magic_attack": 582,
+        "crest_slot": 0,
+        "ele_slot": 0
+    },
+    "params": [],
+    "craft_recipe": [
+        {
+            "item_id": 7875,
+            "amount": 4
+        },
+        {
+            "item_id": 7867,
+            "amount": 2
+        },
+        {
+            "item_id": 7903,
+            "amount": 3
+        },
+        {
+            "item_id": 7830,
+            "amount": 2
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7814,
+            "amount": 1
+        },
+        {
+            "item_id": 7916,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 1852
+}

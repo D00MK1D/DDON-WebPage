@@ -1,0 +1,62 @@
+{
+    "type": "equipment",
+    "item_id": 12220,
+    "name": "Bow of Tyrant",
+    "info": "",
+    "icon": {
+        "icon_id": 1471,
+        "color_id": 11
+    },
+    "jobs": [
+        "Hunter"
+    ],
+    "sell_price": 24505,
+    "weight": 70,
+    "item_level": 40,
+    "crest_slots": 1,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 23,
+    "weapon_type": "ARCHISTAFF",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 70,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1790,
+        "magic_attack": 1519,
+        "crest_slot": 0,
+        "ele_slot": 33
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 351
+        },
+        {
+            "id": 102,
+            "name": "DRAGON_SLAYER",
+            "value": 17
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        },
+        {
+            "id": 32,
+            "name": "MAX_LOADED_ARROWS",
+            "value": 28
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 12219,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

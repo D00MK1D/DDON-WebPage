@@ -1,0 +1,63 @@
+{
+    "type": "equipment",
+    "item_id": 11922,
+    "name": "Espadon",
+    "info": "",
+    "icon": {
+        "icon_id": 876,
+        "color_id": 10
+    },
+    "jobs": [
+        "Warrior"
+    ],
+    "sell_price": 21130,
+    "weight": 120,
+    "item_level": 20,
+    "crest_slots": 1,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 4,
+    "weapon_type": "BOW",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 65,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1658,
+        "magic_attack": 1229,
+        "crest_slot": 0,
+        "ele_slot": 9
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 509
+        },
+        {
+            "id": 57,
+            "name": "INFLICT_HOLY_DRAIN",
+            "value": 13
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 11764,
+            "amount": 2
+        },
+        {
+            "item_id": 11772,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 11921,
+    "next_item_id": 11923
+}

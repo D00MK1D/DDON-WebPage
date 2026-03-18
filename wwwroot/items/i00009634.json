@@ -1,0 +1,78 @@
+{
+    "type": "equipment",
+    "item_id": 9634,
+    "name": "Monarch's Vest",
+    "info": "",
+    "icon": {
+        "icon_id": 126,
+        "color_id": 8
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 850,
+    "weight": 50,
+    "item_level": 7,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 4,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 31,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 109,
+        "magic_attack": 0,
+        "magic_defense": 97,
+        "crest_slot": 4,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 13
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 598
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7938,
+            "amount": 3
+        },
+        {
+            "item_id": 7920,
+            "amount": 3
+        },
+        {
+            "item_id": 7759,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7738,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 9635
+}

@@ -1,0 +1,28 @@
+{
+    "type": "material",
+    "item_id": 15963,
+    "name": "Bloodied Giant Tusk",
+    "info": "Fang Crafting Material: Giant Fang of the\nGorecyclops, soaked in the blood of numerous\nbeasts.",
+    "icon": {
+        "icon_id": 470,
+        "color_id": 5
+    },
+    "jobs": [],
+    "sell_price": 320,
+    "weight": 0,
+    "item_level": 45,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": [
+        "Level 1+ Gorecyclops",
+        "Level 1+ Severely Infected Gorecyclops"
+    ],
+    "subtype": "fangs tusks and claws"
+}

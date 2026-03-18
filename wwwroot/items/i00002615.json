@@ -1,0 +1,65 @@
+{
+    "type": "equipment",
+    "item_id": 2615,
+    "name": "Skintight Pants",
+    "info": "",
+    "icon": {
+        "icon_id": 805,
+        "color_id": 7
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 600,
+    "weight": 5,
+    "item_level": 6,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 5,
+    "equip_slot": "EQUIP_CATEGORY_WEAR_LEG",
+    "level": 27,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 24,
+        "magic_attack": 0,
+        "magic_defense": 24,
+        "crest_slot": 0,
+        "ele_slot": 8
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 13
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 117
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7856,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 1003,
+    "next_item_id": 3638
+}

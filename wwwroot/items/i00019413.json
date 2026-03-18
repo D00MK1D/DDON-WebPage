@@ -1,0 +1,52 @@
+{
+    "type": "equipment",
+    "item_id": 19413,
+    "name": "Supreme Ruler's Arabesque Staff",
+    "info": "",
+    "icon": {
+        "icon_id": 1681,
+        "color_id": 84
+    },
+    "jobs": [
+        "Priest"
+    ],
+    "sell_price": 50000,
+    "weight": 70,
+    "item_level": 86,
+    "crest_slots": 4,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 3,
+    "weapon_type": "MAGICK_BOW",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 80,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 2212,
+        "magic_attack": 2353,
+        "crest_slot": 0,
+        "ele_slot": 36
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 361
+        },
+        {
+            "id": 85,
+            "name": "BLOW_POWER_BBLUNT",
+            "value": 10
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

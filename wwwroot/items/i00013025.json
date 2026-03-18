@@ -1,0 +1,71 @@
+{
+    "type": "equipment",
+    "item_id": 13025,
+    "name": "Aquila Cuisses",
+    "info": "",
+    "icon": {
+        "icon_id": 391,
+        "color_id": 11
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 9189,
+    "weight": 42,
+    "item_level": 40,
+    "crest_slots": 0,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 2,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 70,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 269,
+        "magic_attack": 0,
+        "magic_defense": 215,
+        "crest_slot": 0,
+        "ele_slot": 16
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 60
+        },
+        {
+            "id": 12,
+            "name": "RESIST_FROZEN_SOLID",
+            "value": 3
+        },
+        {
+            "id": 20,
+            "name": "RESIST_HOLY_RES_DOWN",
+            "value": 3
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 732
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 11806,
+            "amount": 1
+        },
+        {
+            "item_id": 11795,
+            "amount": 3
+        }
+    ],
+    "previous_item_id": 13024,
+    "next_item_id": 13026
+}

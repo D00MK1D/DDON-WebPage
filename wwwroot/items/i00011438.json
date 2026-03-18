@@ -1,0 +1,41 @@
+{
+    "type": "equipment",
+    "item_id": 11438,
+    "name": "Evening Sun",
+    "info": "",
+    "icon": {
+        "icon_id": 912,
+        "color_id": 10
+    },
+    "jobs": [
+        "ShieldSage"
+    ],
+    "sell_price": 6274,
+    "weight": 40,
+    "item_level": 15,
+    "crest_slots": 0,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 4,
+    "weapon_type": "GREATSHIELD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_SUB",
+    "level": 62,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "magic_attack": 1409,
+        "crest_slot": 4,
+        "ele_slot": 32
+    },
+    "params": [],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 11437,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

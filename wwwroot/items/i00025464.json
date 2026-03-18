@@ -1,0 +1,57 @@
+{
+    "type": "equipment",
+    "item_id": 25464,
+    "name": "Hero's Ranger Coat",
+    "info": "",
+    "icon": {
+        "icon_id": 2229,
+        "color_id": 11
+    },
+    "jobs": [
+        "ShieldSage",
+        "Alchemist",
+        "HighScepter"
+    ],
+    "sell_price": 25100,
+    "weight": 70,
+    "item_level": 150,
+    "crest_slots": 1,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 5,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 115,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 12,
+        "defense": 1167,
+        "magic_attack": 12,
+        "magic_defense": 1037,
+        "crest_slot": 0,
+        "ele_slot": 25
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 49
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 1338
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 25529,
+            "amount": 6
+        }
+    ],
+    "previous_item_id": 25463,
+    "next_item_id": 25465
+}

@@ -1,0 +1,25 @@
+{
+    "type": "material",
+    "item_id": 10983,
+    "name": "Merit Medal (Direwolf)",
+    "info": "Medal awarded to those who achieve great results\nin the Battle for Gritten Fort.\nCan be sold at a high price.",
+    "icon": {
+        "icon_id": 1272,
+        "color_id": 20
+    },
+    "jobs": [],
+    "sell_price": 1000,
+    "weight": 0,
+    "item_level": 8,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": [],
+    "subtype": "other"
+}

@@ -1,0 +1,50 @@
+{
+    "type": "equipment",
+    "item_id": 5617,
+    "name": "Virtue Arms",
+    "info": "",
+    "icon": {
+        "icon_id": 72,
+        "color_id": 9
+    },
+    "jobs": [
+        "ShieldSage",
+        "Alchemist",
+        "HighScepter"
+    ],
+    "sell_price": 3240,
+    "weight": 45,
+    "item_level": 9,
+    "crest_slots": 0,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 23,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 45,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 164,
+        "magic_attack": 0,
+        "magic_defense": 137,
+        "crest_slot": 4,
+        "ele_slot": 32
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 10
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 4594,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

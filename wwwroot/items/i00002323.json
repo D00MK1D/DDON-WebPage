@@ -1,0 +1,56 @@
+{
+    "type": "equipment",
+    "item_id": 2323,
+    "name": "Soldier Arms",
+    "info": "",
+    "icon": {
+        "icon_id": 31,
+        "color_id": 8
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 1640,
+    "weight": 34,
+    "item_level": 7,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 1,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 32,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 97,
+        "magic_attack": 0,
+        "magic_defense": 81,
+        "crest_slot": 4,
+        "ele_slot": 8
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 7
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7861,
+            "amount": 1
+        },
+        {
+            "item_id": 7825,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 711,
+    "next_item_id": 3346
+}

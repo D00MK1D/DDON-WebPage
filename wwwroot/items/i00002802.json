@@ -1,0 +1,53 @@
+{
+    "type": "equipment",
+    "item_id": 2802,
+    "name": "Mark of the Chimera",
+    "info": "",
+    "icon": {
+        "icon_id": 853,
+        "color_id": 8
+    },
+    "jobs": [
+        "Fighter"
+    ],
+    "sell_price": 2594,
+    "weight": 40,
+    "item_level": 8,
+    "crest_slots": 0,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 3,
+    "weapon_type": "SHIELD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_SUB",
+    "level": 36,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "magic_attack": 0,
+        "crest_slot": 0,
+        "ele_slot": 16
+    },
+    "params": [
+        {
+            "id": 87,
+            "name": "GUARD_POWER",
+            "value": 243
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 8008,
+            "amount": 1
+        },
+        {
+            "item_id": 7829,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 1779,
+    "next_item_id": 3825
+}

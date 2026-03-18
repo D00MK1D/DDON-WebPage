@@ -1,0 +1,44 @@
+{
+    "type": "equipment",
+    "item_id": 8162,
+    "name": "Pope's Cap",
+    "info": "",
+    "icon": {
+        "icon_id": 245,
+        "color_id": 10
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 3685,
+    "weight": 36,
+    "item_level": 12,
+    "crest_slots": 0,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 5,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_HELM",
+    "level": 56,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 185,
+        "magic_attack": 0,
+        "magic_defense": 296,
+        "crest_slot": 0,
+        "ele_slot": 32
+    },
+    "params": [],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 8161,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

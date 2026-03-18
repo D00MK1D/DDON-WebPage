@@ -1,0 +1,24 @@
+{
+    "type": "material",
+    "item_id": 25524,
+    "name": "Shiny white Bonebiter Beetle",
+    "info": "Miscellaneous Crafting Material.\nInsects that absorb bones with powerful digestive\nfluid and use them to form their own exoskeleton.\nBoth the digestive fluid and the exoskeleton are\nuseful as materials.",
+    "icon": {
+        "icon_id": 518,
+        "color_id": 23
+    },
+    "jobs": [],
+    "sell_price": 350,
+    "weight": 0,
+    "item_level": 140,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

@@ -1,0 +1,66 @@
+{
+    "type": "equipment",
+    "item_id": 18436,
+    "name": "Dools Greaves",
+    "info": "",
+    "icon": {
+        "icon_id": 1962,
+        "color_id": 111
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 14958,
+    "weight": 43,
+    "item_level": 100,
+    "crest_slots": 0,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 90,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 6,
+        "defense": 424,
+        "magic_attack": 6,
+        "magic_defense": 339,
+        "crest_slot": 0,
+        "ele_slot": 16
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 86
+        },
+        {
+            "id": 27,
+            "name": "RESIST_ITEM_SEAL",
+            "value": 15
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 769
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 19653,
+            "amount": 2
+        },
+        {
+            "item_id": 17863,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 18435,
+    "next_item_id": 18437
+}

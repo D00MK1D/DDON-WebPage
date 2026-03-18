@@ -1,0 +1,50 @@
+{
+    "type": "jewlery",
+    "item_id": 19352,
+    "name": "Battlefield Amethyst Ring",
+    "info": "",
+    "icon": {
+        "icon_id": 746,
+        "color_id": 29
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 50000,
+    "weight": 1,
+    "item_level": 70,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "level": 1,
+    "stats": {},
+    "params": [
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 300
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 300
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

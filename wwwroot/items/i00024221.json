@@ -1,0 +1,50 @@
+{
+    "type": "equipment",
+    "item_id": 24221,
+    "name": "Blackshatter Light Helmet",
+    "info": "",
+    "icon": {
+        "icon_id": 2923,
+        "color_id": 200
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 0,
+    "weight": 37,
+    "item_level": 135,
+    "crest_slots": 0,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_HELM",
+    "level": 100,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 9,
+        "defense": 509,
+        "magic_attack": 9,
+        "magic_defense": 815,
+        "crest_slot": 4,
+        "ele_slot": 16
+    },
+    "params": [],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 24737,
+            "amount": 100
+        },
+        {
+            "item_id": 24740,
+            "amount": 6
+        }
+    ],
+    "previous_item_id": 24220,
+    "next_item_id": 24222
+}

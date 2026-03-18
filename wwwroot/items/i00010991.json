@@ -1,0 +1,41 @@
+{
+    "type": "material",
+    "item_id": 10991,
+    "name": "High Lestalite",
+    "info": "A crystal that refines the Dragon Force\ncirculating in Lestania.\nHigh-purity crystals serve as powerful materials\nfor Arisen's equipment.",
+    "icon": {
+        "icon_id": 1268,
+        "color_id": 28
+    },
+    "jobs": [],
+    "sell_price": 1000,
+    "weight": 0,
+    "item_level": 11,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "craft_recipe": [
+        {
+            "item_id": 10990,
+            "amount": 3
+        },
+        {
+            "item_id": 10989,
+            "amount": 1
+        },
+        {
+            "item_id": 9458,
+            "amount": 3
+        },
+        {
+            "item_id": 9459,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

@@ -1,0 +1,45 @@
+{
+    "type": "material",
+    "item_id": 7878,
+    "name": "Black Iron Ingot",
+    "info": "Metal Crafting Material:\nA chunk of black iron refined from black ore.",
+    "icon": {
+        "icon_id": 1432,
+        "color_id": 5
+    },
+    "jobs": [],
+    "sell_price": 820,
+    "weight": 0,
+    "item_level": 10,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [
+        {
+            "item_id": 7860,
+            "amount": 2
+        },
+        {
+            "item_id": 7916,
+            "amount": 4
+        },
+        {
+            "item_id": 7996,
+            "amount": 4
+        },
+        {
+            "item_id": 9063,
+            "amount": 4
+        },
+        {
+            "item_id": 7855,
+            "amount": 8
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

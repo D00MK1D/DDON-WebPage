@@ -1,0 +1,70 @@
+{
+    "type": "equipment",
+    "item_id": 764,
+    "name": "Elder's Robe",
+    "info": "",
+    "icon": {
+        "icon_id": 148,
+        "color_id": 8
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 2870,
+    "weight": 70,
+    "item_level": 7,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 2,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 32,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 141,
+        "magic_attack": 0,
+        "magic_defense": 125,
+        "crest_slot": 4,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 14
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 619
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7937,
+            "amount": 2
+        },
+        {
+            "item_id": 7783,
+            "amount": 3
+        },
+        {
+            "item_id": 8000,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 8005,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 2376
+}

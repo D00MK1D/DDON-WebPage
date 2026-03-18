@@ -1,0 +1,61 @@
+{
+    "type": "equipment",
+    "item_id": 20929,
+    "name": "Mis\u00e9ricorde Shoes",
+    "info": "",
+    "icon": {
+        "icon_id": 403,
+        "color_id": 10
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 16610,
+    "weight": 44,
+    "item_level": 110,
+    "crest_slots": 0,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 3,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 95,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 6,
+        "defense": 460,
+        "magic_attack": 6,
+        "magic_defense": 368,
+        "crest_slot": 0,
+        "ele_slot": 16
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 95
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 779
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 21258,
+            "amount": 4
+        },
+        {
+            "item_id": 21265,
+            "amount": 4
+        }
+    ],
+    "previous_item_id": 20928,
+    "next_item_id": 20930
+}

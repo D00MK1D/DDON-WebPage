@@ -1,0 +1,58 @@
+{
+    "type": "equipment",
+    "item_id": 12358,
+    "name": "Spell of Tyrant",
+    "info": "",
+    "icon": {
+        "icon_id": 1479,
+        "color_id": 11
+    },
+    "jobs": [
+        "ElementArcher"
+    ],
+    "sell_price": 24505,
+    "weight": 60,
+    "item_level": 40,
+    "crest_slots": 1,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 23,
+    "weapon_type": "GREATSWORD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 70,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1637,
+        "magic_attack": 1802,
+        "crest_slot": 0,
+        "ele_slot": 17
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 256
+        },
+        {
+            "id": 102,
+            "name": "DRAGON_SLAYER",
+            "value": 17
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 11806,
+            "amount": 5
+        },
+        {
+            "item_id": 13224,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 12357,
+    "next_item_id": 12359
+}

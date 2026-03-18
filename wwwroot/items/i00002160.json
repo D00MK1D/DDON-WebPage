@@ -1,0 +1,56 @@
+{
+    "type": "equipment",
+    "item_id": 2160,
+    "name": "Vice Cuirass",
+    "info": "",
+    "icon": {
+        "icon_id": 113,
+        "color_id": 7
+    },
+    "jobs": [
+        "Fighter",
+        "Warrior"
+    ],
+    "sell_price": 1615,
+    "weight": 110,
+    "item_level": 5,
+    "crest_slots": 1,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 2,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 24,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 108,
+        "magic_attack": 0,
+        "magic_defense": 96,
+        "crest_slot": 4,
+        "ele_slot": 9
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 11
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 453
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7856,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 548,
+    "next_item_id": 3183
+}

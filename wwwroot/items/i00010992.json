@@ -1,0 +1,24 @@
+{
+    "type": "material",
+    "item_id": 10992,
+    "name": "Lumina Lestalite",
+    "info": "A crystal that refines the Dragon Force\ncirculating in Lestania.\nCrystals enveloped in radiance serve as powerful\nmaterials for Arisen's equipment.",
+    "icon": {
+        "icon_id": 1269,
+        "color_id": 28
+    },
+    "jobs": [],
+    "sell_price": 1000,
+    "weight": 0,
+    "item_level": 12,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

@@ -1,0 +1,37 @@
+{
+    "type": "material",
+    "item_id": 8035,
+    "name": "Attack Upgrade Rock",
+    "info": "Refining Material to Enhance Main Weapon's\nQuality.\nBy synthesizing during Item Crafting, the number\nof Mount Crest slots increases by 1 (2 on a great\nsuccess).\n\u203b Does not result in a great success when\nchanging equipment quality.",
+    "icon": {
+        "icon_id": 539,
+        "color_id": 2
+    },
+    "jobs": [],
+    "sell_price": 25,
+    "weight": 0,
+    "item_level": 3,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [
+        {
+            "item_id": 7858,
+            "amount": 2
+        },
+        {
+            "item_id": 7750,
+            "amount": 2
+        },
+        {
+            "item_id": 1074,
+            "amount": 2
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

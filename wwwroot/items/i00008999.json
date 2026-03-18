@@ -1,0 +1,63 @@
+{
+    "type": "jewlery",
+    "item_id": 8999,
+    "name": "Life Ring",
+    "info": "",
+    "icon": {
+        "icon_id": 707,
+        "color_id": 8
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 1200,
+    "weight": 1,
+    "item_level": 8,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "level": 36,
+    "stats": {},
+    "params": [
+        {
+            "id": 29,
+            "name": "HEALING_POWER",
+            "value": 2
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 16
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7992,
+            "amount": 1
+        },
+        {
+            "item_id": 7969,
+            "amount": 6
+        },
+        {
+            "item_id": 8949,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

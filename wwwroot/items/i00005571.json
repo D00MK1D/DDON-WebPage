@@ -1,0 +1,55 @@
+{
+    "type": "equipment",
+    "item_id": 5571,
+    "name": "Shielder Legs",
+    "info": "",
+    "icon": {
+        "icon_id": 378,
+        "color_id": 6
+    },
+    "jobs": [
+        "ShieldSage",
+        "Alchemist",
+        "HighScepter"
+    ],
+    "sell_price": 800,
+    "weight": 72,
+    "item_level": 4,
+    "crest_slots": 0,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 20,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 58,
+        "magic_attack": 0,
+        "magic_defense": 46,
+        "crest_slot": 0,
+        "ele_slot": 32
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 22
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 247
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 4548,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

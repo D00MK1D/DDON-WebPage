@@ -1,0 +1,47 @@
+{
+    "type": "jobitem",
+    "item_id": 10162,
+    "name": "Sleep Elixir",
+    "info": "When an Alchemist uses \"Elixir Release\", it\ninflicts \"Sleep\" abnormal status.",
+    "icon": {
+        "icon_id": 1108,
+        "color_id": 3
+    },
+    "jobs": [],
+    "sell_price": 5,
+    "weight": 0,
+    "item_level": 5,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "level": 21,
+    "stats": {},
+    "params": [
+        {
+            "id": 114,
+            "name": "MEDAL_SLEEP",
+            "param_count": 1,
+            "value": [
+                25,
+                0,
+                0
+            ]
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 8033,
+            "amount": 1
+        },
+        {
+            "item_id": 7783,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

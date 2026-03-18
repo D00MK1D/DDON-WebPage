@@ -1,0 +1,56 @@
+{
+    "type": "equipment",
+    "item_id": 17723,
+    "name": "Brass Gloves",
+    "info": "",
+    "icon": {
+        "icon_id": 46,
+        "color_id": 10
+    },
+    "jobs": [
+        "ShieldSage",
+        "Alchemist",
+        "HighScepter"
+    ],
+    "sell_price": 9622,
+    "weight": 41,
+    "item_level": 80,
+    "crest_slots": 0,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 4,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 80,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 3,
+        "defense": 417,
+        "magic_attack": 3,
+        "magic_defense": 348,
+        "crest_slot": 0,
+        "ele_slot": 16
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 26
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 17867,
+            "amount": 2
+        },
+        {
+            "item_id": 17880,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 17722,
+    "next_item_id": 17724
+}

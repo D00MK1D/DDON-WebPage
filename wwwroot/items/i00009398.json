@@ -1,0 +1,47 @@
+{
+    "type": "consumable",
+    "item_id": 9398,
+    "name": "Throwing Knife",
+    "info": "Inflicts damage on the target when thrown.",
+    "icon": {
+        "icon_id": 444,
+        "color_id": 4
+    },
+    "jobs": [],
+    "sell_price": 30,
+    "weight": 0,
+    "item_level": 7,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "max_stack": 10,
+    "craft_recipe": [
+        {
+            "item_id": 7874,
+            "amount": 1
+        },
+        {
+            "item_id": 7962,
+            "amount": 1
+        },
+        {
+            "item_id": 7953,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Betland Plains",
+        "Betland Plains: North Drainage Channel",
+        "Deenan Woods",
+        "Dowe Valley: Abandoned Boneyard",
+        "Dowe Valley: Partly-Dug Well",
+        "Eastern Zandora: Lighthouse Underground Stores",
+        "Eastern Zandora: Temple of Purification: South Chamber",
+        "Mysree Forest: Mysree Limestone Cave"
+    ],
+    "hunt": []
+}

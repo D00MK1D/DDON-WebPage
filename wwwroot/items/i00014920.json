@@ -1,0 +1,56 @@
+{
+    "type": "equipment",
+    "item_id": 14920,
+    "name": "Continent Helm",
+    "info": "",
+    "icon": {
+        "icon_id": 240,
+        "color_id": 10
+    },
+    "jobs": [
+        "ShieldSage",
+        "Alchemist",
+        "HighScepter"
+    ],
+    "sell_price": 8439,
+    "weight": 36,
+    "item_level": 50,
+    "crest_slots": 0,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 1,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_HELM",
+    "level": 75,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1,
+        "defense": 294,
+        "magic_attack": 1,
+        "magic_defense": 470,
+        "crest_slot": 0,
+        "ele_slot": 16
+    },
+    "params": [
+        {
+            "id": 11,
+            "name": "RESIST_CATCHING_FIRE",
+            "value": 4
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 15929,
+            "amount": 3
+        },
+        {
+            "item_id": 15931,
+            "amount": 3
+        }
+    ],
+    "previous_item_id": 14919,
+    "next_item_id": 14921
+}

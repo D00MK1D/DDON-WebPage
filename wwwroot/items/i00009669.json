@@ -1,0 +1,77 @@
+{
+    "type": "equipment",
+    "item_id": 9669,
+    "name": "Rising Gloves",
+    "info": "",
+    "icon": {
+        "icon_id": 41,
+        "color_id": 9
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 500,
+    "weight": 40,
+    "item_level": 9,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 5,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 41,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 111,
+        "magic_attack": 0,
+        "magic_defense": 93,
+        "crest_slot": 4,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 8
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7875,
+            "amount": 4
+        },
+        {
+            "item_id": 7801,
+            "amount": 4
+        },
+        {
+            "item_id": 7921,
+            "amount": 4
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7857,
+            "amount": 1
+        },
+        {
+            "item_id": 7749,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 9670
+}

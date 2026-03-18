@@ -1,0 +1,56 @@
+{
+    "type": "equipment",
+    "item_id": 14956,
+    "name": "Yellow Feathered Cap",
+    "info": "",
+    "icon": {
+        "icon_id": 267,
+        "color_id": 10
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 8439,
+    "weight": 36,
+    "item_level": 50,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 3,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_HELM",
+    "level": 75,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 2,
+        "defense": 295,
+        "magic_attack": 2,
+        "magic_defense": 472,
+        "crest_slot": 0,
+        "ele_slot": 24
+    },
+    "params": [
+        {
+            "id": 11,
+            "name": "RESIST_CATCHING_FIRE",
+            "value": 5
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 15929,
+            "amount": 3
+        },
+        {
+            "item_id": 15931,
+            "amount": 3
+        }
+    ],
+    "previous_item_id": 14955,
+    "next_item_id": 14957
+}

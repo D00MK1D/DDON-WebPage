@@ -1,0 +1,56 @@
+{
+    "type": "equipment",
+    "item_id": 20489,
+    "name": "Mehizaf Poleyn",
+    "info": "",
+    "icon": {
+        "icon_id": 2259,
+        "color_id": 111
+    },
+    "jobs": [
+        "Fighter",
+        "Warrior"
+    ],
+    "sell_price": 16610,
+    "weight": 45,
+    "item_level": 110,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 20,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 95,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 7,
+        "defense": 458,
+        "magic_attack": 7,
+        "magic_defense": 367,
+        "crest_slot": 0,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 94
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 780
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 21239,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 20490
+}

@@ -1,0 +1,51 @@
+{
+    "type": "equipment",
+    "item_id": 19844,
+    "name": "Rod of Vermilion",
+    "info": "",
+    "icon": {
+        "icon_id": 1646,
+        "color_id": 11
+    },
+    "jobs": [
+        "ShieldSage"
+    ],
+    "sell_price": 8354,
+    "weight": 44,
+    "item_level": 105,
+    "crest_slots": 0,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 5,
+    "weapon_type": "GREATSHIELD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_SUB",
+    "level": 93,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "magic_attack": 2811,
+        "crest_slot": 4,
+        "ele_slot": 16
+    },
+    "params": [],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 21236,
+            "amount": 1
+        },
+        {
+            "item_id": 21235,
+            "amount": 1
+        },
+        {
+            "item_id": 21230,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 19843,
+    "next_item_id": 19845
+}

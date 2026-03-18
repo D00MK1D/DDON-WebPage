@@ -1,0 +1,62 @@
+{
+    "type": "jewlery",
+    "item_id": 8975,
+    "name": "Ruby Pendant",
+    "info": "",
+    "icon": {
+        "icon_id": 597,
+        "color_id": 8
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 1200,
+    "weight": 1,
+    "item_level": 8,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "level": 36,
+    "stats": {},
+    "params": [
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 9
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7900,
+            "amount": 5
+        },
+        {
+            "item_id": 7888,
+            "amount": 2
+        },
+        {
+            "item_id": 8009,
+            "amount": 2
+        },
+        {
+            "item_id": 7956,
+            "amount": 3
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

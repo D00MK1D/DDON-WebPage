@@ -1,0 +1,27 @@
+{
+    "type": "material",
+    "item_id": 7731,
+    "name": "Rainbow Eye Gem",
+    "info": "Gem Crafting Material.\nGems that shine in the seven colors of the\nAlchemy Eye.",
+    "icon": {
+        "icon_id": 495,
+        "color_id": 6
+    },
+    "jobs": [],
+    "sell_price": 915,
+    "weight": 0,
+    "item_level": 12,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": [
+        "Level 56+ Alchemy Eye"
+    ],
+    "subtype": "gemstones"
+}

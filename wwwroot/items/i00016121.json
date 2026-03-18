@@ -1,0 +1,27 @@
+{
+    "type": "material",
+    "item_id": 16121,
+    "name": "Corrupted Griffin Blood",
+    "info": "Liquid Crafting Material:\nThe blood that circulates within the body of the\nInfected Griffin.\nA fine fungal spore floats in it.",
+    "icon": {
+        "icon_id": 481,
+        "color_id": 116
+    },
+    "jobs": [],
+    "sell_price": 600,
+    "weight": 0,
+    "item_level": 70,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Morrow Forest: Dark Woods Great Depths"
+    ],
+    "hunt": [],
+    "subtype": "regional"
+}

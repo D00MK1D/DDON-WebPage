@@ -1,0 +1,90 @@
+{
+    "type": "equipment",
+    "item_id": 8753,
+    "name": "Taskbreaker",
+    "info": "",
+    "icon": {
+        "icon_id": 816,
+        "color_id": 9
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 1500,
+    "weight": 5,
+    "item_level": 9,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 4,
+    "equip_slot": "EQUIP_CATEGORY_WEAR_LEG",
+    "level": 45,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 46,
+        "magic_attack": 0,
+        "magic_defense": 46,
+        "crest_slot": 4,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 20
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 197
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7877,
+            "amount": 6
+        },
+        {
+            "item_id": 7927,
+            "amount": 1
+        },
+        {
+            "item_id": 7898,
+            "amount": 2
+        },
+        {
+            "item_id": 7969,
+            "amount": 6
+        },
+        {
+            "item_id": 7956,
+            "amount": 6
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7862,
+            "amount": 1
+        },
+        {
+            "item_id": 7727,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 8754
+}

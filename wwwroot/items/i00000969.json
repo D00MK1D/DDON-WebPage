@@ -1,0 +1,69 @@
+{
+    "type": "equipment",
+    "item_id": 969,
+    "name": "Mighty Gloves",
+    "info": "",
+    "icon": {
+        "icon_id": 41,
+        "color_id": 5
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 110,
+    "weight": 56,
+    "item_level": 2,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 7,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 21,
+        "magic_attack": 0,
+        "magic_defense": 18,
+        "crest_slot": 0,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 2
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7858,
+            "amount": 2
+        },
+        {
+            "item_id": 7773,
+            "amount": 2
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7917,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 2581
+}

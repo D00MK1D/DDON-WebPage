@@ -1,0 +1,52 @@
+{
+    "type": "equipment",
+    "item_id": 5038,
+    "name": "Vredesmos",
+    "info": "",
+    "icon": {
+        "icon_id": 1004,
+        "color_id": 10
+    },
+    "jobs": [
+        "ElementArcher"
+    ],
+    "sell_price": 15130,
+    "weight": 30,
+    "item_level": 11,
+    "crest_slots": 1,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 4,
+    "weapon_type": "GREATSWORD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 55,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1142,
+        "magic_attack": 1295,
+        "crest_slot": 4,
+        "ele_slot": 33
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 170
+        },
+        {
+            "id": 85,
+            "name": "BLOW_POWER_BBLUNT",
+            "value": 10
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 4015,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

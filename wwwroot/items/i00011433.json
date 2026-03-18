@@ -1,0 +1,62 @@
+{
+    "type": "equipment",
+    "item_id": 11433,
+    "name": "Gravestone",
+    "info": "",
+    "icon": {
+        "icon_id": 899,
+        "color_id": 10
+    },
+    "jobs": [
+        "ShieldSage"
+    ],
+    "sell_price": 12548,
+    "weight": 100,
+    "item_level": 12,
+    "crest_slots": 1,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 1,
+    "weapon_type": "STAFF",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 55,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1288,
+        "magic_attack": 0,
+        "crest_slot": 0,
+        "ele_slot": 33
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 384
+        },
+        {
+            "id": 87,
+            "name": "GUARD_POWER",
+            "value": 348
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        },
+        {
+            "id": 31,
+            "name": "MAX_FORCE_STOCK",
+            "value": 4
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 11432,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

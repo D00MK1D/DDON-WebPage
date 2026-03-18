@@ -1,0 +1,76 @@
+{
+    "type": "equipment",
+    "item_id": 12081,
+    "name": "Conscience Torch",
+    "info": "",
+    "icon": {
+        "icon_id": 1462,
+        "color_id": 111
+    },
+    "jobs": [
+        "ShieldSage"
+    ],
+    "sell_price": 9802,
+    "weight": 40,
+    "item_level": 45,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 23,
+    "weapon_type": "GREATSHIELD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_SUB",
+    "level": 70,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "magic_attack": 1725,
+        "crest_slot": 4,
+        "ele_slot": 0
+    },
+    "params": [],
+    "craft_recipe": [
+        {
+            "item_id": 9444,
+            "amount": 3
+        },
+        {
+            "item_id": 9447,
+            "amount": 3
+        },
+        {
+            "item_id": 11810,
+            "amount": 2
+        },
+        {
+            "item_id": 11794,
+            "amount": 2
+        },
+        {
+            "item_id": 11800,
+            "amount": 2
+        },
+        {
+            "item_id": 11807,
+            "amount": 2
+        },
+        {
+            "item_id": 9446,
+            "amount": 3
+        },
+        {
+            "item_id": 7949,
+            "amount": 3
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 11810,
+            "amount": 3
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 12082
+}

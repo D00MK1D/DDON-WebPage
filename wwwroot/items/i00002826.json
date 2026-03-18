@@ -1,0 +1,76 @@
+{
+    "type": "equipment",
+    "item_id": 2826,
+    "name": "Krishna",
+    "info": "",
+    "icon": {
+        "icon_id": 948,
+        "color_id": 9
+    },
+    "jobs": [
+        "Hunter"
+    ],
+    "sell_price": 10585,
+    "weight": 70,
+    "item_level": 9,
+    "crest_slots": 1,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 3,
+    "weapon_type": "ARCHISTAFF",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 45,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 888,
+        "magic_attack": 658,
+        "crest_slot": 4,
+        "ele_slot": 17
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 182
+        },
+        {
+            "id": 85,
+            "name": "BLOW_POWER_BBLUNT",
+            "value": 5
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        },
+        {
+            "id": 32,
+            "name": "MAX_LOADED_ARROWS",
+            "value": 25
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7780,
+            "amount": 1
+        },
+        {
+            "item_id": 7942,
+            "amount": 2
+        },
+        {
+            "item_id": 11011,
+            "amount": 2
+        },
+        {
+            "item_id": 11012,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 1803,
+    "next_item_id": 3849
+}

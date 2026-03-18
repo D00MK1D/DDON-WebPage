@@ -1,0 +1,69 @@
+{
+    "type": "equipment",
+    "item_id": 9710,
+    "name": "Dignity Boots",
+    "info": "",
+    "icon": {
+        "icon_id": 381,
+        "color_id": 8
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 850,
+    "weight": 54,
+    "item_level": 7,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 4,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 31,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 62,
+        "magic_attack": 0,
+        "magic_defense": 49,
+        "crest_slot": 4,
+        "ele_slot": 8
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 26
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 397
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7972,
+            "amount": 1
+        },
+        {
+            "item_id": 7977,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 9709,
+    "next_item_id": 9711
+}

@@ -1,0 +1,56 @@
+{
+    "type": "equipment",
+    "item_id": 18365,
+    "name": "Aura Gloves",
+    "info": "",
+    "icon": {
+        "icon_id": 17,
+        "color_id": 10
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 10777,
+    "weight": 37,
+    "item_level": 90,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 1,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 85,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 4,
+        "defense": 455,
+        "magic_attack": 4,
+        "magic_defense": 379,
+        "crest_slot": 0,
+        "ele_slot": 8
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 26
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 18662,
+            "amount": 4
+        },
+        {
+            "item_id": 17868,
+            "amount": 4
+        }
+    ],
+    "previous_item_id": 18364,
+    "next_item_id": 18366
+}

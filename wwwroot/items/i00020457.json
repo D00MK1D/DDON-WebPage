@@ -1,0 +1,64 @@
+{
+    "type": "equipment",
+    "item_id": 20457,
+    "name": "Corail Mail",
+    "info": "",
+    "icon": {
+        "icon_id": 1559,
+        "color_id": 11
+    },
+    "jobs": [
+        "Fighter",
+        "Warrior"
+    ],
+    "sell_price": 21945,
+    "weight": 71,
+    "item_level": 105,
+    "crest_slots": 1,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 93,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 6,
+        "defense": 808,
+        "magic_attack": 6,
+        "magic_defense": 719,
+        "crest_slot": 4,
+        "ele_slot": 25
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 42
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 1215
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 21229,
+            "amount": 2
+        },
+        {
+            "item_id": 21225,
+            "amount": 4
+        },
+        {
+            "item_id": 21235,
+            "amount": 4
+        }
+    ],
+    "previous_item_id": 20456,
+    "next_item_id": 20458
+}

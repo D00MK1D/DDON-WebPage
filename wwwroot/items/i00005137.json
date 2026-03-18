@@ -1,0 +1,44 @@
+{
+    "type": "equipment",
+    "item_id": 5137,
+    "name": "Healer's Hood",
+    "info": "",
+    "icon": {
+        "icon_id": 236,
+        "color_id": 6
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 270,
+    "weight": 27,
+    "item_level": 3,
+    "crest_slots": 0,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 2,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_HELM",
+    "level": 13,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 41,
+        "magic_attack": 0,
+        "magic_defense": 66,
+        "crest_slot": 4,
+        "ele_slot": 32
+    },
+    "params": [],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 4114,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

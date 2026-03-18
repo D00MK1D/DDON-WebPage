@@ -1,0 +1,73 @@
+{
+    "type": "equipment",
+    "item_id": 981,
+    "name": "Scale Breastplate",
+    "info": "",
+    "icon": {
+        "icon_id": 780,
+        "color_id": 8
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 850,
+    "weight": 5,
+    "item_level": 7,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 3,
+    "equip_slot": "EQUIP_CATEGORY_WEAR_BODY",
+    "level": 32,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 38,
+        "magic_attack": 0,
+        "magic_defense": 38,
+        "crest_slot": 4,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 206
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7937,
+            "amount": 2
+        },
+        {
+            "item_id": 7776,
+            "amount": 2
+        },
+        {
+            "item_id": 7864,
+            "amount": 3
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7788,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 2593
+}

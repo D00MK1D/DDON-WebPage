@@ -1,0 +1,56 @@
+{
+    "type": "equipment",
+    "item_id": 2430,
+    "name": "Iron Bangles",
+    "info": "",
+    "icon": {
+        "icon_id": 20,
+        "color_id": 8
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 1640,
+    "weight": 23,
+    "item_level": 7,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 2,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 32,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 97,
+        "magic_attack": 0,
+        "magic_defense": 81,
+        "crest_slot": 4,
+        "ele_slot": 8
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 7
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7855,
+            "amount": 3
+        },
+        {
+            "item_id": 7752,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 818,
+    "next_item_id": 3453
+}

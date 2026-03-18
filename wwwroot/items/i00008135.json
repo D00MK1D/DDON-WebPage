@@ -1,0 +1,24 @@
+{
+    "type": "material",
+    "item_id": 8135,
+    "name": "Red Dye",
+    "info": "By using Crafting, you can change the color of\nequipment of a certain grade or higher to \"Red\".\n(Note: Some equipment cannot be color-changed.)",
+    "icon": {
+        "icon_id": 541,
+        "color_id": 1
+    },
+    "jobs": [],
+    "sell_price": 100,
+    "weight": 0,
+    "item_level": 1,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

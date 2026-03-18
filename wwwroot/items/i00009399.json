@@ -1,0 +1,46 @@
+{
+    "type": "consumable",
+    "item_id": 9399,
+    "name": "Dragon's Spit",
+    "info": "Throw this to cause damage on impact.\nCauses the \"Caught Fire\" debilitation.",
+    "icon": {
+        "icon_id": 443,
+        "color_id": 4
+    },
+    "jobs": [],
+    "sell_price": 35,
+    "weight": 0,
+    "item_level": 8,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "max_stack": 10,
+    "craft_recipe": [
+        {
+            "item_id": 8011,
+            "amount": 1
+        },
+        {
+            "item_id": 7841,
+            "amount": 1
+        },
+        {
+            "item_id": 52,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Deenan Woods: Erte Deenan",
+        "Dowe Valley: Howling Wind Cave",
+        "Eastern Zandora: Old Capital Ruins",
+        "Northern Betland Plains",
+        "Northern Betland Plains: Gardnox Fortress",
+        "Northern Betland Plains: Knights' Old Storehouse",
+        "Volden Mines: Volden Large Tunnels"
+    ],
+    "hunt": []
+}

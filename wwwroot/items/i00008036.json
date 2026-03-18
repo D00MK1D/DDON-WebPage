@@ -1,0 +1,24 @@
+{
+    "type": "material",
+    "item_id": 8036,
+    "name": "Quality Attack Upgrade Rock",
+    "info": "High-quality refining material to enhance the\nquality of the main weapon.\nWhen synthesized during item production, it\nincreases the number of mounted Crests by 2 (3 in\nthe case of a major success).",
+    "icon": {
+        "icon_id": 539,
+        "color_id": 4
+    },
+    "jobs": [],
+    "sell_price": 500,
+    "weight": 0,
+    "item_level": 7,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

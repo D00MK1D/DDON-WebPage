@@ -1,0 +1,52 @@
+{
+    "type": "equipment",
+    "item_id": 19395,
+    "name": "Blue Storm Mithril Wand",
+    "info": "",
+    "icon": {
+        "icon_id": 2168,
+        "color_id": 84
+    },
+    "jobs": [
+        "Sorcerer"
+    ],
+    "sell_price": 50000,
+    "weight": 80,
+    "item_level": 80,
+    "crest_slots": 4,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 23,
+    "weapon_type": "MAGICK_GAUNTLET",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 1,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 2140,
+        "magic_attack": 2423,
+        "crest_slot": 0,
+        "ele_slot": 36
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 684
+        },
+        {
+            "id": 85,
+            "name": "BLOW_POWER_BBLUNT",
+            "value": 10
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

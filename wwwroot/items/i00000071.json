@@ -1,0 +1,62 @@
+{
+    "type": "equipment",
+    "item_id": 71,
+    "name": "Muscular Wall",
+    "info": "",
+    "icon": {
+        "icon_id": 852,
+        "color_id": 6
+    },
+    "jobs": [
+        "Fighter"
+    ],
+    "sell_price": 514,
+    "weight": 90,
+    "item_level": 4,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 2,
+    "weapon_type": "SHIELD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_SUB",
+    "level": 16,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "magic_attack": 0,
+        "crest_slot": 0,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 87,
+            "name": "GUARD_POWER",
+            "value": 164
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 9060,
+            "amount": 3
+        },
+        {
+            "item_id": 7853,
+            "amount": 2
+        },
+        {
+            "item_id": 7752,
+            "amount": 2
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7760,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 1683
+}

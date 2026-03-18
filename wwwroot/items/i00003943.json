@@ -1,0 +1,58 @@
+{
+    "type": "equipment",
+    "item_id": 3943,
+    "name": "Triskele",
+    "info": "",
+    "icon": {
+        "icon_id": 935,
+        "color_id": 8
+    },
+    "jobs": [
+        "Seeker"
+    ],
+    "sell_price": 5785,
+    "weight": 30,
+    "item_level": 7,
+    "crest_slots": 1,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 2,
+    "weapon_type": "ROD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 34,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 528,
+        "magic_attack": 391,
+        "crest_slot": 4,
+        "ele_slot": 25
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 58
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 8007,
+            "amount": 1
+        },
+        {
+            "item_id": 7894,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 2920,
+    "next_item_id": 4966
+}

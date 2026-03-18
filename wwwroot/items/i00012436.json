@@ -1,0 +1,84 @@
+{
+    "type": "equipment",
+    "item_id": 12436,
+    "name": "Orient Charm",
+    "info": "",
+    "icon": {
+        "icon_id": 1024,
+        "color_id": 10
+    },
+    "jobs": [
+        "Priest"
+    ],
+    "sell_price": 24505,
+    "weight": 70,
+    "item_level": 35,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 4,
+    "weapon_type": "MAGICK_BOW",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 70,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1545,
+        "magic_attack": 1674,
+        "crest_slot": 4,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 249
+        },
+        {
+            "id": 92,
+            "name": "UNDEAD_SLAYER",
+            "value": 30
+        },
+        {
+            "id": 93,
+            "name": "SKELETON_SLAYER",
+            "value": 30
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 11784,
+            "amount": 2
+        },
+        {
+            "item_id": 15959,
+            "amount": 3
+        },
+        {
+            "item_id": 15960,
+            "amount": 2
+        },
+        {
+            "item_id": 15961,
+            "amount": 3
+        },
+        {
+            "item_id": 15962,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 11803,
+            "amount": 2
+        },
+        {
+            "item_id": 11797,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 12437
+}

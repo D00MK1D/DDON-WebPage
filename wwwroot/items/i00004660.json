@@ -1,0 +1,73 @@
+{
+    "type": "equipment",
+    "item_id": 4660,
+    "name": "Braided Hose",
+    "info": "",
+    "icon": {
+        "icon_id": 809,
+        "color_id": 8
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 1150,
+    "weight": 5,
+    "item_level": 8,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 3,
+    "equip_slot": "EQUIP_CATEGORY_WEAR_LEG",
+    "level": 37,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 36,
+        "magic_attack": 0,
+        "magic_defense": 36,
+        "crest_slot": 0,
+        "ele_slot": 24
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 17
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 171
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 8008,
+            "amount": 1
+        },
+        {
+            "item_id": 7846,
+            "amount": 1
+        },
+        {
+            "item_id": 9064,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 3637,
+    "next_item_id": 5683
+}

@@ -1,22 +1,24 @@
 ﻿@using DDON_WebPage.Components.Data
 @using Microsoft.EntityFrameworkCore
 @using MudBlazor
+@using System.Text.Json
 
 @inject AppDbContext Pgsql
+@inject IWebHostEnvironment Env
 
 <MudDialog>
     <DialogContent>
         <MudTabs Border>
             <MudTabPanel Text="Job Info">
-                @foreach (var arisens in listArisens)
+                @foreach (var arisens in listArisens.DistinctBy(x=> x.charId))
                 {
                     <MudGrid Class="my-3">
-                        <MudItem Class="mx-auto" md="3">
-                            <MudImage ObjectFit="ObjectFit.Cover" Width="280" Src="@($"./img/Icons/Jobs/Heroes/hero_job_{(listArisens.MaxBy(x => x.jobLevel).jobId)}.png")" />
+                        <MudItem Class="mx-auto my-auto" md="3">
+                            <MudImage Style="max-height:300px" ObjectFit="ObjectFit.Cover" Elevation="2" Src="@($"./img/Icons/Jobs/Heroes/hero_job_{(listArisens.MaxBy(x => x.jobLevel).jobId)}.png")" />
                         </MudItem>
 
-                        <MudItem Class="my-auto mx-auto" md="3">
-                            <MudGrid Style="max-width:700px">
+                        <MudItem Class="my-auto mx-auto" md="6">
+                            <MudGrid Style="max-width: 700px">
                                 @for (int jobId = 1; jobId <= 11; jobId++)
                                 {
                                     var arisens = listArisens.FirstOrDefault(x => x.jobId == jobId);
@@ -52,16 +54,16 @@
             </MudTabPanel>
 
             <MudTabPanel Text="Equipment">
-                <MudGrid Class="my-auto mx-auto " Style="max-width:500px;">
-                    @foreach (var item in listItems.Where(x=> x.storageType == 1 || x.storageType == 5))
-                    {
-                        @*Download item JSONs to properly assign item icon codes*@
-                        @*Maybe read them from link?*@
 
+                <MudGrid Class="my-auto mx-auto " Style="max-width:700px;">
+                    @foreach (var item in listItemsJson.DistinctBy(x=> x.ItemId))
+                    {
                         <MudItem>
-                            <MudAvatar Size="Size.Large" Rounded Color="Color.Primary" Square Variant="Variant.Outlined">
-                                <MudImage Src="@($"./img/Icons/Items/ii{item.itemId.ToString("D6")}.png")" />
-                            </MudAvatar>
+                            <MudTooltip Text="@($"{item.ItemId} - {item.Name}")" >
+                                <MudAvatar Size="Size.Large" Rounded Style="background-color: rgb(181, 177, 148);" Color="Color.Primary" Square Variant="Variant.Outlined">
+                                    <MudImage Src="@($"./img/Icons/Items/ii{item.Icon.IconId.ToString("D6")}.png")" />
+                                </MudAvatar>
+                            </MudTooltip>
                         </MudItem>
                     }
                 </MudGrid>
@@ -69,11 +71,21 @@
             </MudTabPanel>
         
             <MudTabPanel Text="Skills">
-            
+                <MudGrid>
+                    <MudItem Class="my-5 mx-auto" md="12">
+                        <MudText Typo="Typo.h3" Align="Align.Center"> To Be Implemented</MudText>
+                        <MudDivider />
+                    </MudItem>
+                </MudGrid>
             </MudTabPanel>
         
             <MudTabPanel Text="Pawns">
-            
+                <MudGrid>
+                    <MudItem Class="my-5 mx-auto" md="12">
+                        <MudText Typo="Typo.h3" Align="Align.Center"> To Be Implemented</MudText>
+                        <MudDivider />
+                    </MudItem>
+                </MudGrid>
             </MudTabPanel>
         </MudTabs>
     </DialogContent>
@@ -92,6 +104,7 @@
     private List<vwCharactersJobData> listArisens = new();
     private List<WalletPoint> listWallets = new();
     private List<Item> listItems = new();
+    private List<ItemJson> listItemsJson = new();
 
     protected override async Task OnInitializedAsync()
     {
@@ -100,7 +113,7 @@
 
     Dictionary<int, string> _dicJobIds = new Dictionary<int, string>
     {
-        { 0, "None" },
+        { 0, "Unknown" },
         { 1, "Fighter" },
         { 2, "Seeker" },
         { 3, "Hunter" },
@@ -116,7 +129,7 @@
     };
     Dictionary<int, string> _dicWalletTypes = new Dictionary<int, string>
     {
-        { 0, "None" },
+        { 0, "Unknown" },
         { 1, "Gold" },
         { 2, "Rift Points" },
         { 3, "Blood Orbs" },
@@ -141,6 +154,20 @@
         listArisens = await Pgsql.vw_characters_job_data.AsNoTracking().Where(x=> x.charId == charId).ToListAsync();
         listWallets = await Pgsql.ddon_wallet_point.AsNoTracking().Where(x => x.charId == charId).ToListAsync();
         listItems = await Pgsql.ddon_storage_item.AsNoTracking().Where(x => x.charId == charId).ToListAsync();
+
+        foreach (var id in listItems)
+        {
+            var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "items", $"i{id.itemId:D8}.json");
+            if (!File.Exists(path))
+                continue;
+
+            var json = await File.ReadAllTextAsync(path);
+            var item = JsonSerializer.Deserialize<ItemJson>(json);
+
+            if (item != null)
+                listItemsJson.Add(item);
+        }
+        
     }
 
     void Confirm() => MudDialog.Close(DialogResult.Ok(true));

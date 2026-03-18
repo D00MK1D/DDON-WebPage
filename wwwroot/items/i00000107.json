@@ -1,0 +1,62 @@
+{
+    "type": "equipment",
+    "item_id": 107,
+    "name": "Magician's Thought",
+    "info": "",
+    "icon": {
+        "icon_id": 1038,
+        "color_id": 6
+    },
+    "jobs": [
+        "Sorcerer"
+    ],
+    "sell_price": 610,
+    "weight": 40,
+    "item_level": 3,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 1,
+    "weapon_type": "MAGICK_GAUNTLET",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 11,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 136,
+        "magic_attack": 310,
+        "crest_slot": 4,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 94
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7962,
+            "amount": 3
+        },
+        {
+            "item_id": 7897,
+            "amount": 1
+        },
+        {
+            "item_id": 7736,
+            "amount": 2
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7989,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 1719
+}

@@ -1,0 +1,63 @@
+{
+    "type": "equipment",
+    "item_id": 23895,
+    "name": "Blackshatter Daggers",
+    "info": "",
+    "icon": {
+        "icon_id": 2694,
+        "color_id": 86
+    },
+    "jobs": [
+        "Seeker"
+    ],
+    "sell_price": 48000,
+    "weight": 52,
+    "item_level": 135,
+    "crest_slots": 1,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 23,
+    "weapon_type": "ROD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 100,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 3386,
+        "magic_attack": 3184,
+        "crest_slot": 4,
+        "ele_slot": 17
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 323
+        },
+        {
+            "id": 85,
+            "name": "BLOW_POWER_BBLUNT",
+            "value": 5
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 24740,
+            "amount": 7
+        },
+        {
+            "item_id": 24816,
+            "amount": 7
+        }
+    ],
+    "previous_item_id": 23894,
+    "next_item_id": 23896
+}

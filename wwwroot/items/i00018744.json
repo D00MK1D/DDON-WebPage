@@ -1,0 +1,28 @@
+{
+    "type": "consumable",
+    "item_id": 18744,
+    "name": "High Orb",
+    "info": "A crystal imbued with even greater Dragon Force\nthan the conventional Blood Orb.",
+    "icon": {
+        "icon_id": 1979,
+        "color_id": 1
+    },
+    "jobs": [],
+    "sell_price": 0,
+    "weight": 0,
+    "item_level": 3,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "max_stack": 255,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Feryana Wilderness: Thundering Roar Cave",
+        "Rathnite Foothills: Rathnite Columbarium"
+    ],
+    "hunt": []
+}

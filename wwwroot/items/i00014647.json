@@ -1,0 +1,79 @@
+{
+    "type": "equipment",
+    "item_id": 14647,
+    "name": "Elderly Mentor",
+    "info": "",
+    "icon": {
+        "icon_id": 1017,
+        "color_id": 10
+    },
+    "jobs": [
+        "Priest"
+    ],
+    "sell_price": 28130,
+    "weight": 70,
+    "item_level": 50,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 4,
+    "weapon_type": "MAGICK_BOW",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 75,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1701,
+        "magic_attack": 1834,
+        "crest_slot": 0,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 286
+        },
+        {
+            "id": 57,
+            "name": "INFLICT_HOLY_DRAIN",
+            "value": 13
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 15957,
+            "amount": 4
+        },
+        {
+            "item_id": 16115,
+            "amount": 4
+        },
+        {
+            "item_id": 16116,
+            "amount": 4
+        },
+        {
+            "item_id": 15925,
+            "amount": 15
+        },
+        {
+            "item_id": 15926,
+            "amount": 15
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 15925,
+            "amount": 4
+        },
+        {
+            "item_id": 15926,
+            "amount": 4
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 14648
+}

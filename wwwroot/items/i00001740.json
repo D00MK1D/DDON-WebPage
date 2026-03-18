@@ -1,0 +1,54 @@
+{
+    "type": "equipment",
+    "item_id": 1740,
+    "name": "Fremitu",
+    "info": "",
+    "icon": {
+        "icon_id": 969,
+        "color_id": 6
+    },
+    "jobs": [
+        "Alchemist"
+    ],
+    "sell_price": 1285,
+    "weight": 80,
+    "item_level": 4,
+    "crest_slots": 1,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 0,
+    "weapon_type": "DAGGER",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 16,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 278,
+        "magic_attack": 208,
+        "crest_slot": 0,
+        "ele_slot": 9
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 81
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 8005,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 128,
+    "next_item_id": 2763
+}

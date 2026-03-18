@@ -1,0 +1,61 @@
+{
+    "type": "equipment",
+    "item_id": 13004,
+    "name": "Enhanced Bottoms",
+    "info": "",
+    "icon": {
+        "icon_id": 348,
+        "color_id": 10
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 7209,
+    "weight": 42,
+    "item_level": 15,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 3,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 62,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 213,
+        "magic_attack": 0,
+        "magic_defense": 170,
+        "crest_slot": 4,
+        "ele_slot": 8
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 54
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 728
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 11508,
+            "amount": 1
+        },
+        {
+            "item_id": 11506,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 13003,
+    "next_item_id": 13005
+}

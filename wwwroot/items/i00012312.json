@@ -1,0 +1,53 @@
+{
+    "type": "equipment",
+    "item_id": 12312,
+    "name": "Reines Herz",
+    "info": "",
+    "icon": {
+        "icon_id": 990,
+        "color_id": 10
+    },
+    "jobs": [
+        "ElementArcher"
+    ],
+    "sell_price": 19225,
+    "weight": 60,
+    "item_level": 15,
+    "crest_slots": 1,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 3,
+    "weapon_type": "GREATSWORD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 62,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1313,
+        "magic_attack": 1470,
+        "crest_slot": 4,
+        "ele_slot": 9
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 196
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 11508,
+            "amount": 3
+        },
+        {
+            "item_id": 11506,
+            "amount": 3
+        }
+    ],
+    "previous_item_id": 12311,
+    "next_item_id": 12313
+}

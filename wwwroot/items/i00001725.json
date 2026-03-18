@@ -1,0 +1,49 @@
+{
+    "type": "equipment",
+    "item_id": 1725,
+    "name": "Gnosir",
+    "info": "",
+    "icon": {
+        "icon_id": 991,
+        "color_id": 5
+    },
+    "jobs": [
+        "ElementArcher"
+    ],
+    "sell_price": 130,
+    "weight": 60,
+    "item_level": 2,
+    "crest_slots": 1,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 0,
+    "weapon_type": "GREATSWORD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 5,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 77,
+        "magic_attack": 180,
+        "crest_slot": 0,
+        "ele_slot": 9
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 36
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7858,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 113,
+    "next_item_id": 2748
+}

@@ -1,0 +1,66 @@
+{
+    "type": "equipment",
+    "item_id": 339,
+    "name": "Aspro Neraida",
+    "info": "",
+    "icon": {
+        "icon_id": 990,
+        "color_id": 7
+    },
+    "jobs": [
+        "ElementArcher"
+    ],
+    "sell_price": 3925,
+    "weight": 90,
+    "item_level": 6,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 1,
+    "weapon_type": "GREATSWORD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 29,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 406,
+        "magic_attack": 516,
+        "crest_slot": 0,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 94
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7762,
+            "amount": 5
+        },
+        {
+            "item_id": 7841,
+            "amount": 4
+        },
+        {
+            "item_id": 7912,
+            "amount": 3
+        },
+        {
+            "item_id": 7776,
+            "amount": 2
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7762,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 1951
+}

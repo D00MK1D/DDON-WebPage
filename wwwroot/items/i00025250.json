@@ -1,0 +1,49 @@
+{
+    "type": "equipment",
+    "item_id": 25250,
+    "name": "Savage Courage Assault Cutter",
+    "info": "",
+    "icon": {
+        "icon_id": 2214,
+        "color_id": 11
+    },
+    "jobs": [
+        "Fighter",
+        "Warrior"
+    ],
+    "sell_price": 14400,
+    "weight": 34,
+    "item_level": 140,
+    "crest_slots": 0,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 4,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 105,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 10,
+        "defense": 672,
+        "magic_attack": 10,
+        "magic_defense": 560,
+        "crest_slot": 0,
+        "ele_slot": 32
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 34
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 25249,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

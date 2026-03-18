@@ -1,0 +1,40 @@
+{
+    "type": "consumable",
+    "item_id": 9408,
+    "name": "Meatloaf",
+    "info": "A dish full of vigor using meat.\nEating has various beneficial effects.",
+    "icon": {
+        "icon_id": 458,
+        "color_id": 2
+    },
+    "jobs": [],
+    "sell_price": 37,
+    "weight": 0,
+    "item_level": 3,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "max_stack": 10,
+    "craft_recipe": [
+        {
+            "item_id": 1074,
+            "amount": 2
+        },
+        {
+            "item_id": 7824,
+            "amount": 1
+        },
+        {
+            "item_id": 7989,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Deenan Woods: Sunset Terrace"
+    ],
+    "hunt": []
+}

@@ -1,0 +1,50 @@
+{
+    "type": "equipment",
+    "item_id": 20494,
+    "name": "Capable Hat",
+    "info": "",
+    "icon": {
+        "icon_id": 1337,
+        "color_id": 10
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 12300,
+    "weight": 40,
+    "item_level": 100,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 4,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_HELM",
+    "level": 90,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 5,
+        "defense": 420,
+        "magic_attack": 5,
+        "magic_defense": 672,
+        "crest_slot": 0,
+        "ele_slot": 0
+    },
+    "params": [],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 21214,
+            "amount": 2
+        },
+        {
+            "item_id": 21219,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 20495
+}

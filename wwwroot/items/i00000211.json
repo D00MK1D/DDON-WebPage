@@ -1,0 +1,78 @@
+{
+    "type": "equipment",
+    "item_id": 211,
+    "name": "Staff of Beyond the Rift",
+    "info": "",
+    "icon": {
+        "icon_id": 1015,
+        "color_id": 8
+    },
+    "jobs": [
+        "Priest"
+    ],
+    "sell_price": 7225,
+    "weight": 90,
+    "item_level": 8,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 3,
+    "weapon_type": "MAGICK_BOW",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 38,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 495,
+        "magic_attack": 600,
+        "crest_slot": 0,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 133
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7966,
+            "amount": 8
+        },
+        {
+            "item_id": 7867,
+            "amount": 3
+        },
+        {
+            "item_id": 7837,
+            "amount": 6
+        },
+        {
+            "item_id": 7957,
+            "amount": 4
+        },
+        {
+            "item_id": 10999,
+            "amount": 1
+        },
+        {
+            "item_id": 11000,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7954,
+            "amount": 1
+        },
+        {
+            "item_id": 7769,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 1823
+}

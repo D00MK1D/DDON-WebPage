@@ -1,0 +1,55 @@
+{
+    "type": "jewlery",
+    "item_id": 17154,
+    "name": "Ancient Clear Shell Ring",
+    "info": "",
+    "icon": {
+        "icon_id": 1836,
+        "color_id": 101
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 10000,
+    "weight": 300,
+    "item_level": 75,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "level": 80,
+    "stats": {},
+    "params": [
+        {
+            "id": 9,
+            "name": "RESIST_PETRIFICATION",
+            "value": 39
+        },
+        {
+            "id": 12,
+            "name": "RESIST_FROZEN_SOLID",
+            "value": 39
+        },
+        {
+            "id": 13,
+            "name": "RESIST_SHOCK",
+            "value": 39
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

@@ -1,0 +1,27 @@
+{
+    "type": "material",
+    "item_id": 15928,
+    "name": "Rainbow-Colored Claw",
+    "info": "Fang Crafting Material: Fangs dyed with the\nvibrant colorants of Bifrost.",
+    "icon": {
+        "icon_id": 469,
+        "color_id": 105
+    },
+    "jobs": [],
+    "sell_price": 1200,
+    "weight": 0,
+    "item_level": 50,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": [
+        "Level 1+ Bifrest"
+    ],
+    "subtype": "fangs tusks and claws"
+}

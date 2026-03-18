@@ -1,0 +1,69 @@
+{
+    "type": "equipment",
+    "item_id": 20935,
+    "name": "Charit\u00e9 Boots",
+    "info": "",
+    "icon": {
+        "icon_id": 1960,
+        "color_id": 11
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 17365,
+    "weight": 43,
+    "item_level": 115,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 3,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 98,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 7,
+        "defense": 478,
+        "magic_attack": 7,
+        "magic_defense": 383,
+        "crest_slot": 4,
+        "ele_slot": 24
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 97
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 789
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 21269,
+            "amount": 2
+        },
+        {
+            "item_id": 21266,
+            "amount": 4
+        },
+        {
+            "item_id": 21275,
+            "amount": 4
+        },
+        {
+            "item_id": 21267,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 20934,
+    "next_item_id": 20936
+}

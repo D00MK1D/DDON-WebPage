@@ -1,0 +1,68 @@
+{
+    "type": "equipment",
+    "item_id": 4378,
+    "name": "Black Bart's Arms",
+    "info": "",
+    "icon": {
+        "icon_id": 56,
+        "color_id": 10
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 4840,
+    "weight": 34,
+    "item_level": 11,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 2,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 55,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 219,
+        "magic_attack": 0,
+        "magic_defense": 182,
+        "crest_slot": 4,
+        "ele_slot": 24
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 12
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7823,
+            "amount": 1
+        },
+        {
+            "item_id": 8031,
+            "amount": 3
+        },
+        {
+            "item_id": 11011,
+            "amount": 5
+        },
+        {
+            "item_id": 11012,
+            "amount": 3
+        },
+        {
+            "item_id": 11013,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 3355,
+    "next_item_id": 5401
+}

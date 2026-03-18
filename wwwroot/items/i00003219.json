@@ -1,0 +1,60 @@
+{
+    "type": "equipment",
+    "item_id": 3219,
+    "name": "Gryphus Greaves",
+    "info": "",
+    "icon": {
+        "icon_id": 346,
+        "color_id": 9
+    },
+    "jobs": [
+        "Fighter",
+        "Warrior"
+    ],
+    "sell_price": 3530,
+    "weight": 90,
+    "item_level": 9,
+    "crest_slots": 0,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 3,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 43,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 117,
+        "magic_attack": 0,
+        "magic_defense": 93,
+        "crest_slot": 4,
+        "ele_slot": 16
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 39
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 568
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7925,
+            "amount": 1
+        },
+        {
+            "item_id": 7859,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 2196,
+    "next_item_id": 4242
+}

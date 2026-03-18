@@ -1,0 +1,33 @@
+{
+    "type": "special",
+    "item_id": 13225,
+    "name": "Mini Table",
+    "info": "Mini Table that can be installed next to the desk\nin the Study",
+    "icon": {
+        "icon_id": 1497,
+        "color_id": 0
+    },
+    "jobs": [],
+    "sell_price": 0,
+    "weight": 0,
+    "item_level": 0,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "craft_recipe": [
+        {
+            "item_id": 7972,
+            "amount": 1
+        },
+        {
+            "item_id": 7787,
+            "amount": 4
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

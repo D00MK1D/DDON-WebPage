@@ -1,0 +1,65 @@
+{
+    "type": "equipment",
+    "item_id": 15537,
+    "name": "Phindymian Underwear",
+    "info": "",
+    "icon": {
+        "icon_id": 1607,
+        "color_id": 111
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 2109,
+    "weight": 5,
+    "item_level": 60,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_WEAR_LEG",
+    "level": 75,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 119,
+        "magic_attack": 0,
+        "magic_defense": 119,
+        "crest_slot": 0,
+        "ele_slot": 24
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 57
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 260
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 15971,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 15536,
+    "next_item_id": 15538
+}

@@ -1,0 +1,57 @@
+{
+    "type": "equipment",
+    "item_id": 25323,
+    "name": "Solitary's Snipe Vest",
+    "info": "",
+    "icon": {
+        "icon_id": 2919,
+        "color_id": 11
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 25100,
+    "weight": 72,
+    "item_level": 145,
+    "crest_slots": 1,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 5,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 110,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 11,
+        "defense": 1082,
+        "magic_attack": 11,
+        "magic_defense": 962,
+        "crest_slot": 4,
+        "ele_slot": 17
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 47
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 1316
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 25528,
+            "amount": 5
+        }
+    ],
+    "previous_item_id": 25322,
+    "next_item_id": 25324
+}

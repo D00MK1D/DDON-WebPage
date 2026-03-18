@@ -1,0 +1,42 @@
+{
+    "type": "consumable",
+    "item_id": 61,
+    "name": "Superior Gala Extract",
+    "info": "Recovers a portion of the user's stamina.",
+    "icon": {
+        "icon_id": 430,
+        "color_id": 2
+    },
+    "jobs": [],
+    "sell_price": 40,
+    "weight": 0,
+    "item_level": 3,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "max_stack": 10,
+    "craft_recipe": [
+        {
+            "item_id": 36,
+            "amount": 2
+        },
+        {
+            "item_id": 7994,
+            "amount": 3
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Breya Coast",
+        "Breya Coast: Seaside Cellar",
+        "Dowe Valley: Partly-Dug Well",
+        "Mysree Forest: Glowworm Cave",
+        "Mysree Forest: Mysree Limestone Cave",
+        "Volden Mines",
+        "Volden Mines: Partly-Dug Well"
+    ],
+    "hunt": []
+}

@@ -1,0 +1,60 @@
+{
+    "type": "equipment",
+    "item_id": 20813,
+    "name": "Confidence Greaves",
+    "info": "",
+    "icon": {
+        "icon_id": 1958,
+        "color_id": 11
+    },
+    "jobs": [
+        "Fighter",
+        "Warrior"
+    ],
+    "sell_price": 17365,
+    "weight": 45,
+    "item_level": 115,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 3,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 98,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 7,
+        "defense": 475,
+        "magic_attack": 7,
+        "magic_defense": 380,
+        "crest_slot": 4,
+        "ele_slot": 8
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 96
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 785
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 21274,
+            "amount": 2
+        },
+        {
+            "item_id": 21273,
+            "amount": 4
+        }
+    ],
+    "previous_item_id": 20812,
+    "next_item_id": 20814
+}

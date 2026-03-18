@@ -1,0 +1,31 @@
+{
+    "type": "material",
+    "item_id": 7984,
+    "name": "Deenan Hyssop",
+    "info": "Floral Crafting Material: Plants that grow\nnaturally in the Deenan region.",
+    "icon": {
+        "icon_id": 510,
+        "color_id": 5
+    },
+    "jobs": [],
+    "sell_price": 325,
+    "weight": 0,
+    "item_level": 9,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Deenan Woods",
+        "Deenan Woods: Erte Deenan",
+        "Deenan Woods: Sacred Tree Terrace",
+        "Northern Betland Plains: Tegor Flood Control Channel",
+        "Northern Betland Plains: Underground Crypt"
+    ],
+    "hunt": [],
+    "subtype": "plants"
+}

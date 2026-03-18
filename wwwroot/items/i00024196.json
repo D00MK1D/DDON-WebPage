@@ -1,0 +1,60 @@
+{
+    "type": "equipment",
+    "item_id": 24196,
+    "name": "Blackshatter Heavy Armor Leg",
+    "info": "",
+    "icon": {
+        "icon_id": 2808,
+        "color_id": 200
+    },
+    "jobs": [
+        "Fighter",
+        "Warrior"
+    ],
+    "sell_price": 0,
+    "weight": 43,
+    "item_level": 135,
+    "crest_slots": 0,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 100,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 9,
+        "defense": 509,
+        "magic_attack": 9,
+        "magic_defense": 407,
+        "crest_slot": 4,
+        "ele_slot": 16
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 101
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 824
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 24737,
+            "amount": 100
+        },
+        {
+            "item_id": 24740,
+            "amount": 6
+        }
+    ],
+    "previous_item_id": 24195,
+    "next_item_id": 24197
+}

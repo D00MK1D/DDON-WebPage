@@ -1,0 +1,31 @@
+{
+    "type": "material",
+    "item_id": 15954,
+    "name": "Valley Spring Water",
+    "info": "Liquid Crafting Material: Natural water rich in\nminerals polished by the valley.",
+    "icon": {
+        "icon_id": 481,
+        "color_id": 5
+    },
+    "jobs": [],
+    "sell_price": 100,
+    "weight": 0,
+    "item_level": 45,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Farana Plains",
+        "Kingal Canyon",
+        "Kingal Canyon: Carrion Bank",
+        "Kingal Canyon: Crushing Rock Riverbank",
+        "Kingal Canyon: Watersdeep Old Road"
+    ],
+    "hunt": [],
+    "subtype": "liquids"
+}

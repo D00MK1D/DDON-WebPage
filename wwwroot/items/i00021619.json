@@ -1,0 +1,24 @@
+{
+    "type": "material",
+    "item_id": 21619,
+    "name": "Smoldering Crown Horn",
+    "info": "Crafting materials with limited availability:\nA horn that looks like a twisted crown, colored\nlike the very essence of fire.",
+    "icon": {
+        "icon_id": 2600,
+        "color_id": 105
+    },
+    "jobs": [],
+    "sell_price": 2000,
+    "weight": 0,
+    "item_level": 120,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

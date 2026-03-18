@@ -1,0 +1,67 @@
+{
+    "type": "equipment",
+    "item_id": 637,
+    "name": "Officer's Cap",
+    "info": "",
+    "icon": {
+        "icon_id": 267,
+        "color_id": 9
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 2690,
+    "weight": 18,
+    "item_level": 9,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 2,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_HELM",
+    "level": 41,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 98,
+        "magic_attack": 0,
+        "magic_defense": 157,
+        "crest_slot": 4,
+        "ele_slot": 0
+    },
+    "params": [],
+    "craft_recipe": [
+        {
+            "item_id": 7928,
+            "amount": 3
+        },
+        {
+            "item_id": 7814,
+            "amount": 4
+        },
+        {
+            "item_id": 8008,
+            "amount": 3
+        },
+        {
+            "item_id": 7852,
+            "amount": 4
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7937,
+            "amount": 1
+        },
+        {
+            "item_id": 7758,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 2249
+}

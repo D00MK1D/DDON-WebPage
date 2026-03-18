@@ -1,0 +1,73 @@
+{
+    "type": "equipment",
+    "item_id": 975,
+    "name": "Gambeson",
+    "info": "",
+    "icon": {
+        "icon_id": 793,
+        "color_id": 7
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 400,
+    "weight": 5,
+    "item_level": 5,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 2,
+    "equip_slot": "EQUIP_CATEGORY_WEAR_BODY",
+    "level": 22,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 25,
+        "magic_attack": 0,
+        "magic_defense": 25,
+        "crest_slot": 4,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 138
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7935,
+            "amount": 2
+        },
+        {
+            "item_id": 7985,
+            "amount": 1
+        },
+        {
+            "item_id": 7828,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7991,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 2587
+}

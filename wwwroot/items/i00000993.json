@@ -1,0 +1,69 @@
+{
+    "type": "equipment",
+    "item_id": 993,
+    "name": "Silent Walker",
+    "info": "",
+    "icon": {
+        "icon_id": 802,
+        "color_id": 9
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 1900,
+    "weight": 5,
+    "item_level": 10,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 2,
+    "equip_slot": "EQUIP_CATEGORY_WEAR_LEG",
+    "level": 47,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 44,
+        "magic_attack": 0,
+        "magic_defense": 44,
+        "crest_slot": 0,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 20
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 205
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7939,
+            "amount": 2
+        },
+        {
+            "item_id": 7998,
+            "amount": 3
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 2605
+}

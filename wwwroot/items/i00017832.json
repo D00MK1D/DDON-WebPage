@@ -1,0 +1,69 @@
+{
+    "type": "equipment",
+    "item_id": 17832,
+    "name": "Biyabaan Tights",
+    "info": "",
+    "icon": {
+        "icon_id": 809,
+        "color_id": 11
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 2605,
+    "weight": 7,
+    "item_level": 85,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 4,
+    "equip_slot": "EQUIP_CATEGORY_WEAR_LEG",
+    "level": 83,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 137,
+        "magic_attack": 0,
+        "magic_defense": 137,
+        "crest_slot": 4,
+        "ele_slot": 8
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 61
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 245
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 17884,
+            "amount": 2
+        },
+        {
+            "item_id": 17882,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 17831,
+    "next_item_id": 17833
+}

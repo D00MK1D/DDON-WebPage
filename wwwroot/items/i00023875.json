@@ -1,0 +1,64 @@
+{
+    "type": "equipment",
+    "item_id": 23875,
+    "name": "Spirit's Daggers",
+    "info": "",
+    "icon": {
+        "icon_id": 1655,
+        "color_id": 86
+    },
+    "jobs": [
+        "Seeker"
+    ],
+    "sell_price": 48000,
+    "weight": 55,
+    "item_level": 130,
+    "crest_slots": 1,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 3,
+    "weapon_type": "ROD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 100,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 3228,
+        "magic_attack": 3026,
+        "crest_slot": 0,
+        "ele_slot": 17
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 323
+        },
+        {
+            "id": 85,
+            "name": "BLOW_POWER_BBLUNT",
+            "value": 5
+        },
+        {
+            "id": 90,
+            "name": "BEAST_SLAYER",
+            "value": 82
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 24738,
+            "amount": 7
+        }
+    ],
+    "previous_item_id": 23874,
+    "next_item_id": 23876
+}

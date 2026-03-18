@@ -1,0 +1,56 @@
+{
+    "type": "equipment",
+    "item_id": 12869,
+    "name": "Roaming Gloves",
+    "info": "",
+    "icon": {
+        "icon_id": 77,
+        "color_id": 10
+    },
+    "jobs": [
+        "ShieldSage",
+        "Alchemist",
+        "HighScepter"
+    ],
+    "sell_price": 6735,
+    "weight": 45,
+    "item_level": 30,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 4,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 67,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 296,
+        "magic_attack": 0,
+        "magic_defense": 247,
+        "crest_slot": 0,
+        "ele_slot": 8
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 14
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 11793,
+            "amount": 1
+        },
+        {
+            "item_id": 11789,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 12868,
+    "next_item_id": 12870
+}

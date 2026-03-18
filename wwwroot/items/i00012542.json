@@ -1,0 +1,60 @@
+{
+    "type": "equipment",
+    "item_id": 12542,
+    "name": "Immortal's Great Helm",
+    "info": "",
+    "icon": {
+        "icon_id": 1327,
+        "color_id": 11
+    },
+    "jobs": [
+        "Fighter",
+        "Warrior"
+    ],
+    "sell_price": 6339,
+    "weight": 36,
+    "item_level": 25,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 2,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_HELM",
+    "level": 65,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 233,
+        "magic_attack": 0,
+        "magic_defense": 373,
+        "crest_slot": 4,
+        "ele_slot": 8
+    },
+    "params": [
+        {
+            "id": 4,
+            "name": "RESIST_BLIND",
+            "value": 3
+        },
+        {
+            "id": 16,
+            "name": "RESIST_CURSE",
+            "value": 3
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 11764,
+            "amount": 2
+        },
+        {
+            "item_id": 11772,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 12541,
+    "next_item_id": 12543
+}

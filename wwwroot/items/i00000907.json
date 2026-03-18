@@ -1,0 +1,69 @@
+{
+    "type": "equipment",
+    "item_id": 907,
+    "name": "Chevalier Legs",
+    "info": "",
+    "icon": {
+        "icon_id": 407,
+        "color_id": 10
+    },
+    "jobs": [
+        "ShieldSage",
+        "Alchemist",
+        "HighScepter"
+    ],
+    "sell_price": 6050,
+    "weight": 72,
+    "item_level": 11,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 3,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 55,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 179,
+        "magic_attack": 0,
+        "magic_defense": 143,
+        "crest_slot": 4,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 48
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 712
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7749,
+            "amount": 5
+        },
+        {
+            "item_id": 7785,
+            "amount": 3
+        },
+        {
+            "item_id": 11011,
+            "amount": 2
+        },
+        {
+            "item_id": 11012,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 2519
+}

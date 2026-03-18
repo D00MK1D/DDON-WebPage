@@ -1,0 +1,30 @@
+{
+    "type": "material",
+    "subtype": "ore",
+    "item_id": 17883,
+    "name": "Pyroclastic Rock",
+    "info": "Ore Crafting Material:\nRock formed by magma from a volcano that has\ncooled and solidified.",
+    "icon": {
+        "icon_id": 489,
+        "color_id": 5
+    },
+    "jobs": [],
+    "sell_price": 1000,
+    "weight": 0,
+    "item_level": 85,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Rathnite Foothills: Cave of Hell's Descent",
+        "Rathnite Foothills: Lakeside Grotto",
+        "Rathnite Foothills: Rathnite Foothills Lakeside",
+        "Rathnite Foothills: The Howling Front"
+    ],
+    "hunt": []
+}

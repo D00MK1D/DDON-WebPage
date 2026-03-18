@@ -1,0 +1,41 @@
+{
+    "type": "equipment",
+    "item_id": 10061,
+    "name": "Punishment",
+    "info": "",
+    "icon": {
+        "icon_id": 910,
+        "color_id": 9
+    },
+    "jobs": [
+        "ShieldSage"
+    ],
+    "sell_price": 3364,
+    "weight": 40,
+    "item_level": 9,
+    "crest_slots": 0,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 3,
+    "weapon_type": "GREATSHIELD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_SUB",
+    "level": 41,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "magic_attack": 693,
+        "crest_slot": 4,
+        "ele_slot": 32
+    },
+    "params": [],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 10060,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

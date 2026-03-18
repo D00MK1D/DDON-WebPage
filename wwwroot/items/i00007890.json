@@ -1,0 +1,53 @@
+{
+    "type": "material",
+    "item_id": 7890,
+    "name": "Phantom Metal",
+    "info": "Metal Crafting Material: Mysterious metal refined\nfrom fragments of Spirit Iron Stone.",
+    "icon": {
+        "icon_id": 491,
+        "color_id": 6
+    },
+    "jobs": [],
+    "sell_price": 1010,
+    "weight": 0,
+    "item_level": 11,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [
+        {
+            "item_id": 7889,
+            "amount": 1
+        },
+        {
+            "item_id": 7728,
+            "amount": 2
+        },
+        {
+            "item_id": 7736,
+            "amount": 2
+        },
+        {
+            "item_id": 7738,
+            "amount": 2
+        },
+        {
+            "item_id": 7741,
+            "amount": 1
+        },
+        {
+            "item_id": 7838,
+            "amount": 1
+        },
+        {
+            "item_id": 7832,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

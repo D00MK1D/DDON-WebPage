@@ -1,0 +1,38 @@
+{
+    "type": "material",
+    "item_id": 7839,
+    "name": "Unrefined Demon Wine",
+    "info": "Liquid Crafting Material: Cloudy liquor. Not\nsuitable for consumption as is.",
+    "icon": {
+        "icon_id": 481,
+        "color_id": 2
+    },
+    "jobs": [],
+    "sell_price": 25,
+    "weight": 0,
+    "item_level": 4,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Hidell Plains",
+        "Hidell Plains: Blocked Passage",
+        "Mysree Forest",
+        "Mysree Forest: Lynwood Underground Waterway"
+    ],
+    "hunt": [
+        "Level 10+ Orc Aimer",
+        "Level 10+ Orc Banger",
+        "Level 10+ Orc Soldier",
+        "Level 1+ Goblin Bomber",
+        "Level 5+ Hobgoblin",
+        "Level 5+ Hobgoblin Fighter",
+        "Level 7+ Hobgoblin Leader"
+    ],
+    "subtype": "liquids"
+}

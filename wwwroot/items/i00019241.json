@@ -1,0 +1,83 @@
+{
+    "type": "equipment",
+    "item_id": 19241,
+    "name": "Torso of the First King",
+    "info": "",
+    "icon": {
+        "icon_id": 1935,
+        "color_id": 127
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 0,
+    "weight": 0,
+    "item_level": 90,
+    "crest_slots": 4,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 20,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 80,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 5,
+        "defense": 693,
+        "magic_attack": 5,
+        "magic_defense": 616,
+        "crest_slot": 0,
+        "ele_slot": 4
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 38
+        },
+        {
+            "id": 11,
+            "name": "RESIST_CATCHING_FIRE",
+            "value": 25
+        },
+        {
+            "id": 39,
+            "name": "FIRE_RESIST",
+            "value": 25
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 1125
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 18658,
+            "amount": 500
+        },
+        {
+            "item_id": 19653,
+            "amount": 60
+        },
+        {
+            "item_id": 21379,
+            "amount": 75
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 19242
+}

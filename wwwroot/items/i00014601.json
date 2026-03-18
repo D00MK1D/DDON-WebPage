@@ -1,0 +1,57 @@
+{
+    "type": "equipment",
+    "item_id": 14601,
+    "name": "Kenn-brecher of Thirst",
+    "info": "",
+    "icon": {
+        "icon_id": 997,
+        "color_id": 10
+    },
+    "jobs": [
+        "ElementArcher"
+    ],
+    "sell_price": 28130,
+    "weight": 60,
+    "item_level": 50,
+    "crest_slots": 1,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 4,
+    "weapon_type": "GREATSWORD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 75,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1795,
+        "magic_attack": 1965,
+        "crest_slot": 0,
+        "ele_slot": 33
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 301
+        },
+        {
+            "id": 64,
+            "name": "INFLICT_PHYS_DEF_DOWN",
+            "value": 50
+        },
+        {
+            "id": 66,
+            "name": "INFLICT_MAG_DEF_DOWN",
+            "value": 50
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 14600,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

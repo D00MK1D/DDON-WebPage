@@ -1,0 +1,86 @@
+{
+    "type": "equipment",
+    "item_id": 12908,
+    "name": "Gauntlets of Concealment",
+    "info": "",
+    "icon": {
+        "icon_id": 1300,
+        "color_id": 111
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 7351,
+    "weight": 34,
+    "item_level": 45,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 1,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 70,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 326,
+        "magic_attack": 0,
+        "magic_defense": 272,
+        "crest_slot": 4,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 15
+        },
+        {
+            "id": 15,
+            "name": "RESIST_KNOCKOUT",
+            "value": 2
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7891,
+            "amount": 3
+        },
+        {
+            "item_id": 11811,
+            "amount": 5
+        },
+        {
+            "item_id": 11812,
+            "amount": 3
+        },
+        {
+            "item_id": 11813,
+            "amount": 1
+        },
+        {
+            "item_id": 9445,
+            "amount": 2
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 11789,
+            "amount": 3
+        },
+        {
+            "item_id": 11791,
+            "amount": 3
+        },
+        {
+            "item_id": 11793,
+            "amount": 3
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 12909
+}

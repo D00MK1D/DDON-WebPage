@@ -1,0 +1,83 @@
+{
+    "type": "equipment",
+    "item_id": 15409,
+    "name": "Azure Cuisses",
+    "info": "",
+    "icon": {
+        "icon_id": 1578,
+        "color_id": 111
+    },
+    "jobs": [
+        "Fighter",
+        "Warrior"
+    ],
+    "sell_price": 12001,
+    "weight": 42,
+    "item_level": 75,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 22,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 80,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 2,
+        "defense": 346,
+        "magic_attack": 2,
+        "magic_defense": 276,
+        "crest_slot": 4,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 76
+        },
+        {
+            "id": 7,
+            "name": "RESIST_SKILL_STIFLING",
+            "value": 1
+        },
+        {
+            "id": 15,
+            "name": "RESIST_KNOCKOUT",
+            "value": 1
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 743
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 16005,
+            "amount": 2
+        },
+        {
+            "item_id": 15998,
+            "amount": 10
+        },
+        {
+            "item_id": 15999,
+            "amount": 5
+        },
+        {
+            "item_id": 16000,
+            "amount": 2
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 16010,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 15410
+}

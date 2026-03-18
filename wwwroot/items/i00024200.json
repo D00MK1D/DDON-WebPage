@@ -1,0 +1,50 @@
+{
+    "type": "equipment",
+    "item_id": 24200,
+    "name": "Spirit light Armored Helm",
+    "info": "",
+    "icon": {
+        "icon_id": 2781,
+        "color_id": 200
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 0,
+    "weight": 39,
+    "item_level": 130,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 3,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_HELM",
+    "level": 100,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 9,
+        "defense": 500,
+        "magic_attack": 9,
+        "magic_defense": 801,
+        "crest_slot": 0,
+        "ele_slot": 8
+    },
+    "params": [],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 24729,
+            "amount": 80
+        },
+        {
+            "item_id": 24737,
+            "amount": 80
+        }
+    ],
+    "previous_item_id": 24199,
+    "next_item_id": 24201
+}

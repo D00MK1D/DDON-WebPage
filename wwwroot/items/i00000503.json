@@ -1,0 +1,73 @@
+{
+    "type": "equipment",
+    "item_id": 503,
+    "name": "Chain Bracers",
+    "info": "",
+    "icon": {
+        "icon_id": 783,
+        "color_id": 7
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 400,
+    "weight": 5,
+    "item_level": 5,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 2,
+    "equip_slot": "EQUIP_CATEGORY_WEAR_BODY",
+    "level": 21,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 24,
+        "magic_attack": 0,
+        "magic_defense": 24,
+        "crest_slot": 4,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 131
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7874,
+            "amount": 1
+        },
+        {
+            "item_id": 7732,
+            "amount": 3
+        },
+        {
+            "item_id": 7953,
+            "amount": 3
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7845,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 2115
+}

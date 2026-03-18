@@ -1,0 +1,69 @@
+{
+    "type": "equipment",
+    "item_id": 10771,
+    "name": "Olfring Guard (Black)",
+    "info": "",
+    "icon": {
+        "icon_id": 1235,
+        "color_id": 82
+    },
+    "jobs": [
+        "ShieldSage"
+    ],
+    "sell_price": 5000,
+    "weight": 100,
+    "item_level": 5,
+    "crest_slots": 3,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 5,
+    "weapon_type": "STAFF",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 1,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 350,
+        "magic_attack": 0,
+        "crest_slot": 4,
+        "ele_slot": 27
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 160
+        },
+        {
+            "id": 87,
+            "name": "GUARD_POWER",
+            "value": 188
+        },
+        {
+            "id": 54,
+            "name": "INFLICT_CATCHING_FIRE",
+            "value": 20
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        },
+        {
+            "id": 31,
+            "name": "MAX_FORCE_STOCK",
+            "value": 4
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 8028,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 10770,
+    "next_item_id": 10772
+}

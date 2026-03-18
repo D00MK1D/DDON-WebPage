@@ -1,0 +1,32 @@
+{
+    "type": "material",
+    "item_id": 15982,
+    "name": "Aged Green Leaves",
+    "info": "Floral Crafting Material: Especially the old and\nlarge leaves of the ancient Sago Palm.",
+    "icon": {
+        "icon_id": 508,
+        "color_id": 116
+    },
+    "jobs": [],
+    "sell_price": 600,
+    "weight": 0,
+    "item_level": 65,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": true,
+    "craft_recipe": [
+        {
+            "item_id": 15981,
+            "amount": 20
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Farana Plains: Sacred River Ruins"
+    ],
+    "hunt": [],
+    "subtype": "regional"
+}

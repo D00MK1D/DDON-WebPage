@@ -1,0 +1,59 @@
+{
+    "type": "equipment",
+    "item_id": 8361,
+    "name": "Celestial Boots",
+    "info": "",
+    "icon": {
+        "icon_id": 392,
+        "color_id": 10
+    },
+    "jobs": [
+        "Sorcerer"
+    ],
+    "sell_price": 6270,
+    "weight": 36,
+    "item_level": 12,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 1,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 60,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 209,
+        "magic_attack": 0,
+        "magic_defense": 167,
+        "crest_slot": 0,
+        "ele_slot": 24
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 53
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 724
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7956,
+            "amount": 2
+        },
+        {
+            "item_id": 7885,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 8360,
+    "next_item_id": 8362
+}

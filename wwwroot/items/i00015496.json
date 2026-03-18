@@ -1,0 +1,76 @@
+{
+    "type": "equipment",
+    "item_id": 15496,
+    "name": "Forest Cuisses",
+    "info": "",
+    "icon": {
+        "icon_id": 1575,
+        "color_id": 111
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 10548,
+    "weight": 42,
+    "item_level": 60,
+    "crest_slots": 0,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 2,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 75,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 2,
+        "defense": 311,
+        "magic_attack": 2,
+        "magic_defense": 248,
+        "crest_slot": 0,
+        "ele_slot": 16
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 72
+        },
+        {
+            "id": 2,
+            "name": "RESIST_TORPOR",
+            "value": 3
+        },
+        {
+            "id": 9,
+            "name": "RESIST_PETRIFICATION",
+            "value": 3
+        },
+        {
+            "id": 15,
+            "name": "RESIST_KNOCKOUT",
+            "value": 3
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 750
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 15965,
+            "amount": 1
+        },
+        {
+            "item_id": 15967,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 15495,
+    "next_item_id": 15497
+}

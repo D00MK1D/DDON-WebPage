@@ -1,0 +1,64 @@
+{
+    "type": "equipment",
+    "item_id": 8883,
+    "name": "Brutal Cape",
+    "info": "",
+    "icon": {
+        "icon_id": 214,
+        "color_id": 9
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 1900,
+    "weight": 10,
+    "item_level": 10,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 5,
+    "equip_slot": "EQUIP_CATEGORY_ACCESSORY",
+    "level": 47,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 44,
+        "magic_attack": 0,
+        "magic_defense": 44,
+        "crest_slot": 0,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 10
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7733,
+            "amount": 4
+        },
+        {
+            "item_id": 7955,
+            "amount": 4
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 8884
+}

@@ -1,0 +1,33 @@
+{
+    "type": "material",
+    "item_id": 17858,
+    "name": "Giant's Molar",
+    "info": "Fang Crafting Material:\nYellow, cloudy giant tooth of powerful Giants\n(Lv. 80~)",
+    "icon": {
+        "icon_id": 469,
+        "color_id": 5
+    },
+    "jobs": [],
+    "sell_price": 1500,
+    "weight": 0,
+    "item_level": 85,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": [
+        "Level 80+ Armoured Cyclops",
+        "Level 80+ Colossus",
+        "Level 80+ Cyclops",
+        "Level 80+ Gorecyclops",
+        "Level 80+ Infected Gorecyclops",
+        "Level 80+ Severely Infected Gorecyclops",
+        "Level 80+ War-Ready Gorecyclops"
+    ],
+    "subtype": "fangs tusks and claws"
+}

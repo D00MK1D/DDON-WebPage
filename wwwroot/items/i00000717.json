@@ -1,0 +1,81 @@
+{
+    "type": "equipment",
+    "item_id": 717,
+    "name": "Leader Gloves",
+    "info": "",
+    "icon": {
+        "icon_id": 17,
+        "color_id": 9
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 2960,
+    "weight": 34,
+    "item_level": 9,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 2,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 45,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 153,
+        "magic_attack": 0,
+        "magic_defense": 128,
+        "crest_slot": 4,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 10
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7877,
+            "amount": 3
+        },
+        {
+            "item_id": 7782,
+            "amount": 3
+        },
+        {
+            "item_id": 7900,
+            "amount": 4
+        },
+        {
+            "item_id": 8020,
+            "amount": 3
+        },
+        {
+            "item_id": 11000,
+            "amount": 3
+        },
+        {
+            "item_id": 11004,
+            "amount": 2
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7928,
+            "amount": 2
+        },
+        {
+            "item_id": 7925,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 2329
+}

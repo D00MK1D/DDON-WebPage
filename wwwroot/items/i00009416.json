@@ -1,0 +1,40 @@
+{
+    "type": "consumable",
+    "item_id": 9416,
+    "name": "Exquisite Fried Meat",
+    "info": "A dish full of vigor using meat.\nEating has various beneficial effects.",
+    "icon": {
+        "icon_id": 458,
+        "color_id": 4
+    },
+    "jobs": [],
+    "sell_price": 200,
+    "weight": 0,
+    "item_level": 7,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "max_stack": 10,
+    "craft_recipe": [
+        {
+            "item_id": 9412,
+            "amount": 1
+        },
+        {
+            "item_id": 7726,
+            "amount": 1
+        },
+        {
+            "item_id": 7828,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Northern Betland Plains: Gardnox Fortress"
+    ],
+    "hunt": []
+}

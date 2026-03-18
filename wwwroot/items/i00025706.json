@@ -1,0 +1,24 @@
+{
+    "type": "material",
+    "item_id": 25706,
+    "name": "Crest of Fragility+",
+    "info": "A crest that grants a debilitation effect to\nweapons when equipped.",
+    "icon": {
+        "icon_id": 1047,
+        "color_id": 106
+    },
+    "jobs": [],
+    "sell_price": 100,
+    "weight": 0,
+    "item_level": 30,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

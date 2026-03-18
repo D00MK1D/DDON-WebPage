@@ -1,0 +1,74 @@
+{
+    "type": "equipment",
+    "item_id": 329,
+    "name": "D\u00e9but de la Vie",
+    "info": "",
+    "icon": {
+        "icon_id": 1036,
+        "color_id": 10
+    },
+    "jobs": [
+        "Sorcerer"
+    ],
+    "sell_price": 14050,
+    "weight": 80,
+    "item_level": 11,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 4,
+    "weapon_type": "MAGICK_GAUNTLET",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 55,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1043,
+        "magic_attack": 1240,
+        "crest_slot": 4,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 292
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7890,
+            "amount": 5
+        },
+        {
+            "item_id": 8030,
+            "amount": 1
+        },
+        {
+            "item_id": 8029,
+            "amount": 3
+        },
+        {
+            "item_id": 7800,
+            "amount": 6
+        },
+        {
+            "item_id": 9159,
+            "amount": 5
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7992,
+            "amount": 2
+        },
+        {
+            "item_id": 7832,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 1941
+}

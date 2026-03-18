@@ -1,0 +1,66 @@
+{
+    "type": "equipment",
+    "item_id": 444,
+    "name": "Leather Armor",
+    "info": "",
+    "icon": {
+        "icon_id": 115,
+        "color_id": 6
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 475,
+    "weight": 70,
+    "item_level": 3,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 13,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 59,
+        "magic_attack": 0,
+        "magic_defense": 52,
+        "crest_slot": 4,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 7
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 238
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7774,
+            "amount": 2
+        },
+        {
+            "item_id": 7936,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7917,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 2056
+}

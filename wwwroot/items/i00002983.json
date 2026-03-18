@@ -1,0 +1,57 @@
+{
+    "type": "equipment",
+    "item_id": 2983,
+    "name": "Kunstraum",
+    "info": "",
+    "icon": {
+        "icon_id": 1001,
+        "color_id": 9
+    },
+    "jobs": [
+        "ElementArcher"
+    ],
+    "sell_price": 10130,
+    "weight": 60,
+    "item_level": 9,
+    "crest_slots": 1,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 3,
+    "weapon_type": "GREATSWORD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 45,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 758,
+        "magic_attack": 899,
+        "crest_slot": 4,
+        "ele_slot": 17
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 138
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7745,
+            "amount": 2
+        },
+        {
+            "item_id": 7956,
+            "amount": 2
+        },
+        {
+            "item_id": 7948,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 1960,
+    "next_item_id": 4006
+}

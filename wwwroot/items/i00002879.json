@@ -1,0 +1,47 @@
+{
+    "type": "equipment",
+    "item_id": 2879,
+    "name": "Gaia Scepter",
+    "info": "",
+    "icon": {
+        "icon_id": 918,
+        "color_id": 9
+    },
+    "jobs": [
+        "ShieldSage"
+    ],
+    "sell_price": 4610,
+    "weight": 70,
+    "item_level": 10,
+    "crest_slots": 0,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 4,
+    "weapon_type": "GREATSHIELD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_SUB",
+    "level": 49,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "magic_attack": 1048,
+        "crest_slot": 0,
+        "ele_slot": 16
+    },
+    "params": [],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7882,
+            "amount": 2
+        },
+        {
+            "item_id": 8014,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 1856,
+    "next_item_id": 3902
+}

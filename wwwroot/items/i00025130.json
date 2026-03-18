@@ -1,0 +1,64 @@
+{
+    "type": "equipment",
+    "item_id": 25130,
+    "name": "Hero's Snipe Arrow",
+    "info": "",
+    "icon": {
+        "icon_id": 2700,
+        "color_id": 11
+    },
+    "jobs": [
+        "Hunter"
+    ],
+    "sell_price": 49500,
+    "weight": 77,
+    "item_level": 150,
+    "crest_slots": 1,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 5,
+    "weapon_type": "ARCHISTAFF",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 115,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 4162,
+        "magic_attack": 3820,
+        "crest_slot": 0,
+        "ele_slot": 9
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 786
+        },
+        {
+            "id": 85,
+            "name": "BLOW_POWER_BBLUNT",
+            "value": 5
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        },
+        {
+            "id": 32,
+            "name": "MAX_LOADED_ARROWS",
+            "value": 30
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 25526,
+            "amount": 4
+        }
+    ],
+    "previous_item_id": 25129,
+    "next_item_id": 25131
+}

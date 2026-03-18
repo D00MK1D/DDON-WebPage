@@ -1,0 +1,55 @@
+{
+    "type": "equipment",
+    "item_id": 5124,
+    "name": "Copper Lorica",
+    "info": "",
+    "icon": {
+        "icon_id": 117,
+        "color_id": 5
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 105,
+    "weight": 70,
+    "item_level": 2,
+    "crest_slots": 1,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 1,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 6,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 48,
+        "magic_attack": 0,
+        "magic_defense": 42,
+        "crest_slot": 0,
+        "ele_slot": 33
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 5
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 108
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 4101,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

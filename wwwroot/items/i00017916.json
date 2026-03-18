@@ -1,0 +1,34 @@
+{
+    "type": "material",
+    "item_id": 17916,
+    "name": "Misleading Twig",
+    "info": "Wood Crafting Material:\nBranches of a tree that grow into a specific\nshape.\nThose who use them as markers will become lost on\nthe path.",
+    "icon": {
+        "icon_id": 509,
+        "color_id": 4
+    },
+    "jobs": [],
+    "sell_price": 900,
+    "weight": 0,
+    "item_level": 95,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Feryana Wilderness",
+        "Feryana Wilderness: Dark Path to the Secret Spring",
+        "Feryana Wilderness: Ogina's Domination Area",
+        "Feryana Wilderness: Restless Water Channel",
+        "Feryana Wilderness: Royal Family's Secret Path",
+        "Feryana Wilderness: Shrine of the Eternal Blaze",
+        "Feryana Wilderness: Thundering Roar Cave",
+        "Hidell Plains: False Remains"
+    ],
+    "hunt": [],
+    "subtype": "lumber"
+}

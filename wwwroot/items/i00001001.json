@@ -1,0 +1,86 @@
+{
+    "type": "equipment",
+    "item_id": 1001,
+    "name": "White Legs",
+    "info": "",
+    "icon": {
+        "icon_id": 796,
+        "color_id": 8
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 1150,
+    "weight": 5,
+    "item_level": 8,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 20,
+    "equip_slot": "EQUIP_CATEGORY_WEAR_LEG",
+    "level": 40,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 36,
+        "magic_attack": 0,
+        "magic_defense": 36,
+        "crest_slot": 0,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 18
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 177
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7928,
+            "amount": 5
+        },
+        {
+            "item_id": 7815,
+            "amount": 3
+        },
+        {
+            "item_id": 7881,
+            "amount": 3
+        },
+        {
+            "item_id": 8014,
+            "amount": 2
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7777,
+            "amount": 1
+        },
+        {
+            "item_id": 7761,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 2613
+}

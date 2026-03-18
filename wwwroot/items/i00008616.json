@@ -1,0 +1,63 @@
+{
+    "type": "equipment",
+    "item_id": 8616,
+    "name": "Virgo Camisole",
+    "info": "",
+    "icon": {
+        "icon_id": 776,
+        "color_id": 9
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 1500,
+    "weight": 5,
+    "item_level": 9,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 4,
+    "equip_slot": "EQUIP_CATEGORY_WEAR_BODY",
+    "level": 43,
+    "genders": [
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 59,
+        "magic_attack": 0,
+        "magic_defense": 59,
+        "crest_slot": 4,
+        "ele_slot": 24
+    },
+    "params": [
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 303
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7740,
+            "amount": 1
+        },
+        {
+            "item_id": 7941,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 8615,
+    "next_item_id": 8617
+}

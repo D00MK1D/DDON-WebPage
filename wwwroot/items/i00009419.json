@@ -1,0 +1,42 @@
+{
+    "type": "consumable",
+    "item_id": 9419,
+    "name": "Special Mushroom Dip",
+    "info": "A dish using mushrooms as the main ingredient\nBestows various buffs upon eating",
+    "icon": {
+        "icon_id": 457,
+        "color_id": 4
+    },
+    "jobs": [],
+    "sell_price": 350,
+    "weight": 0,
+    "item_level": 8,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "max_stack": 10,
+    "craft_recipe": [
+        {
+            "item_id": 9415,
+            "amount": 1
+        },
+        {
+            "item_id": 8000,
+            "amount": 1
+        },
+        {
+            "item_id": 7990,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Deenan Woods: Divine Blossom Terrace",
+        "Deenan Woods: Erte Deenan",
+        "Deenan Woods: Moonlight Terrace"
+    ],
+    "hunt": []
+}

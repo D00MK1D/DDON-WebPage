@@ -1,0 +1,47 @@
+{
+    "type": "equipment",
+    "item_id": 12375,
+    "name": "Olfring Shooter (Earth)",
+    "info": "",
+    "icon": {
+        "icon_id": 1481,
+        "color_id": 82
+    },
+    "jobs": [
+        "ElementArcher"
+    ],
+    "sell_price": 5000,
+    "weight": 60,
+    "item_level": 11,
+    "crest_slots": 4,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 1,
+    "weapon_type": "GREATSWORD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 1,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1027,
+        "magic_attack": 1178,
+        "crest_slot": 4,
+        "ele_slot": 36
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 188
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

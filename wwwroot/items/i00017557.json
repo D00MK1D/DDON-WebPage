@@ -1,0 +1,58 @@
+{
+    "type": "equipment",
+    "item_id": 17557,
+    "name": "Nobility's Spear",
+    "info": "",
+    "icon": {
+        "icon_id": 1695,
+        "color_id": 10
+    },
+    "jobs": [
+        "SpiritLancer"
+    ],
+    "sell_price": 31968,
+    "weight": 115,
+    "item_level": 80,
+    "crest_slots": 1,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 3,
+    "weapon_type": "SPIRIT_LANCE",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 80,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 2261,
+        "magic_attack": 2164,
+        "crest_slot": 0,
+        "ele_slot": 9
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 436
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 17870,
+            "amount": 3
+        },
+        {
+            "item_id": 17861,
+            "amount": 3
+        }
+    ],
+    "previous_item_id": 17556,
+    "next_item_id": 17558
+}

@@ -1,0 +1,25 @@
+{
+    "type": "consumable",
+    "item_id": 18818,
+    "name": "Orb of Portcrystal and Area Rank Unlock",
+    "info": "Unlock all Portcrystals in the areas \"Lestania,\"\n\"Bloodbane Isle,\" and \"Phyndim\" up to Season 2 and\nincrease the rank of each area to level 10.\n<COL ffdc78>*This will be added to NPC \"Joseph's\"\nmenu.</COL>",
+    "icon": {
+        "icon_id": 2014,
+        "color_id": 1
+    },
+    "jobs": [],
+    "sell_price": 0,
+    "weight": 0,
+    "item_level": 1,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "max_stack": 1,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

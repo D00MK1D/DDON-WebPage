@@ -1,0 +1,69 @@
+{
+    "type": "equipment",
+    "item_id": 493,
+    "name": "Supply Bottoms",
+    "info": "",
+    "icon": {
+        "icon_id": 375,
+        "color_id": 5
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 0,
+    "weight": 54,
+    "item_level": 1,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 20,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 1,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 10,
+        "magic_attack": 0,
+        "magic_defense": 8,
+        "crest_slot": 4,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 4
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7917,
+            "amount": 1
+        },
+        {
+            "item_id": 7824,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7773,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 2105
+}

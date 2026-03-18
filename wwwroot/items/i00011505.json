@@ -1,0 +1,32 @@
+{
+    "type": "material",
+    "item_id": 11505,
+    "name": "Ice Cube",
+    "info": "Ore Crafting Material:\nA jagged and brittle mineral infused with cold\nenergy.",
+    "icon": {
+        "icon_id": 488,
+        "color_id": 116
+    },
+    "jobs": [],
+    "sell_price": 600,
+    "weight": 0,
+    "item_level": 15,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": true,
+    "craft_recipe": [
+        {
+            "item_id": 11504,
+            "amount": 20
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Bloodbane Isle: Frigid Ancient Passage"
+    ],
+    "hunt": [],
+    "subtype": "regional"
+}

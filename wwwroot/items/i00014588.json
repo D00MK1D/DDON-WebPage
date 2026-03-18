@@ -1,0 +1,57 @@
+{
+    "type": "equipment",
+    "item_id": 14588,
+    "name": "Spell of Tribe",
+    "info": "",
+    "icon": {
+        "icon_id": 1673,
+        "color_id": 10
+    },
+    "jobs": [
+        "ElementArcher"
+    ],
+    "sell_price": 25925,
+    "weight": 60,
+    "item_level": 45,
+    "crest_slots": 1,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 23,
+    "weapon_type": "GREATSWORD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 72,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1738,
+        "magic_attack": 1906,
+        "crest_slot": 4,
+        "ele_slot": 9
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 271
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 15913,
+            "amount": 3
+        },
+        {
+            "item_id": 15915,
+            "amount": 3
+        },
+        {
+            "item_id": 15917,
+            "amount": 3
+        }
+    ],
+    "previous_item_id": 14587,
+    "next_item_id": 14589
+}

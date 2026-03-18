@@ -1,0 +1,73 @@
+{
+    "type": "equipment",
+    "item_id": 15329,
+    "name": "Ocean's Arms",
+    "info": "",
+    "icon": {
+        "icon_id": 56,
+        "color_id": 11
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 8439,
+    "weight": 34,
+    "item_level": 55,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 5,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 75,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1,
+        "defense": 359,
+        "magic_attack": 1,
+        "magic_defense": 299,
+        "crest_slot": 4,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 23
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 16117,
+            "amount": 1
+        },
+        {
+            "item_id": 15963,
+            "amount": 3
+        },
+        {
+            "item_id": 15936,
+            "amount": 2
+        },
+        {
+            "item_id": 15937,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 15929,
+            "amount": 3
+        },
+        {
+            "item_id": 15931,
+            "amount": 3
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 15330
+}

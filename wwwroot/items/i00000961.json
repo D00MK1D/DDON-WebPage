@@ -1,0 +1,74 @@
+{
+    "type": "equipment",
+    "item_id": 961,
+    "name": "Lively Bottoms",
+    "info": "",
+    "icon": {
+        "icon_id": 375,
+        "color_id": 6
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 250,
+    "weight": 54,
+    "item_level": 4,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 1,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 16,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 32,
+        "magic_attack": 0,
+        "magic_defense": 25,
+        "crest_slot": 0,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 16
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 193
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7936,
+            "amount": 2
+        },
+        {
+            "item_id": 7985,
+            "amount": 2
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7975,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 2573
+}

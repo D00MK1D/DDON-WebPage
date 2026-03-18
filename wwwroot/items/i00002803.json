@@ -1,0 +1,62 @@
+{
+    "type": "equipment",
+    "item_id": 2803,
+    "name": "Mark of the Arisen",
+    "info": "",
+    "icon": {
+        "icon_id": 861,
+        "color_id": 8
+    },
+    "jobs": [
+        "Fighter"
+    ],
+    "sell_price": 3202,
+    "weight": 40,
+    "item_level": 8,
+    "crest_slots": 0,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 3,
+    "weapon_type": "SHIELD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_SUB",
+    "level": 40,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "magic_attack": 0,
+        "crest_slot": 0,
+        "ele_slot": 16
+    },
+    "params": [
+        {
+            "id": 87,
+            "name": "GUARD_POWER",
+            "value": 266
+        },
+        {
+            "id": 30,
+            "name": "BLOCKING_STAMINA_REDUCTION",
+            "value": 20
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 10999,
+            "amount": 1
+        },
+        {
+            "item_id": 7779,
+            "amount": 1
+        },
+        {
+            "item_id": 7888,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 1780,
+    "next_item_id": 3826
+}

@@ -1,0 +1,50 @@
+{
+    "type": "equipment",
+    "item_id": 2470,
+    "name": "Virtue Helm",
+    "info": "",
+    "icon": {
+        "icon_id": 314,
+        "color_id": 9
+    },
+    "jobs": [
+        "ShieldSage",
+        "Alchemist",
+        "HighScepter"
+    ],
+    "sell_price": 3240,
+    "weight": 36,
+    "item_level": 9,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 23,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_HELM",
+    "level": 45,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 133,
+        "magic_attack": 0,
+        "magic_defense": 214,
+        "crest_slot": 4,
+        "ele_slot": 8
+    },
+    "params": [],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7842,
+            "amount": 1
+        },
+        {
+            "item_id": 7970,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 858,
+    "next_item_id": 3493
+}

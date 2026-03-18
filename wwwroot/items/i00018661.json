@@ -1,0 +1,35 @@
+{
+    "type": "material",
+    "item_id": 18661,
+    "name": "Beast-Luring Meat",
+    "info": "Meat Crafting Material: A piece of meat that has\nbeen processed to emit a strong odor, attracting\nanimals.",
+    "icon": {
+        "icon_id": 463,
+        "color_id": 105
+    },
+    "jobs": [],
+    "sell_price": 500,
+    "weight": 0,
+    "item_level": 80,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Rathnite Foothills: Beastmaster's Garden",
+        "Rathnite Foothills: Demon Army Camp",
+        "Rathnite Foothills: Demon Army War Machine Garrison",
+        "Rathnite Foothills: Deserted Village of Denisyr",
+        "Rathnite Foothills: Dewdrop Crater",
+        "Rathnite Foothills: Feryana Border Checkpoint",
+        "Rathnite Foothills: Former Rest Station",
+        "Rathnite Foothills: Goblin Lookout",
+        "Rathnite Foothills: The Howling Front"
+    ],
+    "hunt": [],
+    "subtype": "meat"
+}

@@ -1,5 +1,6 @@
 ﻿@attribute [Authorize]
 @using DDON_WebPage.Components.Data
+@using DDON_WebPage.Components.Layout
 @using DDON_WebPage.Components.Dialogs
 @using Microsoft.AspNetCore.Authorization
 @using Microsoft.AspNetCore.Components.Authorization
@@ -12,11 +13,12 @@
 @inject IDialogService DialogService
 
 @page "/Player"
+@layout PlayerLayout
 
 <PageTitle>DDON - Player Page</PageTitle>
 
 <MudTabs Elevation="0" Rounded="true" ApplyEffectsToContainer="true" Class="pa-2">
-    <MudTabPanel Text="Account Info">
+    <MudTabPanel Text="Account">
         <MudPaper Class="pa-6 my-4 mx-auto" Style="max-width:600px;">
             <MudText Typo="Typo.h5" Align="Align.Center" Class="mb-4">@UserName's Account Info</MudText>
 
@@ -90,7 +92,7 @@
         </MudPaper>
     </MudTabPanel>
 
-    <MudTabPanel Text="Character info">
+    <MudTabPanel Text="Arisen">
 
         @foreach (var charGroup in listArisens.Where(x => x.playerId == player.Id).GroupBy(x => x.charId))
         {
@@ -322,7 +324,10 @@
 
     private void CancelEdits()
     {
+        if (_enableEditMail)
         EditMail(); 
+
+        if(_enableEditPassword)
         EditPassword();
     }
 
@@ -449,7 +454,7 @@
     private async Task DialogCharInfo(int charId)
     {
         var parameters = new DialogParameters<CharInfoDialog> { { x => x.charId, charId } };
-        var dialog = await DialogService.ShowAsync<CharInfoDialog>("Character Info", parameters);
+        var dialog = await DialogService.ShowAsync<CharInfoDialog>("",parameters);
         var result = await dialog.Result;
     }
 }

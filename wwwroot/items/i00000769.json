@@ -1,0 +1,82 @@
+{
+    "type": "equipment",
+    "item_id": 769,
+    "name": "Divine Robe",
+    "info": "",
+    "icon": {
+        "icon_id": 148,
+        "color_id": 9
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 4940,
+    "weight": 70,
+    "item_level": 9,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 4,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 43,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 206,
+        "magic_attack": 0,
+        "magic_defense": 183,
+        "crest_slot": 4,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 19
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 855
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7947,
+            "amount": 3
+        },
+        {
+            "item_id": 7832,
+            "amount": 2
+        },
+        {
+            "item_id": 7996,
+            "amount": 10
+        },
+        {
+            "item_id": 7784,
+            "amount": 3
+        },
+        {
+            "item_id": 8009,
+            "amount": 5
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7940,
+            "amount": 1
+        },
+        {
+            "item_id": 7992,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 2381
+}

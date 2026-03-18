@@ -1,0 +1,43 @@
+{
+    "type": "equipment",
+    "item_id": 5208,
+    "name": "Fiend's Helmet",
+    "info": "",
+    "icon": {
+        "icon_id": 277,
+        "color_id": 8
+    },
+    "jobs": [
+        "Fighter",
+        "Warrior"
+    ],
+    "sell_price": 1640,
+    "weight": 45,
+    "item_level": 7,
+    "crest_slots": 0,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_HELM",
+    "level": 32,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 86,
+        "magic_attack": 0,
+        "magic_defense": 138,
+        "crest_slot": 4,
+        "ele_slot": 32
+    },
+    "params": [],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 4185,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

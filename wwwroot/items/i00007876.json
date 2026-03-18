@@ -1,0 +1,36 @@
+{
+    "type": "material",
+    "subtype": "Ingots",
+    "item_id": 7876,
+    "name": "Bronze Ingot",
+    "info": "Metal Crafting Material:\nA chunk of bronze refined from bronze ore.",
+    "icon": {
+        "icon_id": 491,
+        "color_id": 1
+    },
+    "jobs": [],
+    "sell_price": 10,
+    "weight": 0,
+    "item_level": 1,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [
+        {
+            "item_id": 7858,
+            "amount": 2
+        },
+        {
+            "item_id": 7750,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Hidell Plains: Hidell Catacombs"
+    ],
+    "hunt": []
+}

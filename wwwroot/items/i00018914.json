@@ -1,0 +1,49 @@
+{
+    "type": "equipment",
+    "item_id": 18914,
+    "name": "True Rose Tones",
+    "info": "",
+    "icon": {
+        "icon_id": 1609,
+        "color_id": 111
+    },
+    "jobs": [
+        "Fighter"
+    ],
+    "sell_price": 27416,
+    "weight": 60,
+    "item_level": 125,
+    "crest_slots": 1,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 5,
+    "weapon_type": "SWORD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 1,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 3427,
+        "magic_attack": 3164,
+        "crest_slot": 4,
+        "ele_slot": 33
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 651
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0
+}

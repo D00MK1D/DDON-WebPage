@@ -1,0 +1,62 @@
+{
+    "type": "equipment",
+    "item_id": 109,
+    "name": "Magic in the Cage",
+    "info": "",
+    "icon": {
+        "icon_id": 1032,
+        "color_id": 6
+    },
+    "jobs": [
+        "Sorcerer"
+    ],
+    "sell_price": 985,
+    "weight": 140,
+    "item_level": 3,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 0,
+    "weapon_type": "MAGICK_GAUNTLET",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 14,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 174,
+        "magic_attack": 375,
+        "crest_slot": 4,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 123
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7873,
+            "amount": 2
+        },
+        {
+            "item_id": 7916,
+            "amount": 1
+        },
+        {
+            "item_id": 7803,
+            "amount": 2
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7897,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 1721
+}

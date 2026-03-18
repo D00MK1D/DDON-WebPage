@@ -1,0 +1,61 @@
+{
+    "type": "equipment",
+    "item_id": 2485,
+    "name": "Tracer's Jacket",
+    "info": "",
+    "icon": {
+        "icon_id": 195,
+        "color_id": 8
+    },
+    "jobs": [
+        "ShieldSage",
+        "Alchemist",
+        "HighScepter"
+    ],
+    "sell_price": 3630,
+    "weight": 90,
+    "item_level": 8,
+    "crest_slots": 1,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 36,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 163,
+        "magic_attack": 0,
+        "magic_defense": 145,
+        "crest_slot": 0,
+        "ele_slot": 9
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 16
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 703
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7921,
+            "amount": 1
+        },
+        {
+            "item_id": 7760,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 873,
+    "next_item_id": 3508
+}

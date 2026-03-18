@@ -1,0 +1,73 @@
+{
+    "type": "equipment",
+    "item_id": 8598,
+    "name": "Twin Cross Vest",
+    "info": "",
+    "icon": {
+        "icon_id": 786,
+        "color_id": 8
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 850,
+    "weight": 5,
+    "item_level": 7,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 4,
+    "equip_slot": "EQUIP_CATEGORY_WEAR_BODY",
+    "level": 35,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 42,
+        "magic_attack": 0,
+        "magic_defense": 42,
+        "crest_slot": 4,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 227
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7945,
+            "amount": 2
+        },
+        {
+            "item_id": 7814,
+            "amount": 1
+        },
+        {
+            "item_id": 7990,
+            "amount": 5
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7733,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 8599
+}

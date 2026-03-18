@@ -1,0 +1,64 @@
+{
+    "type": "equipment",
+    "item_id": 12820,
+    "name": "Predator Gauntlets",
+    "info": "",
+    "icon": {
+        "icon_id": 1302,
+        "color_id": 111
+    },
+    "jobs": [
+        "Fighter",
+        "Warrior"
+    ],
+    "sell_price": 7351,
+    "weight": 34,
+    "item_level": 45,
+    "crest_slots": 0,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 1,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 70,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 329,
+        "magic_attack": 0,
+        "magic_defense": 274,
+        "crest_slot": 4,
+        "ele_slot": 16
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 15
+        },
+        {
+            "id": 15,
+            "name": "RESIST_KNOCKOUT",
+            "value": 4
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 11799,
+            "amount": 3
+        },
+        {
+            "item_id": 11801,
+            "amount": 3
+        },
+        {
+            "item_id": 11803,
+            "amount": 3
+        }
+    ],
+    "previous_item_id": 12819,
+    "next_item_id": 12821
+}

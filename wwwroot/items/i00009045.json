@@ -1,0 +1,62 @@
+{
+    "type": "jewlery",
+    "item_id": 9045,
+    "name": "Cofferer's Earrings",
+    "info": "",
+    "icon": {
+        "icon_id": 549,
+        "color_id": 10
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 2250,
+    "weight": 1,
+    "item_level": 11,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "level": 51,
+    "stats": {},
+    "params": [
+        {
+            "id": 10,
+            "name": "RESIST_GOLDEN",
+            "value": 3
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7861,
+            "amount": 5
+        },
+        {
+            "item_id": 7886,
+            "amount": 1
+        },
+        {
+            "item_id": 9378,
+            "amount": 2
+        },
+        {
+            "item_id": 8033,
+            "amount": 2
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

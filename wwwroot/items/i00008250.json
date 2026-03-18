@@ -1,0 +1,57 @@
+{
+    "type": "equipment",
+    "item_id": 8250,
+    "name": "Magician's Coat",
+    "info": "",
+    "icon": {
+        "icon_id": 88,
+        "color_id": 6
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 340,
+    "weight": 70,
+    "item_level": 3,
+    "crest_slots": 1,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 1,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 11,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 59,
+        "magic_attack": 0,
+        "magic_defense": 52,
+        "crest_slot": 4,
+        "ele_slot": 17
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 7
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 184
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7735,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 8249,
+    "next_item_id": 8251
+}

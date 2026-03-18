@@ -1,0 +1,57 @@
+{
+    "type": "equipment",
+    "item_id": 2398,
+    "name": "Prodigy's Shoes",
+    "info": "",
+    "icon": {
+        "icon_id": 352,
+        "color_id": 7
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 1150,
+    "weight": 36,
+    "item_level": 5,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 2,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 24,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 60,
+        "magic_attack": 0,
+        "magic_defense": 48,
+        "crest_slot": 4,
+        "ele_slot": 8
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 23
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 301
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7856,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 786,
+    "next_item_id": 3421
+}

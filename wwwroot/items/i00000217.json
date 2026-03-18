@@ -1,0 +1,74 @@
+{
+    "type": "equipment",
+    "item_id": 217,
+    "name": "Spellcasting",
+    "info": "",
+    "icon": {
+        "icon_id": 1016,
+        "color_id": 8
+    },
+    "jobs": [
+        "Priest"
+    ],
+    "sell_price": 6485,
+    "weight": 120,
+    "item_level": 8,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 2,
+    "weapon_type": "MAGICK_BOW",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 36,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 461,
+        "magic_attack": 573,
+        "crest_slot": 0,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 115
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7868,
+            "amount": 6
+        },
+        {
+            "item_id": 7814,
+            "amount": 3
+        },
+        {
+            "item_id": 7901,
+            "amount": 5
+        },
+        {
+            "item_id": 7957,
+            "amount": 2
+        },
+        {
+            "item_id": 7836,
+            "amount": 8
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7779,
+            "amount": 1
+        },
+        {
+            "item_id": 7903,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 1829
+}

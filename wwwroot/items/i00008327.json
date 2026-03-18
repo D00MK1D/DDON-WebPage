@@ -1,0 +1,54 @@
+{
+    "type": "equipment",
+    "item_id": 8327,
+    "name": "Bronze Sabatons",
+    "info": "",
+    "icon": {
+        "icon_id": 355,
+        "color_id": 6
+    },
+    "jobs": [
+        "Fighter",
+        "Warrior"
+    ],
+    "sell_price": 240,
+    "weight": 72,
+    "item_level": 3,
+    "crest_slots": 0,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 11,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 37,
+        "magic_attack": 0,
+        "magic_defense": 29,
+        "crest_slot": 4,
+        "ele_slot": 32
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 15
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 132
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 8326,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

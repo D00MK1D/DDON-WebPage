@@ -1,0 +1,54 @@
+{
+    "type": "equipment",
+    "item_id": 1677,
+    "name": "Makhaira",
+    "info": "",
+    "icon": {
+        "icon_id": 830,
+        "color_id": 6
+    },
+    "jobs": [
+        "Fighter"
+    ],
+    "sell_price": 488,
+    "weight": 80,
+    "item_level": 3,
+    "crest_slots": 1,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 2,
+    "weapon_type": "SWORD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 11,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 257,
+        "magic_attack": 112,
+        "crest_slot": 4,
+        "ele_slot": 9
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 63
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7798,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 65,
+    "next_item_id": 2700
+}

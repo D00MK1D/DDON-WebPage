@@ -1,0 +1,47 @@
+{
+    "type": "equipment",
+    "item_id": 20205,
+    "name": "Fierte Rod",
+    "info": "",
+    "icon": {
+        "icon_id": 2314,
+        "color_id": 11
+    },
+    "jobs": [
+        "ShieldSage"
+    ],
+    "sell_price": 9388,
+    "weight": 48,
+    "item_level": 118,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 23,
+    "weapon_type": "GREATSHIELD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_SUB",
+    "level": 100,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "magic_attack": 3132,
+        "crest_slot": 0,
+        "ele_slot": 0
+    },
+    "params": [],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 21277,
+            "amount": 1
+        },
+        {
+            "item_id": 21392,
+            "amount": 10
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 20206
+}

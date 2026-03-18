@@ -1,0 +1,69 @@
+{
+    "type": "equipment",
+    "item_id": 580,
+    "name": "Foul Greaves",
+    "info": "",
+    "icon": {
+        "icon_id": 345,
+        "color_id": 8
+    },
+    "jobs": [
+        "Fighter",
+        "Warrior"
+    ],
+    "sell_price": 2310,
+    "weight": 90,
+    "item_level": 7,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 2,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 34,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 84,
+        "magic_attack": 0,
+        "magic_defense": 67,
+        "crest_slot": 4,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 31
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 442
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7883,
+            "amount": 2
+        },
+        {
+            "item_id": 7815,
+            "amount": 3
+        },
+        {
+            "item_id": 7903,
+            "amount": 2
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7864,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 2192
+}

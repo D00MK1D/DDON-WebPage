@@ -1,0 +1,60 @@
+{
+    "type": "equipment",
+    "item_id": 4597,
+    "name": "Gloves of Sacred Protection",
+    "info": "",
+    "icon": {
+        "icon_id": 82,
+        "color_id": 10
+    },
+    "jobs": [
+        "ShieldSage",
+        "Alchemist",
+        "HighScepter"
+    ],
+    "sell_price": 5015,
+    "weight": 45,
+    "item_level": 12,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 5,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 58,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 235,
+        "magic_attack": 0,
+        "magic_defense": 196,
+        "crest_slot": 0,
+        "ele_slot": 24
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 12
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 9445,
+            "amount": 1
+        },
+        {
+            "item_id": 9439,
+            "amount": 1
+        },
+        {
+            "item_id": 7913,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 3574,
+    "next_item_id": 5620
+}

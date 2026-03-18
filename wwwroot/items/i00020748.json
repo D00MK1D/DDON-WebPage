@@ -1,0 +1,68 @@
+{
+    "type": "equipment",
+    "item_id": 20748,
+    "name": "Crimson Leather Coat",
+    "info": "",
+    "icon": {
+        "icon_id": 2223,
+        "color_id": 84
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 50000,
+    "weight": 70,
+    "item_level": 106,
+    "crest_slots": 4,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 1,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 90,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 6,
+        "defense": 811,
+        "magic_attack": 6,
+        "magic_defense": 721,
+        "crest_slot": 0,
+        "ele_slot": 36
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 43
+        },
+        {
+            "id": 43,
+            "name": "DARK_RESIST",
+            "value": 5
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 1217
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

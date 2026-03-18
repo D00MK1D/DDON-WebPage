@@ -1,0 +1,72 @@
+{
+    "type": "equipment",
+    "item_id": 14447,
+    "name": "Rod of the Seven Stars",
+    "info": "",
+    "icon": {
+        "icon_id": 919,
+        "color_id": 10
+    },
+    "jobs": [
+        "ShieldSage"
+    ],
+    "sell_price": 12802,
+    "weight": 40,
+    "item_level": 65,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 4,
+    "weapon_type": "GREATSHIELD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_SUB",
+    "level": 80,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "magic_attack": 2079,
+        "crest_slot": 4,
+        "ele_slot": 0
+    },
+    "params": [],
+    "craft_recipe": [
+        {
+            "item_id": 16007,
+            "amount": 1
+        },
+        {
+            "item_id": 15982,
+            "amount": 1
+        },
+        {
+            "item_id": 15984,
+            "amount": 1
+        },
+        {
+            "item_id": 15986,
+            "amount": 1
+        },
+        {
+            "item_id": 16010,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 15981,
+            "amount": 1
+        },
+        {
+            "item_id": 15983,
+            "amount": 1
+        },
+        {
+            "item_id": 15985,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 14448
+}

@@ -1,0 +1,40 @@
+{
+    "type": "consumable",
+    "item_id": 10673,
+    "name": "Unspecified Crest",
+    "info": "You can obtain some \"crest\" items.",
+    "icon": {
+        "icon_id": 1164,
+        "color_id": 1
+    },
+    "jobs": [],
+    "sell_price": 0,
+    "weight": 0,
+    "item_level": 0,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "max_stack": 99,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Betland Plains: Foul Water Channel",
+        "Deenan Woods: Elnea Spring",
+        "Deenan Woods: Forest People's Tunnel",
+        "Dowe Valley: Dreed Watchtower",
+        "Dowe Valley: White Sands Riverbank",
+        "Eastern Zandora: Dead Lord's Labyrinth",
+        "Eastern Zandora: Garden of Curses",
+        "Eastern Zandora: Zandora Lighthouse",
+        "Mergoda Ruins: Elixir Refining Chamber",
+        "Mergoda Ruins: Mergan Alchemdia",
+        "Mysree Grove: Lair of the Holy Beast",
+        "Northern Betland Plains: Gardnox Patrol Area",
+        "Northern Betland Plains: Tegor Flood Control Channel",
+        "Zandora Wastelands: Twin Wheel Valley"
+    ],
+    "hunt": []
+}

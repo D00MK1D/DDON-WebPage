@@ -1,0 +1,27 @@
+{
+    "type": "material",
+    "item_id": 17881,
+    "name": "Bone Pearl",
+    "info": "Gem Crafting Material.\nBio-minerals with bones as their core.\nThey are treated as gems due to their beautiful\nluster.",
+    "icon": {
+        "icon_id": 2098,
+        "color_id": 105
+    },
+    "jobs": [],
+    "sell_price": 15000,
+    "weight": 0,
+    "item_level": 85,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": [
+        "Level 80+ Maneater"
+    ],
+    "subtype": "gemstones"
+}

@@ -1,0 +1,64 @@
+{
+    "type": "equipment",
+    "item_id": 18267,
+    "name": "Emine Plate",
+    "info": "",
+    "icon": {
+        "icon_id": 1924,
+        "color_id": 11
+    },
+    "jobs": [
+        "Fighter",
+        "Warrior"
+    ],
+    "sell_price": 19917,
+    "weight": 71,
+    "item_level": 95,
+    "crest_slots": 1,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 3,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 88,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 5,
+        "defense": 721,
+        "magic_attack": 5,
+        "magic_defense": 641,
+        "crest_slot": 4,
+        "ele_slot": 25
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 38
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 1155
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 17893,
+            "amount": 2
+        },
+        {
+            "item_id": 17927,
+            "amount": 4
+        },
+        {
+            "item_id": 19648,
+            "amount": 4
+        }
+    ],
+    "previous_item_id": 18266,
+    "next_item_id": 18268
+}

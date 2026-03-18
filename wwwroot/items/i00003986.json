@@ -1,0 +1,53 @@
+{
+    "type": "equipment",
+    "item_id": 3986,
+    "name": "Archistaff of the Evil Eye",
+    "info": "",
+    "icon": {
+        "icon_id": 1031,
+        "color_id": 10
+    },
+    "jobs": [
+        "Sorcerer"
+    ],
+    "sell_price": 13010,
+    "weight": 80,
+    "item_level": 11,
+    "crest_slots": 1,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 3,
+    "weapon_type": "MAGICK_GAUNTLET",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 53,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1006,
+        "magic_attack": 1246,
+        "crest_slot": 4,
+        "ele_slot": 25
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 325
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7740,
+            "amount": 2
+        },
+        {
+            "item_id": 7730,
+            "amount": 3
+        }
+    ],
+    "previous_item_id": 2963,
+    "next_item_id": 5009
+}

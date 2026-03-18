@@ -1,0 +1,63 @@
+{
+    "type": "equipment",
+    "item_id": 2281,
+    "name": "Old Age Jacket",
+    "info": "",
+    "icon": {
+        "icon_id": 164,
+        "color_id": 10
+    },
+    "jobs": [
+        "Hunter"
+    ],
+    "sell_price": 8780,
+    "weight": 90,
+    "item_level": 12,
+    "crest_slots": 1,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 3,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 60,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 371,
+        "magic_attack": 0,
+        "magic_defense": 330,
+        "crest_slot": 0,
+        "ele_slot": 9
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 26
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 1125
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7909,
+            "amount": 1
+        },
+        {
+            "item_id": 9441,
+            "amount": 1
+        },
+        {
+            "item_id": 11011,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 669,
+    "next_item_id": 3304
+}

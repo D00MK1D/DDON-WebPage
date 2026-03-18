@@ -1,0 +1,69 @@
+{
+    "type": "equipment",
+    "item_id": 12940,
+    "name": "Predator Cuisses",
+    "info": "",
+    "icon": {
+        "icon_id": 1347,
+        "color_id": 111
+    },
+    "jobs": [
+        "Fighter",
+        "Warrior"
+    ],
+    "sell_price": 9189,
+    "weight": 42,
+    "item_level": 45,
+    "crest_slots": 0,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 1,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 70,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 274,
+        "magic_attack": 0,
+        "magic_defense": 219,
+        "crest_slot": 4,
+        "ele_slot": 16
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 60
+        },
+        {
+            "id": 15,
+            "name": "RESIST_KNOCKOUT",
+            "value": 3
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 750
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 11799,
+            "amount": 3
+        },
+        {
+            "item_id": 11801,
+            "amount": 3
+        },
+        {
+            "item_id": 11803,
+            "amount": 3
+        }
+    ],
+    "previous_item_id": 12939,
+    "next_item_id": 12941
+}

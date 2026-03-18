@@ -1,0 +1,27 @@
+{
+    "type": "material",
+    "item_id": 11778,
+    "name": "Frost Metal",
+    "info": "Metal Crafting Material\nContained in the armor of Frost Machina, a metal\nmass that reaches ultra-low temperatures, enough\nto frost over.",
+    "icon": {
+        "icon_id": 488,
+        "color_id": 101
+    },
+    "jobs": [],
+    "sell_price": 952,
+    "weight": 0,
+    "item_level": 25,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": [
+        "Level 1+ Frost Machina"
+    ],
+    "subtype": "ingots"
+}

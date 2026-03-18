@@ -1,0 +1,62 @@
+{
+    "type": "equipment",
+    "item_id": 5087,
+    "name": "Animus",
+    "info": "",
+    "icon": {
+        "icon_id": 970,
+        "color_id": 10
+    },
+    "jobs": [
+        "Alchemist"
+    ],
+    "sell_price": 28130,
+    "weight": 80,
+    "item_level": 50,
+    "crest_slots": 1,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 2,
+    "weapon_type": "DAGGER",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 75,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1895,
+        "magic_attack": 1790,
+        "crest_slot": 0,
+        "ele_slot": 33
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 401
+        },
+        {
+            "id": 53,
+            "name": "INFLICT_GOLDEN",
+            "value": 45
+        },
+        {
+            "id": 61,
+            "name": "INFLICT_HOLY_RES_DOWN",
+            "value": 60
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 4064,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

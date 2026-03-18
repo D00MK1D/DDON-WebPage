@@ -1,0 +1,101 @@
+{
+    "type": "equipment",
+    "item_id": 186,
+    "name": "Griffinsbane",
+    "info": "",
+    "icon": {
+        "icon_id": 945,
+        "color_id": 8
+    },
+    "jobs": [
+        "Hunter"
+    ],
+    "sell_price": 7610,
+    "weight": 70,
+    "item_level": 8,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 4,
+    "weapon_type": "ARCHISTAFF",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 40,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 690,
+        "magic_attack": 467,
+        "crest_slot": 0,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 161
+        },
+        {
+            "id": 85,
+            "name": "BLOW_POWER_BBLUNT",
+            "value": 5
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        },
+        {
+            "id": 32,
+            "name": "MAX_LOADED_ARROWS",
+            "value": 32
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7814,
+            "amount": 3
+        },
+        {
+            "item_id": 7758,
+            "amount": 1
+        },
+        {
+            "item_id": 7904,
+            "amount": 4
+        },
+        {
+            "item_id": 7807,
+            "amount": 2
+        },
+        {
+            "item_id": 11000,
+            "amount": 3
+        },
+        {
+            "item_id": 11001,
+            "amount": 3
+        },
+        {
+            "item_id": 11002,
+            "amount": 3
+        },
+        {
+            "item_id": 11003,
+            "amount": 2
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7814,
+            "amount": 1
+        },
+        {
+            "item_id": 7888,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 1798
+}

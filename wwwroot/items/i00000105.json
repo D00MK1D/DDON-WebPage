@@ -1,0 +1,58 @@
+{
+    "type": "equipment",
+    "item_id": 105,
+    "name": "Guide Wand",
+    "info": "",
+    "icon": {
+        "icon_id": 1028,
+        "color_id": 5
+    },
+    "jobs": [
+        "Sorcerer"
+    ],
+    "sell_price": 0,
+    "weight": 80,
+    "item_level": 1,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 0,
+    "weapon_type": "MAGICK_GAUNTLET",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 1,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 23,
+        "magic_attack": 181,
+        "crest_slot": 4,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 45
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7961,
+            "amount": 2
+        },
+        {
+            "item_id": 7834,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7893,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 1717
+}

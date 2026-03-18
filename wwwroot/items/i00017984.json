@@ -1,0 +1,49 @@
+{
+    "type": "equipment",
+    "item_id": 17984,
+    "name": "Guard of Ghirkud",
+    "info": "",
+    "icon": {
+        "icon_id": 1365,
+        "color_id": 11
+    },
+    "jobs": [
+        "Fighter"
+    ],
+    "sell_price": 37794,
+    "weight": 42,
+    "item_level": 95,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 1,
+    "weapon_type": "SHIELD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_SUB",
+    "level": 88,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "magic_attack": 0,
+        "crest_slot": 4,
+        "ele_slot": 24
+    },
+    "params": [
+        {
+            "id": 87,
+            "name": "GUARD_POWER",
+            "value": 457
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 19648,
+            "amount": 5
+        }
+    ],
+    "previous_item_id": 17983,
+    "next_item_id": 17985
+}

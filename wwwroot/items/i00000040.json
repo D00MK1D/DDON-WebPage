@@ -1,0 +1,44 @@
+{
+    "type": "consumable",
+    "item_id": 40,
+    "name": "Petrification Cure",
+    "info": "Cures the user of the specified\nstatus debilitations.",
+    "icon": {
+        "icon_id": 435,
+        "color_id": 5
+    },
+    "jobs": [],
+    "sell_price": 75,
+    "weight": 0,
+    "item_level": 9,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "max_stack": 10,
+    "craft_recipe": [
+        {
+            "item_id": 7865,
+            "amount": 1
+        },
+        {
+            "item_id": 7991,
+            "amount": 1
+        },
+        {
+            "item_id": 7829,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Betland Plains: Foul Water Channel",
+        "Deenan Woods: Erte Deenan",
+        "Deenan Woods: Fairy's Withered Well",
+        "Deenan Woods: Le Karvas Arma",
+        "Deenan Woods: Sacred Tree Terrace"
+    ],
+    "hunt": []
+}

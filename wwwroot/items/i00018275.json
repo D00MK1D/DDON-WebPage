@@ -1,0 +1,61 @@
+{
+    "type": "equipment",
+    "item_id": 18275,
+    "name": "Magnus Robe",
+    "info": "",
+    "icon": {
+        "icon_id": 160,
+        "color_id": 10
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 18869,
+    "weight": 73,
+    "item_level": 90,
+    "crest_slots": 1,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 5,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 85,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 4,
+        "defense": 683,
+        "magic_attack": 4,
+        "magic_defense": 607,
+        "crest_slot": 0,
+        "ele_slot": 9
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 36
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 1116
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 17916,
+            "amount": 6
+        },
+        {
+            "item_id": 17869,
+            "amount": 6
+        }
+    ],
+    "previous_item_id": 18274,
+    "next_item_id": 18276
+}

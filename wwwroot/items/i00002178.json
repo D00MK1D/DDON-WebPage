@@ -1,0 +1,60 @@
+{
+    "type": "equipment",
+    "item_id": 2178,
+    "name": "Fenrir Armor",
+    "info": "",
+    "icon": {
+        "icon_id": 184,
+        "color_id": 9
+    },
+    "jobs": [
+        "Fighter",
+        "Warrior"
+    ],
+    "sell_price": 5670,
+    "weight": 90,
+    "item_level": 9,
+    "crest_slots": 1,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 23,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 45,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 240,
+        "magic_attack": 0,
+        "magic_defense": 214,
+        "crest_slot": 4,
+        "ele_slot": 9
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 20
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 900
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7780,
+            "amount": 1
+        },
+        {
+            "item_id": 7831,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 566,
+    "next_item_id": 3201
+}

@@ -1,0 +1,54 @@
+{
+    "type": "equipment",
+    "item_id": 20403,
+    "name": "Rousing Schlucht Scimitar",
+    "info": "",
+    "icon": {
+        "icon_id": 2364,
+        "color_id": 11
+    },
+    "jobs": [
+        "HighScepter"
+    ],
+    "sell_price": 45655,
+    "weight": 80,
+    "item_level": 115,
+    "crest_slots": 1,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 0,
+    "weapon_type": "MAGICK_SWORD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 98,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 3173,
+        "magic_attack": 3173,
+        "crest_slot": 4,
+        "ele_slot": 9
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 616
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 17876,
+            "amount": 10
+        }
+    ],
+    "previous_item_id": 20402,
+    "next_item_id": 20404
+}

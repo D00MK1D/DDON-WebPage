@@ -1,0 +1,36 @@
+{
+    "type": "material",
+    "item_id": 7856,
+    "name": "Marble",
+    "info": "Ore Crafting Material: Stone with a moist and\nheavy texture, adorned with subtle, intricate\npatterns.",
+    "icon": {
+        "icon_id": 488,
+        "color_id": 3
+    },
+    "jobs": [],
+    "sell_price": 127,
+    "weight": 0,
+    "item_level": 5,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Breya Coast",
+        "Dowe Valley: Abandoned Boneyard",
+        "Dowe Valley: Fort's Old Well",
+        "Dowe Valley: Underground Side Entrance",
+        "Mysree Forest: Lynwood Underground Waterway",
+        "Volden Mines",
+        "Volden Mines: Bandit Hideaway",
+        "Volden Mines: Miners' Secret Route",
+        "Volden Mines: Southern Wall Fissure",
+        "Volden Mines: Volden Narrow Tunnels"
+    ],
+    "hunt": [],
+    "subtype": "ore"
+}

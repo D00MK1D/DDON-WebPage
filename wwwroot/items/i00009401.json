@@ -1,0 +1,37 @@
+{
+    "type": "consumable",
+    "item_id": 9401,
+    "name": "Enhanced Pickaxe",
+    "info": "Used to harvest materials from ore veins.\nHas a chance to break upon use.",
+    "icon": {
+        "icon_id": 447,
+        "color_id": 4
+    },
+    "jobs": [],
+    "sell_price": 30,
+    "weight": 0,
+    "item_level": 7,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "max_stack": 10,
+    "craft_recipe": [
+        {
+            "item_id": 7874,
+            "amount": 1
+        },
+        {
+            "item_id": 57,
+            "amount": 2
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Deenan Woods: Le Karvas Salto",
+        "Dowe Valley: Sealed Old Well"
+    ],
+    "hunt": []
+}

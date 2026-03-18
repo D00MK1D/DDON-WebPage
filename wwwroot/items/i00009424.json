@@ -1,0 +1,42 @@
+{
+    "type": "consumable",
+    "item_id": 9424,
+    "name": "Rousing Steak",
+    "info": "A dish full of vigor using meat.\nEating has various beneficial effects.",
+    "icon": {
+        "icon_id": 458,
+        "color_id": 5
+    },
+    "jobs": [],
+    "sell_price": 450,
+    "weight": 0,
+    "item_level": 10,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "max_stack": 10,
+    "craft_recipe": [
+        {
+            "item_id": 9420,
+            "amount": 1
+        },
+        {
+            "item_id": 7842,
+            "amount": 1
+        },
+        {
+            "item_id": 7983,
+            "amount": 1
+        },
+        {
+            "item_id": 7995,
+            "amount": 2
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

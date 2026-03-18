@@ -1,0 +1,49 @@
+{
+    "type": "equipment",
+    "item_id": 15840,
+    "name": "Polished Spell",
+    "info": "",
+    "icon": {
+        "icon_id": 1671,
+        "color_id": 11
+    },
+    "jobs": [
+        "ElementArcher"
+    ],
+    "sell_price": 1000,
+    "weight": 60,
+    "item_level": 25,
+    "crest_slots": 1,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 23,
+    "weapon_type": "GREATSWORD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 1,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1523,
+        "magic_attack": 1684,
+        "crest_slot": 4,
+        "ele_slot": 17
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 244
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 13811,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 15839,
+    "next_item_id": 15841
+}

@@ -1,0 +1,58 @@
+{
+    "type": "jewlery",
+    "item_id": 8981,
+    "name": "Blue Leaf Ring",
+    "info": "",
+    "icon": {
+        "icon_id": 704,
+        "color_id": 8
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 900,
+    "weight": 1,
+    "item_level": 7,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "level": 31,
+    "stats": {},
+    "params": [
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 30
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7979,
+            "amount": 5
+        },
+        {
+            "item_id": 7968,
+            "amount": 4
+        },
+        {
+            "item_id": 8953,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

@@ -1,0 +1,55 @@
+{
+    "type": "equipment",
+    "item_id": 18428,
+    "name": "Aura Poleyn",
+    "info": "",
+    "icon": {
+        "icon_id": 357,
+        "color_id": 10
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 13463,
+    "weight": 42,
+    "item_level": 90,
+    "crest_slots": 0,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 1,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 85,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 4,
+        "defense": 383,
+        "magic_attack": 4,
+        "magic_defense": 307,
+        "crest_slot": 0,
+        "ele_slot": 32
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 82
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 718
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 18427,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

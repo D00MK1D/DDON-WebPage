@@ -1,0 +1,56 @@
+{
+    "type": "equipment",
+    "item_id": 17637,
+    "name": "Gelmez Armor",
+    "info": "",
+    "icon": {
+        "icon_id": 150,
+        "color_id": 11
+    },
+    "jobs": [
+        "Fighter",
+        "Warrior"
+    ],
+    "sell_price": 18060,
+    "weight": 98,
+    "item_level": 85,
+    "crest_slots": 1,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 5,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 83,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 4,
+        "defense": 657,
+        "magic_attack": 4,
+        "magic_defense": 584,
+        "crest_slot": 4,
+        "ele_slot": 9
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 36
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 850
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 17907,
+            "amount": 3
+        }
+    ],
+    "previous_item_id": 17636,
+    "next_item_id": 17638
+}

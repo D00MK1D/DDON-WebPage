@@ -1,0 +1,27 @@
+{
+    "type": "material",
+    "item_id": 18893,
+    "name": "Golden Palm Fiber",
+    "info": "Appraisal Exchange Material.\nFiber obtained from golden shining coconuts.\nIn addition to its dazzling color, it is supple\nand sturdy.",
+    "icon": {
+        "icon_id": 503,
+        "color_id": 17
+    },
+    "jobs": [],
+    "sell_price": 100,
+    "weight": 0,
+    "item_level": 70,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Breya Coast"
+    ],
+    "hunt": [],
+    "subtype": "thread"
+}

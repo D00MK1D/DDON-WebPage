@@ -1,0 +1,27 @@
+{
+    "type": "material",
+    "item_id": 11779,
+    "name": "Reconnaissance Medal",
+    "info": "The honorable emblem that is only awarded to\nthose who have achieved great feats in Bloodbane\nIsle.\nIt can be used as a crafting material for\nspecific equipment.",
+    "icon": {
+        "icon_id": 524,
+        "color_id": 20
+    },
+    "jobs": [],
+    "sell_price": 1000,
+    "weight": 0,
+    "item_level": 25,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [
+        "Bloodbane Isle Area Points Weekly Rewards"
+    ],
+    "gather": [],
+    "hunt": [],
+    "subtype": "other"
+}

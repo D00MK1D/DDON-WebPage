@@ -1,0 +1,61 @@
+{
+    "type": "equipment",
+    "item_id": 17533,
+    "name": "Ara Cane",
+    "info": "",
+    "icon": {
+        "icon_id": 1025,
+        "color_id": 11
+    },
+    "jobs": [
+        "Priest"
+    ],
+    "sell_price": 34270,
+    "weight": 77,
+    "item_level": 85,
+    "crest_slots": 1,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 3,
+    "weapon_type": "MAGICK_BOW",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 83,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 2166,
+        "magic_attack": 2305,
+        "crest_slot": 4,
+        "ele_slot": 17
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 354
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 17907,
+            "amount": 5
+        },
+        {
+            "item_id": 17908,
+            "amount": 1
+        },
+        {
+            "item_id": 17879,
+            "amount": 3
+        },
+        {
+            "item_id": 17856,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 17532,
+    "next_item_id": 17534
+}

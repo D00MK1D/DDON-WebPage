@@ -1,0 +1,24 @@
+{
+    "type": "material",
+    "item_id": 21332,
+    "name": "Merit Medal (Stag)",
+    "info": "Medal awarded to those who achieve high results\nin the War Mission \"Forest of Mist\".",
+    "icon": {
+        "icon_id": 2380,
+        "color_id": 5
+    },
+    "jobs": [],
+    "sell_price": 0,
+    "weight": 0,
+    "item_level": 110,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

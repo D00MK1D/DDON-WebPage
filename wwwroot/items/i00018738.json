@@ -1,0 +1,28 @@
+{
+    "type": "material",
+    "item_id": 18738,
+    "name": "Eye Ore",
+    "info": "Ore Crafting Material: Ore with patterns that\nresemble eyeballs.",
+    "icon": {
+        "icon_id": 1992,
+        "color_id": 5
+    },
+    "jobs": [],
+    "sell_price": 100,
+    "weight": 0,
+    "item_level": 80,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Rathnite Foothills",
+        "Rathnite Foothills: Rathnite Foothills Lakeside"
+    ],
+    "hunt": [],
+    "subtype": "ore"
+}

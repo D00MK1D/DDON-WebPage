@@ -1,0 +1,60 @@
+{
+    "type": "equipment",
+    "item_id": 20532,
+    "name": "Cuivre Arms",
+    "info": "",
+    "icon": {
+        "icon_id": 1551,
+        "color_id": 11
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 12495,
+    "weight": 35,
+    "item_level": 105,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 93,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 6,
+        "defense": 539,
+        "magic_attack": 6,
+        "magic_defense": 449,
+        "crest_slot": 4,
+        "ele_slot": 24
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 31
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 21229,
+            "amount": 1
+        },
+        {
+            "item_id": 21224,
+            "amount": 4
+        },
+        {
+            "item_id": 21235,
+            "amount": 4
+        }
+    ],
+    "previous_item_id": 20531,
+    "next_item_id": 20533
+}

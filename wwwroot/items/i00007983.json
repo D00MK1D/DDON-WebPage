@@ -1,0 +1,35 @@
+{
+    "type": "material",
+    "item_id": 7983,
+    "name": "King Bay Leaf",
+    "info": "Floral Crafting Material: A famous herb known as\nthe leaf that celebrates victory.",
+    "icon": {
+        "icon_id": 510,
+        "color_id": 4
+    },
+    "jobs": [],
+    "sell_price": 250,
+    "weight": 0,
+    "item_level": 8,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Deenan Woods",
+        "Deenan Woods: Divine Blossom Terrace",
+        "Deenan Woods: Erte Deenan",
+        "Deenan Woods: Le Karvas Patiro",
+        "Deenan Woods: Le Karvas Salto",
+        "Deenan Woods: Moonlight Terrace",
+        "Farana Plains: Sacred River Ruins",
+        "Mysree Grove: Dark Green Terrace",
+        "Mysree Grove: Greenleaf Terrace"
+    ],
+    "hunt": [],
+    "subtype": "plants"
+}

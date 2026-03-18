@@ -1,0 +1,47 @@
+{
+    "type": "equipment",
+    "item_id": 17453,
+    "name": "Nobility's Rod",
+    "info": "",
+    "icon": {
+        "icon_id": 920,
+        "color_id": 10
+    },
+    "jobs": [
+        "ShieldSage"
+    ],
+    "sell_price": 6394,
+    "weight": 44,
+    "item_level": 80,
+    "crest_slots": 0,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 3,
+    "weapon_type": "GREATSHIELD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_SUB",
+    "level": 80,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "magic_attack": 2193,
+        "crest_slot": 0,
+        "ele_slot": 16
+    },
+    "params": [],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 17867,
+            "amount": 1
+        },
+        {
+            "item_id": 17872,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 17452,
+    "next_item_id": 17454
+}

@@ -1,0 +1,57 @@
+{
+    "type": "equipment",
+    "item_id": 25213,
+    "name": "Savage Courage Ranger Scimitar",
+    "info": "",
+    "icon": {
+        "icon_id": 2360,
+        "color_id": 11
+    },
+    "jobs": [
+        "HighScepter"
+    ],
+    "sell_price": 48500,
+    "weight": 63,
+    "item_level": 140,
+    "crest_slots": 1,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 4,
+    "weapon_type": "MAGICK_SWORD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 105,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 3671,
+        "magic_attack": 3671,
+        "crest_slot": 0,
+        "ele_slot": 33
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 701
+        },
+        {
+            "id": 85,
+            "name": "BLOW_POWER_BBLUNT",
+            "value": 5
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 25212,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

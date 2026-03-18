@@ -1,0 +1,46 @@
+{
+    "type": "equipment",
+    "item_id": 3259,
+    "name": "Headgear",
+    "info": "",
+    "icon": {
+        "icon_id": 293,
+        "color_id": 6
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 640,
+    "weight": 18,
+    "item_level": 4,
+    "crest_slots": 0,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 1,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_HELM",
+    "level": 20,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 53,
+        "magic_attack": 0,
+        "magic_defense": 84,
+        "crest_slot": 0,
+        "ele_slot": 16
+    },
+    "params": [],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7775,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 2236,
+    "next_item_id": 4282
+}

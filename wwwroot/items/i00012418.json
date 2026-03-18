@@ -1,0 +1,58 @@
+{
+    "type": "equipment",
+    "item_id": 12418,
+    "name": "White Glide",
+    "info": "",
+    "icon": {
+        "icon_id": 1385,
+        "color_id": 111
+    },
+    "jobs": [
+        "Priest"
+    ],
+    "sell_price": 21130,
+    "weight": 50,
+    "item_level": 30,
+    "crest_slots": 1,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 23,
+    "weapon_type": "MAGICK_BOW",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 65,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1400,
+        "magic_attack": 1526,
+        "crest_slot": 0,
+        "ele_slot": 17
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 219
+        },
+        {
+            "id": 85,
+            "name": "BLOW_POWER_BBLUNT",
+            "value": 10
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 11780,
+            "amount": 4
+        },
+        {
+            "item_id": 11782,
+            "amount": 3
+        }
+    ],
+    "previous_item_id": 12417,
+    "next_item_id": 12419
+}

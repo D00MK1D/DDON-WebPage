@@ -1,0 +1,54 @@
+{
+    "type": "equipment",
+    "item_id": 9561,
+    "name": "Delusion Mask",
+    "info": "",
+    "icon": {
+        "icon_id": 284,
+        "color_id": 7
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 400,
+    "weight": 27,
+    "item_level": 5,
+    "crest_slots": 0,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 2,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_HELM",
+    "level": 23,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 48,
+        "magic_attack": 0,
+        "magic_defense": 76,
+        "crest_slot": 4,
+        "ele_slot": 16
+    },
+    "params": [],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7840,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 9560,
+    "next_item_id": 9562
+}

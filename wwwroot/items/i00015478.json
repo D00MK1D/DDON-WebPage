@@ -1,0 +1,65 @@
+{
+    "type": "equipment",
+    "item_id": 15478,
+    "name": "Dark Red Greaves",
+    "info": "",
+    "icon": {
+        "icon_id": 1355,
+        "color_id": 11
+    },
+    "jobs": [
+        "ShieldSage",
+        "Alchemist",
+        "HighScepter"
+    ],
+    "sell_price": 12001,
+    "weight": 42,
+    "item_level": 70,
+    "crest_slots": 0,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 80,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 4,
+        "defense": 343,
+        "magic_attack": 4,
+        "magic_defense": 274,
+        "crest_slot": 0,
+        "ele_slot": 32
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 77
+        },
+        {
+            "id": 13,
+            "name": "RESIST_SHOCK",
+            "value": 7
+        },
+        {
+            "id": 41,
+            "name": "THUNDER_RESIST",
+            "value": 12
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 739
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 15477,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

@@ -1,0 +1,33 @@
+{
+    "type": "material",
+    "item_id": 18650,
+    "name": "Red Garnet",
+    "info": "Gem Crafting Material.\nA beautiful gem with a deep red color.",
+    "icon": {
+        "icon_id": 494,
+        "color_id": 5
+    },
+    "jobs": [],
+    "sell_price": 500,
+    "weight": 0,
+    "item_level": 85,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Feryana Wilderness",
+        "Megadosys Plateau",
+        "Megadosys Plateau: Abhorrent Territory",
+        "Megadosys Plateau: Firefall Mountain Eroded Rock",
+        "Rathnite Foothills",
+        "Rathnite Foothills: Rathnite Foothills Lakeside",
+        "Urteca Mountains: Western Urteca Mountains"
+    ],
+    "hunt": [],
+    "subtype": "gemstones"
+}

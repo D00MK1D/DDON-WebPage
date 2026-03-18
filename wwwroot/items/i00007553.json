@@ -1,0 +1,53 @@
+{
+    "type": "consumable",
+    "item_id": 7553,
+    "name": "Superior Healing Elixir",
+    "info": "Recovers a portion of the user's health.",
+    "icon": {
+        "icon_id": 428,
+        "color_id": 4
+    },
+    "jobs": [],
+    "sell_price": 200,
+    "weight": 0,
+    "item_level": 7,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "max_stack": 10,
+    "craft_recipe": [
+        {
+            "item_id": 7552,
+            "amount": 2
+        },
+        {
+            "item_id": 7979,
+            "amount": 3
+        },
+        {
+            "item_id": 7825,
+            "amount": 2
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Betland Plains: Purified Water Section",
+        "Betland Plains: Ruins Cellar",
+        "Betland Plains: Temple of Purification",
+        "Deenan Woods: Blue Waterway",
+        "Deenan Woods: Erte Deenan",
+        "Deenan Woods: Moonlight Terrace",
+        "Deenan Woods: Sacred Tree Terrace",
+        "Dowe Valley",
+        "Dowe Valley: Cliff Tunnels",
+        "Eastern Zandora: Dead Lord's Labyrinth",
+        "Mysree Grove: Sacred Spring Terrace",
+        "Volden Mines: Bandit Hideaway",
+        "Volden Mines: Volden Large Tunnels",
+        "Zandora Wastelands: Old Underground Laboratory"
+    ],
+    "hunt": []
+}

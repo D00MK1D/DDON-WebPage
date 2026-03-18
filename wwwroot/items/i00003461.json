@@ -1,0 +1,56 @@
+{
+    "type": "equipment",
+    "item_id": 3461,
+    "name": "Aeon Bangles",
+    "info": "",
+    "icon": {
+        "icon_id": 9,
+        "color_id": 10
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 3535,
+    "weight": 23,
+    "item_level": 11,
+    "crest_slots": 0,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 4,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 52,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 198,
+        "magic_attack": 0,
+        "magic_defense": 165,
+        "crest_slot": 4,
+        "ele_slot": 16
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 11
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 8024,
+            "amount": 2
+        },
+        {
+            "item_id": 7830,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 2438,
+    "next_item_id": 4484
+}

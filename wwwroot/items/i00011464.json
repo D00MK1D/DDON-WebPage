@@ -1,0 +1,58 @@
+{
+    "type": "equipment",
+    "item_id": 11464,
+    "name": "Pioneer's Guide Wand",
+    "info": "",
+    "icon": {
+        "icon_id": 1028,
+        "color_id": 10
+    },
+    "jobs": [
+        "Sorcerer"
+    ],
+    "sell_price": 15685,
+    "weight": 80,
+    "item_level": 12,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 3,
+    "weapon_type": "MAGICK_GAUNTLET",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 55,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1124,
+        "magic_attack": 1376,
+        "crest_slot": 0,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 392
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 11784,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7965,
+            "amount": 1
+        },
+        {
+            "item_id": 7874,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 11465
+}

@@ -1,0 +1,79 @@
+{
+    "type": "equipment",
+    "item_id": 280,
+    "name": "Vouge Daggers",
+    "info": "",
+    "icon": {
+        "icon_id": 929,
+        "color_id": 7
+    },
+    "jobs": [
+        "Seeker"
+    ],
+    "sell_price": 3385,
+    "weight": 100,
+    "item_level": 6,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 2,
+    "weapon_type": "ROD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 27,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 403,
+        "magic_attack": 259,
+        "crest_slot": 0,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 60
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7882,
+            "amount": 3
+        },
+        {
+            "item_id": 7787,
+            "amount": 4
+        },
+        {
+            "item_id": 8017,
+            "amount": 3
+        },
+        {
+            "item_id": 7773,
+            "amount": 8
+        },
+        {
+            "item_id": 7955,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7864,
+            "amount": 1
+        },
+        {
+            "item_id": 7845,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 1892
+}

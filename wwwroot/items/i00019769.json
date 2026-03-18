@@ -1,0 +1,53 @@
+{
+    "type": "equipment",
+    "item_id": 19769,
+    "name": "Red Dawn's Steel Shield",
+    "info": "",
+    "icon": {
+        "icon_id": 1226,
+        "color_id": 10
+    },
+    "jobs": [
+        "Fighter"
+    ],
+    "sell_price": 7956,
+    "weight": 44,
+    "item_level": 100,
+    "crest_slots": 0,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 0,
+    "weapon_type": "SHIELD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_SUB",
+    "level": 90,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "magic_attack": 0,
+        "crest_slot": 0,
+        "ele_slot": 16
+    },
+    "params": [
+        {
+            "id": 87,
+            "name": "GUARD_POWER",
+            "value": 462
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 21214,
+            "amount": 1
+        },
+        {
+            "item_id": 21222,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 19768,
+    "next_item_id": 19770
+}

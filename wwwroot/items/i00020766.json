@@ -1,0 +1,43 @@
+{
+    "type": "equipment",
+    "item_id": 20766,
+    "name": "Courage Helm",
+    "info": "",
+    "icon": {
+        "icon_id": 235,
+        "color_id": 10
+    },
+    "jobs": [
+        "Fighter",
+        "Warrior"
+    ],
+    "sell_price": 13530,
+    "weight": 36,
+    "item_level": 110,
+    "crest_slots": 0,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 5,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_HELM",
+    "level": 95,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 6,
+        "defense": 463,
+        "magic_attack": 6,
+        "magic_defense": 741,
+        "crest_slot": 0,
+        "ele_slot": 32
+    },
+    "params": [],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

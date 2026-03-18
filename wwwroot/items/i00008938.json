@@ -1,0 +1,63 @@
+{
+    "type": "jewlery",
+    "item_id": 8938,
+    "name": "Leaf Signet Ring",
+    "info": "",
+    "icon": {
+        "icon_id": 701,
+        "color_id": 6
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 150,
+    "weight": 1,
+    "item_level": 3,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "level": 11,
+    "stats": {},
+    "params": [
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 7
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 4
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7975,
+            "amount": 3
+        },
+        {
+            "item_id": 7991,
+            "amount": 2
+        },
+        {
+            "item_id": 8934,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

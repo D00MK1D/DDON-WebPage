@@ -1,0 +1,63 @@
+{
+    "type": "jewlery",
+    "item_id": 8958,
+    "name": "Spiral Shell Earrings",
+    "info": "",
+    "icon": {
+        "icon_id": 591,
+        "color_id": 7
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 400,
+    "weight": 1,
+    "item_level": 5,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "level": 21,
+    "stats": {},
+    "params": [
+        {
+            "id": 23,
+            "name": "RESIST_PHYS_DEF_DOWN",
+            "value": 2
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 15
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 8017,
+            "amount": 2
+        },
+        {
+            "item_id": 8026,
+            "amount": 2
+        },
+        {
+            "item_id": 8933,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

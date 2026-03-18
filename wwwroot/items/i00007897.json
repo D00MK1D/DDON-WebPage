@@ -1,0 +1,31 @@
+{
+    "type": "material",
+    "item_id": 7897,
+    "name": "Amethyst",
+    "info": "Gem Crafting Material.\nA purple gem that easily contains magic.",
+    "icon": {
+        "icon_id": 494,
+        "color_id": 2
+    },
+    "jobs": [],
+    "sell_price": 37,
+    "weight": 0,
+    "item_level": 3,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Bloodbane Isle: Dried Well by the Tower",
+        "Breya Coast: Lighthouse Old Well",
+        "Breya Coast: Seaside Cellar",
+        "Hidell Plains: Blocked Passage",
+        "Mysree Forest: Lynwood Underground Waterway"
+    ],
+    "hunt": [],
+    "subtype": "gemstones"
+}

@@ -1,0 +1,56 @@
+{
+    "type": "equipment",
+    "item_id": 12854,
+    "name": "Gloves of Gloom",
+    "info": "",
+    "icon": {
+        "icon_id": 82,
+        "color_id": 10
+    },
+    "jobs": [
+        "ShieldSage",
+        "Alchemist",
+        "HighScepter"
+    ],
+    "sell_price": 5767,
+    "weight": 45,
+    "item_level": 15,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 2,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 62,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 256,
+        "magic_attack": 0,
+        "magic_defense": 213,
+        "crest_slot": 4,
+        "ele_slot": 8
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 13
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 11508,
+            "amount": 1
+        },
+        {
+            "item_id": 11504,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 12853,
+    "next_item_id": 12855
+}

@@ -1,0 +1,61 @@
+{
+    "type": "equipment",
+    "item_id": 20924,
+    "name": "Redoutable Arms",
+    "info": "",
+    "icon": {
+        "icon_id": 2220,
+        "color_id": 111
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 14280,
+    "weight": 35,
+    "item_level": 120,
+    "crest_slots": 0,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 20,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 100,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 8,
+        "defense": 594,
+        "magic_attack": 8,
+        "magic_defense": 495,
+        "crest_slot": 0,
+        "ele_slot": 16
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 33
+        },
+        {
+            "id": 28,
+            "name": "MAGMA_RESIST",
+            "value": 8
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 21279,
+            "amount": 2
+        },
+        {
+            "item_id": 21271,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 20923,
+    "next_item_id": 20925
+}

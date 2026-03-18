@@ -1,0 +1,54 @@
+{
+    "type": "equipment",
+    "item_id": 3476,
+    "name": "Ddraig Goch Frons",
+    "info": "",
+    "icon": {
+        "icon_id": 289,
+        "color_id": 8
+    },
+    "jobs": [
+        "ShieldSage",
+        "Alchemist",
+        "HighScepter"
+    ],
+    "sell_price": 2560,
+    "weight": 36,
+    "item_level": 8,
+    "crest_slots": 0,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 20,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_HELM",
+    "level": 40,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 104,
+        "magic_attack": 0,
+        "magic_defense": 166,
+        "crest_slot": 0,
+        "ele_slot": 16
+    },
+    "params": [],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 11000,
+            "amount": 1
+        },
+        {
+            "item_id": 7957,
+            "amount": 2
+        },
+        {
+            "item_id": 7820,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 2453,
+    "next_item_id": 4499
+}

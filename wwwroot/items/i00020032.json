@@ -1,0 +1,71 @@
+{
+    "type": "equipment",
+    "item_id": 20032,
+    "name": "Iriketh",
+    "info": "",
+    "icon": {
+        "icon_id": 2349,
+        "color_id": 8
+    },
+    "jobs": [
+        "HighScepter"
+    ],
+    "sell_price": 2382,
+    "weight": 84,
+    "item_level": 6,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 23,
+    "weapon_type": "MAGICK_SWORD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 30,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 482,
+        "magic_attack": 482,
+        "crest_slot": 0,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 116
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 10
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7882,
+            "amount": 3
+        },
+        {
+            "item_id": 7864,
+            "amount": 2
+        },
+        {
+            "item_id": 7766,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 9061,
+            "amount": 1
+        },
+        {
+            "item_id": 7804,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 20033
+}

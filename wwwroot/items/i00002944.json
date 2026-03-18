@@ -1,0 +1,53 @@
+{
+    "type": "equipment",
+    "item_id": 2944,
+    "name": "Eclipse",
+    "info": "",
+    "icon": {
+        "icon_id": 1035,
+        "color_id": 7
+    },
+    "jobs": [
+        "Sorcerer"
+    ],
+    "sell_price": 3385,
+    "weight": 140,
+    "item_level": 6,
+    "crest_slots": 1,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 3,
+    "weapon_type": "MAGICK_GAUNTLET",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 27,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 390,
+        "magic_attack": 611,
+        "crest_slot": 0,
+        "ele_slot": 17
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 192
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7953,
+            "amount": 1
+        },
+        {
+            "item_id": 7848,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 1921,
+    "next_item_id": 3967
+}

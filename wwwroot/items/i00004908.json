@@ -1,0 +1,47 @@
+{
+    "type": "equipment",
+    "item_id": 4908,
+    "name": "Relic-Eater",
+    "info": "",
+    "icon": {
+        "icon_id": 1026,
+        "color_id": 10
+    },
+    "jobs": [
+        "Priest"
+    ],
+    "sell_price": 13010,
+    "weight": 35,
+    "item_level": 11,
+    "crest_slots": 1,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 4,
+    "weapon_type": "MAGICK_BOW",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 53,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 962,
+        "magic_attack": 1078,
+        "crest_slot": 4,
+        "ele_slot": 33
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 164
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 3885,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

@@ -1,0 +1,83 @@
+{
+    "type": "equipment",
+    "item_id": 283,
+    "name": "Sinistra",
+    "info": "",
+    "icon": {
+        "icon_id": 936,
+        "color_id": 8
+    },
+    "jobs": [
+        "Seeker"
+    ],
+    "sell_price": 7225,
+    "weight": 30,
+    "item_level": 8,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 3,
+    "weapon_type": "ROD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 38,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 572,
+        "magic_attack": 433,
+        "crest_slot": 0,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 61
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7884,
+            "amount": 5
+        },
+        {
+            "item_id": 7820,
+            "amount": 2
+        },
+        {
+            "item_id": 7869,
+            "amount": 5
+        },
+        {
+            "item_id": 7940,
+            "amount": 2
+        },
+        {
+            "item_id": 10999,
+            "amount": 1
+        },
+        {
+            "item_id": 11000,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 8003,
+            "amount": 2
+        },
+        {
+            "item_id": 7761,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 1895
+}

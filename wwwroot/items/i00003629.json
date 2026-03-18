@@ -1,0 +1,69 @@
+{
+    "type": "equipment",
+    "item_id": 3629,
+    "name": "Struggle Pants",
+    "info": "",
+    "icon": {
+        "icon_id": 805,
+        "color_id": 9
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 1900,
+    "weight": 5,
+    "item_level": 10,
+    "crest_slots": 0,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 4,
+    "equip_slot": "EQUIP_CATEGORY_WEAR_LEG",
+    "level": 46,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 45,
+        "magic_attack": 0,
+        "magic_defense": 45,
+        "crest_slot": 0,
+        "ele_slot": 16
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 21
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 207
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7937,
+            "amount": 3
+        },
+        {
+            "item_id": 7957,
+            "amount": 3
+        }
+    ],
+    "previous_item_id": 2606,
+    "next_item_id": 4652
+}

@@ -1,0 +1,61 @@
+{
+    "type": "equipment",
+    "item_id": 3503,
+    "name": "Valiant Coat",
+    "info": "",
+    "icon": {
+        "icon_id": 193,
+        "color_id": 7
+    },
+    "jobs": [
+        "ShieldSage",
+        "Alchemist",
+        "HighScepter"
+    ],
+    "sell_price": 1895,
+    "weight": 90,
+    "item_level": 6,
+    "crest_slots": 1,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 2,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 26,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 122,
+        "magic_attack": 0,
+        "magic_defense": 108,
+        "crest_slot": 0,
+        "ele_slot": 17
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 13
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 493
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7863,
+            "amount": 1
+        },
+        {
+            "item_id": 7803,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 2480,
+    "next_item_id": 4526
+}

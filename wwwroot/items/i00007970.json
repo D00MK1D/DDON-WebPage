@@ -1,0 +1,33 @@
+{
+    "type": "material",
+    "item_id": 7970,
+    "name": "Black Wood",
+    "info": "Wood Crafting Material.\nRare lumber with a jet-black, hard surface.",
+    "icon": {
+        "icon_id": 507,
+        "color_id": 5
+    },
+    "jobs": [],
+    "sell_price": 487,
+    "weight": 0,
+    "item_level": 9,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Deenan Woods",
+        "Deenan Woods: Divine Blossom Terrace",
+        "Deenan Woods: Erte Deenan",
+        "Deenan Woods: Le Karvas Arma",
+        "Deenan Woods: Le Karvas Lotana",
+        "Northern Betland Plains",
+        "Northern Betland Plains: Gardnox Fortress"
+    ],
+    "hunt": [],
+    "subtype": "lumber"
+}

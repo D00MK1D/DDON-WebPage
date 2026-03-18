@@ -1,0 +1,62 @@
+{
+    "type": "equipment",
+    "item_id": 10189,
+    "name": "Olfring Sword (Earth)",
+    "info": "",
+    "icon": {
+        "icon_id": 1124,
+        "color_id": 82
+    },
+    "jobs": [
+        "Fighter"
+    ],
+    "sell_price": 5000,
+    "weight": 120,
+    "item_level": 6,
+    "crest_slots": 2,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 1,
+    "weapon_type": "SWORD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 1,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 482,
+        "magic_attack": 303,
+        "crest_slot": 0,
+        "ele_slot": 26
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 112
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7882,
+            "amount": 1
+        },
+        {
+            "item_id": 7903,
+            "amount": 1
+        },
+        {
+            "item_id": 7920,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 10188,
+    "next_item_id": 10190
+}

@@ -1,0 +1,66 @@
+{
+    "type": "equipment",
+    "item_id": 19968,
+    "name": "Youches' Staff",
+    "info": "",
+    "icon": {
+        "icon_id": 2333,
+        "color_id": 11
+    },
+    "jobs": [
+        "Priest"
+    ],
+    "sell_price": 42876,
+    "weight": 73,
+    "item_level": 108,
+    "crest_slots": 1,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 23,
+    "weapon_type": "MAGICK_BOW",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 95,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 2759,
+        "magic_attack": 2907,
+        "crest_slot": 0,
+        "ele_slot": 25
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 447
+        },
+        {
+            "id": 85,
+            "name": "BLOW_POWER_BBLUNT",
+            "value": 5
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 21237,
+            "amount": 8
+        },
+        {
+            "item_id": 21238,
+            "amount": 4
+        },
+        {
+            "item_id": 21231,
+            "amount": 2
+        },
+        {
+            "item_id": 21390,
+            "amount": 200
+        }
+    ],
+    "previous_item_id": 19967,
+    "next_item_id": 19969
+}

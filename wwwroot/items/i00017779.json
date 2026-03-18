@@ -1,0 +1,57 @@
+{
+    "type": "equipment",
+    "item_id": 17779,
+    "name": "Acrean Boots",
+    "info": "",
+    "icon": {
+        "icon_id": 1960,
+        "color_id": 111
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 13463,
+    "weight": 38,
+    "item_level": 90,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 20,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 85,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 5,
+        "defense": 384,
+        "magic_attack": 5,
+        "magic_defense": 307,
+        "crest_slot": 0,
+        "ele_slot": 24
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 83
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 688
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 18735,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 17778,
+    "next_item_id": 17780
+}

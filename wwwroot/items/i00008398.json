@@ -1,0 +1,66 @@
+{
+    "type": "equipment",
+    "item_id": 8398,
+    "name": "Mercenary Leg-Guards",
+    "info": "",
+    "icon": {
+        "icon_id": 364,
+        "color_id": 6
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 240,
+    "weight": 54,
+    "item_level": 3,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 11,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 28,
+        "magic_attack": 0,
+        "magic_defense": 23,
+        "crest_slot": 4,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 12
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 132
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7919,
+            "amount": 2
+        },
+        {
+            "item_id": 9060,
+            "amount": 2
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7824,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 8399
+}

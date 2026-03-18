@@ -1,0 +1,63 @@
+{
+    "type": "equipment",
+    "item_id": 2819,
+    "name": "Lustre Acanthus",
+    "info": "",
+    "icon": {
+        "icon_id": 960,
+        "color_id": 8
+    },
+    "jobs": [
+        "Hunter"
+    ],
+    "sell_price": 5785,
+    "weight": 70,
+    "item_level": 7,
+    "crest_slots": 1,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 3,
+    "weapon_type": "ARCHISTAFF",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 34,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 598,
+        "magic_attack": 383,
+        "crest_slot": 4,
+        "ele_slot": 17
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 144
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        },
+        {
+            "id": 32,
+            "name": "MAX_LOADED_ARROWS",
+            "value": 25
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7788,
+            "amount": 1
+        },
+        {
+            "item_id": 7981,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 1796,
+    "next_item_id": 3842
+}

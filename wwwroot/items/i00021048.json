@@ -1,0 +1,64 @@
+{
+    "type": "equipment",
+    "item_id": 21048,
+    "name": "Tra\u00eetre Gambeson",
+    "info": "",
+    "icon": {
+        "icon_id": 1605,
+        "color_id": 11
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 4830,
+    "weight": 13,
+    "item_level": 115,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 3,
+    "equip_slot": "EQUIP_CATEGORY_WEAR_BODY",
+    "level": 98,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 236,
+        "magic_attack": 0,
+        "magic_defense": 236,
+        "crest_slot": 4,
+        "ele_slot": 8
+    },
+    "params": [
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 461
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 21269,
+            "amount": 2
+        },
+        {
+            "item_id": 21270,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 21047,
+    "next_item_id": 21049
+}

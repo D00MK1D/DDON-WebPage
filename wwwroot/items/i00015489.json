@@ -1,0 +1,78 @@
+{
+    "type": "equipment",
+    "item_id": 15489,
+    "name": "Ocean's Legs",
+    "info": "",
+    "icon": {
+        "icon_id": 389,
+        "color_id": 11
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 10548,
+    "weight": 42,
+    "item_level": 55,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 5,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 75,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1,
+        "defense": 299,
+        "magic_attack": 1,
+        "magic_defense": 239,
+        "crest_slot": 4,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 71
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 724
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 16117,
+            "amount": 1
+        },
+        {
+            "item_id": 15967,
+            "amount": 2
+        },
+        {
+            "item_id": 15936,
+            "amount": 2
+        },
+        {
+            "item_id": 15937,
+            "amount": 2
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 15929,
+            "amount": 4
+        },
+        {
+            "item_id": 15931,
+            "amount": 4
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 15490
+}

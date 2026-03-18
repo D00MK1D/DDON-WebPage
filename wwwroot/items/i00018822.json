@@ -1,0 +1,34 @@
+{
+    "type": "material",
+    "subtype": "unappraised",
+    "item_id": 18822,
+    "name": "Unappraised Flight Trinket (General)",
+    "info": "Jewelry available in the \"Appraisal Exchange\".\nIts effect is unknown.",
+    "icon": {
+        "icon_id": 1495,
+        "color_id": 106
+    },
+    "jobs": [],
+    "sell_price": 100,
+    "weight": 0,
+    "item_level": 90,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "craft_recipe": [
+        {
+            "item_id": 18821,
+            "amount": 10
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Feryana Wilderness: Jifule Fortress",
+        "Feryana Wilderness: Restless Water Channel",
+        "Feryana Wilderness: Thundering Roar Cave"
+    ],
+    "hunt": []
+}

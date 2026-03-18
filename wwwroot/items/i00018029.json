@@ -1,0 +1,43 @@
+{
+    "type": "equipment",
+    "item_id": 18029,
+    "name": "Torch of Horos",
+    "info": "",
+    "icon": {
+        "icon_id": 1462,
+        "color_id": 11
+    },
+    "jobs": [
+        "ShieldSage"
+    ],
+    "sell_price": 37794,
+    "weight": 42,
+    "item_level": 95,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 1,
+    "weapon_type": "GREATSHIELD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_SUB",
+    "level": 88,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "magic_attack": 2567,
+        "crest_slot": 4,
+        "ele_slot": 24
+    },
+    "params": [],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 19648,
+            "amount": 5
+        }
+    ],
+    "previous_item_id": 18028,
+    "next_item_id": 18030
+}

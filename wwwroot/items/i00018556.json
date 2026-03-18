@@ -1,0 +1,67 @@
+{
+    "type": "equipment",
+    "item_id": 18556,
+    "name": "Black Venom Spell",
+    "info": "",
+    "icon": {
+        "icon_id": 2084,
+        "color_id": 82
+    },
+    "jobs": [
+        "ElementArcher"
+    ],
+    "sell_price": 30000,
+    "weight": 54,
+    "item_level": 50,
+    "crest_slots": 4,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 23,
+    "weapon_type": "GREATSWORD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 1,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1760,
+        "magic_attack": 1930,
+        "crest_slot": 0,
+        "ele_slot": 12
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 286
+        },
+        {
+            "id": 44,
+            "name": "INFLICT_POISON",
+            "value": 80
+        },
+        {
+            "id": 47,
+            "name": "INFLICT_BLIND",
+            "value": 10
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7996,
+            "amount": 1
+        },
+        {
+            "item_id": 7855,
+            "amount": 2
+        },
+        {
+            "item_id": 8024,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 18555,
+    "next_item_id": 18557
+}

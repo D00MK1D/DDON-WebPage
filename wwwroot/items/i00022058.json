@@ -1,0 +1,24 @@
+{
+    "type": "material",
+    "item_id": 22058,
+    "name": "Knockout Power +11",
+    "info": "Increase stun attack power.",
+    "icon": {
+        "icon_id": 1047,
+        "color_id": 15
+    },
+    "jobs": [],
+    "sell_price": 0,
+    "weight": 0,
+    "item_level": 1,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

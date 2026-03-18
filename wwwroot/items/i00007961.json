@@ -1,0 +1,27 @@
+{
+    "type": "material",
+    "item_id": 7961,
+    "name": "Thin Wood",
+    "info": "Wood Crafting Material: Common, thin lumber.",
+    "icon": {
+        "icon_id": 505,
+        "color_id": 1
+    },
+    "jobs": [],
+    "sell_price": 7,
+    "weight": 0,
+    "item_level": 1,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Hidell Plains"
+    ],
+    "hunt": [],
+    "subtype": "lumber"
+}

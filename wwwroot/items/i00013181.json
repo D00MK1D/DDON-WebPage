@@ -1,0 +1,70 @@
+{
+    "type": "equipment",
+    "item_id": 13181,
+    "name": "Sancto Cloak",
+    "info": "",
+    "icon": {
+        "icon_id": 203,
+        "color_id": 10
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 2940,
+    "weight": 10,
+    "item_level": 35,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 2,
+    "equip_slot": "EQUIP_CATEGORY_ACCESSORY",
+    "level": 70,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 100,
+        "magic_attack": 0,
+        "magic_defense": 100,
+        "crest_slot": 4,
+        "ele_slot": 24
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 15
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 30
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 24
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 11806,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 13180,
+    "next_item_id": 13182
+}

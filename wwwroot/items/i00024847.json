@@ -1,0 +1,21 @@
+{
+    "type": "material",
+    "item_id": 24847,
+    "name": "Cafe Coin [Six]",
+    "info": "Very small coins that can be obtained depending\non the time spent in a certain place.",
+    "icon": {
+        "icon_id": 2629,
+        "color_id": 20
+    },
+    "jobs": [],
+    "sell_price": 0,
+    "weight": 0,
+    "item_level": 15,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0
+}

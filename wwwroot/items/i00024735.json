@@ -1,0 +1,24 @@
+{
+    "type": "material",
+    "item_id": 24735,
+    "name": "Forbidden Gold Sand",
+    "info": "Sand Crafting Material.\nOccasionally found as a remnant of Mergoda's\nprosperity, this gold sand is of high purity.",
+    "icon": {
+        "icon_id": 484,
+        "color_id": 116
+    },
+    "jobs": [],
+    "sell_price": 900,
+    "weight": 0,
+    "item_level": 130,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

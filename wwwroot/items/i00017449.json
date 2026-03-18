@@ -1,0 +1,82 @@
+{
+    "type": "equipment",
+    "item_id": 17449,
+    "name": "Dival-e-Hami",
+    "info": "",
+    "icon": {
+        "icon_id": 2037,
+        "color_id": 11
+    },
+    "jobs": [
+        "ShieldSage"
+    ],
+    "sell_price": 28644,
+    "weight": 84,
+    "item_level": 90,
+    "crest_slots": 1,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 23,
+    "weapon_type": "STAFF",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 85,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 2394,
+        "magic_attack": 0,
+        "crest_slot": 0,
+        "ele_slot": 25
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 751
+        },
+        {
+            "id": 85,
+            "name": "BLOW_POWER_BBLUNT",
+            "value": 5
+        },
+        {
+            "id": 87,
+            "name": "GUARD_POWER",
+            "value": 437
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        },
+        {
+            "id": 30,
+            "name": "BLOCKING_STAMINA_REDUCTION",
+            "value": 13
+        },
+        {
+            "id": 31,
+            "name": "MAX_FORCE_STOCK",
+            "value": 5
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 17910,
+            "amount": 2
+        },
+        {
+            "item_id": 17856,
+            "amount": 1
+        },
+        {
+            "item_id": 17909,
+            "amount": 4
+        }
+    ],
+    "previous_item_id": 17448,
+    "next_item_id": 17450
+}

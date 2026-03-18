@@ -1,0 +1,42 @@
+{
+    "type": "material",
+    "item_id": 9063,
+    "name": "Coconut-Scented Milkcap",
+    "info": "Mushroom Crafting Material.\nA mushroom with a deep purple color similar to\nthe darkness of night.",
+    "icon": {
+        "icon_id": 513,
+        "color_id": 3
+    },
+    "jobs": [],
+    "sell_price": 130,
+    "weight": 0,
+    "item_level": 6,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Betland Plains: Betland Underground Passage",
+        "Betland Plains: Purified Water Section",
+        "Betland Plains: Temple of Purification",
+        "Bloodbane Isle",
+        "Bloodbane Isle: Crypt of Murmurs",
+        "Bloodbane Isle: Sunlit Underground Cave",
+        "Deenan Woods: Fairy's Withered Well",
+        "Dowe Valley: Abandoned Underground Passage",
+        "Dowe Valley: Cliff Tunnels",
+        "Eastern Zandora: Keening Well",
+        "Eastern Zandora: Shrine of Resentment",
+        "Hidell Plains: Hidell Catacombs Depths",
+        "Mysree Forest: Mysree Limestone Cave",
+        "Northern Betland Plains: Betland Underground Passage",
+        "Northern Betland Plains: Gardnox Fortress",
+        "Northern Betland Plains: Tegor Flood Control Channel"
+    ],
+    "hunt": [],
+    "subtype": "mushrooms"
+}

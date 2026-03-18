@@ -1,0 +1,32 @@
+{
+    "type": "material",
+    "item_id": 9441,
+    "name": "Sand of Reminiscence",
+    "info": "Sand Crafting Material: Sand brought by ethereal\ncreatures (LV. 55 and above) from... somewhere.",
+    "icon": {
+        "icon_id": 485,
+        "color_id": 6
+    },
+    "jobs": [],
+    "sell_price": 350,
+    "weight": 0,
+    "item_level": 12,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": [
+        "Level 55+ Shadow Goblin",
+        "Level 55+ Shadow Goblin Fighter",
+        "Level 55+ Shadow Goblin Leader",
+        "Level 55+ Shadow Harpy",
+        "Level 55+ Shadow Sling Goblin",
+        "Level 55+ Shadow Wolf"
+    ],
+    "subtype": "sand"
+}

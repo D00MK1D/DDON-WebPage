@@ -1,0 +1,47 @@
+{
+    "type": "equipment",
+    "item_id": 243,
+    "name": "Savior Borne",
+    "info": "",
+    "icon": {
+        "icon_id": 913,
+        "color_id": 9
+    },
+    "jobs": [
+        "ShieldSage"
+    ],
+    "sell_price": 4234,
+    "weight": 40,
+    "item_level": 10,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 4,
+    "weapon_type": "GREATSHIELD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_SUB",
+    "level": 47,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "magic_attack": 874,
+        "crest_slot": 0,
+        "ele_slot": 0
+    },
+    "params": [],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7862,
+            "amount": 1
+        },
+        {
+            "item_id": 7782,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 1855
+}

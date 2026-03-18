@@ -1,0 +1,69 @@
+{
+    "type": "equipment",
+    "item_id": 577,
+    "name": "Sturdy Cuisses",
+    "info": "",
+    "icon": {
+        "icon_id": 337,
+        "color_id": 7
+    },
+    "jobs": [
+        "Fighter",
+        "Warrior"
+    ],
+    "sell_price": 1570,
+    "weight": 90,
+    "item_level": 6,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 2,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 28,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 68,
+        "magic_attack": 0,
+        "magic_defense": 54,
+        "crest_slot": 0,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 26
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 355
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7882,
+            "amount": 1
+        },
+        {
+            "item_id": 7787,
+            "amount": 3
+        },
+        {
+            "item_id": 7935,
+            "amount": 2
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7856,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 2189
+}

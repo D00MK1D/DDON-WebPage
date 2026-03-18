@@ -1,0 +1,52 @@
+{
+    "type": "equipment",
+    "item_id": 19446,
+    "name": "Spell of Strife",
+    "info": "",
+    "icon": {
+        "icon_id": 1672,
+        "color_id": 85
+    },
+    "jobs": [
+        "ElementArcher"
+    ],
+    "sell_price": 50000,
+    "weight": 60,
+    "item_level": 98,
+    "crest_slots": 4,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 3,
+    "weapon_type": "GREATSWORD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 85,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 2587,
+        "magic_attack": 2771,
+        "crest_slot": 0,
+        "ele_slot": 36
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 414
+        },
+        {
+            "id": 85,
+            "name": "BLOW_POWER_BBLUNT",
+            "value": 10
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

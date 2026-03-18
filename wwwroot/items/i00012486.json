@@ -1,0 +1,74 @@
+{
+    "type": "equipment",
+    "item_id": 12486,
+    "name": "New Moon",
+    "info": "",
+    "icon": {
+        "icon_id": 1035,
+        "color_id": 10
+    },
+    "jobs": [
+        "Sorcerer"
+    ],
+    "sell_price": 24505,
+    "weight": 100,
+    "item_level": 35,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 1,
+    "weapon_type": "MAGICK_GAUNTLET",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 70,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1603,
+        "magic_attack": 1870,
+        "crest_slot": 4,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 580
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7890,
+            "amount": 7
+        },
+        {
+            "item_id": 11800,
+            "amount": 3
+        },
+        {
+            "item_id": 11802,
+            "amount": 3
+        },
+        {
+            "item_id": 11804,
+            "amount": 3
+        },
+        {
+            "item_id": 7808,
+            "amount": 4
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 11803,
+            "amount": 3
+        },
+        {
+            "item_id": 11799,
+            "amount": 3
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 12487
+}

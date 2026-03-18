@@ -1,0 +1,57 @@
+{
+    "type": "equipment",
+    "item_id": 8406,
+    "name": "Iron Legs",
+    "info": "",
+    "icon": {
+        "icon_id": 358,
+        "color_id": 6
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 650,
+    "weight": 54,
+    "item_level": 4,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 2,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 18,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 50,
+        "magic_attack": 0,
+        "magic_defense": 40,
+        "crest_slot": 0,
+        "ele_slot": 24
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 20
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 220
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7872,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 8405,
+    "next_item_id": 8407
+}

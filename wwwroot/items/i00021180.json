@@ -1,0 +1,78 @@
+{
+    "type": "equipment",
+    "item_id": 21180,
+    "name": "Selenite Leather Boots",
+    "info": "",
+    "icon": {
+        "icon_id": 2257,
+        "color_id": 85
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 10000,
+    "weight": 42,
+    "item_level": 118,
+    "crest_slots": 3,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 2,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 95,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 8,
+        "defense": 486,
+        "magic_attack": 8,
+        "magic_defense": 389,
+        "crest_slot": 0,
+        "ele_slot": 35
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 98
+        },
+        {
+            "id": 97,
+            "name": "SPIRIT_SLAYER",
+            "value": 15
+        },
+        {
+            "id": 102,
+            "name": "DRAGON_SLAYER",
+            "value": 15
+        },
+        {
+            "id": 28,
+            "name": "MAGMA_RESIST",
+            "value": 5
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 793
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

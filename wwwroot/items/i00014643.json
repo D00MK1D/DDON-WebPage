@@ -1,0 +1,67 @@
+{
+    "type": "equipment",
+    "item_id": 14643,
+    "name": "Goblin's Worship",
+    "info": "",
+    "icon": {
+        "icon_id": 1013,
+        "color_id": 10
+    },
+    "jobs": [
+        "Priest"
+    ],
+    "sell_price": 28130,
+    "weight": 70,
+    "item_level": 50,
+    "crest_slots": 1,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 0,
+    "weapon_type": "MAGICK_BOW",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 75,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1710,
+        "magic_attack": 1843,
+        "crest_slot": 0,
+        "ele_slot": 9
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 290
+        },
+        {
+            "id": 92,
+            "name": "UNDEAD_SLAYER",
+            "value": 30
+        },
+        {
+            "id": 93,
+            "name": "SKELETON_SLAYER",
+            "value": 30
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 15919,
+            "amount": 3
+        },
+        {
+            "item_id": 15921,
+            "amount": 3
+        },
+        {
+            "item_id": 15923,
+            "amount": 3
+        }
+    ],
+    "previous_item_id": 14642,
+    "next_item_id": 14644
+}

@@ -1,0 +1,66 @@
+{
+    "type": "equipment",
+    "item_id": 2851,
+    "name": "White Revelation",
+    "info": "",
+    "icon": {
+        "icon_id": 1021,
+        "color_id": 8
+    },
+    "jobs": [
+        "Priest"
+    ],
+    "sell_price": 8005,
+    "weight": 70,
+    "item_level": 8,
+    "crest_slots": 1,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 20,
+    "weapon_type": "MAGICK_BOW",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 40,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 603,
+        "magic_attack": 712,
+        "crest_slot": 0,
+        "ele_slot": 17
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 136
+        },
+        {
+            "id": 85,
+            "name": "BLOW_POWER_BBLUNT",
+            "value": 10
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 11000,
+            "amount": 1
+        },
+        {
+            "item_id": 8000,
+            "amount": 1
+        },
+        {
+            "item_id": 7820,
+            "amount": 1
+        },
+        {
+            "item_id": 8009,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 1828,
+    "next_item_id": 3874
+}

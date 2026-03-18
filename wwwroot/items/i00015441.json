@@ -1,0 +1,71 @@
+{
+    "type": "equipment",
+    "item_id": 15441,
+    "name": "Ginkgo-dyed Footwear",
+    "info": "",
+    "icon": {
+        "icon_id": 1354,
+        "color_id": 11
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 12001,
+    "weight": 42,
+    "item_level": 70,
+    "crest_slots": 0,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 80,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 2,
+        "defense": 340,
+        "magic_attack": 2,
+        "magic_defense": 272,
+        "crest_slot": 0,
+        "ele_slot": 16
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 76
+        },
+        {
+            "id": 13,
+            "name": "RESIST_SHOCK",
+            "value": 3
+        },
+        {
+            "id": 41,
+            "name": "THUNDER_RESIST",
+            "value": 12
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 732
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 15989,
+            "amount": 1
+        },
+        {
+            "item_id": 15990,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 15440,
+    "next_item_id": 15442
+}

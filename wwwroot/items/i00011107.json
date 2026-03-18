@@ -1,0 +1,83 @@
+{
+    "type": "equipment",
+    "item_id": 11107,
+    "name": "Quester Daggers",
+    "info": "",
+    "icon": {
+        "icon_id": 927,
+        "color_id": 9
+    },
+    "jobs": [
+        "Seeker"
+    ],
+    "sell_price": 9250,
+    "weight": 60,
+    "item_level": 9,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 2,
+    "weapon_type": "ROD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 43,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 679,
+        "magic_attack": 549,
+        "crest_slot": 4,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 88
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 23
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7880,
+            "amount": 3
+        },
+        {
+            "item_id": 7816,
+            "amount": 1
+        },
+        {
+            "item_id": 8020,
+            "amount": 2
+        },
+        {
+            "item_id": 7925,
+            "amount": 3
+        },
+        {
+            "item_id": 7766,
+            "amount": 6
+        },
+        {
+            "item_id": 7997,
+            "amount": 8
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7861,
+            "amount": 2
+        },
+        {
+            "item_id": 7758,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 11108
+}

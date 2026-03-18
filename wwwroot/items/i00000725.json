@@ -1,0 +1,77 @@
+{
+    "type": "equipment",
+    "item_id": 725,
+    "name": "Endless Biting",
+    "info": "",
+    "icon": {
+        "icon_id": 1051,
+        "color_id": 10
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 4325,
+    "weight": 45,
+    "item_level": 11,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 5,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 52,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 196,
+        "magic_attack": 0,
+        "magic_defense": 163,
+        "crest_slot": 4,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 11
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7800,
+            "amount": 2
+        },
+        {
+            "item_id": 7772,
+            "amount": 2
+        },
+        {
+            "item_id": 8027,
+            "amount": 6
+        },
+        {
+            "item_id": 7780,
+            "amount": 2
+        },
+        {
+            "item_id": 7943,
+            "amount": 3
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7874,
+            "amount": 1
+        },
+        {
+            "item_id": 8011,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 2337
+}

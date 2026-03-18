@@ -1,0 +1,47 @@
+{
+    "type": "equipment",
+    "item_id": 4902,
+    "name": "Staff of Magickal Destruction",
+    "info": "",
+    "icon": {
+        "icon_id": 1014,
+        "color_id": 9
+    },
+    "jobs": [
+        "Priest"
+    ],
+    "sell_price": 10130,
+    "weight": 70,
+    "item_level": 9,
+    "crest_slots": 1,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 3,
+    "weapon_type": "MAGICK_BOW",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 45,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 723,
+        "magic_attack": 833,
+        "crest_slot": 4,
+        "ele_slot": 33
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 143
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 3879,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

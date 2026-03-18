@@ -1,0 +1,56 @@
+{
+    "type": "equipment",
+    "item_id": 24366,
+    "name": "Golden Magick Gloves",
+    "info": "",
+    "icon": {
+        "icon_id": 2220,
+        "color_id": 200
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 0,
+    "weight": 36,
+    "item_level": 130,
+    "crest_slots": 0,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 3,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 100,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 9,
+        "defense": 602,
+        "magic_attack": 9,
+        "magic_defense": 502,
+        "crest_slot": 0,
+        "ele_slot": 16
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 33
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 24735,
+            "amount": 100
+        },
+        {
+            "item_id": 24737,
+            "amount": 100
+        }
+    ],
+    "previous_item_id": 24365,
+    "next_item_id": 24367
+}

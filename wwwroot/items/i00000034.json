@@ -1,0 +1,41 @@
+{
+    "type": "consumable",
+    "item_id": 34,
+    "name": "Healing Potion",
+    "info": "Recovers a portion of the user's health.",
+    "icon": {
+        "icon_id": 427,
+        "color_id": 1
+    },
+    "jobs": [],
+    "sell_price": 7,
+    "weight": 0,
+    "item_level": 1,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "max_stack": 10,
+    "craft_recipe": [
+        {
+            "item_id": 7974,
+            "amount": 3
+        },
+        {
+            "item_id": 7824,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Breya Coast",
+        "Hidell Plains",
+        "Mysree Forest",
+        "Mysree Forest: The Rift",
+        "Volden Mines",
+        "Volden Mines: Old Spring"
+    ],
+    "hunt": []
+}

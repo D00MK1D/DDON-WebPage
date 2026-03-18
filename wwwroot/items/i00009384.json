@@ -1,0 +1,42 @@
+{
+    "type": "consumable",
+    "item_id": 9384,
+    "name": "Sprite's Amulet",
+    "info": "Grants the user the\nspecified status effect.",
+    "icon": {
+        "icon_id": 436,
+        "color_id": 3
+    },
+    "jobs": [],
+    "sell_price": 100,
+    "weight": 0,
+    "item_level": 5,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "max_stack": 10,
+    "craft_recipe": [
+        {
+            "item_id": 7895,
+            "amount": 1
+        },
+        {
+            "item_id": 7977,
+            "amount": 1
+        },
+        {
+            "item_id": 8006,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Dowe Valley: Dreed Castle",
+        "Mysree Forest: Mysree Limestone Cave",
+        "Northern Betland Plains: Knights' Old Storehouse"
+    ],
+    "hunt": []
+}

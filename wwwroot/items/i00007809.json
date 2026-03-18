@@ -1,0 +1,28 @@
+{
+    "type": "material",
+    "item_id": 7809,
+    "name": "Giant Fur",
+    "info": "Fur Crafting Material: Troll's twisted and\nelongated hair.",
+    "icon": {
+        "icon_id": 476,
+        "color_id": 2
+    },
+    "jobs": [],
+    "sell_price": 50,
+    "weight": 0,
+    "item_level": 4,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": [
+        "Level 1+ Mole Troll",
+        "Level 1+ Troll"
+    ],
+    "subtype": "furs"
+}

@@ -1,0 +1,65 @@
+{
+    "type": "equipment",
+    "item_id": 18281,
+    "name": "Banded Coat of Hope",
+    "info": "",
+    "icon": {
+        "icon_id": 1317,
+        "color_id": 11
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 19917,
+    "weight": 72,
+    "item_level": 95,
+    "crest_slots": 1,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 2,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 88,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 5,
+        "defense": 718,
+        "magic_attack": 5,
+        "magic_defense": 638,
+        "crest_slot": 4,
+        "ele_slot": 17
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 38
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 1153
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 17893,
+            "amount": 2
+        },
+        {
+            "item_id": 17927,
+            "amount": 2
+        },
+        {
+            "item_id": 19648,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 18280,
+    "next_item_id": 18282
+}

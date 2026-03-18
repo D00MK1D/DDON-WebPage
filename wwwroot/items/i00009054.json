@@ -1,0 +1,83 @@
+{
+    "type": "equipment",
+    "item_id": 9054,
+    "name": "Hellfang",
+    "info": "",
+    "icon": {
+        "icon_id": 851,
+        "color_id": 8
+    },
+    "jobs": [
+        "Fighter"
+    ],
+    "sell_price": 2890,
+    "weight": 20,
+    "item_level": 8,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 3,
+    "weapon_type": "SHIELD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_SUB",
+    "level": 40,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "magic_attack": 0,
+        "crest_slot": 0,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 87,
+            "name": "GUARD_POWER",
+            "value": 252
+        },
+        {
+            "id": 30,
+            "name": "BLOCKING_STAMINA_REDUCTION",
+            "value": 15
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7884,
+            "amount": 3
+        },
+        {
+            "item_id": 7787,
+            "amount": 7
+        },
+        {
+            "item_id": 7785,
+            "amount": 2
+        },
+        {
+            "item_id": 7966,
+            "amount": 4
+        },
+        {
+            "item_id": 11001,
+            "amount": 1
+        },
+        {
+            "item_id": 11003,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7884,
+            "amount": 1
+        },
+        {
+            "item_id": 7807,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 9055
+}

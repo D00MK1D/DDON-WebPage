@@ -1,0 +1,55 @@
+{
+    "type": "equipment",
+    "item_id": 10055,
+    "name": "Lethal Pile",
+    "info": "",
+    "icon": {
+        "icon_id": 917,
+        "color_id": 9
+    },
+    "jobs": [
+        "ShieldSage"
+    ],
+    "sell_price": 4052,
+    "weight": 40,
+    "item_level": 9,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 4,
+    "weapon_type": "GREATSHIELD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_SUB",
+    "level": 45,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "magic_attack": 791,
+        "crest_slot": 4,
+        "ele_slot": 24
+    },
+    "params": [],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7799,
+            "amount": 1
+        },
+        {
+            "item_id": 11011,
+            "amount": 3
+        },
+        {
+            "item_id": 11012,
+            "amount": 2
+        },
+        {
+            "item_id": 11013,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 10054,
+    "next_item_id": 10056
+}

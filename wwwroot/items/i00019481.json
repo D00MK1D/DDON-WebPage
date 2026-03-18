@@ -1,0 +1,47 @@
+{
+    "type": "equipment",
+    "item_id": 19481,
+    "name": "Olfring Cane (Sunlight)",
+    "info": "",
+    "icon": {
+        "icon_id": 2166,
+        "color_id": 82
+    },
+    "jobs": [
+        "Priest"
+    ],
+    "sell_price": 5000,
+    "weight": 70,
+    "item_level": 40,
+    "crest_slots": 4,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 4,
+    "weapon_type": "MAGICK_BOW",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 1,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1562,
+        "magic_attack": 1691,
+        "crest_slot": 0,
+        "ele_slot": 36
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 249
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

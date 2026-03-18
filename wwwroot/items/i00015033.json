@@ -1,0 +1,83 @@
+{
+    "type": "equipment",
+    "item_id": 15033,
+    "name": "Knight Armor of Dawn",
+    "info": "",
+    "icon": {
+        "icon_id": 1393,
+        "color_id": 11
+    },
+    "jobs": [
+        "Fighter",
+        "Warrior"
+    ],
+    "sell_price": 16802,
+    "weight": 70,
+    "item_level": 70,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 80,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 2,
+        "defense": 607,
+        "magic_attack": 2,
+        "magic_defense": 539,
+        "crest_slot": 0,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 34
+        },
+        {
+            "id": 13,
+            "name": "RESIST_SHOCK",
+            "value": 1
+        },
+        {
+            "id": 41,
+            "name": "THUNDER_RESIST",
+            "value": 12
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 1125
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 15992,
+            "amount": 1
+        },
+        {
+            "item_id": 16013,
+            "amount": 2
+        },
+        {
+            "item_id": 15938,
+            "amount": 2
+        },
+        {
+            "item_id": 15939,
+            "amount": 2
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 15991,
+            "amount": 5
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 15034
+}

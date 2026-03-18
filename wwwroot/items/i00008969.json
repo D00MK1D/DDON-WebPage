@@ -1,0 +1,52 @@
+{
+    "type": "jewlery",
+    "item_id": 8969,
+    "name": "Knight's Ring",
+    "info": "",
+    "icon": {
+        "icon_id": 702,
+        "color_id": 7
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 600,
+    "weight": 1,
+    "item_level": 6,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "level": 26,
+    "stats": {},
+    "params": [],
+    "craft_recipe": [
+        {
+            "item_id": 8024,
+            "amount": 3
+        },
+        {
+            "item_id": 7828,
+            "amount": 3
+        },
+        {
+            "item_id": 8947,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

@@ -1,0 +1,35 @@
+{
+    "type": "material",
+    "item_id": 19654,
+    "name": "Unrefined Alloy Lump",
+    "info": "Metal Crafting Material: Fragments of some alloy\nprocessed item, deformed as if melted, the\noriginal form is unknown.",
+    "icon": {
+        "icon_id": 492,
+        "color_id": 105
+    },
+    "jobs": [],
+    "sell_price": 500,
+    "weight": 0,
+    "item_level": 95,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Feryana Wilderness",
+        "Feryana Wilderness: Army Demon Bird's Checkpoint",
+        "Feryana Wilderness: Army Demon's Patrol Ground",
+        "Feryana Wilderness: Demon Army Relay Station",
+        "Feryana Wilderness: Farthest Bank",
+        "Feryana Wilderness: Gate Camp",
+        "Feryana Wilderness: Ogina's Domination Area",
+        "Feryana Wilderness: Silver Hermit's Stronghold",
+        "Feryana Wilderness: Wailing Wetland"
+    ],
+    "hunt": [],
+    "subtype": "ingots"
+}

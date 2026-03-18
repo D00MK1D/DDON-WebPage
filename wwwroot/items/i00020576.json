@@ -1,0 +1,65 @@
+{
+    "type": "equipment",
+    "item_id": 20576,
+    "name": "June Robe",
+    "info": "",
+    "icon": {
+        "icon_id": 1561,
+        "color_id": 11
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 21945,
+    "weight": 72,
+    "item_level": 105,
+    "crest_slots": 1,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 93,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 6,
+        "defense": 806,
+        "magic_attack": 6,
+        "magic_defense": 716,
+        "crest_slot": 4,
+        "ele_slot": 17
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 42
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 1213
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 21229,
+            "amount": 2
+        },
+        {
+            "item_id": 21225,
+            "amount": 2
+        },
+        {
+            "item_id": 21235,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 20575,
+    "next_item_id": 20577
+}

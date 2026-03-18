@@ -1,0 +1,82 @@
+{
+    "type": "equipment",
+    "item_id": 23536,
+    "name": "Shalltear's Dress",
+    "info": "",
+    "icon": {
+        "icon_id": 2619,
+        "color_id": 19
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 10000,
+    "weight": 207,
+    "item_level": 115,
+    "crest_slots": 4,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_COSTUME",
+    "level": 1,
+    "genders": [
+        "Female"
+    ],
+    "stats": {
+        "attack": 28,
+        "defense": 2991,
+        "magic_attack": 28,
+        "magic_defense": 2992,
+        "crest_slot": 4,
+        "ele_slot": 36
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 330
+        },
+        {
+            "id": 13,
+            "name": "RESIST_SHOCK",
+            "value": 100
+        },
+        {
+            "id": 100,
+            "name": "HUMAN_SLAYER",
+            "value": 50
+        },
+        {
+            "id": 102,
+            "name": "DRAGON_SLAYER",
+            "value": 50
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 2350
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 1114
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

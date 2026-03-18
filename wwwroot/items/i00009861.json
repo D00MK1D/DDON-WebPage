@@ -1,0 +1,36 @@
+{
+    "type": "jobitem",
+    "item_id": 9861,
+    "name": "Silencer Arrow",
+    "info": "Used in attacks with a Hunter's bow and arrow.\nCauses the \"Skills Stifled\" debilitation.",
+    "icon": {
+        "icon_id": 529,
+        "color_id": 3
+    },
+    "jobs": [],
+    "sell_price": 1,
+    "weight": 0,
+    "item_level": 5,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "level": 8,
+    "stats": {},
+    "params": [],
+    "craft_recipe": [
+        {
+            "item_id": 7813,
+            "amount": 1
+        },
+        {
+            "item_id": 7977,
+            "amount": 2
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

@@ -1,0 +1,29 @@
+{
+    "type": "material",
+    "item_id": 15952,
+    "name": "Wijnruit",
+    "info": "Floral Crafting Material: Herb with a refreshing\nscent that repels insects.",
+    "icon": {
+        "icon_id": 510,
+        "color_id": 5
+    },
+    "jobs": [],
+    "sell_price": 200,
+    "weight": 0,
+    "item_level": 50,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Morrow Forest",
+        "Morrow Forest: Forest Sprite's Refuge",
+        "Morrow Forest: Morrow Old Ruins"
+    ],
+    "hunt": [],
+    "subtype": "plants"
+}

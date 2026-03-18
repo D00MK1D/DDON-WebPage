@@ -1,0 +1,58 @@
+{
+    "type": "equipment",
+    "item_id": 12347,
+    "name": "H\u00e1vam\u00e1l",
+    "info": "",
+    "icon": {
+        "icon_id": 994,
+        "color_id": 10
+    },
+    "jobs": [
+        "ElementArcher"
+    ],
+    "sell_price": 24505,
+    "weight": 60,
+    "item_level": 35,
+    "crest_slots": 1,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 4,
+    "weapon_type": "GREATSWORD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 70,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1611,
+        "magic_attack": 1776,
+        "crest_slot": 4,
+        "ele_slot": 9
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 252
+        },
+        {
+            "id": 59,
+            "name": "INFLICT_ICE_RES_DOWN",
+            "value": 50
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 11803,
+            "amount": 3
+        },
+        {
+            "item_id": 11801,
+            "amount": 3
+        }
+    ],
+    "previous_item_id": 12346,
+    "next_item_id": 12348
+}

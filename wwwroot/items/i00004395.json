@@ -1,0 +1,50 @@
+{
+    "type": "equipment",
+    "item_id": 4395,
+    "name": "Atonement Cap",
+    "info": "",
+    "icon": {
+        "icon_id": 244,
+        "color_id": 8
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 1640,
+    "weight": 27,
+    "item_level": 7,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 1,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_HELM",
+    "level": 32,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 85,
+        "magic_attack": 0,
+        "magic_defense": 136,
+        "crest_slot": 4,
+        "ele_slot": 24
+    },
+    "params": [],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7894,
+            "amount": 1
+        },
+        {
+            "item_id": 7838,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 3372,
+    "next_item_id": 5418
+}

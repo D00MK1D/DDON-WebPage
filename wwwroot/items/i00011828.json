@@ -1,0 +1,58 @@
+{
+    "type": "equipment",
+    "item_id": 11828,
+    "name": "Clunky Beak",
+    "info": "",
+    "icon": {
+        "icon_id": 840,
+        "color_id": 10
+    },
+    "jobs": [
+        "Fighter"
+    ],
+    "sell_price": 16904,
+    "weight": 120,
+    "item_level": 20,
+    "crest_slots": 1,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 1,
+    "weapon_type": "SWORD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 65,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1567,
+        "magic_attack": 1351,
+        "crest_slot": 0,
+        "ele_slot": 17
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 342
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 20
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 11766,
+            "amount": 1
+        },
+        {
+            "item_id": 11764,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 11827,
+    "next_item_id": 11829
+}

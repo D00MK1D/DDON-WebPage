@@ -1,0 +1,69 @@
+{
+    "type": "equipment",
+    "item_id": 513,
+    "name": "Scholar Cloak",
+    "info": "",
+    "icon": {
+        "icon_id": 221,
+        "color_id": 5
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 105,
+    "weight": 10,
+    "item_level": 2,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 1,
+    "equip_slot": "EQUIP_CATEGORY_ACCESSORY",
+    "level": 6,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 6,
+        "magic_attack": 0,
+        "magic_defense": 6,
+        "crest_slot": 0,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 2
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7917,
+            "amount": 2
+        },
+        {
+            "item_id": 7976,
+            "amount": 2
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7976,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 2125
+}

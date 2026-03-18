@@ -1,0 +1,64 @@
+{
+    "type": "equipment",
+    "item_id": 4466,
+    "name": "Arte Sandals",
+    "info": "",
+    "icon": {
+        "icon_id": 393,
+        "color_id": 10
+    },
+    "jobs": [
+        "Sorcerer"
+    ],
+    "sell_price": 7200,
+    "weight": 36,
+    "item_level": 12,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 22,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 60,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 214,
+        "magic_attack": 0,
+        "magic_defense": 171,
+        "crest_slot": 0,
+        "ele_slot": 24
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 53
+        },
+        {
+            "id": 10,
+            "name": "RESIST_GOLDEN",
+            "value": 5
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 772
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 9064,
+            "amount": 2
+        },
+        {
+            "item_id": 7908,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 3443,
+    "next_item_id": 5489
+}

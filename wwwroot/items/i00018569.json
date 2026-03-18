@@ -1,0 +1,57 @@
+{
+    "type": "equipment",
+    "item_id": 18569,
+    "name": "Black Venom Wand",
+    "info": "",
+    "icon": {
+        "icon_id": 2086,
+        "color_id": 82
+    },
+    "jobs": [
+        "Sorcerer"
+    ],
+    "sell_price": 30000,
+    "weight": 72,
+    "item_level": 70,
+    "crest_slots": 4,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 23,
+    "weapon_type": "MAGICK_GAUNTLET",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 1,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 2059,
+        "magic_attack": 2342,
+        "crest_slot": 0,
+        "ele_slot": 36
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 654
+        },
+        {
+            "id": 44,
+            "name": "INFLICT_POISON",
+            "value": 80
+        },
+        {
+            "id": 47,
+            "name": "INFLICT_BLIND",
+            "value": 10
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 18568,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

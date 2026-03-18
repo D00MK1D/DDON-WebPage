@@ -1,0 +1,24 @@
+{
+    "type": "material",
+    "item_id": 24818,
+    "name": "Forbidden Horn of Corruption",
+    "info": "Horn Crafting Material.\nBaphomet's horn harboring an extremely strong\nmagic that blurs the moral judgment of those who\ntouch it.",
+    "icon": {
+        "icon_id": 2928,
+        "color_id": 106
+    },
+    "jobs": [],
+    "sell_price": 900,
+    "weight": 0,
+    "item_level": 130,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

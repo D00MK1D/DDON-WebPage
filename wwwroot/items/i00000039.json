@@ -1,0 +1,34 @@
+{
+    "type": "consumable",
+    "item_id": 39,
+    "name": "Eyedrops",
+    "info": "Cures the user of the specified\nstatus debilitations.",
+    "icon": {
+        "icon_id": 433,
+        "color_id": 1
+    },
+    "jobs": [],
+    "sell_price": 20,
+    "weight": 0,
+    "item_level": 2,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "max_stack": 10,
+    "craft_recipe": [
+        {
+            "item_id": 7812,
+            "amount": 1
+        },
+        {
+            "item_id": 7824,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

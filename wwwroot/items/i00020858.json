@@ -1,0 +1,56 @@
+{
+    "type": "equipment",
+    "item_id": 20858,
+    "name": "Taciturne Gloves",
+    "info": "",
+    "icon": {
+        "icon_id": 1912,
+        "color_id": 11
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 13685,
+    "weight": 37,
+    "item_level": 115,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 3,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 98,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 7,
+        "defense": 570,
+        "magic_attack": 7,
+        "magic_defense": 475,
+        "crest_slot": 4,
+        "ele_slot": 8
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 31
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 21274,
+            "amount": 1
+        },
+        {
+            "item_id": 21273,
+            "amount": 4
+        }
+    ],
+    "previous_item_id": 20857,
+    "next_item_id": 20859
+}

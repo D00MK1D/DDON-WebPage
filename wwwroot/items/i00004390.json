@@ -1,0 +1,50 @@
+{
+    "type": "equipment",
+    "item_id": 4390,
+    "name": "Mentor's Cap",
+    "info": "",
+    "icon": {
+        "icon_id": 244,
+        "color_id": 7
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 920,
+    "weight": 27,
+    "item_level": 5,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 2,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_HELM",
+    "level": 24,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 65,
+        "magic_attack": 0,
+        "magic_defense": 104,
+        "crest_slot": 4,
+        "ele_slot": 24
+    },
+    "params": [],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7907,
+            "amount": 1
+        },
+        {
+            "item_id": 7825,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 3367,
+    "next_item_id": 5413
+}

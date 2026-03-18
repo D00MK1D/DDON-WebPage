@@ -1,0 +1,30 @@
+{
+    "type": "material",
+    "item_id": 7914,
+    "name": "Star Sphene",
+    "info": "Gem Crafting Material:\nA gem that emits various colors depending on the\nviewing angle.\nIt holds a shimmering sparkle like that of a star.",
+    "icon": {
+        "icon_id": 495,
+        "color_id": 6
+    },
+    "jobs": [],
+    "sell_price": 527,
+    "weight": 0,
+    "item_level": 11,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Bloodbane Isle: Bloodbane Isle Precipice",
+        "Bloodbane Isle: Fungal Colony Caves",
+        "Eastern Zandora: Dead Lord's Labyrinth",
+        "Zandora Wastelands: Mergoda Security District"
+    ],
+    "hunt": [],
+    "subtype": "gemstones"
+}

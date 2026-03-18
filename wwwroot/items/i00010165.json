@@ -1,0 +1,51 @@
+{
+    "type": "jobitem",
+    "item_id": 10165,
+    "name": "Gilding Elixir",
+    "info": "When an Alchemist uses \"Elixir Release\", it\ninflicts \"Golden\" abnormal status.",
+    "icon": {
+        "icon_id": 1111,
+        "color_id": 4
+    },
+    "jobs": [],
+    "sell_price": 10,
+    "weight": 0,
+    "item_level": 8,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "level": 36,
+    "stats": {},
+    "params": [
+        {
+            "id": 123,
+            "name": "MEDAL_GOLD",
+            "param_count": 1,
+            "value": [
+                25,
+                0,
+                0
+            ]
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 8033,
+            "amount": 1
+        },
+        {
+            "item_id": 7859,
+            "amount": 1
+        },
+        {
+            "item_id": 8025,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

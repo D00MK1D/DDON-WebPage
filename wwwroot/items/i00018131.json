@@ -1,0 +1,54 @@
+{
+    "type": "equipment",
+    "item_id": 18131,
+    "name": "Lance of Kapran",
+    "info": "",
+    "icon": {
+        "icon_id": 1702,
+        "color_id": 11
+    },
+    "jobs": [
+        "SpiritLancer"
+    ],
+    "sell_price": 37794,
+    "weight": 120,
+    "item_level": 95,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 1,
+    "weapon_type": "SPIRIT_LANCE",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 88,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 2608,
+        "magic_attack": 2507,
+        "crest_slot": 4,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 511
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 17876,
+            "amount": 6
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 18132
+}

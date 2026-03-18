@@ -1,0 +1,28 @@
+{
+    "type": "material",
+    "item_id": 18726,
+    "name": "Scarred Lizardscale Pelt",
+    "info": "Meat Crafting Material:\nSkin of the battle-ready Saurian, covered in old\nscars.\nThe fibers have become dense through healing the\nwounds.",
+    "icon": {
+        "icon_id": 497,
+        "color_id": 4
+    },
+    "jobs": [],
+    "sell_price": 350,
+    "weight": 0,
+    "item_level": 95,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Feryana Wilderness: Farthest Bank",
+        "Feryana Wilderness: Wailing Wetland"
+    ],
+    "hunt": [],
+    "subtype": "plets and skins"
+}

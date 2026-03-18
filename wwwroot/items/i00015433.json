@@ -1,0 +1,55 @@
+{
+    "type": "equipment",
+    "item_id": 15433,
+    "name": "Medium Boots",
+    "info": "",
+    "icon": {
+        "icon_id": 405,
+        "color_id": 10
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 11118,
+    "weight": 42,
+    "item_level": 60,
+    "crest_slots": 0,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 4,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 77,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 2,
+        "defense": 323,
+        "magic_attack": 2,
+        "magic_defense": 258,
+        "crest_slot": 0,
+        "ele_slot": 32
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 75
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 739
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 15432,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

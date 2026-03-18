@@ -1,0 +1,44 @@
+{
+    "type": "material",
+    "item_id": 9446,
+    "name": "Wind Twine",
+    "info": "String Crafting Material: High-tech, invisible\nthread that is spun incredibly thin and light.",
+    "icon": {
+        "icon_id": 502,
+        "color_id": 6
+    },
+    "jobs": [],
+    "sell_price": 790,
+    "weight": 0,
+    "item_level": 12,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [
+        {
+            "item_id": 7783,
+            "amount": 1
+        },
+        {
+            "item_id": 7803,
+            "amount": 1
+        },
+        {
+            "item_id": 7833,
+            "amount": 1
+        },
+        {
+            "item_id": 7959,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Eastern Zandora: Dead Lord's Labyrinth"
+    ],
+    "hunt": [],
+    "subtype": "thread"
+}

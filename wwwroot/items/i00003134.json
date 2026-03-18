@@ -1,0 +1,60 @@
+{
+    "type": "equipment",
+    "item_id": 3134,
+    "name": "Tunic",
+    "info": "",
+    "icon": {
+        "icon_id": 774,
+        "color_id": 5
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 0,
+    "weight": 5,
+    "item_level": 1,
+    "crest_slots": 0,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_WEAR_BODY",
+    "level": 1,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 5,
+        "magic_attack": 0,
+        "magic_defense": 5,
+        "crest_slot": 4,
+        "ele_slot": 16
+    },
+    "params": [
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 12
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7773,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 2111,
+    "next_item_id": 4157
+}

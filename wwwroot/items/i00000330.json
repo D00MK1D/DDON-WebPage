@@ -1,0 +1,74 @@
+{
+    "type": "equipment",
+    "item_id": 330,
+    "name": "Raison D'\u00eatre",
+    "info": "",
+    "icon": {
+        "icon_id": 1038,
+        "color_id": 10
+    },
+    "jobs": [
+        "Sorcerer"
+    ],
+    "sell_price": 16250,
+    "weight": 40,
+    "item_level": 12,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 4,
+    "weapon_type": "MAGICK_GAUNTLET",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 58,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1173,
+        "magic_attack": 1374,
+        "crest_slot": 0,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 363
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 9159,
+            "amount": 5
+        },
+        {
+            "item_id": 7871,
+            "amount": 2
+        },
+        {
+            "item_id": 7731,
+            "amount": 2
+        },
+        {
+            "item_id": 7742,
+            "amount": 4
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 9440,
+            "amount": 1
+        },
+        {
+            "item_id": 7731,
+            "amount": 1
+        },
+        {
+            "item_id": 7969,
+            "amount": 4
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 1942
+}

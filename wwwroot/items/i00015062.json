@@ -1,0 +1,65 @@
+{
+    "type": "equipment",
+    "item_id": 15062,
+    "name": "Azure Robe",
+    "info": "",
+    "icon": {
+        "icon_id": 1561,
+        "color_id": 111
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 16802,
+    "weight": 70,
+    "item_level": 75,
+    "crest_slots": 1,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 22,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 80,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 4,
+        "defense": 633,
+        "magic_attack": 4,
+        "magic_defense": 562,
+        "crest_slot": 4,
+        "ele_slot": 33
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 34
+        },
+        {
+            "id": 7,
+            "name": "RESIST_SKILL_STIFLING",
+            "value": 7
+        },
+        {
+            "id": 15,
+            "name": "RESIST_KNOCKOUT",
+            "value": 7
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 1192
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 15061,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

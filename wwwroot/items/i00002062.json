@@ -1,0 +1,52 @@
+{
+    "type": "equipment",
+    "item_id": 2062,
+    "name": "Worker Gloves",
+    "info": "",
+    "icon": {
+        "icon_id": 32,
+        "color_id": 5
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 30,
+    "weight": 34,
+    "item_level": 1,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 3,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 18,
+        "magic_attack": 0,
+        "magic_defense": 15,
+        "crest_slot": 4,
+        "ele_slot": 8
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 1
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7773,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 450,
+    "next_item_id": 3085
+}

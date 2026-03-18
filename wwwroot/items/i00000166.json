@@ -1,0 +1,78 @@
+{
+    "type": "equipment",
+    "item_id": 166,
+    "name": "Scarred Sentinel",
+    "info": "",
+    "icon": {
+        "icon_id": 855,
+        "color_id": 9
+    },
+    "jobs": [
+        "Fighter"
+    ],
+    "sell_price": 3700,
+    "weight": 80,
+    "item_level": 9,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 2,
+    "weapon_type": "SHIELD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_SUB",
+    "level": 43,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "magic_attack": 0,
+        "crest_slot": 4,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 87,
+            "name": "GUARD_POWER",
+            "value": 272
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7782,
+            "amount": 2
+        },
+        {
+            "item_id": 8020,
+            "amount": 2
+        },
+        {
+            "item_id": 7966,
+            "amount": 6
+        },
+        {
+            "item_id": 7884,
+            "amount": 5
+        },
+        {
+            "item_id": 7992,
+            "amount": 3
+        },
+        {
+            "item_id": 7963,
+            "amount": 10
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7964,
+            "amount": 2
+        },
+        {
+            "item_id": 7758,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 1778
+}

@@ -1,0 +1,27 @@
+{
+    "type": "material",
+    "item_id": 11012,
+    "name": "Large-Grained Sand",
+    "info": "Obtainable only in the \"Dragon's Nest,\" it is\nsand from a special ancient layer where dragon\nscales have weathered.\nIt can be used as a strengthening material for\ncertain equipment.",
+    "icon": {
+        "icon_id": 485,
+        "color_id": 28
+    },
+    "jobs": [],
+    "sell_price": 1000,
+    "weight": 0,
+    "item_level": 9,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [
+        "Goblin King in Hobolic Cave"
+    ],
+    "gather": [],
+    "hunt": [],
+    "subtype": "other"
+}

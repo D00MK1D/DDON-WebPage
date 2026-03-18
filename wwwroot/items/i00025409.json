@@ -1,0 +1,52 @@
+{
+    "type": "equipment",
+    "item_id": 25409,
+    "name": "Hero's Magic Claw",
+    "info": "",
+    "icon": {
+        "icon_id": 1301,
+        "color_id": 11
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 14400,
+    "weight": 34,
+    "item_level": 150,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 3,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 115,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 12,
+        "defense": 778,
+        "magic_attack": 12,
+        "magic_defense": 648,
+        "crest_slot": 0,
+        "ele_slot": 24
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 36
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 25529,
+            "amount": 4
+        }
+    ],
+    "previous_item_id": 25408,
+    "next_item_id": 25410
+}

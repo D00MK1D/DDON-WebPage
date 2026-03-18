@@ -1,0 +1,47 @@
+{
+    "type": "equipment",
+    "item_id": 9995,
+    "name": "Tempest",
+    "info": "",
+    "icon": {
+        "icon_id": 922,
+        "color_id": 10
+    },
+    "jobs": [
+        "ShieldSage"
+    ],
+    "sell_price": 7202,
+    "weight": 20,
+    "item_level": 12,
+    "crest_slots": 0,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 3,
+    "weapon_type": "GREATSHIELD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_SUB",
+    "level": 60,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "magic_attack": 1304,
+        "crest_slot": 0,
+        "ele_slot": 16
+    },
+    "params": [],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7913,
+            "amount": 1
+        },
+        {
+            "item_id": 7763,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 9994,
+    "next_item_id": 9996
+}

@@ -1,0 +1,55 @@
+{
+    "type": "equipment",
+    "item_id": 24248,
+    "name": "Blackshatter Light Armor",
+    "info": "",
+    "icon": {
+        "icon_id": 2922,
+        "color_id": 200
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 0,
+    "weight": 68,
+    "item_level": 135,
+    "crest_slots": 1,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 100,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 9,
+        "defense": 923,
+        "magic_attack": 9,
+        "magic_defense": 821,
+        "crest_slot": 4,
+        "ele_slot": 33
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 46
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 1297
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 24247,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

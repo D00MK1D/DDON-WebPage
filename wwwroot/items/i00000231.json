@@ -1,0 +1,78 @@
+{
+    "type": "equipment",
+    "item_id": 231,
+    "name": "Diabolic Talon",
+    "info": "",
+    "icon": {
+        "icon_id": 1018,
+        "color_id": 10
+    },
+    "jobs": [
+        "Priest"
+    ],
+    "sell_price": 15685,
+    "weight": 120,
+    "item_level": 12,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 5,
+    "weapon_type": "MAGICK_BOW",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 56,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1012,
+        "magic_attack": 1146,
+        "crest_slot": 0,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 167
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7889,
+            "amount": 5
+        },
+        {
+            "item_id": 7925,
+            "amount": 3
+        },
+        {
+            "item_id": 7932,
+            "amount": 2
+        },
+        {
+            "item_id": 7870,
+            "amount": 3
+        },
+        {
+            "item_id": 7970,
+            "amount": 8
+        },
+        {
+            "item_id": 7900,
+            "amount": 5
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 8029,
+            "amount": 2
+        },
+        {
+            "item_id": 7885,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 1843
+}

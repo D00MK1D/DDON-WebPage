@@ -1,0 +1,61 @@
+{
+    "type": "equipment",
+    "item_id": 24441,
+    "name": "Golden Magick Battle Dress",
+    "info": "",
+    "icon": {
+        "icon_id": 2233,
+        "color_id": 200
+    },
+    "jobs": [
+        "ShieldSage",
+        "Alchemist",
+        "HighScepter"
+    ],
+    "sell_price": 0,
+    "weight": 72,
+    "item_level": 130,
+    "crest_slots": 1,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 3,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 100,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 9,
+        "defense": 904,
+        "magic_attack": 9,
+        "magic_defense": 803,
+        "crest_slot": 0,
+        "ele_slot": 17
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 45
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 1283
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 24735,
+            "amount": 100
+        },
+        {
+            "item_id": 24737,
+            "amount": 100
+        }
+    ],
+    "previous_item_id": 24440,
+    "next_item_id": 24442
+}

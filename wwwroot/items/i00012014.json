@@ -1,0 +1,73 @@
+{
+    "type": "equipment",
+    "item_id": 12014,
+    "name": "Primera",
+    "info": "",
+    "icon": {
+        "icon_id": 1373,
+        "color_id": 11
+    },
+    "jobs": [
+        "ShieldSage"
+    ],
+    "sell_price": 16904,
+    "weight": 100,
+    "item_level": 25,
+    "crest_slots": 1,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 3,
+    "weapon_type": "STAFF",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 65,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1501,
+        "magic_attack": 0,
+        "crest_slot": 4,
+        "ele_slot": 25
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 451
+        },
+        {
+            "id": 87,
+            "name": "GUARD_POWER",
+            "value": 360
+        },
+        {
+            "id": 104,
+            "name": "CORRUPTED_SLAYER",
+            "value": 17
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        },
+        {
+            "id": 31,
+            "name": "MAX_FORCE_STOCK",
+            "value": 4
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 11778,
+            "amount": 1
+        },
+        {
+            "item_id": 11775,
+            "amount": 4
+        }
+    ],
+    "previous_item_id": 12013,
+    "next_item_id": 12015
+}

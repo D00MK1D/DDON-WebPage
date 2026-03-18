@@ -1,0 +1,67 @@
+{
+    "type": "equipment",
+    "item_id": 850,
+    "name": "Triumph Helm",
+    "info": "",
+    "icon": {
+        "icon_id": 240,
+        "color_id": 9
+    },
+    "jobs": [
+        "ShieldSage",
+        "Alchemist",
+        "HighScepter"
+    ],
+    "sell_price": 2820,
+    "weight": 36,
+    "item_level": 9,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 3,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_HELM",
+    "level": 43,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 114,
+        "magic_attack": 0,
+        "magic_defense": 183,
+        "crest_slot": 4,
+        "ele_slot": 0
+    },
+    "params": [],
+    "craft_recipe": [
+        {
+            "item_id": 7884,
+            "amount": 5
+        },
+        {
+            "item_id": 7866,
+            "amount": 2
+        },
+        {
+            "item_id": 7761,
+            "amount": 3
+        },
+        {
+            "item_id": 7939,
+            "amount": 3
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7857,
+            "amount": 1
+        },
+        {
+            "item_id": 7807,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 2462
+}

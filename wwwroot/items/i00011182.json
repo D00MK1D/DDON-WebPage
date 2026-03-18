@@ -1,0 +1,47 @@
+{
+    "type": "equipment",
+    "item_id": 11182,
+    "name": "Olfring Cane (Earth)",
+    "info": "",
+    "icon": {
+        "icon_id": 1150,
+        "color_id": 82
+    },
+    "jobs": [
+        "Priest"
+    ],
+    "sell_price": 5000,
+    "weight": 70,
+    "item_level": 11,
+    "crest_slots": 3,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 1,
+    "weapon_type": "MAGICK_BOW",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 15,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 984,
+        "magic_attack": 1101,
+        "crest_slot": 4,
+        "ele_slot": 35
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 162
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 11181,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

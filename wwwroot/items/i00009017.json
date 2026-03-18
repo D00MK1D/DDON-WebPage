@@ -1,0 +1,67 @@
+{
+    "type": "jewlery",
+    "item_id": 9017,
+    "name": "Tree Insignia Ring",
+    "info": "",
+    "icon": {
+        "icon_id": 718,
+        "color_id": 9
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 1500,
+    "weight": 1,
+    "item_level": 9,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "level": 41,
+    "stats": {},
+    "params": [
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 20
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 12
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7898,
+            "amount": 1
+        },
+        {
+            "item_id": 7984,
+            "amount": 4
+        },
+        {
+            "item_id": 7782,
+            "amount": 1
+        },
+        {
+            "item_id": 8989,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

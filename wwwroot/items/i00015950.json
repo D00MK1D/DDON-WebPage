@@ -1,0 +1,37 @@
+{
+    "type": "material",
+    "item_id": 15950,
+    "name": "Rotten Tree",
+    "info": "Wood Crafting Material: Soft wood that easily\ndecays and becomes a source of nutrients.",
+    "icon": {
+        "icon_id": 506,
+        "color_id": 5
+    },
+    "jobs": [],
+    "sell_price": 100,
+    "weight": 0,
+    "item_level": 45,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Farana Plains: Vegasa Corridor",
+        "Farana Plains: Vegasa Corridor Center Passage",
+        "Morrow Forest",
+        "Morrow Forest: Dark Woods Great Depths",
+        "Morrow Forest: Deserted Village of Aethrig",
+        "Morrow Forest: Forest Sprite's Refuge",
+        "Morrow Forest: Infected Basin",
+        "Morrow Forest: Northerners Infected Woods",
+        "Morrow Forest: Pixies' Camp",
+        "Morrow Forest: Sage's Gravestone",
+        "Morrow Forest: Sauzanel Infected Woods"
+    ],
+    "hunt": [],
+    "subtype": "lumber"
+}

@@ -1,0 +1,34 @@
+{
+    "type": "material",
+    "item_id": 16001,
+    "name": "Ashen Flower Rock",
+    "info": "Ore Crafting Material:\nA gray rock with small flower-like patterns\nfloating on it.",
+    "icon": {
+        "icon_id": 488,
+        "color_id": 5
+    },
+    "jobs": [],
+    "sell_price": 250,
+    "weight": 0,
+    "item_level": 65,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Farana Plains",
+        "Farana Plains: Central Farana",
+        "Farana Plains: Central Farana Sandbank",
+        "Farana Plains: Former Arena",
+        "Farana Plains: Great Wings Valley",
+        "Farana Plains: Newt Den",
+        "Farana Plains: Old Residence Ruins",
+        "Farana Plains: Sacred River Ruins"
+    ],
+    "hunt": [],
+    "subtype": "ore"
+}

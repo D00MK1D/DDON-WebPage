@@ -1,0 +1,74 @@
+{
+    "type": "equipment",
+    "item_id": 767,
+    "name": "Precious Robe",
+    "info": "",
+    "icon": {
+        "icon_id": 179,
+        "color_id": 8
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 4045,
+    "weight": 70,
+    "item_level": 8,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 1,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 38,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 171,
+        "magic_attack": 0,
+        "magic_defense": 152,
+        "crest_slot": 0,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 17
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 745
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7928,
+            "amount": 3
+        },
+        {
+            "item_id": 7758,
+            "amount": 2
+        },
+        {
+            "item_id": 7829,
+            "amount": 6
+        },
+        {
+            "item_id": 7904,
+            "amount": 2
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7814,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 2379
+}

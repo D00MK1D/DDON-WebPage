@@ -1,0 +1,53 @@
+{
+    "type": "equipment",
+    "item_id": 1844,
+    "name": "Almighty's Eye",
+    "info": "",
+    "icon": {
+        "icon_id": 1013,
+        "color_id": 10
+    },
+    "jobs": [
+        "Priest"
+    ],
+    "sell_price": 16250,
+    "weight": 70,
+    "item_level": 12,
+    "crest_slots": 1,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 5,
+    "weapon_type": "MAGICK_BOW",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 58,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1128,
+        "magic_attack": 1200,
+        "crest_slot": 0,
+        "ele_slot": 9
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 174
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 8019,
+            "amount": 2
+        },
+        {
+            "item_id": 7979,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 232,
+    "next_item_id": 2867
+}

@@ -1,0 +1,79 @@
+{
+    "type": "equipment",
+    "item_id": 14782,
+    "name": "Clear Stream",
+    "info": "",
+    "icon": {
+        "icon_id": 1702,
+        "color_id": 10
+    },
+    "jobs": [
+        "SpiritLancer"
+    ],
+    "sell_price": 24505,
+    "weight": 100,
+    "item_level": 45,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 23,
+    "weapon_type": "SPIRIT_LANCE",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 70,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1798,
+        "magic_attack": 1706,
+        "crest_slot": 4,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 331
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 9444,
+            "amount": 3
+        },
+        {
+            "item_id": 11810,
+            "amount": 10
+        },
+        {
+            "item_id": 11794,
+            "amount": 2
+        },
+        {
+            "item_id": 11800,
+            "amount": 2
+        },
+        {
+            "item_id": 11807,
+            "amount": 2
+        },
+        {
+            "item_id": 9445,
+            "amount": 3
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 11810,
+            "amount": 3
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 14783
+}

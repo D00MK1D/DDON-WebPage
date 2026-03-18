@@ -1,0 +1,78 @@
+{
+    "type": "equipment",
+    "item_id": 18477,
+    "name": "Oriental Mantle",
+    "info": "",
+    "icon": {
+        "icon_id": 1326,
+        "color_id": 11
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 4634,
+    "weight": 11,
+    "item_level": 95,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 3,
+    "equip_slot": "EQUIP_CATEGORY_ACCESSORY",
+    "level": 88,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 148,
+        "magic_attack": 0,
+        "magic_defense": 148,
+        "crest_slot": 4,
+        "ele_slot": 24
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 19
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 30
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 24
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 17893,
+            "amount": 2
+        },
+        {
+            "item_id": 17894,
+            "amount": 2
+        },
+        {
+            "item_id": 19648,
+            "amount": 4
+        }
+    ],
+    "previous_item_id": 18476,
+    "next_item_id": 18478
+}

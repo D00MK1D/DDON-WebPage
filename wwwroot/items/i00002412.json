@@ -1,0 +1,69 @@
+{
+    "type": "equipment",
+    "item_id": 2412,
+    "name": "Gallant Boots",
+    "info": "",
+    "icon": {
+        "icon_id": 405,
+        "color_id": 10
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 6050,
+    "weight": 36,
+    "item_level": 11,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 3,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 55,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 180,
+        "magic_attack": 0,
+        "magic_defense": 144,
+        "crest_slot": 4,
+        "ele_slot": 8
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 48
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 712
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7807,
+            "amount": 3
+        },
+        {
+            "item_id": 7925,
+            "amount": 3
+        },
+        {
+            "item_id": 11011,
+            "amount": 3
+        },
+        {
+            "item_id": 11012,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 800,
+    "next_item_id": 3435
+}

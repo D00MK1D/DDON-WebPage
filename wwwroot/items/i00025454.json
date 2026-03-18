@@ -1,0 +1,57 @@
+{
+    "type": "equipment",
+    "item_id": 25454,
+    "name": "Solitary Ranger's Bottoms",
+    "info": "",
+    "icon": {
+        "icon_id": 1961,
+        "color_id": 11
+    },
+    "jobs": [
+        "ShieldSage",
+        "Alchemist",
+        "HighScepter"
+    ],
+    "sell_price": 18500,
+    "weight": 43,
+    "item_level": 145,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 4,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 110,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 11,
+        "defense": 603,
+        "magic_attack": 11,
+        "magic_defense": 482,
+        "crest_slot": 4,
+        "ele_slot": 24
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 104
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 842
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 25528,
+            "amount": 5
+        }
+    ],
+    "previous_item_id": 25453,
+    "next_item_id": 25455
+}

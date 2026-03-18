@@ -1,0 +1,32 @@
+{
+    "type": "material",
+    "item_id": 18508,
+    "name": "Natural Charcoal",
+    "info": "Wood Crafting Material: Charcoal, made by slowly\nburning wood with geothermal heat.",
+    "icon": {
+        "icon_id": 507,
+        "color_id": 5
+    },
+    "jobs": [],
+    "sell_price": 1000,
+    "weight": 0,
+    "item_level": 85,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Rathnite Foothills",
+        "Rathnite Foothills: Cave of Hell's Descent",
+        "Rathnite Foothills: Goblin Lookout",
+        "Rathnite Foothills: Lakeside Grotto",
+        "Rathnite Foothills: Rathnite Foothills Lakeside",
+        "Rathnite Foothills: Reservoir Underground Tunnel"
+    ],
+    "hunt": [],
+    "subtype": "lumber"
+}

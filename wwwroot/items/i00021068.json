@@ -1,0 +1,69 @@
+{
+    "type": "equipment",
+    "item_id": 21068,
+    "name": "Revanche Pants",
+    "info": "",
+    "icon": {
+        "icon_id": 2295,
+        "color_id": 111
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 3672,
+    "weight": 7,
+    "item_level": 120,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_WEAR_LEG",
+    "level": 100,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 184,
+        "magic_attack": 0,
+        "magic_defense": 184,
+        "crest_slot": 0,
+        "ele_slot": 8
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 75
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 303
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 21393,
+            "amount": 100
+        },
+        {
+            "item_id": 21271,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 21067,
+    "next_item_id": 21069
+}

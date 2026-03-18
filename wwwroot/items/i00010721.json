@@ -1,0 +1,63 @@
+{
+    "type": "equipment",
+    "item_id": 10721,
+    "name": "Olfring Bow (Green)",
+    "info": "",
+    "icon": {
+        "icon_id": 1252,
+        "color_id": 82
+    },
+    "jobs": [
+        "Hunter"
+    ],
+    "sell_price": 5000,
+    "weight": 70,
+    "item_level": 10,
+    "crest_slots": 4,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 4,
+    "weapon_type": "ARCHISTAFF",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 1,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 768,
+        "magic_attack": 547,
+        "crest_slot": 0,
+        "ele_slot": 28
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 194
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        },
+        {
+            "id": 32,
+            "name": "MAX_LOADED_ARROWS",
+            "value": 25
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7857,
+            "amount": 1
+        },
+        {
+            "item_id": 8014,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 10720,
+    "next_item_id": 10722
+}

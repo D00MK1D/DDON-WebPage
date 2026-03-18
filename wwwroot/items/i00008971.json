@@ -1,0 +1,63 @@
+{
+    "type": "jewlery",
+    "item_id": 8971,
+    "name": "Endurance Ring",
+    "info": "",
+    "icon": {
+        "icon_id": 696,
+        "color_id": 7
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 600,
+    "weight": 1,
+    "item_level": 6,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "level": 26,
+    "stats": {},
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 2
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 7
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7903,
+            "amount": 4
+        },
+        {
+            "item_id": 7882,
+            "amount": 2
+        },
+        {
+            "item_id": 8028,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

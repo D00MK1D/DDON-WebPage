@@ -1,0 +1,34 @@
+{
+    "type": "material",
+    "item_id": 7831,
+    "name": "Blessed Drop",
+    "info": "Liquid Crafting Material.\nA mysterious droplet brimming with abundant life\nforce.",
+    "icon": {
+        "icon_id": 483,
+        "color_id": 5
+    },
+    "jobs": [],
+    "sell_price": 325,
+    "weight": 0,
+    "item_level": 9,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Betland Plains: Penitentiary",
+        "Bloodbane Isle",
+        "Deenan Woods",
+        "Deenan Woods: Erte Deenan",
+        "Mysree Grove: Misty Illusion Terrace",
+        "Zandora Wastelands",
+        "Zandora Wastelands: Mergoda Flood Channels",
+        "Zandora Wastelands: Neophyte's Cellar"
+    ],
+    "hunt": [],
+    "subtype": "liquids"
+}

@@ -1,0 +1,93 @@
+{
+    "type": "equipment",
+    "item_id": 831,
+    "name": "Astonish Arms",
+    "info": "",
+    "icon": {
+        "icon_id": 70,
+        "color_id": 9
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 3240,
+    "weight": 23,
+    "item_level": 9,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 23,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 45,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 159,
+        "magic_attack": 0,
+        "magic_defense": 132,
+        "crest_slot": 4,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 10
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7927,
+            "amount": 2
+        },
+        {
+            "item_id": 7756,
+            "amount": 1
+        },
+        {
+            "item_id": 7832,
+            "amount": 3
+        },
+        {
+            "item_id": 7741,
+            "amount": 5
+        },
+        {
+            "item_id": 7984,
+            "amount": 8
+        },
+        {
+            "item_id": 10990,
+            "amount": 3
+        },
+        {
+            "item_id": 11007,
+            "amount": 2
+        },
+        {
+            "item_id": 11000,
+            "amount": 6
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7923,
+            "amount": 1
+        },
+        {
+            "item_id": 7816,
+            "amount": 1
+        },
+        {
+            "item_id": 8020,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 2443
+}

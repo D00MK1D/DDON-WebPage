@@ -1,0 +1,74 @@
+{
+    "type": "equipment",
+    "item_id": 11891,
+    "name": "Lone Wolf Shield",
+    "info": "",
+    "icon": {
+        "icon_id": 851,
+        "color_id": 10
+    },
+    "jobs": [
+        "Fighter"
+    ],
+    "sell_price": 8980,
+    "weight": 40,
+    "item_level": 30,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 0,
+    "weapon_type": "SHIELD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_SUB",
+    "level": 67,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "magic_attack": 0,
+        "crest_slot": 0,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 87,
+            "name": "GUARD_POWER",
+            "value": 360
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 9159,
+            "amount": 5
+        },
+        {
+            "item_id": 11794,
+            "amount": 1
+        },
+        {
+            "item_id": 11790,
+            "amount": 1
+        },
+        {
+            "item_id": 11792,
+            "amount": 1
+        },
+        {
+            "item_id": 7950,
+            "amount": 2
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 11793,
+            "amount": 2
+        },
+        {
+            "item_id": 11791,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 11892
+}

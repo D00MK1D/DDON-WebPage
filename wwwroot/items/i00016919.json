@@ -1,0 +1,49 @@
+{
+    "type": "equipment",
+    "item_id": 16919,
+    "name": "Conspicuous Rusted Daggers",
+    "info": "",
+    "icon": {
+        "icon_id": 1648,
+        "color_id": 101
+    },
+    "jobs": [
+        "Seeker"
+    ],
+    "sell_price": 200,
+    "weight": 90,
+    "item_level": 1,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 23,
+    "weapon_type": "ROD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 1,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 45,
+        "magic_attack": 0,
+        "crest_slot": 4,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 15
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0
+}

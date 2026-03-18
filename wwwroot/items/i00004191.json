@@ -1,0 +1,49 @@
+{
+    "type": "equipment",
+    "item_id": 4191,
+    "name": "Gryphus Helm",
+    "info": "",
+    "icon": {
+        "icon_id": 249,
+        "color_id": 9
+    },
+    "jobs": [
+        "Fighter",
+        "Warrior"
+    ],
+    "sell_price": 2820,
+    "weight": 45,
+    "item_level": 9,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 3,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_HELM",
+    "level": 43,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 118,
+        "magic_attack": 0,
+        "magic_defense": 189,
+        "crest_slot": 4,
+        "ele_slot": 24
+    },
+    "params": [],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7925,
+            "amount": 1
+        },
+        {
+            "item_id": 7888,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 3168,
+    "next_item_id": 5214
+}

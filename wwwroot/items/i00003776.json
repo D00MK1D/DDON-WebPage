@@ -1,0 +1,53 @@
+{
+    "type": "equipment",
+    "item_id": 3776,
+    "name": "Quellenkraft",
+    "info": "",
+    "icon": {
+        "icon_id": 991,
+        "color_id": 6
+    },
+    "jobs": [
+        "ElementArcher"
+    ],
+    "sell_price": 1810,
+    "weight": 30,
+    "item_level": 4,
+    "crest_slots": 1,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 2,
+    "weapon_type": "GREATSWORD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 19,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 269,
+        "magic_attack": 402,
+        "crest_slot": 0,
+        "ele_slot": 25
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 75
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7874,
+            "amount": 1
+        },
+        {
+            "item_id": 7895,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 2753,
+    "next_item_id": 4799
+}

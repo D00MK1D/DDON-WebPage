@@ -1,0 +1,45 @@
+{
+    "type": "jewlery",
+    "item_id": 14208,
+    "name": "Bracelet of Endurance 1",
+    "info": "",
+    "icon": {
+        "icon_id": 660,
+        "color_id": 110
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 500,
+    "weight": 1,
+    "item_level": 15,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "level": 1,
+    "stats": {},
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 1
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

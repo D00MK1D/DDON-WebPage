@@ -1,0 +1,67 @@
+{
+    "type": "equipment",
+    "item_id": 639,
+    "name": "Aloni Headgear",
+    "info": "",
+    "icon": {
+        "icon_id": 250,
+        "color_id": 9
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 3385,
+    "weight": 27,
+    "item_level": 10,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 4,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_HELM",
+    "level": 46,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 133,
+        "magic_attack": 0,
+        "magic_defense": 213,
+        "crest_slot": 0,
+        "ele_slot": 0
+    },
+    "params": [],
+    "craft_recipe": [
+        {
+            "item_id": 7739,
+            "amount": 3
+        },
+        {
+            "item_id": 7756,
+            "amount": 1
+        },
+        {
+            "item_id": 7810,
+            "amount": 5
+        },
+        {
+            "item_id": 9065,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7779,
+            "amount": 1
+        },
+        {
+            "item_id": 7958,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 2251
+}

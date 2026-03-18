@@ -1,0 +1,65 @@
+{
+    "type": "equipment",
+    "item_id": 8223,
+    "name": "Half Cuirass",
+    "info": "",
+    "icon": {
+        "icon_id": 112,
+        "color_id": 6
+    },
+    "jobs": [
+        "Fighter",
+        "Warrior"
+    ],
+    "sell_price": 340,
+    "weight": 110,
+    "item_level": 3,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 11,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 51,
+        "magic_attack": 0,
+        "magic_defense": 46,
+        "crest_slot": 4,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 6
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 184
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7872,
+            "amount": 1
+        },
+        {
+            "item_id": 7773,
+            "amount": 2
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7858,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 8224
+}

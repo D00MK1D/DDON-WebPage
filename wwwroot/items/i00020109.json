@@ -1,0 +1,66 @@
+{
+    "type": "equipment",
+    "item_id": 20109,
+    "name": "Rousing Schlucht Sword",
+    "info": "",
+    "icon": {
+        "icon_id": 1612,
+        "color_id": 11
+    },
+    "jobs": [
+        "Fighter"
+    ],
+    "sell_price": 33390,
+    "weight": 63,
+    "item_level": 115,
+    "crest_slots": 1,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 0,
+    "weapon_type": "SWORD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 98,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 3203,
+        "magic_attack": 2942,
+        "crest_slot": 4,
+        "ele_slot": 25
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 626
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 21276,
+            "amount": 1
+        },
+        {
+            "item_id": 21275,
+            "amount": 9
+        },
+        {
+            "item_id": 21270,
+            "amount": 1
+        },
+        {
+            "item_id": 21267,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 20108,
+    "next_item_id": 20110
+}

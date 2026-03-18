@@ -1,0 +1,61 @@
+{
+    "type": "equipment",
+    "item_id": 24242,
+    "name": "Golden Light Armor",
+    "info": "",
+    "icon": {
+        "icon_id": 2231,
+        "color_id": 200
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 0,
+    "weight": 71,
+    "item_level": 130,
+    "crest_slots": 1,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 3,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 100,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 9,
+        "defense": 907,
+        "magic_attack": 9,
+        "magic_defense": 806,
+        "crest_slot": 0,
+        "ele_slot": 25
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 45
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 1285
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 24735,
+            "amount": 120
+        },
+        {
+            "item_id": 24737,
+            "amount": 120
+        }
+    ],
+    "previous_item_id": 24241,
+    "next_item_id": 24243
+}

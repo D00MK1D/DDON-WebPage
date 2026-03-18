@@ -1,0 +1,31 @@
+{
+    "type": "material",
+    "item_id": 7854,
+    "name": "Copper Ore",
+    "info": "Ore Crafting Material: Copper ore, which is used\nas a raw material for crafting copper products.",
+    "icon": {
+        "icon_id": 487,
+        "color_id": 1
+    },
+    "jobs": [],
+    "sell_price": 15,
+    "weight": 0,
+    "item_level": 2,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Hidell Plains: Abandoned Well on Hidell Road",
+        "Hidell Plains: Hidell Catacombs",
+        "Hidell Plains: Tel's Withered Well"
+    ],
+    "hunt": [
+        "Level 1+ Skeleton"
+    ],
+    "subtype": "ore"
+}

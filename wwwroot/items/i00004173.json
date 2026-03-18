@@ -1,0 +1,70 @@
+{
+    "type": "equipment",
+    "item_id": 4173,
+    "name": "Knight's Cape",
+    "info": "",
+    "icon": {
+        "icon_id": 227,
+        "color_id": 6
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 165,
+    "weight": 10,
+    "item_level": 3,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 3,
+    "equip_slot": "EQUIP_CATEGORY_ACCESSORY",
+    "level": 11,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 12,
+        "magic_attack": 0,
+        "magic_defense": 12,
+        "crest_slot": 4,
+        "ele_slot": 24
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 3
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 15
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 9
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7798,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 3150,
+    "next_item_id": 5196
+}

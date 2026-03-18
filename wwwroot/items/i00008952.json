@@ -1,0 +1,58 @@
+{
+    "type": "jewlery",
+    "item_id": 8952,
+    "name": "Lightning Gem Choker",
+    "info": "",
+    "icon": {
+        "icon_id": 1059,
+        "color_id": 7
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 600,
+    "weight": 1,
+    "item_level": 6,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "level": 26,
+    "stats": {},
+    "params": [
+        {
+            "id": 41,
+            "name": "THUNDER_RESIST",
+            "value": 3
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 8013,
+            "amount": 3
+        },
+        {
+            "item_id": 7903,
+            "amount": 3
+        },
+        {
+            "item_id": 7733,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

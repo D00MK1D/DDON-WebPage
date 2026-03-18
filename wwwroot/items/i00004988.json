@@ -1,0 +1,47 @@
+{
+    "type": "equipment",
+    "item_id": 4988,
+    "name": "Fierce Horn",
+    "info": "",
+    "icon": {
+        "icon_id": 1029,
+        "color_id": 7
+    },
+    "jobs": [
+        "Sorcerer"
+    ],
+    "sell_price": 2425,
+    "weight": 140,
+    "item_level": 5,
+    "crest_slots": 1,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 1,
+    "weapon_type": "MAGICK_GAUNTLET",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 23,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 359,
+        "magic_attack": 558,
+        "crest_slot": 4,
+        "ele_slot": 33
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 202
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 3965,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

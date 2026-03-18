@@ -1,0 +1,67 @@
+{
+    "type": "equipment",
+    "item_id": 24947,
+    "name": "Olfring Bow (Crimson)",
+    "info": "",
+    "icon": {
+        "icon_id": 2707,
+        "color_id": 82
+    },
+    "jobs": [
+        "Hunter"
+    ],
+    "sell_price": 10000,
+    "weight": 70,
+    "item_level": 110,
+    "crest_slots": 4,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 4,
+    "weapon_type": "ARCHISTAFF",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 1,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 2995,
+        "magic_attack": 2685,
+        "crest_slot": 0,
+        "ele_slot": 36
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 601
+        },
+        {
+            "id": 85,
+            "name": "BLOW_POWER_BBLUNT",
+            "value": 5
+        },
+        {
+            "id": 54,
+            "name": "INFLICT_CATCHING_FIRE",
+            "value": 15
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        },
+        {
+            "id": 32,
+            "name": "MAX_LOADED_ARROWS",
+            "value": 28
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

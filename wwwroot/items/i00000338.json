@@ -1,0 +1,70 @@
+{
+    "type": "equipment",
+    "item_id": 338,
+    "name": "Gl\u00fccksrad",
+    "info": "",
+    "icon": {
+        "icon_id": 996,
+        "color_id": 7
+    },
+    "jobs": [
+        "ElementArcher"
+    ],
+    "sell_price": 3385,
+    "weight": 60,
+    "item_level": 6,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 2,
+    "weapon_type": "GREATSWORD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 27,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 359,
+        "magic_attack": 482,
+        "crest_slot": 0,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 88
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7882,
+            "amount": 5
+        },
+        {
+            "item_id": 7810,
+            "amount": 2
+        },
+        {
+            "item_id": 7916,
+            "amount": 3
+        },
+        {
+            "item_id": 7936,
+            "amount": 3
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7882,
+            "amount": 1
+        },
+        {
+            "item_id": 7987,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 1950
+}

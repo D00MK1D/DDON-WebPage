@@ -1,0 +1,44 @@
+{
+    "type": "material",
+    "item_id": 8006,
+    "name": "Scroll of Magickal Protection",
+    "info": "Grimoire Crafting Material:\nScrolls imbued with the mark of Demon Safeguard.",
+    "icon": {
+        "icon_id": 514,
+        "color_id": 2
+    },
+    "jobs": [],
+    "sell_price": 75,
+    "weight": 0,
+    "item_level": 4,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [
+        {
+            "item_id": 8002,
+            "amount": 1
+        },
+        {
+            "item_id": 7895,
+            "amount": 1
+        },
+        {
+            "item_id": 7985,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Morrow Forest: Morrow Cavern",
+        "Morrow Forest: Morrow Cavern Depths",
+        "Mysree Forest: Glowworm Cave",
+        "Mysree Grove: Sacred Spring Terrace",
+        "Volden Mines: Volden Narrow Tunnels"
+    ],
+    "hunt": [],
+    "subtype": "scrolls"
+}

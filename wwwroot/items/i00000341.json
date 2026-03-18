@@ -1,0 +1,74 @@
+{
+    "type": "equipment",
+    "item_id": 341,
+    "name": "Gunvoltzeit",
+    "info": "",
+    "icon": {
+        "icon_id": 1006,
+        "color_id": 8
+    },
+    "jobs": [
+        "ElementArcher"
+    ],
+    "sell_price": 7610,
+    "weight": 90,
+    "item_level": 8,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 3,
+    "weapon_type": "GREATSWORD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 36,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 507,
+        "magic_attack": 639,
+        "crest_slot": 0,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 112
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7883,
+            "amount": 4
+        },
+        {
+            "item_id": 7758,
+            "amount": 2
+        },
+        {
+            "item_id": 7783,
+            "amount": 5
+        },
+        {
+            "item_id": 8009,
+            "amount": 2
+        },
+        {
+            "item_id": 7945,
+            "amount": 2
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7875,
+            "amount": 1
+        },
+        {
+            "item_id": 7851,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 1953
+}

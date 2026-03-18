@@ -1,0 +1,27 @@
+{
+    "type": "material",
+    "item_id": 8000,
+    "name": "Troll's Poisonous Moss",
+    "info": "Mushroom Crafting Material.\nToxic moss that grows on the body of a Troll.",
+    "icon": {
+        "icon_id": 513,
+        "color_id": 102
+    },
+    "jobs": [],
+    "sell_price": 50,
+    "weight": 0,
+    "item_level": 4,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": [
+        "Level 1+ Troll"
+    ],
+    "subtype": "mushrooms"
+}

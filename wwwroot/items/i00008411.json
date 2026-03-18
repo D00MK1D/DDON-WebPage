@@ -1,0 +1,61 @@
+{
+    "type": "equipment",
+    "item_id": 8411,
+    "name": "Shadowy Drapes",
+    "info": "",
+    "icon": {
+        "icon_id": 373,
+        "color_id": 10
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 4610,
+    "weight": 54,
+    "item_level": 11,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 3,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 55,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 177,
+        "magic_attack": 0,
+        "magic_defense": 142,
+        "crest_slot": 4,
+        "ele_slot": 24
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 49
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 712
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7890,
+            "amount": 2
+        },
+        {
+            "item_id": 9440,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 8410,
+    "next_item_id": 8412
+}

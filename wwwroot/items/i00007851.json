@@ -1,0 +1,41 @@
+{
+    "type": "material",
+    "item_id": 7851,
+    "name": "White Shining Sand",
+    "info": "Sand Crafting Material: A very fine sand that\nshines white.",
+    "icon": {
+        "icon_id": 486,
+        "color_id": 4
+    },
+    "jobs": [],
+    "sell_price": 250,
+    "weight": 0,
+    "item_level": 8,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Betland Plains",
+        "Betland Plains: Temple of Purification",
+        "Bloodbane Isle: Frigid Ancient Passage",
+        "Deenan Woods: Le Karvas Arma",
+        "Deenan Woods: Le Karvas Salto",
+        "Eastern Zandora",
+        "Elan Water Grove: Old Ferryman's Haunt",
+        "Elan Water Grove: Old Ferryman's Haunt Innermost Depths",
+        "Elan Water Grove: Old Ferryman's Haunt: Central Square",
+        "Elan Water Grove: Old Ferryman's Haunt: Depths Passage",
+        "Farana Plains: Sacred River Ruins",
+        "Kingal Canyon: Ancient Underground Shrine 2nd Floor",
+        "Mysree Grove: Bower Old Well",
+        "Mysree Grove: Greenleaf Terrace",
+        "Zandora Wastelands"
+    ],
+    "hunt": [],
+    "subtype": "sand"
+}

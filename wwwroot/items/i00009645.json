@@ -1,0 +1,69 @@
+{
+    "type": "equipment",
+    "item_id": 9645,
+    "name": "Dawn Drape",
+    "info": "",
+    "icon": {
+        "icon_id": 125,
+        "color_id": 9
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 1500,
+    "weight": 32,
+    "item_level": 9,
+    "crest_slots": 1,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 5,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 42,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 178,
+        "magic_attack": 0,
+        "magic_defense": 159,
+        "crest_slot": 4,
+        "ele_slot": 9
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 17
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 832
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7771,
+            "amount": 1
+        },
+        {
+            "item_id": 9064,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 9644,
+    "next_item_id": 9646
+}

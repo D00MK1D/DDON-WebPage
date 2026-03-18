@@ -1,0 +1,33 @@
+{
+    "type": "material",
+    "item_id": 21258,
+    "name": "Volcanic Tuff",
+    "info": "Ore Crafting Material:\nA stone formed from solidified volcanic ash that\nhas accumulated.",
+    "icon": {
+        "icon_id": 488,
+        "color_id": 4
+    },
+    "jobs": [],
+    "sell_price": 350,
+    "weight": 0,
+    "item_level": 110,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Urteca Mountains",
+        "Urteca Mountains: Crumbling Entrance Path",
+        "Urteca Mountains: Megado Detached Palace",
+        "Urteca Mountains: Silent Resistance Battle Site",
+        "Urteca Mountains: The Burial Chamber of the Unmourned",
+        "Urteca Mountains: The Royal Family Mausoleum",
+        "Urteca Mountains: Western Urteca Mountains"
+    ],
+    "hunt": [],
+    "subtype": "ore"
+}

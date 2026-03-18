@@ -1,0 +1,55 @@
+{
+    "type": "equipment",
+    "item_id": 24493,
+    "name": "Golden Magick Battle Boots",
+    "info": "",
+    "icon": {
+        "icon_id": 2266,
+        "color_id": 200
+    },
+    "jobs": [
+        "ShieldSage",
+        "Alchemist",
+        "HighScepter"
+    ],
+    "sell_price": 0,
+    "weight": 42,
+    "item_level": 130,
+    "crest_slots": 0,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 3,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 100,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 9,
+        "defense": 505,
+        "magic_attack": 9,
+        "magic_defense": 404,
+        "crest_slot": 0,
+        "ele_slot": 32
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 101
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 823
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 24492,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

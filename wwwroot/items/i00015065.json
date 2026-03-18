@@ -1,0 +1,66 @@
+{
+    "type": "equipment",
+    "item_id": 15065,
+    "name": "Innocent Vestment",
+    "info": "",
+    "icon": {
+        "icon_id": 166,
+        "color_id": 10
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 14768,
+    "weight": 70,
+    "item_level": 50,
+    "crest_slots": 1,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 4,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 75,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1,
+        "defense": 529,
+        "magic_attack": 1,
+        "magic_defense": 470,
+        "crest_slot": 0,
+        "ele_slot": 17
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 32
+        },
+        {
+            "id": 11,
+            "name": "RESIST_CATCHING_FIRE",
+            "value": 3
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 1140
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 15929,
+            "amount": 5
+        },
+        {
+            "item_id": 15931,
+            "amount": 5
+        }
+    ],
+    "previous_item_id": 15064,
+    "next_item_id": 15066
+}

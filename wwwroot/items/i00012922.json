@@ -1,0 +1,64 @@
+{
+    "type": "equipment",
+    "item_id": 12922,
+    "name": "Immortal's Sabatons",
+    "info": "",
+    "icon": {
+        "icon_id": 1343,
+        "color_id": 11
+    },
+    "jobs": [
+        "Fighter",
+        "Warrior"
+    ],
+    "sell_price": 7923,
+    "weight": 42,
+    "item_level": 25,
+    "crest_slots": 0,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 2,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 65,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 237,
+        "magic_attack": 0,
+        "magic_defense": 189,
+        "crest_slot": 4,
+        "ele_slot": 32
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 57
+        },
+        {
+            "id": 4,
+            "name": "RESIST_BLIND",
+            "value": 7
+        },
+        {
+            "id": 16,
+            "name": "RESIST_CURSE",
+            "value": 7
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 739
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 12921,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

@@ -1,0 +1,40 @@
+{
+    "type": "material",
+    "item_id": 7872,
+    "name": "Dull Iron Ingot",
+    "info": "Metal Crafting Material: A lump of alloy refined\nfrom lead and iron.",
+    "icon": {
+        "icon_id": 491,
+        "color_id": 2
+    },
+    "jobs": [],
+    "sell_price": 50,
+    "weight": 0,
+    "item_level": 3,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [
+        {
+            "item_id": 7853,
+            "amount": 2
+        },
+        {
+            "item_id": 9060,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Elan Water Grove: Path to Morrow",
+        "Hidell Plains: Hidell Catacombs",
+        "Kingal Canyon: Amburos Great Ruins",
+        "Kingal Canyon: Amburos Great Ruins: Center",
+        "Mysree Forest: Glowworm Cave"
+    ],
+    "hunt": [],
+    "subtype": "ingots"
+}

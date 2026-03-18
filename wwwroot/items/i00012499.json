@@ -1,0 +1,58 @@
+{
+    "type": "equipment",
+    "item_id": 12499,
+    "name": "Wand of Tyrant",
+    "info": "",
+    "icon": {
+        "icon_id": 1487,
+        "color_id": 11
+    },
+    "jobs": [
+        "Sorcerer"
+    ],
+    "sell_price": 24505,
+    "weight": 80,
+    "item_level": 40,
+    "crest_slots": 1,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 23,
+    "weapon_type": "MAGICK_GAUNTLET",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 70,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1645,
+        "magic_attack": 1912,
+        "crest_slot": 0,
+        "ele_slot": 25
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 526
+        },
+        {
+            "id": 102,
+            "name": "DRAGON_SLAYER",
+            "value": 17
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 11806,
+            "amount": 5
+        },
+        {
+            "item_id": 11805,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 12498,
+    "next_item_id": 12500
+}

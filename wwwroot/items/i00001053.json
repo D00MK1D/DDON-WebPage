@@ -1,0 +1,24 @@
+{
+    "type": "material",
+    "item_id": 1053,
+    "name": "Weight Reduction",
+    "info": "Weight of equipped gear is reduced",
+    "icon": {
+        "icon_id": 1047,
+        "color_id": 1
+    },
+    "jobs": [],
+    "sell_price": 5,
+    "weight": 0,
+    "item_level": 1,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

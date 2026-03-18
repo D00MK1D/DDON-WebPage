@@ -1,0 +1,24 @@
+{
+    "type": "keyitem",
+    "item_id": 1026,
+    "name": "Riftstone Ore",
+    "info": "Mysterious crystals that are found in the Rift.\nUsed to sign a contract with a new Pawn.",
+    "icon": {
+        "icon_id": 532,
+        "color_id": 1
+    },
+    "jobs": [],
+    "sell_price": 0,
+    "weight": 0,
+    "item_level": 0,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

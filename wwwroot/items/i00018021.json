@@ -1,0 +1,47 @@
+{
+    "type": "equipment",
+    "item_id": 18021,
+    "name": "Malachite Rod of Resentment",
+    "info": "",
+    "icon": {
+        "icon_id": 912,
+        "color_id": 10
+    },
+    "jobs": [
+        "ShieldSage"
+    ],
+    "sell_price": 35805,
+    "weight": 48,
+    "item_level": 90,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 1,
+    "weapon_type": "GREATSHIELD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_SUB",
+    "level": 85,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "magic_attack": 2417,
+        "crest_slot": 0,
+        "ele_slot": 0
+    },
+    "params": [],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 17915,
+            "amount": 2
+        },
+        {
+            "item_id": 17868,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 18022
+}

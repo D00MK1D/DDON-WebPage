@@ -1,0 +1,53 @@
+{
+    "type": "equipment",
+    "item_id": 17407,
+    "name": "Nobility's Guard",
+    "info": "",
+    "icon": {
+        "icon_id": 853,
+        "color_id": 10
+    },
+    "jobs": [
+        "Fighter"
+    ],
+    "sell_price": 6394,
+    "weight": 46,
+    "item_level": 80,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 2,
+    "weapon_type": "SHIELD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_SUB",
+    "level": 80,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "magic_attack": 0,
+        "crest_slot": 0,
+        "ele_slot": 8
+    },
+    "params": [
+        {
+            "id": 87,
+            "name": "GUARD_POWER",
+            "value": 421
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 17870,
+            "amount": 1
+        },
+        {
+            "item_id": 17861,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 17406,
+    "next_item_id": 17408
+}

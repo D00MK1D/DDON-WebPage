@@ -1,0 +1,25 @@
+{
+    "type": "consumable",
+    "item_id": 17107,
+    "name": "Special Chocolate",
+    "info": "Sweet Chocolate made from cocoa.\nWhen eaten, it restores Health Points with its\nmelting flavor.",
+    "icon": {
+        "icon_id": 1827,
+        "color_id": 1
+    },
+    "jobs": [],
+    "sell_price": 80,
+    "weight": 0,
+    "item_level": 1,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "max_stack": 10,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

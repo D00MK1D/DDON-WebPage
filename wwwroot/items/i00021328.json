@@ -1,0 +1,25 @@
+{
+    "type": "consumable",
+    "item_id": 21328,
+    "name": "Finest Chocolate Cake",
+    "info": "A chocolate cake made with the finest ingredients\nand crafted with utmost skill.\nA masterpiece that fills the air with the\nenchanting aroma of cocoa.",
+    "icon": {
+        "icon_id": 2376,
+        "color_id": 17
+    },
+    "jobs": [],
+    "sell_price": 10,
+    "weight": 0,
+    "item_level": 1,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "max_stack": 99,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

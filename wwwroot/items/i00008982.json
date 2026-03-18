@@ -1,0 +1,58 @@
+{
+    "type": "jewlery",
+    "item_id": 8982,
+    "name": "High Leather Bracelet",
+    "info": "",
+    "icon": {
+        "icon_id": 660,
+        "color_id": 8
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 900,
+    "weight": 1,
+    "item_level": 7,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "level": 31,
+    "stats": {},
+    "params": [
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 18
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7921,
+            "amount": 3
+        },
+        {
+            "item_id": 7956,
+            "amount": 2
+        },
+        {
+            "item_id": 8954,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

@@ -1,0 +1,69 @@
+{
+    "type": "equipment",
+    "item_id": 24665,
+    "name": "Blackshatter Underpants",
+    "info": "",
+    "icon": {
+        "icon_id": 2821,
+        "color_id": 86
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 0,
+    "weight": 7,
+    "item_level": 135,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_WEAR_LEG",
+    "level": 100,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 189,
+        "magic_attack": 0,
+        "magic_defense": 189,
+        "crest_slot": 4,
+        "ele_slot": 8
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 76
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 318
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 24737,
+            "amount": 40
+        },
+        {
+            "item_id": 24740,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 24664,
+    "next_item_id": 24666
+}

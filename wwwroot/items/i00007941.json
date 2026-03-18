@@ -1,0 +1,41 @@
+{
+    "type": "material",
+    "subtype": "leather",
+    "item_id": 7941,
+    "name": "Dragonleather",
+    "info": "Cloth Crafting Material: A highly luxurious cloth\nmade from dragon hide.",
+    "icon": {
+        "icon_id": 499,
+        "color_id": 4
+    },
+    "jobs": [],
+    "sell_price": 500,
+    "weight": 0,
+    "item_level": 8,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [
+        {
+            "item_id": 7928,
+            "amount": 1
+        },
+        {
+            "item_id": 7920,
+            "amount": 2
+        },
+        {
+            "item_id": 7983,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Farana Plains: Sacred River Ruins",
+        "Morrow Forest: Northerners Infected Woods"
+    ],
+    "hunt": []
+}

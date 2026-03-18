@@ -1,0 +1,61 @@
+{
+    "type": "equipment",
+    "item_id": 18397,
+    "name": "Magnus Boots",
+    "info": "",
+    "icon": {
+        "icon_id": 1354,
+        "color_id": 10
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 13463,
+    "weight": 43,
+    "item_level": 90,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 3,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 85,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 4,
+        "defense": 382,
+        "magic_attack": 4,
+        "magic_defense": 306,
+        "crest_slot": 0,
+        "ele_slot": 24
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 81
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 716
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 18142,
+            "amount": 6
+        },
+        {
+            "item_id": 17929,
+            "amount": 6
+        }
+    ],
+    "previous_item_id": 18396,
+    "next_item_id": 18398
+}

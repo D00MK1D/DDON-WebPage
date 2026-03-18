@@ -1,0 +1,60 @@
+{
+    "type": "equipment",
+    "item_id": 15271,
+    "name": "Medium Arms",
+    "info": "",
+    "icon": {
+        "icon_id": 70,
+        "color_id": 10
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 8895,
+    "weight": 34,
+    "item_level": 60,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 4,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 77,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 2,
+        "defense": 386,
+        "magic_attack": 2,
+        "magic_defense": 321,
+        "crest_slot": 0,
+        "ele_slot": 24
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 24
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 15975,
+            "amount": 3
+        },
+        {
+            "item_id": 15977,
+            "amount": 3
+        },
+        {
+            "item_id": 15979,
+            "amount": 3
+        }
+    ],
+    "previous_item_id": 15270,
+    "next_item_id": 15272
+}

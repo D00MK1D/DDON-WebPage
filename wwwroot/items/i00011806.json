@@ -1,0 +1,32 @@
+{
+    "type": "material",
+    "item_id": 11806,
+    "name": "Slimy Hide",
+    "info": "Pelt Crafting Material: The skin of a beast that\nhas been placed in a special environment,\nresulting in a slimy texture.",
+    "icon": {
+        "icon_id": 496,
+        "color_id": 16
+    },
+    "jobs": [],
+    "sell_price": 300,
+    "weight": 0,
+    "item_level": 40,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": true,
+    "craft_recipe": [
+        {
+            "item_id": 11807,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Zandora Wastelands: Pit of Screams"
+    ],
+    "hunt": [],
+    "subtype": "regional"
+}

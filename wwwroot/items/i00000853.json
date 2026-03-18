@@ -1,0 +1,67 @@
+{
+    "type": "equipment",
+    "item_id": 853,
+    "name": "Maverick Helm",
+    "info": "",
+    "icon": {
+        "icon_id": 320,
+        "color_id": 10
+    },
+    "jobs": [
+        "ShieldSage",
+        "Alchemist",
+        "HighScepter"
+    ],
+    "sell_price": 3535,
+    "weight": 36,
+    "item_level": 12,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 5,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_HELM",
+    "level": 56,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 180,
+        "magic_attack": 0,
+        "magic_defense": 288,
+        "crest_slot": 0,
+        "ele_slot": 0
+    },
+    "params": [],
+    "craft_recipe": [
+        {
+            "item_id": 7889,
+            "amount": 4
+        },
+        {
+            "item_id": 7818,
+            "amount": 3
+        },
+        {
+            "item_id": 7772,
+            "amount": 3
+        },
+        {
+            "item_id": 7831,
+            "amount": 7
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 8008,
+            "amount": 1
+        },
+        {
+            "item_id": 7727,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 2465
+}

@@ -1,0 +1,78 @@
+{
+    "type": "equipment",
+    "item_id": 2634,
+    "name": "Arbitrator's Mantle",
+    "info": "",
+    "icon": {
+        "icon_id": 208,
+        "color_id": 9
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 1500,
+    "weight": 10,
+    "item_level": 9,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 3,
+    "equip_slot": "EQUIP_CATEGORY_ACCESSORY",
+    "level": 42,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 40,
+        "magic_attack": 0,
+        "magic_defense": 40,
+        "crest_slot": 4,
+        "ele_slot": 8
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 9
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 10
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 12
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7940,
+            "amount": 1
+        },
+        {
+            "item_id": 7758,
+            "amount": 1
+        },
+        {
+            "item_id": 7857,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 1022,
+    "next_item_id": 3657
+}

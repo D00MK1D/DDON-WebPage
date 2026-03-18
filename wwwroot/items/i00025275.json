@@ -1,0 +1,54 @@
+{
+    "type": "equipment",
+    "item_id": 25275,
+    "name": "Solitary Assault Greaves",
+    "info": "",
+    "icon": {
+        "icon_id": 346,
+        "color_id": 11
+    },
+    "jobs": [
+        "Fighter",
+        "Warrior"
+    ],
+    "sell_price": 18500,
+    "weight": 42,
+    "item_level": 145,
+    "crest_slots": 0,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 110,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 11,
+        "defense": 604,
+        "magic_attack": 11,
+        "magic_defense": 483,
+        "crest_slot": 4,
+        "ele_slot": 32
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 105
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 844
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 25274,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

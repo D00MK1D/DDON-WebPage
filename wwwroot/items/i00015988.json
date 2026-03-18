@@ -1,0 +1,28 @@
+{
+    "type": "material",
+    "item_id": 15988,
+    "name": "Infected Demon Bone Fragment",
+    "info": "Bone Crafting Material: Fragments of an infected\ndemon bone, seemingly crushed by someone or\nsomething.",
+    "icon": {
+        "icon_id": 472,
+        "color_id": 16
+    },
+    "jobs": [],
+    "sell_price": 300,
+    "weight": 0,
+    "item_level": 65,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Morrow Forest",
+        "Morrow Forest: Infected Basin"
+    ],
+    "hunt": [],
+    "subtype": "regional"
+}

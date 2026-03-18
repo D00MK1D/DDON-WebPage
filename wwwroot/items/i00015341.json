@@ -1,0 +1,60 @@
+{
+    "type": "equipment",
+    "item_id": 15341,
+    "name": "Black Panther Sleeves",
+    "info": "",
+    "icon": {
+        "icon_id": 65,
+        "color_id": 10
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 8895,
+    "weight": 34,
+    "item_level": 60,
+    "crest_slots": 0,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 2,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 77,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1,
+        "defense": 384,
+        "magic_attack": 1,
+        "magic_defense": 320,
+        "crest_slot": 0,
+        "ele_slot": 16
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 24
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 15975,
+            "amount": 3
+        },
+        {
+            "item_id": 15977,
+            "amount": 3
+        },
+        {
+            "item_id": 15979,
+            "amount": 3
+        }
+    ],
+    "previous_item_id": 15340,
+    "next_item_id": 15342
+}

@@ -1,0 +1,74 @@
+{
+    "type": "equipment",
+    "item_id": 311,
+    "name": "Soul Harvest",
+    "info": "",
+    "icon": {
+        "icon_id": 1039,
+        "color_id": 8
+    },
+    "jobs": [
+        "Sorcerer"
+    ],
+    "sell_price": 5785,
+    "weight": 80,
+    "item_level": 7,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 2,
+    "weapon_type": "MAGICK_GAUNTLET",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 34,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 473,
+        "magic_attack": 702,
+        "crest_slot": 4,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 193
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7883,
+            "amount": 3
+        },
+        {
+            "item_id": 7747,
+            "amount": 1
+        },
+        {
+            "item_id": 7783,
+            "amount": 3
+        },
+        {
+            "item_id": 7894,
+            "amount": 2
+        },
+        {
+            "item_id": 7994,
+            "amount": 7
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7894,
+            "amount": 1
+        },
+        {
+            "item_id": 7849,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 1923
+}

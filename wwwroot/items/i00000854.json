@@ -1,0 +1,83 @@
+{
+    "type": "equipment",
+    "item_id": 854,
+    "name": "Chevalier Helm",
+    "info": "",
+    "icon": {
+        "icon_id": 314,
+        "color_id": 10
+    },
+    "jobs": [
+        "ShieldSage",
+        "Alchemist",
+        "HighScepter"
+    ],
+    "sell_price": 4840,
+    "weight": 36,
+    "item_level": 11,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 3,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_HELM",
+    "level": 55,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 179,
+        "magic_attack": 0,
+        "magic_defense": 286,
+        "crest_slot": 4,
+        "ele_slot": 0
+    },
+    "params": [],
+    "craft_recipe": [
+        {
+            "item_id": 10991,
+            "amount": 1
+        },
+        {
+            "item_id": 8030,
+            "amount": 2
+        },
+        {
+            "item_id": 7914,
+            "amount": 2
+        },
+        {
+            "item_id": 7950,
+            "amount": 2
+        },
+        {
+            "item_id": 9462,
+            "amount": 15
+        },
+        {
+            "item_id": 11010,
+            "amount": 2
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7820,
+            "amount": 5
+        },
+        {
+            "item_id": 7785,
+            "amount": 3
+        },
+        {
+            "item_id": 11011,
+            "amount": 2
+        },
+        {
+            "item_id": 11012,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 2466
+}

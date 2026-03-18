@@ -1,0 +1,66 @@
+{
+    "type": "equipment",
+    "item_id": 757,
+    "name": "Sacred Robe",
+    "info": "",
+    "icon": {
+        "icon_id": 158,
+        "color_id": 6
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 1120,
+    "weight": 70,
+    "item_level": 4,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 20,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 87,
+        "magic_attack": 0,
+        "magic_defense": 77,
+        "crest_slot": 0,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 10
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 375
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7935,
+            "amount": 2
+        },
+        {
+            "item_id": 7809,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7774,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 2369
+}

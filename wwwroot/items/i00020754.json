@@ -1,0 +1,68 @@
+{
+    "type": "equipment",
+    "item_id": 20754,
+    "name": "Crimson Leather Boots",
+    "info": "",
+    "icon": {
+        "icon_id": 2256,
+        "color_id": 84
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 10000,
+    "weight": 42,
+    "item_level": 106,
+    "crest_slots": 3,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 1,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 90,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 6,
+        "defense": 450,
+        "magic_attack": 6,
+        "magic_defense": 360,
+        "crest_slot": 0,
+        "ele_slot": 35
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 94
+        },
+        {
+            "id": 43,
+            "name": "DARK_RESIST",
+            "value": 5
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 776
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

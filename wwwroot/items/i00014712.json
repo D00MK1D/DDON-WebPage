@@ -1,0 +1,74 @@
+{
+    "type": "equipment",
+    "item_id": 14712,
+    "name": "Warping Soul",
+    "info": "",
+    "icon": {
+        "icon_id": 1039,
+        "color_id": 10
+    },
+    "jobs": [
+        "Sorcerer"
+    ],
+    "sell_price": 29650,
+    "weight": 80,
+    "item_level": 60,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 1,
+    "weapon_type": "MAGICK_GAUNTLET",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 77,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1936,
+        "magic_attack": 2214,
+        "crest_slot": 0,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 609
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 15976,
+            "amount": 3
+        },
+        {
+            "item_id": 15978,
+            "amount": 3
+        },
+        {
+            "item_id": 15980,
+            "amount": 3
+        },
+        {
+            "item_id": 15956,
+            "amount": 2
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 15975,
+            "amount": 3
+        },
+        {
+            "item_id": 15977,
+            "amount": 3
+        },
+        {
+            "item_id": 15979,
+            "amount": 3
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 14713
+}

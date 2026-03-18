@@ -1,0 +1,49 @@
+{
+    "type": "equipment",
+    "item_id": 1694,
+    "name": "Hermit Wand",
+    "info": "",
+    "icon": {
+        "icon_id": 1019,
+        "color_id": 6
+    },
+    "jobs": [
+        "Priest"
+    ],
+    "sell_price": 610,
+    "weight": 70,
+    "item_level": 3,
+    "crest_slots": 1,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 0,
+    "weapon_type": "MAGICK_BOW",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 11,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 123,
+        "magic_attack": 209,
+        "crest_slot": 4,
+        "ele_slot": 9
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 49
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7735,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 82,
+    "next_item_id": 2717
+}

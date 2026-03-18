@@ -1,0 +1,61 @@
+{
+    "type": "equipment",
+    "item_id": 2403,
+    "name": "Elder's Boots",
+    "info": "",
+    "icon": {
+        "icon_id": 330,
+        "color_id": 8
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 2050,
+    "weight": 36,
+    "item_level": 7,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 2,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 32,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 81,
+        "magic_attack": 0,
+        "magic_defense": 64,
+        "crest_slot": 4,
+        "ele_slot": 8
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 30
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 412
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7788,
+            "amount": 1
+        },
+        {
+            "item_id": 7803,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 791,
+    "next_item_id": 3426
+}

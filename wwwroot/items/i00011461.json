@@ -1,0 +1,53 @@
+{
+    "type": "equipment",
+    "item_id": 11461,
+    "name": "Training Cane",
+    "info": "",
+    "icon": {
+        "icon_id": 1009,
+        "color_id": 10
+    },
+    "jobs": [
+        "Priest"
+    ],
+    "sell_price": 15685,
+    "weight": 70,
+    "item_level": 12,
+    "crest_slots": 1,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 2,
+    "weapon_type": "MAGICK_BOW",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 55,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1118,
+        "magic_attack": 1240,
+        "crest_slot": 0,
+        "ele_slot": 17
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 181
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7970,
+            "amount": 1
+        },
+        {
+            "item_id": 7942,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 11460,
+    "next_item_id": 11462
+}

@@ -1,0 +1,56 @@
+{
+    "type": "equipment",
+    "item_id": 20953,
+    "name": "Ideal Head",
+    "info": "",
+    "icon": {
+        "icon_id": 2254,
+        "color_id": 111
+    },
+    "jobs": [
+        "ShieldSage",
+        "Alchemist",
+        "HighScepter"
+    ],
+    "sell_price": 14760,
+    "weight": 38,
+    "item_level": 120,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 20,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_HELM",
+    "level": 100,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 8,
+        "defense": 493,
+        "magic_attack": 8,
+        "magic_defense": 789,
+        "crest_slot": 0,
+        "ele_slot": 8
+    },
+    "params": [
+        {
+            "id": 28,
+            "name": "MAGMA_RESIST",
+            "value": 7
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 21279,
+            "amount": 2
+        },
+        {
+            "item_id": 21268,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 20952,
+    "next_item_id": 20954
+}

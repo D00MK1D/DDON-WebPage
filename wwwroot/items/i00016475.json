@@ -1,0 +1,47 @@
+{
+    "type": "equipment",
+    "item_id": 16475,
+    "name": "Savior Fort (Decoration)",
+    "info": "",
+    "icon": {
+        "icon_id": 901,
+        "color_id": 82
+    },
+    "jobs": [
+        "ShieldSage"
+    ],
+    "sell_price": 100,
+    "weight": 0,
+    "item_level": 1,
+    "crest_slots": 0,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 20,
+    "weapon_type": "STAFF",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 1,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "magic_attack": 0,
+        "crest_slot": 4,
+        "ele_slot": 32
+    },
+    "params": [
+        {
+            "id": 31,
+            "name": "MAX_FORCE_STOCK",
+            "value": 1
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

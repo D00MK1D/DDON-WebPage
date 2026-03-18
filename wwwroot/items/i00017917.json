@@ -1,0 +1,35 @@
+{
+    "type": "material",
+    "item_id": 17917,
+    "name": "Feryana Sweet Mushroom",
+    "info": "Mushroom Crafting Material.\nA poisonous mushroom that offers a sweet aroma\nand taste.",
+    "icon": {
+        "icon_id": 513,
+        "color_id": 4
+    },
+    "jobs": [],
+    "sell_price": 900,
+    "weight": 0,
+    "item_level": 95,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Feryana Wilderness",
+        "Feryana Wilderness: Dark Path to the Secret Spring",
+        "Feryana Wilderness: Restless Water Channel",
+        "Feryana Wilderness: Royal Family's Secret Path",
+        "Feryana Wilderness: Shrine of the Eternal Blaze",
+        "Feryana Wilderness: Thundering Roar Cave",
+        "Feryana Wilderness: Wailing Wetland",
+        "Hidell Plains: False Remains",
+        "Rathnite Foothills"
+    ],
+    "hunt": [],
+    "subtype": "mushrooms"
+}

@@ -1,0 +1,62 @@
+{
+    "type": "equipment",
+    "item_id": 11545,
+    "name": "Marquis Bow",
+    "info": "",
+    "icon": {
+        "icon_id": 1255,
+        "color_id": 82
+    },
+    "jobs": [
+        "Hunter"
+    ],
+    "sell_price": 20000,
+    "weight": 70,
+    "item_level": 11,
+    "crest_slots": 4,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 23,
+    "weapon_type": "ARCHISTAFF",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 1,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1151,
+        "magic_attack": 905,
+        "crest_slot": 4,
+        "ele_slot": 36
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 214
+        },
+        {
+            "id": 57,
+            "name": "INFLICT_HOLY_DRAIN",
+            "value": 20
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        },
+        {
+            "id": 32,
+            "name": "MAX_LOADED_ARROWS",
+            "value": 25
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 11544,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

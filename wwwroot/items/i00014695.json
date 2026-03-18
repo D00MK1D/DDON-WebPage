@@ -1,0 +1,58 @@
+{
+    "type": "equipment",
+    "item_id": 14695,
+    "name": "Zone of Liberty",
+    "info": "",
+    "icon": {
+        "icon_id": 1046,
+        "color_id": 10
+    },
+    "jobs": [
+        "Sorcerer"
+    ],
+    "sell_price": 28130,
+    "weight": 80,
+    "item_level": 50,
+    "crest_slots": 1,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 0,
+    "weapon_type": "MAGICK_GAUNTLET",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 75,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1787,
+        "magic_attack": 2061,
+        "crest_slot": 0,
+        "ele_slot": 25
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 601
+        },
+        {
+            "id": 104,
+            "name": "CORRUPTED_SLAYER",
+            "value": 30
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 15929,
+            "amount": 3
+        },
+        {
+            "item_id": 15931,
+            "amount": 3
+        }
+    ],
+    "previous_item_id": 14694,
+    "next_item_id": 14696
+}

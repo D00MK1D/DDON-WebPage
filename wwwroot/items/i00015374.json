@@ -1,0 +1,63 @@
+{
+    "type": "equipment",
+    "item_id": 15374,
+    "name": "Duke Cuisses (Moonflower)",
+    "info": "",
+    "icon": {
+        "icon_id": 1768,
+        "color_id": 84
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 5000,
+    "weight": 54,
+    "item_level": 70,
+    "crest_slots": 3,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 4,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 75,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 3,
+        "defense": 341,
+        "magic_attack": 3,
+        "magic_defense": 273,
+        "crest_slot": 0,
+        "ele_slot": 35
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 77
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 735
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

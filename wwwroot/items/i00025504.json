@@ -1,0 +1,80 @@
+{
+    "type": "equipment",
+    "item_id": 25504,
+    "name": "Trickster's Lively Cloak",
+    "info": "",
+    "icon": {
+        "icon_id": 2973,
+        "color_id": 82
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 5900,
+    "weight": 11,
+    "item_level": 145,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 3,
+    "equip_slot": "EQUIP_CATEGORY_ACCESSORY",
+    "level": 110,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 3,
+        "defense": 225,
+        "magic_attack": 3,
+        "magic_defense": 225,
+        "crest_slot": 4,
+        "ele_slot": 24
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 24
+        },
+        {
+            "id": 4,
+            "name": "RESIST_BLIND",
+            "value": 20
+        },
+        {
+            "id": 97,
+            "name": "SPIRIT_SLAYER",
+            "value": 4
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 30
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 24
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 25522,
+            "amount": 8
+        }
+    ],
+    "previous_item_id": 25503,
+    "next_item_id": 25505
+}

@@ -1,0 +1,37 @@
+{
+    "type": "material",
+    "item_id": 7903,
+    "name": "Onyx",
+    "info": "Gem Crafting Material:\nA gem with a glossy black charm.",
+    "icon": {
+        "icon_id": 495,
+        "color_id": 3
+    },
+    "jobs": [],
+    "sell_price": 195,
+    "weight": 0,
+    "item_level": 6,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Betland Plains: Knights' Old Route",
+        "Betland Plains: War Demons' Hideout",
+        "Dowe Valley: Howling Wind Cave",
+        "Dowe Valley: Knights' Old Guardhouse",
+        "Farana Plains: Dunhain's Hall of Trials",
+        "Hidell Plains: Hidell Catacombs Innermost Depths",
+        "Morrow Forest: Morrow Cavern Depths",
+        "Mysree Forest: Mysree Limestone Cave",
+        "Volden Mines: Miners' Secret Route",
+        "Volden Mines: Summit Chapel",
+        "Volden Mines: Volden Large Tunnels"
+    ],
+    "hunt": [],
+    "subtype": "gemstones"
+}

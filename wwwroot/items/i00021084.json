@@ -1,0 +1,74 @@
+{
+    "type": "equipment",
+    "item_id": 21084,
+    "name": "Revanche Mantle",
+    "info": "",
+    "icon": {
+        "icon_id": 2242,
+        "color_id": 111
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 5760,
+    "weight": 11,
+    "item_level": 120,
+    "crest_slots": 0,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 20,
+    "equip_slot": "EQUIP_CATEGORY_ACCESSORY",
+    "level": 100,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 2,
+        "defense": 184,
+        "magic_attack": 2,
+        "magic_defense": 184,
+        "crest_slot": 0,
+        "ele_slot": 16
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 23
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 20
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 18
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 21393,
+            "amount": 100
+        },
+        {
+            "item_id": 21271,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 21083,
+    "next_item_id": 21085
+}

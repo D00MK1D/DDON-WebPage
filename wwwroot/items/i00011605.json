@@ -1,0 +1,73 @@
+{
+    "type": "equipment",
+    "item_id": 11605,
+    "name": "True Enigma",
+    "info": "",
+    "icon": {
+        "icon_id": 962,
+        "color_id": 25
+    },
+    "jobs": [
+        "Hunter"
+    ],
+    "sell_price": 16825,
+    "weight": 40,
+    "item_level": 12,
+    "crest_slots": 1,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 3,
+    "weapon_type": "ARCHISTAFF",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 45,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1340,
+        "magic_attack": 1086,
+        "crest_slot": 0,
+        "ele_slot": 25
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 236
+        },
+        {
+            "id": 85,
+            "name": "BLOW_POWER_BBLUNT",
+            "value": 10
+        },
+        {
+            "id": 99,
+            "name": "GOLEM_SLAYER",
+            "value": 63
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        },
+        {
+            "id": 32,
+            "name": "MAX_LOADED_ARROWS",
+            "value": 25
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 9448,
+            "amount": 2
+        },
+        {
+            "item_id": 10993,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 11604,
+    "next_item_id": 11606
+}

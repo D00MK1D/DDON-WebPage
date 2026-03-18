@@ -1,0 +1,58 @@
+{
+    "type": "equipment",
+    "item_id": 2929,
+    "name": "Preju\u00edzo",
+    "info": "",
+    "icon": {
+        "icon_id": 925,
+        "color_id": 9
+    },
+    "jobs": [
+        "Seeker"
+    ],
+    "sell_price": 10585,
+    "weight": 90,
+    "item_level": 10,
+    "crest_slots": 1,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 4,
+    "weapon_type": "ROD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 47,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 867,
+        "magic_attack": 711,
+        "crest_slot": 0,
+        "ele_slot": 17
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 97
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7780,
+            "amount": 1
+        },
+        {
+            "item_id": 8007,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 1906,
+    "next_item_id": 3952
+}

@@ -1,0 +1,71 @@
+{
+    "type": "equipment",
+    "item_id": 15512,
+    "name": "Chausses of Evening Mist",
+    "info": "",
+    "icon": {
+        "icon_id": 1353,
+        "color_id": 11
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 12001,
+    "weight": 42,
+    "item_level": 70,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 80,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 3,
+        "defense": 341,
+        "magic_attack": 3,
+        "magic_defense": 273,
+        "crest_slot": 0,
+        "ele_slot": 24
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 77
+        },
+        {
+            "id": 13,
+            "name": "RESIST_SHOCK",
+            "value": 4
+        },
+        {
+            "id": 41,
+            "name": "THUNDER_RESIST",
+            "value": 12
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 735
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 15995,
+            "amount": 1
+        },
+        {
+            "item_id": 15996,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 15511,
+    "next_item_id": 15513
+}

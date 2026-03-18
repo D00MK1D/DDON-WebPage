@@ -1,0 +1,55 @@
+{
+    "type": "equipment",
+    "item_id": 18293,
+    "name": "Kelsus Lamellar",
+    "info": "",
+    "icon": {
+        "icon_id": 1320,
+        "color_id": 10
+    },
+    "jobs": [
+        "ShieldSage",
+        "Alchemist",
+        "HighScepter"
+    ],
+    "sell_price": 18869,
+    "weight": 70,
+    "item_level": 90,
+    "crest_slots": 1,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 1,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 85,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 4,
+        "defense": 691,
+        "magic_attack": 4,
+        "magic_defense": 614,
+        "crest_slot": 0,
+        "ele_slot": 33
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 38
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 1122
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 18292,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

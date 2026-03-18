@@ -1,0 +1,27 @@
+{
+    "type": "material",
+    "item_id": 10986,
+    "name": "Zuhl's Large Horn",
+    "info": "Horn Crafting Material: Large curved horn from\nthe mighty Zuhl.",
+    "icon": {
+        "icon_id": 467,
+        "color_id": 106
+    },
+    "jobs": [],
+    "sell_price": 1010,
+    "weight": 0,
+    "item_level": 12,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": [
+        "Level 60+ Clone Zuhl"
+    ],
+    "subtype": "horn"
+}

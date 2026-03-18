@@ -1,0 +1,69 @@
+{
+    "type": "equipment",
+    "item_id": 18459,
+    "name": "Krall Banded",
+    "info": "",
+    "icon": {
+        "icon_id": 1359,
+        "color_id": 11
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 2911,
+    "weight": 9,
+    "item_level": 95,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 5,
+    "equip_slot": "EQUIP_CATEGORY_WEAR_LEG",
+    "level": 88,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 147,
+        "magic_attack": 0,
+        "magic_defense": 147,
+        "crest_slot": 4,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 63
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 259
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 17893,
+            "amount": 1
+        },
+        {
+            "item_id": 17894,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 18460
+}

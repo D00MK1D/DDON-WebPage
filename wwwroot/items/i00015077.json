@@ -1,0 +1,70 @@
+{
+    "type": "equipment",
+    "item_id": 15077,
+    "name": "Enhanced Jacket",
+    "info": "",
+    "icon": {
+        "icon_id": 1554,
+        "color_id": 111
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 14768,
+    "weight": 70,
+    "item_level": 60,
+    "crest_slots": 1,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 1,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 75,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 4,
+        "defense": 564,
+        "magic_attack": 4,
+        "magic_defense": 502,
+        "crest_slot": 0,
+        "ele_slot": 33
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 32
+        },
+        {
+            "id": 2,
+            "name": "RESIST_TORPOR",
+            "value": 7
+        },
+        {
+            "id": 9,
+            "name": "RESIST_PETRIFICATION",
+            "value": 7
+        },
+        {
+            "id": 15,
+            "name": "RESIST_KNOCKOUT",
+            "value": 7
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 1192
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 15076,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

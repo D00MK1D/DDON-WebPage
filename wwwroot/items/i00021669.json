@@ -1,0 +1,24 @@
+{
+    "type": "material",
+    "item_id": 21669,
+    "name": "King Kileek Enthronement Commemerotive Coin",
+    "info": "Crafting materials with limited availability:\nA coin with a striking deep green color and the\nimpressive coat of arms of the royal family.\nIt is made as a commemorative item and is not\nused as currency.",
+    "icon": {
+        "icon_id": 2495,
+        "color_id": 105
+    },
+    "jobs": [],
+    "sell_price": 2000,
+    "weight": 0,
+    "item_level": 118,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

@@ -1,0 +1,57 @@
+{
+    "type": "equipment",
+    "item_id": 18103,
+    "name": "Staff of Younes",
+    "info": "",
+    "icon": {
+        "icon_id": 1386,
+        "color_id": 11
+    },
+    "jobs": [
+        "Priest"
+    ],
+    "sell_price": 37794,
+    "weight": 77,
+    "item_level": 95,
+    "crest_slots": 1,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 1,
+    "weapon_type": "MAGICK_BOW",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 88,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 2410,
+        "magic_attack": 2553,
+        "crest_slot": 4,
+        "ele_slot": 17
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 391
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 19649,
+            "amount": 1
+        },
+        {
+            "item_id": 19648,
+            "amount": 6
+        },
+        {
+            "item_id": 17894,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 18102,
+    "next_item_id": 18104
+}

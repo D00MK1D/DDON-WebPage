@@ -1,0 +1,57 @@
+{
+    "type": "equipment",
+    "item_id": 8354,
+    "name": "Nostalgia Waistguard",
+    "info": "",
+    "icon": {
+        "icon_id": 360,
+        "color_id": 6
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 650,
+    "weight": 54,
+    "item_level": 4,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 1,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 18,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 46,
+        "magic_attack": 0,
+        "magic_defense": 36,
+        "crest_slot": 0,
+        "ele_slot": 8
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 19
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 220
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7996,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 8353,
+    "next_item_id": 8355
+}

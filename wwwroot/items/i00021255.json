@@ -1,0 +1,32 @@
+{
+    "type": "material",
+    "item_id": 21255,
+    "name": "Urteca Hot Spring Water",
+    "info": "Liquid Crafting Material: Obtained from various\nlocations in the Urteca Mountains, where hot\nsprings water flows.",
+    "icon": {
+        "icon_id": 481,
+        "color_id": 4
+    },
+    "jobs": [],
+    "sell_price": 350,
+    "weight": 0,
+    "item_level": 110,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Urteca Mountains: Crumbling Entrance Path",
+        "Urteca Mountains: Eastern Urteca Mountains",
+        "Urteca Mountains: Megado Detached Palace",
+        "Urteca Mountains: Pyre Saurian Colony",
+        "Urteca Mountains: The Royal Family Mausoleum",
+        "Urteca Mountains: Western Urteca Mountains"
+    ],
+    "hunt": [],
+    "subtype": "liquids"
+}

@@ -1,0 +1,73 @@
+{
+    "type": "equipment",
+    "item_id": 21171,
+    "name": "Lord Knight Leather Suit",
+    "info": "",
+    "icon": {
+        "icon_id": 2285,
+        "color_id": 85
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 10000,
+    "weight": 10,
+    "item_level": 108,
+    "crest_slots": 0,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 1,
+    "equip_slot": "EQUIP_CATEGORY_WEAR_BODY",
+    "level": 90,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 226,
+        "magic_attack": 0,
+        "magic_defense": 226,
+        "crest_slot": 0,
+        "ele_slot": 32
+    },
+    "params": [
+        {
+            "id": 22,
+            "name": "RESIST_PHYS_ATK_DOWN",
+            "value": 25
+        },
+        {
+            "id": 24,
+            "name": "RESIST_MAG_ATK_DOWN",
+            "value": 25
+        },
+        {
+            "id": 43,
+            "name": "DARK_RESIST",
+            "value": 25
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 443
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

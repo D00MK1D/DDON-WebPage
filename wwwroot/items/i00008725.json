@@ -1,0 +1,68 @@
+{
+    "type": "equipment",
+    "item_id": 8725,
+    "name": "Coquettish Backs",
+    "info": "",
+    "icon": {
+        "icon_id": 803,
+        "color_id": 8
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 850,
+    "weight": 5,
+    "item_level": 7,
+    "crest_slots": 0,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 4,
+    "equip_slot": "EQUIP_CATEGORY_WEAR_LEG",
+    "level": 34,
+    "genders": [
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 32,
+        "magic_attack": 0,
+        "magic_defense": 32,
+        "crest_slot": 4,
+        "ele_slot": 16
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 16
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 153
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7953,
+            "amount": 1
+        },
+        {
+            "item_id": 7978,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 8724,
+    "next_item_id": 8726
+}

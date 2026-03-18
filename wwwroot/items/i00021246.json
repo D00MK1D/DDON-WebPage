@@ -1,0 +1,27 @@
+{
+    "type": "material",
+    "subtype": "other",
+    "item_id": 21246,
+    "name": "Alchemy Sealer Stone Shard",
+    "info": "Fragments of a forged stone made from a special\nmaterial.\nWhen combined in item crafting, it becomes a\ncrafting material that adds additional stats.",
+    "icon": {
+        "icon_id": 1997,
+        "color_id": 4
+    },
+    "jobs": [],
+    "sell_price": 250,
+    "weight": 0,
+    "item_level": 80,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Megadosys Plateau: Demon Army Standby Spot"
+    ],
+    "hunt": []
+}

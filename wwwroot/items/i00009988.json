@@ -1,0 +1,72 @@
+{
+    "type": "equipment",
+    "item_id": 9988,
+    "name": "Doom's Blow",
+    "info": "",
+    "icon": {
+        "icon_id": 921,
+        "color_id": 10
+    },
+    "jobs": [
+        "ShieldSage"
+    ],
+    "sell_price": 5002,
+    "weight": 40,
+    "item_level": 11,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 4,
+    "weapon_type": "GREATSHIELD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_SUB",
+    "level": 51,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "magic_attack": 1070,
+        "crest_slot": 4,
+        "ele_slot": 0
+    },
+    "params": [],
+    "craft_recipe": [
+        {
+            "item_id": 7885,
+            "amount": 3
+        },
+        {
+            "item_id": 7911,
+            "amount": 5
+        },
+        {
+            "item_id": 8029,
+            "amount": 2
+        },
+        {
+            "item_id": 7742,
+            "amount": 1
+        },
+        {
+            "item_id": 8025,
+            "amount": 10
+        },
+        {
+            "item_id": 7959,
+            "amount": 3
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7745,
+            "amount": 1
+        },
+        {
+            "item_id": 7920,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 9989
+}

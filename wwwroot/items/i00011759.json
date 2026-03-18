@@ -1,0 +1,32 @@
+{
+    "type": "material",
+    "item_id": 11759,
+    "name": "Unappraised Moon Trinket (Soldier)",
+    "info": "Jewelry available in the \"Appraisal Exchange\".\nIts effect is unknown.",
+    "icon": {
+        "icon_id": 1495,
+        "color_id": 106
+    },
+    "jobs": [],
+    "sell_price": 100,
+    "weight": 0,
+    "item_level": 15,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Bloodbane Isle",
+        "Breya Coast: Moltova Ruins",
+        "Hidell Plains: The Ark's Lower Level",
+        "Hidell Plains: The Ark's Lower Level: Treasury",
+        "Hidell Plains: The Foreigner's Remains",
+        "Kingal Canyon: Shadolean Great Temple"
+    ],
+    "hunt": [],
+    "subtype": "unappraised jewelry"
+}

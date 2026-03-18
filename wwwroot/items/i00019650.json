@@ -1,0 +1,28 @@
+{
+    "type": "material",
+    "item_id": 19650,
+    "name": "Cursed Bone Fragment",
+    "info": "Bone Crafting Material: Fragment of Bone with\nCursed Seal",
+    "icon": {
+        "icon_id": 472,
+        "color_id": 16
+    },
+    "jobs": [],
+    "sell_price": 200,
+    "weight": 0,
+    "item_level": 100,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Feryana Wilderness: Jifule Fortress",
+        "Feryana Wilderness: Thundering Roar Cave"
+    ],
+    "hunt": [],
+    "subtype": "regional"
+}

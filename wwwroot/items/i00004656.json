@@ -1,0 +1,69 @@
+{
+    "type": "equipment",
+    "item_id": 4656,
+    "name": "Gurkha Gaiters",
+    "info": "",
+    "icon": {
+        "icon_id": 808,
+        "color_id": 8
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 850,
+    "weight": 5,
+    "item_level": 7,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 3,
+    "equip_slot": "EQUIP_CATEGORY_WEAR_LEG",
+    "level": 31,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 30,
+        "magic_attack": 0,
+        "magic_defense": 30,
+        "crest_slot": 4,
+        "ele_slot": 24
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 15
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 141
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7954,
+            "amount": 1
+        },
+        {
+            "item_id": 7995,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 3633,
+    "next_item_id": 5679
+}

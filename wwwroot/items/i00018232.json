@@ -1,0 +1,50 @@
+{
+    "type": "equipment",
+    "item_id": 18232,
+    "name": "Kelsus Barbute",
+    "info": "",
+    "icon": {
+        "icon_id": 325,
+        "color_id": 10
+    },
+    "jobs": [
+        "ShieldSage",
+        "Alchemist",
+        "HighScepter"
+    ],
+    "sell_price": 11100,
+    "weight": 37,
+    "item_level": 90,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_HELM",
+    "level": 85,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 4,
+        "defense": 382,
+        "magic_attack": 4,
+        "magic_defense": 612,
+        "crest_slot": 0,
+        "ele_slot": 24
+    },
+    "params": [],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 17916,
+            "amount": 4
+        },
+        {
+            "item_id": 18726,
+            "amount": 4
+        }
+    ],
+    "previous_item_id": 18231,
+    "next_item_id": 18233
+}

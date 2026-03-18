@@ -1,0 +1,25 @@
+{
+    "type": "consumable",
+    "item_id": 19384,
+    "name": "Beach Grilled Meat Skewers",
+    "info": "A dish full of vigor using meat.\nEating has various beneficial effects.",
+    "icon": {
+        "icon_id": 458,
+        "color_id": 17
+    },
+    "jobs": [],
+    "sell_price": 150,
+    "weight": 0,
+    "item_level": 10,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "max_stack": 99,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

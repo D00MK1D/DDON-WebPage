@@ -1,0 +1,53 @@
+{
+    "type": "equipment",
+    "item_id": 10398,
+    "name": "Staff of Nemesis",
+    "info": "",
+    "icon": {
+        "icon_id": 1148,
+        "color_id": 82
+    },
+    "jobs": [
+        "Priest"
+    ],
+    "sell_price": 500,
+    "weight": 70,
+    "item_level": 6,
+    "crest_slots": 2,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 23,
+    "weapon_type": "MAGICK_BOW",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 1,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 242,
+        "magic_attack": 335,
+        "crest_slot": 0,
+        "ele_slot": 18
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 78
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7856,
+            "amount": 2
+        },
+        {
+            "item_id": 7985,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 10397,
+    "next_item_id": 10399
+}

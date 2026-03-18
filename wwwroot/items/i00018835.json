@@ -1,0 +1,24 @@
+{
+    "type": "material",
+    "item_id": 18835,
+    "name": "Survey Corps Token",
+    "info": "Survey Corps Token.\nCan be collected within a certain period of time.\nCan be used in \"Appraisal Exchange\".",
+    "icon": {
+        "icon_id": 2060,
+        "color_id": 19
+    },
+    "jobs": [],
+    "sell_price": 104,
+    "weight": 0,
+    "item_level": 70,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

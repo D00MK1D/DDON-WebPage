@@ -1,0 +1,27 @@
+{
+    "type": "material",
+    "item_id": 7729,
+    "name": "Orb of Darkness",
+    "info": "Gem Crafting Material.\nWights sometimes use it as a medium for curses.\nRare item.",
+    "icon": {
+        "icon_id": 495,
+        "color_id": 2
+    },
+    "jobs": [],
+    "sell_price": 75,
+    "weight": 0,
+    "item_level": 3,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": [
+        "Level 10+ Wight"
+    ],
+    "subtype": "gemstones"
+}

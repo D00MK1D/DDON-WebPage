@@ -1,0 +1,55 @@
+{
+    "type": "equipment",
+    "item_id": 5480,
+    "name": "Pleats of Revival",
+    "info": "",
+    "icon": {
+        "icon_id": 339,
+        "color_id": 10
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 4420,
+    "weight": 54,
+    "item_level": 11,
+    "crest_slots": 0,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 4,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 52,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 168,
+        "magic_attack": 0,
+        "magic_defense": 134,
+        "crest_slot": 4,
+        "ele_slot": 32
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 47
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 676
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 4457,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

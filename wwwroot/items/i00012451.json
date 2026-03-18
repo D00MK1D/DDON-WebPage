@@ -1,0 +1,74 @@
+{
+    "type": "equipment",
+    "item_id": 12451,
+    "name": "Spectral Ivy",
+    "info": "",
+    "icon": {
+        "icon_id": 1030,
+        "color_id": 10
+    },
+    "jobs": [
+        "Sorcerer"
+    ],
+    "sell_price": 19225,
+    "weight": 80,
+    "item_level": 15,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 0,
+    "weapon_type": "MAGICK_GAUNTLET",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 62,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1300,
+        "magic_attack": 1555,
+        "crest_slot": 4,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 384
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7880,
+            "amount": 5
+        },
+        {
+            "item_id": 11509,
+            "amount": 3
+        },
+        {
+            "item_id": 11505,
+            "amount": 3
+        },
+        {
+            "item_id": 11507,
+            "amount": 3
+        },
+        {
+            "item_id": 7947,
+            "amount": 6
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 11504,
+            "amount": 3
+        },
+        {
+            "item_id": 11508,
+            "amount": 3
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 12452
+}

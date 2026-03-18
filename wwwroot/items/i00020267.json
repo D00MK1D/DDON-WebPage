@@ -1,0 +1,58 @@
+{
+    "type": "equipment",
+    "item_id": 20267,
+    "name": "Hand of Altura",
+    "info": "",
+    "icon": {
+        "icon_id": 1257,
+        "color_id": 10
+    },
+    "jobs": [
+        "Alchemist"
+    ],
+    "sell_price": 43670,
+    "weight": 88,
+    "item_level": 110,
+    "crest_slots": 1,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 4,
+    "weapon_type": "DAGGER",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 95,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 2979,
+        "magic_attack": 2862,
+        "crest_slot": 0,
+        "ele_slot": 17
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 591
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 21256,
+            "amount": 4
+        },
+        {
+            "item_id": 21263,
+            "amount": 4
+        }
+    ],
+    "previous_item_id": 20266,
+    "next_item_id": 20268
+}

@@ -1,0 +1,59 @@
+{
+    "type": "equipment",
+    "item_id": 16554,
+    "name": "Dark Pavise",
+    "info": "",
+    "icon": {
+        "icon_id": 1633,
+        "color_id": 111
+    },
+    "jobs": [
+        "ShieldSage"
+    ],
+    "sell_price": 20000,
+    "weight": 100,
+    "item_level": 70,
+    "crest_slots": 1,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 23,
+    "weapon_type": "STAFF",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 1,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 2146,
+        "magic_attack": 0,
+        "crest_slot": 0,
+        "ele_slot": 25
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 624
+        },
+        {
+            "id": 87,
+            "name": "GUARD_POWER",
+            "value": 408
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        },
+        {
+            "id": 31,
+            "name": "MAX_FORCE_STOCK",
+            "value": 5
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0
+}

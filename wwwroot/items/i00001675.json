@@ -1,0 +1,54 @@
+{
+    "type": "equipment",
+    "item_id": 1675,
+    "name": "Landing Sword",
+    "info": "",
+    "icon": {
+        "icon_id": 819,
+        "color_id": 5
+    },
+    "jobs": [
+        "Fighter"
+    ],
+    "sell_price": 104,
+    "weight": 80,
+    "item_level": 2,
+    "crest_slots": 1,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 1,
+    "weapon_type": "SWORD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 5,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 180,
+        "magic_attack": 41,
+        "crest_slot": 0,
+        "ele_slot": 9
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 42
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7858,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 63,
+    "next_item_id": 2698
+}

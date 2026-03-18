@@ -1,0 +1,46 @@
+{
+    "type": "equipment",
+    "item_id": 25397,
+    "name": "Hero's Magic Mask",
+    "info": "",
+    "icon": {
+        "icon_id": 1329,
+        "color_id": 11
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 15000,
+    "weight": 38,
+    "item_level": 150,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 3,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_HELM",
+    "level": 115,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 12,
+        "defense": 645,
+        "magic_attack": 12,
+        "magic_defense": 1032,
+        "crest_slot": 0,
+        "ele_slot": 8
+    },
+    "params": [],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 25529,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 25396,
+    "next_item_id": 25398
+}

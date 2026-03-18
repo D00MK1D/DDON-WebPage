@@ -1,0 +1,62 @@
+{
+    "type": "equipment",
+    "item_id": 19178,
+    "name": "Crimson Gauntlet",
+    "info": "",
+    "icon": {
+        "icon_id": 1380,
+        "color_id": 111
+    },
+    "jobs": [
+        "Alchemist"
+    ],
+    "sell_price": 32005,
+    "weight": 80,
+    "item_level": 75,
+    "crest_slots": 1,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 0,
+    "weapon_type": "DAGGER",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 80,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 2252,
+        "magic_attack": 2144,
+        "crest_slot": 4,
+        "ele_slot": 33
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 451
+        },
+        {
+            "id": 85,
+            "name": "BLOW_POWER_BBLUNT",
+            "value": 10
+        },
+        {
+            "id": 102,
+            "name": "DRAGON_SLAYER",
+            "value": 36
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 19177,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

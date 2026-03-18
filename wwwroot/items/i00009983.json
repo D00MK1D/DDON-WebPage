@@ -1,0 +1,72 @@
+{
+    "type": "equipment",
+    "item_id": 9983,
+    "name": "Virtue's Aurora",
+    "info": "",
+    "icon": {
+        "icon_id": 916,
+        "color_id": 9
+    },
+    "jobs": [
+        "ShieldSage"
+    ],
+    "sell_price": 3700,
+    "weight": 70,
+    "item_level": 9,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 4,
+    "weapon_type": "GREATSHIELD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_SUB",
+    "level": 43,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "magic_attack": 722,
+        "crest_slot": 4,
+        "ele_slot": 0
+    },
+    "params": [],
+    "craft_recipe": [
+        {
+            "item_id": 7770,
+            "amount": 2
+        },
+        {
+            "item_id": 7769,
+            "amount": 3
+        },
+        {
+            "item_id": 7969,
+            "amount": 8
+        },
+        {
+            "item_id": 7883,
+            "amount": 6
+        },
+        {
+            "item_id": 7940,
+            "amount": 5
+        },
+        {
+            "item_id": 7764,
+            "amount": 6
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7857,
+            "amount": 2
+        },
+        {
+            "item_id": 7807,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 9984
+}

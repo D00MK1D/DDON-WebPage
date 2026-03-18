@@ -1,0 +1,54 @@
+{
+    "type": "equipment",
+    "item_id": 18985,
+    "name": "True Dragon's Blink",
+    "info": "",
+    "icon": {
+        "icon_id": 1657,
+        "color_id": 111
+    },
+    "jobs": [
+        "Hunter"
+    ],
+    "sell_price": 31968,
+    "weight": 70,
+    "item_level": 80,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 5,
+    "weapon_type": "ARCHISTAFF",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 1,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 2287,
+        "magic_attack": 2001,
+        "crest_slot": 0,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 447
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        },
+        {
+            "id": 32,
+            "name": "MAX_LOADED_ARROWS",
+            "value": 24
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0
+}

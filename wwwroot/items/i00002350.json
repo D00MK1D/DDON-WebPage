@@ -1,0 +1,50 @@
+{
+    "type": "equipment",
+    "item_id": 2350,
+    "name": "Archmage's Hat",
+    "info": "",
+    "icon": {
+        "icon_id": 237,
+        "color_id": 8
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 1850,
+    "weight": 27,
+    "item_level": 7,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 3,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_HELM",
+    "level": 34,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 85,
+        "magic_attack": 0,
+        "magic_defense": 136,
+        "crest_slot": 4,
+        "ele_slot": 8
+    },
+    "params": [],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7901,
+            "amount": 1
+        },
+        {
+            "item_id": 7845,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 738,
+    "next_item_id": 3373
+}

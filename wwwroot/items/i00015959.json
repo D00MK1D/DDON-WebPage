@@ -1,0 +1,33 @@
+{
+    "type": "material",
+    "item_id": 15959,
+    "name": "Pixie Mock Wing",
+    "info": "Feather Crafting Material: Material for crafting\nmade from the wings that grow on the backs of\nPixies, although they cannot fly.",
+    "icon": {
+        "icon_id": 478,
+        "color_id": 5
+    },
+    "jobs": [],
+    "sell_price": 235,
+    "weight": 0,
+    "item_level": 45,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": [
+        "Level 1+ High Pixie",
+        "Level 1+ Pixie",
+        "Level 1+ Pixie Biff",
+        "Level 1+ Pixie Din",
+        "Level 1+ Pixie Jabber",
+        "Level 1+ Pixie Pow",
+        "Level 1+ Severely Infected Pixie"
+    ],
+    "subtype": "feathers"
+}

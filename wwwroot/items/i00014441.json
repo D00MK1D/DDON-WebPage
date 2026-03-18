@@ -1,0 +1,41 @@
+{
+    "type": "equipment",
+    "item_id": 14441,
+    "name": "Verdant Star",
+    "info": "",
+    "icon": {
+        "icon_id": 1646,
+        "color_id": 111
+    },
+    "jobs": [
+        "ShieldSage"
+    ],
+    "sell_price": 11252,
+    "weight": 40,
+    "item_level": 60,
+    "crest_slots": 0,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 23,
+    "weapon_type": "GREATSHIELD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_SUB",
+    "level": 75,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "magic_attack": 2003,
+        "crest_slot": 0,
+        "ele_slot": 32
+    },
+    "params": [],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 14440,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

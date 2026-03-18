@@ -1,0 +1,53 @@
+{
+    "type": "equipment",
+    "item_id": 18114,
+    "name": "Sphene Wand of Resentment",
+    "info": "",
+    "icon": {
+        "icon_id": 2054,
+        "color_id": 10
+    },
+    "jobs": [
+        "Sorcerer"
+    ],
+    "sell_price": 35805,
+    "weight": 84,
+    "item_level": 90,
+    "crest_slots": 1,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 23,
+    "weapon_type": "MAGICK_GAUNTLET",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 85,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 2366,
+        "magic_attack": 2658,
+        "crest_slot": 0,
+        "ele_slot": 25
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 751
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 18662,
+            "amount": 6
+        },
+        {
+            "item_id": 18726,
+            "amount": 6
+        }
+    ],
+    "previous_item_id": 18113,
+    "next_item_id": 18115
+}

@@ -1,0 +1,73 @@
+{
+    "type": "equipment",
+    "item_id": 8463,
+    "name": "Agito Bangles",
+    "info": "",
+    "icon": {
+        "icon_id": 38,
+        "color_id": 10
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 3685,
+    "weight": 23,
+    "item_level": 12,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 5,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 56,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 216,
+        "magic_attack": 0,
+        "magic_defense": 180,
+        "crest_slot": 0,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 12
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7890,
+            "amount": 3
+        },
+        {
+            "item_id": 7800,
+            "amount": 3
+        },
+        {
+            "item_id": 7780,
+            "amount": 4
+        },
+        {
+            "item_id": 7808,
+            "amount": 5
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7938,
+            "amount": 1
+        },
+        {
+            "item_id": 7761,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 8464
+}

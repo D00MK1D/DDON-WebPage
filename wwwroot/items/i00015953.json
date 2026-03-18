@@ -1,0 +1,33 @@
+{
+    "type": "material",
+    "item_id": 15953,
+    "name": "Ringing Ore",
+    "info": "Ore Crafting Material:\nA stone that emits sound when multiple pieces\ncome into contact. It vibrates ever so slightly.",
+    "icon": {
+        "icon_id": 487,
+        "color_id": 5
+    },
+    "jobs": [],
+    "sell_price": 100,
+    "weight": 0,
+    "item_level": 45,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Farana Plains: Vegasa Corridor",
+        "Farana Plains: Vegasa Corridor Center Passage",
+        "Kingal Canyon",
+        "Kingal Canyon: Carrion Bank",
+        "Kingal Canyon: Deserted Village of Kraag",
+        "Kingal Canyon: Great Temple Plaza",
+        "Kingal Canyon: Kingal West Bank"
+    ],
+    "hunt": [],
+    "subtype": "ore"
+}

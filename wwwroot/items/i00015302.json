@@ -1,0 +1,65 @@
+{
+    "type": "equipment",
+    "item_id": 15302,
+    "name": "Fortress Arms",
+    "info": "",
+    "icon": {
+        "icon_id": 1549,
+        "color_id": 111
+    },
+    "jobs": [
+        "ShieldSage",
+        "Alchemist",
+        "HighScepter"
+    ],
+    "sell_price": 8439,
+    "weight": 45,
+    "item_level": 60,
+    "crest_slots": 0,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 23,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 75,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 4,
+        "defense": 376,
+        "magic_attack": 4,
+        "magic_defense": 313,
+        "crest_slot": 0,
+        "ele_slot": 32
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 24
+        },
+        {
+            "id": 2,
+            "name": "RESIST_TORPOR",
+            "value": 8
+        },
+        {
+            "id": 9,
+            "name": "RESIST_PETRIFICATION",
+            "value": 8
+        },
+        {
+            "id": 15,
+            "name": "RESIST_KNOCKOUT",
+            "value": 8
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 15301,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

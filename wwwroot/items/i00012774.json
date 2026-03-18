@@ -1,0 +1,74 @@
+{
+    "type": "equipment",
+    "item_id": 12774,
+    "name": "Garb of Concealment",
+    "info": "",
+    "icon": {
+        "icon_id": 1316,
+        "color_id": 111
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 12865,
+    "weight": 70,
+    "item_level": 45,
+    "crest_slots": 1,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 1,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 70,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 497,
+        "magic_attack": 0,
+        "magic_defense": 441,
+        "crest_slot": 4,
+        "ele_slot": 25
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 30
+        },
+        {
+            "id": 15,
+            "name": "RESIST_KNOCKOUT",
+            "value": 4
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 1185
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 11806,
+            "amount": 5
+        },
+        {
+            "item_id": 11811,
+            "amount": 5
+        },
+        {
+            "item_id": 11812,
+            "amount": 3
+        },
+        {
+            "item_id": 11813,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 12773,
+    "next_item_id": 12775
+}

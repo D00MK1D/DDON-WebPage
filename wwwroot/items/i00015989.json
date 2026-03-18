@@ -1,0 +1,27 @@
+{
+    "type": "material",
+    "item_id": 15989,
+    "name": "Pixie Crown",
+    "info": "Miscellaneous Crafting Material:\nA small crown that gathers the respect of the\nPixie tribe.",
+    "icon": {
+        "icon_id": 517,
+        "color_id": 105
+    },
+    "jobs": [],
+    "sell_price": 1200,
+    "weight": 0,
+    "item_level": 65,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": [
+        "Level 1+ Pixie King"
+    ],
+    "subtype": "other"
+}

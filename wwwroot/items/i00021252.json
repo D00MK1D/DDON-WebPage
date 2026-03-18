@@ -1,0 +1,33 @@
+{
+    "type": "material",
+    "item_id": 21252,
+    "name": "Golden Mistletoe",
+    "info": "Wood Crafting Material: A small, golden, shining\nmistletoe.",
+    "icon": {
+        "icon_id": 2499,
+        "color_id": 4
+    },
+    "jobs": [],
+    "sell_price": 100,
+    "weight": 0,
+    "item_level": 100,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Megadosys Plateau",
+        "Rathnite Foothills",
+        "Rathnite Foothills: Cave of Hell's Descent",
+        "Rathnite Foothills: Goblin Lookout",
+        "Rathnite Foothills: Lakeside Grotto",
+        "Rathnite Foothills: Rathnite Foothills Lakeside",
+        "Rathnite Foothills: Reservoir Underground Tunnel"
+    ],
+    "hunt": [],
+    "subtype": "lumber"
+}

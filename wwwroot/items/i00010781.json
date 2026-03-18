@@ -1,0 +1,47 @@
+{
+    "type": "equipment",
+    "item_id": 10781,
+    "name": "Olfring Rod (Green)",
+    "info": "",
+    "icon": {
+        "icon_id": 1239,
+        "color_id": 82
+    },
+    "jobs": [
+        "ShieldSage"
+    ],
+    "sell_price": 5000,
+    "weight": 30,
+    "item_level": 12,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 1,
+    "weapon_type": "GREATSHIELD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_SUB",
+    "level": 1,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "magic_attack": 918,
+        "crest_slot": 0,
+        "ele_slot": 24
+    },
+    "params": [],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7900,
+            "amount": 1
+        },
+        {
+            "item_id": 7956,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 10780,
+    "next_item_id": 10782
+}

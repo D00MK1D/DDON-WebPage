@@ -1,0 +1,28 @@
+{
+    "type": "material",
+    "item_id": 15962,
+    "name": "Bronze Tail Feather",
+    "info": "Feather Crafting Material:\nStymphal\u00eddes' long, gracefully flowing tail\nfeathers",
+    "icon": {
+        "icon_id": 479,
+        "color_id": 5
+    },
+    "jobs": [],
+    "sell_price": 235,
+    "weight": 0,
+    "item_level": 45,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": [
+        "Level 1+ Severely Infected Stymphal\u00eddes",
+        "Level 1+ Stymphal\u00eddes"
+    ],
+    "subtype": "feathers"
+}

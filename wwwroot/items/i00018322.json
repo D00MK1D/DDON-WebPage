@@ -1,0 +1,46 @@
+{
+    "type": "equipment",
+    "item_id": 18322,
+    "name": "Courage Arms",
+    "info": "",
+    "icon": {
+        "icon_id": 74,
+        "color_id": 10
+    },
+    "jobs": [
+        "Fighter",
+        "Warrior"
+    ],
+    "sell_price": 10777,
+    "weight": 35,
+    "item_level": 90,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 1,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 85,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 4,
+        "defense": 459,
+        "magic_attack": 4,
+        "magic_defense": 382,
+        "crest_slot": 0,
+        "ele_slot": 24
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 27
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0
+}

@@ -1,0 +1,52 @@
+{
+    "type": "equipment",
+    "item_id": 4976,
+    "name": "Rising Sun",
+    "info": "",
+    "icon": {
+        "icon_id": 942,
+        "color_id": 10
+    },
+    "jobs": [
+        "Seeker"
+    ],
+    "sell_price": 11525,
+    "weight": 90,
+    "item_level": 11,
+    "crest_slots": 1,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 2,
+    "weapon_type": "ROD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 51,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1004,
+        "magic_attack": 851,
+        "crest_slot": 4,
+        "ele_slot": 33
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 117
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 23
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 3953,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

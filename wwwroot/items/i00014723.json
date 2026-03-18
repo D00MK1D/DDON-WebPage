@@ -1,0 +1,58 @@
+{
+    "type": "equipment",
+    "item_id": 14723,
+    "name": "Authority of Corona",
+    "info": "",
+    "icon": {
+        "icon_id": 1037,
+        "color_id": 10
+    },
+    "jobs": [
+        "Sorcerer"
+    ],
+    "sell_price": 32005,
+    "weight": 80,
+    "item_level": 65,
+    "crest_slots": 1,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 2,
+    "weapon_type": "MAGICK_GAUNTLET",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 80,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1996,
+        "magic_attack": 2279,
+        "crest_slot": 4,
+        "ele_slot": 9
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 661
+        },
+        {
+            "id": 104,
+            "name": "CORRUPTED_SLAYER",
+            "value": 30
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 15987,
+            "amount": 4
+        },
+        {
+            "item_id": 15988,
+            "amount": 4
+        }
+    ],
+    "previous_item_id": 14722,
+    "next_item_id": 14724
+}

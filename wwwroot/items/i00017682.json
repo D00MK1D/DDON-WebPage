@@ -1,0 +1,57 @@
+{
+    "type": "equipment",
+    "item_id": 17682,
+    "name": "Shahabad Jacket",
+    "info": "",
+    "icon": {
+        "icon_id": 165,
+        "color_id": 11
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 18060,
+    "weight": 98,
+    "item_level": 85,
+    "crest_slots": 1,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 4,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 83,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 4,
+        "defense": 657,
+        "magic_attack": 4,
+        "magic_defense": 584,
+        "crest_slot": 4,
+        "ele_slot": 9
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 36
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 850
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 17907,
+            "amount": 3
+        }
+    ],
+    "previous_item_id": 17681,
+    "next_item_id": 17683
+}

@@ -1,0 +1,27 @@
+{
+    "type": "material",
+    "item_id": 19652,
+    "name": "Silver Eye Ore",
+    "info": "Ore Crafting Material: A fine white-silver\nmineral with patterns that resemble eyes floating\non its surface.",
+    "icon": {
+        "icon_id": 2181,
+        "color_id": 4
+    },
+    "jobs": [],
+    "sell_price": 100,
+    "weight": 0,
+    "item_level": 90,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Feryana Wilderness"
+    ],
+    "hunt": [],
+    "subtype": "ore"
+}

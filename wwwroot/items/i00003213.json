@@ -1,0 +1,60 @@
+{
+    "type": "equipment",
+    "item_id": 3213,
+    "name": "Serenity Legs",
+    "info": "",
+    "icon": {
+        "icon_id": 329,
+        "color_id": 7
+    },
+    "jobs": [
+        "Fighter",
+        "Warrior"
+    ],
+    "sell_price": 1800,
+    "weight": 90,
+    "item_level": 6,
+    "crest_slots": 0,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 1,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 30,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 78,
+        "magic_attack": 0,
+        "magic_defense": 62,
+        "crest_slot": 0,
+        "ele_slot": 16
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 29
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 382
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7935,
+            "amount": 1
+        },
+        {
+            "item_id": 7912,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 2190,
+    "next_item_id": 4236
+}

@@ -1,0 +1,55 @@
+{
+    "type": "equipment",
+    "item_id": 3248,
+    "name": "Silver Gauntlets",
+    "info": "",
+    "icon": {
+        "icon_id": 25,
+        "color_id": 9
+    },
+    "jobs": [
+        "Fighter",
+        "Warrior"
+    ],
+    "sell_price": 3535,
+    "weight": 56,
+    "item_level": 10,
+    "crest_slots": 0,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 3,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 49,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 183,
+        "magic_attack": 0,
+        "magic_defense": 153,
+        "crest_slot": 0,
+        "ele_slot": 16
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 11
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7838,
+            "amount": 2
+        },
+        {
+            "item_id": 7758,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 2225,
+    "next_item_id": 4271
+}

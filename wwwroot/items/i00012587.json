@@ -1,0 +1,61 @@
+{
+    "type": "equipment",
+    "item_id": 12587,
+    "name": "Libertas Cap",
+    "info": "",
+    "icon": {
+        "icon_id": 317,
+        "color_id": 11
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 7351,
+    "weight": 36,
+    "item_level": 40,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_HELM",
+    "level": 70,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 268,
+        "magic_attack": 0,
+        "magic_defense": 428,
+        "crest_slot": 0,
+        "ele_slot": 8
+    },
+    "params": [
+        {
+            "id": 12,
+            "name": "RESIST_FROZEN_SOLID",
+            "value": 3
+        },
+        {
+            "id": 20,
+            "name": "RESIST_HOLY_RES_DOWN",
+            "value": 3
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 11801,
+            "amount": 2
+        },
+        {
+            "item_id": 11803,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 12586,
+    "next_item_id": 12588
+}

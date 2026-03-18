@@ -1,0 +1,48 @@
+{
+    "type": "material",
+    "item_id": 8014,
+    "name": "Scroll of Holy",
+    "info": "Grimoire Crafting Material:\nScrolls imbued with the mark of Holy.",
+    "icon": {
+        "icon_id": 516,
+        "color_id": 3
+    },
+    "jobs": [],
+    "sell_price": 195,
+    "weight": 0,
+    "item_level": 6,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [
+        {
+            "item_id": 8002,
+            "amount": 1
+        },
+        {
+            "item_id": 1316,
+            "amount": 1
+        },
+        {
+            "item_id": 7901,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Betland Plains: North Drainage Channel",
+        "Betland Plains: Temple of Purification",
+        "Deenan Woods: Le Karvas Arma",
+        "Deenan Woods: Le Karvas Salto",
+        "Deenan Woods: Sunset Terrace",
+        "Dowe Valley: Dreed Castle",
+        "Mysree Grove: Dark Green Terrace",
+        "Volden Mines: Summit Chapel",
+        "Zandora Wastelands: Mergoda Flood Channels"
+    ],
+    "hunt": [],
+    "subtype": "scrolls"
+}

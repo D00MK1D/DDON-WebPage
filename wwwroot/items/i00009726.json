@@ -1,0 +1,69 @@
+{
+    "type": "equipment",
+    "item_id": 9726,
+    "name": "Line of Elegance",
+    "info": "",
+    "icon": {
+        "icon_id": 369,
+        "color_id": 9
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 1500,
+    "weight": 36,
+    "item_level": 9,
+    "crest_slots": 0,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 4,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 41,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 95,
+        "magic_attack": 0,
+        "magic_defense": 76,
+        "crest_slot": 4,
+        "ele_slot": 16
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 33
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 544
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7779,
+            "amount": 1
+        },
+        {
+            "item_id": 8012,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 9725,
+    "next_item_id": 9727
+}

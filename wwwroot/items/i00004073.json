@@ -1,0 +1,77 @@
+{
+    "type": "equipment",
+    "item_id": 4073,
+    "name": "Brachium Spiritus",
+    "info": "",
+    "icon": {
+        "icon_id": 982,
+        "color_id": 10
+    },
+    "jobs": [
+        "Alchemist"
+    ],
+    "sell_price": 18005,
+    "weight": 80,
+    "item_level": 12,
+    "crest_slots": 1,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 21,
+    "weapon_type": "DAGGER",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 60,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1304,
+        "magic_attack": 1208,
+        "crest_slot": 0,
+        "ele_slot": 25
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 236
+        },
+        {
+            "id": 85,
+            "name": "BLOW_POWER_BBLUNT",
+            "value": 5
+        },
+        {
+            "id": 102,
+            "name": "DRAGON_SLAYER",
+            "value": 48
+        },
+        {
+            "id": 103,
+            "name": "DEMON_SLAYER",
+            "value": 63
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 9457,
+            "amount": 3
+        },
+        {
+            "item_id": 9788,
+            "amount": 3
+        },
+        {
+            "item_id": 10993,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 3050,
+    "next_item_id": 5096
+}

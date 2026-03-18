@@ -1,0 +1,28 @@
+{
+    "type": "material",
+    "item_id": 7778,
+    "name": "Beast Fur",
+    "info": "Fur Crafting Material: Beast Fur from common\nmagical beasts like Grimwargs and Wargs.",
+    "icon": {
+        "icon_id": 476,
+        "color_id": 4
+    },
+    "jobs": [],
+    "sell_price": 250,
+    "weight": 0,
+    "item_level": 8,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": [
+        "Level 1+ Bolt Grimwarg",
+        "Level 1+ Grimwarg"
+    ],
+    "subtype": "furs"
+}

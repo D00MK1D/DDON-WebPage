@@ -1,0 +1,25 @@
+{
+    "type": "consumable",
+    "item_id": 19227,
+    "name": "Book of Acquisition (Reduce Thunder)",
+    "info": "Learn the Secret Augment \"Reduce Thunder\".",
+    "icon": {
+        "icon_id": 462,
+        "color_id": 1
+    },
+    "jobs": [],
+    "sell_price": 0,
+    "weight": 0,
+    "item_level": 1,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "max_stack": 99,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

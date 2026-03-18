@@ -1,0 +1,62 @@
+{
+    "type": "equipment",
+    "item_id": 85,
+    "name": "Staff of Magickal Restraint",
+    "info": "",
+    "icon": {
+        "icon_id": 1009,
+        "color_id": 6
+    },
+    "jobs": [
+        "Priest"
+    ],
+    "sell_price": 1450,
+    "weight": 35,
+    "item_level": 4,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 1,
+    "weapon_type": "MAGICK_BOW",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 17,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 174,
+        "magic_attack": 249,
+        "crest_slot": 0,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 65
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7963,
+            "amount": 3
+        },
+        {
+            "item_id": 7736,
+            "amount": 3
+        },
+        {
+            "item_id": 7985,
+            "amount": 2
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7752,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 1697
+}

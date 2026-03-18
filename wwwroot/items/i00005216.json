@@ -1,0 +1,43 @@
+{
+    "type": "equipment",
+    "item_id": 5216,
+    "name": "Silver Sallet",
+    "info": "",
+    "icon": {
+        "icon_id": 256,
+        "color_id": 9
+    },
+    "jobs": [
+        "Fighter",
+        "Warrior"
+    ],
+    "sell_price": 3535,
+    "weight": 45,
+    "item_level": 10,
+    "crest_slots": 0,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 3,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_HELM",
+    "level": 49,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 155,
+        "magic_attack": 0,
+        "magic_defense": 248,
+        "crest_slot": 0,
+        "ele_slot": 32
+    },
+    "params": [],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 4193,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

@@ -1,0 +1,59 @@
+{
+    "type": "jewlery",
+    "item_id": 8931,
+    "name": "Fluorite Earrings",
+    "info": "",
+    "icon": {
+        "icon_id": 563,
+        "color_id": 5
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 100,
+    "weight": 1,
+    "item_level": 2,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "level": 6,
+    "stats": {},
+    "params": [
+        {
+            "id": 25,
+            "name": "RESIST_MAG_DEF_DOWN",
+            "value": 1
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 5
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7893,
+            "amount": 2
+        },
+        {
+            "item_id": 9060,
+            "amount": 2
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

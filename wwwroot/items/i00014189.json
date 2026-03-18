@@ -1,0 +1,46 @@
+{
+    "type": "consumable",
+    "item_id": 14189,
+    "name": "Key of Dragon Force",
+    "info": "Key with a Relief depicting Wisdom.\nConsumed upon use.",
+    "icon": {
+        "icon_id": 1414,
+        "color_id": 100
+    },
+    "jobs": [],
+    "sell_price": 950,
+    "weight": 0,
+    "item_level": 30,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "max_stack": 99,
+    "craft_recipe": [
+        {
+            "item_id": 16007,
+            "amount": 1
+        },
+        {
+            "item_id": 15975,
+            "amount": 6
+        },
+        {
+            "item_id": 15977,
+            "amount": 6
+        },
+        {
+            "item_id": 15979,
+            "amount": 6
+        },
+        {
+            "item_id": 16006,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

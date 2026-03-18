@@ -1,0 +1,53 @@
+{
+    "type": "equipment",
+    "item_id": 4019,
+    "name": "Frausgef\u00fchl",
+    "info": "",
+    "icon": {
+        "icon_id": 1007,
+        "color_id": 10
+    },
+    "jobs": [
+        "ElementArcher"
+    ],
+    "sell_price": 15130,
+    "weight": 90,
+    "item_level": 11,
+    "crest_slots": 1,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 4,
+    "weapon_type": "GREATSWORD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 55,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1050,
+        "magic_attack": 1216,
+        "crest_slot": 4,
+        "ele_slot": 25
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 166
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7778,
+            "amount": 2
+        },
+        {
+            "item_id": 7802,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 2996,
+    "next_item_id": 5042
+}

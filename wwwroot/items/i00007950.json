@@ -1,0 +1,45 @@
+{
+    "type": "material",
+    "item_id": 7950,
+    "name": "Mergan Cloth",
+    "info": "Cloth Crafting Material: Alchemized cloth woven\nusing Mergoda's alchemy.",
+    "icon": {
+        "icon_id": 499,
+        "color_id": 6
+    },
+    "jobs": [],
+    "sell_price": 1010,
+    "weight": 0,
+    "item_level": 11,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [
+        {
+            "item_id": 8023,
+            "amount": 1
+        },
+        {
+            "item_id": 7840,
+            "amount": 5
+        },
+        {
+            "item_id": 7841,
+            "amount": 4
+        },
+        {
+            "item_id": 7826,
+            "amount": 4
+        },
+        {
+            "item_id": 8033,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

@@ -1,0 +1,54 @@
+{
+    "type": "equipment",
+    "item_id": 18236,
+    "name": "Kier Cervelliere",
+    "info": "",
+    "icon": {
+        "icon_id": 1942,
+        "color_id": 11
+    },
+    "jobs": [
+        "ShieldSage",
+        "Alchemist",
+        "HighScepter"
+    ],
+    "sell_price": 11716,
+    "weight": 38,
+    "item_level": 95,
+    "crest_slots": 0,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 3,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_HELM",
+    "level": 88,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 5,
+        "defense": 399,
+        "magic_attack": 5,
+        "magic_defense": 638,
+        "crest_slot": 4,
+        "ele_slot": 16
+    },
+    "params": [],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 17893,
+            "amount": 1
+        },
+        {
+            "item_id": 17864,
+            "amount": 2
+        },
+        {
+            "item_id": 19648,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 18235,
+    "next_item_id": 18237
+}

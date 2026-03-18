@@ -1,0 +1,50 @@
+{
+    "type": "equipment",
+    "item_id": 18246,
+    "name": "Aura Balaclava",
+    "info": "",
+    "icon": {
+        "icon_id": 250,
+        "color_id": 10
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 11100,
+    "weight": 38,
+    "item_level": 90,
+    "crest_slots": 0,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_HELM",
+    "level": 85,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 4,
+        "defense": 381,
+        "magic_attack": 4,
+        "magic_defense": 609,
+        "crest_slot": 0,
+        "ele_slot": 16
+    },
+    "params": [],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 17916,
+            "amount": 2
+        },
+        {
+            "item_id": 18726,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 18245,
+    "next_item_id": 18247
+}

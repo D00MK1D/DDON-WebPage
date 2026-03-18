@@ -1,0 +1,53 @@
+{
+    "type": "equipment",
+    "item_id": 5407,
+    "name": "Amilec Gloves",
+    "info": "",
+    "icon": {
+        "icon_id": 66,
+        "color_id": 10
+    },
+    "jobs": [
+        "Seeker"
+    ],
+    "sell_price": 5760,
+    "weight": 45,
+    "item_level": 12,
+    "crest_slots": 0,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 22,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 60,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 258,
+        "magic_attack": 0,
+        "magic_defense": 215,
+        "crest_slot": 0,
+        "ele_slot": 32
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 13
+        },
+        {
+            "id": 10,
+            "name": "RESIST_GOLDEN",
+            "value": 5
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 4384,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

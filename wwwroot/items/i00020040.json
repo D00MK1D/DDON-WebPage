@@ -1,0 +1,58 @@
+{
+    "type": "equipment",
+    "item_id": 20040,
+    "name": "Kris",
+    "info": "",
+    "icon": {
+        "icon_id": 2350,
+        "color_id": 9
+    },
+    "jobs": [
+        "HighScepter"
+    ],
+    "sell_price": 3970,
+    "weight": 73,
+    "item_level": 20,
+    "crest_slots": 1,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 23,
+    "weapon_type": "MAGICK_SWORD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 50,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1516,
+        "magic_attack": 1516,
+        "crest_slot": 0,
+        "ele_slot": 25
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 282
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 10
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7999,
+            "amount": 3
+        },
+        {
+            "item_id": 7932,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 20039,
+    "next_item_id": 20041
+}

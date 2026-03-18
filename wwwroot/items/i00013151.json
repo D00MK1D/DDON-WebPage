@@ -1,0 +1,73 @@
+{
+    "type": "equipment",
+    "item_id": 13151,
+    "name": "Black Bandages",
+    "info": "",
+    "icon": {
+        "icon_id": 808,
+        "color_id": 111
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 1837,
+    "weight": 5,
+    "item_level": 45,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 1,
+    "equip_slot": "EQUIP_CATEGORY_WEAR_LEG",
+    "level": 70,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 107,
+        "magic_attack": 0,
+        "magic_defense": 107,
+        "crest_slot": 4,
+        "ele_slot": 24
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 42
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 260
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 11799,
+            "amount": 1
+        },
+        {
+            "item_id": 11801,
+            "amount": 1
+        },
+        {
+            "item_id": 11803,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 13150,
+    "next_item_id": 13152
+}

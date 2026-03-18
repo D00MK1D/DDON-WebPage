@@ -1,0 +1,55 @@
+{
+    "type": "equipment",
+    "item_id": 4257,
+    "name": "Murg Armguards",
+    "info": "",
+    "icon": {
+        "icon_id": 14,
+        "color_id": 7
+    },
+    "jobs": [
+        "Fighter",
+        "Warrior"
+    ],
+    "sell_price": 775,
+    "weight": 45,
+    "item_level": 5,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 1,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 22,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 72,
+        "magic_attack": 0,
+        "magic_defense": 60,
+        "crest_slot": 4,
+        "ele_slot": 24
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 5
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7953,
+            "amount": 1
+        },
+        {
+            "item_id": 7813,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 3234,
+    "next_item_id": 5280
+}

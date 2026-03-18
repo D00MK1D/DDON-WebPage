@@ -1,0 +1,55 @@
+{
+    "type": "equipment",
+    "item_id": 5473,
+    "name": "Newcomer's Waistguard",
+    "info": "",
+    "icon": {
+        "icon_id": 360,
+        "color_id": 8
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 2310,
+    "weight": 54,
+    "item_level": 7,
+    "crest_slots": 0,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 2,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 34,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 95,
+        "magic_attack": 0,
+        "magic_defense": 76,
+        "crest_slot": 4,
+        "ele_slot": 32
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 33
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 442
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 4450,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

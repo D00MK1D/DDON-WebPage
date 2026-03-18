@@ -1,0 +1,55 @@
+{
+    "type": "equipment",
+    "item_id": 25345,
+    "name": "Hero's Snipe Jacket",
+    "info": "",
+    "icon": {
+        "icon_id": 1316,
+        "color_id": 11
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 25100,
+    "weight": 68,
+    "item_level": 150,
+    "crest_slots": 1,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 3,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 115,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 12,
+        "defense": 1170,
+        "magic_attack": 12,
+        "magic_defense": 1040,
+        "crest_slot": 0,
+        "ele_slot": 33
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 50
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 1340
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 25344,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

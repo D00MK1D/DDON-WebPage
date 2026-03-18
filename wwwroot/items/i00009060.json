@@ -1,0 +1,31 @@
+{
+    "type": "material",
+    "item_id": 9060,
+    "name": "Lead Ore",
+    "info": "Ore Crafting Material: An ore that contains a\nhigh amount of lead.",
+    "icon": {
+        "icon_id": 487,
+        "color_id": 1
+    },
+    "jobs": [],
+    "sell_price": 20,
+    "weight": 0,
+    "item_level": 2,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Breya Coast: Lighthouse Old Well",
+        "Hidell Plains: Abandoned Well on Hidell Road",
+        "Hidell Plains: Hidell Catacombs",
+        "Hidell Plains: Hunters' Secret Passage",
+        "Mysree Forest"
+    ],
+    "hunt": [],
+    "subtype": "ore"
+}

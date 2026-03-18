@@ -1,0 +1,32 @@
+{
+    "type": "material",
+    "item_id": 7761,
+    "name": "Orc's War Tusk",
+    "info": "Fang Crafting Material: Disheveled Fang of an Orc\nCommander.",
+    "icon": {
+        "icon_id": 470,
+        "color_id": 4
+    },
+    "jobs": [],
+    "sell_price": 650,
+    "weight": 0,
+    "item_level": 7,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": [
+        "Level 1+ Orc Battler",
+        "Level 1+ Orc Bringer",
+        "Level 1+ Orc General",
+        "Level 1+ Orc Trooper",
+        "Level 35+ Orc Captain",
+        "Level 40+ Mogok"
+    ],
+    "subtype": "fangs tusks and claws"
+}

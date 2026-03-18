@@ -1,0 +1,70 @@
+{
+    "type": "equipment",
+    "item_id": 228,
+    "name": "Nocturne",
+    "info": "",
+    "icon": {
+        "icon_id": 1016,
+        "color_id": 10
+    },
+    "jobs": [
+        "Priest"
+    ],
+    "sell_price": 14050,
+    "weight": 120,
+    "item_level": 11,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 3,
+    "weapon_type": "MAGICK_BOW",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 55,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 943,
+        "magic_attack": 1061,
+        "crest_slot": 4,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 146
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7890,
+            "amount": 5
+        },
+        {
+            "item_id": 8030,
+            "amount": 1
+        },
+        {
+            "item_id": 8029,
+            "amount": 3
+        },
+        {
+            "item_id": 7748,
+            "amount": 5
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7977,
+            "amount": 1
+        },
+        {
+            "item_id": 8015,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 1840
+}

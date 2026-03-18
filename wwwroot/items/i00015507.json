@@ -1,0 +1,62 @@
+{
+    "type": "equipment",
+    "item_id": 15507,
+    "name": "Patrician Legs",
+    "info": "",
+    "icon": {
+        "icon_id": 359,
+        "color_id": 10
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 12001,
+    "weight": 42,
+    "item_level": 65,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 80,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 3,
+        "defense": 333,
+        "magic_attack": 3,
+        "magic_defense": 266,
+        "crest_slot": 4,
+        "ele_slot": 24
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 77
+        },
+        {
+            "id": 7,
+            "name": "RESIST_SKILL_STIFLING",
+            "value": 4
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 735
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 15991,
+            "amount": 5
+        }
+    ],
+    "previous_item_id": 15506,
+    "next_item_id": 15508
+}

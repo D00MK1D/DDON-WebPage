@@ -1,0 +1,65 @@
+{
+    "type": "equipment",
+    "item_id": 924,
+    "name": "Resolver Arms",
+    "info": "",
+    "icon": {
+        "icon_id": 81,
+        "color_id": 8
+    },
+    "jobs": [
+        "ShieldSage",
+        "Alchemist",
+        "HighScepter"
+    ],
+    "sell_price": 1850,
+    "weight": 45,
+    "item_level": 7,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 3,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 34,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 100,
+        "magic_attack": 0,
+        "magic_defense": 84,
+        "crest_slot": 4,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 7
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7857,
+            "amount": 4
+        },
+        {
+            "item_id": 7939,
+            "amount": 1
+        },
+        {
+            "item_id": 7957,
+            "amount": 2
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7857,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 2536
+}

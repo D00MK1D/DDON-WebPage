@@ -1,0 +1,47 @@
+{
+    "type": "equipment",
+    "item_id": 9981,
+    "name": "Supernova",
+    "info": "",
+    "icon": {
+        "icon_id": 916,
+        "color_id": 8
+    },
+    "jobs": [
+        "ShieldSage"
+    ],
+    "sell_price": 2314,
+    "weight": 40,
+    "item_level": 7,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 3,
+    "weapon_type": "GREATSHIELD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_SUB",
+    "level": 33,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "magic_attack": 555,
+        "crest_slot": 4,
+        "ele_slot": 24
+    },
+    "params": [],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 8019,
+            "amount": 1
+        },
+        {
+            "item_id": 7903,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 9980,
+    "next_item_id": 9982
+}

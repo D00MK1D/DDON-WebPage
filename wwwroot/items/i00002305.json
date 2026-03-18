@@ -1,0 +1,61 @@
+{
+    "type": "equipment",
+    "item_id": 2305,
+    "name": "Faith Cuisses",
+    "info": "",
+    "icon": {
+        "icon_id": 384,
+        "color_id": 10
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 9189,
+    "weight": 54,
+    "item_level": 35,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 4,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 70,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 259,
+        "magic_attack": 0,
+        "magic_defense": 207,
+        "crest_slot": 4,
+        "ele_slot": 8
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 60
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 728
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 11803,
+            "amount": 1
+        },
+        {
+            "item_id": 11797,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 693,
+    "next_item_id": 3328
+}

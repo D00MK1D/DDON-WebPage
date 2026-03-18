@@ -1,0 +1,48 @@
+{
+    "type": "material",
+    "item_id": 7935,
+    "name": "Leather Cloth",
+    "info": "Cloth Crafting Material: Versatile cloth made\nfrom animal pelts.",
+    "icon": {
+        "icon_id": 501,
+        "color_id": 2
+    },
+    "jobs": [],
+    "sell_price": 100,
+    "weight": 0,
+    "item_level": 4,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [
+        {
+            "item_id": 7732,
+            "amount": 1
+        },
+        {
+            "item_id": 7919,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Elan Water Grove: Path to Morrow",
+        "Farana Plains",
+        "Farana Plains: Danandell Cave",
+        "Farana Plains: Danandell Cave Depths",
+        "Farana Plains: Farana Ruins",
+        "Farana Plains: Farana Ruins Depths",
+        "Farana Plains: Magusas Ancient Watercourse",
+        "Hidell Plains: Hidell Catacombs",
+        "Hidell Plains: Hidell Catacombs Depths",
+        "Kingal Canyon: Grinmel Ruins",
+        "Kingal Canyon: Grinmel Ruins Center Depths",
+        "Kingal Canyon: Nebula Temple",
+        "Kingal Canyon: Nebula Temple: Center"
+    ],
+    "hunt": [],
+    "subtype": "fabric"
+}

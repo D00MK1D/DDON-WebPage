@@ -1,0 +1,56 @@
+{
+    "type": "equipment",
+    "item_id": 2545,
+    "name": "Imperious Arms",
+    "info": "",
+    "icon": {
+        "icon_id": 82,
+        "color_id": 10
+    },
+    "jobs": [
+        "ShieldSage",
+        "Alchemist",
+        "HighScepter"
+    ],
+    "sell_price": 3685,
+    "weight": 45,
+    "item_level": 11,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 4,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 55,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 210,
+        "magic_attack": 0,
+        "magic_defense": 175,
+        "crest_slot": 4,
+        "ele_slot": 8
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 12
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7856,
+            "amount": 2
+        },
+        {
+            "item_id": 7778,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 933,
+    "next_item_id": 3568
+}

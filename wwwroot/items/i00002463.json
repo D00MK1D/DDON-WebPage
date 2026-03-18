@@ -1,0 +1,50 @@
+{
+    "type": "equipment",
+    "item_id": 2463,
+    "name": "Greater Eyes",
+    "info": "",
+    "icon": {
+        "icon_id": 325,
+        "color_id": 9
+    },
+    "jobs": [
+        "ShieldSage",
+        "Alchemist",
+        "HighScepter"
+    ],
+    "sell_price": 2960,
+    "weight": 36,
+    "item_level": 9,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 3,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_HELM",
+    "level": 45,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 129,
+        "magic_attack": 0,
+        "magic_defense": 206,
+        "crest_slot": 4,
+        "ele_slot": 8
+    },
+    "params": [],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7782,
+            "amount": 1
+        },
+        {
+            "item_id": 7859,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 851,
+    "next_item_id": 3486
+}

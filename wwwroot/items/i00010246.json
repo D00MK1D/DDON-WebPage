@@ -1,0 +1,58 @@
+{
+    "type": "equipment",
+    "item_id": 10246,
+    "name": "Olfring Shell (Black)",
+    "info": "",
+    "icon": {
+        "icon_id": 1131,
+        "color_id": 82
+    },
+    "jobs": [
+        "Fighter"
+    ],
+    "sell_price": 5000,
+    "weight": 40,
+    "item_level": 3,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 0,
+    "weapon_type": "SHIELD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_SUB",
+    "level": 1,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "magic_attack": 0,
+        "crest_slot": 4,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 87,
+            "name": "GUARD_POWER",
+            "value": 108
+        },
+        {
+            "id": 47,
+            "name": "INFLICT_BLIND",
+            "value": 10
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7961,
+            "amount": 1
+        },
+        {
+            "item_id": 7976,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 10247
+}

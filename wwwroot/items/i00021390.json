@@ -1,0 +1,27 @@
+{
+    "type": "material",
+    "item_id": 21390,
+    "name": "Relic Steel (Megadosys District)",
+    "info": "Steel created by lost techniques.\nIt is said that its properties vary depending on\nthe region.",
+    "icon": {
+        "icon_id": 2550,
+        "color_id": 105
+    },
+    "jobs": [],
+    "sell_price": 0,
+    "weight": 0,
+    "item_level": 108,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Megadosys Plateau: Memory of Megadosys"
+    ],
+    "hunt": [],
+    "subtype": "other"
+}

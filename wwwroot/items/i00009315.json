@@ -1,0 +1,24 @@
+{
+    "type": "material",
+    "item_id": 9315,
+    "name": "Crest of Burn Prevention",
+    "info": "A crest that grants magical attribute\nresistance when equipped to armor.",
+    "icon": {
+        "icon_id": 1048,
+        "color_id": 5
+    },
+    "jobs": [],
+    "sell_price": 100,
+    "weight": 0,
+    "item_level": 9,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

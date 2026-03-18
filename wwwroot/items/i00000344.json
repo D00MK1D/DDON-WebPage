@@ -1,0 +1,91 @@
+{
+    "type": "equipment",
+    "item_id": 344,
+    "name": "D\u00e4mmerungslicht",
+    "info": "",
+    "icon": {
+        "icon_id": 1008,
+        "color_id": 9
+    },
+    "jobs": [
+        "ElementArcher"
+    ],
+    "sell_price": 10585,
+    "weight": 90,
+    "item_level": 9,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 3,
+    "weapon_type": "GREATSWORD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 45,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 758,
+        "magic_attack": 899,
+        "crest_slot": 4,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 136
+        },
+        {
+            "id": 85,
+            "name": "BLOW_POWER_BBLUNT",
+            "value": 5
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7880,
+            "amount": 10
+        },
+        {
+            "item_id": 7756,
+            "amount": 5
+        },
+        {
+            "item_id": 7739,
+            "amount": 2
+        },
+        {
+            "item_id": 7948,
+            "amount": 10
+        },
+        {
+            "item_id": 7958,
+            "amount": 10
+        },
+        {
+            "item_id": 10990,
+            "amount": 3
+        },
+        {
+            "item_id": 11006,
+            "amount": 6
+        },
+        {
+            "item_id": 11007,
+            "amount": 6
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7782,
+            "amount": 1
+        },
+        {
+            "item_id": 7957,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 1956
+}

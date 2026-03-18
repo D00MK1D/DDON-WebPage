@@ -1,0 +1,90 @@
+{
+    "type": "equipment",
+    "item_id": 15379,
+    "name": "Executioner's Greaves",
+    "info": "",
+    "icon": {
+        "icon_id": 350,
+        "color_id": 10
+    },
+    "jobs": [
+        "Fighter",
+        "Warrior"
+    ],
+    "sell_price": 10548,
+    "weight": 42,
+    "item_level": 50,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 4,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 75,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1,
+        "defense": 291,
+        "magic_attack": 1,
+        "magic_defense": 233,
+        "crest_slot": 0,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 71
+        },
+        {
+            "id": 11,
+            "name": "RESIST_CATCHING_FIRE",
+            "value": 1
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 724
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 15958,
+            "amount": 1
+        },
+        {
+            "item_id": 15919,
+            "amount": 5
+        },
+        {
+            "item_id": 15921,
+            "amount": 5
+        },
+        {
+            "item_id": 15923,
+            "amount": 5
+        },
+        {
+            "item_id": 15973,
+            "amount": 5
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 15919,
+            "amount": 5
+        },
+        {
+            "item_id": 15921,
+            "amount": 5
+        },
+        {
+            "item_id": 15923,
+            "amount": 5
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 15380
+}

@@ -1,0 +1,31 @@
+{
+    "type": "material",
+    "item_id": 7993,
+    "name": "Gala Mushroom",
+    "info": "Mushroom Crafting Material.\nA mushroom with an aphrodisiac effect.",
+    "icon": {
+        "icon_id": 512,
+        "color_id": 1
+    },
+    "jobs": [],
+    "sell_price": 5,
+    "weight": 0,
+    "item_level": 1,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Hidell Plains",
+        "Hidell Plains: Abandoned House Cellar",
+        "Hidell Plains: Hunters' Secret Passage",
+        "Hidell Plains: Tel's Withered Well",
+        "Mysree Forest"
+    ],
+    "hunt": [],
+    "subtype": "mushrooms"
+}

@@ -1,0 +1,63 @@
+{
+    "type": "equipment",
+    "item_id": 11952,
+    "name": "Hauteclere",
+    "info": "",
+    "icon": {
+        "icon_id": 879,
+        "color_id": 10
+    },
+    "jobs": [
+        "Warrior"
+    ],
+    "sell_price": 24505,
+    "weight": 120,
+    "item_level": 35,
+    "crest_slots": 1,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 3,
+    "weapon_type": "BOW",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 70,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1878,
+        "magic_attack": 1436,
+        "crest_slot": 4,
+        "ele_slot": 9
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 596
+        },
+        {
+            "id": 57,
+            "name": "INFLICT_HOLY_DRAIN",
+            "value": 13
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 11803,
+            "amount": 2
+        },
+        {
+            "item_id": 11795,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 11951,
+    "next_item_id": 11953
+}

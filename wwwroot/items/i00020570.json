@@ -1,0 +1,61 @@
+{
+    "type": "equipment",
+    "item_id": 20570,
+    "name": "Robe of Sacrament",
+    "info": "",
+    "icon": {
+        "icon_id": 1322,
+        "color_id": 10
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 20900,
+    "weight": 73,
+    "item_level": 100,
+    "crest_slots": 1,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 1,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 90,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 5,
+        "defense": 759,
+        "magic_attack": 5,
+        "magic_defense": 675,
+        "crest_slot": 0,
+        "ele_slot": 9
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 38
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 1196
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 21215,
+            "amount": 6
+        },
+        {
+            "item_id": 21221,
+            "amount": 6
+        }
+    ],
+    "previous_item_id": 20569,
+    "next_item_id": 20571
+}

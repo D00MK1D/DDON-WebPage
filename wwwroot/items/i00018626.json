@@ -1,0 +1,79 @@
+{
+    "type": "equipment",
+    "item_id": 18626,
+    "name": "Rival Schools: Batsu Ichimonji B",
+    "info": "",
+    "icon": {
+        "icon_id": 1841,
+        "color_id": 19
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 20000,
+    "weight": 60,
+    "item_level": 31,
+    "crest_slots": 4,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 1,
+    "equip_slot": "EQUIP_CATEGORY_COSTUME",
+    "level": 1,
+    "genders": [
+        "Male"
+    ],
+    "stats": {
+        "attack": 6,
+        "defense": 1586,
+        "magic_attack": 6,
+        "magic_defense": 1586,
+        "crest_slot": 4,
+        "ele_slot": 28
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 170
+        },
+        {
+            "id": 39,
+            "name": "FIRE_RESIST",
+            "value": 40
+        },
+        {
+            "id": 27,
+            "name": "RESIST_ITEM_SEAL",
+            "value": 40
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 1500
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 1159
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 13811,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 18625,
+    "next_item_id": 18627
+}

@@ -1,0 +1,57 @@
+{
+    "type": "equipment",
+    "item_id": 11138,
+    "name": "Grief Attribute",
+    "info": "",
+    "icon": {
+        "icon_id": 988,
+        "color_id": 9
+    },
+    "jobs": [
+        "ElementArcher"
+    ],
+    "sell_price": 9250,
+    "weight": 60,
+    "item_level": 9,
+    "crest_slots": 1,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 3,
+    "weapon_type": "GREATSWORD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 43,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 669,
+        "magic_attack": 822,
+        "crest_slot": 4,
+        "ele_slot": 9
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 132
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7970,
+            "amount": 2
+        },
+        {
+            "item_id": 7838,
+            "amount": 1
+        },
+        {
+            "item_id": 7928,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 11137,
+    "next_item_id": 11139
+}

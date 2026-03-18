@@ -1,0 +1,61 @@
+{
+    "type": "equipment",
+    "item_id": 451,
+    "name": "Bronze Bracers",
+    "info": "",
+    "icon": {
+        "icon_id": 33,
+        "color_id": 5
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 60,
+    "weight": 34,
+    "item_level": 2,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 1,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 6,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 22,
+        "magic_attack": 0,
+        "magic_defense": 19,
+        "crest_slot": 0,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 2
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7854,
+            "amount": 2
+        },
+        {
+            "item_id": 7917,
+            "amount": 2
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7768,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 2063
+}

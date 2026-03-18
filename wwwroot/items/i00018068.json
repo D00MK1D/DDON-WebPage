@@ -1,0 +1,58 @@
+{
+    "type": "equipment",
+    "item_id": 18068,
+    "name": "Spinel Arm of Resentment",
+    "info": "",
+    "icon": {
+        "icon_id": 983,
+        "color_id": 10
+    },
+    "jobs": [
+        "Alchemist"
+    ],
+    "sell_price": 35805,
+    "weight": 88,
+    "item_level": 90,
+    "crest_slots": 1,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 3,
+    "weapon_type": "DAGGER",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 85,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 2463,
+        "magic_attack": 2352,
+        "crest_slot": 0,
+        "ele_slot": 17
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 491
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 18662,
+            "amount": 4
+        },
+        {
+            "item_id": 18726,
+            "amount": 4
+        }
+    ],
+    "previous_item_id": 18067,
+    "next_item_id": 18069
+}

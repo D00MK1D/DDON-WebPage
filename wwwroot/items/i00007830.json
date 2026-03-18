@@ -1,0 +1,40 @@
+{
+    "type": "material",
+    "item_id": 7830,
+    "name": "Energy Liquid",
+    "info": "Liquid Crafting Material.\nMysterious droplets imbued with a faint energy.",
+    "icon": {
+        "icon_id": 483,
+        "color_id": 4
+    },
+    "jobs": [],
+    "sell_price": 250,
+    "weight": 0,
+    "item_level": 8,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Betland Plains: Betland Cemetery",
+        "Betland Plains: North Drainage Channel",
+        "Betland Plains: Penitentiary",
+        "Betland Plains: Purified Water Section",
+        "Betland Plains: Temple of Purification",
+        "Bloodbane Isle: Frigid Ancient Passage",
+        "Deenan Woods",
+        "Mergoda Ruins: An Alchemist's Home",
+        "Mergoda Ruins: Elixir Refining Chamber",
+        "Mergoda Ruins: Mergoda Ruins Royal Palace Level",
+        "Mysree Grove: Misty Illusion Terrace",
+        "Northern Betland Plains",
+        "Northern Betland Plains: Decaying Well",
+        "Zandora Wastelands: Ruins Site Cellar (Zandora Wastelands)"
+    ],
+    "hunt": [],
+    "subtype": "liquids"
+}

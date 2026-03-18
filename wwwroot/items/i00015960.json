@@ -1,0 +1,28 @@
+{
+    "type": "material",
+    "item_id": 15960,
+    "name": "Demon Wolf's Sinewy Meat",
+    "info": "Meat Crafting Material: Resilient muscle fibers\nthat enable the agile movement of Wargs.",
+    "icon": {
+        "icon_id": 463,
+        "color_id": 5
+    },
+    "jobs": [],
+    "sell_price": 235,
+    "weight": 0,
+    "item_level": 45,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": [
+        "Level 1+ Severely Infected Warg",
+        "Level 1+ Warg"
+    ],
+    "subtype": "meat"
+}

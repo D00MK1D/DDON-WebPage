@@ -1,0 +1,37 @@
+{
+    "type": "special",
+    "item_id": 16126,
+    "name": "Servant's Loungewear (Type 2)",
+    "info": "Loungewear for Partner Pawns to relax in the room.",
+    "icon": {
+        "icon_id": 1736,
+        "color_id": 0
+    },
+    "jobs": [],
+    "sell_price": 0,
+    "weight": 0,
+    "item_level": 0,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "craft_recipe": [
+        {
+            "item_id": 8008,
+            "amount": 1
+        },
+        {
+            "item_id": 7937,
+            "amount": 1
+        },
+        {
+            "item_id": 15948,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

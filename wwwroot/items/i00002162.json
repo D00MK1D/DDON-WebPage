@@ -1,0 +1,56 @@
+{
+    "type": "equipment",
+    "item_id": 2162,
+    "name": "Grand Surcoat",
+    "info": "",
+    "icon": {
+        "icon_id": 154,
+        "color_id": 7
+    },
+    "jobs": [
+        "Fighter",
+        "Warrior"
+    ],
+    "sell_price": 1895,
+    "weight": 70,
+    "item_level": 6,
+    "crest_slots": 1,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 1,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 26,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 117,
+        "magic_attack": 0,
+        "magic_defense": 104,
+        "crest_slot": 0,
+        "ele_slot": 9
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 12
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 493
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7787,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 550,
+    "next_item_id": 3185
+}

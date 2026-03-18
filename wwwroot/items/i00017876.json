@@ -1,0 +1,42 @@
+{
+    "type": "material",
+    "item_id": 17876,
+    "name": "Battle Armor Fragment",
+    "info": "Miscellaneous Crafting Material: Fragments of\nbattle armor shattered in fierce battles.",
+    "icon": {
+        "icon_id": 1985,
+        "color_id": 5
+    },
+    "jobs": [],
+    "sell_price": 500,
+    "weight": 0,
+    "item_level": 80,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Feryana Wilderness: Army Demon Bird's Checkpoint",
+        "Feryana Wilderness: Army Demon's Patrol Ground",
+        "Feryana Wilderness: Demon Army Relay Station",
+        "Feryana Wilderness: Gate Camp",
+        "Megadosys Plateau: Beast Training Ground",
+        "Megadosys Plateau: Nilviris Bridge Checkpoint",
+        "Rathnite Foothills: Beastmaster's Garden",
+        "Rathnite Foothills: Demon Army Camp",
+        "Rathnite Foothills: Demon Army War Machine Garrison",
+        "Urteca Mountains: Ancestral Territory",
+        "Urteca Mountains: Pool of Inextinguishable Flames"
+    ],
+    "hunt": [
+        "Level 1+ Catoblepas",
+        "Level 1+ War-Ready Gorecyclops",
+        "Level 1+ War-Ready Goremanticore",
+        "Level 1+ War-Ready Grimwarg"
+    ],
+    "subtype": "other"
+}

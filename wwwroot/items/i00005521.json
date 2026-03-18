@@ -1,0 +1,44 @@
+{
+    "type": "equipment",
+    "item_id": 5521,
+    "name": "Another Eyes",
+    "info": "",
+    "icon": {
+        "icon_id": 325,
+        "color_id": 7
+    },
+    "jobs": [
+        "ShieldSage",
+        "Alchemist",
+        "HighScepter"
+    ],
+    "sell_price": 920,
+    "weight": 36,
+    "item_level": 5,
+    "crest_slots": 0,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 2,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_HELM",
+    "level": 24,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 68,
+        "magic_attack": 0,
+        "magic_defense": 108,
+        "crest_slot": 4,
+        "ele_slot": 32
+    },
+    "params": [],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 4498,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

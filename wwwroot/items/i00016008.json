@@ -1,0 +1,30 @@
+{
+    "type": "material",
+    "item_id": 16008,
+    "name": "Fine Femur",
+    "info": "Bone Crafting Material: The delicate yet strong\nbones of the High Pixie.",
+    "icon": {
+        "icon_id": 1222,
+        "color_id": 5
+    },
+    "jobs": [],
+    "sell_price": 800,
+    "weight": 0,
+    "item_level": 60,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": [
+        "Level 1+ High Pixie Biff",
+        "Level 1+ High Pixie Pow",
+        "Level 1+ High Pixie Zolda",
+        "Level 1+ Pixie King"
+    ],
+    "subtype": "bones"
+}

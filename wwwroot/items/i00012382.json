@@ -1,0 +1,49 @@
+{
+    "type": "equipment",
+    "item_id": 12382,
+    "name": "Olfring Shooter (Blue)",
+    "info": "",
+    "icon": {
+        "icon_id": 1483,
+        "color_id": 82
+    },
+    "jobs": [
+        "ElementArcher"
+    ],
+    "sell_price": 5000,
+    "weight": 60,
+    "item_level": 60,
+    "crest_slots": 4,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 3,
+    "weapon_type": "GREATSWORD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 1,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 527,
+        "magic_attack": 655,
+        "crest_slot": 0,
+        "ele_slot": 12
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 120
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 13811,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 12381,
+    "next_item_id": 12383
+}

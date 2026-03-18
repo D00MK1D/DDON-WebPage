@@ -1,0 +1,25 @@
+{
+    "type": "consumable",
+    "item_id": 24801,
+    "name": "Romantic Letter",
+    "info": "A letter written in beautifully decorated\ncharacters.\nWords carefully chosen are lined up.\nWhen read again by oneself, there are various\nbeneficial Effects.",
+    "icon": {
+        "icon_id": 2926,
+        "color_id": 17
+    },
+    "jobs": [],
+    "sell_price": 10,
+    "weight": 0,
+    "item_level": 15,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "max_stack": 99,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

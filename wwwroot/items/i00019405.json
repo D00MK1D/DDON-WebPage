@@ -1,0 +1,52 @@
+{
+    "type": "equipment",
+    "item_id": 19405,
+    "name": "Wand of Vanguard",
+    "info": "",
+    "icon": {
+        "icon_id": 2168,
+        "color_id": 85
+    },
+    "jobs": [
+        "Sorcerer"
+    ],
+    "sell_price": 50000,
+    "weight": 80,
+    "item_level": 83,
+    "crest_slots": 4,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 23,
+    "weapon_type": "MAGICK_GAUNTLET",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 1,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 2228,
+        "magic_attack": 2516,
+        "crest_slot": 4,
+        "ele_slot": 36
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 714
+        },
+        {
+            "id": 85,
+            "name": "BLOW_POWER_BBLUNT",
+            "value": 10
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

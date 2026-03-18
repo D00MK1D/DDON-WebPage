@@ -1,0 +1,70 @@
+{
+    "type": "equipment",
+    "item_id": 310,
+    "name": "Sorcerer's Wand",
+    "info": "",
+    "icon": {
+        "icon_id": 1028,
+        "color_id": 7
+    },
+    "jobs": [
+        "Sorcerer"
+    ],
+    "sell_price": 3925,
+    "weight": 80,
+    "item_level": 6,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 2,
+    "weapon_type": "MAGICK_GAUNTLET",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 29,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 390,
+        "magic_attack": 593,
+        "crest_slot": 0,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 192
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7968,
+            "amount": 5
+        },
+        {
+            "item_id": 7899,
+            "amount": 2
+        },
+        {
+            "item_id": 8000,
+            "amount": 1
+        },
+        {
+            "item_id": 7776,
+            "amount": 2
+        },
+        {
+            "item_id": 7813,
+            "amount": 5
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7815,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 1922
+}

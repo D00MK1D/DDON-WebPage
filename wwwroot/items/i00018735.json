@@ -1,0 +1,27 @@
+{
+    "type": "material",
+    "item_id": 18735,
+    "name": "Steel Featherwork",
+    "info": "Feather Crafting Material: A precious item in the\nshape of a feather that has been passed down since\nancient times. It is difficult to determine\nwhether it is the product of a living creature or\na work of art.",
+    "icon": {
+        "icon_id": 2496,
+        "color_id": 28
+    },
+    "jobs": [],
+    "sell_price": 2000,
+    "weight": 0,
+    "item_level": 85,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [
+        "Dominion Point Shop"
+    ],
+    "gather": [],
+    "hunt": [],
+    "subtype": "feathers"
+}

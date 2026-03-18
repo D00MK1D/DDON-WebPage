@@ -1,0 +1,65 @@
+{
+    "type": "equipment",
+    "item_id": 706,
+    "name": "Striker Arms",
+    "info": "",
+    "icon": {
+        "icon_id": 30,
+        "color_id": 7
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 920,
+    "weight": 34,
+    "item_level": 5,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 2,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 24,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 69,
+        "magic_attack": 0,
+        "magic_defense": 58,
+        "crest_slot": 4,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 5
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7874,
+            "amount": 1
+        },
+        {
+            "item_id": 7946,
+            "amount": 1
+        },
+        {
+            "item_id": 7896,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7855,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 2318
+}

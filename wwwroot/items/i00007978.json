@@ -1,0 +1,35 @@
+{
+    "type": "material",
+    "item_id": 7978,
+    "name": "Red Sage",
+    "info": "Floral Crafting Material: Material with vibrant\nred leaves and medicinal properties.",
+    "icon": {
+        "icon_id": 509,
+        "color_id": 3
+    },
+    "jobs": [],
+    "sell_price": 130,
+    "weight": 0,
+    "item_level": 6,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Betland Plains",
+        "Deenan Woods: Moonlight Terrace",
+        "Dowe Valley",
+        "Dowe Valley: Sealed Old Well",
+        "Eastern Zandora: Empty Chapel",
+        "Hidell Plains: Hidell Catacombs Depths",
+        "Northern Betland Plains",
+        "Northern Betland Plains: Common Waterhole",
+        "Northern Betland Plains: Gardnox Fortress"
+    ],
+    "hunt": [],
+    "subtype": "plants"
+}

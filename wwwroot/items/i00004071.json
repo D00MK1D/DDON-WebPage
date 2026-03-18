@@ -1,0 +1,66 @@
+{
+    "type": "equipment",
+    "item_id": 4071,
+    "name": "Portae Lucis",
+    "info": "",
+    "icon": {
+        "icon_id": 983,
+        "color_id": 10
+    },
+    "jobs": [
+        "Alchemist"
+    ],
+    "sell_price": 15130,
+    "weight": 80,
+    "item_level": 11,
+    "crest_slots": 1,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 4,
+    "weapon_type": "DAGGER",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 55,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1193,
+        "magic_attack": 1100,
+        "crest_slot": 4,
+        "ele_slot": 25
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 224
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 10990,
+            "amount": 1
+        },
+        {
+            "item_id": 11011,
+            "amount": 8
+        },
+        {
+            "item_id": 11012,
+            "amount": 5
+        },
+        {
+            "item_id": 11013,
+            "amount": 3
+        }
+    ],
+    "previous_item_id": 3048,
+    "next_item_id": 5094
+}

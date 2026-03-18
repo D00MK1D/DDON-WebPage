@@ -1,0 +1,35 @@
+{
+    "type": "material",
+    "item_id": 7826,
+    "name": "Stagnant Water",
+    "info": "Liquid Crafting Material: Heavy, cloudy water\nwith a higher density than regular water.",
+    "icon": {
+        "icon_id": 481,
+        "color_id": 3
+    },
+    "jobs": [],
+    "sell_price": 85,
+    "weight": 0,
+    "item_level": 5,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Betland Plains: North Drainage Channel",
+        "Dowe Valley: Cesspool",
+        "Dowe Valley: Dreed Connecting Passage",
+        "Dowe Valley: Dreed Drainage Channels",
+        "Dowe Valley: Dreed Waterway Ruins",
+        "Northern Betland Plains: Decaying Well",
+        "Volden Mines",
+        "Volden Mines: Kinoza Flood Control Channel",
+        "Zandora Wastelands: Mergoda Flood Channels"
+    ],
+    "hunt": [],
+    "subtype": "liquids"
+}

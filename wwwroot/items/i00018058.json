@@ -1,0 +1,67 @@
+{
+    "type": "equipment",
+    "item_id": 18058,
+    "name": "Aim of Kal Tal",
+    "info": "",
+    "icon": {
+        "icon_id": 1378,
+        "color_id": 11
+    },
+    "jobs": [
+        "Hunter"
+    ],
+    "sell_price": 37794,
+    "weight": 77,
+    "item_level": 95,
+    "crest_slots": 1,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 5,
+    "weapon_type": "ARCHISTAFF",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 88,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 2625,
+        "magic_attack": 2325,
+        "crest_slot": 4,
+        "ele_slot": 17
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 521
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        },
+        {
+            "id": 32,
+            "name": "MAX_LOADED_ARROWS",
+            "value": 28
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 19649,
+            "amount": 1
+        },
+        {
+            "item_id": 19648,
+            "amount": 6
+        },
+        {
+            "item_id": 17894,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 18057,
+    "next_item_id": 18059
+}

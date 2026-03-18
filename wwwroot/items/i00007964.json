@@ -1,0 +1,36 @@
+{
+    "type": "material",
+    "item_id": 7964,
+    "name": "White Wood",
+    "info": "Wood Crafting Material: A white, extremely hard\nand resistant wood.",
+    "icon": {
+        "icon_id": 506,
+        "color_id": 4
+    },
+    "jobs": [],
+    "sell_price": 277,
+    "weight": 0,
+    "item_level": 7,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Deenan Woods: Le Karvas Arma",
+        "Dowe Valley",
+        "Dowe Valley: Dreed Castle",
+        "Eastern Zandora",
+        "Mergoda Ruins",
+        "Mergoda Ruins: Mergoda Ruins Lower Level",
+        "Mergoda Ruins: Mergoda Ruins Royal Palace Level",
+        "Mysree Grove",
+        "Mysree Grove: Greenleaf Terrace",
+        "Mysree Grove: Sacred Spring Terrace"
+    ],
+    "hunt": [],
+    "subtype": "lumber"
+}

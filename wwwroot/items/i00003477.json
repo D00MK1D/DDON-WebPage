@@ -1,0 +1,50 @@
+{
+    "type": "equipment",
+    "item_id": 3477,
+    "name": "Sergeant's Helm",
+    "info": "",
+    "icon": {
+        "icon_id": 321,
+        "color_id": 7
+    },
+    "jobs": [
+        "ShieldSage",
+        "Alchemist",
+        "HighScepter"
+    ],
+    "sell_price": 1080,
+    "weight": 36,
+    "item_level": 6,
+    "crest_slots": 0,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 2,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_HELM",
+    "level": 26,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 68,
+        "magic_attack": 0,
+        "magic_defense": 108,
+        "crest_slot": 0,
+        "ele_slot": 16
+    },
+    "params": [],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7856,
+            "amount": 1
+        },
+        {
+            "item_id": 7736,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 2454,
+    "next_item_id": 4500
+}

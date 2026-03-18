@@ -1,0 +1,69 @@
+{
+    "type": "equipment",
+    "item_id": 12896,
+    "name": "Paladin Gloves",
+    "info": "",
+    "icon": {
+        "icon_id": 1311,
+        "color_id": 111
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 6339,
+    "weight": 34,
+    "item_level": 30,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 20,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 65,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 289,
+        "magic_attack": 0,
+        "magic_defense": 241,
+        "crest_slot": 0,
+        "ele_slot": 24
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 14
+        },
+        {
+            "id": 15,
+            "name": "RESIST_KNOCKOUT",
+            "value": 5
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 11783,
+            "amount": 1
+        },
+        {
+            "item_id": 11775,
+            "amount": 5
+        },
+        {
+            "item_id": 11782,
+            "amount": 3
+        },
+        {
+            "item_id": 11781,
+            "amount": 5
+        }
+    ],
+    "previous_item_id": 12895,
+    "next_item_id": 12897
+}

@@ -1,0 +1,53 @@
+{
+    "type": "equipment",
+    "item_id": 2977,
+    "name": "Zauberkraft",
+    "info": "",
+    "icon": {
+        "icon_id": 995,
+        "color_id": 8
+    },
+    "jobs": [
+        "ElementArcher"
+    ],
+    "sell_price": 5125,
+    "weight": 30,
+    "item_level": 7,
+    "crest_slots": 1,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 3,
+    "weapon_type": "GREATSWORD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 32,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 456,
+        "magic_attack": 585,
+        "crest_slot": 4,
+        "ele_slot": 17
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 92
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7918,
+            "amount": 1
+        },
+        {
+            "item_id": 7954,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 1954,
+    "next_item_id": 4000
+}

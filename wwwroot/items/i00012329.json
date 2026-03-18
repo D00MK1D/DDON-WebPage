@@ -1,0 +1,58 @@
+{
+    "type": "equipment",
+    "item_id": 12329,
+    "name": "Vodovorot",
+    "info": "",
+    "icon": {
+        "icon_id": 1384,
+        "color_id": 11
+    },
+    "jobs": [
+        "ElementArcher"
+    ],
+    "sell_price": 21130,
+    "weight": 60,
+    "item_level": 25,
+    "crest_slots": 1,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 3,
+    "weapon_type": "GREATSWORD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 65,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1432,
+        "magic_attack": 1592,
+        "crest_slot": 4,
+        "ele_slot": 25
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 222
+        },
+        {
+            "id": 104,
+            "name": "CORRUPTED_SLAYER",
+            "value": 17
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 11778,
+            "amount": 1
+        },
+        {
+            "item_id": 11775,
+            "amount": 4
+        }
+    ],
+    "previous_item_id": 12328,
+    "next_item_id": 12330
+}

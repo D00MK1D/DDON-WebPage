@@ -1,0 +1,58 @@
+{
+    "type": "equipment",
+    "item_id": 14830,
+    "name": "Demon Penetrator",
+    "info": "",
+    "icon": {
+        "icon_id": 1705,
+        "color_id": 11
+    },
+    "jobs": [
+        "SpiritLancer"
+    ],
+    "sell_price": 32005,
+    "weight": 100,
+    "item_level": 70,
+    "crest_slots": 1,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 23,
+    "weapon_type": "SPIRIT_LANCE",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 80,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 2239,
+        "magic_attack": 2142,
+        "crest_slot": 0,
+        "ele_slot": 25
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 446
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 15995,
+            "amount": 3
+        },
+        {
+            "item_id": 15996,
+            "amount": 3
+        }
+    ],
+    "previous_item_id": 14829,
+    "next_item_id": 14831
+}

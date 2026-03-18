@@ -1,0 +1,71 @@
+{
+    "type": "equipment",
+    "item_id": 951,
+    "name": "Maiden's Teardrop",
+    "info": "",
+    "icon": {
+        "icon_id": 323,
+        "color_id": 10
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 2250,
+    "weight": 18,
+    "item_level": 11,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 5,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_HELM",
+    "level": 51,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 152,
+        "magic_attack": 0,
+        "magic_defense": 244,
+        "crest_slot": 4,
+        "ele_slot": 0
+    },
+    "params": [],
+    "craft_recipe": [
+        {
+            "item_id": 7878,
+            "amount": 2
+        },
+        {
+            "item_id": 7781,
+            "amount": 5
+        },
+        {
+            "item_id": 7870,
+            "amount": 1
+        },
+        {
+            "item_id": 9059,
+            "amount": 3
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7857,
+            "amount": 3
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 2563
+}

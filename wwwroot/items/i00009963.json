@@ -1,0 +1,56 @@
+{
+    "type": "equipment",
+    "item_id": 9963,
+    "name": "Sanction Rod",
+    "info": "",
+    "icon": {
+        "icon_id": 910,
+        "color_id": 6
+    },
+    "jobs": [
+        "ShieldSage"
+    ],
+    "sell_price": 650,
+    "weight": 40,
+    "item_level": 4,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 1,
+    "weapon_type": "GREATSHIELD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_SUB",
+    "level": 18,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "magic_attack": 277,
+        "crest_slot": 0,
+        "ele_slot": 0
+    },
+    "params": [],
+    "craft_recipe": [
+        {
+            "item_id": 7872,
+            "amount": 1
+        },
+        {
+            "item_id": 7897,
+            "amount": 2
+        },
+        {
+            "item_id": 7834,
+            "amount": 3
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 8026,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 9964
+}

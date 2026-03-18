@@ -1,0 +1,25 @@
+{
+    "type": "consumable",
+    "item_id": 16743,
+    "name": "Lestanian Herb Candy",
+    "info": "Candy made by boiling down Lestania Herb.\nWith a refreshing flavor, eating it restores your\nHealth Points.",
+    "icon": {
+        "icon_id": 1779,
+        "color_id": 1
+    },
+    "jobs": [],
+    "sell_price": 10,
+    "weight": 0,
+    "item_level": 10,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "max_stack": 50,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

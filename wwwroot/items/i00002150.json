@@ -1,0 +1,48 @@
+{
+    "type": "equipment",
+    "item_id": 2150,
+    "name": "Dolus Galea",
+    "info": "",
+    "icon": {
+        "icon_id": 286,
+        "color_id": 10
+    },
+    "jobs": [
+        "Fighter"
+    ],
+    "sell_price": 5015,
+    "weight": 36,
+    "item_level": 12,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 3,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_HELM",
+    "level": 60,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 206,
+        "magic_attack": 0,
+        "magic_defense": 330,
+        "crest_slot": 0,
+        "ele_slot": 8
+    },
+    "params": [],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7766,
+            "amount": 2
+        },
+        {
+            "item_id": 7838,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 538,
+    "next_item_id": 3173
+}

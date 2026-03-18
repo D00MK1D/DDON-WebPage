@@ -1,0 +1,64 @@
+{
+    "type": "equipment",
+    "item_id": 15149,
+    "name": "Questing Tunic",
+    "info": "",
+    "icon": {
+        "icon_id": 775,
+        "color_id": 10
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 2722,
+    "weight": 10,
+    "item_level": 45,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 4,
+    "equip_slot": "EQUIP_CATEGORY_WEAR_BODY",
+    "level": 72,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 142,
+        "magic_attack": 0,
+        "magic_defense": 142,
+        "crest_slot": 4,
+        "ele_slot": 8
+    },
+    "params": [
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 377
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 15961,
+            "amount": 2
+        },
+        {
+            "item_id": 15962,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 15148,
+    "next_item_id": 15150
+}

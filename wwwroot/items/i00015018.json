@@ -1,0 +1,96 @@
+{
+    "type": "equipment",
+    "item_id": 15018,
+    "name": "Mail of Genocide",
+    "info": "",
+    "icon": {
+        "icon_id": 1556,
+        "color_id": 111
+    },
+    "jobs": [
+        "Fighter",
+        "Warrior"
+    ],
+    "sell_price": 14768,
+    "weight": 70,
+    "item_level": 60,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 75,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 2,
+        "defense": 554,
+        "magic_attack": 2,
+        "magic_defense": 493,
+        "crest_slot": 0,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 32
+        },
+        {
+            "id": 2,
+            "name": "RESIST_TORPOR",
+            "value": 1
+        },
+        {
+            "id": 9,
+            "name": "RESIST_PETRIFICATION",
+            "value": 1
+        },
+        {
+            "id": 15,
+            "name": "RESIST_KNOCKOUT",
+            "value": 1
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 1162
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 15956,
+            "amount": 2
+        },
+        {
+            "item_id": 15941,
+            "amount": 10
+        },
+        {
+            "item_id": 15942,
+            "amount": 5
+        },
+        {
+            "item_id": 15943,
+            "amount": 1
+        },
+        {
+            "item_id": 15971,
+            "amount": 2
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 15973,
+            "amount": 2
+        },
+        {
+            "item_id": 15974,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 15019
+}

@@ -1,0 +1,38 @@
+{
+    "type": "consumable",
+    "item_id": 9414,
+    "name": "Five-Herb Salad",
+    "info": "Salad abundant with herbs.\nEating has various beneficial effects.",
+    "icon": {
+        "icon_id": 456,
+        "color_id": 4
+    },
+    "jobs": [],
+    "sell_price": 200,
+    "weight": 0,
+    "item_level": 7,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "max_stack": 10,
+    "craft_recipe": [
+        {
+            "item_id": 9410,
+            "amount": 1
+        },
+        {
+            "item_id": 7982,
+            "amount": 1
+        },
+        {
+            "item_id": 7977,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

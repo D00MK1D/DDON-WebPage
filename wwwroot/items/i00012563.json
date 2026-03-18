@@ -1,0 +1,59 @@
+{
+    "type": "equipment",
+    "item_id": 12563,
+    "name": "Predator Head",
+    "info": "",
+    "icon": {
+        "icon_id": 1330,
+        "color_id": 111
+    },
+    "jobs": [
+        "Fighter",
+        "Warrior"
+    ],
+    "sell_price": 7351,
+    "weight": 36,
+    "item_level": 45,
+    "crest_slots": 0,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 1,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_HELM",
+    "level": 70,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 274,
+        "magic_attack": 0,
+        "magic_defense": 439,
+        "crest_slot": 4,
+        "ele_slot": 16
+    },
+    "params": [
+        {
+            "id": 15,
+            "name": "RESIST_KNOCKOUT",
+            "value": 4
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 11799,
+            "amount": 3
+        },
+        {
+            "item_id": 11801,
+            "amount": 3
+        },
+        {
+            "item_id": 11803,
+            "amount": 3
+        }
+    ],
+    "previous_item_id": 12562,
+    "next_item_id": 12564
+}

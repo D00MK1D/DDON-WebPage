@@ -1,0 +1,24 @@
+{
+    "type": "material",
+    "item_id": 24739,
+    "name": "Jet-black Dragon Scale",
+    "info": "Pelt Crafting Material.\nScales imbued with an incredibly powerful\ndarkness.\nEndless black that consumes the consciousness of\nthose who behold it.",
+    "icon": {
+        "icon_id": 2627,
+        "color_id": 106
+    },
+    "jobs": [],
+    "sell_price": 900,
+    "weight": 0,
+    "item_level": 130,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

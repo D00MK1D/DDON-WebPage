@@ -1,0 +1,66 @@
+{
+    "type": "equipment",
+    "item_id": 15231,
+    "name": "Arms of Genocide",
+    "info": "",
+    "icon": {
+        "icon_id": 1547,
+        "color_id": 111
+    },
+    "jobs": [
+        "Fighter",
+        "Warrior"
+    ],
+    "sell_price": 8439,
+    "weight": 34,
+    "item_level": 60,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 75,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 3,
+        "defense": 374,
+        "magic_attack": 3,
+        "magic_defense": 312,
+        "crest_slot": 0,
+        "ele_slot": 24
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 23
+        },
+        {
+            "id": 2,
+            "name": "RESIST_TORPOR",
+            "value": 5
+        },
+        {
+            "id": 9,
+            "name": "RESIST_PETRIFICATION",
+            "value": 5
+        },
+        {
+            "id": 15,
+            "name": "RESIST_KNOCKOUT",
+            "value": 5
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 15971,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 15230,
+    "next_item_id": 15232
+}

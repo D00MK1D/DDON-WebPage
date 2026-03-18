@@ -1,0 +1,34 @@
+{
+    "type": "material",
+    "item_id": 7910,
+    "name": "Pigeon Blood",
+    "info": "Gem Crafting Material: A vivid ruby that looks\nlike blood.",
+    "icon": {
+        "icon_id": 494,
+        "color_id": 5
+    },
+    "jobs": [],
+    "sell_price": 487,
+    "weight": 0,
+    "item_level": 9,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Betland Plains: Foul Water Channel",
+        "Betland Plains: War Demons' Hideout",
+        "Deenan Woods: Le Karvas Lotana",
+        "Deenan Woods: Sacred Tree Terrace",
+        "Eastern Zandora: Temple of Purification: South Chamber"
+    ],
+    "hunt": [
+        "Level 1+ Orc General",
+        "Level 40+ Orc Captain"
+    ],
+    "subtype": "gemstones"
+}

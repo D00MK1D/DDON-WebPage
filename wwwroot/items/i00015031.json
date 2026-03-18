@@ -1,0 +1,61 @@
+{
+    "type": "equipment",
+    "item_id": 15031,
+    "name": "Northern Arr\u00eat",
+    "info": "",
+    "icon": {
+        "icon_id": 168,
+        "color_id": 10
+    },
+    "jobs": [
+        "Fighter",
+        "Warrior"
+    ],
+    "sell_price": 16802,
+    "weight": 70,
+    "item_level": 65,
+    "crest_slots": 1,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 80,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 3,
+        "defense": 599,
+        "magic_attack": 3,
+        "magic_defense": 532,
+        "crest_slot": 4,
+        "ele_slot": 25
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 34
+        },
+        {
+            "id": 7,
+            "name": "RESIST_SKILL_STIFLING",
+            "value": 4
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 1147
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 15991,
+            "amount": 5
+        }
+    ],
+    "previous_item_id": 15030,
+    "next_item_id": 15032
+}

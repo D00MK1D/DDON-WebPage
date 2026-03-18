@@ -1,0 +1,43 @@
+{
+    "type": "material",
+    "subtype": "Ingots",
+    "item_id": 7875,
+    "name": "Silver Ingot",
+    "info": "Metal Crafting Material:\nA chunk of silver refined from silver ore.",
+    "icon": {
+        "icon_id": 1431,
+        "color_id": 4
+    },
+    "jobs": [],
+    "sell_price": 370,
+    "weight": 0,
+    "item_level": 7,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [
+        {
+            "item_id": 7857,
+            "amount": 3
+        },
+        {
+            "item_id": 7848,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Elan Water Grove: Old Ferryman's Haunt",
+        "Farana Plains: Small Tower of Wisdom",
+        "Farana Plains: Thalati Waterway",
+        "Hidell Plains: Hidell Catacombs Innermost Depths",
+        "Kingal Canyon: Ancient Underground Shrine 2nd Floor",
+        "Kingal Canyon: Ancient Underground Shrine Innermost Depths",
+        "Kingal Canyon: Shadolean Great Temple",
+        "Morrow Forest: Sauzanel Infected Woods"
+    ],
+    "hunt": []
+}

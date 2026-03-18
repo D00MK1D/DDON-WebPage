@@ -1,0 +1,33 @@
+{
+    "type": "material",
+    "item_id": 7863,
+    "name": "Drilled Ore",
+    "info": "Ore Crafting Material: Mysterious ore containing\nmetallic geometric patterns.",
+    "icon": {
+        "icon_id": 488,
+        "color_id": 3
+    },
+    "jobs": [],
+    "sell_price": 127,
+    "weight": 0,
+    "item_level": 5,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Dowe Valley: Dreed Drainage Channels",
+        "Dowe Valley: Howling Wind Cave",
+        "Dowe Valley: Underground Side Entrance",
+        "Volden Mines",
+        "Volden Mines : Volden Large Tunnels",
+        "Volden Mines: Kinoza Flood Control Channel",
+        "Volden Mines: Volden Large Tunnels"
+    ],
+    "hunt": [],
+    "subtype": "ore"
+}

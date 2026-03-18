@@ -1,0 +1,54 @@
+{
+    "type": "equipment",
+    "item_id": 12287,
+    "name": "Olfring Sei\u00f0r (Earth)",
+    "info": "",
+    "icon": {
+        "icon_id": 1474,
+        "color_id": 82
+    },
+    "jobs": [
+        "Alchemist"
+    ],
+    "sell_price": 5000,
+    "weight": 80,
+    "item_level": 11,
+    "crest_slots": 2,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 1,
+    "weapon_type": "DAGGER",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 1,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 437,
+        "magic_attack": 362,
+        "crest_slot": 4,
+        "ele_slot": 10
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 109
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 13811,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 12286,
+    "next_item_id": 12288
+}

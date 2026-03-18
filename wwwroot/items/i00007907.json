@@ -1,0 +1,31 @@
+{
+    "type": "material",
+    "item_id": 7907,
+    "name": "Spinel",
+    "info": "Gem Crafting Material: A pale pink gem. It can\nalso grow on the body of a rock lizard.",
+    "icon": {
+        "icon_id": 494,
+        "color_id": 2
+    },
+    "jobs": [],
+    "sell_price": 75,
+    "weight": 0,
+    "item_level": 4,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Breya Coast: Roaring Tide Cave",
+        "Mysree Forest: Glowworm Cave",
+        "Volden Mines: Southern Wall Fissure"
+    ],
+    "hunt": [
+        "Level 15+ Rock Saurian Spinel"
+    ],
+    "subtype": "gemstones"
+}

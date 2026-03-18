@@ -1,0 +1,60 @@
+{
+    "type": "equipment",
+    "item_id": 15395,
+    "name": "Royal Guardsman's Sabatons",
+    "info": "",
+    "icon": {
+        "icon_id": 355,
+        "color_id": 10
+    },
+    "jobs": [
+        "Fighter",
+        "Warrior"
+    ],
+    "sell_price": 11118,
+    "weight": 42,
+    "item_level": 60,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 5,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 77,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1,
+        "defense": 318,
+        "magic_attack": 1,
+        "magic_defense": 255,
+        "crest_slot": 0,
+        "ele_slot": 8
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 73
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 728
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 16008,
+            "amount": 3
+        },
+        {
+            "item_id": 16011,
+            "amount": 3
+        }
+    ],
+    "previous_item_id": 15394,
+    "next_item_id": 15396
+}

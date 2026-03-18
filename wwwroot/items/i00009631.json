@@ -1,0 +1,65 @@
+{
+    "type": "equipment",
+    "item_id": 9631,
+    "name": "Officer's Sleeves",
+    "info": "",
+    "icon": {
+        "icon_id": 134,
+        "color_id": 7
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 400,
+    "weight": 50,
+    "item_level": 5,
+    "crest_slots": 1,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 3,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 22,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 82,
+        "magic_attack": 0,
+        "magic_defense": 73,
+        "crest_slot": 4,
+        "ele_slot": 17
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 11
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 414
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7775,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 9630,
+    "next_item_id": 9632
+}

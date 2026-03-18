@@ -1,0 +1,47 @@
+{
+    "type": "jobitem",
+    "item_id": 9858,
+    "name": "Poison Arrow",
+    "info": "Used in attacks with a Hunter's bow and arrow.\nCauses the \"Poison\" debilitation.",
+    "icon": {
+        "icon_id": 526,
+        "color_id": 1
+    },
+    "jobs": [],
+    "sell_price": 1,
+    "weight": 0,
+    "item_level": 1,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "level": 1,
+    "stats": {},
+    "params": [
+        {
+            "id": 113,
+            "name": "MEDAL_POISON",
+            "param_count": 1,
+            "value": [
+                50,
+                0,
+                0
+            ]
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7811,
+            "amount": 1
+        },
+        {
+            "item_id": 7836,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

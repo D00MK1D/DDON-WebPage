@@ -1,0 +1,29 @@
+{
+    "type": "jewlery",
+    "item_id": 18149,
+    "name": "Emblem Stone (Warrior)",
+    "info": "",
+    "icon": {
+        "icon_id": 2004,
+        "color_id": 30
+    },
+    "jobs": [
+        "Warrior"
+    ],
+    "sell_price": 100,
+    "weight": 0,
+    "item_level": 75,
+    "crest_slots": 4,
+    "quality": 0,
+    "can_bazaar": false,
+    "level": 1,
+    "stats": {},
+    "params": [],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

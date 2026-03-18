@@ -1,0 +1,49 @@
+{
+    "type": "equipment",
+    "item_id": 21436,
+    "name": "Crimson Firangi",
+    "info": "",
+    "icon": {
+        "icon_id": 2357,
+        "color_id": 111
+    },
+    "jobs": [
+        "HighScepter"
+    ],
+    "sell_price": 20000,
+    "weight": 70,
+    "item_level": 70,
+    "crest_slots": 1,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 23,
+    "weapon_type": "MAGICK_SWORD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 1,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 2270,
+        "magic_attack": 2270,
+        "crest_slot": 0,
+        "ele_slot": 33
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 431
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0
+}

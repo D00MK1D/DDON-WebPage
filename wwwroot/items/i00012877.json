@@ -1,0 +1,60 @@
+{
+    "type": "equipment",
+    "item_id": 12877,
+    "name": "Arms of Certainty",
+    "info": "",
+    "icon": {
+        "icon_id": 64,
+        "color_id": 11
+    },
+    "jobs": [
+        "ShieldSage",
+        "Alchemist",
+        "HighScepter"
+    ],
+    "sell_price": 7351,
+    "weight": 45,
+    "item_level": 40,
+    "crest_slots": 0,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 3,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 70,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 326,
+        "magic_attack": 0,
+        "magic_defense": 272,
+        "crest_slot": 0,
+        "ele_slot": 32
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 15
+        },
+        {
+            "id": 12,
+            "name": "RESIST_FROZEN_SOLID",
+            "value": 8
+        },
+        {
+            "id": 20,
+            "name": "RESIST_HOLY_RES_DOWN",
+            "value": 8
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 12876,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

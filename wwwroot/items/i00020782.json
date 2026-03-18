@@ -1,0 +1,60 @@
+{
+    "type": "equipment",
+    "item_id": 20782,
+    "name": "Confidence Mail",
+    "info": "",
+    "icon": {
+        "icon_id": 1926,
+        "color_id": 11
+    },
+    "jobs": [
+        "Fighter",
+        "Warrior"
+    ],
+    "sell_price": 24035,
+    "weight": 74,
+    "item_level": 115,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 3,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 98,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 7,
+        "defense": 853,
+        "magic_attack": 7,
+        "magic_defense": 758,
+        "crest_slot": 4,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 43
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 1239
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 21274,
+            "amount": 2
+        },
+        {
+            "item_id": 21273,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 20783
+}

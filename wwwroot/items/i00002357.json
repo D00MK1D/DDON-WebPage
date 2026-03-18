@@ -1,0 +1,50 @@
+{
+    "type": "equipment",
+    "item_id": 2357,
+    "name": "Circlet of Divine Sight",
+    "info": "",
+    "icon": {
+        "icon_id": 280,
+        "color_id": 10
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 3535,
+    "weight": 18,
+    "item_level": 11,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 4,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_HELM",
+    "level": 52,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 164,
+        "magic_attack": 0,
+        "magic_defense": 263,
+        "crest_slot": 4,
+        "ele_slot": 8
+    },
+    "params": [],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7987,
+            "amount": 2
+        },
+        {
+            "item_id": 7882,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 745,
+    "next_item_id": 3380
+}

@@ -1,0 +1,56 @@
+{
+    "type": "equipment",
+    "item_id": 4490,
+    "name": "Menas Bangles",
+    "info": "",
+    "icon": {
+        "icon_id": 37,
+        "color_id": 10
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 4665,
+    "weight": 23,
+    "item_level": 11,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 5,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 55,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 213,
+        "magic_attack": 0,
+        "magic_defense": 177,
+        "crest_slot": 4,
+        "ele_slot": 24
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 12
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7992,
+            "amount": 2
+        },
+        {
+            "item_id": 7898,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 3467,
+    "next_item_id": 5513
+}

@@ -1,0 +1,27 @@
+{
+    "type": "material",
+    "subtype": "other",
+    "item_id": 21250,
+    "name": "Alchemy Sealer Stone",
+    "info": "Crafting Material for adding additional stats to\nweapons.\nA refined stone made from a special material.\nAdds \"Alchemy Slayer\" to weapons.",
+    "icon": {
+        "icon_id": 1997,
+        "color_id": 104
+    },
+    "jobs": [],
+    "sell_price": 2500,
+    "weight": 0,
+    "item_level": 85,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Megadosys Plateau: Demon Army Standby Spot"
+    ],
+    "hunt": []
+}

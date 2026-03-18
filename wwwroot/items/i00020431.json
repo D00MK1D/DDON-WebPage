@@ -1,0 +1,49 @@
+{
+    "type": "equipment",
+    "item_id": 20431,
+    "name": "Corail Helm",
+    "info": "",
+    "icon": {
+        "icon_id": 1569,
+        "color_id": 11
+    },
+    "jobs": [
+        "Fighter",
+        "Warrior"
+    ],
+    "sell_price": 12915,
+    "weight": 39,
+    "item_level": 105,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_HELM",
+    "level": 93,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 6,
+        "defense": 446,
+        "magic_attack": 6,
+        "magic_defense": 713,
+        "crest_slot": 4,
+        "ele_slot": 8
+    },
+    "params": [],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 21234,
+            "amount": 1
+        },
+        {
+            "item_id": 21233,
+            "amount": 4
+        }
+    ],
+    "previous_item_id": 20430,
+    "next_item_id": 20432
+}

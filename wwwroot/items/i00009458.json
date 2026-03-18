@@ -1,0 +1,27 @@
+{
+    "type": "material",
+    "item_id": 9458,
+    "name": "Lestania Glass",
+    "info": "Crafting materials with limited availability.\nGlass-like shards imbued with the power of the\nearth.",
+    "icon": {
+        "icon_id": 525,
+        "color_id": 28
+    },
+    "jobs": [],
+    "sell_price": 180,
+    "weight": 0,
+    "item_level": 9,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [
+        "Goblin King in Hobolic Cave"
+    ],
+    "gather": [],
+    "hunt": [],
+    "subtype": "other"
+}

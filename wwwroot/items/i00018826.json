@@ -1,0 +1,27 @@
+{
+    "type": "material",
+    "item_id": 18826,
+    "name": "Royal Crest Medal (Urteca District)",
+    "info": "Coins that are only circulated in the Urteca\nMountains.\nThey cannot be obtained in other regions and are\nsomewhat rare.\nIt seems they can be traded for \"Appraisal\nExchange\".",
+    "icon": {
+        "icon_id": 1996,
+        "color_id": 105
+    },
+    "jobs": [],
+    "sell_price": 1000,
+    "weight": 0,
+    "item_level": 120,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Urteca Mountains"
+    ],
+    "hunt": [],
+    "subtype": "other"
+}

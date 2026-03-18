@@ -1,0 +1,29 @@
+{
+    "type": "material",
+    "item_id": 8031,
+    "name": "Alchemized Armor Plate",
+    "info": "Miscellaneous Crafting Material: Beautiful and\ndurable armor plates that cover the surface of the\nGiant's body.",
+    "icon": {
+        "icon_id": 1275,
+        "color_id": 6
+    },
+    "jobs": [],
+    "sell_price": 505,
+    "weight": 0,
+    "item_level": 11,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": [
+        "Level 1+ Alchemised Griffin",
+        "Level 1+ Damned Golem",
+        "Level 1+ Goliath"
+    ],
+    "subtype": "other"
+}

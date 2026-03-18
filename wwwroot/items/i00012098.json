@@ -1,0 +1,59 @@
+{
+    "type": "equipment",
+    "item_id": 12098,
+    "name": "Karsnaut",
+    "info": "",
+    "icon": {
+        "icon_id": 937,
+        "color_id": 10
+    },
+    "jobs": [
+        "Seeker"
+    ],
+    "sell_price": 21130,
+    "weight": 60,
+    "item_level": 20,
+    "crest_slots": 1,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 4,
+    "weapon_type": "ROD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 65,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1443,
+        "magic_attack": 1277,
+        "crest_slot": 0,
+        "ele_slot": 17
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 148
+        },
+        {
+            "id": 57,
+            "name": "INFLICT_HOLY_DRAIN",
+            "value": 13
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 11775,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 12097,
+    "next_item_id": 12099
+}

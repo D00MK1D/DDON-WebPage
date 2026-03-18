@@ -1,0 +1,57 @@
+{
+    "type": "equipment",
+    "item_id": 25431,
+    "name": "Savage Courage Ranger Legs",
+    "info": "",
+    "icon": {
+        "icon_id": 2802,
+        "color_id": 11
+    },
+    "jobs": [
+        "ShieldSage",
+        "Alchemist",
+        "HighScepter"
+    ],
+    "sell_price": 18500,
+    "weight": 46,
+    "item_level": 140,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 1,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 105,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 10,
+        "defense": 554,
+        "magic_attack": 10,
+        "magic_defense": 443,
+        "crest_slot": 0,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 98
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 828
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 25527,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 25432
+}

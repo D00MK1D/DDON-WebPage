@@ -1,0 +1,42 @@
+{
+    "type": "material",
+    "item_id": 7861,
+    "name": "Hematite",
+    "info": "Ore Crafting Material: Sturdy ore containing\nreddish metal.",
+    "icon": {
+        "icon_id": 489,
+        "color_id": 3
+    },
+    "jobs": [],
+    "sell_price": 195,
+    "weight": 0,
+    "item_level": 6,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Betland Plains: Foul Water Channel",
+        "Betland Plains: Groaning Old Well",
+        "Betland Plains: Temple of Purification",
+        "Bloodbane Isle: Dried Well by the Tower",
+        "Breya Coast: Roaring Tide Cave",
+        "Deenan Woods: Moonlight Terrace",
+        "Deenan Woods: Sunset Terrace",
+        "Dowe Valley: Cliff Tunnels",
+        "Dowe Valley: Howling Wind Cave",
+        "Farana Plains",
+        "Kingal Canyon: Amburos Great Ruins",
+        "Kingal Canyon: Shadolean Great Temple",
+        "Mysree Forest: Mysree Limestone Cave",
+        "Northern Betland Plains: Betland Underground Passage",
+        "Volden Mines: Fiend's Cavern",
+        "Volden Mines: Volden Large Tunnels"
+    ],
+    "hunt": [],
+    "subtype": "ore"
+}

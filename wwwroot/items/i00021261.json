@@ -1,0 +1,27 @@
+{
+    "type": "material",
+    "item_id": 21261,
+    "name": "Demon Dog Pelt",
+    "info": "Pelt Crafting Material: Fur of the pitch-black\nHellhound.",
+    "icon": {
+        "icon_id": 477,
+        "color_id": 4
+    },
+    "jobs": [],
+    "sell_price": 350,
+    "weight": 0,
+    "item_level": 110,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": [
+        "Level 1+ Hellhound"
+    ],
+    "subtype": "plets and skins"
+}

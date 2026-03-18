@@ -1,0 +1,47 @@
+{
+    "type": "equipment",
+    "item_id": 9975,
+    "name": "Beacon of Mahler",
+    "info": "",
+    "icon": {
+        "icon_id": 919,
+        "color_id": 7
+    },
+    "jobs": [
+        "ShieldSage"
+    ],
+    "sell_price": 1570,
+    "weight": 20,
+    "item_level": 6,
+    "crest_slots": 0,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 3,
+    "weapon_type": "GREATSHIELD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_SUB",
+    "level": 28,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "magic_attack": 445,
+        "crest_slot": 0,
+        "ele_slot": 16
+    },
+    "params": [],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7861,
+            "amount": 1
+        },
+        {
+            "item_id": 7813,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 9974,
+    "next_item_id": 9976
+}

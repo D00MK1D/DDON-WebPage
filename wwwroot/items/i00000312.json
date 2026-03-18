@@ -1,0 +1,78 @@
+{
+    "type": "equipment",
+    "item_id": 312,
+    "name": "Lunar Saga",
+    "info": "",
+    "icon": {
+        "icon_id": 1035,
+        "color_id": 8
+    },
+    "jobs": [
+        "Sorcerer"
+    ],
+    "sell_price": 7225,
+    "weight": 140,
+    "item_level": 8,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 4,
+    "weapon_type": "MAGICK_GAUNTLET",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 38,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 542,
+        "magic_attack": 778,
+        "crest_slot": 0,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 239
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7884,
+            "amount": 5
+        },
+        {
+            "item_id": 7820,
+            "amount": 2
+        },
+        {
+            "item_id": 7904,
+            "amount": 6
+        },
+        {
+            "item_id": 7956,
+            "amount": 3
+        },
+        {
+            "item_id": 10999,
+            "amount": 1
+        },
+        {
+            "item_id": 11000,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7764,
+            "amount": 2
+        },
+        {
+            "item_id": 8000,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 1924
+}

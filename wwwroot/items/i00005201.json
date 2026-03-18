@@ -1,0 +1,43 @@
+{
+    "type": "equipment",
+    "item_id": 5201,
+    "name": "Sorel Helm",
+    "info": "",
+    "icon": {
+        "icon_id": 233,
+        "color_id": 6
+    },
+    "jobs": [
+        "Fighter",
+        "Warrior"
+    ],
+    "sell_price": 640,
+    "weight": 36,
+    "item_level": 4,
+    "crest_slots": 0,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_HELM",
+    "level": 20,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 58,
+        "magic_attack": 0,
+        "magic_defense": 92,
+        "crest_slot": 0,
+        "ele_slot": 32
+    },
+    "params": [],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 4178,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

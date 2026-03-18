@@ -1,0 +1,35 @@
+{
+    "type": "material",
+    "item_id": 9159,
+    "name": "Alchemic Wood",
+    "info": "Wood Crafting Material: Alchemized wood\nartificially created with exceptional hardness.",
+    "icon": {
+        "icon_id": 507,
+        "color_id": 6
+    },
+    "jobs": [],
+    "sell_price": 557,
+    "weight": 0,
+    "item_level": 11,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [
+        "Mergoda Ruins Area Points Weekly Rewards"
+    ],
+    "gather": [
+        "Bloodbane Isle: Bloodbane Isle Precipice",
+        "Deenan Woods: Heavenly Terrace",
+        "Eastern Zandora: Dead Lord's Labyrinth",
+        "Mergoda Ruins",
+        "Mergoda Ruins: Mergoda Ruins Lower Level",
+        "Mergoda Ruins: Mergoda Ruins Royal Palace Level",
+        "Mergoda Ruins: Mergodan Residence"
+    ],
+    "hunt": [],
+    "subtype": "lumber"
+}

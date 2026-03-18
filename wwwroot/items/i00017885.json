@@ -1,0 +1,32 @@
+{
+    "type": "material",
+    "item_id": 17885,
+    "name": "Blaze Grass",
+    "info": "Floral Crafting Material: a highly flammable\nsubstance that is often referred to as the\n\"fire-starting grass\".",
+    "icon": {
+        "icon_id": 510,
+        "color_id": 5
+    },
+    "jobs": [],
+    "sell_price": 1000,
+    "weight": 0,
+    "item_level": 85,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Rathnite Foothills",
+        "Rathnite Foothills: Cave of Hell's Descent",
+        "Rathnite Foothills: Lakeside Grotto",
+        "Rathnite Foothills: Rathnite Columbarium",
+        "Rathnite Foothills: Rathnite Foothills Lakeside",
+        "Rathnite Foothills: Ulta Ancient Watercourse"
+    ],
+    "hunt": [],
+    "subtype": "plants"
+}

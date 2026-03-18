@@ -1,0 +1,102 @@
+{
+    "type": "equipment",
+    "item_id": 24696,
+    "name": "Acre Selund Arisen's Garment (Origin)",
+    "info": "",
+    "icon": {
+        "icon_id": 2872,
+        "color_id": 84
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 50000,
+    "weight": 60,
+    "item_level": 130,
+    "crest_slots": 4,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 20,
+    "equip_slot": "EQUIP_CATEGORY_COSTUME",
+    "level": 1,
+    "genders": [
+        "Male"
+    ],
+    "stats": {
+        "attack": 36,
+        "defense": 3145,
+        "magic_attack": 36,
+        "magic_defense": 3145,
+        "crest_slot": 0,
+        "ele_slot": 36
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 278
+        },
+        {
+            "id": 3,
+            "name": "RESIST_TARRING",
+            "value": 100
+        },
+        {
+            "id": 6,
+            "name": "RESIST_DRENCHING",
+            "value": 100
+        },
+        {
+            "id": 9,
+            "name": "RESIST_PETRIFICATION",
+            "value": 50
+        },
+        {
+            "id": 10,
+            "name": "RESIST_GOLDEN",
+            "value": 50
+        },
+        {
+            "id": 11,
+            "name": "RESIST_CATCHING_FIRE",
+            "value": 100
+        },
+        {
+            "id": 39,
+            "name": "FIRE_RESIST",
+            "value": 50
+        },
+        {
+            "id": 29,
+            "name": "HEALING_POWER",
+            "value": 40
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 1810
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 1162
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

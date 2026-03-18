@@ -1,0 +1,53 @@
+{
+    "type": "equipment",
+    "item_id": 19933,
+    "name": "Red Dawn's Steel Shooter",
+    "info": "",
+    "icon": {
+        "icon_id": 1258,
+        "color_id": 10
+    },
+    "jobs": [
+        "ElementArcher"
+    ],
+    "sell_price": 39700,
+    "weight": 66,
+    "item_level": 100,
+    "crest_slots": 1,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 0,
+    "weapon_type": "GREATSWORD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 90,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 2607,
+        "magic_attack": 2792,
+        "crest_slot": 0,
+        "ele_slot": 17
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 406
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 21214,
+            "amount": 4
+        },
+        {
+            "item_id": 21222,
+            "amount": 4
+        }
+    ],
+    "previous_item_id": 19932,
+    "next_item_id": 19934
+}

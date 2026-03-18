@@ -1,0 +1,29 @@
+{
+    "type": "material",
+    "item_id": 16115,
+    "name": "Rainbow Feather",
+    "info": "Feather Crafting Material: Colorful feathers in\nvibrant rainbow hues.",
+    "icon": {
+        "icon_id": 479,
+        "color_id": 116
+    },
+    "jobs": [],
+    "sell_price": 600,
+    "weight": 0,
+    "item_level": 50,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Elan Water Grove: Shimmering Waterfall"
+    ],
+    "hunt": [
+        "Level 1+ Bifrest"
+    ],
+    "subtype": "regional"
+}

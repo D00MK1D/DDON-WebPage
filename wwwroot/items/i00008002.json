@@ -1,0 +1,42 @@
+{
+    "type": "material",
+    "item_id": 8002,
+    "name": "Blank Scroll",
+    "info": "Grimoire Crafting Material.\nScroll with nothing written on it.",
+    "icon": {
+        "icon_id": 514,
+        "color_id": 1
+    },
+    "jobs": [],
+    "sell_price": 15,
+    "weight": 0,
+    "item_level": 2,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Betland Plains: North Drainage Channel",
+        "Breya Coast",
+        "Breya Coast: Seaside Cellar",
+        "Deenan Woods: Blue Waterway",
+        "Deenan Woods: Le Karvas Salto",
+        "Deenan Woods: Sunset Terrace",
+        "Dowe Valley: Dreed Castle",
+        "Hidell Plains",
+        "Mergoda Ruins: Mergodan Residence (Mergoda Ruins: Lower Level)",
+        "Mysree Forest: Lynwood Underground Waterway",
+        "Mysree Forest: Old Waterhole"
+    ],
+    "hunt": [
+        "Level 1+ Banded Healer",
+        "Level 1+ Banded Mage",
+        "Level 1+ Skeleton Mage",
+        "Level 1+ Skeleton Sorcerer"
+    ],
+    "subtype": "scrolls"
+}

@@ -1,0 +1,61 @@
+{
+    "type": "equipment",
+    "item_id": 24287,
+    "name": "White Wings' Light Armored Leg Gear",
+    "info": "",
+    "icon": {
+        "icon_id": 2805,
+        "color_id": 200
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 0,
+    "weight": 43,
+    "item_level": 130,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 20,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 100,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 9,
+        "defense": 504,
+        "magic_attack": 9,
+        "magic_defense": 403,
+        "crest_slot": 0,
+        "ele_slot": 24
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 100
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 821
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 24733,
+            "amount": 120
+        },
+        {
+            "item_id": 24737,
+            "amount": 120
+        }
+    ],
+    "previous_item_id": 24286,
+    "next_item_id": 24288
+}

@@ -1,0 +1,65 @@
+{
+    "type": "equipment",
+    "item_id": 15130,
+    "name": "Black Panther Padding",
+    "info": "",
+    "icon": {
+        "icon_id": 90,
+        "color_id": 10
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 15566,
+    "weight": 70,
+    "item_level": 60,
+    "crest_slots": 1,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 2,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 77,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1,
+        "defense": 576,
+        "magic_attack": 1,
+        "magic_defense": 512,
+        "crest_slot": 0,
+        "ele_slot": 17
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 33
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 1140
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 15975,
+            "amount": 5
+        },
+        {
+            "item_id": 15977,
+            "amount": 5
+        },
+        {
+            "item_id": 15979,
+            "amount": 5
+        }
+    ],
+    "previous_item_id": 15129,
+    "next_item_id": 15131
+}

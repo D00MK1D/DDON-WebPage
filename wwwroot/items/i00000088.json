@@ -1,0 +1,56 @@
+{
+    "type": "equipment",
+    "item_id": 88,
+    "name": "Spike Rod",
+    "info": "",
+    "icon": {
+        "icon_id": 910,
+        "color_id": 5
+    },
+    "jobs": [
+        "ShieldSage"
+    ],
+    "sell_price": 74,
+    "weight": 40,
+    "item_level": 2,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 0,
+    "weapon_type": "GREATSHIELD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_SUB",
+    "level": 6,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "magic_attack": 170,
+        "crest_slot": 0,
+        "ele_slot": 0
+    },
+    "params": [],
+    "craft_recipe": [
+        {
+            "item_id": 7858,
+            "amount": 1
+        },
+        {
+            "item_id": 7798,
+            "amount": 1
+        },
+        {
+            "item_id": 7767,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7735,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 1700
+}

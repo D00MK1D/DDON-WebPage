@@ -1,0 +1,24 @@
+{
+    "type": "material",
+    "item_id": 13810,
+    "name": "Thief Card",
+    "info": "Cards left behind by phantom thief.\nCan be used for \"Appraisal Exchange\".",
+    "icon": {
+        "icon_id": 1534,
+        "color_id": 19
+    },
+    "jobs": [],
+    "sell_price": 0,
+    "weight": 0,
+    "item_level": 15,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

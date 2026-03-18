@@ -1,0 +1,33 @@
+{
+    "type": "material",
+    "item_id": 15918,
+    "name": "Ancient Iron Ingot",
+    "info": "Metal Crafting Material: A lump of metal that\nclosely resembles iron, but is not easily found in\nthe modern era.",
+    "icon": {
+        "icon_id": 487,
+        "color_id": 116
+    },
+    "jobs": [],
+    "sell_price": 600,
+    "weight": 0,
+    "item_level": 45,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": true,
+    "craft_recipe": [
+        {
+            "item_id": 15917,
+            "amount": 10
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Morrow Forest: Invading Demons Cave",
+        "Morrow Forest: Invading Demons Cave Innermost Depths"
+    ],
+    "hunt": [],
+    "subtype": "regional"
+}

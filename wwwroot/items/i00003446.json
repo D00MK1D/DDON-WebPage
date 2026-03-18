@@ -1,0 +1,52 @@
+{
+    "type": "equipment",
+    "item_id": 3446,
+    "name": "Sacred Bangles",
+    "info": "",
+    "icon": {
+        "icon_id": 51,
+        "color_id": 6
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 640,
+    "weight": 23,
+    "item_level": 4,
+    "crest_slots": 0,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 20,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 63,
+        "magic_attack": 0,
+        "magic_defense": 53,
+        "crest_slot": 0,
+        "ele_slot": 16
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 5
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7952,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 2423,
+    "next_item_id": 4469
+}

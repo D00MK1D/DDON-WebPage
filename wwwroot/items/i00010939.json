@@ -1,0 +1,65 @@
+{
+    "type": "equipment",
+    "item_id": 10939,
+    "name": "Gold Luna Mail",
+    "info": "",
+    "icon": {
+        "icon_id": 1196,
+        "color_id": 19
+    },
+    "jobs": [
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "ElementArcher",
+        "Alchemist",
+        "HighScepter"
+    ],
+    "sell_price": 5000,
+    "weight": 60,
+    "item_level": 55,
+    "crest_slots": 4,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 23,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 55,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 383,
+        "magic_attack": 0,
+        "magic_defense": 338,
+        "crest_slot": 4,
+        "ele_slot": 12
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 20
+        },
+        {
+            "id": 1,
+            "name": "RESIST_POISON",
+            "value": 5
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 506
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 16834,
+            "amount": 20
+        }
+    ],
+    "previous_item_id": 10938,
+    "next_item_id": 10940
+}

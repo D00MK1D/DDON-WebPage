@@ -1,0 +1,64 @@
+{
+    "type": "equipment",
+    "item_id": 10550,
+    "name": "Ancient Folk Soldier's Armor (Plain)",
+    "info": "",
+    "icon": {
+        "icon_id": 1171,
+        "color_id": 84
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 15000,
+    "weight": 60,
+    "item_level": 12,
+    "crest_slots": 4,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 4,
+    "equip_slot": "EQUIP_CATEGORY_COSTUME",
+    "level": 1,
+    "genders": [
+        "Male"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 403,
+        "magic_attack": 0,
+        "magic_defense": 403,
+        "crest_slot": 0,
+        "ele_slot": 12
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 72
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 658
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 525
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0
+}

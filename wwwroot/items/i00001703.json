@@ -1,0 +1,64 @@
+{
+    "type": "equipment",
+    "item_id": 1703,
+    "name": "Large Wood",
+    "info": "",
+    "icon": {
+        "icon_id": 890,
+        "color_id": 5
+    },
+    "jobs": [
+        "ShieldSage"
+    ],
+    "sell_price": 8,
+    "weight": 100,
+    "item_level": 1,
+    "crest_slots": 1,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 0,
+    "weapon_type": "STAFF",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 1,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 121,
+        "magic_attack": 0,
+        "crest_slot": 4,
+        "ele_slot": 9
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 50
+        },
+        {
+            "id": 87,
+            "name": "GUARD_POWER",
+            "value": 103
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        },
+        {
+            "id": 31,
+            "name": "MAX_FORCE_STOCK",
+            "value": 1
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7858,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 91,
+    "next_item_id": 2726
+}

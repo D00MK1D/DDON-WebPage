@@ -1,0 +1,82 @@
+{
+    "type": "equipment",
+    "item_id": 12798,
+    "name": "Immortal's Gauntlets",
+    "info": "",
+    "icon": {
+        "icon_id": 1299,
+        "color_id": 11
+    },
+    "jobs": [
+        "Fighter",
+        "Warrior"
+    ],
+    "sell_price": 6339,
+    "weight": 34,
+    "item_level": 25,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 2,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 65,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 278,
+        "magic_attack": 0,
+        "magic_defense": 232,
+        "crest_slot": 4,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 14
+        },
+        {
+            "id": 4,
+            "name": "RESIST_BLIND",
+            "value": 2
+        },
+        {
+            "id": 16,
+            "name": "RESIST_CURSE",
+            "value": 2
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7878,
+            "amount": 1
+        },
+        {
+            "item_id": 11776,
+            "amount": 1
+        },
+        {
+            "item_id": 11775,
+            "amount": 10
+        },
+        {
+            "item_id": 11779,
+            "amount": 4
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 11766,
+            "amount": 2
+        },
+        {
+            "item_id": 11772,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 12799
+}

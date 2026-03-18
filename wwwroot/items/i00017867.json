@@ -1,0 +1,28 @@
+{
+    "type": "material",
+    "item_id": 17867,
+    "name": "Goblin's Spellstaff",
+    "info": "Miscellaneous Crafting Material:\nA thin staff used by Goblin Shamans for prayers.",
+    "icon": {
+        "icon_id": 517,
+        "color_id": 5
+    },
+    "jobs": [],
+    "sell_price": 350,
+    "weight": 0,
+    "item_level": 80,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": [
+        "Level 1+ Goblin Aid Shaman",
+        "Level 1+ Goblin Shaman"
+    ],
+    "subtype": "other"
+}

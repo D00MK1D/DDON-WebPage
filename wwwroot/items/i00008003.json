@@ -1,0 +1,45 @@
+{
+    "type": "material",
+    "item_id": 8003,
+    "name": "Scroll of Power",
+    "info": "Grimoire Crafting Material:\nScrolls imbued with the mark of power.",
+    "icon": {
+        "icon_id": 514,
+        "color_id": 2
+    },
+    "jobs": [],
+    "sell_price": 75,
+    "weight": 0,
+    "item_level": 4,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [
+        {
+            "item_id": 8002,
+            "amount": 1
+        },
+        {
+            "item_id": 7907,
+            "amount": 1
+        },
+        {
+            "item_id": 7760,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Elan Water Grove: Elan Quarry Cave",
+        "Farana Plains: Valtable Hall",
+        "Hidell Plains: Hidell Catacombs",
+        "Hidell Plains: Hidell Catacombs Innermost Depths",
+        "Kingal Canyon: Hadin Underground Old Road",
+        "Kingal Canyon: Hadin Underground Old Road: Center"
+    ],
+    "hunt": [],
+    "subtype": "scrolls"
+}

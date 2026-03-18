@@ -1,0 +1,67 @@
+{
+    "type": "equipment",
+    "item_id": 10543,
+    "name": "Prodigal Arisen's Clothes (Plain)",
+    "info": "",
+    "icon": {
+        "icon_id": 1169,
+        "color_id": 84
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 35000,
+    "weight": 60,
+    "item_level": 10,
+    "crest_slots": 4,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 4,
+    "equip_slot": "EQUIP_CATEGORY_COSTUME",
+    "level": 1,
+    "genders": [
+        "Male"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 960,
+        "magic_attack": 0,
+        "magic_defense": 960,
+        "crest_slot": 0,
+        "ele_slot": 36
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 130
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 1350
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 1044
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

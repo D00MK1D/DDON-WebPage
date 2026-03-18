@@ -1,0 +1,52 @@
+{
+    "type": "equipment",
+    "item_id": 25427,
+    "name": "Savage Courage Ranger Arm",
+    "info": "",
+    "icon": {
+        "icon_id": 2970,
+        "color_id": 11
+    },
+    "jobs": [
+        "ShieldSage",
+        "Alchemist",
+        "HighScepter"
+    ],
+    "sell_price": 14400,
+    "weight": 37,
+    "item_level": 140,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 1,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 105,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 10,
+        "defense": 666,
+        "magic_attack": 10,
+        "magic_defense": 555,
+        "crest_slot": 0,
+        "ele_slot": 8
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 32
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 25527,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 25426,
+    "next_item_id": 25428
+}

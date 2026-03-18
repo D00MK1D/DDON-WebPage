@@ -1,0 +1,61 @@
+{
+    "type": "equipment",
+    "item_id": 4316,
+    "name": "Vagabond Armor",
+    "info": "",
+    "icon": {
+        "icon_id": 142,
+        "color_id": 8
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 3235,
+    "weight": 70,
+    "item_level": 7,
+    "crest_slots": 1,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 1,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 34,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 158,
+        "magic_attack": 0,
+        "magic_defense": 141,
+        "crest_slot": 4,
+        "ele_slot": 25
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 16
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 661
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7937,
+            "amount": 1
+        },
+        {
+            "item_id": 7995,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 3293,
+    "next_item_id": 5339
+}

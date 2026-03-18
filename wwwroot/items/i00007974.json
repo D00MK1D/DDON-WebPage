@@ -1,0 +1,27 @@
+{
+    "type": "material",
+    "item_id": 7974,
+    "name": "Baby Herb",
+    "info": "Floral Crafting Material: Young Herbs in the\nmidst of growth",
+    "icon": {
+        "icon_id": 508,
+        "color_id": 1
+    },
+    "jobs": [],
+    "sell_price": 5,
+    "weight": 0,
+    "item_level": 1,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Hidell Plains"
+    ],
+    "hunt": [],
+    "subtype": "plants"
+}

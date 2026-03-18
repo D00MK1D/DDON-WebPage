@@ -1,0 +1,37 @@
+{
+    "type": "material",
+    "item_id": 7934,
+    "name": "Common Cloth",
+    "info": "Cloth Crafting Material: A type of material used\nfor crafting in the cloth-based category, commonly\nused for regular clothing and such.",
+    "icon": {
+        "icon_id": 501,
+        "color_id": 1
+    },
+    "jobs": [],
+    "sell_price": 10,
+    "weight": 0,
+    "item_level": 1,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [
+        {
+            "item_id": 7773,
+            "amount": 1
+        },
+        {
+            "item_id": 7917,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Hidell Plains: Abandoned House Cellar",
+        "Hidell Plains: Hunters' Secret Passage"
+    ],
+    "hunt": [],
+    "subtype": "fabric"
+}

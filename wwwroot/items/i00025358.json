@@ -1,0 +1,46 @@
+{
+    "type": "equipment",
+    "item_id": 25358,
+    "name": "Savage Courage Magic Mask",
+    "info": "",
+    "icon": {
+        "icon_id": 1950,
+        "color_id": 11
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 15000,
+    "weight": 38,
+    "item_level": 140,
+    "crest_slots": 0,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 3,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_HELM",
+    "level": 105,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 10,
+        "defense": 557,
+        "magic_attack": 10,
+        "magic_defense": 891,
+        "crest_slot": 0,
+        "ele_slot": 16
+    },
+    "params": [],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 25527,
+            "amount": 3
+        }
+    ],
+    "previous_item_id": 25357,
+    "next_item_id": 25359
+}

@@ -1,0 +1,33 @@
+{
+    "type": "material",
+    "item_id": 21256,
+    "name": "Belladonna",
+    "info": "Floral Crafting Material:\nGrass and flowers that contain poison from leaves\nto roots.\nCaution is necessary when touching.",
+    "icon": {
+        "icon_id": 509,
+        "color_id": 4
+    },
+    "jobs": [],
+    "sell_price": 350,
+    "weight": 0,
+    "item_level": 110,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Urteca Mountains: Cave of Rest",
+        "Urteca Mountains: Crumbling Entrance Path",
+        "Urteca Mountains: Megado Detached Palace",
+        "Urteca Mountains: Skygazing Spot",
+        "Urteca Mountains: The Burial Chamber of the Unmourned",
+        "Urteca Mountains: The Royal Family Mausoleum",
+        "Urteca Mountains: Western Urteca Mountains"
+    ],
+    "hunt": [],
+    "subtype": "plants"
+}

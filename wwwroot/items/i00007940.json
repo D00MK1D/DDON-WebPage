@@ -1,0 +1,46 @@
+{
+    "type": "material",
+    "item_id": 7940,
+    "name": "Protective Cloth",
+    "info": "Cloth Crafting Material: Special cloth imbued\nwith Divine Protection.",
+    "icon": {
+        "icon_id": 500,
+        "color_id": 4
+    },
+    "jobs": [],
+    "sell_price": 500,
+    "weight": 0,
+    "item_level": 8,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [
+        {
+            "item_id": 7764,
+            "amount": 1
+        },
+        {
+            "item_id": 7979,
+            "amount": 2
+        },
+        {
+            "item_id": 7778,
+            "amount": 2
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Deenan Woods: Heavenly Terrace",
+        "Farana Plains: Sacred River Ruins",
+        "Morrow Forest: Northerners Infected Woods",
+        "Mysree Forest: Ancient Burial Mound: Chamber of Immortality",
+        "Mysree Grove: Ancient Burial Mound"
+    ],
+    "hunt": [
+        "Level 1+ Zuhl"
+    ],
+    "subtype": "fabric"
+}

@@ -1,0 +1,82 @@
+{
+    "type": "equipment",
+    "item_id": 700,
+    "name": "Explorer's Boots",
+    "info": "",
+    "icon": {
+        "icon_id": 366,
+        "color_id": 10
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 5410,
+    "weight": 54,
+    "item_level": 11,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 5,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 52,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 163,
+        "magic_attack": 0,
+        "magic_defense": 130,
+        "crest_slot": 4,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 45
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 676
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7818,
+            "amount": 2
+        },
+        {
+            "item_id": 7739,
+            "amount": 2
+        },
+        {
+            "item_id": 7822,
+            "amount": 3
+        },
+        {
+            "item_id": 7751,
+            "amount": 2
+        },
+        {
+            "item_id": 7959,
+            "amount": 2
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7945,
+            "amount": 3
+        },
+        {
+            "item_id": 7766,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 2312
+}

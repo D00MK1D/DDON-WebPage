@@ -1,0 +1,32 @@
+{
+    "type": "material",
+    "item_id": 11800,
+    "name": "Feather Chiffon",
+    "info": "Cloth Crafting Material: Lightweight and airy\ncloth that you can't feel the weight of.",
+    "icon": {
+        "icon_id": 500,
+        "color_id": 116
+    },
+    "jobs": [],
+    "sell_price": 600,
+    "weight": 0,
+    "item_level": 35,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": true,
+    "craft_recipe": [
+        {
+            "item_id": 11799,
+            "amount": 30
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Deenan Woods: Heavenly Terrace"
+    ],
+    "hunt": [],
+    "subtype": "regional"
+}

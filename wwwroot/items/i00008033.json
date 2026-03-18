@@ -1,0 +1,41 @@
+{
+    "type": "material",
+    "item_id": 8033,
+    "name": "Aliment Extractant",
+    "info": "Miscellaneous Crafting Material: Alchemized\nmedium used by alchemists for concocting potions.",
+    "icon": {
+        "icon_id": 517,
+        "color_id": 6
+    },
+    "jobs": [],
+    "sell_price": 210,
+    "weight": 0,
+    "item_level": 11,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Eastern Zandora: Dead Lord's Labyrinth",
+        "Mergoda Ruins",
+        "Mergoda Ruins: Elixir Refining Chamber",
+        "Mergoda Ruins: Mergoda Ruins Royal Palace Level",
+        "Mergoda Ruins: Mergodan Residence",
+        "Mergoda Ruins: Secret Proving Ground"
+    ],
+    "hunt": [
+        "Level 1+ Mergan Elementor",
+        "Level 1+ Mergan Fighter",
+        "Level 1+ Mergan Guarder",
+        "Level 1+ Mergan Healer",
+        "Level 1+ Mergan Hunter",
+        "Level 1+ Mergan Mage",
+        "Level 1+ Mergan Seeker",
+        "Level 1+ Mergan Warrior"
+    ],
+    "subtype": "other"
+}

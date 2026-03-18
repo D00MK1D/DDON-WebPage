@@ -1,0 +1,28 @@
+{
+    "type": "material",
+    "item_id": 16002,
+    "name": "Smooth White Mud",
+    "info": "Sand Crafting Material: Fine particles of smooth\nand delicate mud.",
+    "icon": {
+        "icon_id": 486,
+        "color_id": 5
+    },
+    "jobs": [],
+    "sell_price": 250,
+    "weight": 0,
+    "item_level": 65,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Elan Water Grove",
+        "Elan Water Grove: Shimmering Waterfall"
+    ],
+    "hunt": [],
+    "subtype": "sand"
+}

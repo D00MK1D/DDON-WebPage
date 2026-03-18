@@ -1,0 +1,27 @@
+{
+    "type": "material",
+    "item_id": 7788,
+    "name": "Crooked Fang",
+    "info": "Fang Crafting Material.\nWrenching Fangs of the Rampaging Ape, capable of\ncrushing anything.",
+    "icon": {
+        "icon_id": 470,
+        "color_id": 2
+    },
+    "jobs": [],
+    "sell_price": 100,
+    "weight": 0,
+    "item_level": 4,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": [
+        "Level 1+ Dread Ape"
+    ],
+    "subtype": "fangs tusks and claws"
+}

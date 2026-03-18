@@ -1,0 +1,27 @@
+{
+    "type": "material",
+    "item_id": 9459,
+    "name": "Lestania Amber",
+    "info": "Crafting materials with limited availability.\nAn amber made from the power of the earth\ndwelling within a mighty tree.",
+    "icon": {
+        "icon_id": 525,
+        "color_id": 28
+    },
+    "jobs": [],
+    "sell_price": 180,
+    "weight": 0,
+    "item_level": 9,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [
+        "Goblin King in Hobolic Cave"
+    ],
+    "gather": [],
+    "hunt": [],
+    "subtype": "other"
+}

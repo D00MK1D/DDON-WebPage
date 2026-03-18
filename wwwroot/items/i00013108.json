@@ -1,0 +1,68 @@
+{
+    "type": "equipment",
+    "item_id": 13108,
+    "name": "Dragon Hide Vest",
+    "info": "",
+    "icon": {
+        "icon_id": 1357,
+        "color_id": 111
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 2573,
+    "weight": 10,
+    "item_level": 45,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 2,
+    "equip_slot": "EQUIP_CATEGORY_WEAR_BODY",
+    "level": 70,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 138,
+        "magic_attack": 0,
+        "magic_defense": 138,
+        "crest_slot": 4,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 387
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 11789,
+            "amount": 1
+        },
+        {
+            "item_id": 11791,
+            "amount": 1
+        },
+        {
+            "item_id": 11793,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 13109
+}

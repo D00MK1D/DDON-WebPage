@@ -1,0 +1,57 @@
+{
+    "type": "equipment",
+    "item_id": 11153,
+    "name": "Curability Branch",
+    "info": "",
+    "icon": {
+        "icon_id": 1010,
+        "color_id": 9
+    },
+    "jobs": [
+        "Priest"
+    ],
+    "sell_price": 9250,
+    "weight": 70,
+    "item_level": 9,
+    "crest_slots": 1,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 3,
+    "weapon_type": "MAGICK_BOW",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 43,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 620,
+        "magic_attack": 729,
+        "crest_slot": 4,
+        "ele_slot": 9
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 134
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7968,
+            "amount": 2
+        },
+        {
+            "item_id": 7737,
+            "amount": 1
+        },
+        {
+            "item_id": 7902,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 11152,
+    "next_item_id": 11154
+}

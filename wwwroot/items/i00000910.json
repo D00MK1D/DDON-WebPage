@@ -1,0 +1,98 @@
+{
+    "type": "equipment",
+    "item_id": 910,
+    "name": "Virtue Legs",
+    "info": "",
+    "icon": {
+        "icon_id": 408,
+        "color_id": 9
+    },
+    "jobs": [
+        "ShieldSage",
+        "Alchemist",
+        "HighScepter"
+    ],
+    "sell_price": 4050,
+    "weight": 72,
+    "item_level": 9,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 23,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 45,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 132,
+        "magic_attack": 0,
+        "magic_defense": 106,
+        "crest_slot": 4,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 40
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 592
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7948,
+            "amount": 5
+        },
+        {
+            "item_id": 7932,
+            "amount": 2
+        },
+        {
+            "item_id": 7751,
+            "amount": 2
+        },
+        {
+            "item_id": 7910,
+            "amount": 3
+        },
+        {
+            "item_id": 7958,
+            "amount": 5
+        },
+        {
+            "item_id": 10990,
+            "amount": 3
+        },
+        {
+            "item_id": 11006,
+            "amount": 2
+        },
+        {
+            "item_id": 10999,
+            "amount": 6
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7859,
+            "amount": 1
+        },
+        {
+            "item_id": 7816,
+            "amount": 1
+        },
+        {
+            "item_id": 8020,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 2522
+}

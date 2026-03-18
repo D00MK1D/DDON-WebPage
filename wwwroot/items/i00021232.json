@@ -1,0 +1,39 @@
+{
+    "type": "material",
+    "item_id": 21232,
+    "name": "Giant Animal Skull",
+    "info": "Bone Crafting Material:\nLarge bones that are of a certain size and easy\nto process.",
+    "icon": {
+        "icon_id": 472,
+        "color_id": 16
+    },
+    "jobs": [],
+    "sell_price": 500,
+    "weight": 0,
+    "item_level": 100,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Feryana Wilderness: Beast Training Ground",
+        "Feryana Wilderness: Captive Interrogation Prison",
+        "Feryana Wilderness: Demon Army Standby Spot",
+        "Feryana Wilderness: Jikei's Funeral Parlor",
+        "Feryana Wilderness: Nilviris Bridge Checkpoint",
+        "Megadosys Plateau: Abhorrent Territory",
+        "Megadosys Plateau: Beast Training Ground",
+        "Megadosys Plateau: Captive Interrogation Prison",
+        "Megadosys Plateau: Demon Army Standby Spot",
+        "Megadosys Plateau: Firefall Mountain Eroded Rock",
+        "Megadosys Plateau: Isolated Beach",
+        "Megadosys Plateau: Jikei's Funeral Parlor",
+        "Megadosys Plateau: Nilviris Bridge Checkpoint"
+    ],
+    "hunt": [],
+    "subtype": "regional"
+}

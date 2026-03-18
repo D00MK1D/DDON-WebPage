@@ -1,0 +1,72 @@
+{
+    "type": "equipment",
+    "item_id": 19834,
+    "name": "Wall of Kenntnis",
+    "info": "",
+    "icon": {
+        "icon_id": 2311,
+        "color_id": 85
+    },
+    "jobs": [
+        "ShieldSage"
+    ],
+    "sell_price": 50000,
+    "weight": 80,
+    "item_level": 105,
+    "crest_slots": 4,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 23,
+    "weapon_type": "STAFF",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 1,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 2811,
+        "magic_attack": 0,
+        "crest_slot": 4,
+        "ele_slot": 36
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 884
+        },
+        {
+            "id": 87,
+            "name": "GUARD_POWER",
+            "value": 474
+        },
+        {
+            "id": 91,
+            "name": "OGRE_SLAYER",
+            "value": 40
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        },
+        {
+            "id": 30,
+            "name": "BLOCKING_STAMINA_REDUCTION",
+            "value": 15
+        },
+        {
+            "id": 31,
+            "name": "MAX_FORCE_STOCK",
+            "value": 5
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

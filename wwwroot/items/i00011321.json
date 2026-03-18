@@ -1,0 +1,52 @@
+{
+    "type": "equipment",
+    "item_id": 11321,
+    "name": "Blade of Insight (Earth)",
+    "info": "",
+    "icon": {
+        "icon_id": 1288,
+        "color_id": 82
+    },
+    "jobs": [
+        "Seeker"
+    ],
+    "sell_price": 5000,
+    "weight": 60,
+    "item_level": 8,
+    "crest_slots": 2,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 2,
+    "weapon_type": "ROD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 15,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 546,
+        "magic_attack": 410,
+        "crest_slot": 0,
+        "ele_slot": 34
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 74
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 11320,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

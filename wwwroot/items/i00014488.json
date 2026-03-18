@@ -1,0 +1,62 @@
+{
+    "type": "equipment",
+    "item_id": 14488,
+    "name": "Deep Ripper",
+    "info": "",
+    "icon": {
+        "icon_id": 933,
+        "color_id": 10
+    },
+    "jobs": [
+        "Seeker"
+    ],
+    "sell_price": 29650,
+    "weight": 50,
+    "item_level": 60,
+    "crest_slots": 1,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 3,
+    "weapon_type": "ROD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 77,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1989,
+        "magic_attack": 1810,
+        "crest_slot": 0,
+        "ele_slot": 9
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 208
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 15975,
+            "amount": 3
+        },
+        {
+            "item_id": 15977,
+            "amount": 3
+        },
+        {
+            "item_id": 15979,
+            "amount": 3
+        }
+    ],
+    "previous_item_id": 14487,
+    "next_item_id": 14489
+}

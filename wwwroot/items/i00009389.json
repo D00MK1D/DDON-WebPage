@@ -1,0 +1,44 @@
+{
+    "type": "consumable",
+    "item_id": 9389,
+    "name": "Demon's Talisman",
+    "info": "Grants the user the\nspecified status effect.",
+    "icon": {
+        "icon_id": 436,
+        "color_id": 4
+    },
+    "jobs": [],
+    "sell_price": 300,
+    "weight": 0,
+    "item_level": 8,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "max_stack": 10,
+    "craft_recipe": [
+        {
+            "item_id": 7902,
+            "amount": 1
+        },
+        {
+            "item_id": 7983,
+            "amount": 1
+        },
+        {
+            "item_id": 8009,
+            "amount": 1
+        },
+        {
+            "item_id": 7990,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Northern Betland Plains: Gardnox Fortress"
+    ],
+    "hunt": []
+}

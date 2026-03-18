@@ -1,0 +1,59 @@
+{
+    "type": "equipment",
+    "item_id": 12128,
+    "name": "Unify Feeling",
+    "info": "",
+    "icon": {
+        "icon_id": 940,
+        "color_id": 10
+    },
+    "jobs": [
+        "Seeker"
+    ],
+    "sell_price": 24505,
+    "weight": 60,
+    "item_level": 35,
+    "crest_slots": 1,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 0,
+    "weapon_type": "ROD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 70,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1657,
+        "magic_attack": 1485,
+        "crest_slot": 4,
+        "ele_slot": 17
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 173
+        },
+        {
+            "id": 47,
+            "name": "INFLICT_BLIND",
+            "value": 13
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 11806,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 12127,
+    "next_item_id": 12129
+}

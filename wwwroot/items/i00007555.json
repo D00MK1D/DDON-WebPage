@@ -1,0 +1,42 @@
+{
+    "type": "consumable",
+    "item_id": 7555,
+    "name": "Superior Healing Remedy",
+    "info": "Recovers a portion of the user's health.",
+    "icon": {
+        "icon_id": 429,
+        "color_id": 6
+    },
+    "jobs": [],
+    "sell_price": 800,
+    "weight": 0,
+    "item_level": 11,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "max_stack": 10,
+    "craft_recipe": [
+        {
+            "item_id": 7554,
+            "amount": 2
+        },
+        {
+            "item_id": 7984,
+            "amount": 3
+        },
+        {
+            "item_id": 7831,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Betland Plains: The Second Ark",
+        "Eastern Zandora: Dead Lord's Labyrinth",
+        "Hidell Plains: The Ark's Lower Level: Storage"
+    ],
+    "hunt": []
+}

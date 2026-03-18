@@ -1,0 +1,27 @@
+{
+    "type": "material",
+    "item_id": 15967,
+    "name": "Dazzling Silver Plume",
+    "info": "Feather Crafting Material: White Griffin\nfeathers, which possess an elegant radiance.",
+    "icon": {
+        "icon_id": 479,
+        "color_id": 105
+    },
+    "jobs": [],
+    "sell_price": 800,
+    "weight": 0,
+    "item_level": 45,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": [
+        "Level 1+ White Griffin"
+    ],
+    "subtype": "feathers"
+}

@@ -1,0 +1,58 @@
+{
+    "type": "equipment",
+    "item_id": 1982,
+    "name": "Massive Hammer",
+    "info": "",
+    "icon": {
+        "icon_id": 882,
+        "color_id": 8
+    },
+    "jobs": [
+        "Warrior"
+    ],
+    "sell_price": 3925,
+    "weight": 180,
+    "item_level": 7,
+    "crest_slots": 1,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 2,
+    "weapon_type": "BOW",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 35,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 695,
+        "magic_attack": 357,
+        "crest_slot": 4,
+        "ele_slot": 9
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 323
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 23
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7863,
+            "amount": 2
+        },
+        {
+            "item_id": 7955,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 370,
+    "next_item_id": 3005
+}

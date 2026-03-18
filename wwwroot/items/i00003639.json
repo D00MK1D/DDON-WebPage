@@ -1,0 +1,69 @@
+{
+    "type": "equipment",
+    "item_id": 3639,
+    "name": "Nature Pants",
+    "info": "",
+    "icon": {
+        "icon_id": 810,
+        "color_id": 8
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 1150,
+    "weight": 5,
+    "item_level": 8,
+    "crest_slots": 0,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 4,
+    "equip_slot": "EQUIP_CATEGORY_WEAR_LEG",
+    "level": 36,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 34,
+        "magic_attack": 0,
+        "magic_defense": 34,
+        "crest_slot": 0,
+        "ele_slot": 16
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 17
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 163
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7920,
+            "amount": 1
+        },
+        {
+            "item_id": 7979,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 2616,
+    "next_item_id": 4662
+}

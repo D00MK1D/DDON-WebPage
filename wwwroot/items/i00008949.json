@@ -1,0 +1,63 @@
+{
+    "type": "jewlery",
+    "item_id": 8949,
+    "name": "Healing Ring",
+    "info": "",
+    "icon": {
+        "icon_id": 735,
+        "color_id": 6
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 250,
+    "weight": 1,
+    "item_level": 4,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "level": 16,
+    "stats": {},
+    "params": [
+        {
+            "id": 29,
+            "name": "HEALING_POWER",
+            "value": 1
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 15
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7982,
+            "amount": 3
+        },
+        {
+            "item_id": 7865,
+            "amount": 1
+        },
+        {
+            "item_id": 7847,
+            "amount": 2
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

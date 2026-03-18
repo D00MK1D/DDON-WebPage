@@ -1,0 +1,69 @@
+{
+    "type": "equipment",
+    "item_id": 20905,
+    "name": "Charit\u00e9 Coat",
+    "info": "",
+    "icon": {
+        "icon_id": 1928,
+        "color_id": 11
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 24035,
+    "weight": 71,
+    "item_level": 115,
+    "crest_slots": 1,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 3,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 98,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 7,
+        "defense": 861,
+        "magic_attack": 7,
+        "magic_defense": 766,
+        "crest_slot": 4,
+        "ele_slot": 25
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 44
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 1245
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 21269,
+            "amount": 2
+        },
+        {
+            "item_id": 21266,
+            "amount": 4
+        },
+        {
+            "item_id": 21275,
+            "amount": 4
+        },
+        {
+            "item_id": 21267,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 20904,
+    "next_item_id": 20906
+}

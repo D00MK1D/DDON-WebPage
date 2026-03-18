@@ -1,0 +1,57 @@
+{
+    "type": "equipment",
+    "item_id": 17658,
+    "name": "Acrean Coat",
+    "info": "",
+    "icon": {
+        "icon_id": 1928,
+        "color_id": 111
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 18869,
+    "weight": 67,
+    "item_level": 90,
+    "crest_slots": 1,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 20,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 85,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 5,
+        "defense": 689,
+        "magic_attack": 5,
+        "magic_defense": 612,
+        "crest_slot": 0,
+        "ele_slot": 17
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 37
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 1050
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 18735,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 17657,
+    "next_item_id": 17659
+}

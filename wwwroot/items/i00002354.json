@@ -1,0 +1,54 @@
+{
+    "type": "equipment",
+    "item_id": 2354,
+    "name": "Cathedral Cap",
+    "info": "",
+    "icon": {
+        "icon_id": 245,
+        "color_id": 9
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 2820,
+    "weight": 36,
+    "item_level": 9,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 4,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_HELM",
+    "level": 43,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 116,
+        "magic_attack": 0,
+        "magic_defense": 185,
+        "crest_slot": 4,
+        "ele_slot": 8
+    },
+    "params": [],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7946,
+            "amount": 1
+        },
+        {
+            "item_id": 7779,
+            "amount": 1
+        },
+        {
+            "item_id": 7764,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 742,
+    "next_item_id": 3377
+}

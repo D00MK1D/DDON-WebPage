@@ -1,0 +1,63 @@
+{
+    "type": "equipment",
+    "item_id": 11868,
+    "name": "Sword of Tyrant",
+    "info": "",
+    "icon": {
+        "icon_id": 1450,
+        "color_id": 11
+    },
+    "jobs": [
+        "Fighter"
+    ],
+    "sell_price": 19604,
+    "weight": 80,
+    "item_level": 40,
+    "crest_slots": 1,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 23,
+    "weapon_type": "SWORD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 70,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1802,
+        "magic_attack": 1579,
+        "crest_slot": 0,
+        "ele_slot": 17
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 341
+        },
+        {
+            "id": 102,
+            "name": "DRAGON_SLAYER",
+            "value": 17
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 11806,
+            "amount": 4
+        },
+        {
+            "item_id": 13224,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 11867,
+    "next_item_id": 11869
+}

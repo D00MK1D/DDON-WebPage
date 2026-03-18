@@ -1,0 +1,28 @@
+{
+    "type": "material",
+    "item_id": 17909,
+    "name": "Flesh-Eating Snail",
+    "info": "Miscellaneous Crafting Material: Carnivorous\nShellfish that devours meat in packs.",
+    "icon": {
+        "icon_id": 520,
+        "color_id": 16
+    },
+    "jobs": [],
+    "sell_price": 200,
+    "weight": 0,
+    "item_level": 90,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Rathnite Foothills: Dacreim Fortress",
+        "Rathnite Foothills: Rathnite Columbarium"
+    ],
+    "hunt": [],
+    "subtype": "regional"
+}

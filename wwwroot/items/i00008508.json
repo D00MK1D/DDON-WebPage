@@ -1,0 +1,81 @@
+{
+    "type": "equipment",
+    "item_id": 8508,
+    "name": "Dark Leather Gloves",
+    "info": "",
+    "icon": {
+        "icon_id": 40,
+        "color_id": 10
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 3685,
+    "weight": 34,
+    "item_level": 11,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 3,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 55,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 209,
+        "magic_attack": 0,
+        "magic_defense": 174,
+        "crest_slot": 4,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 12
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7742,
+            "amount": 2
+        },
+        {
+            "item_id": 7818,
+            "amount": 3
+        },
+        {
+            "item_id": 8022,
+            "amount": 3
+        },
+        {
+            "item_id": 7832,
+            "amount": 6
+        },
+        {
+            "item_id": 7743,
+            "amount": 3
+        },
+        {
+            "item_id": 11008,
+            "amount": 4
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7829,
+            "amount": 1
+        },
+        {
+            "item_id": 7990,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 8509
+}

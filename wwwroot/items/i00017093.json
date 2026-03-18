@@ -1,0 +1,24 @@
+{
+    "type": "special",
+    "item_id": 17093,
+    "name": "Aristocrat Bath - Wyrm",
+    "info": "A Wyrm-shaped spout that can be installed in the\nbath, allowing you to immerse yourself in an\nelegant atmosphere.",
+    "icon": {
+        "icon_id": 1878,
+        "color_id": 0
+    },
+    "jobs": [],
+    "sell_price": 0,
+    "weight": 0,
+    "item_level": 0,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

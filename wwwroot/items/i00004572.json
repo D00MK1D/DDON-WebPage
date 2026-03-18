@@ -1,0 +1,65 @@
+{
+    "type": "equipment",
+    "item_id": 4572,
+    "name": "Greaves of Sacred Protection",
+    "info": "",
+    "icon": {
+        "icon_id": 419,
+        "color_id": 10
+    },
+    "jobs": [
+        "ShieldSage",
+        "Alchemist",
+        "HighScepter"
+    ],
+    "sell_price": 6270,
+    "weight": 72,
+    "item_level": 12,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 5,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 58,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 196,
+        "magic_attack": 0,
+        "magic_defense": 157,
+        "crest_slot": 0,
+        "ele_slot": 24
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 51
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 724
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7887,
+            "amount": 1
+        },
+        {
+            "item_id": 9439,
+            "amount": 1
+        },
+        {
+            "item_id": 9446,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 3549,
+    "next_item_id": 5595
+}

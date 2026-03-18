@@ -1,0 +1,54 @@
+{
+    "type": "equipment",
+    "item_id": 25167,
+    "name": "Savage Courage Magic Staff",
+    "info": "",
+    "icon": {
+        "icon_id": 2333,
+        "color_id": 11
+    },
+    "jobs": [
+        "Priest"
+    ],
+    "sell_price": 48500,
+    "weight": 70,
+    "item_level": 140,
+    "crest_slots": 1,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 4,
+    "weapon_type": "MAGICK_BOW",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 105,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 3392,
+        "magic_attack": 3548,
+        "crest_slot": 0,
+        "ele_slot": 25
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 522
+        },
+        {
+            "id": 85,
+            "name": "BLOW_POWER_BBLUNT",
+            "value": 5
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 25524,
+            "amount": 9
+        }
+    ],
+    "previous_item_id": 25166,
+    "next_item_id": 25168
+}

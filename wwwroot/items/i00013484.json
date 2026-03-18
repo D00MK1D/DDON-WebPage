@@ -1,0 +1,36 @@
+{
+    "type": "material",
+    "item_id": 13484,
+    "name": "Unappraised Flower Trinket (General)",
+    "info": "Jewelry available in the \"Appraisal Exchange\".\nIts effect is unknown.",
+    "icon": {
+        "icon_id": 1495,
+        "color_id": 106
+    },
+    "jobs": [],
+    "sell_price": 100,
+    "weight": 0,
+    "item_level": 20,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "craft_recipe": [
+        {
+            "item_id": 13483,
+            "amount": 10
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Hidell Plains: The Foreigner's Underground Tomb",
+        "Kingal Canyon: Nebula Temple",
+        "Kingal Canyon: Nebula Temple Depths",
+        "Kingal Canyon: Shadolean Great Temple",
+        "Kingal Canyon: Shadolean Great Temple: Center"
+    ],
+    "hunt": [],
+    "subtype": "unappraised jewelry"
+}

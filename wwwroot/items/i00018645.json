@@ -1,0 +1,25 @@
+{
+    "type": "consumable",
+    "item_id": 18645,
+    "name": "Dominion Point",
+    "info": "Currency (DP) that can be used with in the\nDominion Point Shop",
+    "icon": {
+        "icon_id": 1978,
+        "color_id": 1
+    },
+    "jobs": [],
+    "sell_price": 100,
+    "weight": 0,
+    "item_level": 3,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "max_stack": 99,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

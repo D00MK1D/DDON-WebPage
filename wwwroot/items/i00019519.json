@@ -1,0 +1,87 @@
+{
+    "type": "equipment",
+    "item_id": 19519,
+    "name": "Apprentice Priest Robes (Bloom)",
+    "info": "",
+    "icon": {
+        "icon_id": 1966,
+        "color_id": 84
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 50000,
+    "weight": 80,
+    "item_level": 96,
+    "crest_slots": 4,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_COSTUME",
+    "level": 85,
+    "genders": [
+        "Male"
+    ],
+    "stats": {
+        "attack": 12,
+        "defense": 2492,
+        "magic_attack": 12,
+        "magic_defense": 2492,
+        "crest_slot": 0,
+        "ele_slot": 36
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 260
+        },
+        {
+            "id": 4,
+            "name": "RESIST_BLIND",
+            "value": 30
+        },
+        {
+            "id": 15,
+            "name": "RESIST_KNOCKOUT",
+            "value": 30
+        },
+        {
+            "id": 43,
+            "name": "DARK_RESIST",
+            "value": 30
+        },
+        {
+            "id": 29,
+            "name": "HEALING_POWER",
+            "value": 30
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 1600
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 900
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

@@ -1,0 +1,65 @@
+{
+    "type": "equipment",
+    "item_id": 15556,
+    "name": "Azure Hose",
+    "info": "",
+    "icon": {
+        "icon_id": 809,
+        "color_id": 111
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 2400,
+    "weight": 5,
+    "item_level": 75,
+    "crest_slots": 0,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_WEAR_LEG",
+    "level": 80,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 132,
+        "magic_attack": 0,
+        "magic_defense": 132,
+        "crest_slot": 4,
+        "ele_slot": 16
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 61
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 256
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 16013,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 15555,
+    "next_item_id": 15557
+}

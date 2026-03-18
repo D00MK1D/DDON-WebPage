@@ -1,0 +1,71 @@
+{
+    "type": "equipment",
+    "item_id": 15335,
+    "name": "Forest Bracers",
+    "info": "",
+    "icon": {
+        "icon_id": 1546,
+        "color_id": 111
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 8439,
+    "weight": 34,
+    "item_level": 60,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 2,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 75,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 2,
+        "defense": 371,
+        "magic_attack": 2,
+        "magic_defense": 309,
+        "crest_slot": 0,
+        "ele_slot": 8
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 23
+        },
+        {
+            "id": 2,
+            "name": "RESIST_TORPOR",
+            "value": 3
+        },
+        {
+            "id": 9,
+            "name": "RESIST_PETRIFICATION",
+            "value": 3
+        },
+        {
+            "id": 15,
+            "name": "RESIST_KNOCKOUT",
+            "value": 3
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 15963,
+            "amount": 1
+        },
+        {
+            "item_id": 15969,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 15334,
+    "next_item_id": 15336
+}

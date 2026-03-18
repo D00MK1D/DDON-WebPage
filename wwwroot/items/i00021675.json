@@ -1,0 +1,85 @@
+{
+    "type": "equipment",
+    "item_id": 21675,
+    "name": "Griffith's Equipment (White Falcon)",
+    "info": "",
+    "icon": {
+        "icon_id": 2508,
+        "color_id": 19
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 10000,
+    "weight": 200,
+    "item_level": 105,
+    "crest_slots": 4,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_COSTUME",
+    "level": 1,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 24,
+        "defense": 2797,
+        "magic_attack": 24,
+        "magic_defense": 2797,
+        "crest_slot": 4,
+        "ele_slot": 36
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 258
+        },
+        {
+            "id": 11,
+            "name": "RESIST_CATCHING_FIRE",
+            "value": 100
+        },
+        {
+            "id": 39,
+            "name": "FIRE_RESIST",
+            "value": 100
+        },
+        {
+            "id": 103,
+            "name": "DEMON_SLAYER",
+            "value": 50
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 1700
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 1100
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 21623,
+            "amount": 150
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 21812
+}

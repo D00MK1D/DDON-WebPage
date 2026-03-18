@@ -1,0 +1,49 @@
+{
+    "type": "equipment",
+    "item_id": 19546,
+    "name": "Olfring Cane (Forest)",
+    "info": "",
+    "icon": {
+        "icon_id": 2167,
+        "color_id": 82
+    },
+    "jobs": [
+        "Priest"
+    ],
+    "sell_price": 5000,
+    "weight": 70,
+    "item_level": 7,
+    "crest_slots": 4,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 5,
+    "weapon_type": "MAGICK_BOW",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 1,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 378,
+        "magic_attack": 461,
+        "crest_slot": 4,
+        "ele_slot": 4
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 101
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 13811,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 19547
+}

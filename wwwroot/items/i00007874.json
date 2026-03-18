@@ -1,0 +1,33 @@
+{
+    "type": "material",
+    "item_id": 7874,
+    "name": "Iron Ingot",
+    "info": "Metal Crafting Material:\nA chunk of iron refined from iron ore.",
+    "icon": {
+        "icon_id": 491,
+        "color_id": 2
+    },
+    "jobs": [],
+    "sell_price": 100,
+    "weight": 0,
+    "item_level": 4,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [
+        {
+            "item_id": 7855,
+            "amount": 2
+        },
+        {
+            "item_id": 7844,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

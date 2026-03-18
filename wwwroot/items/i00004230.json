@@ -1,0 +1,56 @@
+{
+    "type": "equipment",
+    "item_id": 4230,
+    "name": "Solemn Legs",
+    "info": "",
+    "icon": {
+        "icon_id": 328,
+        "color_id": 6
+    },
+    "jobs": [
+        "Fighter",
+        "Warrior"
+    ],
+    "sell_price": 800,
+    "weight": 54,
+    "item_level": 4,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 20,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 55,
+        "magic_attack": 0,
+        "magic_defense": 44,
+        "crest_slot": 0,
+        "ele_slot": 24
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 21
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 247
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7774,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 3207,
+    "next_item_id": 5253
+}

@@ -1,0 +1,51 @@
+{
+    "type": "equipment",
+    "item_id": 25286,
+    "name": "Hero's Assault Gauntlets",
+    "info": "",
+    "icon": {
+        "icon_id": 1302,
+        "color_id": 11
+    },
+    "jobs": [
+        "Fighter",
+        "Warrior"
+    ],
+    "sell_price": 14400,
+    "weight": 37,
+    "item_level": 150,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 5,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 115,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 12,
+        "defense": 771,
+        "magic_attack": 12,
+        "magic_defense": 643,
+        "crest_slot": 0,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 35
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 25529,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 25287
+}

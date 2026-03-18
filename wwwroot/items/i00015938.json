@@ -1,0 +1,24 @@
+{
+    "type": "material",
+    "item_id": 15938,
+    "name": "Morrow Medal",
+    "info": "The honorable emblem that is only awarded to\nthose who have achieved great feats in Morrow\nForest.\nIt can be used as a crafting material for\nspecific equipment.",
+    "icon": {
+        "icon_id": 524,
+        "color_id": 20
+    },
+    "jobs": [],
+    "sell_price": 1000,
+    "weight": 0,
+    "item_level": 55,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

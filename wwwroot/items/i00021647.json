@@ -1,0 +1,25 @@
+{
+    "type": "consumable",
+    "item_id": 21647,
+    "name": "Season 1\uff5e2 War Skill/Job Training Full Unlock\n(Element Archer)",
+    "info": "Unlock all skills and abilities for Element\nArcher from Season 1-2.\n<COL ffdc78>*Added to NPC Joseph's menu.</COL>",
+    "icon": {
+        "icon_id": 2422,
+        "color_id": 82
+    },
+    "jobs": [],
+    "sell_price": 0,
+    "weight": 0,
+    "item_level": 1,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "max_stack": 1,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

@@ -1,0 +1,60 @@
+{
+    "type": "equipment",
+    "item_id": 15385,
+    "name": "Ancient Beast Sabatons",
+    "info": "",
+    "icon": {
+        "icon_id": 368,
+        "color_id": 11
+    },
+    "jobs": [
+        "Fighter",
+        "Warrior"
+    ],
+    "sell_price": 10548,
+    "weight": 42,
+    "item_level": 55,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 75,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1,
+        "defense": 301,
+        "magic_attack": 1,
+        "magic_defense": 240,
+        "crest_slot": 4,
+        "ele_slot": 8
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 71
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 728
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 15929,
+            "amount": 4
+        },
+        {
+            "item_id": 15931,
+            "amount": 4
+        }
+    ],
+    "previous_item_id": 15384,
+    "next_item_id": 15386
+}

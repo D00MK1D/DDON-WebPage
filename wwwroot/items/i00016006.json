@@ -1,0 +1,41 @@
+{
+    "type": "material",
+    "item_id": 16006,
+    "name": "Elemental Lace",
+    "info": "Cloth Crafting Material:\nDelicate lace with intricate patterns woven using\nthe power of nature.",
+    "icon": {
+        "icon_id": 499,
+        "color_id": 5
+    },
+    "jobs": [],
+    "sell_price": 980,
+    "weight": 0,
+    "item_level": 65,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [
+        {
+            "item_id": 15946,
+            "amount": 5
+        },
+        {
+            "item_id": 16002,
+            "amount": 5
+        },
+        {
+            "item_id": 16003,
+            "amount": 5
+        },
+        {
+            "item_id": 15955,
+            "amount": 5
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

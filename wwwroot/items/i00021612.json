@@ -1,0 +1,24 @@
+{
+    "type": "material",
+    "item_id": 21612,
+    "name": "Unidentified Dragon Trinket II (Element Archer)",
+    "info": "Jewelry that can be used for \"Appraisal Exchange\"\nand has augment effects for Element Archers.",
+    "icon": {
+        "icon_id": 1495,
+        "color_id": 105
+    },
+    "jobs": [],
+    "sell_price": 100,
+    "weight": 0,
+    "item_level": 50,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

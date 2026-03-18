@@ -1,0 +1,78 @@
+{
+    "type": "equipment",
+    "item_id": 810,
+    "name": "Pleats of Infinity",
+    "info": "",
+    "icon": {
+        "icon_id": 339,
+        "color_id": 10
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 7209,
+    "weight": 54,
+    "item_level": 15,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 5,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 62,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 212,
+        "magic_attack": 0,
+        "magic_defense": 169,
+        "crest_slot": 4,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 53
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 724
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7942,
+            "amount": 1
+        },
+        {
+            "item_id": 11504,
+            "amount": 5
+        },
+        {
+            "item_id": 11506,
+            "amount": 5
+        },
+        {
+            "item_id": 7958,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 11508,
+            "amount": 1
+        },
+        {
+            "item_id": 11506,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 2422
+}

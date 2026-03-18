@@ -1,0 +1,37 @@
+{
+    "type": "material",
+    "item_id": 7862,
+    "name": "Mithril Ore",
+    "info": "Ore Crafting Material: A precious ore that emits\na shining silver color.",
+    "icon": {
+        "icon_id": 489,
+        "color_id": 5
+    },
+    "jobs": [],
+    "sell_price": 487,
+    "weight": 0,
+    "item_level": 9,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Betland Plains: Foul Water Channel",
+        "Betland Plains: War Demons' Hideout",
+        "Bloodbane Isle: Picturesque Grotto",
+        "Eastern Zandora: Water Channel Ruins",
+        "Hidell Plains: The Ark's Lower Level",
+        "Hidell Plains: The Ark's Lower Level: Storage",
+        "Northern Betland Plains: Betland Underground Passage",
+        "Northern Betland Plains: Gardnox Fortress",
+        "Northern Betland Plains: Knights' Old Storehouse",
+        "Northern Betland Plains: Underground Crypt",
+        "Zandora Wastelands: Mergoda Flood Channels"
+    ],
+    "hunt": [],
+    "subtype": "ore"
+}

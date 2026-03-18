@@ -1,0 +1,60 @@
+{
+    "type": "equipment",
+    "item_id": 12559,
+    "name": "Alloy Helm",
+    "info": "",
+    "icon": {
+        "icon_id": 287,
+        "color_id": 11
+    },
+    "jobs": [
+        "Fighter",
+        "Warrior"
+    ],
+    "sell_price": 7351,
+    "weight": 36,
+    "item_level": 40,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 1,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_HELM",
+    "level": 70,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 270,
+        "magic_attack": 0,
+        "magic_defense": 432,
+        "crest_slot": 0,
+        "ele_slot": 24
+    },
+    "params": [
+        {
+            "id": 12,
+            "name": "RESIST_FROZEN_SOLID",
+            "value": 5
+        },
+        {
+            "id": 20,
+            "name": "RESIST_HOLY_RES_DOWN",
+            "value": 5
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 11806,
+            "amount": 2
+        },
+        {
+            "item_id": 11797,
+            "amount": 3
+        }
+    ],
+    "previous_item_id": 12558,
+    "next_item_id": 12560
+}

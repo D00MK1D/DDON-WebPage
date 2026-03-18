@@ -1,0 +1,25 @@
+{
+    "type": "material",
+    "item_id": 11783,
+    "name": "Blessed Long Dragon Beard",
+    "info": "Crafting materials with limited availability\nLong Dragon Beard filled with powerful Dragon\nForce.",
+    "icon": {
+        "icon_id": 1423,
+        "color_id": 28
+    },
+    "jobs": [],
+    "sell_price": 988,
+    "weight": 0,
+    "item_level": 30,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": [],
+    "subtype": "other"
+}

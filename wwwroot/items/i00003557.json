@@ -1,0 +1,56 @@
+{
+    "type": "equipment",
+    "item_id": 3557,
+    "name": "Guardian Arms",
+    "info": "",
+    "icon": {
+        "icon_id": 45,
+        "color_id": 7
+    },
+    "jobs": [
+        "ShieldSage",
+        "Alchemist",
+        "HighScepter"
+    ],
+    "sell_price": 1440,
+    "weight": 45,
+    "item_level": 6,
+    "crest_slots": 0,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 1,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 30,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 94,
+        "magic_attack": 0,
+        "magic_defense": 78,
+        "crest_slot": 0,
+        "ele_slot": 16
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 7
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7732,
+            "amount": 1
+        },
+        {
+            "item_id": 7977,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 2534,
+    "next_item_id": 4580
+}

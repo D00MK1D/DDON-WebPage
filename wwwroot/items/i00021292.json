@@ -1,0 +1,27 @@
+{
+    "type": "material",
+    "item_id": 21292,
+    "name": "Crystal Glass",
+    "info": "Sand Crafting Material: A highly transparent\nglass.",
+    "icon": {
+        "icon_id": 2597,
+        "color_id": 4
+    },
+    "jobs": [],
+    "sell_price": 100,
+    "weight": 0,
+    "item_level": 110,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Urteca Mountains: Area Visual Survey"
+    ],
+    "hunt": [],
+    "subtype": "sand"
+}

@@ -1,0 +1,69 @@
+{
+    "type": "equipment",
+    "item_id": 3594,
+    "name": "Silver Silk Pareo",
+    "info": "",
+    "icon": {
+        "icon_id": 125,
+        "color_id": 8
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 1150,
+    "weight": 50,
+    "item_level": 8,
+    "crest_slots": 1,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 4,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 36,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 135,
+        "magic_attack": 0,
+        "magic_defense": 120,
+        "crest_slot": 0,
+        "ele_slot": 17
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 15
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 703
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 9062,
+            "amount": 1
+        },
+        {
+            "item_id": 7995,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 2571,
+    "next_item_id": 4617
+}

@@ -1,0 +1,79 @@
+{
+    "type": "equipment",
+    "item_id": 15648,
+    "name": "Ancient Folk Soldier's Armor",
+    "info": "",
+    "icon": {
+        "icon_id": 1582,
+        "color_id": 84
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 20000,
+    "weight": 240,
+    "item_level": 60,
+    "crest_slots": 4,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 20,
+    "equip_slot": "EQUIP_CATEGORY_COSTUME",
+    "level": 1,
+    "genders": [
+        "Male"
+    ],
+    "stats": {
+        "attack": 5,
+        "defense": 786,
+        "magic_attack": 5,
+        "magic_defense": 786,
+        "crest_slot": 0,
+        "ele_slot": 12
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 146
+        },
+        {
+            "id": 15,
+            "name": "RESIST_KNOCKOUT",
+            "value": 20
+        },
+        {
+            "id": 26,
+            "name": "RESIST_CORRUPTION",
+            "value": 12
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 990
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 540
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 13811,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 15647,
+    "next_item_id": 15649
+}

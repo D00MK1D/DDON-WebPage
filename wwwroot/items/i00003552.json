@@ -1,0 +1,52 @@
+{
+    "type": "equipment",
+    "item_id": 3552,
+    "name": "Buster Knuckles",
+    "info": "",
+    "icon": {
+        "icon_id": 81,
+        "color_id": 7
+    },
+    "jobs": [
+        "ShieldSage",
+        "Alchemist",
+        "HighScepter"
+    ],
+    "sell_price": 775,
+    "weight": 45,
+    "item_level": 5,
+    "crest_slots": 0,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 1,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 22,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 69,
+        "magic_attack": 0,
+        "magic_defense": 58,
+        "crest_slot": 4,
+        "ele_slot": 16
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 5
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7975,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 2529,
+    "next_item_id": 4575
+}

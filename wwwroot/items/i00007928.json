@@ -1,0 +1,29 @@
+{
+    "type": "material",
+    "item_id": 7928,
+    "name": "Dragon Hide",
+    "info": "Pelt Crafting Material: Dragon Tribe's strong and\nsupple Lizardscale Pelt",
+    "icon": {
+        "icon_id": 497,
+        "color_id": 4
+    },
+    "jobs": [],
+    "sell_price": 250,
+    "weight": 0,
+    "item_level": 8,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": [
+        "Level 1+ Angules",
+        "Level 1+ Behemoth",
+        "Level 1+ Lindwurm"
+    ],
+    "subtype": "plets and skins"
+}

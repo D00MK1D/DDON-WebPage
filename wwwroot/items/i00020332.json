@@ -1,0 +1,52 @@
+{
+    "type": "equipment",
+    "item_id": 20332,
+    "name": "Chaleur",
+    "info": "",
+    "icon": {
+        "icon_id": 2334,
+        "color_id": 111
+    },
+    "jobs": [
+        "Priest"
+    ],
+    "sell_price": 47640,
+    "weight": 63,
+    "item_level": 120,
+    "crest_slots": 1,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 23,
+    "weapon_type": "MAGICK_BOW",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 100,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 3106,
+        "magic_attack": 3258,
+        "crest_slot": 0,
+        "ele_slot": 33
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 489
+        },
+        {
+            "id": 85,
+            "name": "BLOW_POWER_BBLUNT",
+            "value": 10
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 20331,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

@@ -1,0 +1,61 @@
+{
+    "type": "equipment",
+    "item_id": 2520,
+    "name": "Imperious Legs",
+    "info": "",
+    "icon": {
+        "icon_id": 419,
+        "color_id": 10
+    },
+    "jobs": [
+        "ShieldSage",
+        "Alchemist",
+        "HighScepter"
+    ],
+    "sell_price": 4610,
+    "weight": 72,
+    "item_level": 11,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 4,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 55,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 175,
+        "magic_attack": 0,
+        "magic_defense": 140,
+        "crest_slot": 4,
+        "ele_slot": 8
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 48
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 712
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7758,
+            "amount": 2
+        },
+        {
+            "item_id": 7761,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 908,
+    "next_item_id": 3543
+}

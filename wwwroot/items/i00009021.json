@@ -1,0 +1,62 @@
+{
+    "type": "jewlery",
+    "item_id": 9021,
+    "name": "Spirit Focus Earrings",
+    "info": "",
+    "icon": {
+        "icon_id": 549,
+        "color_id": 9
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 1500,
+    "weight": 1,
+    "item_level": 9,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "level": 41,
+    "stats": {},
+    "params": [
+        {
+            "id": 15,
+            "name": "RESIST_KNOCKOUT",
+            "value": 3
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7756,
+            "amount": 2
+        },
+        {
+            "item_id": 7877,
+            "amount": 3
+        },
+        {
+            "item_id": 9369,
+            "amount": 5
+        },
+        {
+            "item_id": 8993,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

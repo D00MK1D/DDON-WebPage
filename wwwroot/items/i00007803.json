@@ -1,0 +1,31 @@
+{
+    "type": "material",
+    "item_id": 7803,
+    "name": "Fine Bleached Bone",
+    "info": "Bone Crafting Material: Glossy bones from\nhigh-ranking Skeleton variants.",
+    "icon": {
+        "icon_id": 473,
+        "color_id": 2
+    },
+    "jobs": [],
+    "sell_price": 25,
+    "weight": 0,
+    "item_level": 3,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Mysree Forest: Demon's Den"
+    ],
+    "hunt": [
+        "Level 10+ Skeleton",
+        "Level 1+ Alchemised Skeleton",
+        "Level 1+ Skeleton Knight"
+    ],
+    "subtype": "bones"
+}

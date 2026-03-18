@@ -1,0 +1,42 @@
+{
+    "type": "consumable",
+    "item_id": 14192,
+    "name": "Key of Jewelry",
+    "info": "Key with a Relief depicting Victory.\nConsumed upon use.",
+    "icon": {
+        "icon_id": 1417,
+        "color_id": 100
+    },
+    "jobs": [],
+    "sell_price": 950,
+    "weight": 0,
+    "item_level": 30,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "max_stack": 99,
+    "craft_recipe": [
+        {
+            "item_id": 8007,
+            "amount": 3
+        },
+        {
+            "item_id": 8008,
+            "amount": 3
+        },
+        {
+            "item_id": 15988,
+            "amount": 3
+        },
+        {
+            "item_id": 15987,
+            "amount": 3
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

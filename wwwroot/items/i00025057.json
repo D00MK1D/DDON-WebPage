@@ -1,0 +1,54 @@
+{
+    "type": "equipment",
+    "item_id": 25057,
+    "name": "Hero's Assault Shield",
+    "info": "",
+    "icon": {
+        "icon_id": 2647,
+        "color_id": 11
+    },
+    "jobs": [
+        "Fighter"
+    ],
+    "sell_price": 49500,
+    "weight": 40,
+    "item_level": 150,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 5,
+    "weapon_type": "SHIELD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_SUB",
+    "level": 115,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "magic_attack": 0,
+        "crest_slot": 0,
+        "ele_slot": 24
+    },
+    "params": [
+        {
+            "id": 87,
+            "name": "GUARD_POWER",
+            "value": 545
+        },
+        {
+            "id": 30,
+            "name": "BLOCKING_STAMINA_REDUCTION",
+            "value": 23
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 25526,
+            "amount": 4
+        }
+    ],
+    "previous_item_id": 25056,
+    "next_item_id": 25058
+}

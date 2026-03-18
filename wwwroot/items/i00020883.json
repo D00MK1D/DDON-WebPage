@@ -1,0 +1,50 @@
+{
+    "type": "equipment",
+    "item_id": 20883,
+    "name": "Mis\u00e9ricorde Hat",
+    "info": "",
+    "icon": {
+        "icon_id": 274,
+        "color_id": 10
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 13530,
+    "weight": 39,
+    "item_level": 110,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 3,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_HELM",
+    "level": 95,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 6,
+        "defense": 458,
+        "magic_attack": 6,
+        "magic_defense": 734,
+        "crest_slot": 0,
+        "ele_slot": 8
+    },
+    "params": [],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 21256,
+            "amount": 4
+        },
+        {
+            "item_id": 21261,
+            "amount": 4
+        }
+    ],
+    "previous_item_id": 20882,
+    "next_item_id": 20884
+}

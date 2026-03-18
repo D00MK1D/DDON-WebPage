@@ -1,0 +1,59 @@
+{
+    "type": "equipment",
+    "item_id": 23959,
+    "name": "Spirit's Magick Bow",
+    "info": "",
+    "icon": {
+        "icon_id": 1677,
+        "color_id": 86
+    },
+    "jobs": [
+        "ElementArcher"
+    ],
+    "sell_price": 48000,
+    "weight": 69,
+    "item_level": 130,
+    "crest_slots": 1,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 3,
+    "weapon_type": "GREATSWORD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 100,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 3184,
+        "magic_attack": 3378,
+        "crest_slot": 0,
+        "ele_slot": 9
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 477
+        },
+        {
+            "id": 85,
+            "name": "BLOW_POWER_BBLUNT",
+            "value": 5
+        },
+        {
+            "id": 90,
+            "name": "BEAST_SLAYER",
+            "value": 66
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 24738,
+            "amount": 5
+        }
+    ],
+    "previous_item_id": 23958,
+    "next_item_id": 23960
+}

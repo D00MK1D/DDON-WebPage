@@ -1,0 +1,47 @@
+{
+    "type": "equipment",
+    "item_id": 14433,
+    "name": "Rod of the Departed",
+    "info": "",
+    "icon": {
+        "icon_id": 913,
+        "color_id": 11
+    },
+    "jobs": [
+        "ShieldSage"
+    ],
+    "sell_price": 11252,
+    "weight": 40,
+    "item_level": 55,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 1,
+    "weapon_type": "GREATSHIELD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_SUB",
+    "level": 75,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "magic_attack": 1925,
+        "crest_slot": 4,
+        "ele_slot": 8
+    },
+    "params": [],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 15927,
+            "amount": 1
+        },
+        {
+            "item_id": 15928,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 14432,
+    "next_item_id": 14434
+}

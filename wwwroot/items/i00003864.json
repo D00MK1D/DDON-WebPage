@@ -1,0 +1,53 @@
+{
+    "type": "equipment",
+    "item_id": 3864,
+    "name": "Nature's Whole",
+    "info": "",
+    "icon": {
+        "icon_id": 1010,
+        "color_id": 7
+    },
+    "jobs": [
+        "Priest"
+    ],
+    "sell_price": 2425,
+    "weight": 35,
+    "item_level": 5,
+    "crest_slots": 1,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 1,
+    "weapon_type": "MAGICK_BOW",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 23,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 301,
+        "magic_attack": 381,
+        "crest_slot": 4,
+        "ele_slot": 25
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 88
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 8005,
+            "amount": 1
+        },
+        {
+            "item_id": 7826,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 2841,
+    "next_item_id": 4887
+}

@@ -1,0 +1,57 @@
+{
+    "type": "equipment",
+    "item_id": 2504,
+    "name": "Valor Legs",
+    "info": "",
+    "icon": {
+        "icon_id": 418,
+        "color_id": 7
+    },
+    "jobs": [
+        "ShieldSage",
+        "Alchemist",
+        "HighScepter"
+    ],
+    "sell_price": 970,
+    "weight": 72,
+    "item_level": 5,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 1,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 22,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 55,
+        "magic_attack": 0,
+        "magic_defense": 44,
+        "crest_slot": 4,
+        "ele_slot": 8
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 22
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 274
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7847,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 892,
+    "next_item_id": 3527
+}

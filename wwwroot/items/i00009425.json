@@ -1,0 +1,42 @@
+{
+    "type": "consumable",
+    "item_id": 9425,
+    "name": "Dragon Spirits",
+    "info": "A nutritious beverage that can also serve as a\nsubstitute for medicine, with high nutritional\nvalue. It has various beneficial effects.",
+    "icon": {
+        "icon_id": 459,
+        "color_id": 5
+    },
+    "jobs": [],
+    "sell_price": 450,
+    "weight": 0,
+    "item_level": 10,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "max_stack": 10,
+    "craft_recipe": [
+        {
+            "item_id": 9421,
+            "amount": 1
+        },
+        {
+            "item_id": 7827,
+            "amount": 3
+        },
+        {
+            "item_id": 7832,
+            "amount": 1
+        },
+        {
+            "item_id": 7820,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

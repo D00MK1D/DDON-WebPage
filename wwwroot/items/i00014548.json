@@ -1,0 +1,63 @@
+{
+    "type": "equipment",
+    "item_id": 14548,
+    "name": "Twin Griffin",
+    "info": "",
+    "icon": {
+        "icon_id": 945,
+        "color_id": 10
+    },
+    "jobs": [
+        "Hunter"
+    ],
+    "sell_price": 32005,
+    "weight": 70,
+    "item_level": 65,
+    "crest_slots": 1,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 0,
+    "weapon_type": "ARCHISTAFF",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 80,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 2140,
+        "magic_attack": 1854,
+        "crest_slot": 4,
+        "ele_slot": 9
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 487
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        },
+        {
+            "id": 32,
+            "name": "MAX_LOADED_ARROWS",
+            "value": 20
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 15987,
+            "amount": 4
+        },
+        {
+            "item_id": 15988,
+            "amount": 4
+        }
+    ],
+    "previous_item_id": 14547,
+    "next_item_id": 14549
+}

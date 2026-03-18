@@ -1,0 +1,82 @@
+{
+    "type": "equipment",
+    "item_id": 15324,
+    "name": "Mountaineer Bracers",
+    "info": "",
+    "icon": {
+        "icon_id": 33,
+        "color_id": 10
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 8439,
+    "weight": 34,
+    "item_level": 50,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 3,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 75,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1,
+        "defense": 349,
+        "magic_attack": 1,
+        "magic_defense": 291,
+        "crest_slot": 0,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 23
+        },
+        {
+            "id": 11,
+            "name": "RESIST_CATCHING_FIRE",
+            "value": 2
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 15958,
+            "amount": 1
+        },
+        {
+            "item_id": 15919,
+            "amount": 5
+        },
+        {
+            "item_id": 15923,
+            "amount": 5
+        },
+        {
+            "item_id": 15973,
+            "amount": 3
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 15919,
+            "amount": 3
+        },
+        {
+            "item_id": 15921,
+            "amount": 3
+        },
+        {
+            "item_id": 15923,
+            "amount": 3
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 15325
+}

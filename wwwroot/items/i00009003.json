@@ -1,0 +1,62 @@
+{
+    "type": "jewlery",
+    "item_id": 9003,
+    "name": "Holy Guard Earrings",
+    "info": "",
+    "icon": {
+        "icon_id": 549,
+        "color_id": 8
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 1200,
+    "weight": 1,
+    "item_level": 8,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "level": 36,
+    "stats": {},
+    "params": [
+        {
+            "id": 14,
+            "name": "RESIST_HOLY_DRAIN",
+            "value": 3
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7904,
+            "amount": 4
+        },
+        {
+            "item_id": 8014,
+            "amount": 3
+        },
+        {
+            "item_id": 9373,
+            "amount": 3
+        },
+        {
+            "item_id": 8946,
+            "amount": 2
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

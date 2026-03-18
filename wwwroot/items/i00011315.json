@@ -1,0 +1,58 @@
+{
+    "type": "equipment",
+    "item_id": 11315,
+    "name": "Blade of Insight (Green)",
+    "info": "",
+    "icon": {
+        "icon_id": 1287,
+        "color_id": 82
+    },
+    "jobs": [
+        "Seeker"
+    ],
+    "sell_price": 5000,
+    "weight": 60,
+    "item_level": 6,
+    "crest_slots": 2,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 1,
+    "weapon_type": "ROD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 5,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 347,
+        "magic_attack": 224,
+        "crest_slot": 0,
+        "ele_slot": 26
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 64
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7879,
+            "amount": 1
+        },
+        {
+            "item_id": 7738,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 11314,
+    "next_item_id": 11316
+}

@@ -1,0 +1,33 @@
+{
+    "type": "material",
+    "subtype": "Unappraised",
+    "item_id": 13487,
+    "name": "Unappraised Wind Trinket (Soldier)",
+    "info": "Jewelry available in the \"Appraisal Exchange\".\nIts effect is unknown.",
+    "icon": {
+        "icon_id": 1495,
+        "color_id": 106
+    },
+    "jobs": [],
+    "sell_price": 100,
+    "weight": 0,
+    "item_level": 15,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Farana Plains: Small Tower of Wisdom",
+        "Farana Plains: Thalati Waterway",
+        "Farana Plains: Valtable Hall",
+        "Farana Plains: Vegasa Corridor",
+        "Hidell Plains: The Foreigner's Tower",
+        "Kingal Canyon: Hadin Underground Old Road",
+        "Kingal Canyon: Shadolean Great Temple"
+    ],
+    "hunt": []
+}

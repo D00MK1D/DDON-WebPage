@@ -1,0 +1,30 @@
+{
+    "type": "material",
+    "item_id": 7918,
+    "name": "Strong Animal Leather",
+    "info": "Pelt Crafting Material: Durable animal pelts such\nas Direwolf.",
+    "icon": {
+        "icon_id": 496,
+        "color_id": 3
+    },
+    "jobs": [],
+    "sell_price": 130,
+    "weight": 0,
+    "item_level": 5,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Betland Plains: Dry Underground Stores",
+        "Volden Mines: Kinoza Flood Control Channel"
+    ],
+    "hunt": [
+        "Level 15+ Direwolf"
+    ],
+    "subtype": "plets and skins"
+}

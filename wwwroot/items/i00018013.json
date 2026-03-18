@@ -1,0 +1,72 @@
+{
+    "type": "equipment",
+    "item_id": 18013,
+    "name": "Fort of Ferey",
+    "info": "",
+    "icon": {
+        "icon_id": 1372,
+        "color_id": 11
+    },
+    "jobs": [
+        "ShieldSage"
+    ],
+    "sell_price": 37794,
+    "weight": 88,
+    "item_level": 95,
+    "crest_slots": 1,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 1,
+    "weapon_type": "STAFF",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 88,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 2553,
+        "magic_attack": 0,
+        "crest_slot": 4,
+        "ele_slot": 17
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 789
+        },
+        {
+            "id": 87,
+            "name": "GUARD_POWER",
+            "value": 454
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        },
+        {
+            "id": 31,
+            "name": "MAX_FORCE_STOCK",
+            "value": 5
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 19649,
+            "amount": 1
+        },
+        {
+            "item_id": 19648,
+            "amount": 3
+        },
+        {
+            "item_id": 17894,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 18012,
+    "next_item_id": 18014
+}

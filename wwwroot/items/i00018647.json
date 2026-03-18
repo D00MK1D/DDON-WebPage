@@ -1,0 +1,24 @@
+{
+    "type": "material",
+    "item_id": 18647,
+    "name": "Mandragora Mushroom",
+    "info": "Mushroom Crafting Material.\nMushrooms given by the Mandragora.",
+    "icon": {
+        "icon_id": 511,
+        "color_id": 5
+    },
+    "jobs": [],
+    "sell_price": 500,
+    "weight": 0,
+    "item_level": 85,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

@@ -1,0 +1,46 @@
+{
+    "type": "equipment",
+    "item_id": 10917,
+    "name": "Silver Sol Helm",
+    "info": "",
+    "icon": {
+        "icon_id": 1215,
+        "color_id": 19
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Warrior",
+        "SpiritLancer"
+    ],
+    "sell_price": 5000,
+    "weight": 18,
+    "item_level": 70,
+    "crest_slots": 3,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 23,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_HELM",
+    "level": 55,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 3,
+        "defense": 341,
+        "magic_attack": 3,
+        "magic_defense": 546,
+        "crest_slot": 0,
+        "ele_slot": 35
+    },
+    "params": [],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 10916,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

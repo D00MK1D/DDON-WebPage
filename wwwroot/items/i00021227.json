@@ -1,0 +1,28 @@
+{
+    "type": "material",
+    "item_id": 21227,
+    "name": "Low-Grade Reinforced Armor",
+    "info": "Miscellaneous Crafting Material:\nA new and improved version of war-ready armor.",
+    "icon": {
+        "icon_id": 1985,
+        "color_id": 105
+    },
+    "jobs": [],
+    "sell_price": 2000,
+    "weight": 0,
+    "item_level": 105,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Megadosys Plateau: Beast Training Ground",
+        "Megadosys Plateau: Nilviris Bridge Checkpoint"
+    ],
+    "hunt": [],
+    "subtype": "other"
+}

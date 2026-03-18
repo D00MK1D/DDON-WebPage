@@ -1,0 +1,88 @@
+{
+    "type": "equipment",
+    "item_id": 203,
+    "name": "Agleam Glass",
+    "info": "",
+    "icon": {
+        "icon_id": 960,
+        "color_id": 10
+    },
+    "jobs": [
+        "Hunter"
+    ],
+    "sell_price": 15130,
+    "weight": 70,
+    "item_level": 11,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 4,
+    "weapon_type": "ARCHISTAFF",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 55,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1182,
+        "magic_attack": 920,
+        "crest_slot": 4,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 214
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        },
+        {
+            "id": 32,
+            "name": "MAX_LOADED_ARROWS",
+            "value": 25
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7886,
+            "amount": 10
+        },
+        {
+            "item_id": 7742,
+            "amount": 5
+        },
+        {
+            "item_id": 8031,
+            "amount": 8
+        },
+        {
+            "item_id": 9159,
+            "amount": 10
+        },
+        {
+            "item_id": 7914,
+            "amount": 5
+        },
+        {
+            "item_id": 10990,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7776,
+            "amount": 1
+        },
+        {
+            "item_id": 7765,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 1815
+}

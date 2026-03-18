@@ -1,0 +1,50 @@
+{
+    "type": "jewlery",
+    "item_id": 10524,
+    "name": "Ice Crystal Dragon Necklace",
+    "info": "",
+    "icon": {
+        "icon_id": 621,
+        "color_id": 83
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 1500,
+    "weight": 1,
+    "item_level": 1,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "level": 1,
+    "stats": {},
+    "params": [
+        {
+            "id": 12,
+            "name": "RESIST_FROZEN_SOLID",
+            "value": 2
+        },
+        {
+            "id": 40,
+            "name": "ICE_RESIST",
+            "value": 5
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

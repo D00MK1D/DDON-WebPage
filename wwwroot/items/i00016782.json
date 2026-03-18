@@ -1,0 +1,57 @@
+{
+    "type": "equipment",
+    "item_id": 16782,
+    "name": "Melty Staff",
+    "info": "",
+    "icon": {
+        "icon_id": 1808,
+        "color_id": 82
+    },
+    "jobs": [
+        "Priest"
+    ],
+    "sell_price": 214,
+    "weight": 70,
+    "item_level": 45,
+    "crest_slots": 4,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 0,
+    "weapon_type": "MAGICK_BOW",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 1,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1417,
+        "magic_attack": 1542,
+        "crest_slot": 4,
+        "ele_slot": 36
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 332
+        },
+        {
+            "id": 46,
+            "name": "INFLICT_TARRING",
+            "value": 75
+        },
+        {
+            "id": 51,
+            "name": "INFLICT_FRAIL",
+            "value": 75
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

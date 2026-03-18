@@ -1,0 +1,53 @@
+{
+    "type": "equipment",
+    "item_id": 1970,
+    "name": "Galant Bogen",
+    "info": "",
+    "icon": {
+        "icon_id": 998,
+        "color_id": 10
+    },
+    "jobs": [
+        "ElementArcher"
+    ],
+    "sell_price": 14050,
+    "weight": 30,
+    "item_level": 11,
+    "crest_slots": 1,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 4,
+    "weapon_type": "GREATSWORD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 55,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1050,
+        "magic_attack": 1185,
+        "crest_slot": 4,
+        "ele_slot": 9
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 163
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7769,
+            "amount": 3
+        },
+        {
+            "item_id": 8010,
+            "amount": 3
+        }
+    ],
+    "previous_item_id": 358,
+    "next_item_id": 2993
+}

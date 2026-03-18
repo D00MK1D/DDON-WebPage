@@ -1,0 +1,25 @@
+{
+    "type": "material",
+    "item_id": 10984,
+    "name": "Merit Medal (Lion)",
+    "info": "Medal awarded to those who achieved outstanding\nresults in the Battle for Gritten Fort.\nIt can be sold at a high price.",
+    "icon": {
+        "icon_id": 1273,
+        "color_id": 28
+    },
+    "jobs": [],
+    "sell_price": 5000,
+    "weight": 0,
+    "item_level": 8,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": [],
+    "subtype": "other"
+}

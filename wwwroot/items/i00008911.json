@@ -1,0 +1,69 @@
+{
+    "type": "equipment",
+    "item_id": 8911,
+    "name": "Alchymia Magna",
+    "info": "",
+    "icon": {
+        "icon_id": 229,
+        "color_id": 10
+    },
+    "jobs": [
+        "Alchemist"
+    ],
+    "sell_price": 2250,
+    "weight": 10,
+    "item_level": 12,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 22,
+    "equip_slot": "EQUIP_CATEGORY_ACCESSORY",
+    "level": 60,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 88,
+        "magic_attack": 0,
+        "magic_defense": 88,
+        "crest_slot": 0,
+        "ele_slot": 24
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 13
+        },
+        {
+            "id": 10,
+            "name": "RESIST_GOLDEN",
+            "value": 5
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 30
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 24
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7852,
+            "amount": 2
+        },
+        {
+            "item_id": 9059,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 8910,
+    "next_item_id": 8912
+}

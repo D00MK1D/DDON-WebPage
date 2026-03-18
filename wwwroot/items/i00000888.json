@@ -1,0 +1,82 @@
+{
+    "type": "equipment",
+    "item_id": 888,
+    "name": "Coat of the Covenant",
+    "info": "",
+    "icon": {
+        "icon_id": 200,
+        "color_id": 10
+    },
+    "jobs": [
+        "ShieldSage",
+        "Alchemist",
+        "HighScepter"
+    ],
+    "sell_price": 8780,
+    "weight": 90,
+    "item_level": 12,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 5,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 58,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 346,
+        "magic_attack": 0,
+        "magic_defense": 308,
+        "crest_slot": 0,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 25
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 1125
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7871,
+            "amount": 3
+        },
+        {
+            "item_id": 7751,
+            "amount": 2
+        },
+        {
+            "item_id": 9437,
+            "amount": 2
+        },
+        {
+            "item_id": 9439,
+            "amount": 2
+        },
+        {
+            "item_id": 11001,
+            "amount": 7
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 8019,
+            "amount": 1
+        },
+        {
+            "item_id": 7807,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 2500
+}

@@ -1,0 +1,54 @@
+{
+    "type": "equipment",
+    "item_id": 25155,
+    "name": "Solitary Magic Spell",
+    "info": "",
+    "icon": {
+        "icon_id": 2084,
+        "color_id": 11
+    },
+    "jobs": [
+        "ElementArcher"
+    ],
+    "sell_price": 49000,
+    "weight": 66,
+    "item_level": 145,
+    "crest_slots": 1,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 0,
+    "weapon_type": "GREATSWORD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 110,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 3690,
+        "magic_attack": 3894,
+        "crest_slot": 4,
+        "ele_slot": 9
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 552
+        },
+        {
+            "id": 85,
+            "name": "BLOW_POWER_BBLUNT",
+            "value": 5
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 25525,
+            "amount": 5
+        }
+    ],
+    "previous_item_id": 25154,
+    "next_item_id": 25156
+}

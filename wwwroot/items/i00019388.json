@@ -1,0 +1,24 @@
+{
+    "type": "material",
+    "item_id": 19388,
+    "name": "Extreme Weightless Fragment",
+    "info": "It seems to be a fragment that feels as if it has\nno weight.\nIt appears to be eligible for an Appraisal\nExchange.",
+    "icon": {
+        "icon_id": 517,
+        "color_id": 29
+    },
+    "jobs": [],
+    "sell_price": 100,
+    "weight": 0,
+    "item_level": 1,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

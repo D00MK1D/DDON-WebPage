@@ -1,0 +1,33 @@
+{
+    "type": "material",
+    "item_id": 7969,
+    "name": "Sequoia Wood",
+    "info": "Wood Crafting Material:\nLumber from a very large, grown tree.",
+    "icon": {
+        "icon_id": 506,
+        "color_id": 4
+    },
+    "jobs": [],
+    "sell_price": 375,
+    "weight": 0,
+    "item_level": 8,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Deenan Woods",
+        "Deenan Woods: Le Karvas Arma",
+        "Deenan Woods: Le Karvas Lotana",
+        "Deenan Woods: Le Karvas Patiro",
+        "Deenan Woods: Sunset Terrace",
+        "Dowe Valley: Dreed Castle",
+        "Northern Betland Plains"
+    ],
+    "hunt": [],
+    "subtype": "lumber"
+}

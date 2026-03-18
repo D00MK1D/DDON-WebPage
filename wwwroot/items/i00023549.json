@@ -1,0 +1,24 @@
+{
+    "type": "material",
+    "item_id": 23549,
+    "name": "Pure Black Jade",
+    "info": "A jewel with the color of the dark night sky,\ndevoid of light, and imbued with wicked magic.",
+    "icon": {
+        "icon_id": 2621,
+        "color_id": 19
+    },
+    "jobs": [],
+    "sell_price": 0,
+    "weight": 0,
+    "item_level": 115,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

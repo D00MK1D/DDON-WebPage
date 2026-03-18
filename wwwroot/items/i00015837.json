@@ -1,0 +1,47 @@
+{
+    "type": "equipment",
+    "item_id": 15837,
+    "name": "Rusted Magick Bow",
+    "info": "",
+    "icon": {
+        "icon_id": 1670,
+        "color_id": 1
+    },
+    "jobs": [
+        "ElementArcher"
+    ],
+    "sell_price": 100,
+    "weight": 90,
+    "item_level": 1,
+    "crest_slots": 1,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 23,
+    "weapon_type": "GREATSWORD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 1,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1268,
+        "magic_attack": 1422,
+        "crest_slot": 4,
+        "ele_slot": 33
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 225
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 15836,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

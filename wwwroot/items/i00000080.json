@@ -1,0 +1,58 @@
+{
+    "type": "equipment",
+    "item_id": 80,
+    "name": "Wood Staff",
+    "info": "",
+    "icon": {
+        "icon_id": 1009,
+        "color_id": 5
+    },
+    "jobs": [
+        "Priest"
+    ],
+    "sell_price": 0,
+    "weight": 70,
+    "item_level": 1,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 0,
+    "weapon_type": "MAGICK_BOW",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 1,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 19,
+        "magic_attack": 110,
+        "crest_slot": 4,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 39
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7961,
+            "amount": 1
+        },
+        {
+            "item_id": 7893,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7974,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 1692
+}

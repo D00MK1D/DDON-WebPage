@@ -1,0 +1,74 @@
+{
+    "type": "equipment",
+    "item_id": 510,
+    "name": "Seeker Tights",
+    "info": "",
+    "icon": {
+        "icon_id": 802,
+        "color_id": 5
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 55,
+    "weight": 5,
+    "item_level": 1,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_WEAR_LEG",
+    "level": 5,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 5,
+        "magic_attack": 0,
+        "magic_defense": 5,
+        "crest_slot": 4,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 4
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 20
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7917,
+            "amount": 1
+        },
+        {
+            "item_id": 7812,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7812,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 2122
+}

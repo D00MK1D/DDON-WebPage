@@ -1,0 +1,49 @@
+{
+    "type": "equipment",
+    "item_id": 1698,
+    "name": "Copper Cane",
+    "info": "",
+    "icon": {
+        "icon_id": 1011,
+        "color_id": 6
+    },
+    "jobs": [
+        "Priest"
+    ],
+    "sell_price": 1810,
+    "weight": 120,
+    "item_level": 4,
+    "crest_slots": 1,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 1,
+    "weapon_type": "MAGICK_BOW",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 19,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 257,
+        "magic_attack": 306,
+        "crest_slot": 0,
+        "ele_slot": 9
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 73
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7907,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 86,
+    "next_item_id": 2721
+}

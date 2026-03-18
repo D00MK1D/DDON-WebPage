@@ -1,0 +1,61 @@
+{
+    "type": "equipment",
+    "item_id": 20511,
+    "name": "Capable Padding",
+    "info": "",
+    "icon": {
+        "icon_id": 116,
+        "color_id": 10
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 20900,
+    "weight": 72,
+    "item_level": 100,
+    "crest_slots": 1,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 5,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 90,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 5,
+        "defense": 762,
+        "magic_attack": 5,
+        "magic_defense": 677,
+        "crest_slot": 0,
+        "ele_slot": 17
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 39
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 1198
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 21216,
+            "amount": 4
+        },
+        {
+            "item_id": 21223,
+            "amount": 4
+        }
+    ],
+    "previous_item_id": 20510,
+    "next_item_id": 20512
+}

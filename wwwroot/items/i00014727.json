@@ -1,0 +1,86 @@
+{
+    "type": "equipment",
+    "item_id": 14727,
+    "name": "Black Scourge",
+    "info": "",
+    "icon": {
+        "icon_id": 1686,
+        "color_id": 11
+    },
+    "jobs": [
+        "Sorcerer"
+    ],
+    "sell_price": 32005,
+    "weight": 80,
+    "item_level": 70,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 23,
+    "weapon_type": "MAGICK_GAUNTLET",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 80,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 2059,
+        "magic_attack": 2342,
+        "crest_slot": 0,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 654
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 16120,
+            "amount": 4
+        },
+        {
+            "item_id": 16121,
+            "amount": 4
+        },
+        {
+            "item_id": 15993,
+            "amount": 15
+        },
+        {
+            "item_id": 15994,
+            "amount": 15
+        },
+        {
+            "item_id": 15989,
+            "amount": 5
+        },
+        {
+            "item_id": 15990,
+            "amount": 5
+        },
+        {
+            "item_id": 15938,
+            "amount": 3
+        },
+        {
+            "item_id": 15939,
+            "amount": 3
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 15989,
+            "amount": 3
+        },
+        {
+            "item_id": 15990,
+            "amount": 3
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 14728
+}

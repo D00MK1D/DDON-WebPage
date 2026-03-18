@@ -1,0 +1,44 @@
+{
+    "type": "material",
+    "subtype": "Ingots",
+    "item_id": 7883,
+    "name": "Bornite Ingot",
+    "info": "Metal Crafting Material: A lump of metal\ncontaining green copper, which is found in rock\nscales.",
+    "icon": {
+        "icon_id": 490,
+        "color_id": 4
+    },
+    "jobs": [],
+    "sell_price": 370,
+    "weight": 0,
+    "item_level": 7,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [
+        {
+            "item_id": 7864,
+            "amount": 1
+        },
+        {
+            "item_id": 7873,
+            "amount": 2
+        },
+        {
+            "item_id": 7845,
+            "amount": 2
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Elan Water Grove: Jungle Limestone Caves",
+        "Elan Water Grove: Jungle Limestone Caves Depths",
+        "Farana Plains: Thalati Waterway",
+        "Kingal Canyon: Shadolean Great Temple",
+        "Morrow Forest: Deepney Great Forest"
+    ],
+    "hunt": []
+}

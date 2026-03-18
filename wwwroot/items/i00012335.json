@@ -1,0 +1,52 @@
+{
+    "type": "equipment",
+    "item_id": 12335,
+    "name": "Bright Calling",
+    "info": "",
+    "icon": {
+        "icon_id": 1383,
+        "color_id": 111
+    },
+    "jobs": [
+        "ElementArcher"
+    ],
+    "sell_price": 21130,
+    "weight": 40,
+    "item_level": 30,
+    "crest_slots": 1,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 23,
+    "weapon_type": "GREATSWORD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 65,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1473,
+        "magic_attack": 1633,
+        "crest_slot": 0,
+        "ele_slot": 33
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 245
+        },
+        {
+            "id": 85,
+            "name": "BLOW_POWER_BBLUNT",
+            "value": 10
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 12334,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

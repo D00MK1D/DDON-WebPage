@@ -1,0 +1,50 @@
+{
+    "type": "material",
+    "item_id": 8009,
+    "name": "Scroll of Great Sorcery",
+    "info": "Grimoire Crafting Material:\nScrolls imbued with the mark of magical power.",
+    "icon": {
+        "icon_id": 515,
+        "color_id": 4
+    },
+    "jobs": [],
+    "sell_price": 277,
+    "weight": 0,
+    "item_level": 7,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [
+        {
+            "item_id": 8005,
+            "amount": 1
+        },
+        {
+            "item_id": 7903,
+            "amount": 1
+        },
+        {
+            "item_id": 7987,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Deenan Woods: Sunset Terrace",
+        "Elan Water Grove: Dancing Rainbow Cave",
+        "Elan Water Grove: Dancing Rainbow Cave Depths",
+        "Elan Water Grove: Wisteria Arbor Withering Well",
+        "Mergoda Ruins: Mergodan Residence",
+        "Mergoda Ruins: Mergodan Residence (Royal Palace Level)",
+        "Morrow Forest: Invading Demons Cave",
+        "Morrow Forest: Morrow Cavern",
+        "Northern Betland Plains: Underground Crypt"
+    ],
+    "hunt": [
+        "Level 1+ Skeleton Sorcerer"
+    ],
+    "subtype": "scrolls"
+}

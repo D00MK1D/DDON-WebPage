@@ -1,0 +1,45 @@
+{
+    "type": "jewlery",
+    "item_id": 9037,
+    "name": "Unsoftening Earrings",
+    "info": "",
+    "icon": {
+        "icon_id": 549,
+        "color_id": 9
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 1900,
+    "weight": 1,
+    "item_level": 10,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "level": 46,
+    "stats": {},
+    "params": [
+        {
+            "id": 8,
+            "name": "RESIST_FRAIL",
+            "value": 4
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

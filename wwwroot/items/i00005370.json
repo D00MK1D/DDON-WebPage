@@ -1,0 +1,55 @@
+{
+    "type": "equipment",
+    "item_id": 5370,
+    "name": "Pirate's Legs",
+    "info": "",
+    "icon": {
+        "icon_id": 388,
+        "color_id": 8
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 2890,
+    "weight": 54,
+    "item_level": 8,
+    "crest_slots": 0,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 38,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 107,
+        "magic_attack": 0,
+        "magic_defense": 85,
+        "crest_slot": 0,
+        "ele_slot": 32
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 36
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 502
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 4347,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

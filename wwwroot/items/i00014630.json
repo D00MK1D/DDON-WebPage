@@ -1,0 +1,53 @@
+{
+    "type": "equipment",
+    "item_id": 14630,
+    "name": "Demon Wing",
+    "info": "",
+    "icon": {
+        "icon_id": 1672,
+        "color_id": 11
+    },
+    "jobs": [
+        "ElementArcher"
+    ],
+    "sell_price": 32005,
+    "weight": 60,
+    "item_level": 70,
+    "crest_slots": 1,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 23,
+    "weapon_type": "GREATSWORD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 80,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 2086,
+        "magic_attack": 2261,
+        "crest_slot": 0,
+        "ele_slot": 25
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 335
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 15995,
+            "amount": 3
+        },
+        {
+            "item_id": 15996,
+            "amount": 3
+        }
+    ],
+    "previous_item_id": 14629,
+    "next_item_id": 14631
+}

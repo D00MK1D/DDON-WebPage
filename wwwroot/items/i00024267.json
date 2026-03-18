@@ -1,0 +1,56 @@
+{
+    "type": "equipment",
+    "item_id": 24267,
+    "name": "Golden Light Armor Gloves",
+    "info": "",
+    "icon": {
+        "icon_id": 2219,
+        "color_id": 200
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 0,
+    "weight": 35,
+    "item_level": 130,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 3,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 100,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 9,
+        "defense": 604,
+        "magic_attack": 9,
+        "magic_defense": 504,
+        "crest_slot": 0,
+        "ele_slot": 24
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 33
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 24735,
+            "amount": 120
+        },
+        {
+            "item_id": 24737,
+            "amount": 120
+        }
+    ],
+    "previous_item_id": 24266,
+    "next_item_id": 24268
+}

@@ -1,0 +1,61 @@
+{
+    "type": "equipment",
+    "item_id": 20960,
+    "name": "Positivit\u00e9 Robe",
+    "info": "",
+    "icon": {
+        "icon_id": 200,
+        "color_id": 10
+    },
+    "jobs": [
+        "ShieldSage",
+        "Alchemist",
+        "HighScepter"
+    ],
+    "sell_price": 22990,
+    "weight": 71,
+    "item_level": 110,
+    "crest_slots": 1,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 2,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 95,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 6,
+        "defense": 831,
+        "magic_attack": 6,
+        "magic_defense": 739,
+        "crest_slot": 0,
+        "ele_slot": 25
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 43
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 1230
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 21258,
+            "amount": 6
+        },
+        {
+            "item_id": 21265,
+            "amount": 6
+        }
+    ],
+    "previous_item_id": 20959,
+    "next_item_id": 20961
+}

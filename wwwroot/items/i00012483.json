@@ -1,0 +1,53 @@
+{
+    "type": "equipment",
+    "item_id": 12483,
+    "name": "Crying Goddess",
+    "info": "",
+    "icon": {
+        "icon_id": 1034,
+        "color_id": 10
+    },
+    "jobs": [
+        "Sorcerer"
+    ],
+    "sell_price": 22450,
+    "weight": 80,
+    "item_level": 30,
+    "crest_slots": 1,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 0,
+    "weapon_type": "MAGICK_GAUNTLET",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 67,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1529,
+        "magic_attack": 1792,
+        "crest_slot": 0,
+        "ele_slot": 17
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 481
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 11799,
+            "amount": 2
+        },
+        {
+            "item_id": 11801,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 12482,
+    "next_item_id": 12484
+}

@@ -1,0 +1,65 @@
+{
+    "type": "equipment",
+    "item_id": 20789,
+    "name": "Ambition Armor",
+    "info": "",
+    "icon": {
+        "icon_id": 2230,
+        "color_id": 111
+    },
+    "jobs": [
+        "Fighter",
+        "Warrior"
+    ],
+    "sell_price": 25080,
+    "weight": 71,
+    "item_level": 120,
+    "crest_slots": 1,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 20,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 100,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 8,
+        "defense": 891,
+        "magic_attack": 8,
+        "magic_defense": 792,
+        "crest_slot": 0,
+        "ele_slot": 17
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 45
+        },
+        {
+            "id": 28,
+            "name": "MAGMA_RESIST",
+            "value": 8
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 1263
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 21279,
+            "amount": 2
+        },
+        {
+            "item_id": 21271,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 20788,
+    "next_item_id": 20790
+}

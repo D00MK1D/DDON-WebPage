@@ -1,0 +1,50 @@
+{
+    "type": "equipment",
+    "item_id": 2261,
+    "name": "Hanzou Mask",
+    "info": "",
+    "icon": {
+        "icon_id": 259,
+        "color_id": 10
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 5015,
+    "weight": 27,
+    "item_level": 12,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 5,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_HELM",
+    "level": 58,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 194,
+        "magic_attack": 0,
+        "magic_defense": 310,
+        "crest_slot": 0,
+        "ele_slot": 8
+    },
+    "params": [],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7758,
+            "amount": 2
+        },
+        {
+            "item_id": 7945,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 649,
+    "next_item_id": 3284
+}

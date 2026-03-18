@@ -1,0 +1,76 @@
+{
+    "type": "equipment",
+    "item_id": 15090,
+    "name": "Fortress Plate",
+    "info": "",
+    "icon": {
+        "icon_id": 1558,
+        "color_id": 111
+    },
+    "jobs": [
+        "ShieldSage",
+        "Alchemist",
+        "HighScepter"
+    ],
+    "sell_price": 14768,
+    "weight": 70,
+    "item_level": 60,
+    "crest_slots": 1,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 23,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 75,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 2,
+        "defense": 559,
+        "magic_attack": 2,
+        "magic_defense": 497,
+        "crest_slot": 0,
+        "ele_slot": 17
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 32
+        },
+        {
+            "id": 2,
+            "name": "RESIST_TORPOR",
+            "value": 3
+        },
+        {
+            "id": 9,
+            "name": "RESIST_PETRIFICATION",
+            "value": 3
+        },
+        {
+            "id": 15,
+            "name": "RESIST_KNOCKOUT",
+            "value": 3
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 1177
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 15965,
+            "amount": 1
+        },
+        {
+            "item_id": 15967,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 15089,
+    "next_item_id": 15091
+}

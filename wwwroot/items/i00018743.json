@@ -1,0 +1,22 @@
+{
+    "type": "consumable",
+    "item_id": 18743,
+    "name": "High Orb",
+    "info": "A crystal imbued with even greater Dragon Force\nthan the conventional Blood Orb.",
+    "icon": {
+        "icon_id": 1979,
+        "color_id": 1
+    },
+    "jobs": [],
+    "sell_price": 0,
+    "weight": 0,
+    "item_level": 2,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "max_stack": 255,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0
+}

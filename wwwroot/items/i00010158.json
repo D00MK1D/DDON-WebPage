@@ -1,0 +1,51 @@
+{
+    "type": "jobitem",
+    "item_id": 10158,
+    "name": "Electrifying Elixir",
+    "info": "When an Alchemist uses \"Elixir Release\", it\ninflicts \"Thunder Resist Down\" abnormal status.",
+    "icon": {
+        "icon_id": 1104,
+        "color_id": 2
+    },
+    "jobs": [],
+    "sell_price": 2,
+    "weight": 0,
+    "item_level": 4,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "level": 16,
+    "stats": {},
+    "params": [
+        {
+            "id": 118,
+            "name": "MEDAL_FALLTHUNDER",
+            "param_count": 1,
+            "value": [
+                30,
+                0,
+                0
+            ]
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 8033,
+            "amount": 1
+        },
+        {
+            "item_id": 7804,
+            "amount": 1
+        },
+        {
+            "item_id": 7921,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

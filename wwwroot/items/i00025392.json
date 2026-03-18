@@ -1,0 +1,57 @@
+{
+    "type": "equipment",
+    "item_id": 25392,
+    "name": "Solitary Magic Boots",
+    "info": "",
+    "icon": {
+        "icon_id": 1573,
+        "color_id": 11
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 18500,
+    "weight": 45,
+    "item_level": 145,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 2,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 110,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 11,
+        "defense": 599,
+        "magic_attack": 11,
+        "magic_defense": 479,
+        "crest_slot": 4,
+        "ele_slot": 8
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 103
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 838
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 25528,
+            "amount": 3
+        }
+    ],
+    "previous_item_id": 25391,
+    "next_item_id": 25393
+}

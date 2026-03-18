@@ -1,0 +1,66 @@
+{
+    "type": "equipment",
+    "item_id": 14775,
+    "name": "Ray's Steering",
+    "info": "",
+    "icon": {
+        "icon_id": 1701,
+        "color_id": 10
+    },
+    "jobs": [
+        "SpiritLancer"
+    ],
+    "sell_price": 21130,
+    "weight": 100,
+    "item_level": 30,
+    "crest_slots": 1,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 23,
+    "weapon_type": "SPIRIT_LANCE",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 65,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1605,
+        "magic_attack": 1516,
+        "crest_slot": 0,
+        "ele_slot": 25
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 296
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 11780,
+            "amount": 2
+        },
+        {
+            "item_id": 11781,
+            "amount": 4
+        },
+        {
+            "item_id": 11782,
+            "amount": 2
+        },
+        {
+            "item_id": 11783,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 14774,
+    "next_item_id": 14776
+}

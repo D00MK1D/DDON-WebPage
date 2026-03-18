@@ -1,0 +1,62 @@
+{
+    "type": "equipment",
+    "item_id": 5008,
+    "name": "Philosophia",
+    "info": "",
+    "icon": {
+        "icon_id": 1042,
+        "color_id": 10
+    },
+    "jobs": [
+        "Sorcerer"
+    ],
+    "sell_price": 18005,
+    "weight": 80,
+    "item_level": 12,
+    "crest_slots": 1,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 21,
+    "weapon_type": "MAGICK_GAUNTLET",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 60,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 1220,
+        "magic_attack": 1472,
+        "crest_slot": 0,
+        "ele_slot": 33
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 433
+        },
+        {
+            "id": 85,
+            "name": "BLOW_POWER_BBLUNT",
+            "value": 5
+        },
+        {
+            "id": 102,
+            "name": "DRAGON_SLAYER",
+            "value": 48
+        },
+        {
+            "id": 103,
+            "name": "DEMON_SLAYER",
+            "value": 63
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 3985,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

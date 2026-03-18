@@ -1,0 +1,58 @@
+{
+    "type": "equipment",
+    "item_id": 10634,
+    "name": "Olfring Cane (Red)",
+    "info": "",
+    "icon": {
+        "icon_id": 1153,
+        "color_id": 82
+    },
+    "jobs": [
+        "Priest"
+    ],
+    "sell_price": 5000,
+    "weight": 70,
+    "item_level": 7,
+    "crest_slots": 3,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 4,
+    "weapon_type": "MAGICK_BOW",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 1,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 148,
+        "magic_attack": 235,
+        "crest_slot": 4,
+        "ele_slot": 3
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 59
+        },
+        {
+            "id": 54,
+            "name": "INFLICT_CATCHING_FIRE",
+            "value": 20
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7854,
+            "amount": 1
+        },
+        {
+            "item_id": 7798,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 10635
+}

@@ -1,0 +1,57 @@
+{
+    "type": "equipment",
+    "item_id": 25333,
+    "name": "Solitary's Snipe Cuirass",
+    "info": "",
+    "icon": {
+        "icon_id": 1959,
+        "color_id": 11
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 18500,
+    "weight": 44,
+    "item_level": 145,
+    "crest_slots": 0,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 110,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 11,
+        "defense": 601,
+        "magic_attack": 11,
+        "magic_defense": 481,
+        "crest_slot": 4,
+        "ele_slot": 16
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 104
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 840
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 25528,
+            "amount": 4
+        }
+    ],
+    "previous_item_id": 25332,
+    "next_item_id": 25334
+}

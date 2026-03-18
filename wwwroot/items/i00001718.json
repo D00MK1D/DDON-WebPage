@@ -1,0 +1,49 @@
+{
+    "type": "equipment",
+    "item_id": 1718,
+    "name": "Ferocious Horn",
+    "info": "",
+    "icon": {
+        "icon_id": 1029,
+        "color_id": 5
+    },
+    "jobs": [
+        "Sorcerer"
+    ],
+    "sell_price": 130,
+    "weight": 80,
+    "item_level": 2,
+    "crest_slots": 1,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 0,
+    "weapon_type": "MAGICK_GAUNTLET",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 5,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 77,
+        "magic_attack": 243,
+        "crest_slot": 0,
+        "ele_slot": 9
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 76
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7735,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 106,
+    "next_item_id": 2741
+}

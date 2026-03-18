@@ -1,0 +1,24 @@
+{
+    "type": "material",
+    "item_id": 25528,
+    "name": "Cobalt Heliotrope",
+    "info": "Floral Crafting Material.\nA small cluster of indigo flowers that emit a\nsweet fragrance.\nThey have various uses, such as for fragrance and\ndye.",
+    "icon": {
+        "icon_id": 510,
+        "color_id": 23
+    },
+    "jobs": [],
+    "sell_price": 350,
+    "weight": 0,
+    "item_level": 145,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

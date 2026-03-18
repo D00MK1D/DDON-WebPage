@@ -1,0 +1,43 @@
+{
+    "type": "equipment",
+    "item_id": 11247,
+    "name": "Consomme W Punch Rod",
+    "info": "",
+    "icon": {
+        "icon_id": 1284,
+        "color_id": 19
+    },
+    "jobs": [
+        "ShieldSage"
+    ],
+    "sell_price": 0,
+    "weight": 2,
+    "item_level": 4,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 0,
+    "weapon_type": "GREATSHIELD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_SUB",
+    "level": 1,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "magic_attack": 210,
+        "crest_slot": 0,
+        "ele_slot": 24
+    },
+    "params": [],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 13811,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 11246,
+    "next_item_id": 11248
+}

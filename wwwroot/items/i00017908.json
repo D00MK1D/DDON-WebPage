@@ -1,0 +1,27 @@
+{
+    "type": "material",
+    "item_id": 17908,
+    "name": "Monster Tissue Sample",
+    "info": "Miscellaneous Crafting Material: Pieces of\nmonster meat that have been processed for some\nkind of experimentation.",
+    "icon": {
+        "icon_id": 496,
+        "color_id": 116
+    },
+    "jobs": [],
+    "sell_price": 900,
+    "weight": 0,
+    "item_level": 85,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Rathnite Foothills: Yimidhitt Ruins"
+    ],
+    "hunt": [],
+    "subtype": "regional"
+}

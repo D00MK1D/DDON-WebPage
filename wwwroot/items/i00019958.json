@@ -1,0 +1,53 @@
+{
+    "type": "equipment",
+    "item_id": 19958,
+    "name": "Red Dawn's Steel Cane",
+    "info": "",
+    "icon": {
+        "icon_id": 1260,
+        "color_id": 10
+    },
+    "jobs": [
+        "Priest"
+    ],
+    "sell_price": 39700,
+    "weight": 73,
+    "item_level": 100,
+    "crest_slots": 1,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 0,
+    "weapon_type": "MAGICK_BOW",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 90,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 2552,
+        "magic_attack": 2697,
+        "crest_slot": 0,
+        "ele_slot": 25
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 410
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 21214,
+            "amount": 6
+        },
+        {
+            "item_id": 21222,
+            "amount": 6
+        }
+    ],
+    "previous_item_id": 19957,
+    "next_item_id": 19959
+}

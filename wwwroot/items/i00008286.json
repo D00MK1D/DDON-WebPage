@@ -1,0 +1,61 @@
+{
+    "type": "equipment",
+    "item_id": 8286,
+    "name": "Bravery Coat",
+    "info": "",
+    "icon": {
+        "icon_id": 193,
+        "color_id": 9
+    },
+    "jobs": [
+        "ShieldSage",
+        "Alchemist",
+        "HighScepter"
+    ],
+    "sell_price": 5925,
+    "weight": 90,
+    "item_level": 10,
+    "crest_slots": 1,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 5,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 46,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 246,
+        "magic_attack": 0,
+        "magic_defense": 219,
+        "crest_slot": 0,
+        "ele_slot": 25
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 21
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 922
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7779,
+            "amount": 2
+        },
+        {
+            "item_id": 7883,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 8285,
+    "next_item_id": 8287
+}

@@ -1,0 +1,51 @@
+{
+    "type": "jobitem",
+    "item_id": 10163,
+    "name": "Disorienting Elixir",
+    "info": "When an Alchemist uses \"Elixir Release\", it\ninflicts \"Stun\" abnormal status.",
+    "icon": {
+        "icon_id": 1109,
+        "color_id": 3
+    },
+    "jobs": [],
+    "sell_price": 5,
+    "weight": 0,
+    "item_level": 5,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "level": 21,
+    "stats": {},
+    "params": [
+        {
+            "id": 115,
+            "name": "MEDAL_STAN",
+            "param_count": 1,
+            "value": [
+                16,
+                0,
+                0
+            ]
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 8033,
+            "amount": 1
+        },
+        {
+            "item_id": 8034,
+            "amount": 1
+        },
+        {
+            "item_id": 7840,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

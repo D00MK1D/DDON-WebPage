@@ -1,0 +1,33 @@
+{
+    "type": "material",
+    "item_id": 15946,
+    "name": "White Bone Rock",
+    "info": "Ore Crafting Material: Rock with a limestone-like\nappearance resembling bones.",
+    "icon": {
+        "icon_id": 489,
+        "color_id": 5
+    },
+    "jobs": [],
+    "sell_price": 200,
+    "weight": 0,
+    "item_level": 50,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Farana Plains",
+        "Farana Plains: Central Farana Sandbank",
+        "Farana Plains: Danandell Cave",
+        "Farana Plains: Former Arena",
+        "Farana Plains: Great Wings Valley",
+        "Farana Plains: Newt Den",
+        "Farana Plains: Old Residence Ruins"
+    ],
+    "hunt": [],
+    "subtype": "ore"
+}

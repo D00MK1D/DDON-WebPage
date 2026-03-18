@@ -1,0 +1,80 @@
+{
+    "type": "equipment",
+    "item_id": 623,
+    "name": "Chimeric Gauntlets",
+    "info": "",
+    "icon": {
+        "icon_id": 36,
+        "color_id": 10
+    },
+    "jobs": [
+        "Fighter",
+        "Warrior"
+    ],
+    "sell_price": 4495,
+    "weight": 56,
+    "item_level": 11,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 5,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 55,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 209,
+        "magic_attack": 0,
+        "magic_defense": 174,
+        "crest_slot": 4,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 12
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7890,
+            "amount": 3
+        },
+        {
+            "item_id": 7870,
+            "amount": 2
+        },
+        {
+            "item_id": 7818,
+            "amount": 2
+        },
+        {
+            "item_id": 7799,
+            "amount": 3
+        },
+        {
+            "item_id": 7743,
+            "amount": 2
+        },
+        {
+            "item_id": 11008,
+            "amount": 4
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7866,
+            "amount": 1
+        },
+        {
+            "item_id": 9064,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 2235
+}

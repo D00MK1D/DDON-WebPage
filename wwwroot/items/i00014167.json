@@ -1,0 +1,67 @@
+{
+    "type": "equipment",
+    "item_id": 14167,
+    "name": "Phantom Suit",
+    "info": "",
+    "icon": {
+        "icon_id": 1532,
+        "color_id": 19
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 15000,
+    "weight": 150,
+    "item_level": 8,
+    "crest_slots": 4,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 23,
+    "equip_slot": "EQUIP_CATEGORY_COSTUME",
+    "level": 1,
+    "genders": [
+        "Male"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 616,
+        "magic_attack": 0,
+        "magic_defense": 616,
+        "crest_slot": 0,
+        "ele_slot": 36
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 106
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 1050
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 710
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

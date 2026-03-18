@@ -1,0 +1,49 @@
+{
+    "type": "equipment",
+    "item_id": 17041,
+    "name": "Conspicuous Rusted Spirit Lance",
+    "info": "",
+    "icon": {
+        "icon_id": 1698,
+        "color_id": 101
+    },
+    "jobs": [
+        "SpiritLancer"
+    ],
+    "sell_price": 200,
+    "weight": 130,
+    "item_level": 1,
+    "crest_slots": 1,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 23,
+    "weapon_type": "SPIRIT_LANCE",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 1,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 691,
+        "magic_attack": 620,
+        "crest_slot": 4,
+        "ele_slot": 17
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 130
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0
+}

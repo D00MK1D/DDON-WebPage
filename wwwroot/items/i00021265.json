@@ -1,0 +1,24 @@
+{
+    "type": "material",
+    "item_id": 21265,
+    "name": "Tree Man's Charred Branch",
+    "info": "Miscellaneous Crafting Material: Burned Ent Branch\nThe surface is charred, while the inside remains\nglowing red.",
+    "icon": {
+        "icon_id": 2594,
+        "color_id": 4
+    },
+    "jobs": [],
+    "sell_price": 1500,
+    "weight": 0,
+    "item_level": 110,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

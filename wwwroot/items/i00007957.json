@@ -1,0 +1,43 @@
+{
+    "type": "material",
+    "item_id": 7957,
+    "name": "Demon Thread",
+    "info": "String Crafting Material: Strong thread woven\nfrom a material imbued with powerful magic.",
+    "icon": {
+        "icon_id": 503,
+        "color_id": 4
+    },
+    "jobs": [],
+    "sell_price": 277,
+    "weight": 0,
+    "item_level": 7,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [
+        {
+            "item_id": 7815,
+            "amount": 1
+        },
+        {
+            "item_id": 7849,
+            "amount": 1
+        },
+        {
+            "item_id": 7954,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Betland Plains: Betland Cemetery",
+        "Deenan Woods",
+        "Dowe Valley: Dreed Castle",
+        "Mysree Grove: Greenleaf Terrace"
+    ],
+    "hunt": [],
+    "subtype": "thread"
+}

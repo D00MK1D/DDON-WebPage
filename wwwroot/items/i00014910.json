@@ -1,0 +1,61 @@
+{
+    "type": "equipment",
+    "item_id": 14910,
+    "name": "Ginkgo-dyed Mage Hat",
+    "info": "",
+    "icon": {
+        "icon_id": 1341,
+        "color_id": 11
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 9601,
+    "weight": 36,
+    "item_level": 70,
+    "crest_slots": 0,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_HELM",
+    "level": 80,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 2,
+        "defense": 340,
+        "magic_attack": 2,
+        "magic_defense": 544,
+        "crest_slot": 0,
+        "ele_slot": 16
+    },
+    "params": [
+        {
+            "id": 13,
+            "name": "RESIST_SHOCK",
+            "value": 4
+        },
+        {
+            "id": 41,
+            "name": "THUNDER_RESIST",
+            "value": 12
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 15989,
+            "amount": 1
+        },
+        {
+            "item_id": 15990,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 14909,
+    "next_item_id": 14911
+}

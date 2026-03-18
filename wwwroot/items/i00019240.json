@@ -1,0 +1,63 @@
+{
+    "type": "equipment",
+    "item_id": 19240,
+    "name": "Helm of the First King",
+    "info": "",
+    "icon": {
+        "icon_id": 1953,
+        "color_id": 127
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 0,
+    "weight": 0,
+    "item_level": 120,
+    "crest_slots": 3,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 20,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_HELM",
+    "level": 80,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 8,
+        "defense": 498,
+        "magic_attack": 8,
+        "magic_defense": 797,
+        "crest_slot": 0,
+        "ele_slot": 35
+    },
+    "params": [
+        {
+            "id": 11,
+            "name": "RESIST_CATCHING_FIRE",
+            "value": 25
+        },
+        {
+            "id": 39,
+            "name": "FIRE_RESIST",
+            "value": 25
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 19239,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

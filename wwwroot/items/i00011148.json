@@ -1,0 +1,57 @@
+{
+    "type": "equipment",
+    "item_id": 11148,
+    "name": "Signposter",
+    "info": "",
+    "icon": {
+        "icon_id": 1019,
+        "color_id": 9
+    },
+    "jobs": [
+        "Priest"
+    ],
+    "sell_price": 8410,
+    "weight": 70,
+    "item_level": 9,
+    "crest_slots": 1,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 1,
+    "weapon_type": "MAGICK_BOW",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 41,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 555,
+        "magic_attack": 662,
+        "crest_slot": 4,
+        "ele_slot": 9
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 129
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7963,
+            "amount": 2
+        },
+        {
+            "item_id": 7804,
+            "amount": 1
+        },
+        {
+            "item_id": 7779,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 11147,
+    "next_item_id": 11149
+}

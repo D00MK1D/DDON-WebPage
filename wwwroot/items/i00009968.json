@@ -1,0 +1,56 @@
+{
+    "type": "equipment",
+    "item_id": 9968,
+    "name": "Crowned Head",
+    "info": "",
+    "icon": {
+        "icon_id": 914,
+        "color_id": 7
+    },
+    "jobs": [
+        "ShieldSage"
+    ],
+    "sell_price": 1060,
+    "weight": 70,
+    "item_level": 5,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 2,
+    "weapon_type": "GREATSHIELD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_SUB",
+    "level": 23,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "magic_attack": 365,
+        "crest_slot": 4,
+        "ele_slot": 0
+    },
+    "params": [],
+    "craft_recipe": [
+        {
+            "item_id": 7881,
+            "amount": 2
+        },
+        {
+            "item_id": 7813,
+            "amount": 5
+        },
+        {
+            "item_id": 7954,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7907,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 9969
+}

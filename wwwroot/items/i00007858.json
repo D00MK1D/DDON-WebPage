@@ -1,0 +1,30 @@
+{
+    "type": "material",
+    "item_id": 7858,
+    "name": "Bronze Ore",
+    "info": "Ore Crafting Material:\nThe ore that serves as the foundation for bronze\nproducts.",
+    "icon": {
+        "icon_id": 487,
+        "color_id": 1
+    },
+    "jobs": [],
+    "sell_price": 7,
+    "weight": 0,
+    "item_level": 1,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Breya Coast",
+        "Hidell Plains",
+        "Hidell Plains: Hunters' Secret Passage",
+        "Hidell Plains: Tel's Withered Well"
+    ],
+    "hunt": [],
+    "subtype": "ore"
+}

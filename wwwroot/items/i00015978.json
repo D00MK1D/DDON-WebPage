@@ -1,0 +1,32 @@
+{
+    "type": "material",
+    "item_id": 15978,
+    "name": "Diseased Wreath",
+    "info": "Wood Crafting Material: A wreath woven from\nbranches of wood that have been deformed by the\neffects of corruption.",
+    "icon": {
+        "icon_id": 506,
+        "color_id": 116
+    },
+    "jobs": [],
+    "sell_price": 600,
+    "weight": 0,
+    "item_level": 60,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": true,
+    "craft_recipe": [
+        {
+            "item_id": 15977,
+            "amount": 10
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Morrow Forest: Deepney Great Forest"
+    ],
+    "hunt": [],
+    "subtype": "regional"
+}

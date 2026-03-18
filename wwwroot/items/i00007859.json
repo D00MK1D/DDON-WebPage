@@ -1,0 +1,35 @@
+{
+    "type": "material",
+    "item_id": 7859,
+    "name": "Gold Ore",
+    "info": "Ore Crafting Material: Precious ore that contains\ngold.",
+    "icon": {
+        "icon_id": 489,
+        "color_id": 5
+    },
+    "jobs": [],
+    "sell_price": 487,
+    "weight": 0,
+    "item_level": 9,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Bloodbane Isle: Frigid Ancient Passage",
+        "Deenan Woods: Blue Waterway",
+        "Deenan Woods: Divine Blossom Terrace",
+        "Deenan Woods: Forest People's Tunnel",
+        "Deenan Woods: Moonlight Terrace",
+        "Deenan Woods: Sunset Terrace",
+        "Eastern Zandora: Dead Lord's Labyrinth",
+        "Eastern Zandora: Shrine of Resentment",
+        "Zandora Wastelands: Ruins Site Cellar (Zandora Wastelands)"
+    ],
+    "hunt": [],
+    "subtype": "ore"
+}

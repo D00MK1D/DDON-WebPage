@@ -1,0 +1,40 @@
+{
+    "type": "material",
+    "subtype": "Other",
+    "item_id": 17902,
+    "name": "Demonic Slasher Stone",
+    "info": "Crafting Material for adding additional stats to\nweapons.\nA refined stone made from a special material.\nAdds \"Demon Slayer\" to weapons.",
+    "icon": {
+        "icon_id": 1997,
+        "color_id": 104
+    },
+    "jobs": [],
+    "sell_price": 2500,
+    "weight": 0,
+    "item_level": 85,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "craft_recipe": [
+        {
+            "item_id": 18881,
+            "amount": 3
+        },
+        {
+            "item_id": 17888,
+            "amount": 5
+        },
+        {
+            "item_id": 17889,
+            "amount": 5
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Rathnite Foothills: Feryana Border Checkpoint"
+    ],
+    "hunt": []
+}

@@ -1,0 +1,52 @@
+{
+    "type": "equipment",
+    "item_id": 17742,
+    "name": "Shahabad Bracers",
+    "info": "",
+    "icon": {
+        "icon_id": 58,
+        "color_id": 11
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 10315,
+    "weight": 48,
+    "item_level": 85,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 4,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 83,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 4,
+        "defense": 438,
+        "magic_attack": 4,
+        "magic_defense": 365,
+        "crest_slot": 4,
+        "ele_slot": 8
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 26
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 17907,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 17741,
+    "next_item_id": 17743
+}

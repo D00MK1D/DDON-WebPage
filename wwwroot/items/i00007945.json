@@ -1,0 +1,42 @@
+{
+    "type": "material",
+    "item_id": 7945,
+    "name": "Orcish Cloth",
+    "info": "Cloth Crafting Material: Rough cloth worn by Orcs.",
+    "icon": {
+        "icon_id": 501,
+        "color_id": 4
+    },
+    "jobs": [],
+    "sell_price": 370,
+    "weight": 0,
+    "item_level": 7,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [
+        {
+            "item_id": 7760,
+            "amount": 3
+        },
+        {
+            "item_id": 7777,
+            "amount": 1
+        },
+        {
+            "item_id": 7946,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": [
+        "Level 30+ Orc Aimer",
+        "Level 30+ Orc Banger",
+        "Level 30+ Orc Soldier"
+    ],
+    "subtype": "fabric"
+}

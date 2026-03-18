@@ -1,0 +1,65 @@
+{
+    "type": "equipment",
+    "item_id": 3439,
+    "name": "Astonish Boots",
+    "info": "",
+    "icon": {
+        "icon_id": 405,
+        "color_id": 9
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 4050,
+    "weight": 36,
+    "item_level": 9,
+    "crest_slots": 0,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 23,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 45,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 135,
+        "magic_attack": 0,
+        "magic_defense": 108,
+        "crest_slot": 4,
+        "ele_slot": 16
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 40
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 592
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7799,
+            "amount": 1
+        },
+        {
+            "item_id": 7942,
+            "amount": 1
+        },
+        {
+            "item_id": 7761,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 2416,
+    "next_item_id": 4462
+}

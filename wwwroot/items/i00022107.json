@@ -1,0 +1,24 @@
+{
+    "type": "material",
+    "item_id": 22107,
+    "name": "Ice Force 50",
+    "info": "Adds the status abnormality [Frozen Solid], [Ice\nResist Down], [Drenched].\n*[Frozen Solid] is effective when attacking or\nwhen the status applies the attribute of ice.",
+    "icon": {
+        "icon_id": 1047,
+        "color_id": 15
+    },
+    "jobs": [],
+    "sell_price": 0,
+    "weight": 0,
+    "item_level": 1,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

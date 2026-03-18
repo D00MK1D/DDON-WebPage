@@ -1,0 +1,51 @@
+{
+    "type": "material",
+    "item_id": 7955,
+    "name": "Iron Thread",
+    "info": "String Crafting Material: String material for\ncrafting, made from a combination of Giant fur and\niron powder, used for armor.",
+    "icon": {
+        "icon_id": 503,
+        "color_id": 3
+    },
+    "jobs": [],
+    "sell_price": 195,
+    "weight": 0,
+    "item_level": 6,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [
+        {
+            "item_id": 7809,
+            "amount": 1
+        },
+        {
+            "item_id": 7855,
+            "amount": 1
+        },
+        {
+            "item_id": 7843,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Betland Plains: Groaning Old Well",
+        "Bloodbane Isle: Infected Den Depths",
+        "Breya Coast: Roaring Tide Cave",
+        "Dowe Valley",
+        "Dowe Valley: Catacombs",
+        "Dowe Valley: Dreed Drainage Channels",
+        "Hidell Plains: Hidell Catacombs Depths",
+        "Hidell Plains: Hidell Catacombs Innermost Depths",
+        "Volden Mines: Fiend's Cavern",
+        "Volden Mines: Kinoza Flood Control Channel",
+        "Volden Mines: Miners' Secret Route",
+        "Volden Mines: Southern Wall Fissure"
+    ],
+    "hunt": [],
+    "subtype": "thread"
+}

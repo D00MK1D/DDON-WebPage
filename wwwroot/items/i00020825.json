@@ -1,0 +1,50 @@
+{
+    "type": "equipment",
+    "item_id": 20825,
+    "name": "Hardy Mask",
+    "info": "",
+    "icon": {
+        "icon_id": 309,
+        "color_id": 10
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 13530,
+    "weight": 37,
+    "item_level": 110,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 5,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_HELM",
+    "level": 95,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 6,
+        "defense": 462,
+        "magic_attack": 6,
+        "magic_defense": 739,
+        "crest_slot": 0,
+        "ele_slot": 24
+    },
+    "params": [],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 21257,
+            "amount": 4
+        },
+        {
+            "item_id": 21263,
+            "amount": 4
+        }
+    ],
+    "previous_item_id": 20824,
+    "next_item_id": 20826
+}

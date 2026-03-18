@@ -1,0 +1,45 @@
+{
+    "type": "consumable",
+    "item_id": 9429,
+    "name": "Small Thief's Key",
+    "info": "A key used to unlock a typical locked door.\nWill be consumed upon use.",
+    "icon": {
+        "icon_id": 461,
+        "color_id": 2
+    },
+    "jobs": [],
+    "sell_price": 100,
+    "weight": 0,
+    "item_level": 4,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "max_stack": 99,
+    "craft_recipe": [
+        {
+            "item_id": 7872,
+            "amount": 1
+        },
+        {
+            "item_id": 7952,
+            "amount": 1
+        },
+        {
+            "item_id": 7728,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Betland Plains: Foul Water Channel",
+        "Dowe Valley: Cesspool",
+        "Dowe Valley: Knights' Old Guardhouse",
+        "Mysree Forest: Lynwood Underground Waterway",
+        "Northern Betland Plains: Knights' Old Storehouse",
+        "Northern Betland Plains: Tegor Flood Control Channel"
+    ],
+    "hunt": []
+}

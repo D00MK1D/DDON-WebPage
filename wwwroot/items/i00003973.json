@@ -1,0 +1,53 @@
+{
+    "type": "equipment",
+    "item_id": 3973,
+    "name": "Grabbed Heart",
+    "info": "",
+    "icon": {
+        "icon_id": 1036,
+        "color_id": 9
+    },
+    "jobs": [
+        "Sorcerer"
+    ],
+    "sell_price": 10130,
+    "weight": 80,
+    "item_level": 9,
+    "crest_slots": 1,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 3,
+    "weapon_type": "MAGICK_GAUNTLET",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 45,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 765,
+        "magic_attack": 993,
+        "crest_slot": 4,
+        "ele_slot": 25
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 283
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7739,
+            "amount": 1
+        },
+        {
+            "item_id": 7947,
+            "amount": 3
+        }
+    ],
+    "previous_item_id": 2950,
+    "next_item_id": 4996
+}

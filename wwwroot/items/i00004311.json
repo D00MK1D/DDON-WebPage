@@ -1,0 +1,65 @@
+{
+    "type": "equipment",
+    "item_id": 4311,
+    "name": "Drachenschuppe",
+    "info": "",
+    "icon": {
+        "icon_id": 157,
+        "color_id": 8
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 4480,
+    "weight": 70,
+    "item_level": 8,
+    "crest_slots": 1,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 20,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 40,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 190,
+        "magic_attack": 0,
+        "magic_defense": 169,
+        "crest_slot": 0,
+        "ele_slot": 25
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 18
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 787
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 11003,
+            "amount": 1
+        },
+        {
+            "item_id": 7777,
+            "amount": 1
+        },
+        {
+            "item_id": 7758,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 3288,
+    "next_item_id": 5334
+}

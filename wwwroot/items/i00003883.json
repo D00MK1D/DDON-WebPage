@@ -1,0 +1,53 @@
+{
+    "type": "equipment",
+    "item_id": 3883,
+    "name": "Staff of the Pathfinder",
+    "info": "",
+    "icon": {
+        "icon_id": 1015,
+        "color_id": 9
+    },
+    "jobs": [
+        "Priest"
+    ],
+    "sell_price": 11050,
+    "weight": 70,
+    "item_level": 10,
+    "crest_slots": 1,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 4,
+    "weapon_type": "MAGICK_BOW",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 49,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 855,
+        "magic_attack": 968,
+        "crest_slot": 0,
+        "ele_slot": 25
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 170
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7807,
+            "amount": 2
+        },
+        {
+            "item_id": 7940,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 2860,
+    "next_item_id": 4906
+}

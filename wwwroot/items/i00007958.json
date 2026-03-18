@@ -1,0 +1,44 @@
+{
+    "type": "material",
+    "item_id": 7958,
+    "name": "Dr\u00f3mi",
+    "info": "String Crafting Material:\nA strong string that boasts the strength to bind\neven powerful enemies.",
+    "icon": {
+        "icon_id": 504,
+        "color_id": 5
+    },
+    "jobs": [],
+    "sell_price": 487,
+    "weight": 0,
+    "item_level": 9,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [
+        {
+            "item_id": 7777,
+            "amount": 1
+        },
+        {
+            "item_id": 7778,
+            "amount": 2
+        },
+        {
+            "item_id": 9064,
+            "amount": 2
+        },
+        {
+            "item_id": 7956,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Bloodbane Isle: Infected Den Depths"
+    ],
+    "hunt": [],
+    "subtype": "thread"
+}

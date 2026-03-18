@@ -1,0 +1,70 @@
+{
+    "type": "equipment",
+    "item_id": 14307,
+    "name": "Shield of Tribe",
+    "info": "",
+    "icon": {
+        "icon_id": 1619,
+        "color_id": 10
+    },
+    "jobs": [
+        "Fighter"
+    ],
+    "sell_price": 10370,
+    "weight": 40,
+    "item_level": 45,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 23,
+    "weapon_type": "SHIELD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_SUB",
+    "level": 72,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "magic_attack": 0,
+        "crest_slot": 4,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 87,
+            "name": "GUARD_POWER",
+            "value": 384
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 15914,
+            "amount": 1
+        },
+        {
+            "item_id": 15916,
+            "amount": 1
+        },
+        {
+            "item_id": 15918,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 15913,
+            "amount": 1
+        },
+        {
+            "item_id": 15915,
+            "amount": 1
+        },
+        {
+            "item_id": 15917,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 14308
+}

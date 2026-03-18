@@ -1,0 +1,36 @@
+{
+    "type": "material",
+    "item_id": 7996,
+    "name": "Stagnant Shroom",
+    "info": "Mushroom Crafting Material.\nPoisonous mushrooms that grow in damp, dark\nplaces.",
+    "icon": {
+        "icon_id": 513,
+        "color_id": 2
+    },
+    "jobs": [],
+    "sell_price": 25,
+    "weight": 0,
+    "item_level": 3,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Betland Plains: Temple of Purification",
+        "Bloodbane Isle: Crypt of Murmurs",
+        "Bloodbane Isle: Sunlit Underground Cave",
+        "Breya Coast: Seaside Cellar",
+        "Eastern Zandora: Lakebottom Connecting Passage",
+        "Hidell Plains: Hidell Catacombs Depths",
+        "Hidell Plains: Small Cave Tombs",
+        "Mysree Forest: Lynwood Underground Waterway",
+        "Volden Mines: Kinoza Flood Control Channel",
+        "Volden Mines: Volden Narrow Tunnels"
+    ],
+    "hunt": [],
+    "subtype": "mushrooms"
+}

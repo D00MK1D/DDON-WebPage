@@ -1,0 +1,25 @@
+{
+    "type": "consumable",
+    "item_id": 9400,
+    "name": "Blasting Beads",
+    "info": "Throw this to cause damage on impact.\nCauses the \"Caught Fire\" debilitation.",
+    "icon": {
+        "icon_id": 443,
+        "color_id": 80
+    },
+    "jobs": [],
+    "sell_price": 600,
+    "weight": 0,
+    "item_level": 14,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "max_stack": 10,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

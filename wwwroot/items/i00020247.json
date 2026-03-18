@@ -1,0 +1,59 @@
+{
+    "type": "equipment",
+    "item_id": 20247,
+    "name": "Rousing Schlucht Bow",
+    "info": "",
+    "icon": {
+        "icon_id": 1660,
+        "color_id": 11
+    },
+    "jobs": [
+        "Hunter"
+    ],
+    "sell_price": 45655,
+    "weight": 80,
+    "item_level": 115,
+    "crest_slots": 1,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 0,
+    "weapon_type": "ARCHISTAFF",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 98,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 3139,
+        "magic_attack": 2824,
+        "crest_slot": 4,
+        "ele_slot": 9
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 616
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        },
+        {
+            "id": 32,
+            "name": "MAX_LOADED_ARROWS",
+            "value": 28
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 17876,
+            "amount": 10
+        }
+    ],
+    "previous_item_id": 20246,
+    "next_item_id": 20248
+}

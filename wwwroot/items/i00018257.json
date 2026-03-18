@@ -1,0 +1,56 @@
+{
+    "type": "equipment",
+    "item_id": 18257,
+    "name": "Dools Sallet",
+    "info": "",
+    "icon": {
+        "icon_id": 1949,
+        "color_id": 111
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 12387,
+    "weight": 36,
+    "item_level": 100,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_HELM",
+    "level": 90,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 6,
+        "defense": 426,
+        "magic_attack": 6,
+        "magic_defense": 682,
+        "crest_slot": 0,
+        "ele_slot": 24
+    },
+    "params": [
+        {
+            "id": 27,
+            "name": "RESIST_ITEM_SEAL",
+            "value": 15
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 19653,
+            "amount": 4
+        },
+        {
+            "item_id": 17863,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 18256,
+    "next_item_id": 18258
+}

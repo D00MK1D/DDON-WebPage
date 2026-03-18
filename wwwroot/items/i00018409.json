@@ -1,0 +1,61 @@
+{
+    "type": "equipment",
+    "item_id": 18409,
+    "name": "Kelsus Greaves",
+    "info": "",
+    "icon": {
+        "icon_id": 421,
+        "color_id": 10
+    },
+    "jobs": [
+        "ShieldSage",
+        "Alchemist",
+        "HighScepter"
+    ],
+    "sell_price": 13463,
+    "weight": 46,
+    "item_level": 90,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 85,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 4,
+        "defense": 378,
+        "magic_attack": 4,
+        "magic_defense": 302,
+        "crest_slot": 0,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 80
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 710
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 17916,
+            "amount": 4
+        },
+        {
+            "item_id": 17869,
+            "amount": 4
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 18410
+}

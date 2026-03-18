@@ -1,0 +1,63 @@
+{
+    "type": "equipment",
+    "item_id": 2831,
+    "name": "Brier Shooter",
+    "info": "",
+    "icon": {
+        "icon_id": 955,
+        "color_id": 9
+    },
+    "jobs": [
+        "Hunter"
+    ],
+    "sell_price": 10585,
+    "weight": 70,
+    "item_level": 10,
+    "crest_slots": 1,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 5,
+    "weapon_type": "ARCHISTAFF",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 47,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 945,
+        "magic_attack": 711,
+        "crest_slot": 0,
+        "ele_slot": 17
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 189
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        },
+        {
+            "id": 32,
+            "name": "MAX_LOADED_ARROWS",
+            "value": 32
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7896,
+            "amount": 2
+        },
+        {
+            "item_id": 8009,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 1808,
+    "next_item_id": 3854
+}

@@ -1,0 +1,27 @@
+{
+    "type": "material",
+    "item_id": 15965,
+    "name": "Composite Organ",
+    "info": "Meat Crafting Material:\nSpecial organs unique to Chimeras that enable the\ncoexistence of three heads.",
+    "icon": {
+        "icon_id": 517,
+        "color_id": 105
+    },
+    "jobs": [],
+    "sell_price": 800,
+    "weight": 0,
+    "item_level": 45,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": [
+        "Level 1+ Gorechimera"
+    ],
+    "subtype": "meat"
+}

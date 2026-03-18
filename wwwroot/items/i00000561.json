@@ -1,0 +1,77 @@
+{
+    "type": "equipment",
+    "item_id": 561,
+    "name": "Silver Cuirass",
+    "info": "",
+    "icon": {
+        "icon_id": 114,
+        "color_id": 9
+    },
+    "jobs": [
+        "Fighter",
+        "Warrior"
+    ],
+    "sell_price": 6185,
+    "weight": 110,
+    "item_level": 10,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 3,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 49,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 271,
+        "magic_attack": 0,
+        "magic_defense": 240,
+        "crest_slot": 0,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 21
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 990
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7923,
+            "amount": 4
+        },
+        {
+            "item_id": 7889,
+            "amount": 2
+        },
+        {
+            "item_id": 7753,
+            "amount": 5
+        },
+        {
+            "item_id": 7943,
+            "amount": 3
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7952,
+            "amount": 1
+        },
+        {
+            "item_id": 7814,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 2173
+}

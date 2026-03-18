@@ -1,0 +1,67 @@
+{
+    "type": "equipment",
+    "item_id": 19693,
+    "name": "Arshak's Throes",
+    "info": "",
+    "icon": {
+        "icon_id": 2040,
+        "color_id": 111
+    },
+    "jobs": [
+        "Seeker"
+    ],
+    "sell_price": 50000,
+    "weight": 57,
+    "item_level": 100,
+    "crest_slots": 1,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 23,
+    "weapon_type": "ROD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 90,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 2638,
+        "magic_attack": 2446,
+        "crest_slot": 0,
+        "ele_slot": 1
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 268
+        },
+        {
+            "id": 85,
+            "name": "BLOW_POWER_BBLUNT",
+            "value": 10
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 19653,
+            "amount": 6
+        },
+        {
+            "item_id": 17893,
+            "amount": 4
+        },
+        {
+            "item_id": 17894,
+            "amount": 4
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 19694
+}

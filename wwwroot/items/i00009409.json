@@ -1,0 +1,38 @@
+{
+    "type": "consumable",
+    "item_id": 9409,
+    "name": "Lestania Wine",
+    "info": "A nutritious beverage that can also serve as a\nsubstitute for medicine, with high nutritional\nvalue. It has various beneficial effects.",
+    "icon": {
+        "icon_id": 459,
+        "color_id": 2
+    },
+    "jobs": [],
+    "sell_price": 37,
+    "weight": 0,
+    "item_level": 3,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "max_stack": 10,
+    "craft_recipe": [
+        {
+            "item_id": 7976,
+            "amount": 1
+        },
+        {
+            "item_id": 7827,
+            "amount": 1
+        },
+        {
+            "item_id": 7812,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

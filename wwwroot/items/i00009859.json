@@ -1,0 +1,36 @@
+{
+    "type": "jobitem",
+    "item_id": 9859,
+    "name": "Oil Arrow",
+    "info": "Used in attacks with a Hunter's bow and arrow.\nCauses the \"Tarred\" debilitation.",
+    "icon": {
+        "icon_id": 527,
+        "color_id": 2
+    },
+    "jobs": [],
+    "sell_price": 1,
+    "weight": 0,
+    "item_level": 3,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "level": 1,
+    "stats": {},
+    "params": [],
+    "craft_recipe": [
+        {
+            "item_id": 7811,
+            "amount": 1
+        },
+        {
+            "item_id": 7735,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

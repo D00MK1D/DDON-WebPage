@@ -1,0 +1,32 @@
+{
+    "type": "material",
+    "item_id": 11767,
+    "name": "Luminescent Silver Moss",
+    "info": "Mushroom Crafting Material.\nMoss that absorbs magic and glows silver in dark\nplaces.",
+    "icon": {
+        "icon_id": 511,
+        "color_id": 116
+    },
+    "jobs": [],
+    "sell_price": 600,
+    "weight": 0,
+    "item_level": 20,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": true,
+    "craft_recipe": [
+        {
+            "item_id": 11766,
+            "amount": 30
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Bloodbane Isle: Dried Well by the Tower"
+    ],
+    "hunt": [],
+    "subtype": "regional"
+}

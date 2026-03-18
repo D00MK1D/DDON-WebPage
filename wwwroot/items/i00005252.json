@@ -1,0 +1,54 @@
+{
+    "type": "equipment",
+    "item_id": 5252,
+    "name": "Chimeric Half Plate",
+    "info": "",
+    "icon": {
+        "icon_id": 131,
+        "color_id": 10
+    },
+    "jobs": [
+        "Fighter",
+        "Warrior"
+    ],
+    "sell_price": 7865,
+    "weight": 90,
+    "item_level": 11,
+    "crest_slots": 1,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 5,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 55,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 322,
+        "magic_attack": 0,
+        "magic_defense": 286,
+        "crest_slot": 4,
+        "ele_slot": 33
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 24
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 1110
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 4229,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

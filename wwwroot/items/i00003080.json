@@ -1,0 +1,57 @@
+{
+    "type": "equipment",
+    "item_id": 3080,
+    "name": "Lamellar Jacket",
+    "info": "",
+    "icon": {
+        "icon_id": 145,
+        "color_id": 6
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 715,
+    "weight": 70,
+    "item_level": 4,
+    "crest_slots": 1,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 16,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 78,
+        "magic_attack": 0,
+        "magic_defense": 70,
+        "crest_slot": 0,
+        "ele_slot": 17
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 9
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 297
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7774,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 2057,
+    "next_item_id": 4103
+}

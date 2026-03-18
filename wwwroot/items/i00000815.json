@@ -1,0 +1,65 @@
+{
+    "type": "equipment",
+    "item_id": 815,
+    "name": "Mystic Bangles",
+    "info": "",
+    "icon": {
+        "icon_id": 39,
+        "color_id": 7
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 1080,
+    "weight": 23,
+    "item_level": 6,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 2,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 26,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 75,
+        "magic_attack": 0,
+        "magic_defense": 63,
+        "crest_slot": 0,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 6
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7863,
+            "amount": 2
+        },
+        {
+            "item_id": 7912,
+            "amount": 2
+        },
+        {
+            "item_id": 7918,
+            "amount": 2
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7863,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 2427
+}

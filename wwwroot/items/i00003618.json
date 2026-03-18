@@ -1,0 +1,69 @@
+{
+    "type": "equipment",
+    "item_id": 3618,
+    "name": "Special Bracers",
+    "info": "",
+    "icon": {
+        "icon_id": 783,
+        "color_id": 8
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 1150,
+    "weight": 5,
+    "item_level": 8,
+    "crest_slots": 0,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 3,
+    "equip_slot": "EQUIP_CATEGORY_WEAR_BODY",
+    "level": 39,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 50,
+        "magic_attack": 0,
+        "magic_defense": 50,
+        "crest_slot": 0,
+        "ele_slot": 16
+    },
+    "params": [
+        {
+            "id": 29,
+            "name": "HEALING_POWER",
+            "value": 1
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 267
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7921,
+            "amount": 1
+        },
+        {
+            "item_id": 7846,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 2595,
+    "next_item_id": 4641
+}

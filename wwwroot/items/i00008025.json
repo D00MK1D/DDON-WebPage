@@ -1,0 +1,42 @@
+{
+    "type": "material",
+    "item_id": 8025,
+    "name": "Chipped Gold Lump",
+    "info": "Miscellaneous Crafting Material: A chipped metal\nstake embedded in a spell.",
+    "icon": {
+        "icon_id": 1275,
+        "color_id": 5
+    },
+    "jobs": [],
+    "sell_price": 190,
+    "weight": 0,
+    "item_level": 10,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Betland Plains: The Second Ark",
+        "Hidell Plains: The Third Ark",
+        "Mergoda Ruins",
+        "Mergoda Ruins: An Alchemist's Home",
+        "Mergoda Ruins: Elixir Refining Chamber",
+        "Mergoda Ruins: Mergoda Ruins Royal Palace Level",
+        "Mergoda Ruins: Mergodan Residence",
+        "Mergoda Ruins: Mergodan Residence (Mergoda Ruins: Lower Level)",
+        "Zandora Wastelands: Mergoda Security District",
+        "Zandora Wastelands: Old Underground Laboratory",
+        "Zandora Wastelands: Sage's Old Well"
+    ],
+    "hunt": [
+        "Level 1+ Damned Goblin",
+        "Level 1+ Damned Goblin Fighter",
+        "Level 1+ Damned Golem",
+        "Level 1+ Damned Sling Goblin"
+    ],
+    "subtype": "other"
+}

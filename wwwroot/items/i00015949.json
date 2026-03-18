@@ -1,0 +1,29 @@
+{
+    "type": "material",
+    "item_id": 15949,
+    "name": "Elana Water",
+    "info": "Liquid Crafting Material: Clear water with a soft\nand smooth taste, nurtured in the water forest.",
+    "icon": {
+        "icon_id": 482,
+        "color_id": 5
+    },
+    "jobs": [],
+    "sell_price": 200,
+    "weight": 0,
+    "item_level": 50,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Elan Water Grove",
+        "Elan Water Grove: Riverside of Dappled Sunlight",
+        "Elan Water Grove: Water Beasts' Habitat"
+    ],
+    "hunt": [],
+    "subtype": "liquids"
+}

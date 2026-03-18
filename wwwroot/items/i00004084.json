@@ -1,0 +1,56 @@
+{
+    "type": "equipment",
+    "item_id": 4084,
+    "name": "Hide Armor",
+    "info": "",
+    "icon": {
+        "icon_id": 98,
+        "color_id": 5
+    },
+    "jobs": [
+        "Fighter",
+        "Warrior"
+    ],
+    "sell_price": 52,
+    "weight": 70,
+    "item_level": 1,
+    "crest_slots": 1,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 3,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 34,
+        "magic_attack": 0,
+        "magic_defense": 30,
+        "crest_slot": 4,
+        "ele_slot": 25
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 4
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 54
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7858,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 3061,
+    "next_item_id": 5107
+}

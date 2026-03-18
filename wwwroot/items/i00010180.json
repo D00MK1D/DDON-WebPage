@@ -1,0 +1,57 @@
+{
+    "type": "equipment",
+    "item_id": 10180,
+    "name": "Olfring Sword (Blue)",
+    "info": "",
+    "icon": {
+        "icon_id": 1126,
+        "color_id": 82
+    },
+    "jobs": [
+        "Fighter"
+    ],
+    "sell_price": 5000,
+    "weight": 60,
+    "item_level": 6,
+    "crest_slots": 2,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 3,
+    "weapon_type": "SWORD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 1,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 533,
+        "magic_attack": 365,
+        "crest_slot": 0,
+        "ele_slot": 34
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 126
+        },
+        {
+            "id": 55,
+            "name": "INFLICT_FROZEN_SOLID",
+            "value": 20
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 10179,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

@@ -1,0 +1,29 @@
+{
+    "type": "material",
+    "item_id": 7783,
+    "name": "Harpy Flight Feather",
+    "info": "Feather Crafting Material: Particularly long and\ndeveloped feathers from Harpies.",
+    "icon": {
+        "icon_id": 478,
+        "color_id": 3
+    },
+    "jobs": [],
+    "sell_price": 130,
+    "weight": 0,
+    "item_level": 6,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": [
+        "Level 1+ Shadow Harpy",
+        "Level 25+ Harpy",
+        "Level 25+ Snow Harpy"
+    ],
+    "subtype": "feathers"
+}

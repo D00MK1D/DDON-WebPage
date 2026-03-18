@@ -1,0 +1,60 @@
+{
+    "type": "equipment",
+    "item_id": 17752,
+    "name": "Brigand Sabatons",
+    "info": "",
+    "icon": {
+        "icon_id": 1954,
+        "color_id": 10
+    },
+    "jobs": [
+        "Fighter",
+        "Warrior"
+    ],
+    "sell_price": 12020,
+    "weight": 57,
+    "item_level": 80,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 80,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 3,
+        "defense": 346,
+        "magic_attack": 3,
+        "magic_defense": 277,
+        "crest_slot": 0,
+        "ele_slot": 8
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 77
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 434
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 17928,
+            "amount": 3
+        },
+        {
+            "item_id": 17861,
+            "amount": 3
+        }
+    ],
+    "previous_item_id": 17751,
+    "next_item_id": 17753
+}

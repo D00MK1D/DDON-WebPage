@@ -1,0 +1,72 @@
+{
+    "type": "equipment",
+    "item_id": 21166,
+    "name": "Supreme Young Wise General's Battle Attire (Plain)",
+    "info": "",
+    "icon": {
+        "icon_id": 2272,
+        "color_id": 85
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 50000,
+    "weight": 60,
+    "item_level": 105,
+    "crest_slots": 4,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 3,
+    "equip_slot": "EQUIP_CATEGORY_COSTUME",
+    "level": 1,
+    "genders": [
+        "Male"
+    ],
+    "stats": {
+        "attack": 24,
+        "defense": 2801,
+        "magic_attack": 24,
+        "magic_defense": 2801,
+        "crest_slot": 4,
+        "ele_slot": 36
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 246
+        },
+        {
+            "id": 39,
+            "name": "FIRE_RESIST",
+            "value": 30
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 1650
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 1350
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

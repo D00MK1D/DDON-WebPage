@@ -1,0 +1,56 @@
+{
+    "type": "equipment",
+    "item_id": 3459,
+    "name": "Adept Bangles",
+    "info": "",
+    "icon": {
+        "icon_id": 37,
+        "color_id": 9
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 2960,
+    "weight": 23,
+    "item_level": 9,
+    "crest_slots": 0,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 3,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 45,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 156,
+        "magic_attack": 0,
+        "magic_defense": 130,
+        "crest_slot": 4,
+        "ele_slot": 16
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 10
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7751,
+            "amount": 1
+        },
+        {
+            "item_id": 7942,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 2436,
+    "next_item_id": 4482
+}

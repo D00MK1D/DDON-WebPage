@@ -1,0 +1,53 @@
+{
+    "type": "equipment",
+    "item_id": 20347,
+    "name": "Wand of Altura",
+    "info": "",
+    "icon": {
+        "icon_id": 1263,
+        "color_id": 10
+    },
+    "jobs": [
+        "Sorcerer"
+    ],
+    "sell_price": 43670,
+    "weight": 88,
+    "item_level": 110,
+    "crest_slots": 1,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 4,
+    "weapon_type": "MAGICK_GAUNTLET",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 95,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 2867,
+        "magic_attack": 3174,
+        "crest_slot": 0,
+        "ele_slot": 17
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 894
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 21256,
+            "amount": 4
+        },
+        {
+            "item_id": 21263,
+            "amount": 4
+        }
+    ],
+    "previous_item_id": 20346,
+    "next_item_id": 20348
+}

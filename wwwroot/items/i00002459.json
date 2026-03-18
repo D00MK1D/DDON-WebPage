@@ -1,0 +1,50 @@
+{
+    "type": "equipment",
+    "item_id": 2459,
+    "name": "Grand Sage Cap",
+    "info": "",
+    "icon": {
+        "icon_id": 322,
+        "color_id": 8
+    },
+    "jobs": [
+        "ShieldSage",
+        "Alchemist",
+        "HighScepter"
+    ],
+    "sell_price": 2075,
+    "weight": 36,
+    "item_level": 8,
+    "crest_slots": 0,
+    "quality": 1,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_HELM",
+    "level": 36,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 91,
+        "magic_attack": 0,
+        "magic_defense": 145,
+        "crest_slot": 0,
+        "ele_slot": 8
+    },
+    "params": [],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7804,
+            "amount": 1
+        },
+        {
+            "item_id": 7760,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 847,
+    "next_item_id": 3482
+}

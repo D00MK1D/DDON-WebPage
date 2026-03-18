@@ -1,0 +1,22 @@
+{
+    "type": "consumable",
+    "item_id": 19508,
+    "name": "Coin Pouch",
+    "info": "Bag filled with gold coins (G)",
+    "icon": {
+        "icon_id": 423,
+        "color_id": 1
+    },
+    "jobs": [],
+    "sell_price": 1000,
+    "weight": 0,
+    "item_level": 1,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "max_stack": 255,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0
+}

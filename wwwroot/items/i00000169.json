@@ -1,0 +1,74 @@
+{
+    "type": "equipment",
+    "item_id": 169,
+    "name": "Shine Targe",
+    "info": "",
+    "icon": {
+        "icon_id": 854,
+        "color_id": 9
+    },
+    "jobs": [
+        "Fighter"
+    ],
+    "sell_price": 3364,
+    "weight": 40,
+    "item_level": 9,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "color_id": 3,
+    "weapon_type": "SHIELD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_SUB",
+    "level": 41,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "magic_attack": 0,
+        "crest_slot": 4,
+        "ele_slot": 0
+    },
+    "params": [
+        {
+            "id": 87,
+            "name": "GUARD_POWER",
+            "value": 260
+        }
+    ],
+    "craft_recipe": [
+        {
+            "item_id": 7884,
+            "amount": 6
+        },
+        {
+            "item_id": 7925,
+            "amount": 2
+        },
+        {
+            "item_id": 7966,
+            "amount": 5
+        },
+        {
+            "item_id": 7762,
+            "amount": 5
+        },
+        {
+            "item_id": 7921,
+            "amount": 4
+        }
+    ],
+    "gradeup_recipe": [
+        {
+            "item_id": 7857,
+            "amount": 2
+        },
+        {
+            "item_id": 7810,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 0,
+    "next_item_id": 1781
+}

@@ -1,0 +1,57 @@
+{
+    "type": "equipment",
+    "item_id": 4536,
+    "name": "Genius Coat",
+    "info": "",
+    "icon": {
+        "icon_id": 153,
+        "color_id": 10
+    },
+    "jobs": [
+        "ShieldSage",
+        "Alchemist",
+        "HighScepter"
+    ],
+    "sell_price": 12865,
+    "weight": 90,
+    "item_level": 35,
+    "crest_slots": 1,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 3,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_BODY",
+    "level": 70,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 472,
+        "magic_attack": 0,
+        "magic_defense": 420,
+        "crest_slot": 4,
+        "ele_slot": 25
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 30
+        },
+        {
+            "id": 68,
+            "name": "MAX_HEALTH",
+            "value": 1147
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 11806,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 3513,
+    "next_item_id": 5559
+}

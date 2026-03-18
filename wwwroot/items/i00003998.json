@@ -1,0 +1,53 @@
+{
+    "type": "equipment",
+    "item_id": 3998,
+    "name": "Vortex Flow",
+    "info": "",
+    "icon": {
+        "icon_id": 993,
+        "color_id": 8
+    },
+    "jobs": [
+        "ElementArcher"
+    ],
+    "sell_price": 4810,
+    "weight": 90,
+    "item_level": 7,
+    "crest_slots": 1,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 1,
+    "weapon_type": "GREATSWORD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 31,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 447,
+        "magic_attack": 576,
+        "crest_slot": 4,
+        "ele_slot": 25
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 115
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7879,
+            "amount": 1
+        },
+        {
+            "item_id": 7955,
+            "amount": 1
+        }
+    ],
+    "previous_item_id": 2975,
+    "next_item_id": 5021
+}

@@ -1,0 +1,27 @@
+{
+    "type": "material",
+    "item_id": 11805,
+    "name": "Manticore's Scorpion Tail",
+    "info": "Meat Crafting Material: Sharp tail containing\nManticore's poison.",
+    "icon": {
+        "icon_id": 465,
+        "color_id": 101
+    },
+    "jobs": [],
+    "sell_price": 1014,
+    "weight": 0,
+    "item_level": 35,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": [
+        "Level 1+ Manticore"
+    ],
+    "subtype": "meat"
+}

@@ -1,0 +1,52 @@
+{
+    "type": "equipment",
+    "item_id": 25328,
+    "name": "Solitary's Snipe Gloves",
+    "info": "",
+    "icon": {
+        "icon_id": 1912,
+        "color_id": 11
+    },
+    "jobs": [
+        "Seeker",
+        "Hunter",
+        "SpiritLancer"
+    ],
+    "sell_price": 14400,
+    "weight": 36,
+    "item_level": 145,
+    "crest_slots": 0,
+    "quality": 2,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_ARM",
+    "level": 110,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 11,
+        "defense": 721,
+        "magic_attack": 11,
+        "magic_defense": 601,
+        "crest_slot": 4,
+        "ele_slot": 16
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 35
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 25528,
+            "amount": 3
+        }
+    ],
+    "previous_item_id": 25327,
+    "next_item_id": 25329
+}

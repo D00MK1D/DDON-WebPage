@@ -1,0 +1,24 @@
+{
+    "type": "material",
+    "item_id": 24820,
+    "name": "Tinctura",
+    "info": "Ore Crafting Material.\nA synthetic ore that serves as a catalyst to\ntransform iron and lead into gold and silver.\nIt was created by ancient alchemists but remains\nincomplete, with its properties being unstable.",
+    "icon": {
+        "icon_id": 2929,
+        "color_id": 106
+    },
+    "jobs": [],
+    "sell_price": 900,
+    "weight": 0,
+    "item_level": 130,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

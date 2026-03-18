@@ -1,0 +1,48 @@
+{
+    "type": "material",
+    "item_id": 8004,
+    "name": "Scroll of Protection",
+    "info": "Grimoire Crafting Material:\nScroll with a Protective Seal.",
+    "icon": {
+        "icon_id": 514,
+        "color_id": 2
+    },
+    "jobs": [],
+    "sell_price": 75,
+    "weight": 0,
+    "item_level": 4,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [
+        {
+            "item_id": 8002,
+            "amount": 1
+        },
+        {
+            "item_id": 7855,
+            "amount": 1
+        },
+        {
+            "item_id": 7919,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Elan Water Grove: Path to Morrow",
+        "Farana Plains: Farana Ruins",
+        "Farana Plains: Magusas Ancient Watercourse",
+        "Farana Plains: Magusas Ancient Watercourse: Hidden Passage",
+        "Kingal Canyon: Grinmel Ruins",
+        "Kingal Canyon: Hadin Underground Old Road",
+        "Kingal Canyon: Nebula Temple",
+        "Mysree Forest",
+        "Mysree Forest: Lynwood Underground Waterway"
+    ],
+    "hunt": [],
+    "subtype": "scrolls"
+}

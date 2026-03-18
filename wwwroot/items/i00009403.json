@@ -1,0 +1,38 @@
+{
+    "type": "consumable",
+    "item_id": 9403,
+    "name": "Enhanced Lockpick",
+    "info": "Used to open locked treasure chests.\nHas a chance to break upon use.",
+    "icon": {
+        "icon_id": 453,
+        "color_id": 4
+    },
+    "jobs": [],
+    "sell_price": 60,
+    "weight": 0,
+    "item_level": 7,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "max_stack": 10,
+    "craft_recipe": [
+        {
+            "item_id": 7881,
+            "amount": 1
+        },
+        {
+            "item_id": 59,
+            "amount": 1
+        }
+    ],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Deenan Woods: Sacred Tree Terrace",
+        "Dowe Valley",
+        "Eastern Zandora: Old Capital Ruins"
+    ],
+    "hunt": []
+}

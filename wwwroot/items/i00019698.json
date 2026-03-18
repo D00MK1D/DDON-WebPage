@@ -1,0 +1,57 @@
+{
+    "type": "equipment",
+    "item_id": 19698,
+    "name": "Adamas Military Expedition Daggers",
+    "info": "",
+    "icon": {
+        "icon_id": 2151,
+        "color_id": 84
+    },
+    "jobs": [
+        "Seeker"
+    ],
+    "sell_price": 50000,
+    "weight": 50,
+    "item_level": 90,
+    "crest_slots": 4,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 4,
+    "weapon_type": "ROD",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 1,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 2480,
+        "magic_attack": 2290,
+        "crest_slot": 0,
+        "ele_slot": 36
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 258
+        },
+        {
+            "id": 85,
+            "name": "BLOW_POWER_BBLUNT",
+            "value": 5
+        },
+        {
+            "id": 67,
+            "name": "KNOCKOUT_POWER",
+            "value": 15
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

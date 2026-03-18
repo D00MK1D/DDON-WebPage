@@ -1,0 +1,65 @@
+{
+    "type": "equipment",
+    "item_id": 24657,
+    "name": "White Wings' Underpants",
+    "info": "",
+    "icon": {
+        "icon_id": 2817,
+        "color_id": 86
+    },
+    "jobs": [
+        "Fighter",
+        "Seeker",
+        "Hunter",
+        "Priest",
+        "ShieldSage",
+        "Sorcerer",
+        "Warrior",
+        "ElementArcher",
+        "Alchemist",
+        "SpiritLancer",
+        "HighScepter"
+    ],
+    "sell_price": 0,
+    "weight": 6,
+    "item_level": 130,
+    "crest_slots": 0,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 0,
+    "equip_slot": "EQUIP_CATEGORY_WEAR_LEG",
+    "level": 100,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 0,
+        "defense": 188,
+        "magic_attack": 0,
+        "magic_defense": 188,
+        "crest_slot": 0,
+        "ele_slot": 24
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 77
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 317
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 24737,
+            "amount": 60
+        }
+    ],
+    "previous_item_id": 24656,
+    "next_item_id": 24658
+}

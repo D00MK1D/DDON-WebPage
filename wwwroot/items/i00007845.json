@@ -1,0 +1,32 @@
+{
+    "type": "material",
+    "item_id": 7845,
+    "name": "Silken Sand",
+    "info": "Sand Crafting Material: Smooth and fine sand,\nlike silk.",
+    "icon": {
+        "icon_id": 484,
+        "color_id": 2
+    },
+    "jobs": [],
+    "sell_price": 25,
+    "weight": 0,
+    "item_level": 3,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Breya Coast: Lighthouse Old Well",
+        "Elan Water Grove: Jungle Limestone Caves",
+        "Elan Water Grove: Jungle Limestone Caves Depths",
+        "Mysree Forest"
+    ],
+    "hunt": [
+        "Level 1+ Mudman"
+    ],
+    "subtype": "sand"
+}

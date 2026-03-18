@@ -1,0 +1,25 @@
+{
+    "type": "consumable",
+    "item_id": 11051,
+    "name": "Grand Mission Course",
+    "info": "You can obtain Grand Mission Course.",
+    "icon": {
+        "icon_id": 1264,
+        "color_id": 1
+    },
+    "jobs": [],
+    "sell_price": 0,
+    "weight": 0,
+    "item_level": 0,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": false,
+    "max_stack": 99,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}

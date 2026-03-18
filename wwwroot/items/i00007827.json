@@ -1,0 +1,32 @@
+{
+    "type": "material",
+    "item_id": 7827,
+    "name": "Red Liquor",
+    "info": "Liquid Crafting Material: Alcohol starter made\nfrom fruits. The base for wine.",
+    "icon": {
+        "icon_id": 482,
+        "color_id": 2
+    },
+    "jobs": [],
+    "sell_price": 50,
+    "weight": 0,
+    "item_level": 4,
+    "crest_slots": 0,
+    "quality": 0,
+    "can_bazaar": true,
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 0,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [
+        "Bloodbane Isle: Picturesque Grotto",
+        "Breya Coast: Moltova Ruins",
+        "Dowe Valley: Knights' Depot Ruins",
+        "Dowe Valley: Knights' Old Guardhouse",
+        "Mysree Forest: Lynwood Underground Waterway",
+        "Volden Mines"
+    ],
+    "hunt": [],
+    "subtype": "liquids"
+}

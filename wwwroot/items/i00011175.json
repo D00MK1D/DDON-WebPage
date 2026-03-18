@@ -1,0 +1,53 @@
+{
+    "type": "equipment",
+    "item_id": 11175,
+    "name": "Forked Wand",
+    "info": "",
+    "icon": {
+        "icon_id": 1034,
+        "color_id": 9
+    },
+    "jobs": [
+        "Sorcerer"
+    ],
+    "sell_price": 9250,
+    "weight": 80,
+    "item_level": 9,
+    "crest_slots": 1,
+    "quality": 3,
+    "can_bazaar": false,
+    "color_id": 3,
+    "weapon_type": "MAGICK_GAUNTLET",
+    "equip_slot": "EQUIP_CATEGORY_WEP_MAIN",
+    "level": 43,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 683,
+        "magic_attack": 922,
+        "crest_slot": 4,
+        "ele_slot": 25
+    },
+    "params": [
+        {
+            "id": 84,
+            "name": "BLOW_POWER_SLASHING",
+            "value": 303
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [
+        {
+            "item_id": 7992,
+            "amount": 1
+        },
+        {
+            "item_id": 7957,
+            "amount": 2
+        }
+    ],
+    "previous_item_id": 11174,
+    "next_item_id": 11176
+}

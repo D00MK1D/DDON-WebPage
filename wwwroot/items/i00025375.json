@@ -1,0 +1,55 @@
+{
+    "type": "equipment",
+    "item_id": 25375,
+    "name": "Savage Courage Magic high boots",
+    "info": "",
+    "icon": {
+        "icon_id": 1963,
+        "color_id": 11
+    },
+    "jobs": [
+        "Priest",
+        "Sorcerer",
+        "ElementArcher"
+    ],
+    "sell_price": 18500,
+    "weight": 42,
+    "item_level": 140,
+    "crest_slots": 0,
+    "quality": 4,
+    "can_bazaar": false,
+    "color_id": 4,
+    "equip_slot": "EQUIP_CATEGORY_ARMOR_LEG",
+    "level": 105,
+    "genders": [
+        "Male",
+        "Female"
+    ],
+    "stats": {
+        "attack": 10,
+        "defense": 560,
+        "magic_attack": 10,
+        "magic_defense": 448,
+        "crest_slot": 0,
+        "ele_slot": 32
+    },
+    "params": [
+        {
+            "id": 86,
+            "name": "ENDURANCE",
+            "value": 100
+        },
+        {
+            "id": 69,
+            "name": "MAX_STAMINA",
+            "value": 836
+        }
+    ],
+    "craft_recipe": [],
+    "gradeup_recipe": [],
+    "previous_item_id": 25374,
+    "next_item_id": 0,
+    "shops": [],
+    "gather": [],
+    "hunt": []
+}
