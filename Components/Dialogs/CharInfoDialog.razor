@@ -1,4 +1,5 @@
-﻿@using DDON_WebPage.Components.Data
+﻿@using DDON_WebPage.Components.Customs
+@using DDON_WebPage.Components.Data
 @using Microsoft.EntityFrameworkCore
 @using MudBlazor
 @using System.Text.Json
@@ -13,10 +14,6 @@
                 @foreach (var arisens in listArisens.DistinctBy(x=> x.charId))
                 {
                     <MudGrid Class="my-3">
-                        <MudItem Class="mx-auto my-auto" md="3">
-                            <MudImage Style="max-height:300px" ObjectFit="ObjectFit.Cover" Elevation="2" Src="@($"./img/Icons/Jobs/Heroes/hero_job_{(listArisens.MaxBy(x => x.jobLevel).jobId)}.png")" />
-                        </MudItem>
-
                         <MudItem Class="my-auto mx-auto" md="6">
                             <MudGrid Style="max-width: 700px">
                                 @for (int jobId = 1; jobId <= 11; jobId++)
@@ -24,17 +21,60 @@
                                     var arisens = listArisens.FirstOrDefault(x => x.jobId == jobId);
                                     var tooltip = _dicJobIds.GetValueOrDefault(arisens?.jobId ?? 0);
 
-                                    <MudItem Class="mx-auto">
-                                        <MudTooltip Placement="Placement.Top" Text="@tooltip">
-                                            <MudAvatar Size="Size.Large" Variant="Variant.Outlined">
-                                                <MudImage Src="@($"./img/Icons/Jobs/icon_job_{(arisens?.jobId ?? 0)}.png")" />
-                                            </MudAvatar>
-                                        </MudTooltip>
+                                    if(arisens != null)
+                                    {
+                                        CharGrade grade;
+                                        switch (arisens?.jobLevel)
+                                        {
+                                            case >= 0 and <= 25:
+                                                grade = CharGrade.Bronze;
+                                                break;
 
-                                        <MudText Align="Align.Center" Typo="Typo.subtitle2">
-                                            Level: @(arisens?.jobLevel ?? 0)
-                                        </MudText>
-                                    </MudItem>
+                                            case >= 26 and <= 50:
+                                                grade = CharGrade.Silver;
+                                                break;
+
+                                            case >= 51 and <= 89:
+                                                grade = CharGrade.Gold;
+                                                break;
+
+                                            case >= 90:
+                                                grade = CharGrade.Platinum;
+                                                break;
+
+                                            default:
+                                                grade = CharGrade.Bronze;
+                                                break;
+                                        }
+
+                                        <MudItem Class="mx-auto">
+                                            <MudTooltip Placement="Placement.Top" Text="@tooltip">
+                                                <CustomMudAvatar BorderSize="63"
+                                                                 InnerSize="64"
+                                                                 BorderSrc="@($"./img/Icons/Jobs/icon_job_border_{grade}.png")"
+                                                                 InnerSrc="@($"./img/Icons/Jobs/icon_job_{(arisens?.jobId ?? 0)}.png")">
+                                                </CustomMudAvatar>
+                                            </MudTooltip>
+
+                                            <MudText Class="py-1" Align="Align.Center" Typo="Typo.subtitle2">
+                                                Level: @(arisens?.jobLevel ?? 0)
+                                            </MudText>
+                                        </MudItem>
+                                    }
+                                    else
+                                    {
+                                        <MudItem Class="mx-auto">
+                                            <MudTooltip Placement="Placement.Top" Text="@tooltip">
+                                                <MudAvatar Size="Size.Large" Variant="Variant.Outlined">
+                                                    <MudImage Src="@($"./img/Icons/Jobs/icon_job_{(arisens?.jobId ?? 0)}.png")" />
+                                                </MudAvatar>
+                                            </MudTooltip>
+
+                                            <MudText Class="py-3" Align="Align.Center" Typo="Typo.subtitle2">
+                                                Level: @(arisens?.jobLevel ?? 0)
+                                            </MudText>
+                                        </MudItem>
+                                    }
                                 }
                             </MudGrid>
                         </MudItem>
@@ -47,25 +87,53 @@
                     @foreach (var wallet in listWallets.OrderBy(x => x.walletType))
                     {
                         <MudItem md="3">
-                            <MudTextField AdornmentIcon="@Icons.Custom.Brands.MudBlazor" AdornmentColor="Color.Primary" ReadOnly Label="@_dicWalletTypes[wallet.walletType]" Variant="Variant.Text" Value="@wallet.walletValue" />
+                            <MudTextField ReadOnly Label="@_dicWalletTypes[wallet.walletType]" Variant="Variant.Text" Value="@wallet.walletValue" />
                         </MudItem>
                     }
                 </MudGrid>
             </MudTabPanel>
 
-            <MudTabPanel Text="Equipment">
+            <MudTabPanel Text="Inventory">
 
-                <MudGrid Class="my-auto mx-auto " Style="max-width:700px;">
-                    @foreach (var item in listItemsJson.DistinctBy(x=> x.ItemId))
-                    {
-                        <MudItem>
-                            <MudTooltip Text="@($"{item.ItemId} - {item.Name}")" >
-                                <MudAvatar Size="Size.Large" Rounded Style="background-color: rgb(181, 177, 148);" Color="Color.Primary" Square Variant="Variant.Outlined">
+                <MudGrid Class="my-auto mx-auto">
+                    <MudItem>
+                        <MudGrid Class="mx-auto" Style="max-width: 320px">
+                            <MudItem Class="my-5 mx-auto" md="12">
+                                <MudText Typo="Typo.h5" Align="Align.Center">Consumables</MudText>
+                                <MudDivider />
+                            </MudItem>
+                            @foreach (var item in listItemsJson.DistinctBy(x => x.ItemId).Where(x => x.Type == "consumable"))
+                            {
+                                <MudItem>
+                                    <MudTooltip Text="@($"{item.ItemId} - {item.Name}")">
+                                        @*<MudAvatar Size="Size.Large" Rounded Style="background-color: rgb(181, 177, 148);" Color="Color.Primary" Square Variant="Variant.Outlined">
                                     <MudImage Src="@($"./img/Icons/Items/ii{item.Icon.IconId.ToString("D6")}.png")" />
-                                </MudAvatar>
-                            </MudTooltip>
-                        </MudItem>
-                    }
+                                </MudAvatar>*@
+                                        <CustomMudAvatar BorderSize="56" BorderSrc="./img/Icons/icon_inventory_slot.png" InnerSize="54" InnerSrc="@($"./img/Icons/Items/ii{item.Icon.IconId.ToString("D6")}.png")" />
+                                    </MudTooltip>
+                                </MudItem>
+                            }
+                        </MudGrid>
+                    </MudItem>
+                    <MudItem>
+                        <MudGrid Class="mx-auto" Style="max-width: 320px">
+                            <MudItem Class="my-5 mx-auto" md="12">
+                                <MudText Typo="Typo.h5" Align="Align.Center">Equipment</MudText>
+                                <MudDivider />
+                            </MudItem>
+                            @foreach (var item in listItemsJson.DistinctBy(x => x.ItemId).Where(x => x.Type == "equipment"))
+                            {
+                                <MudItem>
+                                    <MudTooltip Text="@($"{item.ItemId} - {item.Name}")">
+                                        @*<MudAvatar Size="Size.Large" Rounded Style="background-color: rgb(181, 177, 148);" Color="Color.Primary" Square Variant="Variant.Outlined">
+                                    <MudImage Src="@($"./img/Icons/Items/ii{item.Icon.IconId.ToString("D6")}.png")" />
+                                </MudAvatar>*@
+                                        <CustomMudAvatar BorderSize="56" BorderSrc="./img/Icons/icon_inventory_slot.png" InnerSize="54" InnerSrc="@($"./img/Icons/Items/ii{item.Icon.IconId.ToString("D6")}.png")" />
+                                    </MudTooltip>
+                                </MudItem>
+                            }
+                        </MudGrid>
+                    </MudItem>
                 </MudGrid>
 
             </MudTabPanel>
@@ -100,6 +168,7 @@
     [CascadingParameter] IMudDialogInstance MudDialog { get; set; } = default!;
     [Parameter] 
     public int charId { get; set; }
+    private CharGrade charGrade = 0;
 
     private List<vwCharactersJobData> listArisens = new();
     private List<WalletPoint> listWallets = new();

@@ -50,6 +50,9 @@ namespace DDON_WebPage.Components.Data
         [JsonPropertyName("info")]
         public string Info { get; set; }
 
+        [JsonPropertyName("type")]
+        public string Type { get; set; }
+
         [JsonPropertyName("icon")]
         public Icon Icon { get; set; }
     }

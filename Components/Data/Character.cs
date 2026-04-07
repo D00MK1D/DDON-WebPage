@@ -55,4 +55,12 @@ namespace DDON_WebPage.Components.Data
         [Column("game_mode")]
         public int gameMode { get; set; }
     }
+    public enum CharGrade : byte
+    {
+        None = 0,
+        Bronze = 1,
+        Silver = 2,
+        Gold = 3,
+        Platinum = 4
+    }
 }
