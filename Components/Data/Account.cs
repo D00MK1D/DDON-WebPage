@@ -33,10 +33,10 @@ namespace DDON_WebPage.Components.Data
         public string? EmailToken { get; set; } = string.Empty;
 
         [Column("mail_verified")]
-        public bool EmailVerifield { get; set; } = false;
+        public bool EmailVerified { get; set; } = false;
 
         [Column("mail_verified_at")]
-        public DateTime EmailVerifieldAt { get; set; }
+        public DateTime EmailVerifiedAt { get; set; }
 
         [Column("last_login")]
         public DateTime LastLogin { get; set; }
