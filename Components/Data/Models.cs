@@ -1,12 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using System.Net;
-using System.Net.Mail;
 
 namespace DDON_WebPage.Components.Data
 {
     public class Models
     {
-
         public class UpdateModel
         {
             public int Id { get; set; }
