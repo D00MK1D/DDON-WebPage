@@ -17,9 +17,13 @@
 
 <PageTitle>Dragon's Dogma Online</PageTitle>
 
-<MudPaper Class="pa-6 mx-auto" Style="max-width:300px;">
+<MudPaper Class="pa-6 mx-auto my-auto" Style="max-width:430px;">
     
-    <MudText Typo="Typo.h5" Align="Align.Center" Class="mb-4">Login</MudText>
+    <MudImage Class="mx-auto my-auto d-flex" Height="200" Src="./img/Logos/Logo_Y1.png" ObjectFit="ObjectFit.Contain"/>
+    <br />
+    
+    <MudDivider />
+    <br />
 
     <MudTextField @bind-Value="account" Label="Account ID" Variant="Variant.Outlined" MaxLength="50" />
 
@@ -32,10 +36,11 @@
                   OnAdornmentClick="@ShowPassword" 
                   AdornmentAriaLabel="Show Password" 
                   MaxLength="50" />
-
+    
     <br />
+    
     <MudButton OnClick="LoginTask" 
-               Disabled="_isLoginDisabled"
+               Disabled="_loadingState"
                FullWidth="true" 
                Color="Color.Primary" 
                Variant="Variant.Filled">
@@ -60,7 +65,7 @@
 
     private string account = "";
     private string password = "";
-    private bool _isLoginDisabled = false;
+    //private bool _isLoginDisabled = false;
     private bool _loadingState = false;
 
     Account? user = new();
@@ -74,7 +79,6 @@
         {
             if ((account != "" && password != "") && (account != null && password != null))
             {
-                _isLoginDisabled = true;
                 _loadingState = true;
 
                 try
@@ -84,7 +88,6 @@
                     if (response != null && !string.IsNullOrEmpty(response.Error))
                     {
                         _loadingState = false;
-                        _isLoginDisabled = false;
                         Console.WriteLine($"\n{DateTime.UtcNow} - Error: {response.Error} - Account: {account}\n");
                         Snackbar.Add(response.Error, Severity.Warning);
                         return;
@@ -101,7 +104,6 @@
                             {
                                 Snackbar.Add("Invalid user or password.", Severity.Warning);
                                 _loadingState = false;
-                                _isLoginDisabled = false;
                                 return;
                             }
                             AuthProvider.MarkUserAsAuthenticated(user.Name, user.Id);
@@ -117,13 +119,11 @@
 
                                 case 0:
                                     _loadingState = false;
-                                    _isLoginDisabled = false;
                                     Snackbar.Add($"The {user.Name} account has been banned.", Severity.Warning);
                                     break;
 
                                 default:
                                     _loadingState = false;
-                                    _isLoginDisabled = false;
                                     Snackbar.Add($"Invalid account state not identified.", Severity.Warning);
                                     break;
                             }
