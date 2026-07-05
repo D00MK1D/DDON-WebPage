@@ -5,66 +5,52 @@
 @inject ISnackbar Snackbar
 <PageTitle>Dragon's Dogma Online</PageTitle>
 
-@*<MudTable T="vwCharactersJobData" Items="jobdata" Hover="true">
-    <HeaderContent>
-        <MudTh>Character Name</MudTh>
-        <MudTh>Job Name</MudTh>
-        <MudTh>Level</MudTh>
-    </HeaderContent>
-    <RowTemplate>
-        <MudTd DataLabel="Character Name">@(context.charFirstName + " " + context.charLastName)</MudTd>
-        <MudTd DataLabel="Job Name">@context.jobId</MudTd>
-        <MudTd DataLabel="Level">@context.jobLevel</MudTd>
-    </RowTemplate>
-</MudTable>
 
+<MudGrid>
+    <MudItem Class="mx-auto">
+        <MudPaper Class="pa-15">
+            <MudText Color="Color.Primary" Typo="Typo.h2"><b>@(onlinePlayers.Count().ToString("D3"))</b></MudText>
+            <MudText Color="Color.Primary"> Active players</MudText>
+        </MudPaper>
+    </MudItem>
 
+    <MudItem Class="mx-auto">
+        <MudTable Items="onlinePlayers" Style="width:80vh" Hover>
+            <HeaderContent>
+                <MudTh>Name</MudTh>
+                <MudTh>Logged For</MudTh>
+                <MudTh>Status</MudTh>
+            </HeaderContent>
 
+            <RowTemplate>
+                <MudTd DataLabel="Name">@context.AccountName</MudTd>
+                <MudTd DataLabel="Logged For">@((DateTime.UtcNow - context.ConnectedAt).ToString(@"hh\:mm"))</MudTd>
+                <MudTd DataLabel="">@(context.ServerId == 1 ? "Logging in" : "Game Server")</MudTd>
+            </RowTemplate>
 
+            <PagerContent>
+                <MudTablePager PageSizeOptions="[3, 5]"/>
+            </PagerContent>
+        </MudTable>
+    </MudItem>
+    
+    <MudItem>
+    </MudItem>
 
-<MudTable T="Character" Items="characters" Hover="true">
-    <HeaderContent>
-        <MudTh>Name</MudTh>
-        <MudTh>Normal Name</MudTh>
-        <MudTh>Created At</MudTh>
-    </HeaderContent>
-
-    <RowTemplate>
-        <MudTd DataLabel="Name">@(context.firstName + " " + @context.lastName)</MudTd>
-        <MudTd DataLabel="Normal Name"></MudTd>
-        <MudTd DataLabel="Created At"></MudTd>
-    </RowTemplate>
-</MudTable> *@
-
-<MudTable T="Account" Items="players" Hover="true" RowsPerPage="20" Dense="true">
-    <HeaderContent>
-        <MudTh>Name</MudTh>
-        <MudTh>Normal Name</MudTh>
-        <MudTh>Created At</MudTh>
-        <MudTh>Last Login</MudTh>
-    </HeaderContent>
-
-    <RowTemplate>
-        <MudTd DataLabel="Name">@context.Name</MudTd>
-        <MudTd DataLabel="Normal Name">@context.NormalName</MudTd>
-        <MudTd DataLabel="Created At">@context.CreatedAt</MudTd>
-        <MudTd DataLabel="Last Login">@context.LastLogin</MudTd>
-    </RowTemplate>
-
-    <PagerContent>
-        <MudTablePager />
-    </PagerContent>
-</MudTable>
+    <MudItem>
+    </MudItem>
+</MudGrid>
 
 @code {
-    private List<Account>? players = new();
-    private List<Character>? characters = new();
-    private List<vwCharactersJobData>? jobdata = new();
+    private List<Connection>? onlinePlayers = new();
 
     protected override async Task OnInitializedAsync()
     {
-        players = await Pgsql.account.ToListAsync();
-        characters = await Pgsql.ddon_character.ToListAsync();
-        jobdata = await Pgsql.vw_characters_job_data.ToListAsync();
+        onlinePlayers = await Pgsql.connection
+        .FromSqlRaw(@"SELECT conn.server_id, acc.Name as account_name, conn.created as connected_at 
+                        FROM ddon_connection conn 
+                        JOIN account acc on conn.account_id = acc.id;").ToListAsync();
+
     }
+     
 }

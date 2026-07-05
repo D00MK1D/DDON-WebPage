@@ -55,6 +55,18 @@ namespace DDON_WebPage.Components.Data
         [Column("game_mode")]
         public int gameMode { get; set; }
     }
+    public class WalletPoint
+    {
+        [Key]
+        [Column("character_id")]
+        public int charId { get; set; }
+
+        [Column("type")]
+        public int walletType { get; set; }
+
+        [Column("value")]
+        public int walletValue { get; set; }
+    }
     public enum CharGrade : byte
     {
         None = 0,

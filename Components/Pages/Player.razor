@@ -1,6 +1,5 @@
 ﻿@attribute [Authorize]
 @using DDON_WebPage.Components.Data
-@using DDON_WebPage.Components.Layout
 @using DDON_WebPage.Components.Dialogs
 @using Microsoft.AspNetCore.Authorization
 @using Microsoft.AspNetCore.Components.Authorization
@@ -29,7 +28,7 @@
             <MudForm @ref="form" Model="updateModel" OnValidSubmit="HandleValidSubmit">
                 <MudGrid>
                     <MudItem xs="5">
-                        <MudTextField T="string" Label="Password"
+                        <MudTextField T="string" Label="New Password"
                                       @bind-Value="updateModel.Password"
                                       Variant="Variant.Outlined"
                                       Immediate="true"
@@ -68,16 +67,40 @@
                                       For="@(() => updateModel.Email)" />
                     </MudItem>
 
-                    <MudItem Class="d-flex align-center" xs="2">
+                    <MudItem xs="2" Class="d-flex align-center">
                         <MudIconButton OnClick="EditMail" Icon="@_iconEditMail" />
                     </MudItem>
 
-                    <MudItem xs="2">
-                        <MudButton Color="Color.Primary" Disabled="@(!_enableEditPassword && !_enableEditMail)" Variant="Variant.Filled" OnClick="SaveChanges">Save</MudButton>
+                    <MudItem Class="d-flex" Style="align-items: center" xs="4">
+                        @if (player.EmailVerified)
+                        {
+                            <MudIcon Class="px-1" Color="Color.Success" Icon="@Icons.Material.Filled.CheckCircle" />
+                            <MudText Color="Color.Success"><b> Mail Verified</b></MudText>
+                        }
+                        else
+                        {
+                            <MudIcon Class="px-1" Color="Color.Error" Icon="@Icons.Material.Filled.AddCircle" Style="transform: rotate(45deg)" />
+                            <MudText Color="Color.Error"><b> Mail Not Verified</b></MudText>
+                        }
                     </MudItem>
 
-                    <MudItem xs="3">
-                        <MudButton Color="Color.Transparent" Disabled="@(!_enableEditPassword && !_enableEditMail)" Variant="Variant.Filled" OnClick="CancelEdits">Cancel</MudButton>
+                    <MudItem xs="7" />
+                    
+                    <MudItem>
+                        <MudButton Color="Color.Primary" Disabled="@(!_enableEditPassword && !_enableEditMail)" Variant="Variant.Filled" OnClick="SaveChanges">
+                            @if (_loadingState)
+                            {
+                                <MudProgressCircular Color="Color.Primary" Rounded="true" Size="Size.Medium" Indeterminate="true" />
+                            }
+                            else
+                            {
+                                <MudText Color="Color.Dark" Typo="Typo.button"><b>Save</b></MudText>
+                            }
+                        </MudButton>
+                    </MudItem>
+
+                    <MudItem>
+                        <MudButton Color="Color.Transparent" Disabled="@(!_enableEditPassword && !_enableEditMail)" Variant="Variant.Filled" OnClick="CancelEdits"><MudText Color="Color.Dark" Typo="Typo.button"><b>Cancel</b></MudText></MudButton>
                     </MudItem>
 
                 </MudGrid>
@@ -85,9 +108,12 @@
             </MudForm>
 
             <br />
-            <br />
             <MudDivider />
             <br />
+
+            <MudItem>
+                <MudTextField T="DateTime" @bind-Value="@player.CreatedAt" Disabled Variant="Variant.Outlined" Label="Member Since:" />
+            </MudItem>
         </MudPaper>
     </MudTabPanel>
 
@@ -202,6 +228,7 @@
     @code {
     #region Variables
     private bool isShow = false;
+    private bool _loadingState = false;
     private bool _enableEditMail = false;
     private bool _enableEditPassword = false;
     private string? PasswordInputIcon = Icons.Material.Filled.VisibilityOff;
@@ -228,11 +255,11 @@
     {
         var authState = await AuthProvider.GetAuthenticationStateAsync();
         var user = authState.User;
-
+        
         player = await Pgsql.account.AsNoTracking().FirstOrDefaultAsync(u => u.NormalName == user.Identity.Name.ToLower());
-
+        
         await LoadCharInfo();
-
+        
         if (user.Identity is { IsAuthenticated: true })
         {
             UserName = user.Identity.Name;
@@ -242,12 +269,13 @@
                 oldEmail = player.Email;
             }
         }
-
+        
         await RefreshAccounts();
     }
 
     private async Task SaveChanges()
     {
+        _loadingState = true;
         if (player != null && form.IsValid)
         {
             if ((string.IsNullOrWhiteSpace(oldEmail) || oldEmail.EndsWith("@dd.on")) && player.Email.EndsWith("@dd.on"))
@@ -288,6 +316,7 @@
                 }
             }
         }
+        _loadingState = false;
     }
 
     private void EditMail()

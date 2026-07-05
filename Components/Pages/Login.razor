@@ -1,11 +1,5 @@
 ﻿@using DDON_WebPage.Components.Data
-@using Microsoft.AspNetCore.Authentication
-@using Microsoft.AspNetCore.Authentication.Cookies
-@using Microsoft.AspNetCore.Components.Authorization
 @using Microsoft.EntityFrameworkCore
-@using System.Security.Claims
-@using System.Text.Json
-@using System.Text
 @inject NavigationManager Navigation
 @inject AppDbContext Pgsql
 @inject IHttpContextAccessor HttpContextAccessor
@@ -18,31 +12,21 @@
 <PageTitle>Dragon's Dogma Online</PageTitle>
 
 <MudPaper Class="pa-6 mx-auto my-auto" Style="max-width:430px;">
-    
-    <MudImage Class="mx-auto my-auto d-flex" Height="200" Src="./img/Logos/Logo_Y1.png" ObjectFit="ObjectFit.Contain"/>
-    <br />
+    <MudImage Class="mx-auto my-3 d-flex" Height="200" Src="./img/Logos/Logo_Y1.png" ObjectFit="ObjectFit.Contain"/>
     
     <MudDivider />
-    <br />
 
-    <MudTextField @bind-Value="account" Label="Account ID" Variant="Variant.Outlined" MaxLength="50" />
+    <MudTextField Class="my-3" @bind-Value="account" Label="Account ID" Variant="Variant.Outlined" MaxLength="50" />
 
-    <MudTextField @bind-Value="password" 
-                  Label="Password" 
-                  Variant="Variant.Outlined" 
-                  InputType="@PasswordInput" 
-                  Adornment="Adornment.End" 
-                  AdornmentIcon="@PasswordInputIcon" 
-                  OnAdornmentClick="@ShowPassword" 
-                  AdornmentAriaLabel="Show Password" 
-                  MaxLength="50" />
+    <MudTextField @bind-Value="password" Label="Password" 
+                  Variant="Variant.Outlined" InputType="@PasswordInput" 
+                  Adornment="Adornment.End" AdornmentIcon="@PasswordInputIcon" 
+                  OnAdornmentClick="@ShowPassword" AdornmentAriaLabel="Show Password" 
+                  MaxLength="50"/>
     
-    <br />
-    
-    <MudButton OnClick="LoginTask" 
-               Disabled="_loadingState"
-               FullWidth="true" 
-               Color="Color.Primary" 
+    <MudButton ButtonType="ButtonType.Submit" Class="my-6" 
+               OnClick="LoginTask" Disabled="_loadingState" 
+               FullWidth="true" Color="Color.Primary" 
                Variant="Variant.Filled">
         @if (_loadingState)
         {
@@ -54,10 +38,7 @@
         }
     </MudButton>
     
-    <br />
-    <br />
     <a href="/ForgotPassword"> <MudText Align="Align.Center" Color="Color.Primary">Forgot My Password...</MudText> </a>
-
 </MudPaper>
 <br />
 
@@ -65,7 +46,6 @@
 
     private string account = "";
     private string password = "";
-    //private bool _isLoginDisabled = false;
     private bool _loadingState = false;
 
     Account? user = new();

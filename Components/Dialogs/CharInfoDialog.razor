@@ -105,10 +105,7 @@
                             @foreach (var item in listItemsJson.DistinctBy(x => x.ItemId).Where(x => x.Type == "consumable"))
                             {
                                 <MudItem>
-                                    <MudTooltip Text="@($"{item.ItemId} - {item.Name}")">
-                                        @*<MudAvatar Size="Size.Large" Rounded Style="background-color: rgb(181, 177, 148);" Color="Color.Primary" Square Variant="Variant.Outlined">
-                                    <MudImage Src="@($"./img/Icons/Items/ii{item.Icon.IconId.ToString("D6")}.png")" />
-                                </MudAvatar>*@
+                                    <MudTooltip Text="@($"ID:{item.ItemId} - {item.Name} \n {item.Info}")">
                                         <CustomMudAvatar BorderSize="56" BorderSrc="./img/Icons/icon_inventory_slot.png" InnerSize="54" InnerSrc="@($"./img/Icons/Items/ii{item.Icon.IconId.ToString("D6")}.png")" />
                                     </MudTooltip>
                                 </MudItem>
@@ -125,9 +122,6 @@
                             {
                                 <MudItem>
                                     <MudTooltip Text="@($"{item.ItemId} - {item.Name}")">
-                                        @*<MudAvatar Size="Size.Large" Rounded Style="background-color: rgb(181, 177, 148);" Color="Color.Primary" Square Variant="Variant.Outlined">
-                                    <MudImage Src="@($"./img/Icons/Items/ii{item.Icon.IconId.ToString("D6")}.png")" />
-                                </MudAvatar>*@
                                         <CustomMudAvatar BorderSize="56" BorderSrc="./img/Icons/icon_inventory_slot.png" InnerSize="54" InnerSrc="@($"./img/Icons/Items/ii{item.Icon.IconId.ToString("D6")}.png")" />
                                     </MudTooltip>
                                 </MudItem>

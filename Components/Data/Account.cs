@@ -44,4 +44,17 @@ namespace DDON_WebPage.Components.Data
         [Column("created")]
         public DateTime CreatedAt { get; set; }
     }
+
+    public class Connection
+    {
+        [Key]
+        [Column("server_id")]
+        public int ServerId { get; set; }
+
+        [Column ("account_name")]
+        public string AccountName { get; set; } = string.Empty;
+
+        [Column("connected_at")]
+        public DateTime ConnectedAt { get; set; }
+    }
 }
