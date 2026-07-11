@@ -6,10 +6,11 @@
 @using Microsoft.EntityFrameworkCore
 @using static DDON_WebPage.Components.Data.Models
 
-@inject AppDbContext Pgsql
+@inject IDbContextFactory<AppDbContext> DbFactory
 @inject AuthenticationStateProvider AuthProvider
 @inject ISnackbar Snackbar
 @inject IDialogService DialogService
+@inject ServerApiClient ServerApi
 
 @page "/Player"
 
@@ -159,7 +160,7 @@
 
     </MudTabPanel>
 
-    @if (player.State == 100 || player.State == 50)
+    @if (player.State is 100 or 50)
     {
         <MudTabPanel Text="Player Management">
             <MudTable Dense Class="pa-2 my-4" T="Account" Items="listAccounts" Hover="true" Filter="FilterAccounts">
@@ -179,40 +180,39 @@
 
                 <RowTemplate>
                     <MudTd>@context.Name</MudTd>
-                    <MudTd>@listArisens.Where(x=> x.playerId == context.Id).DistinctBy(x=> x.charId).Count()</MudTd>
+                    <MudTd>@(characterCountByAccountId.TryGetValue(context.Id, out var count) ? count : 0)</MudTd>
                     <MudTd>@context.CreatedAt</MudTd>
                     <MudTd>@context.LastLogin</MudTd>
                     <MudTd>@(_dicStateIds[context.State])</MudTd>
                     <MudTd>
-                        @if (context.State != 100)
+
+                        @if(context.State != 0)
                         {
-                            @if(context.State != 0)
-                            {
-                                <MudIconButton OnClick="@(() => ApplyBan(context))"
-                                               Disabled="@(context.State == 0 || player.State == context.State)"
-                                               Icon="@(!loadingIds.Contains(context.Id) ? Icons.Material.Filled.Gavel : null)"
-                                               Color="Color.Error"
-                                               Title="Ban">
-                                    @if (loadingIds.Contains(context.Id))
-                                    {
-                                        <MudProgressCircular Indeterminate="true" Size="Size.Small" Color="Color.Error" />
-                                    }
-                                </MudIconButton>
-                            }
-                            else
-                            {
-                                <MudIconButton OnClick="@(() => RemoveBan(context))"
-                                               Disabled="@(context.State != 0)"
-                                               Icon="@(!loadingIds.Contains(context.Id) ? Icons.Material.Filled.LockOpen : null)"
-                                               Color="Color.Success"
-                                               Title="Unban">
-                                    @if (loadingIds.Contains(context.Id))
-                                    {
-                                        <MudProgressCircular Indeterminate="true" Size="Size.Small" Color="Color.Success" />
-                                    }
-                                </MudIconButton>
-                            }
+                            <MudIconButton OnClick="@(() => ApplyBan(context))"
+                                           Disabled="@(context.State == 0 || player.State == context.State)"
+                                           Icon="@(!loadingIds.Contains(context.Id) ? Icons.Material.Filled.Gavel : null)"
+                                           Color="Color.Error"
+                                           Title="Ban">
+                                @if (loadingIds.Contains(context.Id))
+                                {
+                                    <MudProgressCircular Indeterminate="true" Size="Size.Small" Color="Color.Error" />
+                                }
+                            </MudIconButton>
                         }
+                        else
+                        {
+                            <MudIconButton OnClick="@(() => RemoveBan(context))"
+                                           Disabled="@(context.State != 0)"
+                                           Icon="@(!loadingIds.Contains(context.Id) ? Icons.Material.Filled.LockOpen : null)"
+                                           Color="Color.Success"
+                                           Title="Unban">
+                                @if (loadingIds.Contains(context.Id))
+                                {
+                                    <MudProgressCircular Indeterminate="true" Size="Size.Small" Color="Color.Success" />
+                                }
+                            </MudIconButton>
+                        }
+
                     </MudTd>
                 </RowTemplate>
 
@@ -243,39 +243,53 @@
     private HashSet<int> loadingIds = new();
     private List<Account> listAccounts = new();
     private List<vwCharactersJobData> listArisens = new();
-    private List<WalletPoint> listWallets = new();
+    private Dictionary<int, int> characterCountByAccountId = new();
     private MudForm form = new();
     private Account? player = new();
     private UpdateModel updateModel = new();
-    private ServerApi.ServerResponse? serverResponse = new();
+    private ServerApiClient.ServerResponse? serverResponse = new();
     private InputType PasswordInput = InputType.Password;
     #endregion
 
+    #region All Users
     protected override async Task OnInitializedAsync()
     {
         var authState = await AuthProvider.GetAuthenticationStateAsync();
         var user = authState.User;
-        
-        player = await Pgsql.account.AsNoTracking().FirstOrDefaultAsync(u => u.NormalName == user.Identity.Name.ToLower());
-        
-        await LoadCharInfo();
-        
-        if (user.Identity is { IsAuthenticated: true })
+
+        if (user.Identity is not { IsAuthenticated: true } || string.IsNullOrWhiteSpace(user.Identity.Name))
+            return;
+
+        UserName = user.Identity.Name;
+
+        await using var db = await DbFactory.CreateDbContextAsync();
+
+        player = await db.account
+            .FirstOrDefaultAsync(u => u.NormalName == UserName.ToLower());
+
+        if (player is null)
         {
-            UserName = user.Identity.Name;
-            if (player is not null)
-            {
-                updateModel.Email = player.Email;
-                oldEmail = player.Email;
-            }
+            Snackbar.Add("Account not found.", Severity.Error);
+            return;
         }
-        
-        await RefreshAccounts();
+
+        updateModel.Email = player.Email;
+        oldEmail = player.Email;
+
+        await LoadCharInfo(player.Id);
+
+        if (player.State is 100 or 50)
+        {
+            await RefreshAccounts();
+            await LoadCharacterCountsByAccountId();
+        }
     }
 
     private async Task SaveChanges()
     {
-        _loadingState = true;
+        await using var db = await DbFactory.CreateDbContextAsync();
+
+        isLoadingToggle();
         if (player != null && form.IsValid)
         {
             if ((string.IsNullOrWhiteSpace(oldEmail) || oldEmail.EndsWith("@dd.on")) && player.Email.EndsWith("@dd.on"))
@@ -283,22 +297,35 @@
                 Snackbar.Add(new MarkupString("You're trying to use default old generated e-mail. <br />Change it first to a real valid one!"), Severity.Warning);
                 return;
             }
-            else if (!string.IsNullOrWhiteSpace(updateModel.Email) && updateModel.Email != oldEmail && form.IsValid)
+            else if (!string.IsNullOrWhiteSpace(updateModel.Email) && updateModel.Email != oldEmail)
             {
-                player.Email = updateModel.Email;
-                await Pgsql.SaveChangesAsync();
+                var account = await db.account.FirstOrDefaultAsync(x => x.Id == player.Id);
+
+                if (account is null)
+                {
+                    Snackbar.Add("Account not found.", Severity.Error);
+                    return;
+                }
+
+                account.Email = updateModel.Email;
+                await db.SaveChangesAsync();
+
+                player.Email = account.Email;
+                oldEmail = account.Email;
+
+                Snackbar.Add("Your e-mail has been updated.", Severity.Success);
             }
 
             if (!string.IsNullOrWhiteSpace(updateModel.Password) && !string.IsNullOrWhiteSpace(updateModel.ConfirmPassword) && updateModel.Password == updateModel.ConfirmPassword && _enableEditPassword)
             {
                 try
                 {
-                    serverResponse = await ServerApi.Operation(Pgsql, ServerApi.AccountAction.ForgotPassword, "", "", "", oldEmail, "");
+                    serverResponse = await ServerApi.OperationAsync(ServerApiClient.AccountAction.ForgotPassword, email: oldEmail);
 
                     if (serverResponse.Error is null)
                     {
-                        player = await Pgsql.account.AsNoTracking().FirstOrDefaultAsync(u => u.NormalName == UserName.ToLower());
-                        serverResponse = await ServerApi.Operation(Pgsql, ServerApi.AccountAction.ResetPassword, player.Name, updateModel.ConfirmPassword, player.PasswordToken, "", "");
+                        player = await db.account.AsNoTracking().FirstOrDefaultAsync(u => u.NormalName == UserName.ToLower());
+                        serverResponse = await ServerApi.OperationAsync(ServerApiClient.AccountAction.ResetPassword, account: player.Name, password: updateModel.ConfirmPassword, passwordToken: player.PasswordToken);
 
                         if (serverResponse.Error is null)
                         {
@@ -316,7 +343,7 @@
                 }
             }
         }
-        _loadingState = false;
+        isLoadingToggle();
     }
 
     private void EditMail()
@@ -353,10 +380,10 @@
     private void CancelEdits()
     {
         if (_enableEditMail)
-        EditMail(); 
+            EditMail();
 
-        if(_enableEditPassword)
-        EditPassword();
+        if (_enableEditPassword)
+            EditPassword();
     }
 
     void ShowPassword()
@@ -366,14 +393,29 @@
         PasswordInput = isShow ? InputType.Text : InputType.Password;
     }
 
-    private async Task RefreshAccounts()
+    private async Task DialogCharInfo(int charId)
     {
-        listAccounts = await Pgsql.account.AsNoTracking().ToListAsync();
-        StateHasChanged();
+        var parameters = new DialogParameters<CharInfoDialog> { { x => x.charId, charId } };
+        var dialog = await DialogService.ShowAsync<CharInfoDialog>("", parameters);
+        var result = await dialog.Result;
+    }
+    #endregion
+
+    #region Admin Users
+    private async Task LoadCharInfo(int playerId)
+    {
+        await using var db = await DbFactory.CreateDbContextAsync();
+
+        listArisens = await db.vw_characters_job_data
+            .AsNoTracking()
+            .Where(x => x.playerId == playerId)
+            .ToListAsync();
     }
 
     private async Task ApplyBan(Account account)
     {
+        await using var db = await DbFactory.CreateDbContextAsync();
+
         DialogParameters parameters = new DialogParameters { ["Message"] = $"Are you sure you want to ban '{account.NormalName}'?" };
         var dialog = await DialogService.ShowAsync<ConfirmDialog>("Confirm Ban", parameters);
         var result = await dialog.Result;
@@ -383,21 +425,25 @@
             loadingIds.Add(account.Id);
             StateHasChanged();
 
-            var acc = await Pgsql.account.FirstOrDefaultAsync(a => a.Id == account.Id);
+            var acc = await db.account.FirstOrDefaultAsync(a => a.Id == account.Id);
             if (acc is not null)
             {
                 acc.State = 0;
-                await Pgsql.SaveChangesAsync();
+                await db.SaveChangesAsync();
                 Snackbar.Add($"{acc.Name} has been banned.", Severity.Warning);
             }
 
             loadingIds.Remove(account.Id);
-            await RefreshAccounts();
+            if (player.State is 100 or 50)
+            {
+                await RefreshAccounts();
+            }
         }
     }
 
     private async Task RemoveBan(Account account)
     {
+        await using var db = await DbFactory.CreateDbContextAsync();
         var parameters = new DialogParameters { ["Message"] = $"Are you sure you want to unban '{account.NormalName}'?" };
         var dialog = await DialogService.ShowAsync<ConfirmDialog>("Confirm Unban", parameters);
         var result = await dialog.Result;
@@ -407,16 +453,19 @@
             loadingIds.Add(account.Id);
             StateHasChanged();
 
-            var acc = await Pgsql.account.FirstOrDefaultAsync(a => a.Id == account.Id);
+            var acc = await db.account.FirstOrDefaultAsync(a => a.Id == account.Id);
             if (acc is not null)
             {
                 acc.State = 1;
-                await Pgsql.SaveChangesAsync();
+                await db.SaveChangesAsync();
                 Snackbar.Add($"{acc.Name} has been unbanned.", Severity.Success);
             }
 
             loadingIds.Remove(account.Id);
-            await RefreshAccounts();
+            if (player.State is 100 or 50)
+            {
+                await RefreshAccounts();
+            }
         }
     }
 
@@ -424,6 +473,45 @@
     {
         if (string.IsNullOrEmpty(searchAccountString)) return true;
         return account.Name?.Contains(searchAccountString, StringComparison.OrdinalIgnoreCase) == true;
+    }
+
+    private async Task RefreshAccounts()
+    {
+        if (player.State is not 50 and not 100)
+            return;
+
+        await using var db = await DbFactory.CreateDbContextAsync();
+
+        listAccounts = await db.account
+            .AsNoTracking()
+            .OrderBy(x => x.Name)
+            .ToListAsync();
+    }
+
+    private async Task LoadCharacterCountsByAccountId()
+    {
+        if (player.State is not 50 and not 100)
+            return;
+
+        await using var db = await DbFactory.CreateDbContextAsync();
+
+        characterCountByAccountId = await db.vw_characters_job_data
+            .AsNoTracking()
+            .Select(x => new { x.playerId, x.charId })
+            .Distinct()
+            .GroupBy(x => x.playerId)
+            .Select(g => new
+            {
+                PlayerId = g.Key,
+                Count = g.Count()
+            })
+            .ToDictionaryAsync(x => x.PlayerId, x => x.Count);
+    }
+    #endregion
+    
+    private void isLoadingToggle()
+    {
+        _loadingState = !_loadingState;
     }
 
     Dictionary<int, string> _dicJobIds = new Dictionary<int, string>
@@ -443,28 +531,6 @@
 
     };
 
-    Dictionary<int, string> _dicWalletTypes = new Dictionary<int, string>
-    {
-        { 0, "None" },
-        { 1, "Gold" },
-        { 2, "Rift Points" },
-        { 3, "Blood Orbs" },
-        { 4, "Silver Tickets" },
-        { 5, "Golden Gemstones" },
-        { 6, "Rental Points" },
-        { 7, "Reset Job Points" },
-        { 8, "Reset Craft Skills" },
-        { 9, "High Orbs" },
-        { 10, "Dominion Points" },
-        { 11, "Adventure Pass Points" },
-        { 12, "Custom-Made Service Tickets" },
-        { 13, "Bitterblack Maze Reset Tickets" },
-        { 14, "Golden Dragon Mark" },
-        { 15, "Silver Dragon Mark" },
-        { 16, "Red Dragon Mark" },
-
-    };
-
     Dictionary<int, string> _dicStateIds = new Dictionary<int, string>
     {
         { 0, "Banned" },
@@ -472,17 +538,4 @@
         { 50, "Game Master" },
         { 100, "Administrator" }
     };
-
-    private async Task LoadCharInfo()
-    {
-        listArisens = await Pgsql.vw_characters_job_data.AsNoTracking().ToListAsync();
-        listWallets = await Pgsql.ddon_wallet_point.AsNoTracking().ToListAsync();
-    }
-
-    private async Task DialogCharInfo(int charId)
-    {
-        var parameters = new DialogParameters<CharInfoDialog> { { x => x.charId, charId } };
-        var dialog = await DialogService.ShowAsync<CharInfoDialog>("",parameters);
-        var result = await dialog.Result;
-    }
 }

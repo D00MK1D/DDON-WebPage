@@ -1,8 +1,9 @@
 ﻿@using DDON_WebPage.Components.Data
 @using Microsoft.EntityFrameworkCore
+
+@inject IDbContextFactory<AppDbContext> DbFactory
+@inject ServerApiClient ServerApi
 @inject NavigationManager Navigation
-@inject AppDbContext Pgsql
-@inject IHttpContextAccessor HttpContextAccessor
 @inject CustomAuthenticationStateProvider AuthProvider
 @inject ISnackbar Snackbar
 
@@ -43,99 +44,105 @@
 <br />
 
 @code {
+    private string account = string.Empty;
+    private string password = string.Empty;
+    private bool _loadingState;
 
-    private string account = "";
-    private string password = "";
-    private bool _loadingState = false;
-
-    Account? user = new();
-    ServerApi.ServerResponse? response = new();
-
+    private bool isShow;
+    private string PasswordInputIcon = Icons.Material.Filled.VisibilityOff;
+    private InputType PasswordInput = InputType.Password;
 
     private async Task LoginTask()
     {
+        if (_loadingState)
+            return;
 
-        if (account.Length <= 50)
+        var accountInput = account?.Trim() ?? string.Empty;
+        var passwordInput = password ?? string.Empty;
+
+        if (string.IsNullOrWhiteSpace(accountInput) || string.IsNullOrWhiteSpace(passwordInput))
         {
-            if ((account != "" && password != "") && (account != null && password != null))
-            {
-                _loadingState = true;
-
-                try
-                {
-                    response = await ServerApi.Operation(Pgsql, ServerApi.AccountAction.Login, account, password, "", "", "");
-
-                    if (response != null && !string.IsNullOrEmpty(response.Error))
-                    {
-                        _loadingState = false;
-                        Console.WriteLine($"\n{DateTime.UtcNow} - Error: {response.Error} - Account: {account}\n");
-                        Snackbar.Add(response.Error, Severity.Warning);
-                        return;
-                    }
-                    else
-                    {
-                        Console.WriteLine($"\n{DateTime.UtcNow} - Message: {response.Message} - Account: {account}\n");
-
-                        if (response.Token != "" && response.Token != null)
-                        {
-                            user = await Pgsql.account.AsNoTracking().FirstOrDefaultAsync(u => u.NormalName == account.ToLower());
-
-                            if (user == null)
-                            {
-                                Snackbar.Add("Invalid user or password.", Severity.Warning);
-                                _loadingState = false;
-                                return;
-                            }
-                            AuthProvider.MarkUserAsAuthenticated(user.Name, user.Id);
-
-                            switch (user.State)
-                            {
-                                case 100:
-                                case 50:
-                                case 1:
-                                    Snackbar.Add($"Welcome {user.Name}!", Severity.Info);
-                                    Navigation.NavigateTo("/Player");
-                                    break;
-
-                                case 0:
-                                    _loadingState = false;
-                                    Snackbar.Add($"The {user.Name} account has been banned.", Severity.Warning);
-                                    break;
-
-                                default:
-                                    _loadingState = false;
-                                    Snackbar.Add($"Invalid account state not identified.", Severity.Warning);
-                                    break;
-                            }
-                        }
-                        else
-                        {
-                            Snackbar.Add(response.Message, Severity.Warning);
-                        }
-                    }
-                }
-
-                catch
-                {
-                    Snackbar.Add("There was an error processing your request.", Severity.Error);
-                }
-            }
-            else
-            {
-                Snackbar.Add("Account and password cannot be empty.", Severity.Warning);
-            }
+            Snackbar.Add("Account and password cannot be empty.", Severity.Warning);
+            return;
         }
-        else
+
+        if (accountInput.Length > 50 || passwordInput.Length > 50)
         {
             Snackbar.Add("Account and password must contain less than 50 characters.", Severity.Warning);
+            return;
+        }
+
+        _loadingState = true;
+
+        try
+        {
+            var response = await ServerApi.OperationAsync(
+                ServerApiClient.AccountAction.Login,
+                account: accountInput,
+                password: passwordInput);
+
+            if (!string.IsNullOrWhiteSpace(response.Error))
+            {
+                Console.WriteLine($"\n{DateTime.UtcNow} - Error: {response.Error} - Account: {accountInput}\n");
+                Snackbar.Add(response.Error, Severity.Warning);
+                return;
+            }
+
+            if (string.IsNullOrWhiteSpace(response.Token))
+            {
+                var message = string.IsNullOrWhiteSpace(response.Message)
+                    ? "Invalid server response."
+                    : response.Message;
+
+                Snackbar.Add(message, Severity.Warning);
+                return;
+            }
+
+            await using var db = await DbFactory.CreateDbContextAsync();
+
+            var normalizedAccount = accountInput.ToLowerInvariant();
+
+            var user = await db.account
+                .AsNoTracking()
+                .FirstOrDefaultAsync(u => u.NormalName == normalizedAccount);
+
+            if (user is null)
+            {
+                Snackbar.Add("Invalid user or password.", Severity.Warning);
+                return;
+            }
+
+            switch (user.State)
+            {
+                case 100:
+                case 50:
+                case 1:
+                    AuthProvider.MarkUserAsAuthenticated(user.Name, user.Id);
+                    Snackbar.Add($"Welcome {user.Name}!", Severity.Info);
+                    Navigation.NavigateTo("/Player");
+                    return;
+
+                case 0:
+                    Snackbar.Add($"The {user.Name} account has been banned.", Severity.Warning);
+                    return;
+
+                default:
+                    Snackbar.Add("Invalid account state not identified.", Severity.Warning);
+                    return;
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"\n{DateTime.UtcNow} - Login exception: {ex}\n");
+            Snackbar.Add("There was an error processing your request.", Severity.Error);
+        }
+        finally
+        {
+            _loadingState = false;
         }
     }
 
-    bool isShow;
-    string PasswordInputIcon = Icons.Material.Filled.VisibilityOff;
-    InputType PasswordInput = InputType.Password;
-
-    void ShowPassword()
+    private void ShowPassword()
     {
         if (isShow)
         {
@@ -149,11 +156,5 @@
             PasswordInputIcon = Icons.Material.Filled.Visibility;
             PasswordInput = InputType.Text;
         }
-
-    }
-
-    private bool VerifyPassword(string Password, string storedPassword)
-    {
-        return Password == storedPassword;
     }
 }

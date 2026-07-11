@@ -1,16 +1,18 @@
 ﻿@page "/"
 @using DDON_WebPage.Components.Data
 @using Microsoft.EntityFrameworkCore
-@inject AppDbContext Pgsql
-@inject ISnackbar Snackbar
-<PageTitle>Dragon's Dogma Online</PageTitle>
 
+@inject IDbContextFactory<AppDbContext> DbFactory
+@inject ISnackbar Snackbar
+
+<PageTitle>Dragon's Dogma Online</PageTitle>
 
 <MudGrid>
     <MudItem Class="mx-auto">
-        <MudPaper Class="pa-15">
-            <MudText Color="Color.Primary" Typo="Typo.h2"><b>@(onlinePlayers.Count().ToString("D3"))</b></MudText>
-            <MudText Color="Color.Primary"> Active players</MudText>
+        <MudPaper Class=" pa-15">
+            <MudText Color="Color.Primary" Align="Align.Center" Typo="Typo.h4"><b>Arisens</b></MudText>
+            <MudText Color="Color.Primary" Align="Align.Center" Typo="Typo.h5">@(onlinePlayers.Count.ToString("D3")) / @(totalPlayers.ToString("D3"))</MudText>
+            <MudText Color="Color.Primary" Align="Align.Center"> Active / Total</MudText>
         </MudPaper>
     </MudItem>
 
@@ -43,14 +45,19 @@
 
 @code {
     private List<Connection>? onlinePlayers = new();
+    private int totalPlayers;
 
     protected override async Task OnInitializedAsync()
     {
-        onlinePlayers = await Pgsql.connection
+        await using var db = await DbFactory.CreateDbContextAsync();
+        onlinePlayers = await db.connection
         .FromSqlRaw(@"SELECT conn.server_id, acc.Name as account_name, conn.created as connected_at 
                         FROM ddon_connection conn 
-                        JOIN account acc on conn.account_id = acc.id;").ToListAsync();
+                        JOIN account acc on conn.account_id = acc.id;").AsNoTracking().ToListAsync();
+
+        totalPlayers = await db.account
+        .AsNoTracking()
+        .CountAsync();
 
     }
-     
 }

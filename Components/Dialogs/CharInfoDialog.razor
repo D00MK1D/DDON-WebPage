@@ -4,82 +4,79 @@
 @using MudBlazor
 @using System.Text.Json
 
-@inject AppDbContext Pgsql
-@inject IWebHostEnvironment Env
+@inject IDbContextFactory<AppDbContext> DbFactory
+@inject ItemCatalogService ItemCatalog
 
 <MudDialog>
     <DialogContent>
         <MudTabs Border>
             <MudTabPanel Text="Job Info">
-                @foreach (var arisens in listArisens.DistinctBy(x=> x.charId))
-                {
-                    <MudGrid Class="my-3">
-                        <MudItem Class="my-auto mx-auto" md="6">
-                            <MudGrid Style="max-width: 700px">
-                                @for (int jobId = 1; jobId <= 11; jobId++)
+                <MudGrid Class="my-3">
+                    <MudItem Class="my-auto mx-auto" md="7">
+                        <MudGrid Style="max-width: 700px">
+                            @for (int jobId = 1; jobId <= 11; jobId++)
+                            {
+                                jobsById.TryGetValue(jobId, out var arisens);
+                                var tooltip = _dicJobIds.GetValueOrDefault(arisens?.jobId ?? 0);
+
+                                if(arisens != null)
                                 {
-                                    var arisens = listArisens.FirstOrDefault(x => x.jobId == jobId);
-                                    var tooltip = _dicJobIds.GetValueOrDefault(arisens?.jobId ?? 0);
-
-                                    if(arisens != null)
+                                    CharGrade grade;
+                                    switch (arisens?.jobLevel)
                                     {
-                                        CharGrade grade;
-                                        switch (arisens?.jobLevel)
-                                        {
-                                            case >= 0 and <= 25:
-                                                grade = CharGrade.Bronze;
-                                                break;
+                                        case >= 0 and <= 25:
+                                            grade = CharGrade.Bronze;
+                                            break;
 
-                                            case >= 26 and <= 50:
-                                                grade = CharGrade.Silver;
-                                                break;
+                                        case >= 26 and <= 50:
+                                            grade = CharGrade.Silver;
+                                            break;
 
-                                            case >= 51 and <= 89:
-                                                grade = CharGrade.Gold;
-                                                break;
+                                        case >= 51 and <= 89:
+                                            grade = CharGrade.Gold;
+                                            break;
 
-                                            case >= 90:
-                                                grade = CharGrade.Platinum;
-                                                break;
+                                        case >= 90:
+                                            grade = CharGrade.Platinum;
+                                            break;
 
-                                            default:
-                                                grade = CharGrade.Bronze;
-                                                break;
-                                        }
-
-                                        <MudItem Class="mx-auto">
-                                            <MudTooltip Placement="Placement.Top" Text="@tooltip">
-                                                <CustomMudAvatar BorderSize="63"
-                                                                 InnerSize="64"
-                                                                 BorderSrc="@($"./img/Icons/Jobs/icon_job_border_{grade}.png")"
-                                                                 InnerSrc="@($"./img/Icons/Jobs/icon_job_{(arisens?.jobId ?? 0)}.png")">
-                                                </CustomMudAvatar>
-                                            </MudTooltip>
-
-                                            <MudText Class="py-1" Align="Align.Center" Typo="Typo.subtitle2">
-                                                Level: @(arisens?.jobLevel ?? 0)
-                                            </MudText>
-                                        </MudItem>
+                                        default:
+                                            grade = CharGrade.Bronze;
+                                            break;
                                     }
-                                    else
-                                    {
-                                        <MudItem Class="mx-auto">
-                                            <MudTooltip Placement="Placement.Top" Text="@tooltip">
-                                                <MudAvatar Size="Size.Large" Variant="Variant.Outlined">
-                                                    <MudImage Src="@($"./img/Icons/Jobs/icon_job_{(arisens?.jobId ?? 0)}.png")" />
-                                                </MudAvatar>
-                                            </MudTooltip>
 
-                                            <MudText Class="py-3" Align="Align.Center" Typo="Typo.subtitle2">
-                                                Level: @(arisens?.jobLevel ?? 0)
-                                            </MudText>
-                                        </MudItem>
-                                    }
+                                    <MudItem Class="mx-auto">
+                                        <MudTooltip Placement="Placement.Top" Text="@tooltip">
+                                            <CustomMudAvatar BorderSize="63"
+                                                             InnerSize="64"
+                                                             BorderSrc="@($"./img/Icons/Jobs/icon_job_border_{grade}.png")"
+                                                             InnerSrc="@($"./img/Icons/Jobs/icon_job_{(arisens?.jobId ?? 0)}.png")">
+                                            </CustomMudAvatar>
+                                        </MudTooltip>
+
+                                        <MudText Class="py-1" Align="Align.Center" Typo="Typo.subtitle2">
+                                            Level: @(arisens?.jobLevel ?? 0)
+                                        </MudText>
+                                    </MudItem>
                                 }
-                            </MudGrid>
-                        </MudItem>
-                    </MudGrid>
-                }
+                                else
+                                {
+                                    <MudItem Class="mx-auto">
+                                        <MudTooltip Placement="Placement.Top" Text="@tooltip">
+                                            <MudAvatar Size="Size.Large" Variant="Variant.Outlined">
+                                                <MudImage Src="@($"./img/Icons/Jobs/icon_job_{(arisens?.jobId ?? 0)}.png")" />
+                                            </MudAvatar>
+                                        </MudTooltip>
+
+                                        <MudText Class="py-3" Align="Align.Center" Typo="Typo.subtitle2">
+                                            Level: @(arisens?.jobLevel ?? 0)
+                                        </MudText>
+                                    </MudItem>
+                                }
+                            }
+                        </MudGrid>
+                    </MudItem>
+                </MudGrid>
             </MudTabPanel>
 
             <MudTabPanel Text="Currency">
@@ -102,11 +99,11 @@
                                 <MudText Typo="Typo.h5" Align="Align.Center">Consumables</MudText>
                                 <MudDivider />
                             </MudItem>
-                            @foreach (var item in listItemsJson.DistinctBy(x => x.ItemId).Where(x => x.Type == "consumable"))
+                            @foreach (var item in consumableItems)
                             {
                                 <MudItem>
-                                    <MudTooltip Text="@($"ID:{item.ItemId} - {item.Name} \n {item.Info}")">
-                                        <CustomMudAvatar BorderSize="56" BorderSrc="./img/Icons/icon_inventory_slot.png" InnerSize="54" InnerSrc="@($"./img/Icons/Items/ii{item.Icon.IconId.ToString("D6")}.png")" />
+                                    <MudTooltip Text="@($"ID:{item.ItemId} - {item.Name}")">
+                                        <CustomMudAvatar BorderSize="56" BorderSrc="./img/Icons/icon_inventory_slot.png" InnerSize="70" InnerSrc="@($"./img/Icons/Items/ii{item.Icon.IconId.ToString("D6")}.png")" />
                                     </MudTooltip>
                                 </MudItem>
                             }
@@ -118,11 +115,11 @@
                                 <MudText Typo="Typo.h5" Align="Align.Center">Equipment</MudText>
                                 <MudDivider />
                             </MudItem>
-                            @foreach (var item in listItemsJson.DistinctBy(x => x.ItemId).Where(x => x.Type == "equipment"))
+                            @foreach (var item in equipmentItems)
                             {
                                 <MudItem>
                                     <MudTooltip Text="@($"{item.ItemId} - {item.Name}")">
-                                        <CustomMudAvatar BorderSize="56" BorderSrc="./img/Icons/icon_inventory_slot.png" InnerSize="54" InnerSrc="@($"./img/Icons/Items/ii{item.Icon.IconId.ToString("D6")}.png")" />
+                                        <CustomMudAvatar BorderSize="56" BorderSrc="./img/Icons/icon_inventory_slot.png" InnerSize="70" InnerSrc="@($"./img/Icons/Items/ii{item.Icon.IconId.ToString("D6")}.png")" />
                                     </MudTooltip>
                                 </MudItem>
                             }
@@ -133,7 +130,7 @@
             </MudTabPanel>
         
             <MudTabPanel Text="Skills">
-                <MudGrid>
+                <MudGrid Class="my-auto mx-auto">
                     <MudItem Class="my-5 mx-auto" md="12">
                         <MudText Typo="Typo.h3" Align="Align.Center"> To Be Implemented</MudText>
                         <MudDivider />
@@ -142,7 +139,7 @@
             </MudTabPanel>
         
             <MudTabPanel Text="Pawns">
-                <MudGrid>
+                <MudGrid Class="my-auto mx-auto">
                     <MudItem Class="my-5 mx-auto" md="12">
                         <MudText Typo="Typo.h3" Align="Align.Center"> To Be Implemented</MudText>
                         <MudDivider />
@@ -153,8 +150,7 @@
     </DialogContent>
 
     <DialogActions>
-        <MudButton Class="pa-3" OnClick="Cancel" Color="Color.Default">Cancel</MudButton>
-        <MudButton Class="pa-3" OnClick="Confirm" Color="Color.Primary">Close</MudButton>
+        <MudButton Class="pa-3" OnClick="Cancel" Color="Color.Default">Close</MudButton>
     </DialogActions>
 </MudDialog>
 
@@ -167,12 +163,16 @@
     private List<vwCharactersJobData> listArisens = new();
     private List<WalletPoint> listWallets = new();
     private List<Item> listItems = new();
-    private List<ItemJson> listItemsJson = new();
+
+    private List<ItemJson> consumableItems = new();
+    private List<ItemJson> equipmentItems = new();
 
     protected override async Task OnInitializedAsync()
     {
         await LoadCharInfo(charId);
     }
+
+    private Dictionary<int, vwCharactersJobData> jobsById = new();
 
     Dictionary<int, string> _dicJobIds = new Dictionary<int, string>
     {
@@ -214,23 +214,52 @@
 
     private async Task LoadCharInfo(int charId)
     {
-        listArisens = await Pgsql.vw_characters_job_data.AsNoTracking().Where(x=> x.charId == charId).ToListAsync();
-        listWallets = await Pgsql.ddon_wallet_point.AsNoTracking().Where(x => x.charId == charId).ToListAsync();
-        listItems = await Pgsql.ddon_storage_item.AsNoTracking().Where(x => x.charId == charId).ToListAsync();
+        await using var db = await DbFactory.CreateDbContextAsync();
 
-        foreach (var id in listItems)
+        listArisens = await db.vw_characters_job_data
+            .AsNoTracking()
+            .Where(x => x.charId == charId)
+            .ToListAsync();
+
+        listWallets = await db.ddon_wallet_point
+            .AsNoTracking()
+            .Where(x => x.charId == charId)
+            .OrderBy(x => x.walletType)
+            .ToListAsync();
+
+        listItems = await db.ddon_storage_item
+            .AsNoTracking()
+            .Where(x => x.charId == charId)
+            .ToListAsync();
+
+        jobsById = listArisens
+            .GroupBy(x => x.jobId)
+            .ToDictionary(x => x.Key, x => x.First());
+
+        var uniqueItemIds = listItems
+            .Select(x => x.itemId)
+            .Distinct()
+            .ToList();
+
+        var itemJsonList = new List<ItemJson>();
+
+        foreach (var itemId in uniqueItemIds)
         {
-            var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "items", $"i{id.itemId:D8}.json");
-            if (!File.Exists(path))
-                continue;
+            var item = await ItemCatalog.GetItemAsync(itemId);
 
-            var json = await File.ReadAllTextAsync(path);
-            var item = JsonSerializer.Deserialize<ItemJson>(json);
-
-            if (item != null)
-                listItemsJson.Add(item);
+            if (item is not null)
+                itemJsonList.Add(item);
         }
-        
+
+        consumableItems = itemJsonList
+            .Where(x => x.Type == "consumable")
+            .OrderBy(x => x.ItemId)
+            .ToList();
+
+        equipmentItems = itemJsonList
+            .Where(x => x.Type == "equipment")
+            .OrderBy(x => x.ItemId)
+            .ToList();
     }
 
     void Confirm() => MudDialog.Close(DialogResult.Ok(true));

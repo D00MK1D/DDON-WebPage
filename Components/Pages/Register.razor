@@ -1,13 +1,10 @@
 ﻿@using DDON_WebPage.Components.Data
-@using System.Text.Json
-@using System.Net
-@using Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http
-@using System.Text
-@using System.ComponentModel.DataAnnotations
+@using Microsoft.EntityFrameworkCore
 @using static DDON_WebPage.Components.Data.Models
-@inject ISnackbar Snackbar
+
+@inject ServerApiClient ServerApi
 @inject NavigationManager NavigationManager
-@inject AppDbContext Pgsql
+@inject ISnackbar Snackbar
 
 @page "/Register"
 
@@ -77,6 +74,7 @@
     {
         _IsLoading();
 
+
         if (!string.IsNullOrWhiteSpace(registerModel.Name) &&
             !string.IsNullOrWhiteSpace(registerModel.Password) &&
             !string.IsNullOrWhiteSpace(registerModel.Email) &&
@@ -86,7 +84,7 @@
             {
                 try
                 {
-                    var response = await ServerApi.Operation(Pgsql, ServerApi.AccountAction.Register, registerModel.Name, registerModel.Password, "", registerModel.Email, "");
+                    var response = await ServerApi.OperationAsync(ServerApiClient.AccountAction.Register, account: registerModel.Name, password: registerModel.Password, email: registerModel.Email);
 
                     if (response != null && !string.IsNullOrEmpty(response.Error))
                     {

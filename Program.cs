@@ -15,8 +15,11 @@ builder.Services.AddMudServices();
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
-builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddDbContextFactory<AppDbContext>(options =>
+{
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"));
+    options.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
+});
 
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(options =>
@@ -24,6 +27,21 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
         options.LoginPath = "/login";
         options.AccessDeniedPath = "/";
     });
+
+builder.Services.AddHttpClient<ServerApiClient>((serviceProvider, client) =>
+{
+    var configuration = serviceProvider.GetRequiredService<IConfiguration>();
+
+    var baseUrl = configuration["ServerApi:BaseUrl"]
+        ?? throw new InvalidOperationException("ServerApi:BaseUrl is not configured.");
+
+    client.BaseAddress = new Uri(baseUrl);
+    client.DefaultRequestVersion = System.Net.HttpVersion.Version11;
+    client.Timeout = TimeSpan.FromSeconds(15);
+});
+
+builder.Services.AddMemoryCache();
+builder.Services.AddSingleton<ItemCatalogService>();
 
 builder.Services.AddMudServices(config =>
 {
