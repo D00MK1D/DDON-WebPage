@@ -66,16 +66,20 @@ builder.Services.AddHttpContextAccessor();
 
 var app = builder.Build();
 
-//app.UseBrowserLink();
+app.MapGet("/item-image/{fileName}", (string fileName, ItemCatalogService catalogService) =>
+{
+    var imageBytes = catalogService.GetItemImage(fileName);
+    if (imageBytes == null) return Results.NotFound();
+
+    return Results.File(imageBytes, "image/png");
+});
 
 app.UseAuthentication();
 app.UseAuthorization();
 
-// Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Error", createScopeForErrors: true);
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 

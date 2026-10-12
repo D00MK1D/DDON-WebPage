@@ -119,43 +119,67 @@
     </MudTabPanel>
 
     <MudTabPanel Text="Arisen">
-
-        @foreach (var charGroup in listArisens.Where(x => x.playerId == player.Id).GroupBy(x => x.charId))
+        @if (listArisens.Count() != 0)
         {
-            var arisen = charGroup.First();
-            var mainJob = charGroup.MaxBy(x => x.jobLevel);
+            foreach (var charGroup in listArisens.Where(x => x.playerId == player.Id).GroupBy(x => x.charId))
+            {
+                var arisen = charGroup.First();
+                var mainJob = charGroup.MaxBy(x => x.jobLevel);
 
-            <MudButton OnClick="@(()=> DialogCharInfo(arisen.charId))">
-                <MudCard Class="pa-2 my-4 mx-auto" Style="max-width: 300px;">
+                <MudButton OnClick="@(()=> DialogCharInfo(arisen.charId))">
+                    <MudCard Class="pa-2 my-4 mx-auto" Style="max-width: 300px;">
 
-                    <MudCardMedia Image="@($"./img/icons/Jobs/Heroes/hero_job_{mainJob.jobId}.png")" Height="320" />
+                        <MudCardMedia Image="@($"./img/icons/Jobs/Heroes/hero_job_{mainJob.jobId}.png")" Height="320" />
 
-                    <MudCardContent Class="d-flex">
+                        <MudCardContent Class="d-flex">
 
-                        <MudTooltip Placement="Placement.Top" Text="@_dicJobIds[mainJob.jobId]">
-                            <MudAvatar Size="Size.Large" Variant="Variant.Outlined">
-                                <MudImage Src="@($"./img/icons/Jobs/icon_job_{mainJob.jobId}.png")" />
-                            </MudAvatar>
-                        </MudTooltip>
+                            <MudTooltip Placement="Placement.Top" Text="@_dicJobIds[mainJob.jobId]">
+                                <MudAvatar Size="Size.Large" Variant="Variant.Outlined">
+                                    <MudImage Src="@($"./img/icons/Jobs/icon_job_{mainJob.jobId}.png")" />
+                                </MudAvatar>
+                            </MudTooltip>
 
-                        <div class="mx-3">
-                            <MudText Typo="Typo.body1">
-                                @arisen.charFirstName @arisen.charLastName
-                            </MudText>
+                            <div class="mx-3">
+                                <MudText Typo="Typo.body1">
+                                    @arisen.charFirstName @arisen.charLastName
+                                </MudText>
 
-                            <MudText Typo="Typo.body2">
-                                Main Job: @_dicJobIds[mainJob.jobId] <br />
-                                Level: @mainJob.jobLevel
-                            </MudText>
-                        </div>
+                                <MudText Typo="Typo.body2">
+                                    Main Job: @_dicJobIds[mainJob.jobId] <br />
+                                    Level: @mainJob.jobLevel
+                                </MudText>
+                            </div>
 
-                    </MudCardContent>
+                        </MudCardContent>
 
-                    <MudCardActions>
-                    </MudCardActions>
+                        <MudCardActions>
+                        </MudCardActions>
 
-                </MudCard>
-            </MudButton>
+                    </MudCard>
+                </MudButton>
+
+            }
+        }
+        else
+        {
+            <MudPaper Class="pa-6 my-4 mx-auto" Style="max-width:800px;">
+                <MudGrid>
+                    <MudItem Class="mx-auto">
+                        <MudText Color="Color.Primary" Typo="Typo.h3"> No Arisens have been found </MudText>
+                    </MudItem>
+                        <br />
+                    <MudItem Class="mx-auto">
+                        <MudText Color="Color.Primary" Typo="Typo.h5"> Log in the game and begin your journey! </MudText>
+                    </MudItem>
+                </MudGrid>
+                    <br />
+                <MudGrid>
+                    <MudItem Class="mx-auto">
+                        <MudImage Src="./img/Icons/icon_arisen.png" />
+                        <MudImage Src="./img/Icons/icon_pawn.png" />
+                    </MudItem>
+                </MudGrid>
+            </MudPaper>
         }
 
     </MudTabPanel>
