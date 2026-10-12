@@ -1,43 +1,44 @@
 ﻿using DDON_WebPage.Components.Data;
-using Microsoft.Extensions.Caching.Memory;
+using System.IO.Compression;
 using System.Text.Json;
+using System.Collections.Concurrent;
 
 public sealed class ItemCatalogService
 {
+    private readonly ConcurrentDictionary<int, ItemJson> _itemsCache = new();
     private readonly IWebHostEnvironment _env;
-    private readonly IMemoryCache _cache;
 
-    public ItemCatalogService(IWebHostEnvironment env, IMemoryCache cache)
+    public ItemCatalogService(IWebHostEnvironment env)
     {
         _env = env;
-        _cache = cache;
+        LoadAllItemsIntoMemory();
     }
 
-    public async Task<ItemJson?> GetItemAsync(int itemId)
+    private void LoadAllItemsIntoMemory()
     {
-        var cacheKey = $"item-json-{itemId}";
+        var zipFilePath = Path.Combine(_env.WebRootPath, "items.zip");
+        if (!File.Exists(zipFilePath)) return;
 
-        if (_cache.TryGetValue(cacheKey, out ItemJson? cachedItem))
-            return cachedItem;
-
-        var path = Path.Combine(_env.WebRootPath, "items", $"i{itemId:D8}.json");
-
-        if (!File.Exists(path))
-            return null;
-
-        await using var stream = File.OpenRead(path);
-
-        var item = await JsonSerializer.DeserializeAsync<ItemJson>(stream);
-
-        if (item is not null)
+        using var archive = ZipFile.OpenRead(zipFilePath);
+        foreach (var entry in archive.Entries)
         {
-            _cache.Set(cacheKey, item, new MemoryCacheEntryOptions
-            {
-                SlidingExpiration = TimeSpan.FromHours(6),
-                AbsoluteExpirationRelativeToNow = TimeSpan.FromDays(1)
-            });
-        }
+            if (string.IsNullOrEmpty(entry.Name)) continue;
 
-        return item;
+            if (entry.Name.Length >= 13 && int.TryParse(entry.Name.AsSpan(1, 8), out int itemId))
+            {
+                using var stream = entry.Open();
+                var item = JsonSerializer.Deserialize<ItemJson>(stream);
+                if (item != null)
+                {
+                    _itemsCache[itemId] = item;
+                }
+            }
+        }
+    }
+
+    public Task<ItemJson?> GetItemAsync(int itemId)
+    {
+        _itemsCache.TryGetValue(itemId, out var item);
+        return Task.FromResult(item);
     }
 }
